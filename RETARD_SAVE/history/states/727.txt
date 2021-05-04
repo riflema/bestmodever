@@ -1,0 +1,32 @@
+
+state={
+	id=727
+	name="STATE_727"
+	resources={
+		aluminium=2.000
+		rubber=6.000
+		steel=2.000
+	}
+
+	history={
+		owner = X76
+		victory_points = {
+			5153 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = BRA
+	}
+
+	provinces={
+		5153 5204 10984 
+	}
+	manpower=945532
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

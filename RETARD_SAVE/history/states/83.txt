@@ -1,0 +1,34 @@
+
+state={
+	id=83
+	name="STATE_83"
+	resources={
+		chromium=4.000
+		oil=0.000
+		steel=0.000
+		tungsten=43.000
+	}
+
+	history={
+		owner = X04
+		victory_points = {
+			5033 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X04
+		add_claim_by = TIB
+	}
+
+	provinces={
+		1116 1996 2098 4407 5018 5033 5080 5102 7926 8041 8059 10741 10810 10856 10918 12730 
+	}
+	manpower=413392
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

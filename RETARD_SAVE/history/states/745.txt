@@ -1,0 +1,31 @@
+
+state={
+	id=745
+	name="STATE_745"
+	resources={
+		aluminium=2.000
+	}
+
+	history={
+		owner = X78
+		victory_points = {
+			3897 3 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			arms_factory = 2
+			air_base = 2
+
+		}
+		add_core_of = USA
+		add_core_of = X78
+	}
+
+	provinces={
+		891 894 3897 9820 11799 
+	}
+	manpower=2514880
+	buildings_max_level_factor=1.000
+	state_category=city
+}

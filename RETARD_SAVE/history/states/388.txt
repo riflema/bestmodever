@@ -1,0 +1,30 @@
+
+state={
+	id=388
+	name="STATE_388"
+	resources={
+		steel=2.000
+	}
+
+	history={
+		owner = X44
+		victory_points = {
+			9453 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = X44
+	}
+
+	provinces={
+		432 464 468 470 477 508 545 554 576 615 642 1290 1318 3459 3467 3502 3515 3538 3563 3618 3622 4351 6491 6498 6514 6523 6525 6551 6564 6588 6615 7322 9453 9462 9469 9513 9526 9538 11442 11455 11457 11469 11472 11473 11482 11510 11524 11552 11578 11591 
+	}
+	manpower=861756
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

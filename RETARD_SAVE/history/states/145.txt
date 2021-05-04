@@ -1,0 +1,31 @@
+
+state={
+	id=145
+	name="STATE_145"
+	resources={
+		rubber=0.000
+		steel=1.000
+		tungsten=1.000
+	}
+
+	history={
+		owner = X19
+		victory_points = {
+			4616 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		4616 7662 10443 
+	}
+	manpower=252808
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

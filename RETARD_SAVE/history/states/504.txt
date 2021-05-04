@@ -1,0 +1,38 @@
+
+state={
+	id=504
+	name="STATE_504"
+	resources={
+		oil=0.000
+		steel=49.000
+	}
+
+	history={
+		owner = DDR
+		victory_points = {
+			6598 10 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 5
+			arms_factory = 1
+			dockyard = 1
+			6446 = {
+				naval_base = 8
+			}
+			air_base = 10
+
+		}
+		add_core_of = FLA
+		add_core_of = X12
+		add_claim_by = BEL
+		add_claim_by = DDR
+	}
+
+	provinces={
+		480 516 3576 6446 6560 6598 9574 11419 13068 
+	}
+	manpower=6187472
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

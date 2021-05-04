@@ -1,0 +1,31 @@
+
+state={
+	id=369
+	name="STATE_369"
+	resources={
+		aluminium=2.000
+		steel=2.000
+	}
+
+	history={
+		owner = X40
+		victory_points = {
+			7459 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X40
+	}
+
+	provinces={
+		1004 1139 1603 4114 4144 4158 4519 4547 4606 6932 7074 7459 7508 7540 7568 7656 9937 9958 10364 10434 10446 11931 12012 12426 
+	}
+	manpower=3839520
+	buildings_max_level_factor=1.000
+	state_category=city
+}

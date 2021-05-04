@@ -1,0 +1,30 @@
+
+state={
+	id=484
+	name="STATE_484"
+	resources={
+		oil=1.000
+	}
+
+	history={
+		owner = DDR
+		victory_points = {
+			11445 7 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 9
+			arms_factory = 3
+			air_base = 4
+
+		}
+		add_core_of = DDR
+	}
+
+	provinces={
+		526 564 6513 6549 9375 9524 11402 11445 11468 11493 
+	}
+	manpower=5888236
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

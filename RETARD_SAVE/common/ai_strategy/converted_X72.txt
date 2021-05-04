@@ -1,0 +1,156 @@
+﻿converted_war_strategies_X72 = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "ITA"
+		value = 60
+	}
+	ai_strategy = {
+		type = conquer
+		id = "TUR"
+		value = 56
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X57"
+		value = 49
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ADU"
+		value = 26
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ENG"
+		value = 9
+	}
+}
+
+converted_diplo_strategies_X72 = {
+	enable = {
+		tag = X72
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "ITA"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "X57"
+		value = 104
+	}
+	ai_strategy = {
+		type = contain
+		id = "ADU"
+		value = 54
+	}
+	ai_strategy = {
+		type = contain
+		id = "TOG"
+		value = 20
+	}
+	ai_strategy = {
+		type = contain
+		id = "GAB"
+		value = 16
+	}
+	ai_strategy = {
+		type = contain
+		id = "CHA"
+		value = 12
+	}
+	ai_strategy = {
+		type = contain
+		id = "DAH"
+		value = 4
+	}
+	ai_strategy = {
+		type = contain
+		id = "IVO"
+		value = 4
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X57"
+		value = 180
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ITA"
+		value = 20
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "TUR"
+		value = 19
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ADU"
+		value = 9
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ENG"
+		value = 3
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ADU"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "DDR"
+		value = 150
+	}
+	ai_strategy = {
+		type = alliance
+		id = "TUR"
+		value = 148
+	}
+	ai_strategy = {
+		type = protect
+		id = "DAH"
+		value = 120
+	}
+	ai_strategy = {
+		type = protect
+		id = "TOG"
+		value = 120
+	}
+	ai_strategy = {
+		type = protect
+		id = "COG"
+		value = 5
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X67"
+		value = 83
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "EST"
+		value = 65
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "ARG"
+		value = 63
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X32"
+		value = 52
+	}
+}

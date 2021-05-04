@@ -1,0 +1,36 @@
+
+state={
+	id=747
+	name="STATE_747"
+	resources={
+		aluminium=3.000
+		steel=20.000
+	}
+
+	history={
+		owner = X78
+		victory_points = {
+			3878 7 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 8
+			arms_factory = 2
+			dockyard = 2
+			859 = {
+				naval_base = 8
+			}
+			air_base = 3
+
+		}
+		add_core_of = USA
+		add_core_of = X78
+	}
+
+	provinces={
+		598 706 859 1436 3602 3702 3733 3747 3806 3878 3894 6717 6778 6795 6911 6916 9673 9693 9708 9721 9774 11650 11660 11665 11680 
+	}
+	manpower=14763748
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

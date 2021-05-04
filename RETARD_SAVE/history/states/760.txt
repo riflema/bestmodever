@@ -1,0 +1,28 @@
+
+state={
+	id=760
+	name="STATE_760"
+
+	history={
+		owner = X80
+		victory_points = {
+			12553 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = X80
+		add_claim_by = USA
+	}
+
+	provinces={
+		1414 4347 4826 7721 7865 10305 10625 12183 12553 
+	}
+	manpower=1120364
+	buildings_max_level_factor=1.000
+	state_category=town
+}

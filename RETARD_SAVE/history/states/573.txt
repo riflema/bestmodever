@@ -1,0 +1,27 @@
+
+state={
+	id=573
+	name="STATE_573"
+
+	history={
+		owner = X64
+		victory_points = {
+			1898 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X64
+	}
+
+	provinces={
+		1898 3989 7064 7334 9973 
+	}
+	manpower=739760
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

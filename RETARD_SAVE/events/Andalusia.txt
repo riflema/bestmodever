@@ -1,0 +1,44 @@
+add_namespace = andalusia
+
+news_event = {
+	id = andalusia.1
+	title = andalusia.1.t
+	desc = andalusia.1.d
+	picture = GFX_news_event_generic_funeral
+
+	major = yes
+
+	is_triggered_only = yes
+
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		name = andalusia.1.a
+		trigger = {
+			NOT = {
+				TAG = ADU
+			}
+		}
+	}
+
+	option = {
+		name = andalusia.1.b
+		trigger = { TAG = ADU }
+		hidden_effect = {
+			kill_ideology_leader = communism
+			create_country_leader = {
+				name = "Bancisco Banco"
+				desc = "POLITICS_BANCISCO_BANCO_DESC"
+				picture = "Portrait_ADU_Bancisco_Banco.dds"
+				expire = "1965.1.1"
+				ideology = stalinism
+				traits = {
+					popular_figurehead2
+					great_survivor
+				}
+			}
+		}
+	}
+}

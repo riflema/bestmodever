@@ -1,0 +1,91 @@
+﻿converted_war_strategies_UGA = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "ADU"
+		value = 172
+	}
+	ai_strategy = {
+		type = conquer
+		id = "TUR"
+		value = 98
+	}
+	ai_strategy = {
+		type = conquer
+		id = "TZN"
+		value = 50
+	}
+	ai_strategy = {
+		type = conquer
+		id = "EGY"
+		value = 45
+	}
+	ai_strategy = {
+		type = conquer
+		id = "RWA"
+		value = 40
+	}
+	ai_strategy = {
+		type = conquer
+		id = "CHA"
+		value = 6
+	}
+}
+
+converted_diplo_strategies_UGA = {
+	enable = {
+		tag = UGA
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "ITA"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "ADU"
+		value = 82
+	}
+	ai_strategy = {
+		type = contain
+		id = "TZN"
+		value = 67
+	}
+	ai_strategy = {
+		type = contain
+		id = "RWA"
+		value = 52
+	}
+	ai_strategy = {
+		type = contain
+		id = "TUR"
+		value = 30
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ADU"
+		value = 254
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "TUR"
+		value = 194
+	}
+	ai_strategy = {
+		type = alliance
+		id = "DDR"
+		value = 45
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X06"
+		value = 24
+	}
+}

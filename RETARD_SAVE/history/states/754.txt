@@ -1,0 +1,36 @@
+
+state={
+	id=754
+	name="STATE_754"
+	resources={
+		aluminium=22.000
+		oil=126.000
+		steel=28.000
+	}
+
+	history={
+		owner = X79
+		victory_points = {
+			4526 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			1944 = {
+				naval_base = 10
+			}
+			air_base = 5
+
+		}
+		add_core_of = X79
+		add_claim_by = VEN
+	}
+
+	provinces={
+		1944 1997 2052 4526 5088 10855 12772 
+	}
+	manpower=2832988
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

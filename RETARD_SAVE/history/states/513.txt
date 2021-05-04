@@ -1,0 +1,33 @@
+
+state={
+	id=513
+	name="STATE_513"
+	resources={
+		aluminium=8.000
+		steel=30.000
+	}
+
+	history={
+		owner = DDR
+		victory_points = {
+			11606 0 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_claim_by = BEL
+		add_claim_by = DDR
+		add_claim_by = WLL
+	}
+
+	provinces={
+		551 3402 3447 3506 6545 9472 9490 11549 11606 11732 13011 
+	}
+	manpower=2140300
+	buildings_max_level_factor=1.000
+	state_category=town
+}

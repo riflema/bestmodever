@@ -1,0 +1,30 @@
+
+state={
+	id=227
+	name="STATE_227"
+
+	history={
+		owner = HAI
+		victory_points = {
+			10440 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			10440 = {
+				naval_base = 1
+			}
+			air_base = 0
+
+		}
+		add_core_of = HAI
+	}
+
+	provinces={
+		10440 
+	}
+	manpower=708660
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

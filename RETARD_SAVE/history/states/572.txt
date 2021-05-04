@@ -1,0 +1,35 @@
+
+state={
+	id=572
+	name="STATE_572"
+	resources={
+		aluminium=2.000
+		rubber=1.000
+		steel=1.000
+	}
+
+	history={
+		owner = TOG
+		victory_points = {
+			1951 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			1951 = {
+				naval_base = 2
+			}
+			air_base = 5
+
+		}
+		add_claim_by = TOG
+	}
+
+	provinces={
+		1951 
+	}
+	manpower=50428
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

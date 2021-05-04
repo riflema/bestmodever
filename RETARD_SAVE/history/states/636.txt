@@ -1,0 +1,30 @@
+
+state={
+	id=636
+	name="STATE_636"
+	resources={
+		oil=15.000
+		steel=1.000
+	}
+
+	history={
+		owner = TUR
+		victory_points = {
+			11674 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		1539 11674 
+	}
+	manpower=258440
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

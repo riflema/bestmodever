@@ -1,0 +1,36 @@
+
+state={
+	id=753
+	name="STATE_753"
+	resources={
+		oil=6.000
+		steel=1.000
+	}
+
+	history={
+		owner = X79
+		victory_points = {
+			1937 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			1937 = {
+				naval_base = 10
+			}
+			air_base = 0
+
+		}
+		add_core_of = X79
+		add_claim_by = PAN
+	}
+
+	provinces={
+		1937 2085 8056 
+	}
+	manpower=1275904
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

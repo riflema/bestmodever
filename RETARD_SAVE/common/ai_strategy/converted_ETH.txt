@@ -1,0 +1,101 @@
+﻿converted_war_strategies_ETH = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "ADU"
+		value = 1123
+	}
+	ai_strategy = {
+		type = conquer
+		id = "EGY"
+		value = 714
+	}
+	ai_strategy = {
+		type = conquer
+		id = "TUR"
+		value = 470
+	}
+	ai_strategy = {
+		type = conquer
+		id = "CHA"
+		value = 6
+	}
+}
+
+converted_diplo_strategies_ETH = {
+	enable = {
+		tag = ETH
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "ITA"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "ADU"
+		value = 237
+	}
+	ai_strategy = {
+		type = contain
+		id = "TUR"
+		value = 26
+	}
+	ai_strategy = {
+		type = contain
+		id = "EGY"
+		value = 17
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "TUR"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ADU"
+		value = 187
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X57"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ENG"
+		value = 47
+	}
+	ai_strategy = {
+		type = alliance
+		id = "FRA"
+		value = 2
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X10"
+		value = 116
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X26"
+		value = 51
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "TIB"
+		value = 51
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X03"
+		value = 41
+	}
+}

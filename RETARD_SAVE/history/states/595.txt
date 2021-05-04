@@ -1,0 +1,33 @@
+
+state={
+	id=595
+	name="STATE_595"
+	resources={
+		aluminium=11.000
+		chromium=6.000
+		steel=1.000
+	}
+
+	history={
+		owner = TUR
+		victory_points = {
+			3696 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_claim_by = HUN
+		add_claim_by = ROM
+	}
+
+	provinces={
+		646 662 696 713 746 3649 3696 6682 6697 9606 9640 9687 11592 11608 
+	}
+	manpower=874952
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

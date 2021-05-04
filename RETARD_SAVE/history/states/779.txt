@@ -1,0 +1,36 @@
+
+state={
+	id=779
+	name="STATE_779"
+	resources={
+		aluminium=8.000
+		chromium=5.000
+		oil=3.000
+		steel=11.000
+	}
+
+	history={
+		owner = X83
+		victory_points = {
+			7798 2 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 0
+			7798 = {
+				naval_base = 8
+			}
+			air_base = 0
+
+		}
+		add_core_of = X83
+	}
+
+	provinces={
+		1759 2130 2155 2183 2189 4776 4791 5181 5187 7755 7798 7811 10553 10581 10622 10637 10665 12576 12645 12932 
+	}
+	manpower=1438792
+	buildings_max_level_factor=1.000
+	state_category=town
+}

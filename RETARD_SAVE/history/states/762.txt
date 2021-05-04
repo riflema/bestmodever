@@ -1,0 +1,31 @@
+
+state={
+	id=762
+	name="STATE_762"
+	resources={
+		aluminium=1.000
+	}
+
+	history={
+		owner = X81
+		victory_points = {
+			9585 1 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = CAN
+		add_core_of = X81
+	}
+
+	provinces={
+		779 6607 6610 9585 9743 
+	}
+	manpower=1436160
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

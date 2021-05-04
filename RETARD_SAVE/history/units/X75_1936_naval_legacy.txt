@@ -1,0 +1,48 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 4450
+		task_force = {
+			name = "2nd Fleet"
+			location = 4450
+			ship = { name = "19th Antigua Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X75 } } }
+			ship = { name = "7th Antigua Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X75 } } }
+			ship = { name = "1st Antigua Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X75 } } }
+			ship = { name = "2nd Antigua Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X75 } } }
+			ship = { name = "8th Antigua Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X75 } } }
+			ship = { name = "9th Antigua Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X75 } } }
+			ship = { name = "10th Antigua Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X75 } } }
+			ship = { name = "17th Antigua Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X75 } } }
+			ship = { name = "18th Antigua Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X75 } } }
+			ship = { name = "3rd Antigua Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X75 } } }
+			ship = { name = "15th Antigua Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X75 } } }
+			ship = { name = "13th Antigua Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X75 } } }
+			ship = { name = "4th Antigua Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X75 } } }
+			ship = { name = "5th Antigua Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X75 } } }
+			ship = { name = "16th Antigua Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X75 } } }
+			ship = { name = "14th Antigua Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X75 } } }
+			ship = { name = "6th Antigua Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X75 } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "X75"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "X75"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

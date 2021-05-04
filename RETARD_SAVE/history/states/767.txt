@@ -1,0 +1,31 @@
+
+state={
+	id=767
+	name="STATE_767"
+	resources={
+		steel=178.000
+	}
+
+	history={
+		owner = X81
+		victory_points = {
+			1866 4 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 5
+			arms_factory = 2
+			air_base = 2
+
+		}
+		add_core_of = X81
+		add_claim_by = USA
+	}
+
+	provinces={
+		1719 1734 1866 1867 4664 4807 6752 6767 6827 7536 7896 9880 10719 12550 12577 12588 12693 
+	}
+	manpower=4335832
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

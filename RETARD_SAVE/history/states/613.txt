@@ -1,0 +1,35 @@
+
+state={
+	id=613
+	name="STATE_613"
+	resources={
+		chromium=10.000
+	}
+
+	history={
+		owner = TUR
+		victory_points = {
+			6550 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			6550 = {
+				naval_base = 2
+			}
+			air_base = 5
+
+		}
+		add_core_of = GRE
+		add_core_of = X15
+		add_core_of = X53
+	}
+
+	provinces={
+		3401 6550 7003 8435 10007 
+	}
+	manpower=1298252
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,31 @@
+
+state={
+	id=387
+	name="STATE_387"
+
+	history={
+		owner = X43
+		victory_points = {
+			4720 15 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 1
+			4720 = {
+				naval_base = 6
+			}
+			air_base = 5
+
+		}
+		add_core_of = X43
+		add_claim_by = CAN
+	}
+
+	provinces={
+		1426 1785 4720 4787 7758 7788 12503 12505 12680 12698 
+	}
+	manpower=2457238
+	buildings_max_level_factor=1.000
+	state_category=city
+}

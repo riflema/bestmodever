@@ -1,0 +1,80 @@
+﻿capital = 614
+set_research_slots = 3
+
+oob = "ALB_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "ALB_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "ALB_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+# Research Bonuses
+set_convoys = 0
+
+
+set_politics = {
+    ruling_party = absolutist
+    last_election = "1821.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	absolutist = 73
+	democratic = 25
+	neutrality = 2
+}
+
+add_opinion_modifier = { target = BAS modifier = positive_20 }
+add_opinion_modifier = { target = BOS modifier = positive_15 }
+add_opinion_modifier = { target = CAN modifier = positive_20 }
+add_opinion_modifier = { target = HON modifier = positive_20 }
+add_opinion_modifier = { target = KAZ modifier = positive_20 }
+add_opinion_modifier = { target = MAL modifier = positive_30 }
+add_opinion_modifier = { target = MEX modifier = negative_10 }
+add_opinion_modifier = { target = PAN modifier = negative_10 }
+add_opinion_modifier = { target = PRU modifier = negative_10 }
+add_opinion_modifier = { target = SCA modifier = negative_10 }
+add_opinion_modifier = { target = USA modifier = negative_10 }
+add_opinion_modifier = { target = VEN modifier = negative_30 }
+add_opinion_modifier = { target = X18 modifier = positive_30 }
+add_opinion_modifier = { target = X37 modifier = negative_30 }
+add_opinion_modifier = { target = X43 modifier = negative_10 }
+add_opinion_modifier = { target = X57 modifier = negative_10 }
+add_opinion_modifier = { target = X61 modifier = positive_30 }
+add_opinion_modifier = { target = X73 modifier = negative_10 }
+add_opinion_modifier = { target = X76 modifier = negative_10 }
+add_opinion_modifier = { target = X78 modifier = negative_30 }
+add_opinion_modifier = { target = X79 modifier = positive_20 }
+add_opinion_modifier = { target = X80 modifier = negative_10 }
+add_opinion_modifier = { target = X81 modifier = positive_20 }
+add_opinion_modifier = { target = X82 modifier = negative_10 }
+add_opinion_modifier = { target = X83 modifier = negative_10 }
+
+
+
+add_ideas = {
+	volunteer_only
+	civilian_economy
+	export_focus
+	culture_albanian
+}
+create_country_leader = {
+	name = "Mustafa Bej"
+	desc = "POLITICS_MUSTAFA_BEJ_DESC"
+	picture = "gfx/leaders/BUL/Portrait_Bulgaria_Boris_III.dds"
+	expire = "1965.1.1"
+	ideology = absolute_monarchy
+	traits = {
+	}
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}

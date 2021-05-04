@@ -1,0 +1,16 @@
+﻿converted_war_strategies_PAL = {
+	enable = {
+		always = no
+	}
+	
+}
+
+converted_diplo_strategies_PAL = {
+	enable = {
+		tag = PAL
+	}
+	abort = {
+		always = no
+	}
+	
+}

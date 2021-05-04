@@ -1,0 +1,26 @@
+
+state={
+	id=454
+	name="STATE_454"
+
+	history={
+		owner = SOV
+		victory_points = {
+			1714 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		1714 4878 10641 10701 12623 
+	}
+	manpower=272688
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

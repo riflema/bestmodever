@@ -1,0 +1,31 @@
+
+state={
+	id=219
+	name="STATE_219"
+	resources={
+		chromium=1.000
+		steel=37.000
+	}
+
+	history={
+		owner = X25
+		victory_points = {
+			6338 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X25
+	}
+
+	provinces={
+		228 260 282 292 325 345 355 372 392 404 3197 3214 3251 3269 3282 3315 3328 3334 3361 3365 3394 6253 6294 6307 6312 6337 6338 6357 6374 9244 9259 9280 9305 9307 9336 9354 9373 9381 9401 9514 11243 11292 11339 11356 11373 11387 11496 
+	}
+	manpower=2354192
+	buildings_max_level_factor=1.000
+	state_category=town
+}

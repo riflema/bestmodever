@@ -1,0 +1,93 @@
+﻿capital = 516
+set_research_slots = 3
+
+oob = "POL_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "POL_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "POL_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+# Research Bonuses
+set_convoys = 0
+
+
+set_politics = {
+    ruling_party = radical
+    last_election = "1821.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	absolutist = 9
+	democratic = 64
+	neutrality = 2
+	radical = 25
+}
+
+add_opinion_modifier = { target = BAS modifier = negative_10 }
+add_opinion_modifier = { target = BOS modifier = positive_15 }
+add_opinion_modifier = { target = BRA modifier = positive_20 }
+add_opinion_modifier = { target = CAN modifier = negative_10 }
+add_opinion_modifier = { target = CHL modifier = positive_20 }
+add_opinion_modifier = { target = HON modifier = negative_10 }
+add_opinion_modifier = { target = JAP modifier = negative_10 }
+add_opinion_modifier = { target = KAZ modifier = negative_10 }
+add_opinion_modifier = { target = MAL modifier = negative_10 }
+add_opinion_modifier = { target = MAN modifier = negative_10 }
+add_opinion_modifier = { target = MEX modifier = positive_5 }
+add_opinion_modifier = { target = PAN modifier = positive_5 }
+add_opinion_modifier = { target = POR modifier = positive_20 }
+add_opinion_modifier = { target = PRU modifier = positive_5 }
+add_opinion_modifier = { target = SCA modifier = positive_15 }
+add_opinion_modifier = { target = TUR modifier = negative_10 }
+add_opinion_modifier = { target = USA modifier = positive_5 }
+add_opinion_modifier = { target = VEN modifier = negative_15 }
+add_opinion_modifier = { target = X04 modifier = negative_10 }
+add_opinion_modifier = { target = X16 modifier = positive_20 }
+add_opinion_modifier = { target = X18 modifier = negative_10 }
+add_opinion_modifier = { target = X40 modifier = negative_10 }
+add_opinion_modifier = { target = X43 modifier = positive_5 }
+add_opinion_modifier = { target = X57 modifier = positive_5 }
+add_opinion_modifier = { target = X59 modifier = negative_10 }
+add_opinion_modifier = { target = X61 modifier = negative_10 }
+add_opinion_modifier = { target = X62 modifier = negative_10 }
+add_opinion_modifier = { target = X67 modifier = negative_10 }
+add_opinion_modifier = { target = X73 modifier = positive_20 }
+add_opinion_modifier = { target = X76 modifier = positive_5 }
+add_opinion_modifier = { target = X77 modifier = negative_30 }
+add_opinion_modifier = { target = X78 modifier = negative_15 }
+add_opinion_modifier = { target = X79 modifier = negative_10 }
+add_opinion_modifier = { target = X80 modifier = positive_5 }
+add_opinion_modifier = { target = X81 modifier = negative_10 }
+add_opinion_modifier = { target = X82 modifier = positive_5 }
+add_opinion_modifier = { target = X83 modifier = positive_20 }
+
+
+
+add_ideas = {
+	volunteer_only
+	civilian_economy
+	free_trade
+	culture_polish
+}
+create_country_leader = {
+	name = "Roman Rózicky"
+	desc = "POLITICS_ROMAN_RóZICKY_DESC"
+	picture = "gfx/leaders/OC/Portrait_Poland_Josef_Pilsudski.dds"
+	expire = "1965.1.1"
+	ideology = minarchism
+	traits = {
+	}
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}

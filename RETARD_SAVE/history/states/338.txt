@@ -1,0 +1,30 @@
+
+state={
+	id=338
+	name="STATE_338"
+
+	history={
+		owner = MEX
+		victory_points = {
+			12753 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			12753 = {
+				naval_base = 8
+			}
+			air_base = 0
+
+		}
+		add_claim_by = MEX
+	}
+
+	provinces={
+		1900 12753 
+	}
+	manpower=1132396
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,31 @@
+
+state={
+	id=726
+	name="STATE_726"
+	resources={
+		tungsten=2.000
+	}
+
+	history={
+		owner = X76
+		victory_points = {
+			5200 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X76
+		add_claim_by = BRA
+	}
+
+	provinces={
+		2111 2181 2204 5115 5148 5200 5208 8140 8189 8224 10959 12951 12959 12987 
+	}
+	manpower=2795120
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

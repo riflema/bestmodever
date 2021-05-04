@@ -1,0 +1,34 @@
+
+state={
+	id=11
+	name="STATE_11"
+	resources={
+		tungsten=43.000
+	}
+
+	history={
+		owner = ADU
+		victory_points = {
+			11805 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			11805 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+		add_core_of = ADU
+		add_claim_by = POR
+	}
+
+	provinces={
+		844 924 970 11768 11805 
+	}
+	manpower=1543760
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

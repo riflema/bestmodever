@@ -1,0 +1,29 @@
+
+state={
+	id=328
+	name="STATE_328"
+
+	history={
+		owner = MAN
+		victory_points = {
+			12551 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			12551 = {
+				naval_base = 2
+			}
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		12551 
+	}
+	manpower=83984
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

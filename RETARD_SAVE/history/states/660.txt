@@ -1,0 +1,32 @@
+
+state={
+	id=660
+	name="STATE_660"
+	resources={
+		aluminium=0.000
+		rubber=0.000
+		steel=0.000
+	}
+
+	history={
+		owner = TUR
+		victory_points = {
+			9137 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = CMR
+	}
+
+	provinces={
+		7963 7978 9137 11194 
+	}
+	manpower=1017220
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

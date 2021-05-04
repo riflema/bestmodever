@@ -1,0 +1,29 @@
+
+state={
+	id=601
+	name="STATE_601"
+
+	history={
+		owner = TUR
+		victory_points = {
+			11580 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_claim_by = HUN
+		add_claim_by = SER
+		add_claim_by = YUG
+	}
+
+	provinces={
+		614 619 3614 3617 3623 6643 9621 11580 11787 
+	}
+	manpower=556096
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

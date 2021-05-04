@@ -1,0 +1,35 @@
+
+state={
+	id=491
+	name="STATE_491"
+	resources={
+		steel=8.000
+	}
+
+	history={
+		owner = DDR
+		victory_points = {
+			299 1 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 0
+			9279 = {
+				naval_base = 10
+			}
+			air_base = 0
+
+		}
+		add_core_of = SCA
+		add_claim_by = DDR
+		add_claim_by = DEN
+	}
+
+	provinces={
+		211 242 299 329 363 3229 3307 6120 6148 6345 6412 9251 9279 9300 9329 9362 9406 9410 11160 11215 11231 11280 11311 11327 11376 11390 
+	}
+	manpower=3099756
+	buildings_max_level_factor=1.000
+	state_category=city
+}

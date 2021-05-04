@@ -1,0 +1,35 @@
+
+state={
+	id=309
+	name="STATE_309"
+	resources={
+		aluminium=62.000
+		oil=368.000
+	}
+
+	history={
+		owner = X37
+		victory_points = {
+			10337 3 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			10337 = {
+				naval_base = 8
+			}
+			air_base = 1
+
+		}
+		add_claim_by = USA
+	}
+
+	provinces={
+		805 1500 1927 2019 2042 2082 3960 4577 4884 5001 5022 5061 5085 6785 6798 6968 6987 7628 7836 7981 9829 9920 10337 10504 10778 10861 12341 12369 12410 12486 12782 
+	}
+	manpower=10057808
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=129
+	name="STATE_129"
+
+	history={
+		owner = BAS
+		victory_points = {
+			9377 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 0
+			1440 = {
+				naval_base = 4
+			}
+			air_base = 5
+
+		}
+		add_core_of = BAS
+	}
+
+	provinces={
+		1440 9377 
+	}
+	manpower=1524500
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

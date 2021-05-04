@@ -1,0 +1,60 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 1944
+		task_force = {
+			name = "2nd Fleet"
+			location = 1944
+			ship = { name = "18th Barranquilla Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X79 } } }
+			ship = { name = "7th Maracaibo Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X79 } } }
+			ship = { name = "12th Barranquilla Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X79 } } }
+			ship = { name = "9th Maracaibo Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X79 } } }
+			ship = { name = "3rd Maracaibo Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X79 } } }
+			ship = { name = "4th Barranquilla Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X79 } } }
+			ship = { name = "1st Maracaibo Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X79 } } }
+			ship = { name = "2nd Barranquilla Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X79 } } }
+			ship = { name = "8th Barranquilla Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X79 } } }
+			ship = { name = "9th Barranquilla Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X79 } } }
+			ship = { name = "13th Barranquilla Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X79 } } }
+			ship = { name = "10th Maracaibo Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X79 } } }
+			ship = { name = "14th Barranquilla Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X79 } } }
+			ship = { name = "11th Maracaibo Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X79 } } }
+			ship = { name = "15th Barranquilla Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X79 } } }
+			ship = { name = "16th Barranquilla Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X79 } } }
+			ship = { name = "12th Maracaibo Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X79 } } }
+			ship = { name = "17th Barranquilla Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X79 } } }
+			ship = { name = "13th Maracaibo Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X79 } } }
+			ship = { name = "19th Barranquilla Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X79 } } }
+			ship = { name = "14th Maracaibo Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X79 } } }
+			ship = { name = "20th Barranquilla Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X79 } } }
+			ship = { name = "15th Maracaibo Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X79 } } }
+			ship = { name = "21st Barranquilla Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X79 } } }
+			ship = { name = "22nd Barranquilla Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X79 } } }
+			ship = { name = "23rd Barranquilla Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X79 } } }
+			ship = { name = "24th Barranquilla Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X79 } } }
+			ship = { name = "25th Barranquilla Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X79 } } }
+			ship = { name = "26th Barranquilla Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X79 } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "X79"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "X79"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

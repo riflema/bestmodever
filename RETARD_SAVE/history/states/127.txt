@@ -1,0 +1,33 @@
+
+state={
+	id=127
+	name="STATE_127"
+	resources={
+		aluminium=9.000
+	}
+
+	history={
+		owner = BAS
+		victory_points = {
+			1513 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 1
+			1513 = {
+				naval_base = 1
+			}
+			air_base = 0
+
+		}
+		add_core_of = BAS
+	}
+
+	provinces={
+		1513 12304 
+	}
+	manpower=3162531
+	buildings_max_level_factor=1.000
+	state_category=city
+}

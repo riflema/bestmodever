@@ -1,0 +1,31 @@
+
+state={
+	id=165
+	name="STATE_165"
+
+	history={
+		owner = ENG
+		victory_points = {
+			13010 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			13010 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+		add_core_of = ENG
+	}
+
+	provinces={
+		13010 
+	}
+	manpower=621372
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

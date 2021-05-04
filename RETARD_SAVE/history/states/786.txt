@@ -1,0 +1,31 @@
+
+state={
+	id=786
+	name="STATE_786"
+
+	history={
+		owner = X84
+		victory_points = {
+			12715 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			12715 = {
+				naval_base = 4
+			}
+			air_base = 5
+
+		}
+		add_core_of = X84
+		add_claim_by = MEX
+	}
+
+	provinces={
+		12715 
+	}
+	manpower=1089440
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

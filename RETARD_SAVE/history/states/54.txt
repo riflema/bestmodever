@@ -1,0 +1,31 @@
+
+state={
+	id=54
+	name="STATE_54"
+	resources={
+		rubber=2.000
+		tungsten=0.000
+	}
+
+	history={
+		owner = ADU
+		victory_points = {
+			12896 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_claim_by = COG
+	}
+
+	provinces={
+		10025 12896 12945 
+	}
+	manpower=165492
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

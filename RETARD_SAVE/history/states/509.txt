@@ -1,0 +1,32 @@
+
+state={
+	id=509
+	name="STATE_509"
+
+	history={
+		owner = DDR
+		victory_points = {
+			3151 0 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			3151 = {
+				naval_base = 6
+			}
+			air_base = 0
+
+		}
+		add_core_of = SOV
+		add_claim_by = DDR
+		add_claim_by = SCA
+	}
+
+	provinces={
+		79 95 104 126 149 181 415 3053 3120 3151 3310 3333 6139 6174 6197 6242 6324 9097 9098 9120 9254 9353 9408 11032 11080 11097 11139 11186 11202 11259 11392 
+	}
+	manpower=2174856
+	buildings_max_level_factor=1.000
+	state_category=town
+}

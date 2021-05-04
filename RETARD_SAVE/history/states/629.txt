@@ -1,0 +1,36 @@
+
+state={
+	id=629
+	name="STATE_629"
+	resources={
+		oil=5.000
+		steel=41.000
+	}
+
+	history={
+		owner = TUR
+		victory_points = {
+			11437 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			6420 = {
+				naval_base = 2
+			}
+			air_base = 0
+
+		}
+		add_claim_by = UKR
+		add_claim_by = X16
+		add_claim_by = X25
+	}
+
+	provinces={
+		418 453 486 502 523 547 570 3409 3421 3449 3466 3479 3491 6420 6423 6474 6493 6505 6519 6530 6554 6776 9419 9433 9446 9461 9476 9531 9556 11422 11437 11452 11461 11487 11513 11541 
+	}
+	manpower=2391768
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,58 @@
+﻿DDR = {
+	battle_cruiser = {
+		prefix = ""
+		generic = { "Battlecruiser" }
+		unique = {
+			"Maximilian Joseph" "Ludwig I" "Maximilian II" "Graf Montgelas" "Graf von Horn" "Von der Mark" "Von Le Suire" "Von Wrede" "Baden" "Zähringen" "Markgraf" "Großherzog Leopold" "Großherzog Karl Friedrich" "Türkenlouis" "Reichsgraf" "Durlach" "Sausenberg" "Hachberg" "Württemberg" "Schwaben" "König Friedrich" "Königin Charlotte" "König Wilhelm" "Prinz Albrecht" "Alemania" "Herzog von Urach" "Von Zeppelin" 
+		}
+	}
+
+	battleship = {
+		prefix = ""
+		generic = { "Battleship" }
+		unique = {
+			"Bayern" "Von der Tann" "Wittelsbach" "Prinzregent Luitpold" "Welf" "Nibelungen" "Walküre" "Babenberg" "Baden" "Zähringen" "Markgraf" "Großherzog Leopold" "Großherzog Karl Friedrich" "Türkenlouis" "Reichsgraf" "Durlach" "Sausenberg" "Hachberg" 
+		}
+	}
+
+	carrier = {
+		prefix = ""
+		generic = { "Carrier" }
+		unique = {
+			"Höchstädt" "Landshut" "Lechfeld" "Herzog Albrecht" "Prinz Ludwig" "Von Utzschneider" "Steinheil" "Baden" "Zähringen" "Markgraf" "Großherzog Leopold" "Großherzog Karl Friedrich" "Türkenlouis" "Reichsgraf" "Durlach" "Sausenberg" "Hachberg" "Württemberg" "Schwaben" "König Friedrich" "Königin Charlotte" "König Wilhelm" "Prinz Albrecht" "Alemania" "Herzog von Urach" "Von Zeppelin" 
+		}
+	}
+
+	destroyer = {
+		prefix = ""
+		generic = { "Destroyer" }
+		unique = {
+			"Ansbach" "Augsburg" "Bamberg" "Bayreuth" "Fürth" "Ingoldstadt" "München" "Nürnberg" "Passau" "Regensburg" "Baden" "Zähringen" "Markgraf" "Großherzog Leopold" "Großherzog Karl Friedrich" "Türkenlouis" "Reichsgraf" "Durlach" "Sausenberg" "Hachberg" "Württemberg" "Schwaben" "König Friedrich" "Königin Charlotte" "König Wilhelm" "Prinz Albrecht" "Alemania" "Herzog von Urach" "Von Zeppelin" 
+		}
+	}
+
+	heavy_cruiser = {
+		prefix = ""
+		generic = { "Heavy Cruiser" }
+		unique = {
+			"Graf" "Herzog" "König" "Kaiser" "Kurfürst" "Pfalzgraf" "Prinz" "Odin" "Wotan" "Balder" "Donar" "Baden" "Zähringen" "Markgraf" "Großherzog Leopold" "Großherzog Karl Friedrich" "Türkenlouis" "Reichsgraf" "Durlach" "Sausenberg" "Hachberg" "Württemberg" "Schwaben" "König Friedrich" "Königin Charlotte" "König Wilhelm" "Prinz Albrecht" "Alemania" "Herzog von Urach" "Von Zeppelin" 
+		}
+	}
+
+	light_cruiser = {
+		prefix = ""
+		generic = { "Light Cruiser" }
+		unique = {
+			"Siegfried" "Kriemhild" "Gunther" "Gernot" "Giselher" "Siegmund" "Alberich" "Brünhild" "Hagen" "Baden" "Zähringen" "Markgraf" "Großherzog Leopold" "Großherzog Karl Friedrich" "Türkenlouis" "Reichsgraf" "Durlach" "Sausenberg" "Hachberg" "Württemberg" "Schwaben" "König Friedrich" "Königin Charlotte" "König Wilhelm" "Prinz Albrecht" "Alemania" "Herzog von Urach" "Von Zeppelin" 
+		}
+	}
+
+	submarine = {
+		prefix = ""
+		generic = { "Submarine" }
+		unique = {
+			"Fuchs" "Hyäna" "Leopard" "Löwe" "Luchs" "Marder" "Panther" "Tiger" "Wolf" "Baden" "Zähringen" "Markgraf" "Großherzog Leopold" "Großherzog Karl Friedrich" "Türkenlouis" "Reichsgraf" "Durlach" "Sausenberg" "Hachberg" "Württemberg" "Schwaben" "König Friedrich" "Königin Charlotte" "König Wilhelm" "Prinz Albrecht" "Alemania" "Herzog von Urach" "Von Zeppelin" 
+		}
+	}
+
+}

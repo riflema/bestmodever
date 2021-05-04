@@ -1,0 +1,32 @@
+
+state={
+	id=233
+	name="STATE_233"
+	resources={
+		aluminium=34.000
+		oil=212.000
+	}
+
+	history={
+		owner = HON
+		victory_points = {
+			12301 1 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = HON
+		add_claim_by = USA
+	}
+
+	provinces={
+		1915 1954 1998 2055 3875 3972 4955 5038 8064 9773 9908 10740 10894 12301 12728 12848 12875 12893 
+	}
+	manpower=1031256
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

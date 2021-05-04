@@ -1,0 +1,34 @@
+
+state={
+	id=17
+	name="STATE_17"
+	resources={
+		steel=25.000
+	}
+
+	history={
+		owner = ADU
+		victory_points = {
+			1145 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			4046 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+		add_core_of = ADU
+	}
+
+	provinces={
+		1013 1145 1160 4046 4131 7081 7132 7166 9964 10078 11923 11939 12051 
+	}
+	manpower=2885280
+	buildings_max_level_factor=1.000
+	state_category=city
+}

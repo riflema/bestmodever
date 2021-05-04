@@ -1,0 +1,26 @@
+
+state={
+	id=763
+	name="STATE_763"
+
+	history={
+		owner = X81
+		victory_points = {
+			1815 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		1815 7688 7888 12633 12651 
+	}
+	manpower=503004
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

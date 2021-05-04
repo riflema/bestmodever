@@ -1,0 +1,35 @@
+
+state={
+	id=250
+	name="STATE_250"
+	resources={
+		rubber=60.000
+		steel=3.000
+		tungsten=3.000
+	}
+
+	history={
+		owner = X29
+		victory_points = {
+			7408 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			7408 = {
+				naval_base = 2
+			}
+			air_base = 5
+
+		}
+		add_core_of = X29
+	}
+
+	provinces={
+		1427 4319 4348 4388 4392 7367 7408 7587 10193 10221 10250 12122 12220 
+	}
+	manpower=476620
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

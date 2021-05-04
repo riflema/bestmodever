@@ -1,0 +1,33 @@
+
+state={
+	id=772
+	name="STATE_772"
+	resources={
+		oil=1.000
+		steel=1.000
+		tungsten=4.000
+	}
+
+	history={
+		owner = X82
+		victory_points = {
+			7348 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = X82
+		add_claim_by = CAN
+	}
+
+	provinces={
+		515 1804 6726 7348 10684 12534 
+	}
+	manpower=565188
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

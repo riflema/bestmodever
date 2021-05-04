@@ -1,0 +1,106 @@
+﻿converted_war_strategies_DEN = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "SCA"
+		value = 2132
+	}
+	ai_strategy = {
+		type = conquer
+		id = "DDR"
+		value = 1577
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ENG"
+		value = 73
+	}
+}
+
+converted_diplo_strategies_DEN = {
+	enable = {
+		tag = DEN
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "ITA"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "ADU"
+		value = 63
+	}
+	ai_strategy = {
+		type = contain
+		id = "SCA"
+		value = 61
+	}
+	ai_strategy = {
+		type = contain
+		id = "HUN"
+		value = 29
+	}
+	ai_strategy = {
+		type = contain
+		id = "BEL"
+		value = 26
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SCA"
+		value = 326
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ENG"
+		value = 117
+	}
+	ai_strategy = {
+		type = alliance
+		id = "TUR"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "FRA"
+		value = 98
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ENG"
+		value = 58
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X57"
+		value = 45
+	}
+	ai_strategy = {
+		type = protect
+		id = "X20"
+		value = 20
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "KAZ"
+		value = 44
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X43"
+		value = 35
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "BEL"
+		value = 34
+	}
+}

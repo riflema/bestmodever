@@ -1,0 +1,33 @@
+
+state={
+	id=68
+	name="STATE_68"
+	resources={
+		steel=6.000
+	}
+
+	history={
+		owner = ADU
+		victory_points = {
+			9994 2 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			11969 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+		add_core_of = ADU
+	}
+
+	provinces={
+		1037 1046 4061 4163 7077 7180 9994 10091 11935 11969 
+	}
+	manpower=3567640
+	buildings_max_level_factor=1.000
+	state_category=city
+}

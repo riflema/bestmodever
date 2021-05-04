@@ -1,0 +1,31 @@
+
+state={
+	id=631
+	name="STATE_631"
+
+	history={
+		owner = TUR
+		victory_points = {
+			9417 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			9417 = {
+				naval_base = 2
+			}
+			air_base = 0
+
+		}
+		add_core_of = X16
+		add_core_of = X25
+	}
+
+	provinces={
+		426 585 3464 6417 6445 9417 9430 11403 11418 11434 11450 11459 11559 
+	}
+	manpower=1294312
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

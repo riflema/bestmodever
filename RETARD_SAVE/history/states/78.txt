@@ -1,0 +1,31 @@
+
+state={
+	id=78
+	name="STATE_78"
+	resources={
+		aluminium=37.000
+	}
+
+	history={
+		owner = X03
+		victory_points = {
+			8107 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = X03
+		add_claim_by = VEN
+	}
+
+	provinces={
+		8107 
+	}
+	manpower=401264
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

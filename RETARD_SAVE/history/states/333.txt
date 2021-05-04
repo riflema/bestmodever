@@ -1,0 +1,32 @@
+
+state={
+	id=333
+	name="STATE_333"
+	resources={
+		rubber=0.000
+		steel=4.000
+		tungsten=2.000
+	}
+
+	history={
+		owner = MEX
+		victory_points = {
+			2011 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = MEX
+	}
+
+	provinces={
+		2008 2011 2083 4956 10172 12804 
+	}
+	manpower=3521240
+	buildings_max_level_factor=1.000
+	state_category=city
+}

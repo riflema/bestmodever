@@ -1,0 +1,33 @@
+
+state={
+	id=575
+	name="STATE_575"
+	resources={
+		chromium=2.000
+		steel=1.000
+		tungsten=1.000
+	}
+
+	history={
+		owner = X64
+		victory_points = {
+			4386 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X64
+		add_claim_by = RAJ
+	}
+
+	provinces={
+		4386 4435 4987 5310 7374 10825 10910 12892 
+	}
+	manpower=1424440
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

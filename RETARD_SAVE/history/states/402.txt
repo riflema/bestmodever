@@ -1,0 +1,31 @@
+
+state={
+	id=402
+	name="STATE_402"
+
+	history={
+		owner = PRU
+		victory_points = {
+			8213 2 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = PRU
+		add_core_of = VEN
+		VEN = {
+			set_province_controller = 8149
+		}
+	}
+
+	provinces={
+		8149 8213 10970 
+	}
+	manpower=2509024
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

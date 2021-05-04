@@ -1,0 +1,31 @@
+
+state={
+	id=311
+	name="STATE_311"
+	resources={
+		aluminium=20.000
+	}
+
+	history={
+		owner = X37
+		victory_points = {
+			12458 1 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = X37
+		add_claim_by = USA
+	}
+
+	provinces={
+		1503 1646 4444 4567 4597 4625 7485 7543 7586 10355 10477 12458 12489 12778 
+	}
+	manpower=3987912
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

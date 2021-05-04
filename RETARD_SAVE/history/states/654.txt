@@ -1,0 +1,30 @@
+
+state={
+	id=654
+	name="STATE_654"
+
+	history={
+		owner = TUR
+		victory_points = {
+			3456 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			3456 = {
+				naval_base = 2
+			}
+			air_base = 0
+
+		}
+		add_core_of = X10
+	}
+
+	provinces={
+		1971 3456 4003 4382 7049 7084 10108 10735 
+	}
+	manpower=2303676
+	buildings_max_level_factor=1.000
+	state_category=town
+}

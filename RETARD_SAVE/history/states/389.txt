@@ -1,0 +1,29 @@
+
+state={
+	id=389
+	name="STATE_389"
+	resources={
+		chromium=5.000
+	}
+
+	history={
+		owner = X46
+		victory_points = {
+			12700 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		1659 1704 1771 1808 1841 1880 4710 4758 4846 7228 7733 7895 9553 10604 10648 10716 10720 11307 12567 12630 12700 
+	}
+	manpower=359052
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

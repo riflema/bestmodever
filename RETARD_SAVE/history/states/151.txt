@@ -1,0 +1,30 @@
+
+state={
+	id=151
+	name="STATE_151"
+
+	history={
+		owner = EGY
+		victory_points = {
+			792 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			792 = {
+				naval_base = 1
+			}
+			air_base = 5
+
+		}
+		add_core_of = X35
+	}
+
+	provinces={
+		792 1065 1108 11919 
+	}
+	manpower=508840
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

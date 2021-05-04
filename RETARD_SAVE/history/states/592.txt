@@ -1,0 +1,33 @@
+
+state={
+	id=592
+	name="STATE_592"
+	resources={
+		steel=3.000
+	}
+
+	history={
+		owner = MRT
+		victory_points = {
+			7992 15 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 0
+			5034 = {
+				naval_base = 1
+			}
+			air_base = 5
+
+		}
+		add_claim_by = MRT
+	}
+
+	provinces={
+		5034 5077 7992 8058 10814 
+	}
+	manpower=2312752
+	buildings_max_level_factor=1.000
+	state_category=town
+}

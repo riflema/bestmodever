@@ -1,0 +1,34 @@
+
+state={
+	id=424
+	name="STATE_424"
+	resources={
+		aluminium=2.000
+		chromium=13.000
+		steel=1.000
+	}
+
+	history={
+		owner = POR
+		victory_points = {
+			1468 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			1468 = {
+				naval_base = 1
+			}
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		1468 
+	}
+	manpower=83400
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

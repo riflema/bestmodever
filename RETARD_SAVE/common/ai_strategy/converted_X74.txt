@@ -1,0 +1,151 @@
+﻿converted_war_strategies_X74 = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "X65"
+		value = 541
+	}
+	ai_strategy = {
+		type = conquer
+		id = "TUR"
+		value = 407
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ENG"
+		value = 316
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X31"
+		value = 186
+	}
+	ai_strategy = {
+		type = conquer
+		id = "KAZ"
+		value = 48
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X11"
+		value = 8
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X61"
+		value = 8
+	}
+}
+
+converted_diplo_strategies_X74 = {
+	enable = {
+		tag = X74
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "TUR"
+		value = 314
+	}
+	ai_strategy = {
+		type = contain
+		id = "X65"
+		value = 249
+	}
+	ai_strategy = {
+		type = contain
+		id = "X31"
+		value = 242
+	}
+	ai_strategy = {
+		type = contain
+		id = "X10"
+		value = 179
+	}
+	ai_strategy = {
+		type = contain
+		id = "X11"
+		value = 175
+	}
+	ai_strategy = {
+		type = contain
+		id = "X61"
+		value = 75
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X31"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "TUR"
+		value = 78
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X10"
+		value = 49
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X61"
+		value = 46
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X65"
+		value = 46
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X11"
+		value = 20
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X69"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X64"
+		value = 182
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X11"
+		value = 165
+	}
+	ai_strategy = {
+		type = alliance
+		id = "KAZ"
+		value = 137
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X31"
+		value = 205
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X11"
+		value = 164
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X10"
+		value = 129
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "KAZ"
+		value = 98
+	}
+}

@@ -1,0 +1,31 @@
+
+state={
+	id=293
+	name="STATE_293"
+	resources={
+		chromium=7.000
+		oil=2.000
+		steel=17.000
+	}
+
+	history={
+		owner = KAZ
+		victory_points = {
+			1387 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		307 1233 1292 1294 1327 1334 1387 1543 1750 1775 1821 4209 4242 4754 4813 4824 7285 7320 7328 7401 7778 7846 9292 9512 10133 10170 10185 10189 10213 10329 10542 11223 12102 12106 12157 12287 12521 12584 12696 
+	}
+	manpower=1300236
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

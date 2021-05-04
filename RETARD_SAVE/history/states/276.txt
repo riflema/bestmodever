@@ -1,0 +1,31 @@
+
+state={
+	id=276
+	name="STATE_276"
+	resources={
+		oil=1.000
+	}
+
+	history={
+		owner = ITA
+		victory_points = {
+			11610 0 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = HUN
+		add_claim_by = ITA
+	}
+
+	provinces={
+		682 701 3680 3683 6685 6703 9624 9643 11610 
+	}
+	manpower=1088860
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

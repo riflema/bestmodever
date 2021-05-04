@@ -1,0 +1,30 @@
+
+state={
+	id=725
+	name="STATE_725"
+	resources={
+		aluminium=0.000
+	}
+
+	history={
+		owner = X76
+		victory_points = {
+			10934 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_claim_by = BRA
+	}
+
+	provinces={
+		10934 
+	}
+	manpower=431804
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

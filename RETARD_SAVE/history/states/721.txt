@@ -1,0 +1,33 @@
+
+state={
+	id=721
+	name="STATE_721"
+	resources={
+		oil=4.000
+	}
+
+	history={
+		owner = X76
+		victory_points = {
+			12964 10 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 5
+
+		}
+		add_core_of = ARG
+		add_core_of = X76
+		add_claim_by = CHL
+		add_claim_by = X21
+	}
+
+	provinces={
+		8238 11007 12964 
+	}
+	manpower=678504
+	buildings_max_level_factor=1.000
+	state_category=town
+}

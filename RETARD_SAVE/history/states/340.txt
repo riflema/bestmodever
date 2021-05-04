@@ -1,0 +1,38 @@
+
+state={
+	id=340
+	name="STATE_340"
+	resources={
+		rubber=35.000
+		steel=5.000
+		tungsten=5.000
+	}
+
+	history={
+		owner = MAL
+		victory_points = {
+			12360 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			7225 = {
+				naval_base = 10
+			}
+			air_base = 0
+
+		}
+		add_core_of = MAL
+		add_claim_by = CAM
+		add_claim_by = VIN
+		add_claim_by = X29
+	}
+
+	provinces={
+		1244 1357 1535 1548 1592 4433 4511 4582 7225 7292 7516 7601 10293 10384 10425 10438 12195 12224 12264 12360 12373 12388 12402 12417 12431 
+	}
+	manpower=1840632
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

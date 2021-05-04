@@ -1,0 +1,29 @@
+
+state={
+	id=185
+	name="STATE_185"
+	resources={
+		tungsten=6.000
+	}
+
+	history={
+		owner = ENG
+		victory_points = {
+			6742 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		1736 1854 4741 4838 6742 7779 12676 
+	}
+	manpower=127732
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

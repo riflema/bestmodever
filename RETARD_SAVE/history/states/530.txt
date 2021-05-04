@@ -1,0 +1,32 @@
+
+state={
+	id=530
+	name="STATE_530"
+
+	history={
+		owner = DDR
+		victory_points = {
+			6336 0 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			9335 = {
+				naval_base = 6
+			}
+			air_base = 0
+
+		}
+		add_core_of = HOL
+		add_core_of = X68
+		add_claim_by = DDR
+	}
+
+	provinces={
+		6286 6336 9309 9335 9403 11318 
+	}
+	manpower=1420876
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

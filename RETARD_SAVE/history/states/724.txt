@@ -1,0 +1,30 @@
+
+state={
+	id=724
+	name="STATE_724"
+	resources={
+		aluminium=3.000
+	}
+
+	history={
+		owner = X76
+		victory_points = {
+			13083 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_claim_by = BRA
+	}
+
+	provinces={
+		1979 2198 5083 5232 8185 8254 12919 12965 13083 
+	}
+	manpower=1696184
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

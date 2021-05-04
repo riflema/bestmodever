@@ -1,0 +1,27 @@
+
+state={
+	id=221
+	name="STATE_221"
+
+	history={
+		owner = X25
+		victory_points = {
+			9753 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X25
+	}
+
+	provinces={
+		487 518 520 544 579 618 757 3435 3461 3487 3503 3529 3539 3555 3582 6454 6486 6506 6516 6527 6541 6575 6602 6620 9436 9440 9455 9502 9504 9530 9564 9592 9735 9753 11423 11429 11451 11474 11484 11485 11512 11579 11706 11736 
+	}
+	manpower=504256
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

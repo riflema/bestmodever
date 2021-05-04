@@ -1,0 +1,31 @@
+
+state={
+	id=617
+	name="STATE_617"
+	resources={
+		chromium=8.000
+		steel=7.000
+	}
+
+	history={
+		owner = TUR
+		victory_points = {
+			11747 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = TUR
+	}
+
+	provinces={
+		804 919 921 933 961 3807 3862 3870 3964 6908 6925 6977 6978 9806 9830 9861 9900 9901 9915 11747 11784 11826 11839 11844 11897 
+	}
+	manpower=531612
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

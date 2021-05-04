@@ -1,0 +1,31 @@
+
+state={
+	id=228
+	name="STATE_228"
+
+	history={
+		owner = HAI
+		victory_points = {
+			4155 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			4155 = {
+				naval_base = 2
+			}
+			air_base = 0
+
+		}
+		add_core_of = HAI
+	}
+
+	provinces={
+		4155 13084 
+	}
+	manpower=2907244
+	buildings_max_level_factor=1.000
+	state_category=city
+}

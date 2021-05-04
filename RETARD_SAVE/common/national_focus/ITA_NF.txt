@@ -1,0 +1,190 @@
+focus_tree = {
+	id = ITA_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = ITA
+		}
+	}
+	
+	default = no
+	
+	shared_focus = army_effort
+	shared_focus = aviation_effort
+	shared_focus = naval_effort
+	shared_focus = industrial_effort
+	shared_focus = political_effort
+
+	focus = {
+		id = WarPropITA
+		icon = GFX_goal_generic_propaganda
+		text = WarProp
+		x = 28
+		y = 0
+		cost = 10
+		available = {
+			threat > 0.000000
+		}
+		completion_reward = {
+		add_stability = 0.05
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = PrepInterITA
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		text = PrepInter
+		prerequisite = { focus = WarPropITA }
+		x = 0
+		y = 1
+		relative_position_id = WarPropITA
+		cost = 10
+		available = {
+			threat > 0.000000
+		}
+		completion_reward = {
+		add_political_power = 120
+		set_rule = { can_send_volunteers = yes }
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = LimITA
+		icon = GFX_goal_generic_more_territorial_claims
+		text = Lim
+		prerequisite = { focus = PrepInterITA }
+		x = 0
+		y = 1
+		relative_position_id = PrepInterITA
+		cost = 10
+		available = {
+			threat > 0.000000
+		}
+		completion_reward = {
+		add_ideas = limited_interventionism
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = WarPlanITAENG
+		icon = GFX_goal_generic_position_armies
+		text = WarPlanENG
+		prerequisite = { focus = LimITA }
+		bypass = {
+			has_war_with = ENG
+		}
+		x = 0
+		y = 1
+		relative_position_id = LimITA
+		cost = 10
+		available = {
+			any_other_country = {
+				original_tag = ENG
+				exists = yes
+				NOT = { has_government = democratic } 
+				NOT = { is_in_faction_with = ITA }
+				OR = {
+					has_offensive_war = yes
+					has_added_tension_amount > 30
+				}
+			}
+		}
+		completion_reward = {
+		army_experience = 20
+		add_tech_bonus = {
+			name = land_doc_bonus
+			bonus = 0.5
+			uses = 1
+			category = land_doctrine
+		}
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = EmbargoITAENG
+		icon = GFX_goal_generic_trade
+		text = EmbargoENG
+		prerequisite = { focus =  WarPlanITAENG }
+		bypass = {
+			has_war_with = ENG
+		}
+		x = 0
+		y = 1
+		relative_position_id = WarPlanITAENG
+		cost = 10
+		available = {
+			any_other_country = {
+				original_tag = ENG
+				exists = yes
+				NOT = { has_government = democratic } 
+				NOT = { is_in_faction_with = ITA }
+				OR = {
+					has_offensive_war = yes
+					has_added_tension_amount > 30
+					threat > 0.6
+				}
+			}
+		}
+		completion_reward = {
+			ENG = {
+				add_opinion_modifier = { target = ITA modifier = embargo }
+			}
+		}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = WARITAENG
+		icon = GFX_goal_support_democracy
+		text = WARENG
+		prerequisite = { focus =  EmbargoITAENG }
+		bypass = {
+			has_war_with = ENG
+		}
+		x = 0
+		y = 1
+		relative_position_id = EmbargoITAENG
+		cost = 10
+		available = {
+			has_war = no
+			any_other_country = {
+				original_tag = ENG
+				exists = yes
+				NOT = { has_government = democratic } 
+				NOT = { is_in_faction_with = ITA }
+				OR = {
+					has_offensive_war = yes
+					has_added_tension_amount > 30
+					threat > 0.6
+				}
+			}
+		}
+		completion_reward = {
+			declare_war_on = {
+				type = puppet_wargoal_focus
+				target = ENG
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+}

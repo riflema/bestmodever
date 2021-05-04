@@ -1,0 +1,151 @@
+﻿converted_war_strategies_X11 = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "TUR"
+		value = 539
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X65"
+		value = 368
+	}
+	ai_strategy = {
+		type = conquer
+		id = "KAZ"
+		value = 48
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X18"
+		value = 40
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ENG"
+		value = 16
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X31"
+		value = 8
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X61"
+		value = 8
+	}
+}
+
+converted_diplo_strategies_X11 = {
+	enable = {
+		tag = X11
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "ITA"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "X65"
+		value = 51
+	}
+	ai_strategy = {
+		type = contain
+		id = "TUR"
+		value = 44
+	}
+	ai_strategy = {
+		type = contain
+		id = "X18"
+		value = 41
+	}
+	ai_strategy = {
+		type = contain
+		id = "X61"
+		value = 30
+	}
+	ai_strategy = {
+		type = contain
+		id = "X57"
+		value = 13
+	}
+	ai_strategy = {
+		type = contain
+		id = "X44"
+		value = 11
+	}
+	ai_strategy = {
+		type = contain
+		id = "X32"
+		value = 11
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "TUR"
+		value = 347
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X65"
+		value = 264
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X18"
+		value = 91
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X31"
+		value = 48
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X61"
+		value = 48
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "KAZ"
+		value = 16
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ENG"
+		value = 5
+	}
+	ai_strategy = {
+		type = alliance
+		id = "DDR"
+		value = 200
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X84"
+		value = 104
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X31"
+		value = 50
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X44"
+		value = 46
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X61"
+		value = 44
+	}
+}

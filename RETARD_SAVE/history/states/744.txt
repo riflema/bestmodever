@@ -1,0 +1,32 @@
+
+state={
+	id=744
+	name="STATE_744"
+
+	history={
+		owner = X78
+		victory_points = {
+			4432 2 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			4432 = {
+				naval_base = 8
+			}
+			air_base = 0
+
+		}
+		add_core_of = X78
+		add_claim_by = CAN
+	}
+
+	provinces={
+		4362 4432 7379 
+	}
+	manpower=972808
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

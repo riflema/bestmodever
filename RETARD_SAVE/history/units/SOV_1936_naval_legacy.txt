@@ -1,0 +1,68 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 3338
+		task_force = {
+			name = "2nd Fleet"
+			location = 3338
+			ship = { name = "Kem" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+		}
+	}
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 3147
+		task_force = {
+			name = "3rd Fleet"
+			location = 3147
+			ship = { name = "Voronya" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+		}
+	}
+	fleet = {
+		name = "4th Fleet"
+		naval_base = 10540
+		task_force = {
+			name = "4th Fleet"
+			location = 10540
+			ship = { name = "Mezha" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+		}
+	}
+	fleet = {
+		name = "6th Fleet"
+		naval_base = 12683
+		task_force = {
+			name = "6th Fleet"
+			location = 12683
+			ship = { name = "Okhta" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+		}
+	}
+	fleet = {
+		name = "7th Fleet"
+		naval_base = 3338
+		task_force = {
+			name = "7th Fleet"
+			location = 3338
+			ship = { name = "Yug" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "SOV"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "SOV"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

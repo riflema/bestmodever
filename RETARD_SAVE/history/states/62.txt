@@ -1,0 +1,35 @@
+
+state={
+	id=62
+	name="STATE_62"
+	resources={
+		aluminium=3.000
+		oil=3.000
+		steel=5.000
+	}
+
+	history={
+		owner = ADU
+		victory_points = {
+			12727 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			10791 = {
+				naval_base = 2
+			}
+			air_base = 5
+
+		}
+		add_core_of = X42
+	}
+
+	provinces={
+		4932 5024 5081 5093 8004 8030 8060 8118 10791 10870 12727 12740 12768 12813 12870 
+	}
+	manpower=2074944
+	buildings_max_level_factor=1.000
+	state_category=town
+}

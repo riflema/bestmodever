@@ -1,0 +1,33 @@
+
+state={
+	id=381
+	name="STATE_381"
+	resources={
+		aluminium=3.000
+		rubber=0.000
+		steel=17.000
+		tungsten=0.000
+	}
+
+	history={
+		owner = X40
+		victory_points = {
+			11865 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X40
+	}
+
+	provinces={
+		1367 1893 2030 2091 4041 4141 4167 4295 4431 5048 6999 7240 7256 7418 7948 8026 10144 10304 11865 12274 12767 
+	}
+	manpower=1275948
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

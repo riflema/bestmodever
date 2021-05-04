@@ -1,0 +1,36 @@
+
+state={
+	id=756
+	name="STATE_756"
+	resources={
+		oil=15.000
+		tungsten=36.000
+	}
+
+	history={
+		owner = X80
+		victory_points = {
+			1408 7 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 7
+			arms_factory = 2
+			dockyard = 3
+			1408 = {
+				naval_base = 6
+			}
+			air_base = 3
+
+		}
+		add_core_of = X80
+		add_claim_by = CAN
+	}
+
+	provinces={
+		917 1323 1393 1408 1411 1737 1799 1858 4343 4385 4413 4428 4870 4877 7677 7753 7761 7820 7853 10228 10258 10273 10548 10644 12231 12578 
+	}
+	manpower=7533937
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

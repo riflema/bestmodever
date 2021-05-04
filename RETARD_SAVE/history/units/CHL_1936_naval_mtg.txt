@@ -1,0 +1,67 @@
+units = {
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 8222
+		task_force = {
+			name = "3rd Fleet"
+			location = 8222
+			ship = { name = "1st Valparaíso Commerce Raider" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "Early Destroyer" } } }
+			ship = { name = "Magallanes" definition = destroyer start_experience_factor = 0.0999 equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "Early Destroyer" } } }
+			ship = { name = "4th Valparaíso Commerce Raider" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "Early Destroyer" } } }
+			ship = { name = "Chacabuco" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "Early Destroyer" } } }
+			ship = { name = "6th Valdivia Commerce Raider" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "Early Destroyer" } } }
+			ship = { name = "Almirante Condell" definition = destroyer start_experience_factor = 0.04945 equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "Early Destroyer" } } }
+			ship = { name = "Casma" definition = destroyer start_experience_factor = 0.0999 equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "Early Destroyer" } } }
+			ship = { name = "2nd Osorno Commerce Raider" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "Early Destroyer" } } }
+			ship = { name = "1st Buenos Aires Commerce Raider" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "Early Destroyer" } } }
+			ship = { name = "Aquiles" definition = destroyer start_experience_factor = 0.04985 equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "Early Destroyer" } } }
+			ship = { name = "3rd Valdivia Commerce Raider" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "9th Fleet"
+		naval_base = 10515
+		task_force = {
+			name = "9th Fleet"
+			location = 10515
+			ship = { name = "4th Valdivia Commerce Raider" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "Early Destroyer" } } }
+			ship = { name = "Orompello" definition = destroyer start_experience_factor = 0.0991 equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "Early Destroyer" } } }
+			ship = { name = "Chipana" definition = destroyer start_experience_factor = 0.0991 equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "Early Destroyer" } } }
+			ship = { name = "Covadonga" definition = destroyer start_experience_factor = 0.0997 equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "10th Fleet"
+		naval_base = 12364
+		task_force = {
+			name = "10th Fleet"
+			location = 12364
+			ship = { name = "1st Paraná Commerce Raider" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "Early Destroyer" } } }
+			ship = { name = "Angamos" definition = destroyer start_experience_factor = 0.0495 equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "Early Destroyer" } } }
+			ship = { name = "1st Osorno Commerce Raider" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "Early Destroyer" } } }
+			ship = { name = "1st Valdivia Commerce Raider" definition = destroyer start_experience_factor = 0.0997 equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "Early Destroyer" } } }
+			ship = { name = "3rd Valparaíso Commerce Raider" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "Early Destroyer" } } }
+			ship = { name = "2nd Valparaíso Commerce Raider" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "Early Destroyer" } } }
+			ship = { name = "1st Paysandú Commerce Raider" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "Early Destroyer" } } }
+			ship = { name = "2nd Paysandú Commerce Raider" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "Early Destroyer" } } }
+			ship = { name = "2nd Valdivia Commerce Raider" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "Early Destroyer" } } }
+			ship = { name = "Almirante Lynch" definition = destroyer start_experience_factor = 0.04985 equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "Early Destroyer" } } }
+			ship = { name = "5th Valdivia Commerce Raider" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "Early Destroyer" } } }
+			ship = { name = "1st Puerto Deseado Commerce Raider" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "Early Destroyer" } } }
+			ship = { name = "1st Viedma Commerce Raider" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "CHL"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

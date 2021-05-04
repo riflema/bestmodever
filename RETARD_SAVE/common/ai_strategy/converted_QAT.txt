@@ -1,0 +1,16 @@
+﻿converted_war_strategies_QAT = {
+	enable = {
+		always = no
+	}
+	
+}
+
+converted_diplo_strategies_QAT = {
+	enable = {
+		tag = QAT
+	}
+	abort = {
+		always = no
+	}
+	
+}

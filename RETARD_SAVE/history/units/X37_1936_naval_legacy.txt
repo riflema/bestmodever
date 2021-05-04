@@ -1,0 +1,36 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 7552
+		task_force = {
+			name = "1st Fleet"
+			location = 7552
+			ship = { name = "1st Houston Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X37 } } }
+			ship = { name = "1st Biloxi Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X37 } } }
+			ship = { name = "Québec" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X37 } } }
+			ship = { name = "Montréal" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X37 } } }
+			ship = { name = "Acadie" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X37 } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "X37"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "X37"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

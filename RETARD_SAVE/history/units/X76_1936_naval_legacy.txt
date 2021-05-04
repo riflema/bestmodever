@@ -1,0 +1,43 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 10980
+		task_force = {
+			name = "2nd Fleet"
+			location = 10980
+			ship = { name = "1st Montevideo Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X76 } } }
+			ship = { name = "1st Porto Seguro Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X76 } } }
+			ship = { name = "1st Curitiba Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X76 } } }
+			ship = { name = "1st January City Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X76 } } }
+			ship = { name = "1st Porto Alegre Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X76 } } }
+			ship = { name = "2nd Montevideo Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X76 } } }
+			ship = { name = "1st Santos Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X76 } } }
+			ship = { name = "2nd Santos Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X76 } } }
+			ship = { name = "1st Montevideo Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X76 } } }
+			ship = { name = "1st Porto Seguro Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X76 } } }
+			ship = { name = "2nd Montevideo Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X76 } } }
+			ship = { name = "1st January City Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X76 } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "X76"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "X76"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

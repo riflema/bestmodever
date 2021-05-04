@@ -1,0 +1,32 @@
+
+state={
+	id=535
+	name="STATE_535"
+
+	history={
+		owner = X57
+		victory_points = {
+			10074 40 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 6
+			arms_factory = 1
+			dockyard = 2
+			10074 = {
+				naval_base = 10
+			}
+			air_base = 10
+
+		}
+		add_core_of = ITA
+		add_core_of = X57
+	}
+
+	provinces={
+		1009 1156 3857 4014 4159 7059 7147 10074 12047 
+	}
+	manpower=3247688
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

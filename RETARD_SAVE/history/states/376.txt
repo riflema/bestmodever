@@ -1,0 +1,30 @@
+
+state={
+	id=376
+	name="STATE_376"
+	resources={
+		steel=0.000
+		tungsten=0.000
+	}
+
+	history={
+		owner = X40
+		victory_points = {
+			12815 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		1698 2053 2099 4536 5076 7997 10490 10750 10796 10834 10865 12596 12815 12846 12890 
+	}
+	manpower=215632
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

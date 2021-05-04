@@ -1,0 +1,32 @@
+
+state={
+	id=246
+	name="STATE_246"
+	resources={
+		rubber=0.000
+		steel=1.000
+		tungsten=1.000
+	}
+
+	history={
+		owner = X29
+		victory_points = {
+			12256 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X29
+	}
+
+	provinces={
+		1417 4293 7441 12256 
+	}
+	manpower=572084
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

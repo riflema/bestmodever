@@ -1,0 +1,33 @@
+
+state={
+	id=265
+	name="STATE_265"
+
+	history={
+		owner = ITA
+		victory_points = {
+			6626 3 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			6626 = {
+				naval_base = 4
+			}
+			air_base = 1
+
+		}
+		add_core_of = DDR
+		add_claim_by = ITA
+		add_claim_by = SLV
+	}
+
+	provinces={
+		599 6626 11564 11595 11735 
+	}
+	manpower=6341616
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

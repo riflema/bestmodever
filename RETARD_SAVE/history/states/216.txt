@@ -1,0 +1,31 @@
+
+state={
+	id=216
+	name="STATE_216"
+
+	history={
+		owner = GNB
+		victory_points = {
+			12891 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			12747 = {
+				naval_base = 1
+			}
+			air_base = 5
+
+		}
+		add_claim_by = EGY
+		add_claim_by = GNB
+	}
+
+	provinces={
+		12747 12891 
+	}
+	manpower=495584
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=81
+	name="STATE_81"
+	resources={
+		tungsten=2.000
+	}
+
+	history={
+		owner = X04
+		victory_points = {
+			8010 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_claim_by = TIB
+	}
+
+	provinces={
+		8010 12860 
+	}
+	manpower=79500
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

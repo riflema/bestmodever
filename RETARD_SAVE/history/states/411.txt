@@ -1,0 +1,28 @@
+
+state={
+	id=411
+	name="STATE_411"
+
+	history={
+		owner = PRU
+		victory_points = {
+			8175 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = PRU
+		add_claim_by = BRA
+	}
+
+	provinces={
+		2142 2147 8175 11010 12939 
+	}
+	manpower=2211592
+	buildings_max_level_factor=1.000
+	state_category=town
+}

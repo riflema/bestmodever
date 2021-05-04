@@ -1,0 +1,30 @@
+
+state={
+	id=393
+	name="STATE_393"
+	resources={
+		aluminium=33.000
+		steel=21.000
+	}
+
+	history={
+		owner = X46
+		victory_points = {
+			4797 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		1727 1735 1803 1810 1829 4703 4750 4782 4797 4808 4815 7769 7802 7828 7838 7841 7863 7876 7902 10543 10549 10570 10596 10628 10661 10664 10699 12523 12525 12540 12647 12681 
+	}
+	manpower=561548
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

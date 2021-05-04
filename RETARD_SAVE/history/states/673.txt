@@ -1,0 +1,33 @@
+
+state={
+	id=673
+	name="STATE_673"
+	resources={
+		chromium=2.000
+	}
+
+	history={
+		owner = USA
+		victory_points = {
+			4641 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			4641 = {
+				naval_base = 6
+			}
+			air_base = 0
+
+		}
+		add_core_of = HAI
+	}
+
+	provinces={
+		1635 4641 
+	}
+	manpower=2258832
+	buildings_max_level_factor=1.000
+	state_category=town
+}

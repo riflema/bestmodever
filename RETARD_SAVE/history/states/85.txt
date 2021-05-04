@@ -1,0 +1,29 @@
+
+state={
+	id=85
+	name="STATE_85"
+	resources={
+		tungsten=0.000
+	}
+
+	history={
+		owner = X10
+		victory_points = {
+			5064 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		4949 5020 5064 
+	}
+	manpower=171064
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

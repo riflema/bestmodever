@@ -1,0 +1,32 @@
+
+state={
+	id=647
+	name="STATE_647"
+	resources={
+		steel=2.000
+	}
+
+	history={
+		owner = TUR
+		victory_points = {
+			4129 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			7005 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		1105 3987 4129 4992 7005 7162 9983 10026 10082 11921 11957 12000 
+	}
+	manpower=1509710
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

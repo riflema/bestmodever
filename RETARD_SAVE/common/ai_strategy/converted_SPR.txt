@@ -1,0 +1,16 @@
+﻿converted_war_strategies_SPR = {
+	enable = {
+		always = no
+	}
+	
+}
+
+converted_diplo_strategies_SPR = {
+	enable = {
+		tag = SPR
+	}
+	abort = {
+		always = no
+	}
+	
+}

@@ -1,0 +1,36 @@
+
+state={
+	id=339
+	name="STATE_339"
+	resources={
+		rubber=1.000
+		steel=1.000
+		tungsten=1.000
+	}
+
+	history={
+		owner = MAL
+		victory_points = {
+			12292 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			12292 = {
+				naval_base = 10
+			}
+			air_base = 0
+
+		}
+		add_core_of = MAL
+		add_claim_by = X29
+	}
+
+	provinces={
+		1296 4275 10217 12292 
+	}
+	manpower=121132
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

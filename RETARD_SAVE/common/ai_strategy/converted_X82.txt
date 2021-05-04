@@ -1,0 +1,151 @@
+﻿converted_war_strategies_X82 = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "CAN"
+		value = 292
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X80"
+		value = 262
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X43"
+		value = 235
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X37"
+		value = 118
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X81"
+		value = 82
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X78"
+		value = 16
+	}
+}
+
+converted_diplo_strategies_X82 = {
+	enable = {
+		tag = X82
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "ITA"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "CAN"
+		value = 76
+	}
+	ai_strategy = {
+		type = contain
+		id = "X81"
+		value = 43
+	}
+	ai_strategy = {
+		type = contain
+		id = "ADU"
+		value = 42
+	}
+	ai_strategy = {
+		type = contain
+		id = "X80"
+		value = 39
+	}
+	ai_strategy = {
+		type = contain
+		id = "X43"
+		value = 27
+	}
+	ai_strategy = {
+		type = contain
+		id = "X37"
+		value = 26
+	}
+	ai_strategy = {
+		type = contain
+		id = "X77"
+		value = 17
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CAN"
+		value = 398
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X43"
+		value = 340
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X80"
+		value = 337
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X81"
+		value = 127
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X78"
+		value = 5
+	}
+	ai_strategy = {
+		type = alliance
+		id = "DDR"
+		value = 164
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X78"
+		value = 113
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ADU"
+		value = 110
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X77"
+		value = 86
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X43"
+		value = 98
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X80"
+		value = 98
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "CAN"
+		value = 91
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X81"
+		value = 63
+	}
+}

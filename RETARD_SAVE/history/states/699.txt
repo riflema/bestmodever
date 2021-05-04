@@ -1,0 +1,30 @@
+
+state={
+	id=699
+	name="STATE_699"
+
+	history={
+		owner = WES
+		victory_points = {
+			7979 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			8038 = {
+				naval_base = 2
+			}
+			air_base = 5
+
+		}
+		add_claim_by = WES
+	}
+
+	provinces={
+		7979 8038 
+	}
+	manpower=53392
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

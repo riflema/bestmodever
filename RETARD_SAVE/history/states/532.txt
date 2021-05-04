@@ -1,0 +1,32 @@
+
+state={
+	id=532
+	name="STATE_532"
+
+	history={
+		owner = X57
+		victory_points = {
+			9904 1 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			9904 = {
+				naval_base = 10
+			}
+			air_base = 0
+
+		}
+		add_core_of = ITA
+		add_claim_by = X57
+	}
+
+	provinces={
+		6862 9904 11751 11846 
+	}
+	manpower=933052
+	buildings_max_level_factor=1.000
+	state_category=town
+}

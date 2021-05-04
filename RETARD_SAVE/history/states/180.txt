@@ -1,0 +1,37 @@
+
+state={
+	id=180
+	name="STATE_180"
+	resources={
+		rubber=52.000
+	}
+
+	history={
+		owner = ENG
+		victory_points = {
+			10263 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			10153 = {
+				naval_base = 4
+			}
+			10222 = {
+				naval_base = 2
+			}
+			air_base = 5
+
+		}
+		add_core_of = X38
+		add_core_of = X58
+	}
+
+	provinces={
+		1098 1289 1484 1505 1518 1561 1589 4262 4307 4308 4349 4493 4537 4564 7311 7336 7598 10153 10169 10197 10222 10263 10450 10464 12330 12358 12444 
+	}
+	manpower=3914632
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

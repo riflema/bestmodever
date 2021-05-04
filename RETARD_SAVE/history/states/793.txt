@@ -1,0 +1,31 @@
+
+state={
+	id=793
+	name="STATE_793"
+	resources={
+		aluminium=0.000
+	}
+
+	history={
+		victory_points = {
+			3691 0 
+		}
+		buildings = {
+			infrastructure = 0
+			industrial_complex = 0
+			arms_factory = 0
+			1712 = {
+				naval_base = 1
+			}
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		1712 3691 7813 
+	}
+	manpower=5980
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

@@ -1,0 +1,31 @@
+
+state={
+	id=1
+	name="STATE_1"
+
+	history={
+		owner = ADU
+		victory_points = {
+			3552 2 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 1
+			dockyard = 1
+			542 = {
+				naval_base = 1
+			}
+			air_base = 0
+
+		}
+		add_core_of = FRA
+	}
+
+	provinces={
+		542 3552 3758 6536 6548 6572 9510 9525 
+	}
+	manpower=3808040
+	buildings_max_level_factor=1.000
+	state_category=city
+}

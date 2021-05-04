@@ -1,0 +1,33 @@
+
+state={
+	id=367
+	name="STATE_367"
+	resources={
+		chromium=6.000
+		rubber=10.000
+		steel=23.000
+		tungsten=53.000
+	}
+
+	history={
+		owner = X40
+		victory_points = {
+			7137 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X40
+	}
+
+	provinces={
+		1023 1172 1448 1469 1597 1625 4028 4077 4085 4121 4125 4134 4152 4177 4628 4656 7095 7137 7159 7168 7502 7650 9982 10039 10050 10377 10404 10431 10459 11918 12350 12378 12407 12436 
+	}
+	manpower=603832
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,35 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 4329
+		task_force = {
+			name = "1st Fleet"
+			location = 4329
+			ship = { name = "3rd Port Moresby Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X50 } } }
+			ship = { name = "4th Port Moresby Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X50 } } }
+			ship = { name = "5th Port Moresby Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X50 } } }
+			ship = { name = "1st Madang Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X50 } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "X50"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "X50"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

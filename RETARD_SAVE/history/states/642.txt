@@ -1,0 +1,35 @@
+
+state={
+	id=642
+	name="STATE_642"
+	resources={
+		aluminium=0.000
+		oil=2.000
+		steel=1.000
+	}
+
+	history={
+		owner = TUR
+		victory_points = {
+			7982 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			7982 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+		add_claim_by = X10
+	}
+
+	provinces={
+		1889 2070 4891 7982 10782 12895 13082 
+	}
+	manpower=1882448
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

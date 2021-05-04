@@ -1,0 +1,32 @@
+
+state={
+	id=510
+	name="STATE_510"
+	resources={
+		steel=236.000
+	}
+
+	history={
+		owner = DDR
+		victory_points = {
+			9559 3 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 1
+
+		}
+		add_core_of = DDR
+		add_claim_by = FRA
+		add_claim_by = X36
+	}
+
+	provinces={
+		549 678 1346 3629 6529 9503 9559 11502 
+	}
+	manpower=3011792
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -1,0 +1,36 @@
+
+state={
+	id=611
+	name="STATE_611"
+	resources={
+		chromium=84.000
+		steel=20.000
+	}
+
+	history={
+		owner = TUR
+		victory_points = {
+			922 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			dockyard = 1
+			922 = {
+				naval_base = 4
+			}
+			air_base = 5
+
+		}
+		add_core_of = TUR
+		add_claim_by = GRE
+	}
+
+	provinces={
+		849 922 3879 3893 6895 9833 11829 11842 
+	}
+	manpower=2069092
+	buildings_max_level_factor=1.000
+	state_category=town
+}

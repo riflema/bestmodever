@@ -1,0 +1,30 @@
+
+state={
+	id=335
+	name="STATE_335"
+
+	history={
+		owner = MEX
+		victory_points = {
+			1965 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			12810 = {
+				naval_base = 8
+			}
+			air_base = 0
+
+		}
+		add_core_of = MEX
+	}
+
+	provinces={
+		1965 7913 8089 10732 10773 12810 
+	}
+	manpower=6786452
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

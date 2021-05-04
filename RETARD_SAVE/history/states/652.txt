@@ -1,0 +1,30 @@
+
+state={
+	id=652
+	name="STATE_652"
+	resources={
+		rubber=1.000
+	}
+
+	history={
+		owner = TUR
+		victory_points = {
+			1984 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = ETH
+	}
+
+	provinces={
+		1984 2072 5041 7944 
+	}
+	manpower=638056
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

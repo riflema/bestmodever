@@ -1,0 +1,29 @@
+
+state={
+	id=789
+	name="STATE_789"
+	resources={
+		oil=6.000
+		tungsten=9.000
+	}
+
+	history={
+		victory_points = {
+			7869 0 
+		}
+		buildings = {
+			infrastructure = 0
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		3606 7869 7891 
+	}
+	manpower=12000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

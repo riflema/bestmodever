@@ -1,0 +1,35 @@
+
+state={
+	id=365
+	name="STATE_365"
+	resources={
+		chromium=4.000
+		rubber=3.000
+		steel=21.000
+		tungsten=50.000
+	}
+
+	history={
+		owner = X40
+		victory_points = {
+			4165 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			9978 = {
+				naval_base = 2
+			}
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		1078 1120 1162 1202 4050 4165 4207 7067 7108 7128 7141 7182 7210 9938 9970 9978 9997 10121 12014 
+	}
+	manpower=1996696
+	buildings_max_level_factor=1.000
+	state_category=town
+}

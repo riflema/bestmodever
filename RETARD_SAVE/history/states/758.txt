@@ -1,0 +1,33 @@
+
+state={
+	id=758
+	name="STATE_758"
+	resources={
+		oil=0.000
+		steel=1.000
+		tungsten=2.000
+	}
+
+	history={
+		owner = X80
+		victory_points = {
+			3010 2 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = X80
+		add_claim_by = CAN
+	}
+
+	provinces={
+		1347 1763 3010 4765 6754 7766 7787 7858 12166 
+	}
+	manpower=1683528
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

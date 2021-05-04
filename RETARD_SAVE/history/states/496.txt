@@ -1,0 +1,35 @@
+
+state={
+	id=496
+	name="STATE_496"
+
+	history={
+		owner = DDR
+		victory_points = {
+			3295 10 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 6
+			arms_factory = 2
+			dockyard = 2
+			362 = {
+				naval_base = 6
+			}
+			air_base = 8
+
+		}
+		add_core_of = DDR
+		add_claim_by = CZE
+		add_claim_by = POL
+		add_claim_by = X47
+		add_claim_by = X48
+	}
+
+	provinces={
+		266 362 3295 3351 3380 6347 6375 6402 9327 9346 9372 9398 11245 11386 
+	}
+	manpower=3545984
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

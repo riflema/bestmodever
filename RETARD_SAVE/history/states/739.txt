@@ -1,0 +1,30 @@
+
+state={
+	id=739
+	name="STATE_739"
+
+	history={
+		owner = X77
+		victory_points = {
+			3957 0 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			3957 = {
+				naval_base = 6
+			}
+			air_base = 0
+
+		}
+		add_claim_by = USA
+	}
+
+	provinces={
+		3957 11892 
+	}
+	manpower=709264
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

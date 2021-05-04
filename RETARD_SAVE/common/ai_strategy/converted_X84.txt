@@ -1,0 +1,71 @@
+﻿converted_war_strategies_X84 = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "HON"
+		value = 564
+	}
+	ai_strategy = {
+		type = conquer
+		id = "MEX"
+		value = 44
+	}
+}
+
+converted_diplo_strategies_X84 = {
+	enable = {
+		tag = X84
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "ITA"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "HON"
+		value = 79
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "HON"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "MEX"
+		value = 14
+	}
+	ai_strategy = {
+		type = alliance
+		id = "MEX"
+		value = 9
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X11"
+		value = 100
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "EST"
+		value = 58
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "BOS"
+		value = 41
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "TIB"
+		value = 29
+	}
+}

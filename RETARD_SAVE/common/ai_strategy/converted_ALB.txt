@@ -1,0 +1,16 @@
+﻿converted_war_strategies_ALB = {
+	enable = {
+		always = no
+	}
+	
+}
+
+converted_diplo_strategies_ALB = {
+	enable = {
+		tag = ALB
+	}
+	abort = {
+		always = no
+	}
+	
+}

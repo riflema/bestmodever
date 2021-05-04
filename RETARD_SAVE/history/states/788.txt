@@ -1,0 +1,33 @@
+
+state={
+	id=788
+	name="STATE_788"
+	resources={
+		chromium=16.000
+		steel=1.000
+		tungsten=4.000
+	}
+
+	history={
+		owner = ZAM
+		victory_points = {
+			12986 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_claim_by = MLW
+		add_claim_by = ZAM
+	}
+
+	provinces={
+		1846 5221 10594 10930 12986 13209 
+	}
+	manpower=384512
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

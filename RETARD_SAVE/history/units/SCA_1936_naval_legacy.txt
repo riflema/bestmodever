@@ -1,0 +1,115 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 6050
+		task_force = {
+			name = "1st Fleet"
+			location = 6050
+			ship = { name = "2nd Göteborg Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SCA } } }
+			ship = { name = "Asgård" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SCA } } }
+		}
+	}
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 6181
+		task_force = {
+			name = "3rd Fleet"
+			location = 8340
+			ship = { name = "Birka" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SCA } } }
+			ship = { name = "Bäckahäst" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SCA } } }
+			ship = { name = "Storsjön" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SCA } } }
+			ship = { name = "Vänern" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SCA } } }
+		}
+	}
+	fleet = {
+		name = "4th Fleet"
+		naval_base = 6181
+		task_force = {
+			name = "4th Fleet"
+			location = 7468
+			ship = { name = "Víkingr" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SCA } } }
+			ship = { name = "Heimdal" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SCA } } }
+			ship = { name = "Fridtjof Nansen" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SCA } } }
+			ship = { name = "Nordkapp" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SCA } } }
+		}
+	}
+	fleet = {
+		name = "6th Fleet"
+		naval_base = 6181
+		task_force = {
+			name = "6th Fleet"
+			location = 2895
+			ship = { name = "Fylla" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SCA } } }
+			ship = { name = "Silkeborg" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SCA } } }
+			ship = { name = "1st Göteborg Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SCA } } }
+			ship = { name = "Erik Segersäll" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SCA } } }
+		}
+	}
+	fleet = {
+		name = "7th Fleet"
+		naval_base = 6181
+		task_force = {
+			name = "7th Fleet"
+			location = 593
+			ship = { name = "Kattegat" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SCA } } }
+			ship = { name = "Birka" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SCA } } }
+		}
+	}
+	fleet = {
+		name = "8th Fleet"
+		naval_base = 6181
+		task_force = {
+			name = "8th Fleet"
+			location = 4212
+			ship = { name = "Vänern" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SCA } } }
+			ship = { name = "Færøerne" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SCA } } }
+			ship = { name = "Harald Klak" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SCA } } }
+			ship = { name = "Svend Tveskæg" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SCA } } }
+		}
+	}
+	fleet = {
+		name = "9th Fleet"
+		naval_base = 6181
+		task_force = {
+			name = "9th Fleet"
+			location = 3195
+			ship = { name = "Øresund" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SCA } } }
+			ship = { name = "Vättern" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SCA } } }
+			ship = { name = "Esbern Snare" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SCA } } }
+			ship = { name = "Fylla" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SCA } } }
+		}
+	}
+	fleet = {
+		name = "10th Fleet"
+		naval_base = 6181
+		task_force = {
+			name = "10th Fleet"
+			location = 2824
+			ship = { name = "Kraken" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SCA } } }
+			ship = { name = "Gardarr Svavarsson" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SCA } } }
+			ship = { name = "Grønland" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SCA } } }
+			ship = { name = "Björn Järnsida" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SCA } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "SCA"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "SCA"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

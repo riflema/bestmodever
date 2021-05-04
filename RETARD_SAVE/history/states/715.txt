@@ -1,0 +1,33 @@
+
+state={
+	id=715
+	name="STATE_715"
+	resources={
+		aluminium=9.000
+	}
+
+	history={
+		owner = X75
+		victory_points = {
+			12477 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			12477 = {
+				naval_base = 6
+			}
+			air_base = 0
+
+		}
+		add_core_of = X75
+	}
+
+	provinces={
+		12477 
+	}
+	manpower=203436
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

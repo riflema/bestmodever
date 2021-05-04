@@ -1,0 +1,31 @@
+
+state={
+	id=51
+	name="STATE_51"
+	resources={
+		chromium=0.000
+		oil=0.000
+	}
+
+	history={
+		owner = ADU
+		victory_points = {
+			10795 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_claim_by = SUD
+	}
+
+	provinces={
+		10795 12800 
+	}
+	manpower=690192
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

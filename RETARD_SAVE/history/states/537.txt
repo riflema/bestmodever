@@ -1,0 +1,32 @@
+
+state={
+	id=537
+	name="STATE_537"
+
+	history={
+		owner = X57
+		victory_points = {
+			11773 4 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 4
+			arms_factory = 2
+			dockyard = 1
+			11773 = {
+				naval_base = 6
+			}
+			air_base = 2
+
+		}
+		add_core_of = ITA
+		add_core_of = X57
+	}
+
+	provinces={
+		902 6891 9772 9863 11755 11773 11824 11874 
+	}
+	manpower=5771676
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

@@ -1,0 +1,393 @@
+﻿capital = 748
+set_research_slots = 4
+
+oob = "X78_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "X78_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "X78_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+set_technology = {
+	early_bomber = 1
+	early_fighter = 1
+	fuel_refining = 1
+	fuel_silos = 1
+	gw_artillery = 1
+	infantry_weapons = 1
+	tech_support = 1
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_battery = 1
+		basic_naval_mines = 1
+		basic_torpedo = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_light = 1
+	}
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_battleship = 1
+		early_destroyer = 1
+		early_heavy_cruiser = 1
+		early_light_cruiser = 1
+		early_submarine = 1
+		transport = 1
+	}
+}
+
+# Research Bonuses
+set_convoys = 21
+
+add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 192 producer = X78 }
+
+# DIPLOMACY
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = MEX
+		autonomous_state = autonomy_sphereling
+		freedom_level = 0.009
+	}
+    else = {
+    }
+}
+
+if = {
+    limit = {has_dlc = "Together for Victory" }
+
+    add_to_tech_sharing_group = X78_research
+}
+
+set_politics = {
+    ruling_party = democratic
+    last_election = "1911.1.1"
+    election_frequency = 48
+    elections_allowed = yes
+}
+
+set_popularities = {
+	absolutist = 10
+	communism = 3
+	democratic = 74
+	fascism = 7
+	neutrality = 3
+	radical = 3
+}
+
+add_opinion_modifier = { target = ADU modifier = positive_6 }
+add_opinion_modifier = { target = ANG modifier = negative_10 }
+add_opinion_modifier = { target = BAS modifier = negative_2 }
+add_opinion_modifier = { target = BOS modifier = positive_38 }
+add_opinion_modifier = { target = BRA modifier = positive_5 }
+add_opinion_modifier = { target = CAL modifier = positive_200 }
+add_opinion_modifier = { target = CAN modifier = positive_45 }
+add_opinion_modifier = { target = CHA modifier = negative_30 }
+add_opinion_modifier = { target = CHL modifier = positive_5 }
+add_opinion_modifier = { target = CMR modifier = negative_10 }
+add_opinion_modifier = { target = COG modifier = positive_45 }
+add_opinion_modifier = { target = CZE modifier = negative_200 }
+add_opinion_modifier = { target = DAH modifier = negative_10 }
+add_opinion_modifier = { target = DDR modifier = negative_200 }
+add_opinion_modifier = { target = EGY modifier = positive_10 }
+add_opinion_modifier = { target = ENG modifier = negative_163 }
+add_opinion_modifier = { target = FRA modifier = positive_3 }
+add_opinion_modifier = { target = GAB modifier = negative_10 }
+add_opinion_modifier = { target = GNB modifier = negative_15 }
+add_opinion_modifier = { target = HAI modifier = positive_195 }
+add_opinion_modifier = { target = HON modifier = negative_2 }
+add_opinion_modifier = { target = HUN modifier = negative_195 }
+add_opinion_modifier = { target = ITA modifier = negative_49 }
+add_opinion_modifier = { target = IVO modifier = negative_10 }
+add_opinion_modifier = { target = JAP modifier = negative_10 }
+add_opinion_modifier = { target = KAZ modifier = positive_10 }
+add_opinion_modifier = { target = MAD modifier = positive_5 }
+add_opinion_modifier = { target = MAL modifier = positive_10 }
+add_opinion_modifier = { target = MAN modifier = negative_130 }
+add_opinion_modifier = { target = MEX modifier = positive_200 }
+add_opinion_modifier = { target = MRT modifier = negative_10 }
+add_opinion_modifier = { target = PAN modifier = positive_20 }
+add_opinion_modifier = { target = PHI modifier = negative_10 }
+add_opinion_modifier = { target = PRU modifier = positive_30 }
+add_opinion_modifier = { target = RAJ modifier = negative_10 }
+add_opinion_modifier = { target = RWA modifier = negative_10 }
+add_opinion_modifier = { target = SCA modifier = negative_25 }
+add_opinion_modifier = { target = SOV modifier = negative_177 }
+add_opinion_modifier = { target = TIB modifier = negative_60 }
+add_opinion_modifier = { target = TOG modifier = negative_15 }
+add_opinion_modifier = { target = TUR modifier = positive_195 }
+add_opinion_modifier = { target = TZN modifier = negative_10 }
+add_opinion_modifier = { target = UGA modifier = negative_10 }
+add_opinion_modifier = { target = USA modifier = negative_200 }
+add_opinion_modifier = { target = VEN modifier = positive_10 }
+add_opinion_modifier = { target = WES modifier = negative_30 }
+add_opinion_modifier = { target = X02 modifier = positive_30 }
+add_opinion_modifier = { target = X03 modifier = positive_40 }
+add_opinion_modifier = { target = X04 modifier = negative_110 }
+add_opinion_modifier = { target = X06 modifier = negative_10 }
+add_opinion_modifier = { target = X10 modifier = negative_60 }
+add_opinion_modifier = { target = X11 modifier = positive_10 }
+add_opinion_modifier = { target = X16 modifier = positive_27 }
+add_opinion_modifier = { target = X17 modifier = positive_100 }
+add_opinion_modifier = { target = X18 modifier = negative_60 }
+add_opinion_modifier = { target = X19 modifier = positive_10 }
+add_opinion_modifier = { target = X25 modifier = positive_10 }
+add_opinion_modifier = { target = X26 modifier = negative_10 }
+add_opinion_modifier = { target = X29 modifier = negative_190 }
+add_opinion_modifier = { target = X31 modifier = negative_10 }
+add_opinion_modifier = { target = X32 modifier = negative_30 }
+add_opinion_modifier = { target = X37 modifier = positive_28 }
+add_opinion_modifier = { target = X38 modifier = negative_10 }
+add_opinion_modifier = { target = X39 modifier = negative_110 }
+add_opinion_modifier = { target = X40 modifier = negative_50 }
+add_opinion_modifier = { target = X43 modifier = positive_30 }
+add_opinion_modifier = { target = X44 modifier = negative_10 }
+add_opinion_modifier = { target = X46 modifier = negative_200 }
+add_opinion_modifier = { target = X50 modifier = positive_10 }
+add_opinion_modifier = { target = X57 modifier = positive_81 }
+add_opinion_modifier = { target = X59 modifier = negative_110 }
+add_opinion_modifier = { target = X61 modifier = negative_10 }
+add_opinion_modifier = { target = X62 modifier = negative_10 }
+add_opinion_modifier = { target = X64 modifier = negative_60 }
+add_opinion_modifier = { target = X65 modifier = positive_10 }
+add_opinion_modifier = { target = X67 modifier = negative_60 }
+add_opinion_modifier = { target = X69 modifier = negative_10 }
+add_opinion_modifier = { target = X72 modifier = negative_2 }
+add_opinion_modifier = { target = X73 modifier = negative_2 }
+add_opinion_modifier = { target = X75 modifier = positive_38 }
+add_opinion_modifier = { target = X76 modifier = positive_30 }
+add_opinion_modifier = { target = X77 modifier = positive_200 }
+add_opinion_modifier = { target = X79 modifier = negative_2 }
+add_opinion_modifier = { target = X80 modifier = negative_200 }
+add_opinion_modifier = { target = X81 modifier = positive_200 }
+add_opinion_modifier = { target = X82 modifier = negative_44 }
+add_opinion_modifier = { target = X83 modifier = positive_5 }
+add_opinion_modifier = { target = X84 modifier = positive_25 }
+
+create_faction = "Alliance of Thirteen Colonies"
+add_to_faction = X78
+add_to_faction = MEX
+add_to_faction = TUR
+add_to_faction = CHA
+add_to_faction = EGY
+add_to_faction = UGA
+add_to_faction = X16
+add_to_faction = X39
+
+give_guarantee = SCA
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	add_ideas = MTG_naval_treaty_adherent
+}
+add_ideas = {
+	great_power
+	volunteer_only
+	civilian_economy
+	export_focus
+	culture_yankee
+}
+set_stability = 0.60
+set_war_support = 0.60
+create_country_leader = {
+	name = "Thomas Clemens"
+	desc = "POLITICS_THOMAS_CLEMENS_DESC"
+	picture = "gfx/leaders/USA/Portrait_USA_Franklin_Roosevelt.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+create_corps_commander = {
+	name = "Thomas Howard"
+	picture = ""
+	traits = { }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Cyrus Morgan"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Joseph Sprague"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Norton Kimball"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Samuel Jackson"
+	picture = ""
+	traits = { }
+	skill = 4
+	attack_skill = 5
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 5
+}
+
+create_navy_leader = {
+	name = "Joseph Banks"
+	picture = ""
+	traits = { }
+	skill = 2
+	attack_skill = 4
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 2
+}
+
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	create_equipment_variant = {
+		name = "Early Battleship"
+		type = battleship_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = destroyer_1
+		upgrades = {
+			destroyer_engine_upgrade = 1
+			ship_ASW_upgrade = 1
+			ship_anti_air_upgrade = 1
+			ship_torpedo_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = heavy_cruiser_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = light_cruiser_1
+		upgrades = {
+			ship_anti_air_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Submarine"
+		type = submarine_1
+		upgrades = {
+			ship_reliability_upgrade = 1
+			sub_engine_upgrade = 1
+			sub_stealth_upgrade = 1
+			sub_torpedo_upgrade = 1
+		}
+	}
+
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = ship_hull_light_1
+		name_group = X78_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_depth_charge_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = X78_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_medium_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = X78_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_light_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+}

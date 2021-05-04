@@ -1,0 +1,119 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 10895
+		task_force = {
+			name = "1st Fleet"
+			location = 10895
+			ship = { name = "Olmec" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "Teotihaucan" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "Nahua" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "Usumacinta" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "Azcapotzalco" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "Corralero" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "Rio Grande" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "Tiltepec" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "Pastoria" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "Ayutla" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "Tehuantepec" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "1st Guaymas Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "1st Veracruz Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "1st Tampico Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "1st Mazatlán Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "1st Collataro Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "2nd Tampico Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "2nd Veracruz Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "2nd Collataro Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "1st Tapachula Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "2nd Guaymas Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "3rd Collataro Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "2nd Tapachula Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "3rd Guaymas Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "4th Guaymas Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "4th Collataro Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "3rd Tapachula Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "4th Tapachula Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "2nd Mazatlán Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "3rd Mazatlán Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "4th Mazatlán Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "5th Mazatlán Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "6th Mazatlán Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "7th Mazatlán Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "8th Mazatlán Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "3rd Veracruz Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "3rd Tampico Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "4th Veracruz Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "5th Veracruz Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "4th Tampico Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "5th Guaymas Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "6th Guaymas Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "7th Guaymas Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "8th Guaymas Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "9th Guaymas Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "5th Collataro Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "5th Tapachula Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "6th Collataro Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "7th Collataro Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "8th Collataro Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "9th Collataro Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "6th Tapachula Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "10th Collataro Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "7th Tapachula Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "8th Tapachula Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "9th Tapachula Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "9th Mazatlán Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "5th Tampico Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "6th Tampico Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "6th Veracruz Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "7th Tampico Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "7th Veracruz Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "8th Tampico Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "8th Veracruz Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "9th Tampico Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "9th Veracruz Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "10th Tampico Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "10th Tapachula Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "11th Collataro Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "10th Veracruz Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "11th Veracruz Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "10th Mazatlán Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "12th Collataro Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "11th Tampico Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "12th Tampico Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "12th Veracruz Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+		}
+	}
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 4908
+		task_force = {
+			name = "2nd Fleet"
+			location = 4908
+			ship = { name = "13th Collataro Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "11th Tapachula Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "13th Tampico Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "13th Veracruz Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "MEX"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "MEX"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=418
+	name="STATE_418"
+	resources={
+		chromium=1.000
+	}
+
+	history={
+		owner = PAN
+		victory_points = {
+			13087 1 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 1
+			13087 = {
+				naval_base = 2
+			}
+			air_base = 0
+
+		}
+		add_core_of = PAN
+	}
+
+	provinces={
+		12878 13087 13092 
+	}
+	manpower=1359236
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

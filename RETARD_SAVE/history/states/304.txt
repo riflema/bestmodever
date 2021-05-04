@@ -1,0 +1,32 @@
+
+state={
+	id=304
+	name="STATE_304"
+	resources={
+		oil=6.000
+		steel=14.000
+	}
+
+	history={
+		owner = X37
+		victory_points = {
+			1836 1 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = X37
+		add_claim_by = USA
+	}
+
+	provinces={
+		1752 1836 4772 6722 7877 10685 12566 
+	}
+	manpower=1789412
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

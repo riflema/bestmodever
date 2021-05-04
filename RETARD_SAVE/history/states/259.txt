@@ -1,0 +1,37 @@
+
+state={
+	id=259
+	name="STATE_259"
+	resources={
+		aluminium=135.000
+		steel=43.000
+	}
+
+	history={
+		owner = ITA
+		victory_points = {
+			11834 7 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 6
+			arms_factory = 3
+			dockyard = 3
+			911 = {
+				naval_base = 6
+			}
+			air_base = 3
+
+		}
+		add_core_of = ITA
+		add_claim_by = FRA
+		add_claim_by = X45
+	}
+
+	provinces={
+		911 956 958 3928 3959 3961 9728 9909 11711 11713 11834 11849 11875 11877 
+	}
+	manpower=8452776
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

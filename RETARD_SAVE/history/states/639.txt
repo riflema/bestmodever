@@ -1,0 +1,28 @@
+
+state={
+	id=639
+	name="STATE_639"
+
+	history={
+		owner = TUR
+		victory_points = {
+			10837 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X11
+		add_core_of = X31
+	}
+
+	provinces={
+		7969 10837 10922 
+	}
+	manpower=2504548
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

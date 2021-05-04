@@ -1,0 +1,32 @@
+
+state={
+	id=710
+	name="STATE_710"
+	resources={
+		rubber=0.000
+	}
+
+	history={
+		owner = X73
+		victory_points = {
+			8244 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			8244 = {
+				naval_base = 1
+			}
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		8244 
+	}
+	manpower=155668
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

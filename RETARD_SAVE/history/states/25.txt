@@ -1,0 +1,38 @@
+
+state={
+	id=25
+	name="STATE_25"
+	resources={
+		aluminium=7.000
+		chromium=3.000
+		rubber=1.000
+		steel=0.000
+		tungsten=0.000
+	}
+
+	history={
+		owner = ADU
+		victory_points = {
+			2123 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			2123 = {
+				naval_base = 1
+			}
+			air_base = 0
+
+		}
+		add_claim_by = MLW
+		add_claim_by = X56
+	}
+
+	provinces={
+		2123 2159 2180 2202 2217 5164 10972 12908 
+	}
+	manpower=1751816
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

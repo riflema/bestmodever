@@ -1,0 +1,38 @@
+
+state={
+	id=730
+	name="STATE_730"
+	resources={
+		aluminium=17.000
+		chromium=5.000
+		steel=4.000
+		tungsten=3.000
+	}
+
+	history={
+		owner = X76
+		victory_points = {
+			10980 30 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 1
+			dockyard = 1
+			10980 = {
+				naval_base = 8
+			}
+			air_base = 6
+
+		}
+		add_core_of = X76
+		add_claim_by = BRA
+	}
+
+	provinces={
+		2153 5172 8190 8196 10980 10999 12996 
+	}
+	manpower=3264152
+	buildings_max_level_factor=1.000
+	state_category=city
+}

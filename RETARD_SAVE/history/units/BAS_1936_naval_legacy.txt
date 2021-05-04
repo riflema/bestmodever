@@ -1,0 +1,71 @@
+units = {
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 153
+		task_force = {
+			name = "3rd Fleet"
+			location = 5533
+			ship = { name = "Andes" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BAS } } }
+			ship = { name = "Alsation" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BAS } } }
+			ship = { name = "Ambrose" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BAS } } }
+			ship = { name = "Aquitania" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BAS } } }
+		}
+	}
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 1440
+		task_force = {
+			name = "1st Fleet"
+			location = 1440
+			ship = { name = "Arlanza" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BAS } } }
+			ship = { name = "Aramadale" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BAS } } }
+			ship = { name = "Avenger" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BAS } } }
+			ship = { name = "Prize" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BAS } } }
+			ship = { name = "Alcantara" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BAS } } }
+			ship = { name = "Almanzora" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BAS } } }
+		}
+	}
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 1440
+		task_force = {
+			name = "2nd Fleet"
+			location = 1440
+			ship = { name = "Baralong" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BAS } } }
+			ship = { name = "Farnborough" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BAS } } }
+			ship = { name = "Prince Charles" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BAS } } }
+			ship = { name = "Inverlyon" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BAS } } }
+			ship = { name = "Avoca" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BAS } } }
+			ship = { name = "Bayano" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BAS } } }
+			ship = { name = "Berrida" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BAS } } }
+			ship = { name = "Calyx" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BAS } } }
+			ship = { name = "Calgarian" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BAS } } }
+			ship = { name = "Caribbean" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BAS } } }
+			ship = { name = "Carmania" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BAS } } }
+			ship = { name = "Caronia" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BAS } } }
+			ship = { name = "Celtic" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BAS } } }
+			ship = { name = "Cedric" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BAS } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "BAS"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "BAS"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

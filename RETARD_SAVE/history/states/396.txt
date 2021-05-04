@@ -1,0 +1,32 @@
+
+state={
+	id=396
+	name="STATE_396"
+	resources={
+		chromium=4.000
+		steel=2.000
+		tungsten=2.000
+	}
+
+	history={
+		owner = X46
+		victory_points = {
+			1961 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_claim_by = TIB
+	}
+
+	provinces={
+		1961 1991 8029 10802 
+	}
+	manpower=68012
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,31 @@
+
+state={
+	id=142
+	name="STATE_142"
+	resources={
+		aluminium=1.000
+		steel=0.000
+	}
+
+	history={
+		owner = X18
+		victory_points = {
+			4901 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X18
+	}
+
+	provinces={
+		4825 4901 10454 
+	}
+	manpower=1014788
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

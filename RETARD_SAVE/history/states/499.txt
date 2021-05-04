@@ -1,0 +1,30 @@
+
+state={
+	id=499
+	name="STATE_499"
+	resources={
+		aluminium=4.000
+	}
+
+	history={
+		owner = DDR
+		victory_points = {
+			9517 7 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 9
+			arms_factory = 3
+			air_base = 4
+
+		}
+		add_core_of = DDR
+	}
+
+	provinces={
+		519 694 3690 6555 9517 9545 9655 11486 11499 
+	}
+	manpower=5906372
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

@@ -1,0 +1,35 @@
+
+state={
+	id=121
+	name="STATE_121"
+	resources={
+		aluminium=2.000
+		oil=2.000
+	}
+
+	history={
+		owner = CHL
+		victory_points = {
+			12952 1 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			12952 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+		add_core_of = ARG
+		add_core_of = CHL
+	}
+
+	provinces={
+		2169 5173 8913 11009 12946 12952 
+	}
+	manpower=340956
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

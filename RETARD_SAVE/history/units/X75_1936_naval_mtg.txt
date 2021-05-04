@@ -1,0 +1,40 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 4450
+		task_force = {
+			name = "2nd Fleet"
+			location = 4450
+			ship = { name = "19th Antigua Commerce Raider" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = X75 version_name = "Early Destroyer" } } }
+			ship = { name = "7th Antigua Commerce Raider" definition = destroyer start_experience_factor = 0.10669 equipment = { ship_hull_light_1 = { amount = 1 owner = X75 version_name = "Early Destroyer" } } }
+			ship = { name = "1st Antigua Commerce Raider" definition = destroyer start_experience_factor = 0.10244 equipment = { ship_hull_light_1 = { amount = 1 owner = X75 version_name = "Early Destroyer" } } }
+			ship = { name = "2nd Antigua Commerce Raider" definition = destroyer start_experience_factor = 0.10556 equipment = { ship_hull_light_1 = { amount = 1 owner = X75 version_name = "Early Destroyer" } } }
+			ship = { name = "8th Antigua Commerce Raider" definition = destroyer start_experience_factor = 0.10714 equipment = { ship_hull_light_1 = { amount = 1 owner = X75 version_name = "Early Destroyer" } } }
+			ship = { name = "9th Antigua Commerce Raider" definition = destroyer start_experience_factor = 0.10841 equipment = { ship_hull_light_1 = { amount = 1 owner = X75 version_name = "Early Destroyer" } } }
+			ship = { name = "10th Antigua Commerce Raider" definition = destroyer start_experience_factor = 0.10869 equipment = { ship_hull_light_1 = { amount = 1 owner = X75 version_name = "Early Destroyer" } } }
+			ship = { name = "17th Antigua Commerce Raider" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = X75 version_name = "Early Destroyer" } } }
+			ship = { name = "18th Antigua Commerce Raider" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = X75 version_name = "Early Destroyer" } } }
+			ship = { name = "3rd Antigua Commerce Raider" definition = destroyer start_experience_factor = 0.09829 equipment = { ship_hull_light_1 = { amount = 1 owner = X75 version_name = "Early Destroyer" } } }
+			ship = { name = "15th Antigua Commerce Raider" definition = destroyer start_experience_factor = 0.139 equipment = { ship_hull_light_1 = { amount = 1 owner = X75 version_name = "Early Destroyer" } } }
+			ship = { name = "13th Antigua Commerce Raider" definition = destroyer start_experience_factor = 0.13953 equipment = { ship_hull_light_1 = { amount = 1 owner = X75 version_name = "Early Destroyer" } } }
+			ship = { name = "4th Antigua Commerce Raider" definition = destroyer start_experience_factor = 0.10854 equipment = { ship_hull_light_1 = { amount = 1 owner = X75 version_name = "Early Destroyer" } } }
+			ship = { name = "5th Antigua Commerce Raider" definition = destroyer start_experience_factor = 0.10699 equipment = { ship_hull_light_1 = { amount = 1 owner = X75 version_name = "Early Destroyer" } } }
+			ship = { name = "16th Antigua Commerce Raider" definition = destroyer start_experience_factor = 0.19511 equipment = { ship_hull_light_1 = { amount = 1 owner = X75 version_name = "Early Destroyer" } } }
+			ship = { name = "14th Antigua Commerce Raider" definition = destroyer start_experience_factor = 0.14573 equipment = { ship_hull_light_1 = { amount = 1 owner = X75 version_name = "Early Destroyer" } } }
+			ship = { name = "6th Antigua Commerce Raider" definition = destroyer start_experience_factor = 0.10272 equipment = { ship_hull_light_1 = { amount = 1 owner = X75 version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "X75"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=410
+	name="STATE_410"
+	resources={
+		oil=1.000
+		steel=0.000
+		tungsten=15.000
+	}
+
+	history={
+		owner = PRU
+		victory_points = {
+			5229 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = ARG
+		add_core_of = PRU
+	}
+
+	provinces={
+		5229 12979 
+	}
+	manpower=420140
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,28 @@
+
+state={
+	id=769
+	name="STATE_769"
+
+	history={
+		owner = X81
+		victory_points = {
+			1527 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X81
+		add_claim_by = USA
+	}
+
+	provinces={
+		1527 4590 10339 10393 12365 
+	}
+	manpower=241188
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,31 @@
+
+state={
+	id=24
+	name="STATE_24"
+
+	history={
+		owner = ADU
+		victory_points = {
+			12991 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 0
+			12991 = {
+				naval_base = 4
+			}
+			air_base = 10
+
+		}
+		add_core_of = SOM
+		add_core_of = X71
+	}
+
+	provinces={
+		1905 1964 1966 2020 2063 4909 5065 5068 8094 8164 10777 10818 10833 10891 10921 10928 12759 12814 12840 12991 
+	}
+	manpower=7526636
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

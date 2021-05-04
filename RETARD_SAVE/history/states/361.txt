@@ -1,0 +1,34 @@
+
+state={
+	id=361
+	name="STATE_361"
+	resources={
+		tungsten=0.000
+	}
+
+	history={
+		owner = X40
+		victory_points = {
+			6947 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			3783 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+		add_core_of = MAN
+		add_claim_by = X40
+	}
+
+	provinces={
+		800 836 846 861 887 892 916 927 930 945 946 964 987 1150 1567 3783 3839 3849 3888 3895 3913 3929 3932 3934 3949 3970 4503 4572 4642 6804 6837 6851 6860 6868 6893 6905 6910 6918 6947 6951 6981 7523 7591 7652 7663 9759 9781 9782 9788 9803 9831 9835 9841 9848 9854 9866 9883 9885 9913 10433 10503 11744 11764 11771 11781 11808 11815 11823 11836 11850 11864 11886 12412 
+	}
+	manpower=2024472
+	buildings_max_level_factor=1.000
+	state_category=town
+}

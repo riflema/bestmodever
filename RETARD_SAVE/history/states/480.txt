@@ -1,0 +1,35 @@
+
+state={
+	id=480
+	name="STATE_480"
+	resources={
+		aluminium=8.000
+		steel=24.000
+	}
+
+	history={
+		owner = DDR
+		victory_points = {
+			321 6 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 7
+			arms_factory = 2
+			dockyard = 2
+			321 = {
+				naval_base = 8
+			}
+			air_base = 3
+
+		}
+		add_core_of = DDR
+	}
+
+	provinces={
+		268 293 321 349 3258 3340 6282 6309 6334 6390 9277 9294 9306 9334 9361 9388 11276 11305 11316 11343 11372 
+	}
+	manpower=5208668
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

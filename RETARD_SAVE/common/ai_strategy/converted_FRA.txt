@@ -1,0 +1,151 @@
+﻿converted_war_strategies_FRA = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "DDR"
+		value = 2756
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ITA"
+		value = 2654
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X73"
+		value = 1246
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ADU"
+		value = 691
+	}
+}
+
+converted_diplo_strategies_FRA = {
+	enable = {
+		tag = FRA
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "ITA"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "ADU"
+		value = 81
+	}
+	ai_strategy = {
+		type = contain
+		id = "X57"
+		value = 67
+	}
+	ai_strategy = {
+		type = contain
+		id = "DDR"
+		value = 41
+	}
+	ai_strategy = {
+		type = contain
+		id = "X73"
+		value = 24
+	}
+	ai_strategy = {
+		type = contain
+		id = "EGY"
+		value = 9
+	}
+	ai_strategy = {
+		type = contain
+		id = "SOV"
+		value = 9
+	}
+	ai_strategy = {
+		type = contain
+		id = "TUR"
+		value = 9
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X73"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ITA"
+		value = 265
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "DDR"
+		value = 180
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ADU"
+		value = 150
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X57"
+		value = 29
+	}
+	ai_strategy = {
+		type = alliance
+		id = "TUR"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X57"
+		value = 97
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ENG"
+		value = 30
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SCA"
+		value = 5
+	}
+	ai_strategy = {
+		type = protect
+		id = "CZE"
+		value = 20
+	}
+	ai_strategy = {
+		type = protect
+		id = "POR"
+		value = 20
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X73"
+		value = 78
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "SOV"
+		value = 48
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X64"
+		value = 47
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X43"
+		value = 43
+	}
+}

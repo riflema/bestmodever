@@ -1,0 +1,36 @@
+units = {
+	fleet = {
+		name = "6th Fleet"
+		naval_base = 7617
+		task_force = {
+			name = "6th Fleet"
+			location = 7617
+			ship = { name = "Antonia Manuela" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PAN } } }
+			ship = { name = "Chitty" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PAN } } }
+			ship = { name = "Barú" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PAN } } }
+			ship = { name = "Chagres" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PAN } } }
+			ship = { name = "Chepo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PAN } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "PAN"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "PAN"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

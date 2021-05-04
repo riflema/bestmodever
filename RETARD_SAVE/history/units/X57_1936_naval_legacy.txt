@@ -1,0 +1,62 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 10074
+		task_force = {
+			name = "2nd Fleet"
+			location = 10074
+			ship = { name = "Alfonso I" definition = battleship equipment = { battleship_1 = { amount = 1 owner = X57 } } }
+			ship = { name = "Duca di Castro" definition = battleship equipment = { battleship_1 = { amount = 1 owner = X57 } } }
+			ship = { name = "Due Sicilie" definition = battleship equipment = { battleship_1 = { amount = 1 owner = X57 } } }
+			ship = { name = "Regno di Napoli" definition = battleship equipment = { battleship_1 = { amount = 1 owner = X57 } } }
+			ship = { name = "1st Rome Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X57 } } }
+			ship = { name = "2nd Aquila Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X57 } } }
+			ship = { name = "2nd Rome Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X57 } } }
+			ship = { name = "1st Aquila Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X57 } } }
+			ship = { name = "3rd Rome Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X57 } } }
+			ship = { name = "3rd Aquila Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X57 } } }
+			ship = { name = "1st Palermo Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X57 } } }
+			ship = { name = "1st Naples Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X57 } } }
+			ship = { name = "5th Aquila Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X57 } } }
+			ship = { name = "5th Rome Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X57 } } }
+			ship = { name = "4th Rome Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X57 } } }
+			ship = { name = "Aretusa" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X57 } } }
+			ship = { name = "Minerva" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X57 } } }
+			ship = { name = "Sirena" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X57 } } }
+			ship = { name = "Cerere" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X57 } } }
+			ship = { name = "Leona" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X57 } } }
+			ship = { name = "Corona" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X57 } } }
+		}
+	}
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 12589
+		task_force = {
+			name = "1st Fleet"
+			location = 12589
+			ship = { name = "Santa Lucia" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X57 } } }
+			ship = { name = "Sibilla" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X57 } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "X57"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "X57"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

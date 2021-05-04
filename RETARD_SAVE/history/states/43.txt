@@ -1,0 +1,27 @@
+
+state={
+	id=43
+	name="STATE_43"
+
+	history={
+		owner = ADU
+		victory_points = {
+			2220 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = BRD
+	}
+
+	provinces={
+		2220 
+	}
+	manpower=584172
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

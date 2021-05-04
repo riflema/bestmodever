@@ -1,0 +1,30 @@
+
+state={
+	id=167
+	name="STATE_167"
+
+	history={
+		owner = ENG
+		victory_points = {
+			3379 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+			3379 = {
+				naval_base = 6
+			}
+			air_base = 0
+
+		}
+		add_core_of = ENG
+	}
+
+	provinces={
+		276 337 385 3242 3329 3379 11257 
+	}
+	manpower=1110024
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

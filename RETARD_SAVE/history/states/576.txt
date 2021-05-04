@@ -1,0 +1,31 @@
+
+state={
+	id=576
+	name="STATE_576"
+	resources={
+		chromium=3.000
+	}
+
+	history={
+		owner = X65
+		victory_points = {
+			8093 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X65
+		add_claim_by = X31
+	}
+
+	provinces={
+		8093 12704 12818 
+	}
+	manpower=928772
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

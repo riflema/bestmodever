@@ -1,0 +1,31 @@
+
+state={
+	id=359
+	name="STATE_359"
+	resources={
+		aluminium=0.000
+		steel=2.000
+	}
+
+	history={
+		owner = X40
+		victory_points = {
+			11916 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X40
+	}
+
+	provinces={
+		4066 4079 7085 7094 7126 9995 10040 10079 10098 11916 11973 12036 
+	}
+	manpower=2615152
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

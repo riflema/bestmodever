@@ -1,0 +1,31 @@
+
+state={
+	id=4
+	name="STATE_4"
+	resources={
+		aluminium=8.000
+	}
+
+	history={
+		owner = ADU
+		victory_points = {
+			3938 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 6
+
+		}
+		add_core_of = ADU
+		add_claim_by = SPR
+	}
+
+	provinces={
+		858 888 896 977 3794 3835 3858 3891 3938 3945 3953 3986 6800 6832 6896 6914 9757 9767 9778 9828 9881 11742 11820 11863 12081 13224 13229 
+	}
+	manpower=3557092
+	buildings_max_level_factor=1.000
+	state_category=city
+}

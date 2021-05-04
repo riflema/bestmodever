@@ -1,0 +1,35 @@
+
+state={
+	id=386
+	name="STATE_386"
+	resources={
+		aluminium=1.000
+	}
+
+	history={
+		owner = X43
+		victory_points = {
+			1657 1 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			7683 = {
+				naval_base = 6
+			}
+			air_base = 0
+
+		}
+		add_core_of = X43
+		add_claim_by = CAN
+	}
+
+	provinces={
+		1356 1657 3208 4666 4769 7364 7683 7807 7810 7893 10534 10715 12600 
+	}
+	manpower=3362560
+	buildings_max_level_factor=1.000
+	state_category=city
+}

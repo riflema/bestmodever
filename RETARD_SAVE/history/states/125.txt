@@ -1,0 +1,35 @@
+
+state={
+	id=125
+	name="STATE_125"
+	resources={
+		chromium=80.000
+		steel=2.000
+	}
+
+	history={
+		owner = BAS
+		victory_points = {
+			7546 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			7546 = {
+				naval_base = 8
+			}
+			air_base = 0
+
+		}
+		add_core_of = BAS
+	}
+
+	provinces={
+		1550 4476 7546 7590 12347 
+	}
+	manpower=2426576
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

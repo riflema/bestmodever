@@ -1,0 +1,33 @@
+
+state={
+	id=234
+	name="STATE_234"
+	resources={
+		oil=27.000
+		rubber=0.000
+		steel=7.000
+	}
+
+	history={
+		owner = HON
+		victory_points = {
+			10830 1 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = HON
+		add_claim_by = MEX
+	}
+
+	provinces={
+		2037 2060 2104 5071 8097 10746 10800 10809 10830 12745 12811 12827 12897 13214 
+	}
+	manpower=1884308
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

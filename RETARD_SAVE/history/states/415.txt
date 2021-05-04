@@ -1,0 +1,30 @@
+
+state={
+	id=415
+	name="STATE_415"
+
+	history={
+		owner = PHI
+		victory_points = {
+			1421 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			1421 = {
+				naval_base = 2
+			}
+			air_base = 0
+
+		}
+		add_core_of = PHI
+	}
+
+	provinces={
+		1421 4399 4427 7360 7389 7417 10214 10243 10300 12217 12273 
+	}
+	manpower=614560
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

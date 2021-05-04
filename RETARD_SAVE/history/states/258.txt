@@ -1,0 +1,29 @@
+
+state={
+	id=258
+	name="STATE_258"
+
+	history={
+		owner = ITA
+		victory_points = {
+			778 3 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 1
+
+		}
+		add_core_of = ITA
+		add_claim_by = FRA
+		add_claim_by = X45
+	}
+
+	provinces={
+		778 6609 9603 9745 11573 
+	}
+	manpower=2521656
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

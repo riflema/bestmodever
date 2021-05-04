@@ -1,0 +1,32 @@
+
+state={
+	id=408
+	name="STATE_408"
+	resources={
+		oil=2.000
+		steel=1.000
+		tungsten=15.000
+	}
+
+	history={
+		owner = PRU
+		victory_points = {
+			2174 2 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = PRU
+	}
+
+	provinces={
+		2174 10952 
+	}
+	manpower=2178144
+	buildings_max_level_factor=1.000
+	state_category=town
+}

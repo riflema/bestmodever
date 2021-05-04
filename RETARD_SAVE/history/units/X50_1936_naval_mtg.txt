@@ -1,0 +1,27 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 4329
+		task_force = {
+			name = "1st Fleet"
+			location = 4329
+			ship = { name = "3rd Port Moresby Commerce Raider" definition = destroyer start_experience_factor = 0.18798 equipment = { ship_hull_light_1 = { amount = 1 owner = X50 version_name = "Early Destroyer" } } }
+			ship = { name = "4th Port Moresby Commerce Raider" definition = destroyer start_experience_factor = 0.18796 equipment = { ship_hull_light_1 = { amount = 1 owner = X50 version_name = "Early Destroyer" } } }
+			ship = { name = "5th Port Moresby Commerce Raider" definition = destroyer start_experience_factor = 0.18949 equipment = { ship_hull_light_1 = { amount = 1 owner = X50 version_name = "Early Destroyer" } } }
+			ship = { name = "1st Madang Commerce Raider" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = X50 version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "X50"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

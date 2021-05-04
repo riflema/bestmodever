@@ -1,0 +1,32 @@
+
+state={
+	id=701
+	name="STATE_701"
+	resources={
+		steel=1.000
+	}
+
+	history={
+		owner = X72
+		victory_points = {
+			2207 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			2207 = {
+				naval_base = 1
+			}
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		2207 
+	}
+	manpower=104064
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

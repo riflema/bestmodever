@@ -1,0 +1,30 @@
+
+state={
+	id=752
+	name="STATE_752"
+
+	history={
+		owner = X78
+		victory_points = {
+			13051 2 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 0
+			13051 = {
+				naval_base = 1
+			}
+			air_base = 0
+
+		}
+		add_core_of = X78
+	}
+
+	provinces={
+		13051 
+	}
+	manpower=60988
+	buildings_max_level_factor=1.000
+	state_category=town
+}

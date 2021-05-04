@@ -1,0 +1,30 @@
+
+state={
+	id=685
+	name="STATE_685"
+
+	history={
+		owner = X69
+		victory_points = {
+			4967 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			4967 = {
+				naval_base = 1
+			}
+			air_base = 0
+
+		}
+		add_claim_by = RAJ
+	}
+
+	provinces={
+		4967 
+	}
+	manpower=149044
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

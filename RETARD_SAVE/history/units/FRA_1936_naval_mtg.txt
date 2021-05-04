@@ -1,0 +1,56 @@
+units = {
+	fleet = {
+		name = "4th Fleet"
+		naval_base = 13056
+		task_force = {
+			name = "4th Fleet"
+			location = 8691
+			ship = { name = "Eldorado" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Early Destroyer" } } }
+			ship = { name = "Vauban" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Early Destroyer" } } }
+			ship = { name = "Ulloa" definition = destroyer start_experience_factor = 0.09676 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Early Destroyer" } } }
+			ship = { name = "Magellan" definition = destroyer start_experience_factor = 0.09773 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 11535
+		task_force = {
+			name = "3rd Fleet"
+			location = 11535
+			ship = { name = "Labrador" definition = destroyer start_experience_factor = 0.09271 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Early Destroyer" } } }
+			ship = { name = "Darien" definition = destroyer start_experience_factor = 0.09336 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Early Destroyer" } } }
+			ship = { name = "Ulloa" definition = destroyer start_experience_factor = 0.09364 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Early Destroyer" } } }
+			ship = { name = "Cacique" definition = destroyer start_experience_factor = 0.09345 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Early Destroyer" } } }
+			ship = { name = "Christophe Colomb" definition = destroyer start_experience_factor = 0.09551 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Early Destroyer" } } }
+			ship = { name = "Canada" definition = destroyer start_experience_factor = 0.14556 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Early Destroyer" } } }
+			ship = { name = "Magellan" definition = destroyer start_experience_factor = 0.14702 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Early Destroyer" } } }
+			ship = { name = "Eldorado" definition = destroyer start_experience_factor = 0.1482 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Early Destroyer" } } }
+			ship = { name = "Canada" definition = destroyer start_experience_factor = 0.0991 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Early Destroyer" } } }
+			ship = { name = "Christophe Colomb" definition = destroyer start_experience_factor = 0.0997 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Early Destroyer" } } }
+			ship = { name = "Labrador" definition = destroyer start_experience_factor = 0.0999 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Early Destroyer" } } }
+			ship = { name = "Darien" definition = destroyer start_experience_factor = 0.0998 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Early Destroyer" } } }
+			ship = { name = "Gomer" definition = destroyer start_experience_factor = 0.0992 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Early Destroyer" } } }
+			ship = { name = "Asmodée" definition = destroyer start_experience_factor = 0.09891 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Early Destroyer" } } }
+			ship = { name = "Cacique" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Early Destroyer" } } }
+			ship = { name = "Montezuma" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Early Destroyer" } } }
+			ship = { name = "Orénoque" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Early Destroyer" } } }
+			ship = { name = "Panama" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Early Destroyer" } } }
+			ship = { name = "Albatros" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Early Destroyer" } } }
+			ship = { name = "Descartes" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Early Destroyer" } } }
+			ship = { name = "Caffarelli" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "FRA"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

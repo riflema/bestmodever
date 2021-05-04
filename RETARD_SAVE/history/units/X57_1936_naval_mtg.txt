@@ -1,0 +1,64 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 10074
+		task_force = {
+			name = "2nd Fleet"
+			location = 10074
+			ship = { name = "Alfonso I" definition = battleship start_experience_factor = 0.2 equipment = { ship_hull_heavy_1 = { amount = 1 owner = X57 version_name = "Early Battleship" } } }
+			ship = { name = "Duca di Castro" definition = battleship start_experience_factor = 0.2 equipment = { ship_hull_heavy_1 = { amount = 1 owner = X57 version_name = "Early Battleship" } } }
+			ship = { name = "Due Sicilie" definition = battleship start_experience_factor = 0.2 equipment = { ship_hull_heavy_1 = { amount = 1 owner = X57 version_name = "Early Battleship" } } }
+			ship = { name = "Regno di Napoli" definition = battleship start_experience_factor = 0.2 equipment = { ship_hull_heavy_1 = { amount = 1 owner = X57 version_name = "Early Battleship" } } }
+			ship = { name = "1st Rome Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X57 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "2nd Aquila Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X57 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "2nd Rome Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X57 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st Aquila Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X57 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "3rd Rome Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X57 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "3rd Aquila Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X57 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st Palermo Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X57 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st Naples Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X57 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "5th Aquila Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X57 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "5th Rome Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X57 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "4th Rome Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X57 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Aretusa" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = X57 version_name = "Early Destroyer" } } }
+			ship = { name = "Minerva" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = X57 version_name = "Early Destroyer" } } }
+			ship = { name = "Sirena" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = X57 version_name = "Early Destroyer" } } }
+			ship = { name = "Cerere" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = X57 version_name = "Early Destroyer" } } }
+			ship = { name = "Leona" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = X57 version_name = "Early Destroyer" } } }
+			ship = { name = "Corona" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = X57 version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 12589
+		task_force = {
+			name = "1st Fleet"
+			location = 12589
+			ship = { name = "Santa Lucia" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = X57 version_name = "Early Destroyer" } } }
+			ship = { name = "Sibilla" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = X57 version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "X57"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_1
+			creator = "X57"
+			version_name = "Early Battleship"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

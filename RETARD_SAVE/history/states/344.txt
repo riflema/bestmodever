@@ -1,0 +1,35 @@
+
+state={
+	id=344
+	name="STATE_344"
+	resources={
+		rubber=814.000
+		steel=31.000
+		tungsten=296.000
+	}
+
+	history={
+		owner = MAL
+		victory_points = {
+			12299 2 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 1
+			12299 = {
+				naval_base = 10
+			}
+			air_base = 0
+
+		}
+		add_core_of = MAL
+	}
+
+	provinces={
+		1291 1348 1364 1376 1392 4310 4355 4367 4384 4412 4424 7329 7342 7399 7427 10227 10297 10313 12144 12199 12215 12255 12271 12299 
+	}
+	manpower=3598724
+	buildings_max_level_factor=1.000
+	state_category=city
+}

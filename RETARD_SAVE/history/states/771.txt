@@ -1,0 +1,32 @@
+
+state={
+	id=771
+	name="STATE_771"
+	resources={
+		oil=7.000
+		steel=68.000
+	}
+
+	history={
+		owner = X81
+		victory_points = {
+			6710 3 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 1
+
+		}
+		add_core_of = X81
+		add_claim_by = USA
+	}
+
+	provinces={
+		691 709 751 3766 4854 5205 6710 7420 9724 9746 9747 10233 10303 10599 11656 11669 11731 
+	}
+	manpower=5946856
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

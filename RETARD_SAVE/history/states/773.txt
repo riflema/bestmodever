@@ -1,0 +1,33 @@
+
+state={
+	id=773
+	name="STATE_773"
+	resources={
+		oil=1.000
+		steel=1.000
+		tungsten=5.000
+	}
+
+	history={
+		owner = X82
+		victory_points = {
+			12603 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X82
+		add_claim_by = CAN
+	}
+
+	provinces={
+		736 1671 1788 3481 3498 3769 4739 9669 10552 10611 10656 11440 12593 12603 12663 12682 
+	}
+	manpower=1994080
+	buildings_max_level_factor=1.000
+	state_category=town
+}

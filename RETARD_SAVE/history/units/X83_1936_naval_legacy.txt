@@ -1,0 +1,35 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 7520
+		task_force = {
+			name = "1st Fleet"
+			location = 7520
+			ship = { name = "1st Newcastle Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X83 } } }
+			ship = { name = "1st Melbourne Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X83 } } }
+			ship = { name = "1st Gladstone Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X83 } } }
+			ship = { name = "1st Newcastle Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X83 } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "X83"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "X83"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

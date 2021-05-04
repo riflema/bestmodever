@@ -1,0 +1,34 @@
+
+state={
+	id=413
+	name="STATE_413"
+	resources={
+		rubber=8.000
+	}
+
+	history={
+		owner = PHI
+		victory_points = {
+			10265 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			dockyard = 1
+			10265 = {
+				naval_base = 4
+			}
+			air_base = 5
+
+		}
+		add_core_of = PHI
+	}
+
+	provinces={
+		1221 1288 1388 1415 4101 4214 4233 4288 4350 4368 4423 7275 7323 7325 7351 7439 10165 10167 10236 10241 10252 10265 10272 10280 10298 12213 12236 12253 
+	}
+	manpower=2115260
+	buildings_max_level_factor=1.000
+	state_category=town
+}

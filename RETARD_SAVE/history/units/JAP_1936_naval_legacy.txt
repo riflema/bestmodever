@@ -1,0 +1,62 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 12031
+		task_force = {
+			name = "1st Fleet"
+			location = 12031
+			ship = { name = "Satsuma" definition = battleship equipment = { battleship_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "Kawachi" definition = battleship equipment = { battleship_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "Fuso" definition = battleship equipment = { battleship_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "Yamashiro" definition = battleship equipment = { battleship_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "Ise" definition = battleship equipment = { battleship_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "Fuji" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "Yashima" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "Yashima" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "Shikishima" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "Hatsuse" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "Asaki" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "Mikasa" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "Iki" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "Tango" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "Sagami" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "Suwo" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "Chitose" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "Naniwa" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "Takachiho" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "Matsushima" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "Itsukushima" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "Hashidate" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "Chiyoda" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "Yaeyama" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "Yoshino" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "Hiei" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "Haruna" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "Kirishima" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "Kasagi" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "Niitaka" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "Yura" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = JAP } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "JAP"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "JAP"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

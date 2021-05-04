@@ -1,0 +1,33 @@
+
+state={
+	id=557
+	name="STATE_557"
+	resources={
+		steel=0.000
+	}
+
+	history={
+		owner = X57
+		victory_points = {
+			4879 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			12921 = {
+				naval_base = 6
+			}
+			air_base = 5
+
+		}
+		add_claim_by = NMB
+	}
+
+	provinces={
+		4879 8136 10957 10978 12519 12921 13217 
+	}
+	manpower=302456
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,36 @@
+
+state={
+	id=67
+	name="STATE_67"
+	resources={
+		aluminium=2.000
+		rubber=0.000
+		steel=0.000
+	}
+
+	history={
+		owner = ADU
+		victory_points = {
+			12785 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			12785 = {
+				naval_base = 1
+			}
+			air_base = 0
+
+		}
+		add_claim_by = GHA
+		add_claim_by = TOG
+	}
+
+	provinces={
+		12785 12843 13212 
+	}
+	manpower=298304
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

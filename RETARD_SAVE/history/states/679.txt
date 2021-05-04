@@ -1,0 +1,36 @@
+
+state={
+	id=679
+	name="STATE_679"
+	resources={
+		aluminium=4.000
+		chromium=5.000
+		tungsten=61.000
+	}
+
+	history={
+		owner = X69
+		victory_points = {
+			1349 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			7232 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+		add_core_of = X69
+	}
+
+	provinces={
+		1273 1349 1405 4072 4278 4291 4353 4395 7119 7177 7205 7232 7250 10019 10210 10270 11993 12105 12142 12182 12208 12269 12295 
+	}
+	manpower=5796424
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

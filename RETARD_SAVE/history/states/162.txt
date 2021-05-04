@@ -1,0 +1,32 @@
+
+state={
+	id=162
+	name="STATE_162"
+	resources={
+		chromium=2.000
+		oil=1.000
+		rubber=0.000
+	}
+
+	history={
+		owner = EGY
+		victory_points = {
+			12806 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = SUD
+	}
+
+	provinces={
+		1914 2088 4918 7925 10743 10784 12806 12862 12887 
+	}
+	manpower=931252
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

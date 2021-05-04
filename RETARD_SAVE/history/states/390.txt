@@ -1,0 +1,26 @@
+
+state={
+	id=390
+	name="STATE_390"
+
+	history={
+		owner = X46
+		victory_points = {
+			10696 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		1674 1733 1765 1768 1790 1812 1824 1835 1860 4366 4767 4771 4806 4827 4840 6787 7655 7685 7687 7722 7793 7825 7833 7861 10529 10555 10626 10659 10692 10696 12510 12542 12546 12580 12606 12639 12679 
+	}
+	manpower=883968
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

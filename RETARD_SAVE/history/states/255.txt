@@ -1,0 +1,27 @@
+
+state={
+	id=255
+	name="STATE_255"
+
+	history={
+		owner = X29
+		victory_points = {
+			7645 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X29
+	}
+
+	provinces={
+		1620 7645 10204 12150 
+	}
+	manpower=154160
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

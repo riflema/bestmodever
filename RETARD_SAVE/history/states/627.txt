@@ -1,0 +1,31 @@
+
+state={
+	id=627
+	name="STATE_627"
+
+	history={
+		owner = TUR
+		victory_points = {
+			705 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			705 = {
+				naval_base = 2
+			}
+			air_base = 0
+
+		}
+		add_core_of = GRE
+		add_claim_by = X16
+	}
+
+	provinces={
+		705 3686 3722 6704 6724 9677 9680 9718 11649 
+	}
+	manpower=803632
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

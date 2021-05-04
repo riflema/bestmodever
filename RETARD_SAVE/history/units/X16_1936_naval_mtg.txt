@@ -1,0 +1,27 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 721
+		task_force = {
+			name = "2nd Fleet"
+			location = 721
+			ship = { name = "Zincilri Medrese" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = X16 version_name = "Early Destroyer" } } }
+			ship = { name = "Kyrym" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = X16 version_name = "Early Destroyer" } } }
+			ship = { name = "Haci Giray" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = X16 version_name = "Early Destroyer" } } }
+			ship = { name = "Meli I Giray" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = X16 version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "X16"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

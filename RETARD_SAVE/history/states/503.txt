@@ -1,0 +1,31 @@
+
+state={
+	id=503
+	name="STATE_503"
+
+	history={
+		owner = DDR
+		victory_points = {
+			11562 2 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = FLA
+		add_core_of = X12
+		add_claim_by = DDR
+		add_claim_by = HOL
+		add_claim_by = X68
+	}
+
+	provinces={
+		3262 9363 11456 11562 
+	}
+	manpower=3535400
+	buildings_max_level_factor=1.000
+	state_category=city
+}

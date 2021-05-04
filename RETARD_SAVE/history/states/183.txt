@@ -1,0 +1,33 @@
+
+state={
+	id=183
+	name="STATE_183"
+	resources={
+		rubber=4.000
+	}
+
+	history={
+		owner = ENG
+		victory_points = {
+			1242 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			1242 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+		add_core_of = X50
+	}
+
+	provinces={
+		1222 1242 1283 1310 4635 10147 12107 12123 12135 12484 
+	}
+	manpower=356432
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=604
+	name="STATE_604"
+	resources={
+		chromium=16.000
+	}
+
+	history={
+		owner = TUR
+		victory_points = {
+			11818 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			895 = {
+				naval_base = 2
+			}
+			air_base = 0
+
+		}
+		add_claim_by = GRE
+	}
+
+	provinces={
+		895 3526 3936 6990 9791 9930 10163 11774 11818 11905 
+	}
+	manpower=965088
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

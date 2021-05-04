@@ -1,0 +1,16 @@
+﻿converted_war_strategies_RCG = {
+	enable = {
+		always = no
+	}
+	
+}
+
+converted_diplo_strategies_RCG = {
+	enable = {
+		tag = RCG
+	}
+	abort = {
+		always = no
+	}
+	
+}

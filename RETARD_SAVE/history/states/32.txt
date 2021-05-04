@@ -1,0 +1,32 @@
+
+state={
+	id=32
+	name="STATE_32"
+	resources={
+		aluminium=5.000
+		rubber=1.000
+		steel=1.000
+	}
+
+	history={
+		owner = ADU
+		victory_points = {
+			12751 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_claim_by = MLI
+	}
+
+	provinces={
+		2012 10812 10829 10915 12751 
+	}
+	manpower=605568
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

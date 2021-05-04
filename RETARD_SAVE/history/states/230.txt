@@ -1,0 +1,34 @@
+
+state={
+	id=230
+	name="STATE_230"
+	resources={
+		rubber=0.000
+		steel=8.000
+		tungsten=6.000
+	}
+
+	history={
+		owner = RAJ
+		victory_points = {
+			12338 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			11929 = {
+				naval_base = 1
+			}
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		1609 4204 4644 7565 9993 10077 10389 10416 11929 12338 12423 13208 
+	}
+	manpower=2017908
+	buildings_max_level_factor=1.000
+	state_category=town
+}

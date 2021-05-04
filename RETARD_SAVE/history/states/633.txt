@@ -1,0 +1,37 @@
+
+state={
+	id=633
+	name="STATE_633"
+	resources={
+		chromium=28.000
+		oil=9.000
+		tungsten=16.000
+	}
+
+	history={
+		owner = TUR
+		victory_points = {
+			11668 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			11668 = {
+				naval_base = 2
+			}
+			air_base = 5
+
+		}
+		add_claim_by = X13
+		add_claim_by = X18
+		add_claim_by = X25
+	}
+
+	provinces={
+		714 717 719 735 748 775 3698 3717 3720 3748 3760 3779 6692 6721 6736 6738 6741 6750 6753 6796 9663 9674 9688 9691 9694 9696 9705 9707 9709 9722 9726 9742 11664 11668 11678 11681 11690 11693 11694 11696 11727 11729 
+	}
+	manpower=1109904
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

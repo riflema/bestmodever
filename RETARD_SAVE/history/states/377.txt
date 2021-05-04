@@ -1,0 +1,33 @@
+
+state={
+	id=377
+	name="STATE_377"
+	resources={
+		aluminium=8.000
+		rubber=0.000
+		steel=4.000
+		tungsten=2.000
+	}
+
+	history={
+		owner = X40
+		victory_points = {
+			5092 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = X40
+	}
+
+	provinces={
+		1458 1976 2006 4256 5007 5092 7208 7301 7314 7406 7659 8049 10257 10733 10880 12156 12356 12408 12713 
+	}
+	manpower=2530320
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

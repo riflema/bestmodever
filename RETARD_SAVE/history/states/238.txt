@@ -1,0 +1,31 @@
+
+state={
+	id=238
+	name="STATE_238"
+
+	history={
+		owner = HON
+		victory_points = {
+			10889 1 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			10889 = {
+				naval_base = 8
+			}
+			air_base = 0
+
+		}
+		add_core_of = HON
+		add_claim_by = MEX
+	}
+
+	provinces={
+		10889 
+	}
+	manpower=599552
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,31 @@
+
+state={
+	id=351
+	name="STATE_351"
+
+	history={
+		owner = MAL
+		victory_points = {
+			7419 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			7419 = {
+				naval_base = 8
+			}
+			air_base = 0
+
+		}
+		add_core_of = MAL
+		add_claim_by = PHI
+	}
+
+	provinces={
+		4429 7419 10145 
+	}
+	manpower=203636
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

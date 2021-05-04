@@ -1,0 +1,32 @@
+
+state={
+	id=239
+	name="STATE_239"
+
+	history={
+		owner = HON
+		victory_points = {
+			4965 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			12867 = {
+				naval_base = 8
+			}
+			air_base = 0
+
+		}
+		add_core_of = HON
+		add_core_of = X84
+		add_claim_by = MEX
+	}
+
+	provinces={
+		2021 4904 4965 12867 
+	}
+	manpower=1755412
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,35 @@
+
+state={
+	id=681
+	name="STATE_681"
+	resources={
+		aluminium=3.000
+		chromium=12.000
+		steel=13.000
+		tungsten=6.000
+	}
+
+	history={
+		owner = X69
+		victory_points = {
+			10255 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			10255 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		4237 4414 5032 7090 7310 7372 10001 10255 10296 10756 10897 11924 11978 12241 12462 12779 
+	}
+	manpower=5513992
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

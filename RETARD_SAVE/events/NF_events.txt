@@ -1,0 +1,119 @@
+﻿add_namespace = NFEvents
+
+country_event = {
+	id = NFEvents.1
+	title = "Alliance Offer"
+	desc = "We have been invited to an alliance with Andalusia. Should we accept the invitation?"
+	picture = news_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Yes"
+		ENG = {
+			add_ai_strategy = {
+				type = alliance
+				id = "ADU"
+				value = 200
+			}
+			dismantle_faction = yes
+		}
+		if = {
+			limit = {
+				ADU = {
+					is_in_faction = no
+				}
+			}
+			ADU = {
+				create_faction = "Andalusia"
+			}
+		}
+		ADU = {
+			add_to_faction = ENG
+		}
+		hidden_effect = {
+			news_event = { id = news.500 }
+		}
+	}
+
+	option = {
+		name = "No"
+		ai_chance = { factor = 0 }
+		hidden_effect = {
+			news_event = { id = news.501 }
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.2
+	title = "Alliance Offer"
+	desc = "We have been invited to an alliance with Andalusia. Should we accept the invitation?"
+	picture = news_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Yes"
+		X75 = {
+			add_ai_strategy = {
+				type = alliance
+				id = "ADU"
+				value = 200
+			}
+			dismantle_faction = yes
+		}
+		if = {
+			limit = {
+				ADU = {
+					is_in_faction = no
+				}
+			}
+			ADU = {
+				create_faction = "Andalusia"
+			}
+		}
+		ADU = {
+			add_to_faction = X75
+		}
+		hidden_effect = {
+			news_event = { id = news.502 }
+		}
+	}
+
+	option = {
+		name = "No"
+		ai_chance = { factor = 0 }
+		hidden_effect = {
+			news_event = { id = news.503 }
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.3
+	title = "Trade Incident"
+	desc = "One of our convoys was sunk by The United Kingdom"
+	picture = GFX_report_event_chinese_soldiers_fighting
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = established_traders
+		NOT = { has_country_flag = established_traders_activated }
+	}
+
+	option = {
+		name = "They will Pay!"
+		ai_chance = { factor = 85 }
+		effect_tooltip = {
+			X57 = {
+				set_country_flag = established_traders_activated
+				create_wargoal = {
+					type = annex_everything
+					target = ENG
+				}
+			}
+		}
+	}
+}

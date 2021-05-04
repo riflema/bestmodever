@@ -1,0 +1,16 @@
+﻿converted_war_strategies_X70 = {
+	enable = {
+		always = no
+	}
+	
+}
+
+converted_diplo_strategies_X70 = {
+	enable = {
+		tag = X70
+	}
+	abort = {
+		always = no
+	}
+	
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=355
+	name="STATE_355"
+
+	history={
+		owner = X40
+		victory_points = {
+			4228 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			4228 = {
+				naval_base = 2
+			}
+			air_base = 0
+
+		}
+		add_core_of = PHI
+	}
+
+	provinces={
+		1372 4228 4377 10306 12279 
+	}
+	manpower=80812
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

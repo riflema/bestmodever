@@ -1,0 +1,111 @@
+﻿converted_war_strategies_LIT = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "DDR"
+		value = 2610
+	}
+	ai_strategy = {
+		type = conquer
+		id = "USA"
+		value = 32
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X77"
+		value = 24
+	}
+}
+
+converted_diplo_strategies_LIT = {
+	enable = {
+		tag = LIT
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "ITA"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "CZE"
+		value = 57
+	}
+	ai_strategy = {
+		type = contain
+		id = "X34"
+		value = 29
+	}
+	ai_strategy = {
+		type = contain
+		id = "ADU"
+		value = 19
+	}
+	ai_strategy = {
+		type = contain
+		id = "HUN"
+		value = 15
+	}
+	ai_strategy = {
+		type = contain
+		id = "SCA"
+		value = 3
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X34"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CZE"
+		value = 305
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "USA"
+		value = 8
+	}
+	ai_strategy = {
+		type = alliance
+		id = "TUR"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "FRA"
+		value = 25
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X57"
+		value = 18
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SOV"
+		value = 12
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X31"
+		value = 55
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "HAI"
+		value = 48
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "POR"
+		value = 29
+	}
+}

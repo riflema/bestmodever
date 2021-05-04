@@ -1,0 +1,26 @@
+
+state={
+	id=297
+	name="STATE_297"
+
+	history={
+		owner = KAZ
+		victory_points = {
+			4780 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		1709 1800 3472 4659 4700 4780 7681 7774 7800 10568 10600 10670 12390 12652 
+	}
+	manpower=339772
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,87 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 10407
+		task_force = {
+			name = "2nd Fleet"
+			location = 10407
+			ship = { name = "6th Mobile Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Chicago" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Vesuvius" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "1st Tallahassee Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "1st Charleston Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "2nd Wilmington Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "3rd Mobile Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Prairie" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Buffalo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "2nd Charleston Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Albany" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Atlanta" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Boston" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "3rd Charleston Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "St. Louis" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "St. Paul" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "2nd Mobile Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Badger" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Panther" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "2nd Tallahassee Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "5th Tallahassee Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "6th Tallahassee Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "1st Mobile Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Yankee" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Buffalo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Yosemite" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Dixie" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "4th Tallahassee Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Harvard" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Yale" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "3rd Tallahassee Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "1st Wilmington Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "9th Tallahassee Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "4th Mobile Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "5th Mobile Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "10th Tallahassee Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "11th Tallahassee Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "3rd Wilmington Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "4th Charleston Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "7th Mobile Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "7th Tallahassee Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "8th Mobile Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "9th Mobile Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+		}
+	}
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 7202
+		task_force = {
+			name = "1st Fleet"
+			location = 7202
+			ship = { name = "4th Wilmington Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "8th Tallahassee Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "5th Charleston Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "6th Charleston Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+			ship = { name = "5th Wilmington Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "USA"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "USA"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=196
+	name="STATE_196"
+	resources={
+		steel=30.000
+	}
+
+	history={
+		owner = FRA
+		victory_points = {
+			6657 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			6657 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+		add_core_of = FRA
+	}
+
+	provinces={
+		595 625 629 655 3598 6657 6792 9597 11582 11869 
+	}
+	manpower=919184
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

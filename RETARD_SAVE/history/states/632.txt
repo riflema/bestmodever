@@ -1,0 +1,27 @@
+
+state={
+	id=632
+	name="STATE_632"
+
+	history={
+		owner = TUR
+		victory_points = {
+			3335 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = SOV
+	}
+
+	provinces={
+		315 343 371 398 3226 3335 3364 3390 6252 6305 9301 11229 11298 11325 
+	}
+	manpower=107752
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

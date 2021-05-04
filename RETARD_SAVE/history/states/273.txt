@@ -1,0 +1,35 @@
+
+state={
+	id=273
+	name="STATE_273"
+	resources={
+		aluminium=2.000
+		steel=11.000
+		tungsten=1.000
+	}
+
+	history={
+		owner = ITA
+		victory_points = {
+			9692 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_claim_by = CZE
+		add_claim_by = DDR
+		add_claim_by = ITA
+		add_claim_by = SLO
+	}
+
+	provinces={
+		3484 3548 3565 3581 3716 6571 6573 6586 6604 9539 9563 9692 11536 11539 11691 
+	}
+	manpower=2407896
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

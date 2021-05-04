@@ -1,0 +1,31 @@
+
+state={
+	id=106
+	name="STATE_106"
+	resources={
+		steel=30.000
+	}
+
+	history={
+		owner = CAN
+		victory_points = {
+			10618 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = CAN
+		add_claim_by = USA
+	}
+
+	provinces={
+		10618 11667 12597 
+	}
+	manpower=1208116
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

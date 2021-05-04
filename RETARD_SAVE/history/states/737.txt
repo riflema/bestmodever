@@ -1,0 +1,28 @@
+
+state={
+	id=737
+	name="STATE_737"
+
+	history={
+		owner = X77
+		victory_points = {
+			6971 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X77
+		add_claim_by = USA
+	}
+
+	provinces={
+		801 3941 3975 4627 6850 6958 6971 7466 7588 7646 9923 10441 11888 
+	}
+	manpower=3300520
+	buildings_max_level_factor=1.000
+	state_category=city
+}

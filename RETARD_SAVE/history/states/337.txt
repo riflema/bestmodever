@@ -1,0 +1,30 @@
+
+state={
+	id=337
+	name="STATE_337"
+
+	history={
+		owner = MEX
+		victory_points = {
+			4887 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 1
+			12712 = {
+				naval_base = 8
+			}
+			air_base = 0
+
+		}
+		add_core_of = MEX
+	}
+
+	provinces={
+		4887 8236 10730 10832 12712 12755 
+	}
+	manpower=3403188
+	buildings_max_level_factor=1.000
+	state_category=city
+}

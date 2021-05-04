@@ -1,0 +1,32 @@
+
+state={
+	id=77
+	name="STATE_77"
+	resources={
+		aluminium=2.000
+		steel=2.000
+		tungsten=8.000
+	}
+
+	history={
+		owner = ARG
+		victory_points = {
+			2224 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = ARG
+	}
+
+	provinces={
+		2224 10944 10965 11001 
+	}
+	manpower=729964
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

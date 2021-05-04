@@ -1,0 +1,64 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 12031
+		task_force = {
+			name = "1st Fleet"
+			location = 12031
+			ship = { name = "Satsuma" definition = battleship start_experience_factor = 0.1 equipment = { ship_hull_heavy_1 = { amount = 1 owner = JAP version_name = "Early Battleship" } } }
+			ship = { name = "Kawachi" definition = battleship start_experience_factor = 0.1 equipment = { ship_hull_heavy_1 = { amount = 1 owner = JAP version_name = "Early Battleship" } } }
+			ship = { name = "Fuso" definition = battleship start_experience_factor = 0.1 equipment = { ship_hull_heavy_1 = { amount = 1 owner = JAP version_name = "Early Battleship" } } }
+			ship = { name = "Yamashiro" definition = battleship start_experience_factor = 0.1 equipment = { ship_hull_heavy_1 = { amount = 1 owner = JAP version_name = "Early Battleship" } } }
+			ship = { name = "Ise" definition = battleship start_experience_factor = 0.1 equipment = { ship_hull_heavy_1 = { amount = 1 owner = JAP version_name = "Early Battleship" } } }
+			ship = { name = "Fuji" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Yashima" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Yashima" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Shikishima" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Hatsuse" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Asaki" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Mikasa" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Iki" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Tango" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Sagami" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Suwo" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Chitose" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "Early Light Cruiser" } } }
+			ship = { name = "Naniwa" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "Early Light Cruiser" } } }
+			ship = { name = "Takachiho" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "Early Light Cruiser" } } }
+			ship = { name = "Matsushima" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "Early Light Cruiser" } } }
+			ship = { name = "Itsukushima" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "Early Light Cruiser" } } }
+			ship = { name = "Hashidate" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "Early Light Cruiser" } } }
+			ship = { name = "Chiyoda" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "Early Light Cruiser" } } }
+			ship = { name = "Yaeyama" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "Early Light Cruiser" } } }
+			ship = { name = "Yoshino" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "Early Light Cruiser" } } }
+			ship = { name = "Hiei" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "Early Light Cruiser" } } }
+			ship = { name = "Haruna" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "Early Light Cruiser" } } }
+			ship = { name = "Kirishima" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "Early Light Cruiser" } } }
+			ship = { name = "Kasagi" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "Early Light Cruiser" } } }
+			ship = { name = "Niitaka" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "Early Light Cruiser" } } }
+			ship = { name = "Yura" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "Early Light Cruiser" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "JAP"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_1
+			creator = "JAP"
+			version_name = "Early Battleship"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

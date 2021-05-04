@@ -1,0 +1,64 @@
+units = {
+	fleet = {
+		name = "4th Fleet"
+		naval_base = 13056
+		task_force = {
+			name = "4th Fleet"
+			location = 8691
+			ship = { name = "Eldorado" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }
+			ship = { name = "Vauban" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }
+			ship = { name = "Ulloa" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }
+			ship = { name = "Magellan" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }
+		}
+	}
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 11535
+		task_force = {
+			name = "3rd Fleet"
+			location = 11535
+			ship = { name = "Labrador" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }
+			ship = { name = "Darien" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }
+			ship = { name = "Ulloa" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }
+			ship = { name = "Cacique" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }
+			ship = { name = "Christophe Colomb" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }
+			ship = { name = "Canada" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }
+			ship = { name = "Magellan" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }
+			ship = { name = "Eldorado" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }
+			ship = { name = "Canada" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }
+			ship = { name = "Christophe Colomb" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }
+			ship = { name = "Labrador" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }
+			ship = { name = "Darien" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }
+			ship = { name = "Gomer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }
+			ship = { name = "Asmodée" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }
+			ship = { name = "Cacique" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }
+			ship = { name = "Montezuma" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }
+			ship = { name = "Orénoque" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }
+			ship = { name = "Panama" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }
+			ship = { name = "Albatros" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }
+			ship = { name = "Descartes" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }
+			ship = { name = "Caffarelli" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FRA } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "FRA"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "FRA"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

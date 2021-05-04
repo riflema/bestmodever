@@ -1,0 +1,32 @@
+
+state={
+	id=736
+	name="STATE_736"
+
+	history={
+		owner = X77
+		victory_points = {
+			3823 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 1
+			dockyard = 1
+			6846 = {
+				naval_base = 6
+			}
+			air_base = 0
+
+		}
+		add_core_of = X77
+		add_claim_by = USA
+	}
+
+	provinces={
+		788 865 873 951 1506 3823 3925 6846 7558 9779 9931 10343 10412 10439 11738 11841 11873 
+	}
+	manpower=7178172
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

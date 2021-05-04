@@ -1,0 +1,31 @@
+
+state={
+	id=105
+	name="STATE_105"
+
+	history={
+		owner = CAN
+		victory_points = {
+			7361 20 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 1
+			dockyard = 1
+			1424 = {
+				naval_base = 4
+			}
+			air_base = 6
+
+		}
+		add_core_of = CAN
+	}
+
+	provinces={
+		634 1354 1424 4285 4342 4360 4430 4623 7304 7361 7644 10244 12289 
+	}
+	manpower=7816944
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

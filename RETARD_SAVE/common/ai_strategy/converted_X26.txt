@@ -1,0 +1,171 @@
+﻿converted_war_strategies_X26 = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "X69"
+		value = 568
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X02"
+		value = 207
+	}
+	ai_strategy = {
+		type = conquer
+		id = "RAJ"
+		value = 165
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X19"
+		value = 89
+	}
+	ai_strategy = {
+		type = conquer
+		id = "HAI"
+		value = 32
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X64"
+		value = 22
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X65"
+		value = 8
+	}
+	ai_strategy = {
+		type = conquer
+		id = "USA"
+		value = 8
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X80"
+		value = 8
+	}
+}
+
+converted_diplo_strategies_X26 = {
+	enable = {
+		tag = X26
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "ITA"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "ADU"
+		value = 80
+	}
+	ai_strategy = {
+		type = contain
+		id = "RAJ"
+		value = 66
+	}
+	ai_strategy = {
+		type = contain
+		id = "X69"
+		value = 47
+	}
+	ai_strategy = {
+		type = contain
+		id = "X02"
+		value = 30
+	}
+	ai_strategy = {
+		type = contain
+		id = "X19"
+		value = 20
+	}
+	ai_strategy = {
+		type = contain
+		id = "X64"
+		value = 19
+	}
+	ai_strategy = {
+		type = contain
+		id = "X04"
+		value = 19
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X02"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X69"
+		value = 204
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X19"
+		value = 98
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X64"
+		value = 29
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "HAI"
+		value = 24
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "USA"
+		value = 2
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X80"
+		value = 2
+	}
+	ai_strategy = {
+		type = alliance
+		id = "TUR"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X04"
+		value = 70
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X46"
+		value = 5
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X62"
+		value = 80
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X02"
+		value = 67
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X10"
+		value = 65
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X03"
+		value = 58
+	}
+}

@@ -1,0 +1,21 @@
+
+state={
+	id=651
+	name="STATE_651"
+	resources={
+		steel=1.000
+	}
+	impassable = yes
+
+	history={
+		owner = TUR
+		add_core_of = EGY
+	}
+
+	provinces={
+		1060 11951 
+	}
+	manpower=38676
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

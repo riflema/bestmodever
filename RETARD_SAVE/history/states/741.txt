@@ -1,0 +1,32 @@
+
+state={
+	id=741
+	name="STATE_741"
+	resources={
+		aluminium=1.000
+		steel=3.000
+	}
+
+	history={
+		owner = X77
+		victory_points = {
+			11654 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X77
+		add_claim_by = USA
+	}
+
+	provinces={
+		734 6707 9664 11654 
+	}
+	manpower=982960
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

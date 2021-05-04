@@ -1,0 +1,33 @@
+
+state={
+	id=476
+	name="STATE_476"
+	resources={
+		chromium=2.000
+		oil=0.000
+		steel=21.000
+		tungsten=2.000
+	}
+
+	history={
+		owner = DDR
+		victory_points = {
+			3522 7 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 9
+			arms_factory = 3
+			air_base = 4
+
+		}
+		add_core_of = DDR
+	}
+
+	provinces={
+		425 538 3522 3561 6487 6501 6524 6582 9238 9456 9560 11359 11545 
+	}
+	manpower=6289548
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

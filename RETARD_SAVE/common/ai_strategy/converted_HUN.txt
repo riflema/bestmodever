@@ -1,0 +1,151 @@
+﻿converted_war_strategies_HUN = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "ITA"
+		value = 3074
+	}
+	ai_strategy = {
+		type = conquer
+		id = "TUR"
+		value = 534
+	}
+	ai_strategy = {
+		type = conquer
+		id = "DDR"
+		value = 162
+	}
+	ai_strategy = {
+		type = conquer
+		id = "USA"
+		value = 64
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X43"
+		value = 40
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X77"
+		value = 24
+	}
+}
+
+converted_diplo_strategies_HUN = {
+	enable = {
+		tag = HUN
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "ITA"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "X57"
+		value = 67
+	}
+	ai_strategy = {
+		type = contain
+		id = "ADU"
+		value = 63
+	}
+	ai_strategy = {
+		type = contain
+		id = "DDR"
+		value = 45
+	}
+	ai_strategy = {
+		type = contain
+		id = "CZE"
+		value = 13
+	}
+	ai_strategy = {
+		type = contain
+		id = "X16"
+		value = 11
+	}
+	ai_strategy = {
+		type = contain
+		id = "SCA"
+		value = 2
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ITA"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "TUR"
+		value = 128
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "DDR"
+		value = 89
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "USA"
+		value = 12
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X43"
+		value = 7
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X77"
+		value = 4
+	}
+	ai_strategy = {
+		type = alliance
+		id = "TUR"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ADU"
+		value = 143
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X57"
+		value = 84
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ENG"
+		value = 55
+	}
+	ai_strategy = {
+		type = protect
+		id = "BOS"
+		value = 20
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X27"
+		value = 125
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X03"
+		value = 58
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X50"
+		value = 58
+	}
+}

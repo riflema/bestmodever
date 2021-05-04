@@ -1,0 +1,27 @@
+
+state={
+	id=638
+	name="STATE_638"
+
+	history={
+		owner = TUR
+		victory_points = {
+			5098 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_claim_by = KUR
+	}
+
+	provinces={
+		829 2065 4943 5050 5098 8040 8125 9816 10774 12773 
+	}
+	manpower=612428
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

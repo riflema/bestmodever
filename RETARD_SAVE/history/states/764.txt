@@ -1,0 +1,31 @@
+
+state={
+	id=764
+	name="STATE_764"
+	resources={
+		oil=4.000
+		steel=10.000
+	}
+
+	history={
+		owner = X81
+		victory_points = {
+			10709 0 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_claim_by = USA
+	}
+
+	provinces={
+		1870 3719 4759 10709 12685 
+	}
+	manpower=1512160
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

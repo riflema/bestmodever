@@ -1,0 +1,35 @@
+
+state={
+	id=327
+	name="STATE_327"
+	resources={
+		steel=12.000
+		tungsten=26.000
+	}
+
+	history={
+		owner = MAN
+		victory_points = {
+			4052 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			4052 = {
+				naval_base = 2
+			}
+			air_base = 5
+
+		}
+		add_core_of = MAN
+		add_claim_by = X51
+	}
+
+	provinces={
+		898 959 978 3803 3852 3860 3904 3912 4052 6822 6922 6944 7171 9790 9899 10083 11770 11878 
+	}
+	manpower=2144592
+	buildings_max_level_factor=1.000
+	state_category=town
+}

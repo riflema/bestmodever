@@ -1,0 +1,35 @@
+
+state={
+	id=689
+	name="STATE_689"
+	resources={
+		oil=13.000
+		steel=1.000
+	}
+
+	history={
+		owner = VEN
+		victory_points = {
+			12845 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 1
+			12790 = {
+				naval_base = 8
+			}
+			air_base = 0
+
+		}
+		add_core_of = VEN
+		add_claim_by = PAN
+	}
+
+	provinces={
+		2023 4969 10494 10864 12703 12790 12845 
+	}
+	manpower=1901256
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

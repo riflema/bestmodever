@@ -1,0 +1,107 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 6050
+		task_force = {
+			name = "1st Fleet"
+			location = 6050
+			ship = { name = "2nd Göteborg Commerce Raider" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SCA version_name = "Early Destroyer" } } }
+			ship = { name = "Asgård" definition = destroyer start_experience_factor = 0.06611 equipment = { ship_hull_light_1 = { amount = 1 owner = SCA version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 6181
+		task_force = {
+			name = "3rd Fleet"
+			location = 8340
+			ship = { name = "Birka" definition = destroyer start_experience_factor = 0.18118 equipment = { ship_hull_light_1 = { amount = 1 owner = SCA version_name = "Early Destroyer" } } }
+			ship = { name = "Bäckahäst" definition = destroyer start_experience_factor = 0.18231 equipment = { ship_hull_light_1 = { amount = 1 owner = SCA version_name = "Early Destroyer" } } }
+			ship = { name = "Storsjön" definition = destroyer start_experience_factor = 0.18319 equipment = { ship_hull_light_1 = { amount = 1 owner = SCA version_name = "Early Destroyer" } } }
+			ship = { name = "Vänern" definition = destroyer start_experience_factor = 0.18043 equipment = { ship_hull_light_1 = { amount = 1 owner = SCA version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "4th Fleet"
+		naval_base = 6181
+		task_force = {
+			name = "4th Fleet"
+			location = 7468
+			ship = { name = "Víkingr" definition = destroyer start_experience_factor = 0.17825 equipment = { ship_hull_light_1 = { amount = 1 owner = SCA version_name = "Early Destroyer" } } }
+			ship = { name = "Heimdal" definition = destroyer start_experience_factor = 0.06658 equipment = { ship_hull_light_1 = { amount = 1 owner = SCA version_name = "Early Destroyer" } } }
+			ship = { name = "Fridtjof Nansen" definition = destroyer start_experience_factor = 0.0998 equipment = { ship_hull_light_1 = { amount = 1 owner = SCA version_name = "Early Destroyer" } } }
+			ship = { name = "Nordkapp" definition = destroyer start_experience_factor = 0.10463 equipment = { ship_hull_light_1 = { amount = 1 owner = SCA version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "6th Fleet"
+		naval_base = 6181
+		task_force = {
+			name = "6th Fleet"
+			location = 2895
+			ship = { name = "Fylla" definition = destroyer start_experience_factor = 0.18612 equipment = { ship_hull_light_1 = { amount = 1 owner = SCA version_name = "Early Destroyer" } } }
+			ship = { name = "Silkeborg" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SCA version_name = "Early Destroyer" } } }
+			ship = { name = "1st Göteborg Commerce Raider" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SCA version_name = "Early Destroyer" } } }
+			ship = { name = "Erik Segersäll" definition = destroyer start_experience_factor = 0.18162 equipment = { ship_hull_light_1 = { amount = 1 owner = SCA version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "7th Fleet"
+		naval_base = 6181
+		task_force = {
+			name = "7th Fleet"
+			location = 593
+			ship = { name = "Kattegat" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SCA version_name = "Early Destroyer" } } }
+			ship = { name = "Birka" definition = destroyer start_experience_factor = 0.18047 equipment = { ship_hull_light_1 = { amount = 1 owner = SCA version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "8th Fleet"
+		naval_base = 6181
+		task_force = {
+			name = "8th Fleet"
+			location = 4212
+			ship = { name = "Vänern" definition = destroyer start_experience_factor = 0.18174 equipment = { ship_hull_light_1 = { amount = 1 owner = SCA version_name = "Early Destroyer" } } }
+			ship = { name = "Færøerne" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SCA version_name = "Early Destroyer" } } }
+			ship = { name = "Harald Klak" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SCA version_name = "Early Destroyer" } } }
+			ship = { name = "Svend Tveskæg" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SCA version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "9th Fleet"
+		naval_base = 6181
+		task_force = {
+			name = "9th Fleet"
+			location = 3195
+			ship = { name = "Øresund" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SCA version_name = "Early Destroyer" } } }
+			ship = { name = "Vättern" definition = destroyer start_experience_factor = 0.06504 equipment = { ship_hull_light_1 = { amount = 1 owner = SCA version_name = "Early Destroyer" } } }
+			ship = { name = "Esbern Snare" definition = destroyer start_experience_factor = 0.1036 equipment = { ship_hull_light_1 = { amount = 1 owner = SCA version_name = "Early Destroyer" } } }
+			ship = { name = "Fylla" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = SCA version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "10th Fleet"
+		naval_base = 6181
+		task_force = {
+			name = "10th Fleet"
+			location = 2824
+			ship = { name = "Kraken" definition = destroyer start_experience_factor = 0.06617 equipment = { ship_hull_light_1 = { amount = 1 owner = SCA version_name = "Early Destroyer" } } }
+			ship = { name = "Gardarr Svavarsson" definition = destroyer start_experience_factor = 0.06642 equipment = { ship_hull_light_1 = { amount = 1 owner = SCA version_name = "Early Destroyer" } } }
+			ship = { name = "Grønland" definition = destroyer start_experience_factor = 0.1183 equipment = { ship_hull_light_1 = { amount = 1 owner = SCA version_name = "Early Destroyer" } } }
+			ship = { name = "Björn Järnsida" definition = destroyer start_experience_factor = 0.05981 equipment = { ship_hull_light_1 = { amount = 1 owner = SCA version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "SCA"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

@@ -1,0 +1,35 @@
+
+state={
+	id=550
+	name="STATE_550"
+	resources={
+		aluminium=6.000
+		chromium=38.000
+		steel=1.000
+	}
+
+	history={
+		owner = X57
+		victory_points = {
+			8178 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			8178 = {
+				naval_base = 6
+			}
+			air_base = 0
+
+		}
+		add_claim_by = X57
+	}
+
+	provinces={
+		1494 4556 8178 
+	}
+	manpower=685480
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

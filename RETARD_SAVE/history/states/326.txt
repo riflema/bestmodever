@@ -1,0 +1,33 @@
+
+state={
+	id=326
+	name="STATE_326"
+	resources={
+		oil=4.000
+	}
+
+	history={
+		owner = MAN
+		victory_points = {
+			855 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			855 = {
+				naval_base = 2
+			}
+			air_base = 0
+
+		}
+		add_core_of = MAN
+	}
+
+	provinces={
+		855 1322 1742 1755 1820 12446 
+	}
+	manpower=300972
+	buildings_max_level_factor=1.000
+	state_category=rural
+}
