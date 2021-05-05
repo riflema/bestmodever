@@ -196,6 +196,10 @@ add_ideas = {
 	civilian_economy
 	export_focus
 	culture_south_italian
+	X57_Naval_money
+	X57_Colonial_Resistance
+	X57_Fully_Employed
+	X57_unmanned_production
 }
 set_stability = 0.60
 set_war_support = 0.60
@@ -206,6 +210,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = theocracy
 	traits = {
+	      speaker_of_god
 	}
 }
 create_corps_commander = {

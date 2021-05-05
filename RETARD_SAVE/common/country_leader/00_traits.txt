@@ -8,6 +8,18 @@ leader_traits = {
 			factor = 1
 		}
 	}
+
+	speaker_of_god = {
+		random = no
+		stability_factor = 0.2
+		war_support_factor = 0.2
+		army_attack_factor = 0.1
+		army_defence_factor = 0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	
 	warrior_code = {
 		random = no
