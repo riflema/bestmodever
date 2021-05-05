@@ -1799,4 +1799,30 @@ focus_tree = {
 			add_political_power = 150
 		}
 	}
+	focus = {
+		id = ADU_Expand_Research_Bureau_I
+		icon = GFX_focus_research2
+		x = 20
+		y = 6
+		cost = 10
+		prerequisite = { 
+			focus = ADU_A_Nation_Revitalized
+		}
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+	focus = {
+		id = ADU_Expand_Research_Bureau_II
+		icon = GFX_focus_research2
+		x = 20
+		y = 6
+		cost = 20
+		prerequisite = { 
+			focus = ADU_Expand_Research_Bureau_I
+		}
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
 }
