@@ -1,4 +1,134 @@
 ideas = {
+	country = {
+
+		X57_Naval_money = {
+			picture = generic_navy_bonus
+			allowed = {
+				original_tag = X57
+			}
+
+			allowed_civil_war = {
+				tag = X57
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+		     naval_damage_factor = 0.1
+		     naval_defense_factor = 0.1 
+		     industrial_capacity_dockyard = 0.1 
+		     consumer_goods_factor = 0.1    
+			}
+		}
+   
+    X57_Colonial_Resistance = {
+			picture = chi_war_of_resistance3
+			allowed = {
+				original_tag = X57
+			}
+
+			allowed_civil_war = {
+				tag = X57
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+        resistance_growth = 0.5
+        required_garrison_factor = 0.5
+        occupation_cost = 0.5
+        non_core_manpower = -0.5
+	}
+}
+    X57_stay_the_course = {
+			picture = = generic_monarchist_uprising
+			allowed = {
+				original_tag = X57
+			}
+
+			allowed_civil_war = {
+				tag = X57
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+          absolutist_drift = 0.05
+          stability_factor = 0.1
+	}
+}
+ X57_democracy = {
+			picture = = generic_democratic_drift_bonus
+			allowed = {
+				original_tag = X57
+			}
+
+			allowed_civil_war = {
+				tag = X57
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+          democratic_drift = 0.1
+          stability_factor = -0.05
+	}
+}
+ X57_communism = {
+			picture = = generic_communism_drift_bonus
+			allowed = {
+				original_tag = X57
+			}
+
+			allowed_civil_war = {
+				tag = X57
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+          communism_drift = 0.1
+          stability_factor = -0.05
+	}
+}
+ X57_radical = {
+			picture = = spr_masters_of_our_own_fate
+			allowed = {
+				original_tag = X57
+			}
+
+			allowed_civil_war = {
+				tag = X57
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+          radical_drift = 0.1
+          stability_factor = -0.05
+	}
+}
+X57_fascism = {
+			picture = = generic_fascism_drift_bonus
+			allowed = {
+				original_tag = X57
+			}
+
+			allowed_civil_war = {
+				tag = X57
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+          fascism_drift = 0.1
+          stability_factor = -0.05
+	}
+}
+
+
+			
+ideas = {
 	political_advisor = {
 		X57_absolutist_advisor = {
 			allowed = {

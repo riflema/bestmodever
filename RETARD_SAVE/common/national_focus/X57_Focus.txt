@@ -1,0 +1,151 @@
+focus_tree = {
+	id = X57_Focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = X57
+		}
+	}
+	default = no
+	focus = {
+		id = SIC_core_rebellious_states
+		icon = GFX_goal_generic_national_unity
+		cost = 5.00
+		x = 18
+		y = 1
+			available_if_capitulated = yes
+			completion_reward = {
+					add_state_core = 532
+					add_state_core = 536
+					add_stability = 0.1
+				}
+
+	}
+	focus = {
+		id = SIC_future_of_Sicily
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SIC_core_rebellious_states
+		}
+		x = 18
+		y = 2
+			available_if_capitulated = yes
+			completion_reward = {
+					add_political_power = 50
+				}
+
+	}
+	focus = {
+		id = SIC_Stay_the_path
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SIC_future_of_Sicily
+		}
+		mutually_exclusive = {
+			focus = SIC_Communism
+			focus = SIC_Democracy
+			focus = SIC_Radical
+			focus = SIC_Fascism
+		}
+		x = 18
+		y = 3
+			search_filters = { FOCUS_FILTER_POLITICAL }
+			available_if_capitulated = yes
+			completion_reward = {
+					add_ideas = X57_stay_the_course
+					add_political_power = 50
+				}
+
+	}
+	focus = {
+		id = SIC_Democracy
+		icon = GFX_goal_support_democracy
+		cost = 5.00
+		prerequisite = {
+			focus = SIC_future_of_Sicily
+		}
+		mutually_exclusive = {
+			focus = SIC_Communism
+			focus = SIC_Stay_the_path
+			focus = SIC_Radical
+			focus = SIC_Fascism
+		}
+		x = 13
+		y = 3
+			search_filters = { FOCUS_FILTER_POLITICAL }
+			available_if_capitulated = yes
+			completion_reward = {
+					add_ideas = X57_democracy
+				}
+
+	}
+	focus = {
+		id = SIC_Communism
+		icon = GFX_goal_support_communism
+		cost = 5.00
+		prerequisite = {
+			focus = SIC_future_of_Sicily
+		}
+		mutually_exclusive = {
+			focus = SIC_Stay_the_path
+			focus = SIC_Democracy
+			focus = SIC_Radical
+			focus = SIC_Fascism
+		}
+		x = 8
+		y = 3
+			search_filters = { FOCUS_FILTER_POLITICAL }
+			available_if_capitulated = yes
+			completion_reward = {
+					add_ideas = X57_communism
+				}
+
+	}
+	focus = {
+		id = SIC_Radical
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SIC_future_of_Sicily
+		}
+		mutually_exclusive = {
+			focus = SIC_Stay_the_path
+			focus = SIC_Democracy
+			focus = SIC_Communism
+			focus = SIC_Fascism
+		}
+		x = 23
+		y = 3
+			search_filters = { FOCUS_FILTER_POLITICAL }
+			available_if_capitulated = yes
+			completion_reward = {
+					add_ideas = X57_radical
+				}
+
+	}
+	focus = {
+		id = SIC_Fascism
+		icon = GFX_goal_support_fascism
+		cost = 5.00
+		prerequisite = {
+			focus = SIC_future_of_Sicily
+		}
+		mutually_exclusive = {
+			focus = SIC_Radical
+			focus = SIC_Stay_the_path
+			focus = SIC_Democracy
+			focus = SIC_Communism
+		}
+		x = 28
+		y = 3
+			search_filters = { FOCUS_FILTER_POLITICAL }
+			available_if_capitulated = yes
+			completion_reward = {
+					add_ideas = X57_fascism
+				}
+
+	}
+}
