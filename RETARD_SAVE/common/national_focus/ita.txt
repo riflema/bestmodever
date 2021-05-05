@@ -1,6 +1,6 @@
 focus_tree = {
 	id = ita
-	continuous_focus_position = { x = 0 y = 2000 } 
+	continuous_focus_position = { x = 0 y = 1000 } 
 	country = {
 		factor = 0
 		modifier = {
@@ -20,67 +20,22 @@ focus_tree = {
 		}
 		prerequisite = { focus = ITA_expand_the_naval_docks  }
 		completion_reward = {
-			random_owned_controlled_state ={
-
-			 limit = {
-
-			 free_building_slots = {
-
-			 building = dockyard
-
-			 size > 0
-
-			 include_locked = yes
-
-			 } } add_extra_state_shared_building_slots = 1
-
-			 add_building_construction = {
-
-			 type = dockyard
-
-			 level = 1
-
-			 instant_build = yes
-
-			 } set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
-
+			random_owned_controlled_state ={
+			 limit = {
+			 free_building_slots = {
+			 building = dockyard
+			 size > 0
+			 include_locked = yes
+			 }
+			 }
+			 add_extra_state_shared_building_slots = 2
+			 add_building_construction = {
+			 type = dockyard
+			 level = 2
+			 instant_build = yes
+			 }
+			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
 			 }
-
-			random_owned_controlled_state ={
-
-			 limit = {
-
-			 free_building_slots = {
-
-			 building = dockyard
-
-			 size > 0
-
-			 include_locked = yes
-
-			 }
-
-			 }
-
-			 add_extra_state_shared_building_slots = 1
-
-			 add_building_construction = {
-
-			 type = dockyard
-
-			 level = 1
-
-			 instant_build = yes
-
-			 }
-
-			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
-
-			 }
-
-			
-
-			
 		}
 	}
 
@@ -96,37 +51,23 @@ focus_tree = {
 		}
 		prerequisite = { focus = ITA_military_industrial_complex  }
 		completion_reward = {
-			random_owned_controlled_state ={
-
-			 limit = {
-
-			 free_building_slots = {
-
-			 building = arms_factory
-
-			 size > 0
-
-			 include_locked = yes
-
-			 }
-
-			 }
-
-			 add_extra_state_shared_building_slots = 1
-
-			 add_building_construction = {
-
-			 type = arms_factory
-
-			 level = 1
-
-			 instant_build = yes
-
-			 }
-
-			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
-
-			 }
+			random_owned_controlled_state ={
+			 limit = {
+			 free_building_slots = {
+			 building = arms_factory
+			 size > 0
+			 include_locked = yes
+			 }
+			 }
+			 add_extra_state_shared_building_slots = 1
+			 add_building_construction = {
+			 type = arms_factory
+			 level = 1
+			 instant_build = yes
+			 }
+			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			 }
+			
 		}
 	}
 
@@ -141,16 +82,11 @@ focus_tree = {
 			FOCUS_FILTER_RESEARCH
 		}
 		completion_reward = {
-			add_tech_bonus = {
-
-			bonus = 0.5
-
-			uses = 1
-
-			category = electronics
-
-			}
-
+			add_tech_bonus = {
+			 bonus = 1 
+			uses = 2 
+			category = electronics 
+			}
 			
 		}
 	}
@@ -161,30 +97,11 @@ focus_tree = {
 		icon = GFX_focus_generic_navy_battleship2
 		x = 5
 		y = 2
-		cost = 5
+		cost = 1
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
 		prerequisite = { focus = ITA_kickstart_research  }
-		completion_reward = {
-			navy_experience = 10
-
-			
-
-			add_tech_bonus = {
-
-			bonus = 0.5
-
-			uses = 1
-
-			category = cl_tech
-
-			category = ca_tech
-
-			}
-
-			 
-		}
 	}
 
 	#Expansion of the Economy
@@ -198,8 +115,7 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		completion_reward = {
-			set_major = yes
-
+			set_major = yes
 			
 		}
 	}
@@ -216,16 +132,11 @@ focus_tree = {
 		}
 		prerequisite = { focus = ITA_expansion_of_the_economy  }
 		completion_reward = {
-			add_tech_bonus = {
-
-			 bonus = 0.5 
-
-			uses = 2 
-
-			category = industry 
-
-			}
-
+			add_tech_bonus = {
+			 bonus = 1 
+			uses = 2 
+			category = industry 
+			}
 			
 		}
 	}
@@ -235,23 +146,18 @@ focus_tree = {
 		id = ITA_research_greater_production_methods
 		icon = GFX_goal_continuous_research
 		x = 16
-		y = 4
+		y = 5
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
 		prerequisite = { focus = ITA_armament_effort_ii  }
 		completion_reward = {
-			add_tech_bonus = {
-
-			 bonus = 0.5 
-
-			uses = 2 
-
-			category = industry 
-
-			}
-
+			add_tech_bonus = {
+			 bonus = 1 
+			uses = 2 
+			category = industry 
+			}
 			
 		}
 	}
@@ -268,38 +174,22 @@ focus_tree = {
 		}
 		prerequisite = { focus = ITA_armament_effort  }
 		completion_reward = {
-			random_owned_controlled_state ={
-
-			 limit = {
-
-			 free_building_slots = {
-
-			 building = arms_factory
-
-			 size > 0
-
-			 include_locked = yes
-
-			 }
-
-			 }
-
-			 add_extra_state_shared_building_slots = 2
-
-			 add_building_construction = {
-
-			 type = arms_factory
-
-			 level = 2
-
-			 instant_build = yes
-
-			 }
-
-			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
-
-			 }
-
+			random_owned_controlled_state ={
+			 limit = {
+			 free_building_slots = {
+			 building = arms_factory
+			 size > 0
+			 include_locked = yes
+			 }
+			 }
+			 add_extra_state_shared_building_slots = 2
+			 add_building_construction = {
+			 type = arms_factory
+			 level = 2
+			 instant_build = yes
+			 }
+			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			 }
 			
 		}
 	}
@@ -310,44 +200,27 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_mil_factory
 		x = 14
 		y = 5
-		cost = 10
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		prerequisite = { focus = ITA_armament_effort_ii  }
 		completion_reward = {
-			random_owned_controlled_state ={
-
-			 limit = {
-
-			 free_building_slots = {
-
-			 building = arms_factory
-
-			 size > 0
-
-			 include_locked = yes
-
-			 }
-
-			 }
-
-			 add_extra_state_shared_building_slots = 2
-
-			 add_building_construction = {
-
-			 type = arms_factory
-
-			 level = 2
-
-			 instant_build = yes
-
-			 }
-
-			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
-
-			 }
-
+			random_owned_controlled_state ={
+			 limit = {
+			 free_building_slots = {
+			 building = arms_factory
+			 size > 0
+			 include_locked = yes
+			 }
+			 }
+			 add_extra_state_shared_building_slots = 3
+			 add_building_construction = {
+			 type = arms_factory
+			 level = 3
+			 instant_build = yes
+			 }
+			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			 }
 			
 		}
 	}
@@ -377,38 +250,22 @@ focus_tree = {
 		}
 		prerequisite = { focus = ITA_armament_effort_iii  }
 		completion_reward = {
-			random_owned_controlled_state ={
-
-			 limit = {
-
-			 free_building_slots = {
-
-			 building = arms_factory
-
-			 size > 0
-
-			 include_locked = yes
-
-			 }
-
-			 }
-
-			 add_extra_state_shared_building_slots = 2
-
-			 add_building_construction = {
-
-			 type = arms_factory
-
-			 level = 2
-
-			 instant_build = yes
-
-			 }
-
-			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
-
-			 }
-
+			random_owned_controlled_state ={
+			 limit = {
+			 free_building_slots = {
+			 building = arms_factory
+			 size > 0
+			 include_locked = yes
+			 }
+			 }
+			 add_extra_state_shared_building_slots = 3
+			 add_building_construction = {
+			 type = arms_factory
+			 level = 3
+			 instant_build = yes
+			 }
+			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			 }
 			
 		}
 	}
@@ -423,41 +280,6 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		prerequisite = { focus = ITA_mil_research_1  focus = ITA_armament_effort_iv  }
-		completion_reward = {
-			random_owned_controlled_state ={
-
-			 limit = {
-
-			 free_building_slots = {
-
-			 building = arms_factory
-
-			 size > 0
-
-			 include_locked = yes
-
-			 }
-
-			 }
-
-			 add_extra_state_shared_building_slots = 2
-
-			 add_building_construction = {
-
-			 type = arms_factory
-
-			 level = 2
-
-			 instant_build = yes
-
-			 }
-
-			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
-
-			 }
-
-			
-		}
 	}
 
 	#Create Jobs For The Poor
@@ -472,38 +294,22 @@ focus_tree = {
 		}
 		prerequisite = { focus = ITA_expansion_of_the_economy  }
 		completion_reward = {
-			random_owned_controlled_state ={
-
-			 limit = {
-
-			 free_building_slots = {
-
-			 building = industrial_complex
-
-			 size > 0
-
-			 include_locked = yes
-
-			 }
-
-			 }
-
-			 add_extra_state_shared_building_slots = 1
-
-			 add_building_construction = {
-
-			 type = industrial_complex
-
-			 level = 1
-
-			 instant_build = yes
-
-			 }
-
-			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
-
-			 }
-
+			random_owned_controlled_state ={
+			 limit = {
+			 free_building_slots = {
+			 building = industrial_complex
+			 size > 0
+			 include_locked = yes
+			 }
+			 }
+			 add_extra_state_shared_building_slots = 3
+			 add_building_construction = {
+			 type = industrial_complex
+			 level = 1
+			 instant_build = yes
+			 }
+			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			 }
 			
 		}
 	}
@@ -514,21 +320,17 @@ focus_tree = {
 		icon = GFX_goal_generic_army_tanks
 		x = 1
 		y = 2
-		cost = 5
+		cost = 1
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
 		prerequisite = { focus = ITA_kickstart_research  }
 		mutually_exclusive = { focus = ITA_infantry_and_heavy_navy  }
 		select_effect = {
-			add_tech_bonus = {
-
-			bonus = 0.5
-
-			uses = 2
-
-			category = armor
-
+			add_tech_bonus = {
+			bonus = 1.0
+			uses = 2
+			category = armor
 						}
 		}
 	}
@@ -545,16 +347,11 @@ focus_tree = {
 		}
 		prerequisite = { focus = ITA_tanks_and_light_navy  }
 		completion_reward = {
-			add_tech_bonus = {
-
-			 bonus = 0.5
-
-			uses = 2 
-
-			category = navy 
-
-			}
-
+			add_tech_bonus = {
+			 bonus = 1
+			uses = 2 
+			category = navy 
+			}
 			
 		}
 	}
@@ -571,16 +368,11 @@ focus_tree = {
 		}
 		prerequisite = { focus = ITA_submarine_research  }
 		completion_reward = {
-			add_tech_bonus = {
-
-			 bonus = 0.5 
-
-			uses = 2 
-
-			category = dd_tech 
-
-			}
-
+			add_tech_bonus = {
+			 bonus = 1 
+			uses = 2 
+			category = dd_tech 
+			}
 			
 		}
 	}
@@ -597,16 +389,11 @@ focus_tree = {
 		}
 		prerequisite = { focus = ITA_destroyer_funding  }
 		completion_reward = {
-			add_tech_bonus = {
-
-							name = fleet_in_being_bonus
-
-							bonus = 0.5
-
-							uses = 2
-
-							category = fleet_in_being_tree
-
+			add_tech_bonus = {
+							name = fleet_in_being_bonus
+							bonus = 1.0
+							uses = 2
+							category = fleet_in_being_tree
 						}
 		}
 	}
@@ -623,14 +410,10 @@ focus_tree = {
 		}
 		prerequisite = { focus = ITA_tanks_and_light_navy  }
 		completion_reward = {
-			add_tech_bonus = {
-
-			 bonus = 0.5
-
-			uses = 2
-
-			category = armor
-
+			add_tech_bonus = {
+			 bonus = 1.0
+			uses = 2
+			category = armor
 			}
 		}
 	}
@@ -647,16 +430,11 @@ focus_tree = {
 		}
 		prerequisite = { focus = ITA_fund_fiat  }
 		completion_reward = {
-			add_tech_bonus = {
-
-			 bonus = 0.5 
-
-			uses = 2 
-
-			category = motorized
-
-			}
-
+			add_tech_bonus = {
+			 bonus = 1 
+			uses = 2 
+			category = motorized
+			}
 			
 		}
 	}
@@ -673,20 +451,13 @@ focus_tree = {
 		}
 		prerequisite = { focus = ITA_give_abarth_truck_contracts  }
 		completion_reward = {
-			army_experience = 100
-
-			
-
-			add_tech_bonus = {
-
-			 bonus = 0.5 
-
-			uses = 2 
-
-			category = armor
-
-			}
-
+			army_experience = 100
+			
+			add_tech_bonus = {
+			 bonus = 1 
+			uses = 2 
+			category = armor
+			}
 			
 		}
 	}
@@ -703,46 +474,26 @@ focus_tree = {
 		}
 		prerequisite = { focus = ITA_mechanize_the_military  }
 		completion_reward = {
-			send_equipment = {
-
-			 target = USA 
-
-			type = convoy amount = 100
-
-			}
-
-			random_owned_controlled_state ={
-
-			 limit = {
-
-			 free_building_slots = {
-
-			 building = arms_factory
-
-			 size > 0
-
-			 include_locked = yes
-
-			 }
-
-			 }
-
-			 add_extra_state_shared_building_slots = 1
-
-			 add_building_construction = {
-
-			 type = arms_factory
-
-			 level = 1
-
-			 instant_build = yes
-
-			 }
-
-			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
-
-			 }
-
+			send_equipment = {
+			 target = USA 
+			type = convoy amount = 100
+			}
+			random_owned_controlled_state ={
+			 limit = {
+			 free_building_slots = {
+			 building = arms_factory
+			 size > 0
+			 include_locked = yes
+			 }
+			 }
+			 add_extra_state_shared_building_slots = 1
+			 add_building_construction = {
+			 type = arms_factory
+			 level = 1
+			 instant_build = yes
+			 }
+			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			 }
 			
 		}
 	}
@@ -759,38 +510,22 @@ focus_tree = {
 		}
 		prerequisite = { focus = ITA_buy_equipment_from_americans  }
 		completion_reward = {
-			random_owned_controlled_state ={
-
-			 limit = {
-
-			 free_building_slots = {
-
-			 building = dockyard
-
-			 size > 0
-
-			 include_locked = yes
-
-			 }
-
-			 }
-
-			 add_extra_state_shared_building_slots = 1
-
-			 add_building_construction = {
-
-			 type = dockyard
-
-			 level = 1
-
-			 instant_build = yes
-
-			 }
-
-			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
-
-			 }
-
+			random_owned_controlled_state ={
+			 limit = {
+			 free_building_slots = {
+			 building = dockyard
+			 size > 0
+			 include_locked = yes
+			 }
+			 }
+			 add_extra_state_shared_building_slots = 1
+			 add_building_construction = {
+			 type = dockyard
+			 level = 1
+			 instant_build = yes
+			 }
+			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			 }
 			
 		}
 	}
@@ -807,38 +542,22 @@ focus_tree = {
 		}
 		prerequisite = { focus = ITA_fix_the_old_ports  }
 		completion_reward = {
-			random_owned_controlled_state ={
-
-			 limit = {
-
-			 free_building_slots = {
-
-			 building = dockyard
-
-			 size > 0
-
-			 include_locked = yes
-
-			 }
-
-			 }
-
-			 add_extra_state_shared_building_slots = 1
-
-			 add_building_construction = {
-
-			 type = dockyard
-
-			 level = 1
-
-			 instant_build = yes
-
-			 }
-
-			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
-
-			 }
-
+			random_owned_controlled_state ={
+			 limit = {
+			 free_building_slots = {
+			 building = dockyard
+			 size > 0
+			 include_locked = yes
+			 }
+			 }
+			 add_extra_state_shared_building_slots = 1
+			 add_building_construction = {
+			 type = dockyard
+			 level = 1
+			 instant_build = yes
+			 }
+			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			 }
 			
 		}
 	}
@@ -855,38 +574,22 @@ focus_tree = {
 		}
 		prerequisite = { focus = ITA_buy_equipment_from_americans  }
 		completion_reward = {
-			random_owned_controlled_state ={
-
-			 limit = {
-
-			 free_building_slots = {
-
-			 building = arms_factory
-
-			 size > 0
-
-			 include_locked = yes
-
-			 }
-
-			 }
-
-			 add_extra_state_shared_building_slots = 2
-
-			 add_building_construction = {
-
-			 type = arms_factory
-
-			 level = 2
-
-			 instant_build = yes
-
-			 }
-
-			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
-
-			 }
-
+			random_owned_controlled_state ={
+			 limit = {
+			 free_building_slots = {
+			 building = arms_factory
+			 size > 0
+			 include_locked = yes
+			 }
+			 }
+			 add_extra_state_shared_building_slots = 2
+			 add_building_construction = {
+			 type = arms_factory
+			 level = 2
+			 instant_build = yes
+			 }
+			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			 }
 			
 		}
 	}
@@ -903,38 +606,22 @@ focus_tree = {
 		}
 		prerequisite = { focus = ITA_fiat_factory  }
 		completion_reward = {
-			random_owned_controlled_state ={
-
-			 limit = {
-
-			 free_building_slots = {
-
-			 building = arms_factory
-
-			 size > 0
-
-			 include_locked = yes
-
-			 }
-
-			 }
-
-			 add_extra_state_shared_building_slots = 2
-
-			 add_building_construction = {
-
-			 type = arms_factory
-
-			 level = 2
-
-			 instant_build = yes
-
-			 }
-
-			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
-
-			 }
-
+			random_owned_controlled_state ={
+			 limit = {
+			 free_building_slots = {
+			 building = arms_factory
+			 size > 0
+			 include_locked = yes
+			 }
+			 }
+			 add_extra_state_shared_building_slots = 2
+			 add_building_construction = {
+			 type = arms_factory
+			 level = 2
+			 instant_build = yes
+			 }
+			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			 }
 			
 		}
 	}
@@ -951,16 +638,11 @@ focus_tree = {
 		}
 		prerequisite = { focus = ITA_infantry_and_heavy_navy  }
 		completion_reward = {
-			add_tech_bonus = {
-
-			 bonus = 0.5 
-
-			uses = 2 
-
-			category = artillery 
-
-			}
-
+			add_tech_bonus = {
+			 bonus = 1 
+			uses = 2 
+			category = artillery 
+			}
 			
 		}
 	}
@@ -977,18 +659,12 @@ focus_tree = {
 		}
 		prerequisite = { focus = ITA_infantry_and_heavy_navy  }
 		completion_reward = {
-			add_tech_bonus = {
-
-							name = cr_bonus
-
-							bonus = 0.5
-
-							uses = 1
-
-							category = cl_tech
-
-							category = ca_tech
-
+			add_tech_bonus = {
+							name = cr_bonus
+							bonus = 1.0
+							uses = 1
+							category = cl_tech
+							category = ca_tech
 						}
 		}
 	}
@@ -1005,23 +681,14 @@ focus_tree = {
 		}
 		prerequisite = { focus = ITA_fund_regia_marina  }
 		completion_reward = {
-			navy_experience = 25
-
-						add_tech_bonus = {
-
-							name = capital_ships_bonus
-
-							bonus = 0.5
-
-
-							uses = 1
-
-							category = bc_tech
-
-							category = bb_tech
-
-							category = cv_tech
-
+			navy_experience = 25
+						add_tech_bonus = {
+							name = capital_ships_bonus
+							bonus = 1.0
+							uses = 1
+							category = bc_tech
+							category = bb_tech
+							category = cv_tech
 						}
 		}
 	}
@@ -1038,28 +705,17 @@ focus_tree = {
 		}
 		prerequisite = { focus = ITA_artillery_research  }
 		completion_reward = {
-			add_ideas = special_forces
-
-						add_tech_bonus = {
-
-							name = special_forces_bonus
-
-							bonus = 0.5
-
-							uses = 1
-
-							technology = paratroopers
-
-							technology = paratroopers2
-
-							technology = marines
-
-							technology = marines2
-
-							technology = tech_mountaineers
-
-							technology = tech_mountaineers2
-
+			add_ideas = special_forces
+						add_tech_bonus = {
+							name = special_forces_bonus
+							bonus = 1.0
+							uses = 1
+							technology = paratroopers
+							technology = paratroopers2
+							technology = marines
+							technology = marines2
+							technology = tech_mountaineers
+							technology = tech_mountaineers2
 						}
 		}
 	}
@@ -1076,17 +732,11 @@ focus_tree = {
 		}
 		prerequisite = { focus = ITA_research_better_capital_ships  }
 		completion_reward = {
-			add_tech_bonus = {
-
-							name = nav_bomber_bonus
-
-							bonus = 0.5
-
-
-							uses = 1
-
-							category = naval_bomber
-
+			add_tech_bonus = {
+							name = nav_bomber_bonus
+							bonus = 1.0
+							uses = 1
+							category = naval_bomber
 						}
 		}
 	}
@@ -1103,40 +753,23 @@ focus_tree = {
 		}
 		prerequisite = { focus = ITA_forge_our_own_gun_designs  }
 		completion_reward = {
-			army_experience = 5
-
-						add_tech_bonus = {
-
-							name = land_doc_bonus
-
-							bonus = 0.5
-
-							uses = 1
-
-							category = land_doctrine
-
-			}
-
-			add_tech_bonus = {
-
-							name = special_forces_bonus
-
-							bonus = 0.5
-
-							uses = 1
-
-							technology = paratroopers
-
-							technology = paratroopers2
-
-							technology = marines
-
-							technology = marines2
-
-							technology = tech_mountaineers
-
-							technology = tech_mountaineers2
-
+			army_experience = 5
+						add_tech_bonus = {
+							name = land_doc_bonus
+							bonus = 1.0
+							uses = 1
+							category = land_doctrine
+			}
+			add_tech_bonus = {
+							name = special_forces_bonus
+							bonus = 1.0
+							uses = 1
+							technology = paratroopers
+							technology = paratroopers2
+							technology = marines
+							technology = marines2
+							technology = tech_mountaineers
+							technology = tech_mountaineers2
 						}
 		}
 	}
@@ -1153,38 +786,22 @@ focus_tree = {
 		}
 		prerequisite = { focus = ITA_sicilian_naval_pact  }
 		completion_reward = {
-			random_owned_controlled_state ={
-
-			 limit = {
-
-			 free_building_slots = {
-
-			 building = dockyard
-
-			 size > 0
-
-			 include_locked = yes
-
-			 }
-
-			 }
-
-			 add_extra_state_shared_building_slots = 2
-
-			 add_building_construction = {
-
-			 type = dockyard
-
-			 level = 2
-
-			 instant_build = yes
-
-			 }
-
-			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
-
-			 }
-
+			random_owned_controlled_state ={
+			 limit = {
+			 free_building_slots = {
+			 building = dockyard
+			 size > 0
+			 include_locked = yes
+			 }
+			 }
+			 add_extra_state_shared_building_slots = 2
+			 add_building_construction = {
+			 type = dockyard
+			 level = 2
+			 instant_build = yes
+			 }
+			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			 }
 			
 		}
 	}
@@ -1201,16 +818,11 @@ focus_tree = {
 		}
 		prerequisite = { focus = ITA_industry_research  }
 		completion_reward = {
-			add_tech_bonus = {
-
-			 bonus = 0.5 
-
-			uses = 2 
-
-			category = industry 
-
-			}
-
+			add_tech_bonus = {
+			 bonus = 1 
+			uses = 2 
+			category = industry 
+			}
 			
 		}
 	}
@@ -1227,38 +839,22 @@ focus_tree = {
 		}
 		prerequisite = { focus = ITA_create_jobs_for_the_poor  }
 		completion_reward = {
-			random_owned_controlled_state ={
-
-			 limit = {
-
-			 free_building_slots = {
-
-			 building = industrial_complex
-
-			 size > 0
-
-			 include_locked = yes
-
-			 }
-
-			 }
-
-			 add_extra_state_shared_building_slots = 1
-
-			 add_building_construction = {
-
-			 type = industrial_complex
-
-			 level = 1
-
-			 instant_build = yes
-
-			 }
-
-			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
-
-			 }
-
+			random_owned_controlled_state ={
+			 limit = {
+			 free_building_slots = {
+			 building = industrial_complex
+			 size > 0
+			 include_locked = yes
+			 }
+			 }
+			 add_extra_state_shared_building_slots = 1
+			 add_building_construction = {
+			 type = industrial_complex
+			 level = 1
+			 instant_build = yes
+			 }
+			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			 }
 			
 		}
 	}
@@ -1275,16 +871,11 @@ focus_tree = {
 		}
 		prerequisite = { focus = ITA_create_jobs_for_the_poor  }
 		completion_reward = {
-			add_tech_bonus = {
-
-							name = industrial_bonus
-
-							bonus = 0.5
-
-							uses = 3
-
-							category = industry
-
+			add_tech_bonus = {
+							name = industrial_bonus
+							bonus = 1.5
+							uses = 3
+							category = industry
 						}
 		}
 	}
@@ -1301,38 +892,22 @@ focus_tree = {
 		}
 		prerequisite = { focus = ITA_rebuild_the_crumbling_docks  }
 		completion_reward = {
-			random_owned_controlled_state ={
-
-			 limit = {
-
-			 free_building_slots = {
-
-			 building = dockyard
-
-			 size > 0
-
-			 include_locked = yes
-
-			 }
-
-			 }
-
-			 add_extra_state_shared_building_slots = 2
-
-			 add_building_construction = {
-
-			 type = dockyard
-
-			 level = 2
-
-			 instant_build = yes
-
-			 }
-
-			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
-
-			 }
-
+			random_owned_controlled_state ={
+			 limit = {
+			 free_building_slots = {
+			 building = dockyard
+			 size > 0
+			 include_locked = yes
+			 }
+			 }
+			 add_extra_state_shared_building_slots = 3
+			 add_building_construction = {
+			 type = dockyard
+			 level = 3
+			 instant_build = yes
+			 }
+			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			 }
 			
 		}
 	}
@@ -1349,38 +924,22 @@ focus_tree = {
 		}
 		prerequisite = { focus = ITA_build_gun_factories  }
 		completion_reward = {
-			random_owned_controlled_state ={
-
-			 limit = {
-
-			 free_building_slots = {
-
-			 building = arms_factory
-
-			 size > 0
-
-			 include_locked = yes
-
-			 }
-
-			 }
-
-			 add_extra_state_shared_building_slots = 1
-
-			 add_building_construction = {
-
-			 type = arms_factory
-
-			 level = 1
-
-			 instant_build = yes
-
-			 }
-
-			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
-
-			 }
-
+			random_owned_controlled_state ={
+			 limit = {
+			 free_building_slots = {
+			 building = arms_factory
+			 size > 0
+			 include_locked = yes
+			 }
+			 }
+			 add_extra_state_shared_building_slots = 1
+			 add_building_construction = {
+			 type = arms_factory
+			 level = 1
+			 instant_build = yes
+			 }
+			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			 }
 			
 		}
 	}
@@ -1397,38 +956,22 @@ focus_tree = {
 		}
 		prerequisite = { focus = ITA_sicilian_naval_pact  }
 		completion_reward = {
-			random_owned_controlled_state ={
-
-			 limit = {
-
-			 free_building_slots = {
-
-			 building = arms_factory
-
-			 size > 0
-
-			 include_locked = yes
-
-			 }
-
-			 }
-
-			 add_extra_state_shared_building_slots = 1
-
-			 add_building_construction = {
-
-			 type = arms_factory
-
-			 level = 1
-
-			 instant_build = yes
-
-			 }
-
-			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
-
-			 }
-
+			random_owned_controlled_state ={
+			 limit = {
+			 free_building_slots = {
+			 building = arms_factory
+			 size > 0
+			 include_locked = yes
+			 }
+			 }
+			 add_extra_state_shared_building_slots = 1
+			 add_building_construction = {
+			 type = arms_factory
+			 level = 1
+			 instant_build = yes
+			 }
+			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			 }
 			
 		}
 	}
@@ -1445,55 +988,30 @@ focus_tree = {
 		}
 		prerequisite = { focus = ITA_the_sea_in_the_sky  }
 		completion_reward = {
-			navy_experience = 100
-
-			
-
-			random_owned_controlled_state ={
-
-			 limit = {
-
-			 free_building_slots = {
-
-			 building = dockyard
-
-			 size > 0
-
-			 include_locked = yes
-
-			 }
-
-			 }
-
-			 add_extra_state_shared_building_slots = 1
-
-			 add_building_construction = {
-
-			 type = dockyard
-
-			 level = 1
-
-			 instant_build = yes
-
-			 }
-
-			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
-
-			 }
-
-			add_tech_bonus = {
-
-							name = cr_bonus
-
-							bonus = 0.5
-
-
-							uses = 1
-
-							category = cl_tech
-
-							category = ca_tech
-
+			navy_experience = 100
+			
+			random_owned_controlled_state ={
+			 limit = {
+			 free_building_slots = {
+			 building = dockyard
+			 size > 0
+			 include_locked = yes
+			 }
+			 }
+			 add_extra_state_shared_building_slots = 1
+			 add_building_construction = {
+			 type = dockyard
+			 level = 1
+			 instant_build = yes
+			 }
+			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			 }
+			add_tech_bonus = {
+							name = cr_bonus
+							bonus = 1.0
+							uses = 1
+							category = cl_tech
+							category = ca_tech
 						}
 		}
 	}
@@ -1510,38 +1028,22 @@ focus_tree = {
 		}
 		prerequisite = { focus = ITA_construction_effort  }
 		completion_reward = {
-			random_owned_controlled_state ={
-
-			 limit = {
-
-			 free_building_slots = {
-
-			 building = industrial_complex
-
-			 size > 0
-
-			 include_locked = yes
-
-			 }
-
-			 }
-
-			 add_extra_state_shared_building_slots = 2
-
-			 add_building_construction = {
-
-			 type = industrial_complex
-
-			 level = 2
-
-			 instant_build = yes
-
-			 }
-
-			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
-
-			 }
-
+			random_owned_controlled_state ={
+			 limit = {
+			 free_building_slots = {
+			 building = industrial_complex
+			 size > 0
+			 include_locked = yes
+			 }
+			 }
+			 add_extra_state_shared_building_slots = 2
+			 add_building_construction = {
+			 type = industrial_complex
+			 level = 2
+			 instant_build = yes
+			 }
+			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			 }
 			
 		}
 	}
@@ -1551,45 +1053,29 @@ focus_tree = {
 		id = ITA_construction_effort_ii
 		icon = GFX_focus_generic_industry_2
 		x = 12
-		y = 5
+		y = 4
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		prerequisite = { focus = ITA_construction_effort_i  }
 		completion_reward = {
-			random_owned_controlled_state ={
-
-			 limit = {
-
-			 free_building_slots = {
-
-			 building = industrial_complex
-
-			 size > 0
-
-			 include_locked = yes
-
-			 }
-
-			 }
-
-			 add_extra_state_shared_building_slots = 2
-
-			 add_building_construction = {
-
-			 type = industrial_complex
-
-			 level = 2
-
-			 instant_build = yes
-
-			 }
-
-			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
-
-			 }
-
+			random_owned_controlled_state ={
+			 limit = {
+			 free_building_slots = {
+			 building = industrial_complex
+			 size > 0
+			 include_locked = yes
+			 }
+			 }
+			 add_extra_state_shared_building_slots = 4
+			 add_building_construction = {
+			 type = industrial_complex
+			 level = 2
+			 instant_build = yes
+			 }
+			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			 }
 			
 		}
 	}
@@ -1606,38 +1092,22 @@ focus_tree = {
 		}
 		prerequisite = { focus = ITA_industry_research_i  }
 		completion_reward = {
-			random_owned_controlled_state ={
-
-			 limit = {
-
-			 free_building_slots = {
-
-			 building = industrial_complex
-
-			 size > 0
-
-			 include_locked = yes
-
-			 }
-
-			 }
-
-			 add_extra_state_shared_building_slots = 2
-
-			 add_building_construction = {
-
-			 type = industrial_complex
-
-			 level = 2
-
-			 instant_build = yes
-
-			 }
-
-			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
-
-			 }
-
+			random_owned_controlled_state ={
+			 limit = {
+			 free_building_slots = {
+			 building = industrial_complex
+			 size > 0
+			 include_locked = yes
+			 }
+			 }
+			 add_extra_state_shared_building_slots = 4
+			 add_building_construction = {
+			 type = industrial_complex
+			 level = 2
+			 instant_build = yes
+			 }
+			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			 }
 			
 		}
 	}
@@ -1652,40 +1122,24 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = ITA_construction_effort_ii  focus = ITA_construction_effort_iii  }
+		prerequisite = { focus = ITA_construction_effort_iii  focus = ITA_construction_effort_iv  }
 		completion_reward = {
-			random_owned_controlled_state ={
-
-			 limit = {
-
-			 free_building_slots = {
-
-			 building = industrial_complex
-
-			 size > 0
-
-			 include_locked = yes
-
-			 }
-
-			 }
-
-			 add_extra_state_shared_building_slots = 2
-
-			 add_building_construction = {
-
-			 type = industrial_complex
-
-			 level = 2
-
-			 instant_build = yes
-
-			 }
-
-			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
-
-			 }
-
+			random_owned_controlled_state ={
+			 limit = {
+			 free_building_slots = {
+			 building = industrial_complex
+			 size > 0
+			 include_locked = yes
+			 }
+			 }
+			 add_extra_state_shared_building_slots = 4
+			 add_building_construction = {
+			 type = industrial_complex
+			 level = 4
+			 instant_build = yes
+			 }
+			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			 }
 			
 		}
 	}
@@ -1715,38 +1169,22 @@ focus_tree = {
 		}
 		prerequisite = { focus = ITA_expansion_of_the_economy  }
 		completion_reward = {
-			random_owned_controlled_state ={
-
-			 limit = {
-
-			 free_building_slots = {
-
-			 building = dockyard
-
-			 size > 0
-
-			 include_locked = yes
-
-			 }
-
-			 }
-
-			 add_extra_state_shared_building_slots = 1
-
-			 add_building_construction = {
-
-			 type = dockyard
-
-			 level = 1
-
-			 instant_build = yes
-
-			 }
-
-			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
-
-			 }
-
+			random_owned_controlled_state ={
+			 limit = {
+			 free_building_slots = {
+			 building = dockyard
+			 size > 0
+			 include_locked = yes
+			 }
+			 }
+			 add_extra_state_shared_building_slots = 1
+			 add_building_construction = {
+			 type = dockyard
+			 level = 1
+			 instant_build = yes3
+			 }
+			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			 }
 			
 		}
 	}
@@ -1763,37 +1201,38 @@ focus_tree = {
 		}
 		prerequisite = { focus = ITA_naval_effort  }
 		completion_reward = {
-			random_owned_controlled_state ={
-
-			 limit = {
-
-			 free_building_slots = {
-
-			 building = dockyard
-
-			 size > 0
-
-			 include_locked = yes
-
+			random_owned_controlled_state ={
+			 limit = {
+			 free_building_slots = {
+			 building = dockyard
+			 size > 0
+			 include_locked = yes
+			 }
+			 }
+			 add_extra_state_shared_building_slots = 3
+			 add_building_construction = {
+			 type = dockyard
+			 level = 3
+			 instant_build = yes
+			 }
+			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
 			 }
+		}
+	}
 
-			 }
-
-			 add_extra_state_shared_building_slots = 2
-
-			 add_building_construction = {
-
-			 type = dockyard
-
-			 level = 2
-
-			 instant_build = yes
-
-			 }
-
-			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
-
-			 }
+	#Lab Expansion
+	focus = {
+		id = ITA_lab_expansion
+		icon = GFX_focus_research2
+		x = 3
+		y = 9
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = ITA_build_a_submarine_port  focus = ITA_abarth_tank_contracts  focus = ITA_build_new_docks  focus = ITA_artillery_production  }
+		completion_reward = {
+			add_research_slot = 1
 		}
 	}
 
@@ -1809,37 +1248,25 @@ focus_tree = {
 		}
 		prerequisite = { focus = ITA_naval_effort_i  }
 		completion_reward = {
-			random_owned_controlled_state ={
-
-			 limit = {
-
-			 free_building_slots = {
-
-			 building = dockyard
-
-			 size > 0
-
-			 include_locked = yes
-
-			 }
-
-			 }
-
-			 add_extra_state_shared_building_slots = 2
-
-			 add_building_construction = {
-
-			 type = dockyard
-
-			 level = 2
-
-			 instant_build = yes
-
-			 }
-
-			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
-
-			 }
+			
+			
+			random_owned_controlled_state ={
+			 limit = {
+			 free_building_slots = {
+			 building = dockyard
+			 size > 0
+			 include_locked = yes
+			 }
+			 }
+			 add_extra_state_shared_building_slots = 3
+			 add_building_construction = {
+			 type = dockyard
+			 level = 3
+			 instant_build = yes
+			 }
+			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			 }
+			
 		}
 	}
 
@@ -1855,53 +1282,263 @@ focus_tree = {
 		}
 		prerequisite = { focus = ITA_naval_effort_ii  }
 		completion_reward = {
-			random_owned_controlled_state ={
-
-			 limit = {
-
-			 free_building_slots = {
-
-			 building = dockyard
-
-			 size > 0
-
-			 include_locked = yes
-
-			 }
-
-			 }
-
-			 add_extra_state_shared_building_slots = 2
-
-			 add_building_construction = {
-
-			 type = dockyard
-
-			 level = 2
-
-			 instant_build = yes
-
-			 }
-
-			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
-
+			random_owned_controlled_state ={
+			 limit = {
+			 free_building_slots = {
+			 building = dockyard
+			 size > 0
+			 include_locked = yes
+			 }
+			 }
+			 add_extra_state_shared_building_slots = 3
+			 add_building_construction = {
+			 type = dockyard
+			 level = 3
+			 instant_build = yes
+			 }
+			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
 			 }
 		}
 	}
 
-	#Expand Research Bureau
+	#Womens Suffrage
 	focus = {
-		id = ITA_Expand_Research_Bureau
-		icon = GFX_focus_research2
-		x = 3
-		y = 9
+		id = ITA_womens_suffrage
+		icon = GFX_focus_generic_treaty
+		x = 20
+		y = 6
 		cost = 10
 		search_filters = {
-			FOCUS_FILTER_RESEARCH
+			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = ITA_build_a_submarine_port focus = ITA_abarth_tank_contracts focus = ITA_build_new_docks focus = ITA_artillery_production }
+		prerequisite = { focus = ITA_agricultural_collectivization  }
 		completion_reward = {
-			add_research_slot = 1
+			add_ideas = FRA_womens_suffrage
+		}
+	}
+
+	#Political Effort
+	focus = {
+		id = ITA_political_effort
+		icon = GFX_goal_generic_political_pressure
+		x = 24
+		y = 1
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			add_political_power = 120
+			
+		}
+	}
+
+	#Stick With The Current Government
+	focus = {
+		id = ITA_stick_with_the_current_government
+		icon = GFX_ITA_stick_with_the_current_government-427
+		x = 21
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ITA_political_effort  }
+		completion_reward = {
+			add_popularity = { 
+			ideology = democracy 
+			popularity = 0.2
+			}
+			
+		}
+	}
+
+	#Revise the Constitution
+	focus = {
+		id = ITA_revise_the_constitution
+		icon = GFX_goal_anti_comintern_pact
+		x = 21
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ITA_stick_with_the_current_government  }
+		completion_reward = {
+			add_political_power = 100
+			
+			
+		}
+	}
+
+	#Support the Socialists
+	focus = {
+		id = ITA_support_the_socialists
+		icon = GFX_focus_prc_agrarian_socialism
+		x = 19
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ITA_revise_the_constitution  }
+		completion_reward = {
+			set_party_name = { 
+			ideology = democratic 
+			long_name =  Italian Socialist Party
+			name =  ISP
+			}
+			create_country_leader = {
+			 name = 'Filippo_Turati_Costa_Kuliscioff' 
+			desc = 'POLITICS_PETER_II_DESC' 
+			picture = 'Portrait_ita_palmiro_togliatti.dds' 
+			expire = '1965.1.1' 
+			ideology = socialism 
+			traits = {
+			}
+			}
+		}
+	}
+
+	#Support The Conservatives
+	focus = {
+		id = ITA_support_the_conservatives
+		icon = GFX_goal_continuous_increase_nu
+		x = 23
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ITA_revise_the_constitution  }
+		mutually_exclusive = { focus = ITA_support_the_socialists  }
+		completion_reward = {
+			set_party_name = { 
+			ideology = democratic 
+			long_name = Italian_Conservative_Party 
+			name = ICP 
+			}
+			add_country_leader_trait = great_war_hero
+			
+		}
+	}
+
+	#Increase Extraction Spendings
+	focus = {
+		id = ITA_increase_extraction_spendings
+		icon = GFX_goal_continuous_non_factory_construct
+		x = 18
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ITA_support_the_socialists  }
+		completion_reward = {
+			add_resource = { 
+			type = steel 
+			amount = 25 
+			state = 158 
+			}
+			
+		}
+	}
+
+	#Agricultural Collectivization
+	focus = {
+		id = ITA_agricultural_collectivization
+		icon = GFX_goal_generic_demand_territory
+		x = 20
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ITA_support_the_socialists  }
+		completion_reward = {
+			add_ideas = FRA_agricultural_collectivization
+			
+		}
+	}
+
+	#Economic Reform
+	focus = {
+		id = ITA_economic_reform
+		icon = GFX_focus_eng_move_to_secure_the_dominions
+		x = 22
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ITA_support_the_conservatives  }
+		completion_reward = {
+			random_owned_controlled_state ={
+			 limit = {
+			 free_building_slots = {
+			 building = industrial_complex
+			 size > 0
+			 include_locked = yes
+			 }
+			 }
+			 add_extra_state_shared_building_slots = 2
+			 add_building_construction = {
+			 type = industrial_complex
+			 level = 2
+			 instant_build = yes
+			 }
+			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			 }
+			
+		}
+	}
+
+	#Clamp Down On Fascism
+	focus = {
+		id = ITA_clamp_down_on_fascism
+		icon = GFX_focus_secret_rearmament
+		x = 24
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ITA_support_the_conservatives  }
+		completion_reward = {
+			add_ideas = FRA_counter-action
+			
+		}
+	}
+
+	#Construction Effort IV
+	focus = {
+		id = ITA_construction_effort_iv
+		icon = GFX_focus_generic_industry_3
+		x = 12
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = ITA_construction_effort_ii  }
+		completion_reward = {
+			random_owned_controlled_state ={
+			 limit = {
+			 free_building_slots = {
+			 building = industrial_complex
+			 size > 0
+			 include_locked = yes
+			 }
+			 }
+			 add_extra_state_shared_building_slots = 2
+			 add_building_construction = {
+			 type = industrial_complex
+			 level = 2
+			 instant_build = yes
+			 }
+			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			 }
+			
 		}
 	}
 
