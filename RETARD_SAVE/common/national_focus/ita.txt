@@ -1,6 +1,6 @@
 focus_tree = {
 	id = ita
-	continuous_focus_position = { x = 0 y = 1000 } 
+	continuous_focus_position = { x = 0 y = 200000 } 
 	country = {
 		factor = 0
 		modifier = {
@@ -36,6 +36,26 @@ focus_tree = {
 			 }
 			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
 			 }
+		}
+	}
+
+	#The Greatest Threat
+	focus = {
+		id = ITA_the_greatest_threat
+		icon = GFX_focus_attack_germany
+		x = 21
+		y = 14
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = ITA_demand_a_bosnian_puppet  } prerequisite = { focus = ITA_hungarian_subjugation  } prerequisite = { focus = ITA_asturian_enemy  }
+		completion_reward = {
+			create_wargoal = { 
+			type = annex_everything 
+			target = GER
+			}
+			
 		}
 	}
 
@@ -279,7 +299,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = ITA_mil_research_1  focus = ITA_armament_effort_iv  }
+		prerequisite = { focus = ITA_mil_research_1  } prerequisite = { focus = ITA_armament_effort_iv  }
 	}
 
 	#Create Jobs For The Poor
@@ -1053,7 +1073,7 @@ focus_tree = {
 		id = ITA_construction_effort_ii
 		icon = GFX_focus_generic_industry_2
 		x = 12
-		y = 4
+		y = 5
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
@@ -1117,12 +1137,12 @@ focus_tree = {
 		id = ITA_revitalize_the_nation
 		icon = GFX_ITA_revitalize_the_nation-88
 		x = 11
-		y = 6
+		y = 7
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = ITA_construction_effort_iii  focus = ITA_construction_effort_iv  }
+		prerequisite = { focus = ITA_construction_effort_iv  }
 		completion_reward = {
 			random_owned_controlled_state ={
 			 limit = {
@@ -1149,7 +1169,7 @@ focus_tree = {
 		id = ITA_break_the_labor_shortage
 		icon = GFX_goal_continuous_boost_freedom
 		x = 11
-		y = 7
+		y = 8
 		cost = 15
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
@@ -1230,7 +1250,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
-		prerequisite = { focus = ITA_build_a_submarine_port  focus = ITA_abarth_tank_contracts  focus = ITA_build_new_docks  focus = ITA_artillery_production  }
+		prerequisite = { focus = ITA_build_a_submarine_port  } prerequisite = { focus = ITA_abarth_tank_contracts  } prerequisite = { focus = ITA_build_new_docks  } prerequisite = { focus = ITA_artillery_production  }
 		completion_reward = {
 			add_research_slot = 1
 		}
@@ -1389,9 +1409,9 @@ focus_tree = {
 			name =  ISP
 			}
 			create_country_leader = {
-			 name = 'Filippo_Turati_Costa_Kuliscioff' 
-			desc = 'POLITICS_PETER_II_DESC' 
-			picture = 'Portrait_ita_palmiro_togliatti.dds' 
+			 name = "Filippo Turati Costa Kuliscioff" 
+			desc = "POLITICS_PETER_II_DESC"
+			picture = "portrait_ita_palmiro_togliatti.dds" 
 			expire = '1965.1.1' 
 			ideology = socialism 
 			traits = {
@@ -1465,13 +1485,13 @@ focus_tree = {
 	focus = {
 		id = ITA_economic_reform
 		icon = GFX_focus_eng_move_to_secure_the_dominions
-		x = 22
-		y = 5
+		x = 24
+		y = 6
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = ITA_support_the_conservatives  }
+		prerequisite = { focus = ITA_clamp_down_on_fascism  }
 		completion_reward = {
 			random_owned_controlled_state ={
 			 limit = {
@@ -1505,7 +1525,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = ITA_support_the_conservatives  }
 		completion_reward = {
-			add_ideas = FRA_counter-action
+			add_ideas = FRA_counter_action
 			
 		}
 	}
@@ -1514,13 +1534,13 @@ focus_tree = {
 	focus = {
 		id = ITA_construction_effort_iv
 		icon = GFX_focus_generic_industry_3
-		x = 12
-		y = 5
+		x = 11
+		y = 6
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = ITA_construction_effort_ii  }
+		prerequisite = { focus = ITA_construction_effort_ii  } prerequisite = { focus = ITA_construction_effort_iii  }
 		completion_reward = {
 			random_owned_controlled_state ={
 			 limit = {
@@ -1538,6 +1558,393 @@ focus_tree = {
 			 }
 			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
 			 }
+			
+		}
+	}
+
+	#Democratic Bastion
+	focus = {
+		id = ITA_democratic_bastion
+		icon = GFX_focus_generic_the_giant_wakes
+		x = 22
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = ITA_support_the_conservatives  }
+		completion_reward = {
+			add_political_power = 200
+			add_ideas = CZE_democratic_bastion
+			
+		}
+	}
+
+	#Beacon Of Liberty
+	focus = {
+		id = ITA_beacon_of_liberty
+		icon = GFX_ITA_beacon_of_liberty-427
+		x = 22
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ITA_democratic_bastion  }
+		completion_reward = {
+			remove_ideas = CZE_democratic_bastion
+			add_ideas = CZE_Beacon_of_liberty
+			
+		}
+	}
+
+	#Socialist Military
+	focus = {
+		id = ITA_socialist_military
+		icon = GFX_focus_ger_great_red_menace
+		x = 18
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ITA_increase_extraction_spendings  }
+		completion_reward = {
+			add_ideas = CZE_communism_with_a_human_face
+			
+		}
+	}
+
+	#Liberty Fighters
+	focus = {
+		id = ITA_liberty_fighters
+		icon = GFX_goal_continuous_boost_freedom
+		x = 22
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = ITA_beacon_of_liberty  }
+		completion_reward = {
+			add_ideas = militarism_focus
+			
+			
+		}
+	}
+
+	#Why We Fight
+	focus = {
+		id = ITA_why_we_fight
+		icon = GFX_focus_RAJ_lions_of_the_great_war
+		x = 24
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ITA_economic_reform  }
+		completion_reward = {
+			add_ideas = why_we_fight_focus
+			
+		}
+	}
+
+	#Progress Cult
+	focus = {
+		id = ITA_progress_cult
+		icon = GFX_goal_generic_scientific_exchange
+		x = 20
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = ITA_womens_suffrage  }
+		completion_reward = {
+			add_ideas = SOV_progress_cult_focus
+			
+		}
+	}
+
+	#Socialist Science
+	focus = {
+		id = ITA_socialist_science
+		icon = GFX_focus_generic_manpower
+		x = 18
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = ITA_socialist_military  }
+		completion_reward = {
+			add_ideas = SOV_socialist_science_focus
+			
+		}
+	}
+
+	#Workers' Culture
+	focus = {
+		id = ITA_workers_culture
+		icon = GFX_focus_por_workers_of_iberia
+		x = 19
+		y = 8
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ITA_progress_cult  } prerequisite = { focus = ITA_socialist_science  }
+		bypass = {
+			add_ideas = workers_culture
+			
+		}
+	}
+
+	#Victory At All Costs
+	focus = {
+		id = ITA_victory_at_all_costs
+		icon = GFX_focus_secret_rearmament
+		x = 23
+		y = 8
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ITA_liberty_fighters  } prerequisite = { focus = ITA_why_we_fight  }
+		completion_reward = {
+			add_ideas = TUR_victory_at_all_costs
+			
+		}
+	}
+
+	#Italian Friendships
+	focus = {
+		id = ITA_italian_friendships
+		icon = GFX_focus_befriend_italy
+		x = 21
+		y = 9
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ITA_workers_culture  } prerequisite = { focus = ITA_victory_at_all_costs  }
+		completion_reward = {
+			dismantle_faction = yes
+			create_faction = 'Pan_European_Entante'
+			
+		}
+	}
+
+	#Invite Sicily
+	focus = {
+		id = ITA_invite_sicily
+		icon = GFX_focus_generic_diplomatic_treaty
+		x = 17
+		y = 10
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ITA_italian_friendships  }
+		completion_reward = {
+			country_event = {
+			days = 1 
+			id = finland.1 
+			}
+			
+		}
+	}
+
+	#Invite Andalucia
+	focus = {
+		id = ITA_invite_andalucia
+		icon = GFX_ITA_invite_andalucia-120
+		x = 21
+		y = 10
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ITA_italian_friendships  }
+	}
+
+	#Invite Asturias
+	focus = {
+		id = ITA_invite_asturias
+		icon = GFX_focus_generic_diplomatic_treaty
+		x = 25
+		y = 10
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ITA_italian_friendships  }
+	}
+
+	#Attack Hungary
+	focus = {
+		id = ITA_attack_hungary
+		icon = GFX_focus_generic_attack_bulgaria
+		x = 16
+		y = 11
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = ITA_invite_sicily  }
+		completion_reward = {
+			create_wargoal = { 
+			type = annex_everything 
+			target = HUN
+			}
+			
+		}
+	}
+
+	#Invite Hungary
+	focus = {
+		id = ITA_invite_hungary
+		icon = GFX_focus_generic_befriend_bulgaria
+		x = 18
+		y = 11
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = ITA_invite_sicily  }
+		mutually_exclusive = { focus = ITA_attack_hungary  }
+		completion_reward = {
+			add_to_faction = HUN
+			
+		}
+	}
+
+	#A Common Threat
+	focus = {
+		id = ITA_a_common_threat
+		icon = GFX_focus_generic_attack_turkey
+		x = 20
+		y = 11
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = ITA_invite_andalucia  }
+		mutually_exclusive = { focus = ITA_an_enemy_of_my_enemy_is_my_ally  }
+		completion_reward = {
+			create_wargoal = { 
+			type = annex_everything 
+			target = TUR
+			}
+			
+		}
+	}
+
+	#An Enemy Of MY Enemy Is My Ally
+	focus = {
+		id = ITA_an_enemy_of_my_enemy_is_my_ally
+		icon = GFX_focus_generic_befriend_turkey
+		x = 22
+		y = 11
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = ITA_invite_andalucia  }
+		completion_reward = {
+			add_to_faction = TUR
+			
+		}
+	}
+
+	#Finish Off France
+	focus = {
+		id = ITA_finish_off_france
+		icon = GFX_focus_attack_france
+		x = 24
+		y = 11
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = ITA_invite_asturias  }
+		completion_reward = {
+			create_wargoal = { 
+			type = annex_everything 
+			target = FRA
+			}
+			
+		}
+	}
+
+	#Ally France
+	focus = {
+		id = ITA_ally_france
+		icon = GFX_focus_chi_reach_out_to_france
+		x = 26
+		y = 11
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = ITA_invite_asturias  }
+		mutually_exclusive = { focus = ITA_finish_off_france  }
+		completion_reward = {
+			add_to_faction = FRA
+			
+		}
+	}
+
+	#Hungarian Subjugation
+	focus = {
+		id = ITA_hungarian_subjugation
+		icon = GFX_ITA_hungarian_subjugation-59
+		x = 17
+		y = 12
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ITA_attack_hungary  } prerequisite = { focus = ITA_invite_hungary  }
+		completion_reward = {
+			puppet = HUN
+			
+		}
+	}
+
+	#Demand A bosnian Puppet
+	focus = {
+		id = ITA_demand_a_bosnian_puppet
+		icon = GFX_focus_YUG_divide_bosnia
+		x = 21
+		y = 12
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = ITA_a_common_threat  } prerequisite = { focus = ITA_an_enemy_of_my_enemy_is_my_ally  }
+		completion_reward = {
+			puppet = BOS
+			
+		}
+	}
+
+	#Asturian Enemy
+	focus = {
+		id = ITA_asturian_enemy
+		icon = GFX_ITA_asturian_enemy-7
+		x = 25
+		y = 12
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = ITA_finish_off_france  } prerequisite = { focus = ITA_ally_france  }
+		completion_reward = {
+			create_wargoal = { 
+			type = annex_everything 
+			target = ENG
+			}
 			
 		}
 	}
