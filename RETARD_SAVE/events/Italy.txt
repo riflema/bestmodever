@@ -1,1 +1,67 @@
-﻿
+###########################
+# Italian Events
+###########################
+
+add_namespace = italy
+
+
+# Invitation to italian Faction
+country_event = {
+	id = italy.1
+	title = italy.1.t
+	desc = italy.1.d
+	picture = GFX_report_event_worried_french
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = italy.1.a
+		ai_chance = { factor = 90 }
+		ITA = {
+			country_event = italy.2
+			add_to_faction = ROOT
+		}
+		add_ai_strategy = {
+			type = alliance
+			id = "ITA"
+			value = 200
+		}
+	}
+
+	option = {
+		name = italy.1.b
+		ai_chance = { factor = 10 }
+		ITA = { country_event = italy.3 }
+	}
+}
+
+# [Country] Accepts
+country_event = {
+	id = italy.2
+	title = italy.2.t
+	desc = italy.2.d
+	picture = GFX_report_event_soldiers_in_france
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = italy.2.a
+		effect_tooltip = {
+			add_to_faction = FROM
+		}
+	}
+}
+
+# [Country] Refuses
+country_event = {
+	id = italy.3
+	title = italy.3.t
+	desc = italy.3.d
+	picture = GFX_report_event_finnish_letter
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = italy.3.a
+	}
+}

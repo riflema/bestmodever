@@ -1,6 +1,6 @@
 focus_tree = {
 	id = ita
-	continuous_focus_position = { x = 0 y = 200000 } 
+	continuous_focus_position = { x = 0 y = 1000 } 
 	country = {
 		factor = 0
 		modifier = {
@@ -1341,7 +1341,7 @@ focus_tree = {
 	focus = {
 		id = ITA_political_effort
 		icon = GFX_goal_generic_political_pressure
-		x = 24
+		x = 21
 		y = 1
 		cost = 1
 		search_filters = {
@@ -1662,7 +1662,8 @@ focus_tree = {
 		}
 		prerequisite = { focus = ITA_womens_suffrage  }
 		completion_reward = {
-			add_ideas = SOV_progress_cult_focus
+			add_ideas = progress_cult_focus
+			
 			
 		}
 	}
@@ -1679,7 +1680,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = ITA_socialist_military  }
 		completion_reward = {
-			add_ideas = SOV_socialist_science_focus
+			add_ideas = socialist_science_focus
 			
 		}
 	}
@@ -1748,10 +1749,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = ITA_italian_friendships  }
 		completion_reward = {
-			country_event = {
-			days = 1 
-			id = finland.1 
-			}
+			x57 = { country_event = italy.1 }
 			
 		}
 	}
@@ -1767,6 +1765,10 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = ITA_italian_friendships  }
+		completion_reward = {
+			ADU = { country_event = italy.1 }
+			
+		}
 	}
 
 	#Invite Asturias
@@ -1919,6 +1921,7 @@ focus_tree = {
 		icon = GFX_focus_YUG_divide_bosnia
 		x = 21
 		y = 12
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_WAR_SUPPORT
 		}
