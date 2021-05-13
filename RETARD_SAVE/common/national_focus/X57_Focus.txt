@@ -12,7 +12,7 @@ focus_tree = {
 		id = SIC_core_rebellious_states
 		icon = GFX_goal_generic_national_unity
 		cost = 5.00
-		x = 18
+		x = 21
 		y = 1
 			available_if_capitulated = yes
 			completion_reward = {
@@ -29,123 +29,184 @@ focus_tree = {
 		prerequisite = {
 			focus = SIC_core_rebellious_states
 		}
-		x = 18
+		x = 21
 		y = 2
 			available_if_capitulated = yes
 			completion_reward = {
-					add_political_power = 50
+					add_political_power = 75
 				}
 
 	}
 	focus = {
-		id = SIC_Stay_the_path
+		id = SIC_Geman_support
+		icon = GFX_goal_generic_alliance
+		cost = 10.00
+		prerequisite = {
+			focus = SIC_future_of_Sicily
+		}
+		mutually_exclusive = {
+			focus = SIC_Forge_are_own_path
+			focus = SIC_Italian_Support
+		}
+		x = 16
+		y = 4
+			completion_reward = {
+					add_ideas = X57_foreign_support
+					add_opinion_modifier = {
+							target = DDR
+							modifier = large_increase
+						}
+				}
+
+	}
+	focus = {
+		id = SIC_German_alliance
+		icon = GFX_goal_molotov_ribbentrop_pact
+		cost = 5.00
+		prerequisite = {
+			focus = SIC_Geman_support
+		}
+		x = 16
+		y = 5
+			completion_reward = {
+					DDR = {
+							country_event = {
+									id = sic.1
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = SIC_Forge_are_own_path
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
 			focus = SIC_future_of_Sicily
 		}
 		mutually_exclusive = {
-			focus = SIC_Communism
-			focus = SIC_Democracy
-			focus = SIC_Radical
-			focus = SIC_Fascism
+			focus = SIC_Geman_support
+			focus = SIC_Italian_Support
 		}
-		x = 18
-		y = 3
-			search_filters = { FOCUS_FILTER_POLITICAL }
-			available_if_capitulated = yes
+		x = 21
+		y = 4
 			completion_reward = {
 					add_ideas = X57_stay_the_course
-					add_political_power = 50
 				}
 
 	}
 	focus = {
-		id = SIC_Democracy
-		icon = GFX_goal_support_democracy
+		id = SIC_support_Germany
+		icon = GFX_goal_generic_dangerous_deal
 		cost = 5.00
 		prerequisite = {
-			focus = SIC_future_of_Sicily
+			focus = SIC_Forge_are_own_path
 		}
 		mutually_exclusive = {
-			focus = SIC_Communism
-			focus = SIC_Stay_the_path
-			focus = SIC_Radical
-			focus = SIC_Fascism
+			focus = SIC_support_Italy
 		}
-		x = 13
-		y = 3
-			search_filters = { FOCUS_FILTER_POLITICAL }
-			available_if_capitulated = yes
+		x = 20
+		y = 5
 			completion_reward = {
-					add_ideas = X57_democracy
+					add_war_support = 0.1
+					add_opinion_modifier = {
+							target = DDR
+							modifier = medium_increase
+						}
 				}
 
 	}
 	focus = {
-		id = SIC_Communism
-		icon = GFX_goal_support_communism
+		id = SIC_support_Italy
+		icon = GFX_goal_generic_improve_relations
 		cost = 5.00
 		prerequisite = {
-			focus = SIC_future_of_Sicily
+			focus = SIC_Forge_are_own_path
 		}
 		mutually_exclusive = {
-			focus = SIC_Stay_the_path
-			focus = SIC_Democracy
-			focus = SIC_Radical
-			focus = SIC_Fascism
+			focus = SIC_support_Germany
 		}
-		x = 8
-		y = 3
-			search_filters = { FOCUS_FILTER_POLITICAL }
-			available_if_capitulated = yes
+		x = 22
+		y = 5
 			completion_reward = {
-					add_ideas = X57_communism
+					add_stability = 0.1
+					add_opinion_modifier = {
+							target = ITA
+							modifier = medium_increase
+						}
 				}
 
 	}
 	focus = {
-		id = SIC_Radical
-		icon = GFX_goal_unknown
-		cost = 5.00
+		id = SIC_Italian_Support
+		icon = GFX_goal_generic_alliance
+		cost = 10.00
 		prerequisite = {
 			focus = SIC_future_of_Sicily
 		}
 		mutually_exclusive = {
-			focus = SIC_Stay_the_path
-			focus = SIC_Democracy
-			focus = SIC_Communism
-			focus = SIC_Fascism
+			focus = SIC_Forge_are_own_path
+			focus = SIC_Geman_support
 		}
-		x = 23
-		y = 3
-			search_filters = { FOCUS_FILTER_POLITICAL }
-			available_if_capitulated = yes
+		x = 26
+		y = 4
 			completion_reward = {
-					add_ideas = X57_radical
+					add_ideas = X57_foreign_support
+					add_opinion_modifier = {
+							target = ITA
+							modifier = large_increase
+						}
 				}
 
 	}
 	focus = {
-		id = SIC_Fascism
-		icon = GFX_goal_support_fascism
+		id = SIC_Italian_Alliance
+		icon = GFX_goal_tripartite_pact
 		cost = 5.00
 		prerequisite = {
-			focus = SIC_future_of_Sicily
+			focus = SIC_Italian_Support
 		}
-		mutually_exclusive = {
-			focus = SIC_Radical
-			focus = SIC_Stay_the_path
-			focus = SIC_Democracy
-			focus = SIC_Communism
-		}
-		x = 28
-		y = 3
-			search_filters = { FOCUS_FILTER_POLITICAL }
-			available_if_capitulated = yes
+		x = 26
+		y = 5
 			completion_reward = {
-					add_ideas = X57_fascism
+					ITA = {
+							country_event = {
+									id = sic.4
+								}
+						}
 				}
+
+	}
+	focus = {
+		id = SIC_claim_italy
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		cost = 10.00
+		prerequisite = {
+			focus = SIC_German_alliance
+			focus = SIC_support_Germany
+		}
+		x = 18
+		y = 6
+			completion_reward = {
+					every_state = {
+							limit = {
+									is_core_of = ITA
+								}
+							add_claim_by = ROOT
+						}
+				}
+
+	}
+	focus = {
+		id = SIC_Italian_research_pact
+		icon = GFX_goal_generic_scientific_exchange
+		cost = 10.00
+		prerequisite = {
+			focus = SIC_support_Italy
+			focus = SIC_Italian_Alliance
+		}
+		x = 24
+		y = 6
 
 	}
 }
