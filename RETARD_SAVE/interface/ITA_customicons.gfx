@@ -304,17 +304,17 @@ spriteTypes = {	##Icon For:
 
 	##Icon For: 
 	SpriteType = { 
-		name = "GFX_ITA_fortnite-7"
-		texturefile = "gfx/interface/goals/GFX_ITA_fortnite-7.dds"
+		name = "GFX_ITA_attack_the_british-7"
+		texturefile = "gfx/interface/goals/GFX_ITA_attack_the_british-7.dds"
 	}
 
 	##Icon Shine For: 
 	SpriteType = { 
-		name = "GFX_ITA_fortnite-7_shine"
-		texturefile = "gfx/interface/goals/GFX_ITA_fortnite-7.dds"
+		name = "GFX_ITA_attack_the_british-7_shine"
+		texturefile = "gfx/interface/goals/GFX_ITA_attack_the_british-7.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_ITA_fortnite-7.dds"
+			animationmaskfile = "gfx/interface/goals/GFX_ITA_attack_the_british-7.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -326,7 +326,7 @@ spriteTypes = {	##Icon For:
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_ITA_fortnite-7.dds"
+			animationmaskfile = "gfx/interface/goals/GFX_ITA_attack_the_british-7.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no

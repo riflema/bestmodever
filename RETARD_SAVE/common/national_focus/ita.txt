@@ -49,7 +49,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_WAR_SUPPORT
 		}
-		prerequisite = { focus = ITA_demand_a_bosnian_puppet  } prerequisite = { focus = ITA_hungarian_subjugation  } prerequisite = { focus = ITA_fortnite  }
+		prerequisite = { focus = ITA_demand_a_bosnian_puppet  } prerequisite = { focus = ITA_hungarian_subjugation  } prerequisite = { focus = ITA_attack_the_british  }
 		completion_reward = {
 			create_wargoal = { 
 			type = annex_everything 
@@ -1784,6 +1784,11 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = ITA_italian_friendships  }
+		select_effect = {
+			x73 = {
+			    country_event = { id = italy.1 }
+			}
+		}
 	}
 
 	#Attack Hungary
@@ -1819,9 +1824,9 @@ focus_tree = {
 		prerequisite = { focus = ITA_invite_sicily  }
 		mutually_exclusive = { focus = ITA_attack_hungary  }
 		completion_reward = {
-			add_to_faction = HUN
-			
-			
+			HUN = {
+			    country_event = { id = italy.1 }
+			}
 		}
 	}
 
@@ -1858,9 +1863,9 @@ focus_tree = {
 		}
 		prerequisite = { focus = ITA_invite_andalucia  }
 		completion_reward = {
-			add_to_faction = TUR
-			
-			
+			TUR = {
+			    country_event = { id = italy.1 }
+			}
 		}
 	}
 
@@ -1897,8 +1902,9 @@ focus_tree = {
 		prerequisite = { focus = ITA_invite_asturias  }
 		mutually_exclusive = { focus = ITA_finish_off_france  }
 		completion_reward = {
-			add_to_faction = FRA
-			
+			FRA = {
+			    country_event = { id = italy.1 }
+			}
 		}
 	}
 
@@ -1914,7 +1920,9 @@ focus_tree = {
 		}
 		prerequisite = { focus = ITA_attack_hungary  } prerequisite = { focus = ITA_invite_hungary  }
 		completion_reward = {
-			puppet = HUN
+			HUN = {
+			    country_event = { id = italy.4 }
+			}
 			
 		}
 	}
@@ -1931,15 +1939,17 @@ focus_tree = {
 		}
 		prerequisite = { focus = ITA_a_common_threat  } prerequisite = { focus = ITA_an_enemy_of_my_enemy_is_my_ally  }
 		completion_reward = {
-			puppet = BOS
+			BOS = {
+			    country_event = { id = italy.4 }
+			}
 			
 		}
 	}
 
-	#fortnite
+	#Attack The British
 	focus = {
-		id = ITA_fortnite
-		icon = GFX_ITA_fortnite-7
+		id = ITA_attack_the_british
+		icon = GFX_ITA_attack_the_british-7
 		x = 25
 		y = 12
 		cost = 5
