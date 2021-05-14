@@ -23,6 +23,17 @@ focus_tree = {
 
 	}
 	focus = {
+		id = SIC_building_initiative
+		icon = GFX_goal_generic_production
+		cost = 5.00
+		x = 32
+		y = 1
+			completion_reward = {
+					add_ideas = X57_build_for_our_country
+				}
+
+	}
+	focus = {
 		id = SIC_future_of_Sicily
 		icon = GFX_goal_unknown
 		cost = 5.00
@@ -117,6 +128,26 @@ focus_tree = {
 
 	}
 	focus = {
+		id = SIC_claim_italy
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		cost = 10.00
+		prerequisite = {
+			focus = SIC_German_alliance
+			focus = SIC_support_Germany
+		}
+		x = 18
+		y = 6
+			completion_reward = {
+					every_state = {
+							limit = {
+									is_core_of = ITA
+								}
+							add_claim_by = ROOT
+						}
+				}
+
+	}
+	focus = {
 		id = SIC_support_Italy
 		icon = GFX_goal_generic_improve_relations
 		cost = 5.00
@@ -178,26 +209,6 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SIC_claim_italy
-		icon = GFX_goal_generic_occupy_states_ongoing_war
-		cost = 10.00
-		prerequisite = {
-			focus = SIC_German_alliance
-			focus = SIC_support_Germany
-		}
-		x = 18
-		y = 6
-			completion_reward = {
-					every_state = {
-							limit = {
-									is_core_of = ITA
-								}
-							add_claim_by = ROOT
-						}
-				}
-
-	}
-	focus = {
 		id = SIC_Italian_research_pact
 		icon = GFX_goal_generic_scientific_exchange
 		cost = 10.00
@@ -207,6 +218,614 @@ focus_tree = {
 		}
 		x = 24
 		y = 6
+
+	}
+	focus = {
+		id = SIC_automation_research
+		icon = GFX_goal_generic_construct_civilian
+		cost = 5.00
+		prerequisite = {
+			focus = SIC_building_initiative
+		}
+		x = 32
+		y = 2
+			completion_reward = {
+					add_tech_bonus = {
+							name = industrial_bonus
+							bonus = 1.0
+							uses = 1
+							category = industry
+						}
+				}
+
+	}
+	focus = {
+		id = SIC_expand_civilian_industry1
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = SIC_automation_research
+		}
+		x = 28
+		y = 4
+			completion_reward = {
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 0
+											include_locked = yes
+										}
+									OR = {
+											is_in_home_area = yes
+											NOT = {
+													owner = {
+															any_owned_state = {
+																	free_building_slots = {
+																			building = industrial_complex
+																			size > 0
+																			include_locked = yes
+																		}
+																	is_in_home_area = yes
+																}
+														}
+												}
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = SIC_expand_civilian_industry2
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = SIC_expand_civilian_industry1
+		}
+		x = 28
+		y = 5
+			completion_reward = {
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 0
+											include_locked = yes
+										}
+									OR = {
+											is_in_home_area = yes
+											NOT = {
+													owner = {
+															any_owned_state = {
+																	free_building_slots = {
+																			building = industrial_complex
+																			size > 0
+																			include_locked = yes
+																		}
+																	is_in_home_area = yes
+																}
+														}
+												}
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = SIC_expand_civilian_industry3
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = SIC_expand_civilian_industry2
+		}
+		x = 28
+		y = 6
+			completion_reward = {
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 0
+											include_locked = yes
+										}
+									OR = {
+											is_in_home_area = yes
+											NOT = {
+													owner = {
+															any_owned_state = {
+																	free_building_slots = {
+																			building = industrial_complex
+																			size > 0
+																			include_locked = yes
+																		}
+																	is_in_home_area = yes
+																}
+														}
+												}
+										}
+								}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = SIC_expand_civilian_industry4
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = SIC_expand_civilian_industry3
+		}
+		x = 28
+		y = 7
+			completion_reward = {
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 0
+											include_locked = yes
+										}
+									OR = {
+											is_in_home_area = yes
+											NOT = {
+													owner = {
+															any_owned_state = {
+																	free_building_slots = {
+																			building = industrial_complex
+																			size > 0
+																			include_locked = yes
+																		}
+																	is_in_home_area = yes
+																}
+														}
+												}
+										}
+								}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = SIC_Civilian_Effort
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = SIC_expand_civilian_industry4
+		}
+		mutually_exclusive = {
+			focus = SIC_Military_Effort
+		}
+		x = 28
+		y = 8
+			completion_reward = {
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 0
+											include_locked = yes
+										}
+									OR = {
+											is_in_home_area = yes
+											NOT = {
+													owner = {
+															any_owned_state = {
+																	free_building_slots = {
+																			building = industrial_complex
+																			size > 0
+																			include_locked = yes
+																		}
+																	is_in_home_area = yes
+																}
+														}
+												}
+										}
+								}
+							add_extra_state_shared_building_slots = 3
+							add_building_construction = {
+									type = industrial_complex
+									level = 3
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = SIC_Fabio_Railway
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 10.00
+		prerequisite = {
+			focus = SIC_automation_research
+		}
+		x = 32
+		y = 4
+			completion_reward = {
+					add_timed_idea = {
+							idea = X57_fabio_rail_costs
+							days = 70
+						}
+					every_state = {
+							limit = {
+									is_core_of = X57
+								}
+						}
+					add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+				}
+
+	}
+	focus = {
+		id = SIC_Expand_Fabio_Railway
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 10.00
+		prerequisite = {
+			focus = SIC_Fabio_Railway
+		}
+		x = 32
+		y = 5
+			completion_reward = {
+					add_timed_idea = {
+							idea = X57_fabio_rail_costs
+							days = 70
+						}
+					every_state = {
+							limit = {
+									is_core_of = X57
+								}
+						}
+					add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+				}
+
+	}
+	focus = {
+		id = SIC_complete_the_Fabio_Railway
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 10.00
+		prerequisite = {
+			focus = SIC_Expand_Fabio_Railway
+		}
+		x = 32
+		y = 6
+			completion_reward = {
+					add_timed_idea = {
+							idea = X57_fabio_rail_costs
+							days = 70
+						}
+					every_state = {
+							limit = {
+									is_core_of = X57
+								}
+						}
+					add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+				}
+
+	}
+	focus = {
+		id = SIC_expand_military_industry1
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10.00
+		prerequisite = {
+			focus = SIC_automation_research
+		}
+		x = 36
+		y = 4
+			completion_reward = {
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = arms_factory
+											size > 0
+											include_locked = yes
+										}
+									OR = {
+											is_in_home_area = yes
+											NOT = {
+													owner = {
+															any_owned_state = {
+																	free_building_slots = {
+																			building = arms_factory
+																			size > 0
+																			include_locked = yes
+																		}
+																	is_in_home_area = yes
+																}
+														}
+												}
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = SIC_expand_military_industry2
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10.00
+		prerequisite = {
+			focus = SIC_expand_military_industry1
+		}
+		x = 36
+		y = 5
+			completion_reward = {
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = arms_factory
+											size > 0
+											include_locked = yes
+										}
+									OR = {
+											is_in_home_area = yes
+											NOT = {
+													owner = {
+															any_owned_state = {
+																	free_building_slots = {
+																			building = arms_factory
+																			size > 0
+																			include_locked = yes
+																		}
+																	is_in_home_area = yes
+																}
+														}
+												}
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = SIC_expand_military_industry3
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10.00
+		prerequisite = {
+			focus = SIC_expand_military_industry2
+		}
+		x = 36
+		y = 6
+			completion_reward = {
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = arms_factory
+											size > 0
+											include_locked = yes
+										}
+									OR = {
+											is_in_home_area = yes
+											NOT = {
+													owner = {
+															any_owned_state = {
+																	free_building_slots = {
+																			building = arms_factory
+																			size > 0
+																			include_locked = yes
+																		}
+																	is_in_home_area = yes
+																}
+														}
+												}
+										}
+								}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = arms_factory
+									level = 2
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = SIC_the_roma_university
+		icon = GFX_focus_research
+		cost = 10.00
+		prerequisite = {
+			focus = SIC_Civilian_Effort
+			focus = SIC_Military_Effort
+		}
+		prerequisite = {
+			focus = SIC_complete_the_Fabio_Railway
+		}
+		x = 32
+		y = 9
+			completion_reward = {
+					add_research_slot = 1
+				}
+
+	}
+	focus = {
+		id = SIC_expand_military_industry4
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10.00
+		prerequisite = {
+			focus = SIC_expand_military_industry3
+		}
+		x = 36
+		y = 7
+			completion_reward = {
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = arms_factory
+											size > 0
+											include_locked = yes
+										}
+									OR = {
+											is_in_home_area = yes
+											NOT = {
+													owner = {
+															any_owned_state = {
+																	free_building_slots = {
+																			building = arms_factory
+																			size > 0
+																			include_locked = yes
+																		}
+																	is_in_home_area = yes
+																}
+														}
+												}
+										}
+								}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = arms_factory
+									level = 2
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = SIC_Military_Effort
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10.00
+		prerequisite = {
+			focus = SIC_expand_military_industry4
+		}
+		mutually_exclusive = {
+			focus = SIC_Civilian_Effort
+		}
+		x = 36
+		y = 8
+			completion_reward = {
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = arms_factory
+											size > 0
+											include_locked = yes
+										}
+									OR = {
+											is_in_home_area = yes
+											NOT = {
+													owner = {
+															any_owned_state = {
+																	free_building_slots = {
+																			building = arms_factory
+																			size > 0
+																			include_locked = yes
+																		}
+																	is_in_home_area = yes
+																}
+														}
+												}
+										}
+								}
+							add_extra_state_shared_building_slots = 3
+							add_building_construction = {
+									type = arms_factory
+									level = 3
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = SIC_begin_automation
+		icon = GFX_goal_generic_construct_civilian
+		cost = 10.00
+		prerequisite = {
+			focus = SIC_the_roma_university
+		}
+		x = 32
+		y = 10
+			completion_reward = {
+					add_political_power = -50
+					swap_ideas = {
+							remove_idea = X57_unmanned_production
+							add_idea = X57_unmanned_production_2
+						}
+				}
+
+	}
+	focus = {
+		id = SIC_Countinue_Atomation
+		icon = GFX_goal_generic_production2
+		cost = 10.00
+		prerequisite = {
+			focus = SIC_begin_automation
+		}
+		x = 32
+		y = 11
+			completion_reward = {
+					add_political_power = -50
+					swap_ideas = {
+							remove_idea = X57_unmanned_production_2
+							add_idea = X57_unmanned_production_3
+						}
+				}
+
+	}
+	focus = {
+		id = SIC_automated_production_lines
+		icon = GFX_goal_generic_consumer_goods
+		cost = 10.00
+		prerequisite = {
+			focus = SIC_Countinue_Atomation
+		}
+		x = 32
+		y = 12
+			completion_reward = {
+					add_political_power = -100
+					swap_ideas = {
+							remove_idea = X57_unmanned_production_3
+							add_idea = X57_automated_production_lines
+						}
+				}
 
 	}
 }
