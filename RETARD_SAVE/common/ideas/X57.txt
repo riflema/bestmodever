@@ -14,10 +14,87 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-		     naval_damage_factor = 0.2
-		     naval_defense_factor = 0.2 
+		     naval_damage_factor = 0.1
+		     naval_defense_factor = 0.1 
 		     industrial_capacity_dockyard = 0.2 
 		     consumer_goods_factor = 0.1    
+			}
+		}
+		X57_Champion_Protestant = {
+			picture = generic_navy_bonus
+			allowed = {
+				original_tag = X57
+			}
+
+			allowed_civil_war = {
+				tag = X57
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+         political_power_gain = 0.25
+         
+         
+			}
+		}
+		X57_Booming_economy = {
+			picture = generic_economic_increase
+			allowed = {
+				original_tag = X57
+			}
+
+			allowed_civil_war = {
+				tag = X57
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+         political_power_gain = 0.1
+         stability_factor = 0.1
+         war_support_factor = 0.1
+	     consumer_goods_factor = -0.15
+	     production_speed_buildings_factor = 0.15
+
+         
+         
+			}
+		}
+		X57_fabio_rail_costs = {
+			picture = chi_hyper_inflation
+			allowed = {
+				original_tag = X57
+			}
+
+			allowed_civil_war = {
+				tag = X57
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+         consumer_goods_factor = 0.1
+         
+         
+			}
+		}
+		X57_build_for_our_country = {
+			picture = generic_build_infrastructure
+			allowed = {
+				original_tag = X57
+			}
+
+			allowed_civil_war = {
+				tag = X57
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+         production_speed_buildings_factor = 0.05 
+         
+         
 			}
 		}
    
@@ -57,7 +134,67 @@ ideas = {
         production_factory_efficiency_gain_factor = -0.25
         production_factory_max_efficiency_factor = -0.25
         industrial_capacity_factory = -0.25
-        line_change_production_efficiency_factor = -0.5
+	}
+}
+  X57_unmanned_production_2 = {
+			picture = generic_goods_red_bonus
+			allowed = {
+				original_tag = X57
+			}
+
+			allowed_civil_war = {
+				tag = X57
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			stability_factor = -0.15
+			consumer_goods_factor = 0.1
+        production_factory_efficiency_gain_factor = -0.15
+        production_factory_max_efficiency_factor = -0.15
+        industrial_capacity_factory = -0.15
+	}
+}
+ X57_unmanned_production_3 = {
+			picture = generic_goods_red_bonus
+			allowed = {
+				original_tag = X57
+			}
+
+			allowed_civil_war = {
+				tag = X57
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			stability_factor = -0.05
+			consumer_goods_factor = 0.05
+        production_factory_efficiency_gain_factor = -0.05
+        production_factory_max_efficiency_factor = -0.05
+        industrial_capacity_factory = -0.05
+	}
+}
+
+ X57_automated_production_lines = {
+			picture = generic_goods_red_bonus
+			allowed = {
+				original_tag = X57
+			}
+
+			allowed_civil_war = {
+				tag = X57
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			stability_factor = 0.05
+			consumer_goods_factor = -0.05
+        production_factory_efficiency_gain_factor = 0.10
+        production_factory_max_efficiency_factor = 0.10
+        industrial_capacity_factory = 0.10
 	}
 }
 X57_Colonial_Resistance = {
@@ -82,7 +219,7 @@ X57_Colonial_Resistance = {
 	}
 }
     X57_stay_the_course = {
-			picture = = generic_monarchist_uprising
+			picture = = generic_pp_unity_bonus
 			allowed = {
 				original_tag = X57
 			}
@@ -94,11 +231,27 @@ X57_Colonial_Resistance = {
 			removal_cost = -1
 			
 			modifier = {
-          absolutist_drift = 0.05
+          political_power_gain = 0.1
           stability_factor = 0.1
 	}
 }
- X57_democracy = {
+ X57_foreign_support = {
+			picture = = idea_generic_foreign_capital
+			allowed = {
+				original_tag = X57
+			}
+
+			allowed_civil_war = {
+				tag = X57
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+          consumer_goods_factor = -0.05
+	}
+}
+ X57_democracydrift = {
 			picture = = generic_democratic_drift_bonus
 			allowed = {
 				original_tag = X57
@@ -115,7 +268,7 @@ X57_Colonial_Resistance = {
           stability_factor = -0.05
 	}
 }
- X57_communism = {
+ X57_communismdrift = {
 			picture = = generic_communism_drift_bonus
 			allowed = {
 				original_tag = X57
@@ -132,7 +285,7 @@ X57_Colonial_Resistance = {
           stability_factor = -0.05
 	}
 }
- X57_radical = {
+ X57_radicaldrift = {
 			picture = = spr_masters_of_our_own_fate
 			allowed = {
 				original_tag = X57
@@ -149,7 +302,7 @@ X57_Colonial_Resistance = {
           stability_factor = -0.05
 	}
 }
-X57_fascism = {
+X57_fascismdrift = {
 			picture = = generic_fascism_drift_bonus
 			allowed = {
 				original_tag = X57

@@ -173,7 +173,6 @@ add_opinion_modifier = { target = X83 modifier = positive_150 }
 create_faction = "Alliance of South German Federation"
 add_to_faction = DDR
 add_to_faction = X44
-add_to_faction = X57
 add_to_faction = X73
 add_to_faction = ANG
 add_to_faction = CMR
