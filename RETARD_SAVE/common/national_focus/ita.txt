@@ -43,13 +43,13 @@ focus_tree = {
 	focus = {
 		id = ITA_the_greatest_threat
 		icon = GFX_focus_attack_germany
-		x = 21
+		x = 26
 		y = 14
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_WAR_SUPPORT
 		}
-		prerequisite = { focus = ITA_demand_a_bosnian_puppet  } prerequisite = { focus = ITA_hungarian_subjugation  } prerequisite = { focus = ITA_asturian_enemy  }
+		prerequisite = { focus = ITA_demand_a_bosnian_puppet  } prerequisite = { focus = ITA_hungarian_subjugation  } prerequisite = { focus = ITA_attack_the_british  }
 		completion_reward = {
 			create_wargoal = { 
 			type = annex_everything 
@@ -122,6 +122,7 @@ focus_tree = {
 			FOCUS_FILTER_RESEARCH
 		}
 		prerequisite = { focus = ITA_kickstart_research  }
+		mutually_exclusive = { focus = ITA_tanks_and_light_navy  }
 	}
 
 	#Expansion of the Economy
@@ -171,7 +172,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
-		prerequisite = { focus = ITA_armament_effort_ii  }
+		prerequisite = { focus = ITA_armament_effort_iii  }
 		completion_reward = {
 			add_tech_bonus = {
 			 bonus = 1 
@@ -836,7 +837,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = ITA_industry_research  }
+		prerequisite = { focus = ITA_industry_research  focus = ITA_construction_effort  }
 		completion_reward = {
 			add_tech_bonus = {
 			 bonus = 1 
@@ -1046,7 +1047,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = ITA_construction_effort  }
+		prerequisite = { focus = ITA_construction_effort  focus = ITA_industry_research  }
 		completion_reward = {
 			random_owned_controlled_state ={
 			 limit = {
@@ -1078,7 +1079,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = ITA_construction_effort_i  }
+		prerequisite = { focus = ITA_construction_effort_i  focus = ITA_industry_research_i  }
 		completion_reward = {
 			random_owned_controlled_state ={
 			 limit = {
@@ -1110,7 +1111,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		prerequisite = { focus = ITA_industry_research_i  }
+		prerequisite = { focus = ITA_industry_research_i  focus = ITA_construction_effort_i  }
 		completion_reward = {
 			random_owned_controlled_state ={
 			 limit = {
@@ -1250,7 +1251,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
-		prerequisite = { focus = ITA_build_a_submarine_port  } prerequisite = { focus = ITA_abarth_tank_contracts  } prerequisite = { focus = ITA_build_new_docks  } prerequisite = { focus = ITA_artillery_production  }
+		prerequisite = { focus = ITA_build_a_submarine_port  focus = ITA_abarth_tank_contracts  focus = ITA_build_new_docks  focus = ITA_artillery_production  }
 		completion_reward = {
 			add_research_slot = 1
 		}
@@ -1325,7 +1326,7 @@ focus_tree = {
 	focus = {
 		id = ITA_womens_suffrage
 		icon = GFX_focus_generic_treaty
-		x = 20
+		x = 25
 		y = 6
 		cost = 10
 		search_filters = {
@@ -1341,14 +1342,14 @@ focus_tree = {
 	focus = {
 		id = ITA_political_effort
 		icon = GFX_goal_generic_political_pressure
-		x = 21
+		x = 26
 		y = 1
-		cost = 1
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
 		completion_reward = {
-			add_political_power = 120
+			add_political_power = 75
 			
 		}
 	}
@@ -1357,7 +1358,7 @@ focus_tree = {
 	focus = {
 		id = ITA_stick_with_the_current_government
 		icon = GFX_ITA_stick_with_the_current_government-427
-		x = 21
+		x = 26
 		y = 2
 		cost = 5
 		search_filters = {
@@ -1366,7 +1367,7 @@ focus_tree = {
 		prerequisite = { focus = ITA_political_effort  }
 		completion_reward = {
 			add_popularity = { 
-			ideology = democracy 
+			ideology = democratic 
 			popularity = 0.2
 			}
 			
@@ -1377,7 +1378,7 @@ focus_tree = {
 	focus = {
 		id = ITA_revise_the_constitution
 		icon = GFX_goal_anti_comintern_pact
-		x = 21
+		x = 26
 		y = 3
 		cost = 5
 		search_filters = {
@@ -1395,13 +1396,14 @@ focus_tree = {
 	focus = {
 		id = ITA_support_the_socialists
 		icon = GFX_focus_prc_agrarian_socialism
-		x = 19
+		x = 24
 		y = 4
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = ITA_revise_the_constitution  }
+		mutually_exclusive = { focus = ITA_support_the_conservatives  }
 		completion_reward = {
 			set_party_name = { 
 			ideology = democratic 
@@ -1424,7 +1426,7 @@ focus_tree = {
 	focus = {
 		id = ITA_support_the_conservatives
 		icon = GFX_goal_continuous_increase_nu
-		x = 23
+		x = 28
 		y = 4
 		cost = 5
 		search_filters = {
@@ -1447,7 +1449,7 @@ focus_tree = {
 	focus = {
 		id = ITA_increase_extraction_spendings
 		icon = GFX_goal_continuous_non_factory_construct
-		x = 18
+		x = 23
 		y = 5
 		cost = 10
 		search_filters = {
@@ -1468,7 +1470,7 @@ focus_tree = {
 	focus = {
 		id = ITA_agricultural_collectivization
 		icon = GFX_goal_generic_demand_territory
-		x = 20
+		x = 25
 		y = 5
 		cost = 10
 		search_filters = {
@@ -1485,7 +1487,7 @@ focus_tree = {
 	focus = {
 		id = ITA_economic_reform
 		icon = GFX_focus_eng_move_to_secure_the_dominions
-		x = 24
+		x = 29
 		y = 6
 		cost = 10
 		search_filters = {
@@ -1517,7 +1519,7 @@ focus_tree = {
 	focus = {
 		id = ITA_clamp_down_on_fascism
 		icon = GFX_focus_secret_rearmament
-		x = 24
+		x = 29
 		y = 5
 		cost = 10
 		search_filters = {
@@ -1566,7 +1568,7 @@ focus_tree = {
 	focus = {
 		id = ITA_democratic_bastion
 		icon = GFX_focus_generic_the_giant_wakes
-		x = 22
+		x = 27
 		y = 5
 		cost = 10
 		search_filters = {
@@ -1584,7 +1586,7 @@ focus_tree = {
 	focus = {
 		id = ITA_beacon_of_liberty
 		icon = GFX_ITA_beacon_of_liberty-427
-		x = 22
+		x = 27
 		y = 6
 		cost = 10
 		search_filters = {
@@ -1602,7 +1604,7 @@ focus_tree = {
 	focus = {
 		id = ITA_socialist_military
 		icon = GFX_focus_ger_great_red_menace
-		x = 18
+		x = 23
 		y = 6
 		cost = 10
 		search_filters = {
@@ -1619,7 +1621,7 @@ focus_tree = {
 	focus = {
 		id = ITA_liberty_fighters
 		icon = GFX_goal_continuous_boost_freedom
-		x = 22
+		x = 27
 		y = 7
 		cost = 10
 		search_filters = {
@@ -1637,7 +1639,7 @@ focus_tree = {
 	focus = {
 		id = ITA_why_we_fight
 		icon = GFX_focus_RAJ_lions_of_the_great_war
-		x = 24
+		x = 29
 		y = 7
 		cost = 10
 		search_filters = {
@@ -1654,7 +1656,7 @@ focus_tree = {
 	focus = {
 		id = ITA_progress_cult
 		icon = GFX_goal_generic_scientific_exchange
-		x = 20
+		x = 25
 		y = 7
 		cost = 10
 		search_filters = {
@@ -1662,7 +1664,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = ITA_womens_suffrage  }
 		completion_reward = {
-			add_ideas = progress_cult_focus
+			add_ideas = SOV_progress_cult_focus
 			
 			
 		}
@@ -1672,7 +1674,7 @@ focus_tree = {
 	focus = {
 		id = ITA_socialist_science
 		icon = GFX_focus_generic_manpower
-		x = 18
+		x = 23
 		y = 7
 		cost = 10
 		search_filters = {
@@ -1689,7 +1691,7 @@ focus_tree = {
 	focus = {
 		id = ITA_workers_culture
 		icon = GFX_focus_por_workers_of_iberia
-		x = 19
+		x = 24
 		y = 8
 		cost = 10
 		search_filters = {
@@ -1706,7 +1708,7 @@ focus_tree = {
 	focus = {
 		id = ITA_victory_at_all_costs
 		icon = GFX_focus_secret_rearmament
-		x = 23
+		x = 28
 		y = 8
 		cost = 10
 		search_filters = {
@@ -1723,13 +1725,13 @@ focus_tree = {
 	focus = {
 		id = ITA_italian_friendships
 		icon = GFX_focus_befriend_italy
-		x = 21
+		x = 26
 		y = 9
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = ITA_workers_culture  } prerequisite = { focus = ITA_victory_at_all_costs  }
+		prerequisite = { focus = ITA_victory_at_all_costs  focus = ITA_workers_culture  }
 		completion_reward = {
 			dismantle_faction = yes
 			create_faction = 'Pan_European_Entante'
@@ -1741,7 +1743,7 @@ focus_tree = {
 	focus = {
 		id = ITA_invite_sicily
 		icon = GFX_focus_generic_diplomatic_treaty
-		x = 17
+		x = 22
 		y = 10
 		cost = 5
 		search_filters = {
@@ -1749,8 +1751,9 @@ focus_tree = {
 		}
 		prerequisite = { focus = ITA_italian_friendships  }
 		completion_reward = {
-			x57 = { country_event = italy.1 }
-			
+			X57 = {
+			    country_event = { id = italy.1 }
+			}
 		}
 	}
 
@@ -1758,7 +1761,7 @@ focus_tree = {
 	focus = {
 		id = ITA_invite_andalucia
 		icon = GFX_ITA_invite_andalucia-120
-		x = 21
+		x = 26
 		y = 10
 		cost = 5
 		search_filters = {
@@ -1766,8 +1769,9 @@ focus_tree = {
 		}
 		prerequisite = { focus = ITA_italian_friendships  }
 		completion_reward = {
-			ADU = { country_event = italy.1 }
-			
+			ADU = {
+			    country_event = { id = italy.1 }
+			}
 		}
 	}
 
@@ -1775,26 +1779,32 @@ focus_tree = {
 	focus = {
 		id = ITA_invite_asturias
 		icon = GFX_focus_generic_diplomatic_treaty
-		x = 25
+		x = 30
 		y = 10
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = ITA_italian_friendships  }
+		select_effect = {
+			x73 = {
+			    country_event = { id = italy.1 }
+			}
+		}
 	}
 
 	#Attack Hungary
 	focus = {
 		id = ITA_attack_hungary
 		icon = GFX_focus_generic_attack_bulgaria
-		x = 16
+		x = 21
 		y = 11
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_WAR_SUPPORT
 		}
 		prerequisite = { focus = ITA_invite_sicily  }
+		mutually_exclusive = { focus = ITA_invite_hungary  }
 		completion_reward = {
 			create_wargoal = { 
 			type = annex_everything 
@@ -1808,7 +1818,7 @@ focus_tree = {
 	focus = {
 		id = ITA_invite_hungary
 		icon = GFX_focus_generic_befriend_bulgaria
-		x = 18
+		x = 23
 		y = 11
 		cost = 5
 		search_filters = {
@@ -1817,8 +1827,9 @@ focus_tree = {
 		prerequisite = { focus = ITA_invite_sicily  }
 		mutually_exclusive = { focus = ITA_attack_hungary  }
 		completion_reward = {
-			add_to_faction = HUN
-			
+			HUN = {
+			    country_event = { id = italy.1 }
+			}
 		}
 	}
 
@@ -1826,7 +1837,7 @@ focus_tree = {
 	focus = {
 		id = ITA_a_common_threat
 		icon = GFX_focus_generic_attack_turkey
-		x = 20
+		x = 25
 		y = 11
 		cost = 5
 		search_filters = {
@@ -1847,16 +1858,18 @@ focus_tree = {
 	focus = {
 		id = ITA_an_enemy_of_my_enemy_is_my_ally
 		icon = GFX_focus_generic_befriend_turkey
-		x = 22
+		x = 27
 		y = 11
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_WAR_SUPPORT
 		}
 		prerequisite = { focus = ITA_invite_andalucia  }
+		mutually_exclusive = { focus = ITA_a_common_threat  }
 		completion_reward = {
-			add_to_faction = TUR
-			
+			TUR = {
+			    country_event = { id = italy.1 }
+			}
 		}
 	}
 
@@ -1864,13 +1877,14 @@ focus_tree = {
 	focus = {
 		id = ITA_finish_off_france
 		icon = GFX_focus_attack_france
-		x = 24
+		x = 29
 		y = 11
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_WAR_SUPPORT
 		}
 		prerequisite = { focus = ITA_invite_asturias  }
+		mutually_exclusive = { focus = ITA_ally_france  }
 		completion_reward = {
 			create_wargoal = { 
 			type = annex_everything 
@@ -1884,7 +1898,7 @@ focus_tree = {
 	focus = {
 		id = ITA_ally_france
 		icon = GFX_focus_chi_reach_out_to_france
-		x = 26
+		x = 31
 		y = 11
 		cost = 5
 		search_filters = {
@@ -1893,8 +1907,9 @@ focus_tree = {
 		prerequisite = { focus = ITA_invite_asturias  }
 		mutually_exclusive = { focus = ITA_finish_off_france  }
 		completion_reward = {
-			add_to_faction = FRA
-			
+			FRA = {
+			    country_event = { id = italy.1 }
+			}
 		}
 	}
 
@@ -1902,15 +1917,17 @@ focus_tree = {
 	focus = {
 		id = ITA_hungarian_subjugation
 		icon = GFX_ITA_hungarian_subjugation-59
-		x = 17
+		x = 22
 		y = 12
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = ITA_attack_hungary  } prerequisite = { focus = ITA_invite_hungary  }
+		prerequisite = { focus = ITA_attack_hungary  focus = ITA_invite_hungary  }
 		completion_reward = {
-			puppet = HUN
+			HUN = {
+			    country_event = { id = italy.4 }
+			}
 			
 		}
 	}
@@ -1919,35 +1936,175 @@ focus_tree = {
 	focus = {
 		id = ITA_demand_a_bosnian_puppet
 		icon = GFX_focus_YUG_divide_bosnia
-		x = 21
-		y = 12
+		x = 26
+		y = 11
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_WAR_SUPPORT
 		}
-		prerequisite = { focus = ITA_a_common_threat  } prerequisite = { focus = ITA_an_enemy_of_my_enemy_is_my_ally  }
+		prerequisite = { focus = ITA_a_common_threat  focus = ITA_an_enemy_of_my_enemy_is_my_ally  }
 		completion_reward = {
-			puppet = BOS
+			BOS = {
+			    country_event = { id = italy.4 }
+			}
 			
 		}
 	}
 
-	#Asturian Enemy
+	#Attack The British
 	focus = {
-		id = ITA_asturian_enemy
-		icon = GFX_ITA_asturian_enemy-7
-		x = 25
+		id = ITA_attack_the_british
+		icon = GFX_ITA_attack_the_british-7
+		x = 30
 		y = 12
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_WAR_SUPPORT
 		}
-		prerequisite = { focus = ITA_finish_off_france  } prerequisite = { focus = ITA_ally_france  }
+		prerequisite = { focus = ITA_finish_off_france  focus = ITA_ally_france  }
 		completion_reward = {
 			create_wargoal = { 
 			type = annex_everything 
 			target = ENG
 			}
+			
+		}
+	}
+
+	#Railway Expansion
+	focus = {
+		id = ITA_railway_expansion
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 16
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = ITA_expansion_of_the_economy  }
+		completion_reward = {
+			random_owned_controlled_state = {
+			add_building_construction = {						type = infrastructure						level = 1
+			instant_build = yes					}
+			}
+			
+			random_owned_controlled_state = {
+			add_building_construction = {						type = infrastructure						level = 1
+			instant_build = yes					}
+			}
+			
+			random_owned_controlled_state = {
+			add_building_construction = {						type = infrastructure						level = 1
+			instant_build = yes					}
+			}
+			
+			
+		}
+	}
+
+	#Railway Expansion I
+	focus = {
+		id = ITA_railway_expansion_i
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 16
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = ITA_railway_expansion  }
+		completion_reward = {
+			random_owned_controlled_state = {
+			add_building_construction = {						type = infrastructure						level = 1
+			instant_build = yes					}
+			}
+			
+			random_owned_controlled_state = {
+			add_building_construction = {						type = infrastructure						level = 1
+			instant_build = yes					}
+			}
+			
+			random_owned_controlled_state = {
+			add_building_construction = {						type = infrastructure						level = 1
+			instant_build = yes					}
+			}
+			
+			random_owned_controlled_state = {
+			add_building_construction = {						type = infrastructure						level = 1
+			instant_build = yes					}
+			}
+			
+			
+		}
+	}
+
+	#Build Civilian Roads
+	focus = {
+		id = ITA_build_civilian_roads
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 16
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = ITA_railway_expansion_i  }
+		completion_reward = {
+			random_owned_controlled_state = {
+			add_building_construction = {						type = infrastructure						level = 1
+			instant_build = yes					}
+			}
+			
+			random_owned_controlled_state = {
+			add_building_construction = {						type = infrastructure						level = 1
+			instant_build = yes					}
+			}
+			
+			random_owned_controlled_state = {
+			add_building_construction = {						type = infrastructure						level = 1
+			instant_build = yes					}
+			}
+			
+			random_owned_controlled_state = {
+			add_building_construction = {						type = infrastructure						level = 1
+			instant_build = yes					}
+			}
+			
+			random_owned_controlled_state = {
+			add_building_construction = {						type = infrastructure						level = 1
+			instant_build = yes					}
+			}
+			
+			random_owned_controlled_state = {
+			add_building_construction = {						type = infrastructure						level = 1
+			instant_build = yes					}
+			}
+			
+			random_owned_controlled_state = {
+			add_building_construction = {						type = infrastructure						level = 1
+			instant_build = yes					}
+			}
+			
+			random_owned_controlled_state = {
+			add_building_construction = {						type = infrastructure						level = 1
+			instant_build = yes					}
+			}
+			
+			random_owned_controlled_state = {
+			add_building_construction = {						type = infrastructure						level = 1
+			instant_build = yes					}
+			}
+			
+			random_owned_controlled_state = {
+			add_building_construction = {						type = infrastructure						level = 1
+			instant_build = yes					}
+			}
+			
+			random_owned_controlled_state = {
+			add_building_construction = {						type = infrastructure						level = 1
+			instant_build = yes					}
+			}
+			
 			
 		}
 	}
