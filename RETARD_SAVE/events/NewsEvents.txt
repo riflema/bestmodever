@@ -59,39 +59,3 @@ news_event = {
 		name = "Interesting"
 	}
 }
-
-news_event = {
-	id = news.504
-	title = "German Sicilian Alliance"
-	desc = "Recently in a statement Fabio Sicilia has announced his intention to seek military cooperation with Germany in an attempt to surround and pressure the unholy Italians. "
-	picture = event_generic_sign_treaty1
-	
-	major = yes
-
-	is_triggered_only = yes
-
-	option = {
-		name = "Great News"
-	}
-	option = {
-		name = "Terrible News"
-	}
-}
-news_event = {
-	id = news.505
-	title = "Italian Sicilian Alliance"
-	desc = "Recently in a statement Fabio Sicilia has announced his intention to seek military cooperation with Italy in an attempt to protect the italian people. "
-	picture = event_generic_sign_treaty1
-	
-	major = yes
-
-	is_triggered_only = yes
-
-	option = {
-		name = "Great News"
-	}
-	option = {
-		name = "Terrible News"
-	}
-}
-
