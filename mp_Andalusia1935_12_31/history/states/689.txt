@@ -1,0 +1,26 @@
+
+state={
+	id=689
+	name="STATE_689"
+
+	history={
+		owner = X70
+		victory_points = {
+			1980 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		1147 1980 4110 
+	}
+	manpower=763412
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

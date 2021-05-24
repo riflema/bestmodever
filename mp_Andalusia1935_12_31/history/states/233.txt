@@ -1,0 +1,33 @@
+
+state={
+	id=233
+	name="STATE_233"
+	resources={
+		steel=8.000
+	}
+
+	history={
+		owner = GER
+		victory_points = {
+			3516 10 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 5
+			arms_factory = 1
+			air_base = 10
+
+		}
+		add_core_of = BEL
+		add_core_of = WLL
+		add_core_of = X12
+		add_claim_by = GER
+	}
+
+	provinces={
+		3488 3516 6537 6583 9418 9444 9536 11407 11519 13081 
+	}
+	manpower=9638404
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

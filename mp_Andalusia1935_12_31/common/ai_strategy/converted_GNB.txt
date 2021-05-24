@@ -1,0 +1,151 @@
+﻿converted_war_strategies_GNB = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "POR"
+		value = 72
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SEN"
+		value = 68
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X80"
+		value = 45
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X56"
+		value = 34
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ADU"
+		value = 29
+	}
+	ai_strategy = {
+		type = conquer
+		id = "CAN"
+		value = 21
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X37"
+		value = 9
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ANG"
+		value = 8
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X81"
+		value = 3
+	}
+}
+
+converted_diplo_strategies_GNB = {
+	enable = {
+		tag = GNB
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "ITA"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "ADU"
+		value = 233
+	}
+	ai_strategy = {
+		type = contain
+		id = "X73"
+		value = 72
+	}
+	ai_strategy = {
+		type = contain
+		id = "X56"
+		value = 72
+	}
+	ai_strategy = {
+		type = contain
+		id = "SEN"
+		value = 27
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ADU"
+		value = 277
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X56"
+		value = 152
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "POR"
+		value = 24
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X80"
+		value = 15
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ANG"
+		value = 8
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CAN"
+		value = 7
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X37"
+		value = 3
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X81"
+		value = 1
+	}
+	ai_strategy = {
+		type = alliance
+		id = "GER"
+		value = 200
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X63"
+		value = 94
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "ETH"
+		value = 50
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X31"
+		value = 49
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "TOG"
+		value = 49
+	}
+}

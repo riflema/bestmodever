@@ -1,0 +1,32 @@
+
+state={
+	id=441
+	name="STATE_441"
+	resources={
+		aluminium=2.000
+		rubber=2.000
+		steel=2.000
+	}
+
+	history={
+		owner = NGA
+		victory_points = {
+			12817 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = NGA
+	}
+
+	provinces={
+		1891 1932 12817 
+	}
+	manpower=1374544
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

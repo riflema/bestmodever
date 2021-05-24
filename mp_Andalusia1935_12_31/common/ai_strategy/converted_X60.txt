@@ -1,0 +1,151 @@
+﻿converted_war_strategies_X60 = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "X66"
+		value = 629
+	}
+	ai_strategy = {
+		type = conquer
+		id = "TUR"
+		value = 120
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X11"
+		value = 108
+	}
+	ai_strategy = {
+		type = conquer
+		id = "KAZ"
+		value = 48
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ENG"
+		value = 16
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X30"
+		value = 8
+	}
+}
+
+converted_diplo_strategies_X60 = {
+	enable = {
+		tag = X60
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "ITA"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "ADU"
+		value = 162
+	}
+	ai_strategy = {
+		type = contain
+		id = "X73"
+		value = 43
+	}
+	ai_strategy = {
+		type = contain
+		id = "X66"
+		value = 24
+	}
+	ai_strategy = {
+		type = contain
+		id = "X56"
+		value = 15
+	}
+	ai_strategy = {
+		type = contain
+		id = "X30"
+		value = 12
+	}
+	ai_strategy = {
+		type = contain
+		id = "X11"
+		value = 6
+	}
+	ai_strategy = {
+		type = contain
+		id = "X44"
+		value = 5
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X11"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X66"
+		value = 261
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X30"
+		value = 28
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "TUR"
+		value = 23
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "KAZ"
+		value = 9
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ENG"
+		value = 3
+	}
+	ai_strategy = {
+		type = alliance
+		id = "GER"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "TUR"
+		value = 48
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X18"
+		value = 8
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X30"
+		value = 75
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X31"
+		value = 65
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X02"
+		value = 63
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X44"
+		value = 50
+	}
+}

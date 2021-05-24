@@ -1,0 +1,31 @@
+
+state={
+	id=713
+	name="STATE_713"
+
+	history={
+		owner = X73
+		victory_points = {
+			9764 3 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			arms_factory = 1
+			dockyard = 1
+			9764 = {
+				naval_base = 8
+			}
+			air_base = 2
+
+		}
+		add_core_of = X73
+	}
+
+	provinces={
+		854 872 897 3898 3899 6812 6836 6865 6927 6966 9764 9797 9824 11779 
+	}
+	manpower=3615268
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -1,0 +1,51 @@
+units = {
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 153
+		task_force = {
+			name = "3rd Fleet"
+			location = 5633
+			ship = { name = "9th Puerto Rico Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BAS } } }
+			ship = { name = "5th Puerto Rico Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BAS } } }
+			ship = { name = "1st Puerto Rico Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BAS } } }
+			ship = { name = "2nd Puerto Rico Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BAS } } }
+			ship = { name = "10th Puerto Rico Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BAS } } }
+			ship = { name = "3rd Puerto Rico Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BAS } } }
+			ship = { name = "4th Puerto Rico Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BAS } } }
+			ship = { name = "7th Puerto Rico Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BAS } } }
+			ship = { name = "6th Puerto Rico Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BAS } } }
+			ship = { name = "8th Puerto Rico Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BAS } } }
+			ship = { name = "Narcissus" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BAS } } }
+			ship = { name = "Shannon" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BAS } } }
+			ship = { name = "Nelson" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BAS } } }
+			ship = { name = "Northampton" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BAS } } }
+			ship = { name = "Galatea" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BAS } } }
+			ship = { name = "Imperieuse" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BAS } } }
+			ship = { name = "Warspite" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BAS } } }
+			ship = { name = "Australia" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BAS } } }
+			ship = { name = "Orlando" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BAS } } }
+			ship = { name = "Undaunted" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BAS } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "BAS"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "BAS"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

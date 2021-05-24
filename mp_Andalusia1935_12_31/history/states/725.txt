@@ -1,0 +1,35 @@
+
+state={
+	id=725
+	name="STATE_725"
+	resources={
+		chromium=80.000
+		steel=2.000
+	}
+
+	history={
+		owner = X75
+		victory_points = {
+			7622 2 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 1
+			dockyard = 1
+			7622 = {
+				naval_base = 10
+			}
+			air_base = 0
+
+		}
+		add_core_of = X75
+	}
+
+	provinces={
+		4600 7451 7622 10374 10498 
+	}
+	manpower=2948388
+	buildings_max_level_factor=1.000
+	state_category=city
+}

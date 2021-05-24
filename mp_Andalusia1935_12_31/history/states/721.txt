@@ -1,0 +1,32 @@
+
+state={
+	id=721
+	name="STATE_721"
+	resources={
+		aluminium=23.000
+		steel=36.000
+	}
+
+	history={
+		owner = X73
+		victory_points = {
+			590 0 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = FRA
+		add_core_of = X45
+	}
+
+	provinces={
+		590 752 755 769 3754 6770 6773 6789 9593 9732 9748 11718 
+	}
+	manpower=1065540
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

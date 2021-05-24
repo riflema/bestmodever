@@ -1,0 +1,29 @@
+
+state={
+	id=70
+	name="STATE_70"
+
+	history={
+		owner = ARG
+		victory_points = {
+			8231 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			8217 = {
+				naval_base = 2
+			}
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		8217 8231 
+	}
+	manpower=59740
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

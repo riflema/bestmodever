@@ -1,0 +1,26 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 4948
+		task_force = {
+			name = "1st Fleet"
+			location = 4948
+			ship = { name = "Enugu" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SEN version_name = "Early Destroyer" } } }
+			ship = { name = "Ede" definition = destroyer start_experience_factor = 0.05 equipment = { ship_hull_light_1 = { amount = 1 owner = SEN version_name = "Early Destroyer" } } }
+			ship = { name = "Kano" definition = destroyer start_experience_factor = 0.05 equipment = { ship_hull_light_1 = { amount = 1 owner = SEN version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "SEN"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

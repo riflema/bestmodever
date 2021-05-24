@@ -1,0 +1,32 @@
+
+state={
+	id=461
+	name="STATE_461"
+	resources={
+		oil=3.000
+		steel=0.000
+		tungsten=29.000
+	}
+
+	history={
+		owner = PRU
+		victory_points = {
+			5230 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = PRU
+	}
+
+	provinces={
+		5188 5230 8157 8211 8225 8240 10996 12917 13195 
+	}
+	manpower=5062850
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

@@ -1,0 +1,300 @@
+focus_tree = {
+	id = GER_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = GER
+		}
+	}
+	
+	default = no
+	
+	shared_focus = army_effort
+	shared_focus = aviation_effort
+	shared_focus = naval_effort
+	shared_focus = industrial_effort
+	shared_focus = political_effort
+
+	focus = {
+		id = WarPropGER
+		icon = GFX_goal_generic_propaganda
+		text = WarProp
+		x = 29
+		y = 0
+		cost = 10
+		available = {
+			threat > 0.000000
+		}
+		completion_reward = {
+		add_stability = 0.05
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = PrepInterGER
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		text = PrepInter
+		prerequisite = { focus = WarPropGER }
+		x = 0
+		y = 1
+		relative_position_id = WarPropGER
+		cost = 10
+		available = {
+			threat > 0.000000
+		}
+		completion_reward = {
+		add_political_power = 120
+		set_rule = { can_send_volunteers = yes }
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = LimGER
+		icon = GFX_goal_generic_more_territorial_claims
+		text = Lim
+		prerequisite = { focus = PrepInterGER }
+		x = 0
+		y = 1
+		relative_position_id = PrepInterGER
+		cost = 10
+		available = {
+			threat > 0.000000
+		}
+		completion_reward = {
+		add_ideas = limited_interventionism
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = WarPlanGERUSA
+		icon = GFX_goal_generic_position_armies
+		text = WarPlanUSA
+		prerequisite = { focus = LimGER }
+		bypass = {
+			has_war_with = USA
+		}
+		x = -1
+		y = 1
+		relative_position_id = LimGER
+		cost = 10
+		available = {
+			any_other_country = {
+				original_tag = USA
+				exists = yes
+				NOT = { has_government = democratic } 
+				NOT = { is_in_faction_with = GER }
+				OR = {
+					has_offensive_war = yes
+					has_added_tension_amount > 30
+				}
+			}
+		}
+		completion_reward = {
+		army_experience = 20
+		add_tech_bonus = {
+			name = land_doc_bonus
+			bonus = 0.5
+			uses = 1
+			category = land_doctrine
+		}
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = EmbargoGERUSA
+		icon = GFX_goal_generic_trade
+		text = EmbargoUSA
+		prerequisite = { focus =  WarPlanGERUSA }
+		bypass = {
+			has_war_with = USA
+		}
+		x = 0
+		y = 1
+		relative_position_id = WarPlanGERUSA
+		cost = 10
+		available = {
+			any_other_country = {
+				original_tag = USA
+				exists = yes
+				NOT = { has_government = democratic } 
+				NOT = { is_in_faction_with = GER }
+				OR = {
+					has_offensive_war = yes
+					has_added_tension_amount > 30
+					threat > 0.6
+				}
+			}
+		}
+		completion_reward = {
+			USA = {
+				add_opinion_modifier = { target = GER modifier = embargo }
+			}
+		}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = WARGERUSA
+		icon = GFX_goal_support_democracy
+		text = WARUSA
+		prerequisite = { focus =  EmbargoGERUSA }
+		bypass = {
+			has_war_with = USA
+		}
+		x = 0
+		y = 1
+		relative_position_id = EmbargoGERUSA
+		cost = 10
+		available = {
+			has_war = no
+			any_other_country = {
+				original_tag = USA
+				exists = yes
+				NOT = { has_government = democratic } 
+				NOT = { is_in_faction_with = GER }
+				OR = {
+					has_offensive_war = yes
+					has_added_tension_amount > 30
+					threat > 0.6
+				}
+			}
+		}
+		completion_reward = {
+			declare_war_on = {
+				type = puppet_wargoal_focus
+				target = USA
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = WarPlanGERADU
+		icon = GFX_goal_generic_position_armies
+		text = WarPlanADU
+		prerequisite = { focus = LimGER }
+		bypass = {
+			has_war_with = ADU
+		}
+		x = 1
+		y = 1
+		relative_position_id = LimGER
+		cost = 10
+		available = {
+			any_other_country = {
+				original_tag = ADU
+				exists = yes
+				NOT = { has_government = democratic } 
+				NOT = { is_in_faction_with = GER }
+				OR = {
+					has_offensive_war = yes
+					has_added_tension_amount > 30
+				}
+			}
+		}
+		completion_reward = {
+		army_experience = 20
+		add_tech_bonus = {
+			name = land_doc_bonus
+			bonus = 0.5
+			uses = 1
+			category = land_doctrine
+		}
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = EmbargoGERADU
+		icon = GFX_goal_generic_trade
+		text = EmbargoADU
+		prerequisite = { focus =  WarPlanGERADU }
+		bypass = {
+			has_war_with = ADU
+		}
+		x = 0
+		y = 1
+		relative_position_id = WarPlanGERADU
+		cost = 10
+		available = {
+			any_other_country = {
+				original_tag = ADU
+				exists = yes
+				NOT = { has_government = democratic } 
+				NOT = { is_in_faction_with = GER }
+				OR = {
+					has_offensive_war = yes
+					has_added_tension_amount > 30
+					threat > 0.6
+				}
+			}
+		}
+		completion_reward = {
+			ADU = {
+				add_opinion_modifier = { target = GER modifier = embargo }
+			}
+		}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = WARGERADU
+		icon = GFX_goal_support_democracy
+		text = WARADU
+		prerequisite = { focus =  EmbargoGERADU }
+		bypass = {
+			has_war_with = ADU
+		}
+		x = 0
+		y = 1
+		relative_position_id = EmbargoGERADU
+		cost = 10
+		available = {
+			has_war = no
+			any_other_country = {
+				original_tag = ADU
+				exists = yes
+				NOT = { has_government = democratic } 
+				NOT = { is_in_faction_with = GER }
+				OR = {
+					has_offensive_war = yes
+					has_added_tension_amount > 30
+					threat > 0.6
+				}
+			}
+		}
+		completion_reward = {
+			declare_war_on = {
+				type = puppet_wargoal_focus
+				target = ADU
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+}

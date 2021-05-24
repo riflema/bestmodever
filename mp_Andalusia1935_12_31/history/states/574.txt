@@ -1,0 +1,31 @@
+
+state={
+	id=574
+	name="STATE_574"
+	resources={
+		rubber=0.000
+	}
+
+	history={
+		owner = SOM
+		victory_points = {
+			12812 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = SOM
+		add_claim_by = ETH
+	}
+
+	provinces={
+		12757 12812 
+	}
+	manpower=269724
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

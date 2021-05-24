@@ -1,0 +1,31 @@
+
+state={
+	id=74
+	name="STATE_74"
+	resources={
+		oil=1.000
+		tungsten=11.000
+	}
+
+	history={
+		owner = X04
+		victory_points = {
+			12322 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = X04
+	}
+
+	provinces={
+		1525 12322 
+	}
+	manpower=763036
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

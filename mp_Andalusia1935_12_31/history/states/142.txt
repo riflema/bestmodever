@@ -1,0 +1,32 @@
+
+state={
+	id=142
+	name="STATE_142"
+	resources={
+		steel=0.000
+	}
+
+	history={
+		owner = EGY
+		victory_points = {
+			11746 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			11746 = {
+				naval_base = 6
+			}
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		806 886 3889 3921 6813 6888 6956 9893 11746 
+	}
+	manpower=554804
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

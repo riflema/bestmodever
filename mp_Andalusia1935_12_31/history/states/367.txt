@@ -1,0 +1,31 @@
+
+state={
+	id=367
+	name="STATE_367"
+	resources={
+		oil=20.000
+	}
+
+	history={
+		owner = X37
+		victory_points = {
+			1827 1 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = X37
+		add_claim_by = USA
+	}
+
+	provinces={
+		868 1658 1738 1809 1827 3869 6887 7684 7780 7999 9792 10535 10588 11772 12570 12627 12642 
+	}
+	manpower=1395472
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

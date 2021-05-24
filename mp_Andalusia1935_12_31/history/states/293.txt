@@ -1,0 +1,33 @@
+
+state={
+	id=293
+	name="STATE_293"
+	resources={
+		chromium=0.000
+	}
+
+	history={
+		owner = HON
+		victory_points = {
+			10728 1 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			2075 = {
+				naval_base = 1
+			}
+			air_base = 0
+
+		}
+		add_core_of = HON
+	}
+
+	provinces={
+		2075 10728 
+	}
+	manpower=724724
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

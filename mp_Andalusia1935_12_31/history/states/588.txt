@@ -1,0 +1,27 @@
+
+state={
+	id=588
+	name="STATE_588"
+
+	history={
+		owner = X65
+		victory_points = {
+			1898 1 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X65
+	}
+
+	provinces={
+		1898 3989 7064 7334 9973 
+	}
+	manpower=795524
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

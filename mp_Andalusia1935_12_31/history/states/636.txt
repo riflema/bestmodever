@@ -1,0 +1,111 @@
+
+state={
+	id=636
+	name="STATE_636"
+	resources={
+		chromium=12.000
+		steel=76.000
+	}
+
+	history={
+		owner = TUR
+		victory_points = {
+			3580 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_claim_by = SOV
+		add_claim_by = X25
+		SOV = {
+			set_province_controller = 212
+			set_province_controller = 261
+			set_province_controller = 288
+			set_province_controller = 302
+			set_province_controller = 328
+			set_province_controller = 356
+			set_province_controller = 384
+			set_province_controller = 413
+			set_province_controller = 437
+			set_province_controller = 457
+			set_province_controller = 473
+			set_province_controller = 510
+			set_province_controller = 534
+			set_province_controller = 558
+			set_province_controller = 580
+			set_province_controller = 3199
+			set_province_controller = 3250
+			set_province_controller = 3291
+			set_province_controller = 3306
+			set_province_controller = 3318
+			set_province_controller = 3346
+			set_province_controller = 3376
+			set_province_controller = 3469
+			set_province_controller = 3492
+			set_province_controller = 3504
+			set_province_controller = 3527
+			set_province_controller = 3554
+			set_province_controller = 3567
+			set_province_controller = 3580
+			set_province_controller = 6254
+			set_province_controller = 6304
+			set_province_controller = 6317
+			set_province_controller = 6330
+			set_province_controller = 6341
+			set_province_controller = 6355
+			set_province_controller = 6369
+			set_province_controller = 6386
+			set_province_controller = 6398
+			set_province_controller = 6411
+			set_province_controller = 6432
+			set_province_controller = 6477
+			set_province_controller = 6481
+			set_province_controller = 6494
+			set_province_controller = 6517
+			set_province_controller = 6543
+			set_province_controller = 6553
+			set_province_controller = 6577
+			set_province_controller = 6591
+			set_province_controller = 6603
+			set_province_controller = 9260
+			set_province_controller = 9328
+			set_province_controller = 9339
+			set_province_controller = 9355
+			set_province_controller = 9384
+			set_province_controller = 9411
+			set_province_controller = 9424
+			set_province_controller = 9448
+			set_province_controller = 9449
+			set_province_controller = 9489
+			set_province_controller = 9518
+			set_province_controller = 9542
+			set_province_controller = 9552
+			set_province_controller = 9579
+			set_province_controller = 11214
+			set_province_controller = 11242
+			set_province_controller = 11244
+			set_province_controller = 11283
+			set_province_controller = 11310
+			set_province_controller = 11337
+			set_province_controller = 11368
+			set_province_controller = 11396
+			set_province_controller = 11412
+			set_province_controller = 11439
+			set_province_controller = 11475
+			set_province_controller = 11500
+			set_province_controller = 11526
+			set_province_controller = 11540
+		}
+	}
+
+	provinces={
+		212 261 288 302 328 356 384 413 437 457 473 510 534 558 580 3199 3250 3291 3306 3318 3346 3376 3469 3492 3504 3527 3554 3567 3580 6254 6304 6317 6330 6341 6355 6369 6386 6398 6411 6432 6477 6481 6494 6517 6543 6553 6577 6591 6603 9260 9328 9339 9355 9384 9411 9424 9448 9449 9489 9518 9542 9552 9579 11214 11242 11244 11283 11310 11337 11368 11396 11412 11439 11475 11500 11526 11540 
+	}
+	manpower=2617540
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

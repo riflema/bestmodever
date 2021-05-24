@@ -1,0 +1,93 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 10895
+		task_force = {
+			name = "1st Fleet"
+			location = 10895
+			ship = { name = "Porfirio" definition = battleship equipment = { battleship_2 = { amount = 1 owner = MEX } } }
+			ship = { name = "Anahuac" definition = battleship equipment = { battleship_2 = { amount = 1 owner = MEX } } }
+			ship = { name = "Tampico" definition = battleship equipment = { battleship_2 = { amount = 1 owner = MEX } } }
+			ship = { name = "Blanquet" definition = battleship equipment = { battleship_2 = { amount = 1 owner = MEX } } }
+			ship = { name = "Aguascalientes" definition = battleship equipment = { battleship_2 = { amount = 1 owner = MEX } } }
+			ship = { name = "Campeche" definition = battleship equipment = { battleship_2 = { amount = 1 owner = MEX } } }
+			ship = { name = "Colima" definition = battleship equipment = { battleship_2 = { amount = 1 owner = MEX } } }
+			ship = { name = "Colima" definition = battleship equipment = { battleship_2 = { amount = 1 owner = MEX } } }
+			ship = { name = "Chihuahua" definition = battleship equipment = { battleship_2 = { amount = 1 owner = MEX } } }
+			ship = { name = "Durango" definition = battleship equipment = { battleship_2 = { amount = 1 owner = MEX } } }
+			ship = { name = "Hidalgo" definition = battleship equipment = { battleship_2 = { amount = 1 owner = MEX } } }
+			ship = { name = "Independencia" definition = battleship equipment = { battleship_2 = { amount = 1 owner = MEX } } }
+			ship = { name = "Libertad" definition = battleship equipment = { battleship_2 = { amount = 1 owner = MEX } } }
+			ship = { name = "Demócrata" definition = battleship equipment = { battleship_2 = { amount = 1 owner = MEX } } }
+			ship = { name = "Vera Cruz" definition = battleship equipment = { battleship_2 = { amount = 1 owner = MEX } } }
+			ship = { name = "Nicolás Bravo" definition = battleship equipment = { battleship_2 = { amount = 1 owner = MEX } } }
+			ship = { name = "Coahuila" definition = battleship equipment = { battleship_2 = { amount = 1 owner = MEX } } }
+			ship = { name = "Díaz" definition = battleship equipment = { battleship_2 = { amount = 1 owner = MEX } } }
+			ship = { name = "Chiapas" definition = battleship equipment = { battleship_2 = { amount = 1 owner = MEX } } }
+			ship = { name = "Guerrero" definition = battleship equipment = { battleship_2 = { amount = 1 owner = MEX } } }
+			ship = { name = "Nuevo León" definition = battleship equipment = { battleship_2 = { amount = 1 owner = MEX } } }
+			ship = { name = "San Luis Potosí" definition = battleship equipment = { battleship_2 = { amount = 1 owner = MEX } } }
+			ship = { name = "Oaxaca" definition = battleship equipment = { battleship_2 = { amount = 1 owner = MEX } } }
+			ship = { name = "1st Mazatlán Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "2nd Mazatlán Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "1st Guaymas Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "2nd Guaymas Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "Zaragoza" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = MEX } } }
+			ship = { name = "Altamira" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = MEX } } }
+			ship = { name = "San Fernando" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = MEX } } }
+			ship = { name = "Río Bravo" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = MEX } } }
+			ship = { name = "Los Ramones" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = MEX } } }
+			ship = { name = "Loma Alta" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = MEX } } }
+			ship = { name = "Río Bravo" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = MEX } } }
+			ship = { name = "Loma Alta" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = MEX } } }
+			ship = { name = "El Lobo" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = MEX } } }
+			ship = { name = "Candela" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = MEX } } }
+			ship = { name = "Villadama" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = MEX } } }
+			ship = { name = "Santo Domingo" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = MEX } } }
+			ship = { name = "Tuxpan" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = MEX } } }
+			ship = { name = "1st Mazatlán Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = MEX } } }
+			ship = { name = "1st Colima Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = MEX } } }
+			ship = { name = "2nd Colima Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = MEX } } }
+			ship = { name = "1st Veracruz Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = MEX } } }
+			ship = { name = "1st Tampico Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = MEX } } }
+			ship = { name = "1st Guaymas Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = MEX } } }
+			ship = { name = "2nd Mazatlán Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = MEX } } }
+			ship = { name = "2nd Veracruz Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = MEX } } }
+			ship = { name = "2nd Tampico Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = MEX } } }
+			ship = { name = "3rd Mazatlán Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = MEX } } }
+			ship = { name = "4th Mazatlán Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = MEX } } }
+		}
+	}
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 12810
+		task_force = {
+			name = "2nd Fleet"
+			location = 12810
+			ship = { name = "3rd Veracruz Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = MEX } } }
+			ship = { name = "3rd Tampico Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = MEX } } }
+			ship = { name = "4th Veracruz Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = MEX } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_2
+			creator = "MEX"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_2
+			creator = "MEX"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

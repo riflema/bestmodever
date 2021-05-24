@@ -1,0 +1,31 @@
+
+state={
+	id=305
+	name="STATE_305"
+
+	history={
+		owner = ITA
+		victory_points = {
+			925 2 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			925 = {
+				naval_base = 10
+			}
+			air_base = 0
+
+		}
+		add_core_of = ITA
+	}
+
+	provinces={
+		925 967 3885 6926 9794 11790 11861 
+	}
+	manpower=2191072
+	buildings_max_level_factor=1.000
+	state_category=town
+}

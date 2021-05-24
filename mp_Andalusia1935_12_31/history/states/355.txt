@@ -1,0 +1,22 @@
+
+state={
+	id=355
+	name="STATE_355"
+	resources={
+		steel=1.000
+	}
+	impassable = yes
+
+	history={
+		owner = LBA
+		add_core_of = EGY
+		add_claim_by = LBA
+	}
+
+	provinces={
+		1060 11951 
+	}
+	manpower=68747
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

@@ -1,0 +1,57 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 9740
+		task_force = {
+			name = "1st Fleet"
+			location = 9740
+			ship = { name = "1st Churchill Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X82 version_name = "1936 Battleship" } } }
+			ship = { name = "2nd Churchill Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X82 version_name = "1936 Battleship" } } }
+			ship = { name = "3rd Churchill Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X82 version_name = "1936 Battleship" } } }
+			ship = { name = "4th Churchill Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X82 version_name = "1936 Battleship" } } }
+			ship = { name = "1st Fort Albany Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X82 version_name = "1936 Battleship" } } }
+			ship = { name = "1st Ungava Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X82 version_name = "1936 Battleship" } } }
+			ship = { name = "5th Churchill Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X82 version_name = "1936 Battleship" } } }
+			ship = { name = "2nd Fort Albany Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X82 version_name = "1936 Battleship" } } }
+			ship = { name = "2nd Ungava Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X82 version_name = "1936 Battleship" } } }
+			ship = { name = "6th Churchill Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X82 version_name = "1936 Battleship" } } }
+			ship = { name = "1st Fort Albany Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X82 version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "1st Churchill Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X82 version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "3rd Churchill Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X82 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Ungava Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X82 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Churchill Cruiser" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X82 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Churchill Cruiser" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X82 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Ungava Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X82 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Churchill Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X82 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Ungava Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X82 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "5th Churchill Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X82 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Fort Albany Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X82 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Fort Albany Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X82 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Ungava Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X82 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "6th Churchill Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X82 version_name = "1936 Light Cruiser" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "X82"
+			version_name = "1936 Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_2
+			creator = "X82"
+			version_name = "1936 Battleship"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

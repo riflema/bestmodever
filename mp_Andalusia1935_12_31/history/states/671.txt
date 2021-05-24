@@ -1,0 +1,31 @@
+
+state={
+	id=671
+	name="STATE_671"
+	resources={
+		aluminium=28.000
+		chromium=44.000
+	}
+
+	history={
+		owner = X68
+		victory_points = {
+			7375 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_claim_by = X68
+	}
+
+	provinces={
+		31 88 123 146 189 206 237 278 361 370 381 390 1295 1307 1336 1365 1380 1754 3000 3027 3127 3280 3363 4298 4314 4326 4356 4372 4802 4874 6025 6121 6162 6274 6288 7318 7346 7359 7375 7824 9145 9225 9283 9293 10200 10216 10286 10314 10551 10579 11111 11124 11133 11170 11193 11195 11203 11228 11352 12175 12187 12203 12216 12527 12558 12587 12626 12659 
+	}
+	manpower=1779556
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

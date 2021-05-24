@@ -1,0 +1,118 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 925
+		task_force = {
+			name = "1st Fleet"
+			location = 925
+			ship = { name = "1st Genoa Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "2nd Genoa Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "1st Toulon Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "1st Leghorn Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "3rd Genoa Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "2nd Toulon Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "4th Genoa Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "3rd Toulon Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "5th Genoa Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "4th Toulon Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "5th Toulon Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "6th Toulon Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "7th Toulon Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "6th Genoa Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "8th Toulon Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "9th Toulon Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "10th Toulon Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "11th Toulon Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "12th Toulon Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "13th Toulon Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "14th Toulon Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "15th Toulon Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "16th Toulon Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "1st Montpellier Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "7th Genoa Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "17th Toulon Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "8th Genoa Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "2nd Montpellier Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "18th Toulon Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "3rd Montpellier Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "19th Toulon Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "20th Toulon Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "1st Ravenna Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "2nd Leghorn Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "2nd Ravenna Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "3rd Leghorn Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "4th Montpellier Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "9th Genoa Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "3rd Ravenna Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "4th Leghorn Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "1st Ancona Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "5th Montpellier Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "21st Toulon Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "10th Genoa Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "4th Ravenna Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "5th Leghorn Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "Caio Duilio" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ITA version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Enrico Dandolo" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ITA version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Benedetto Brin" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ITA version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Regina Elena" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ITA version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Re Umberto" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ITA version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Vittorio Emanuele" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ITA version_name = "1936 Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 6788
+		task_force = {
+			name = "2nd Fleet"
+			location = 6788
+			ship = { name = "6th Montpellier Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "7th Montpellier Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "22nd Toulon Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "11th Genoa Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "6th Leghorn Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "5th Ravenna Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "2nd Ancona Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "8th Montpellier Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "23rd Toulon Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "12th Genoa Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "7th Leghorn Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "6th Ravenna Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "3rd Ancona Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "9th Montpellier Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "24th Toulon Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "13th Genoa Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "8th Leghorn Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "7th Ravenna Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "4th Ancona Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "10th Montpellier Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "25th Toulon Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "14th Genoa Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "9th Leghorn Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "8th Ravenna Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+			ship = { name = "5th Ancona Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ITA version_name = "1936 Battleship" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "ITA"
+			version_name = "1936 Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_2
+			creator = "ITA"
+			version_name = "1936 Battleship"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

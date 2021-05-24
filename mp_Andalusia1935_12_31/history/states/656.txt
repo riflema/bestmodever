@@ -1,0 +1,32 @@
+
+state={
+	id=656
+	name="STATE_656"
+	resources={
+		oil=6.000
+		tungsten=9.000
+	}
+
+	history={
+		owner = UCV
+		victory_points = {
+			7869 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_claim_by = CAN
+		add_claim_by = UCV
+	}
+
+	provinces={
+		3606 7869 7891 
+	}
+	manpower=10056
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

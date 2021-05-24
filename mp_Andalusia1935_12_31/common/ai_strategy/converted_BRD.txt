@@ -1,0 +1,126 @@
+﻿converted_war_strategies_BRD = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "TZN"
+		value = 141
+	}
+	ai_strategy = {
+		type = conquer
+		id = "EGY"
+		value = 45
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ADU"
+		value = 35
+	}
+	ai_strategy = {
+		type = conquer
+		id = "RWA"
+		value = 35
+	}
+	ai_strategy = {
+		type = conquer
+		id = "TUR"
+		value = 30
+	}
+	ai_strategy = {
+		type = conquer
+		id = "CHA"
+		value = 9
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ETH"
+		value = 3
+	}
+}
+
+converted_diplo_strategies_BRD = {
+	enable = {
+		tag = BRD
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "ITA"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "ADU"
+		value = 242
+	}
+	ai_strategy = {
+		type = contain
+		id = "X73"
+		value = 43
+	}
+	ai_strategy = {
+		type = contain
+		id = "RWA"
+		value = 29
+	}
+	ai_strategy = {
+		type = contain
+		id = "TZN"
+		value = 23
+	}
+	ai_strategy = {
+		type = contain
+		id = "UGA"
+		value = 10
+	}
+	ai_strategy = {
+		type = contain
+		id = "X56"
+		value = 7
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ADU"
+		value = 392
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "EGY"
+		value = 15
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CHA"
+		value = 11
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "TUR"
+		value = 10
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ETH"
+		value = 2
+	}
+	ai_strategy = {
+		type = alliance
+		id = "GER"
+		value = 146
+	}
+	ai_strategy = {
+		type = alliance
+		id = "UGA"
+		value = 104
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "DJI"
+		value = 50
+	}
+}

@@ -1,0 +1,31 @@
+
+state={
+	id=412
+	name="STATE_412"
+	resources={
+		steel=10.000
+	}
+
+	history={
+		owner = X40
+		victory_points = {
+			12019 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = X40
+		add_claim_by = CHI
+	}
+
+	provinces={
+		1083 1099 1125 1171 4105 4173 4203 7035 7104 7222 10017 10044 10064 11937 11994 12019 12061 
+	}
+	manpower=4877248
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

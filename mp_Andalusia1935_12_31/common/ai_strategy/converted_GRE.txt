@@ -1,0 +1,16 @@
+﻿converted_war_strategies_GRE = {
+	enable = {
+		always = no
+	}
+	
+}
+
+converted_diplo_strategies_GRE = {
+	enable = {
+		tag = GRE
+	}
+	abort = {
+		always = no
+	}
+	
+}

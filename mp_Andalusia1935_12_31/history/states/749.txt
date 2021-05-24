@@ -1,0 +1,36 @@
+
+state={
+	id=749
+	name="STATE_749"
+	resources={
+		aluminium=0.000
+		steel=2.000
+	}
+
+	history={
+		owner = X77
+		victory_points = {
+			3732 1 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			3732 = {
+				naval_base = 6
+			}
+			air_base = 1
+
+		}
+		add_core_of = X77
+		add_claim_by = USA
+	}
+
+	provinces={
+		3732 6719 12202 
+	}
+	manpower=2664040
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

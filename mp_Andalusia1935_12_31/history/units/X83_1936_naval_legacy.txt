@@ -1,0 +1,47 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 7520
+		task_force = {
+			name = "2nd Fleet"
+			location = 7520
+			ship = { name = "1st Newcastle Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = X83 } } }
+			ship = { name = "1st Melbourne Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = X83 } } }
+			ship = { name = "1st Gladstone Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = X83 } } }
+			ship = { name = "1st Perth Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = X83 } } }
+			ship = { name = "2nd Newcastle Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = X83 } } }
+			ship = { name = "3rd Newcastle Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = X83 } } }
+			ship = { name = "2nd Melbourne Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = X83 } } }
+			ship = { name = "4th Newcastle Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = X83 } } }
+			ship = { name = "1st Newcastle Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X83 } } }
+			ship = { name = "1st Palmerston Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X83 } } }
+			ship = { name = "1st Melbourne Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X83 } } }
+			ship = { name = "1st Gladstone Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X83 } } }
+			ship = { name = "1st Adelaide Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X83 } } }
+			ship = { name = "2nd Newcastle Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X83 } } }
+			ship = { name = "3rd Newcastle Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X83 } } }
+			ship = { name = "2nd Melbourne Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X83 } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_2
+			creator = "X83"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_2
+			creator = "X83"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

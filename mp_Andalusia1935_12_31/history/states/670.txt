@@ -1,0 +1,27 @@
+
+state={
+	id=670
+	name="STATE_670"
+
+	history={
+		owner = UCV
+		victory_points = {
+			10607 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_claim_by = UCV
+	}
+
+	provinces={
+		2972 4692 4859 10607 11328 13064 
+	}
+	manpower=4424
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

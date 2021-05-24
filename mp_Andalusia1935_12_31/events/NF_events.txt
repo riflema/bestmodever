@@ -1,0 +1,518 @@
+﻿add_namespace = NFEvents
+
+country_event = {
+	id = NFEvents.1
+	title = "Alliance Offer"
+	desc = "We have been invited to an alliance with Andalusia. Should we accept the invitation?"
+	picture = news_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Yes"
+		X75 = {
+			add_ai_strategy = {
+				type = alliance
+				id = "ADU"
+				value = 200
+			}
+			dismantle_faction = yes
+		}
+		if = {
+			limit = {
+				ADU = {
+					is_in_faction = no
+				}
+			}
+			ADU = {
+				create_faction = "Andalusia"
+			}
+		}
+		ADU = {
+			add_to_faction = X75
+		}
+		hidden_effect = {
+			news_event = { id = news.500 }
+		}
+	}
+
+	option = {
+		name = "No"
+		ai_chance = { factor = 0 }
+		hidden_effect = {
+			news_event = { id = news.501 }
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.2
+	title = "America Demands Deseret!"
+	desc = "Today America sent an envoy to us with a proposition of an union. We are alone and in this world, and a union with America might prove to be fruitful. Our people would be safe with the mighty army of America and we could possibly flourish with their established economy. Or we could refuse the union which would surely lead to war, but maybe we can hold them off!"
+	picture = GFX_report_event_hitler_parade
+
+	is_triggered_only = yes
+
+	option = {
+		name = "We accept the Union"
+		ai_chance = {
+			base = 30
+			modifier = {
+				factor = 0
+				X17 = { is_subject = yes }
+			}
+			modifier = {
+				add = -15
+				X17 = { has_army_size = { size > 39 } }
+			}
+			modifier = {
+				add = 45
+				X17 = { has_army_size = { size < 40 } }
+			}
+		}
+		FROM = {
+			country_event = { hours = 2 id = NFEvents.3 }
+		}
+		custom_effect_tooltip = GAME_OVER_TT
+	}
+
+	option = {
+		name = "We Refuse!"
+		ai_chance = {
+			base = 10
+			modifier = {
+				factor = 0
+				X17 = { has_army_size = { size < 30 } }
+			}
+			modifier = {
+				add = 20
+				X17 = { has_army_size = { size > 39 } }
+			}
+		}
+		FROM = {
+			country_event = { hours = 2 id = NFEvents.4 }
+			if = {
+				limit = { is_in_faction_with = X17 }
+				remove_from_faction = X17
+			}
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.4
+	title = "Deseret Refuses!"
+	desc = "Deseret Refused our proposed union! This is an insult to us that cannot go unanswered!"
+	picture = GFX_report_event_german_troops
+
+	is_triggered_only = yes
+
+	option = {
+		name = "It's time for war"
+		create_wargoal = {
+			type = annex_everything
+			target = X17
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.3
+	title = "Deseret accepts!"
+	desc = "Deseret accepted our proposed union, their added strength will push us to greatness!"
+	picture = GFX_report_event_german_speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = "A stronger Union!"
+		131 = {
+			if = {
+				limit = { is_owned_by = X17 }
+				add_core_of = X17
+			}
+		}
+		annex_country = { target = X17 transfer_troops = yes }
+		add_political_power = 50
+		add_named_threat = { threat = 2 name = "America annexed Deseret" }
+		set_country_flag = X17_annexed
+	}
+}
+
+country_event = {
+	id = NFEvents.5
+	title = "America Demands Nueva Malaqah!"
+	desc = "Today America sent an envoy to us with a proposition of an union. We are alone and in this world, and a union with America might prove to be fruitful. Our people would be safe with the mighty army of America and we could possibly flourish with their established economy. Or we could refuse the union which would surely lead to war, but maybe we can hold them off!"
+	picture = GFX_report_event_hitler_parade
+
+	is_triggered_only = yes
+
+	option = {
+		name = "We accept the Union"
+		ai_chance = {
+			base = 30
+			modifier = {
+				factor = 0
+				X77 = { is_subject = yes }
+			}
+			modifier = {
+				add = -15
+				X77 = { has_army_size = { size > 39 } }
+			}
+			modifier = {
+				add = 45
+				X77 = { has_army_size = { size < 40 } }
+			}
+		}
+		FROM = {
+			country_event = { hours = 2 id = NFEvents.6 }
+		}
+		custom_effect_tooltip = GAME_OVER_TT
+	}
+
+	option = {
+		name = "We Refuse!"
+		ai_chance = {
+			base = 10
+			modifier = {
+				factor = 0
+				X77 = { has_army_size = { size < 30 } }
+			}
+			modifier = {
+				add = 20
+				X77 = { has_army_size = { size > 39 } }
+			}
+		}
+		FROM = {
+			country_event = { hours = 2 id = NFEvents.7 }
+			if = {
+				limit = { is_in_faction_with = X77 }
+				remove_from_faction = X77
+			}
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.7
+	title = "Nueva Malaqah Refuses!"
+	desc = "Nueva Malaqah Refused our proposed union! This is an insult to us that cannot go unanswered!"
+	picture = GFX_report_event_german_troops
+
+	is_triggered_only = yes
+
+	option = {
+		name = "It's time for war"
+		create_wargoal = {
+			type = annex_everything
+			target = X77
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.6
+	title = "Nueva Malaqah accepts!"
+	desc = "Nueva Malaqah accepted our proposed union, their added strength will push us to greatness!"
+	picture = GFX_report_event_german_speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = "A stronger Union!"
+		742 = {
+			if = {
+				limit = { is_owned_by = X77 }
+				add_core_of = X77
+			}
+		}
+		743 = {
+			if = {
+				limit = { is_owned_by = X77 }
+				add_core_of = X77
+			}
+		}
+		744 = {
+			if = {
+				limit = { is_owned_by = X77 }
+				add_core_of = X77
+			}
+		}
+		745 = {
+			if = {
+				limit = { is_owned_by = X77 }
+				add_core_of = X77
+			}
+		}
+		746 = {
+			if = {
+				limit = { is_owned_by = X77 }
+				add_core_of = X77
+			}
+		}
+		747 = {
+			if = {
+				limit = { is_owned_by = X77 }
+				add_core_of = X77
+			}
+		}
+		748 = {
+			if = {
+				limit = { is_owned_by = X77 }
+				add_core_of = X77
+			}
+		}
+		749 = {
+			if = {
+				limit = { is_owned_by = X77 }
+				add_core_of = X77
+			}
+		}
+		annex_country = { target = X77 transfer_troops = yes }
+		add_political_power = 50
+		add_named_threat = { threat = 2 name = "America annexed Nueva Malaqah" }
+		set_country_flag = X77_annexed
+	}
+}
+
+country_event = {
+	id = NFEvents.8
+	title = "America Demands Nueva Qadis!"
+	desc = "Today America sent an envoy to us with a proposition of an union. We are alone and in this world, and a union with America might prove to be fruitful. Our people would be safe with the mighty army of America and we could possibly flourish with their established economy. Or we could refuse the union which would surely lead to war, but maybe we can hold them off!"
+	picture = GFX_report_event_hitler_parade
+
+	is_triggered_only = yes
+
+	option = {
+		name = "We accept the Union"
+		ai_chance = {
+			base = 30
+			modifier = {
+				factor = 0
+				X81 = { is_subject = yes }
+			}
+			modifier = {
+				add = -15
+				X81 = { has_army_size = { size > 39 } }
+			}
+			modifier = {
+				add = 45
+				X81 = { has_army_size = { size < 40 } }
+			}
+		}
+		FROM = {
+			country_event = { hours = 2 id = NFEvents.9 }
+		}
+		custom_effect_tooltip = GAME_OVER_TT
+	}
+
+	option = {
+		name = "We Refuse!"
+		ai_chance = {
+			base = 10
+			modifier = {
+				factor = 0
+				X81 = { has_army_size = { size < 30 } }
+			}
+			modifier = {
+				add = 20
+				X81 = { has_army_size = { size > 39 } }
+			}
+		}
+		FROM = {
+			country_event = { hours = 2 id = NFEvents.10 }
+			if = {
+				limit = { is_in_faction_with = X81 }
+				remove_from_faction = X81
+			}
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.10
+	title = "Nueva Qadis Refuses!"
+	desc = "Nueva Qadis Refused our proposed union! This is an insult to us that cannot go unanswered!"
+	picture = GFX_report_event_german_troops
+
+	is_triggered_only = yes
+
+	option = {
+		name = "It's time for war"
+		create_wargoal = {
+			type = annex_everything
+			target = X81
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.9
+	title = "Nueva Qadis accepts!"
+	desc = "Nueva Qadis accepted our proposed union, their added strength will push us to greatness!"
+	picture = GFX_report_event_german_speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = "A stronger Union!"
+		769 = {
+			if = {
+				limit = { is_owned_by = X81 }
+				add_core_of = X81
+			}
+		}
+		770 = {
+			if = {
+				limit = { is_owned_by = X81 }
+				add_core_of = X81
+			}
+		}
+		771 = {
+			if = {
+				limit = { is_owned_by = X81 }
+				add_core_of = X81
+			}
+		}
+		772 = {
+			if = {
+				limit = { is_owned_by = X81 }
+				add_core_of = X81
+			}
+		}
+		773 = {
+			if = {
+				limit = { is_owned_by = X81 }
+				add_core_of = X81
+			}
+		}
+		774 = {
+			if = {
+				limit = { is_owned_by = X81 }
+				add_core_of = X81
+			}
+		}
+		annex_country = { target = X81 transfer_troops = yes }
+		add_political_power = 50
+		add_named_threat = { threat = 2 name = "America annexed Nueva Qadis" }
+		set_country_flag = X81_annexed
+	}
+}
+
+country_event = {
+	id = NFEvents.11
+	title = "Alliance Offer"
+	desc = "We have been invited to an alliance with America. Should we accept the invitation?"
+	picture = news_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Yes"
+		BRA = {
+			add_ai_strategy = {
+				type = alliance
+				id = "USA"
+				value = 200
+			}
+			dismantle_faction = yes
+		}
+		if = {
+			limit = {
+				USA = {
+					is_in_faction = no
+				}
+			}
+			USA = {
+				create_faction = "America"
+			}
+		}
+		USA = {
+			add_to_faction = BRA
+		}
+		hidden_effect = {
+			news_event = { id = news.502 }
+		}
+	}
+
+	option = {
+		name = "No"
+		ai_chance = { factor = 0 }
+		hidden_effect = {
+			news_event = { id = news.503 }
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.12
+	title = "Alliance Offer"
+	desc = "We have been invited to an alliance with America. Should we accept the invitation?"
+	picture = news_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Yes"
+		CAL = {
+			add_ai_strategy = {
+				type = alliance
+				id = "USA"
+				value = 200
+			}
+			dismantle_faction = yes
+		}
+		if = {
+			limit = {
+				USA = {
+					is_in_faction = no
+				}
+			}
+			USA = {
+				create_faction = "America"
+			}
+		}
+		USA = {
+			add_to_faction = CAL
+		}
+		hidden_effect = {
+			news_event = { id = news.504 }
+		}
+	}
+
+	option = {
+		name = "No"
+		ai_chance = { factor = 0 }
+		hidden_effect = {
+			news_event = { id = news.505 }
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.13
+	title = "Trade Incident"
+	desc = "One of our convoys was sunk by Thirteen Colonies"
+	picture = GFX_report_event_chinese_soldiers_fighting
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = established_traders
+		NOT = { has_country_flag = established_traders_activated }
+	}
+
+	option = {
+		name = "They will Pay!"
+		ai_chance = { factor = 85 }
+		effect_tooltip = {
+			X56 = {
+				set_country_flag = established_traders_activated
+				create_wargoal = {
+					type = annex_everything
+					target = X78
+				}
+			}
+		}
+	}
+}

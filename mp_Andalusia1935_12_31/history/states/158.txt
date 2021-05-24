@@ -1,0 +1,31 @@
+
+state={
+	id=158
+	name="STATE_158"
+
+	history={
+		owner = EGY
+		victory_points = {
+			12766 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			5047 = {
+				naval_base = 1
+			}
+			air_base = 5
+
+		}
+		add_core_of = ERI
+		add_claim_by = ETH
+	}
+
+	provinces={
+		5017 5047 5091 8043 12723 12766 
+	}
+	manpower=894324
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

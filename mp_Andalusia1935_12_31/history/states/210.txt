@@ -1,0 +1,36 @@
+
+state={
+	id=210
+	name="STATE_210"
+	resources={
+		oil=0.000
+	}
+
+	history={
+		owner = GER
+		victory_points = {
+			11360 10 
+		}
+		buildings = {
+			infrastructure = 9
+			industrial_complex = 7
+			arms_factory = 3
+			dockyard = 2
+			11360 = {
+				naval_base = 10
+			}
+			air_base = 8
+
+		}
+		add_core_of = GER
+		add_claim_by = HOL
+		add_claim_by = X20
+	}
+
+	provinces={
+		247 309 3234 3395 6377 9281 11233 11264 11360 11388 
+	}
+	manpower=7356064
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

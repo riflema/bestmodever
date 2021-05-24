@@ -1,0 +1,34 @@
+
+state={
+	id=552
+	name="STATE_552"
+	resources={
+		steel=25.000
+	}
+
+	history={
+		owner = X56
+		victory_points = {
+			12589 10 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 0
+			12589 = {
+				naval_base = 10
+			}
+			air_base = 5
+
+		}
+		add_claim_by = SAF
+		add_claim_by = X56
+	}
+
+	provinces={
+		4528 10415 10442 12547 12589 12692 
+	}
+	manpower=2830764
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

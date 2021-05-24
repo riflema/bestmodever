@@ -1,0 +1,30 @@
+
+state={
+	id=550
+	name="STATE_550"
+
+	history={
+		owner = X56
+		victory_points = {
+			2038 0 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 0
+			arms_factory = 0
+			2038 = {
+				naval_base = 8
+			}
+			air_base = 1
+
+		}
+		add_claim_by = X56
+	}
+
+	provinces={
+		2038 2094 
+	}
+	manpower=1307880
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

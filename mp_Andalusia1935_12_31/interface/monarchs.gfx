@@ -1,0 +1,783 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_ADU_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_ALB_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_ANG_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_ARG_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_ARM_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_BAS_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_BEL_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_BOS_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_BRA_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_BRD_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_BUL_monarch"
+		texturefile = "gfx/interface/ideas/crowns/bulgaria.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CAL_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_CAM_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_CAN_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_CAR_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_CHA_monarch"
+		texturefile = "gfx/interface/ideas/crowns/central_africa.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CHI_monarch"
+		texturefile = "GFX_focus_man_claim_the_mandate_of_heaven"
+	}
+	spriteType = {
+		name = "GFX_idea_CHL_monarch"
+		texturefile = "gfx/interface/ideas/crowns/brazil.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CMR_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_CRO_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_CYP_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_CZE_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_DAH_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_DEN_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_DJI_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_EGY_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_ENG_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_ERI_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_EST_monarch"
+		texturefile = "gfx/interface/ideas/idea_bra_monarchist_uprising.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ETH_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_EUS_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_FIJ_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_FLA_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_FRA_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_GAB_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_GAM_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_GEO_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_monarch"
+		texturefile = "gfx/interface/ideas/crowns/germany.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GHA_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_GNB_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_GRE_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_HAI_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_HOL_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_HON_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_HUN_monarch"
+		texturefile = "gfx/interface/ideas/crowns/hungary.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_IRQ_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_ITA_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_IVO_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_monarch"
+		texturefile = "GFX_focus_man_claim_the_mandate_of_heaven"
+	}
+	spriteType = {
+		name = "GFX_idea_JOR_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_KAZ_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_KUR_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_LBA_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_LEB_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_LIT_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_MAC_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_MAD_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_MAL_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_MAN_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_MEX_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_MLI_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_MLT_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_MLW_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_MON_monarch"
+		texturefile = "gfx/interface/ideas/idea_bra_monarchist_uprising.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_MOR_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_MRT_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_NGA_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_NMB_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_OMA_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_PAL_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_PAN_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_PHI_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_PNG_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_POL_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_POR_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_PRU_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_QAT_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_RAJ_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_ROM_monarch"
+		texturefile = "gfx/interface/ideas/crowns/romania.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RWA_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_SAF_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_SCA_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_SEN_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_SER_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_SIA_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_SLO_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_SOM_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_SPR_monarch"
+		texturefile = "gfx/interface/ideas/crowns/spain.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SUD_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_SWI_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_SYR_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_TIB_monarch"
+		texturefile = "gfx/interface/ideas/idea_bra_monarchist_uprising.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_TOG_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_TUR_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_TZN_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_UAE_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_UCV_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_UGA_monarch"
+		texturefile = "gfx/interface/ideas/crowns/ethiopia.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_UKR_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_USA_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_VEN_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_VIN_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_WLL_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X00_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X01_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X02_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X03_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X04_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X05_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X06_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X07_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X08_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X09_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X10_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X11_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X12_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X13_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X14_monarch"
+		texturefile = "gfx/interface/ideas/crowns/bulgaria.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X15_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X16_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X17_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X18_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X19_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X20_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X21_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X22_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X23_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X24_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X25_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X26_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X27_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X28_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X29_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X30_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X31_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X32_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X33_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X34_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X35_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X36_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X37_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X38_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X39_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X40_monarch"
+		texturefile = "GFX_focus_man_claim_the_mandate_of_heaven"
+	}
+	spriteType = {
+		name = "GFX_idea_X41_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X42_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X43_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X44_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X45_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X46_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X47_monarch"
+		texturefile = "gfx/interface/ideas/crowns/poland.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X48_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X49_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X50_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X51_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X52_monarch"
+		texturefile = "gfx/interface/ideas/crowns/greece.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_X53_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X54_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X55_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X56_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X57_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X58_monarch"
+		texturefile = "GFX_focus_man_claim_the_mandate_of_heaven"
+	}
+	spriteType = {
+		name = "GFX_idea_X59_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X60_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X61_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X62_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X63_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X64_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X65_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X66_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X67_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X68_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X69_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X70_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X71_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X72_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X73_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X74_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X75_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X76_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X77_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X78_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X79_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X80_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X81_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X82_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X83_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X84_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X85_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X86_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X87_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_X88_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+	spriteType = {
+		name = "GFX_idea_YUG_monarch"
+		texturefile = "gfx/interface/ideas/crowns/bulgaria.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ZAM_monarch"
+		texturefile = "GFX_idea_george_v"
+	}
+}
+ 

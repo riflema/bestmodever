@@ -1,0 +1,151 @@
+﻿converted_war_strategies_X16 = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "TUR"
+		value = 939
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X18"
+		value = 171
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ITA"
+		value = 128
+	}
+	ai_strategy = {
+		type = conquer
+		id = "GER"
+		value = 126
+	}
+	ai_strategy = {
+		type = conquer
+		id = "EST"
+		value = 8
+	}
+}
+
+converted_diplo_strategies_X16 = {
+	enable = {
+		tag = X16
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "ITA"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "ADU"
+		value = 189
+	}
+	ai_strategy = {
+		type = contain
+		id = "X73"
+		value = 81
+	}
+	ai_strategy = {
+		type = contain
+		id = "X56"
+		value = 45
+	}
+	ai_strategy = {
+		type = contain
+		id = "GER"
+		value = 19
+	}
+	ai_strategy = {
+		type = contain
+		id = "X25"
+		value = 12
+	}
+	ai_strategy = {
+		type = contain
+		id = "TUR"
+		value = 12
+	}
+	ai_strategy = {
+		type = contain
+		id = "X18"
+		value = 9
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "TUR"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X18"
+		value = 125
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "GER"
+		value = 121
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "EST"
+		value = 48
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ITA"
+		value = 42
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ADU"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X56"
+		value = 145
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SOV"
+		value = 28
+	}
+	ai_strategy = {
+		type = alliance
+		id = "EGY"
+		value = 15
+	}
+	ai_strategy = {
+		type = protect
+		id = "X44"
+		value = 77
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X61"
+		value = 113
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "HUN"
+		value = 60
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X44"
+		value = 40
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X10"
+		value = 22
+	}
+}

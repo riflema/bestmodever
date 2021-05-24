@@ -1,0 +1,67 @@
+units = {
+	fleet = {
+		name = "5th Fleet"
+		naval_base = 7658
+		task_force = {
+			name = "5th Fleet"
+			location = 7658
+			ship = { name = "Bendahara" definition = battleship equipment = { battleship_1 = { amount = 1 owner = MAL } } }
+			ship = { name = "5th Banda Aceh Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = MAL } } }
+			ship = { name = "6th Banda Aceh Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = MAL } } }
+			ship = { name = "7th Banda Aceh Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = MAL } } }
+			ship = { name = "Parameswara" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MAL } } }
+		}
+	}
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 1398
+		task_force = {
+			name = "3rd Fleet"
+			location = 1398
+			ship = { name = "3rd Jambi Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = MAL } } }
+			ship = { name = "2nd Jambi Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = MAL } } }
+			ship = { name = "1st Banda Aceh Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = MAL } } }
+			ship = { name = "2nd Banda Aceh Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = MAL } } }
+			ship = { name = "3rd Banda Aceh Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = MAL } } }
+			ship = { name = "1st Jambi Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = MAL } } }
+			ship = { name = "4th Banda Aceh Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = MAL } } }
+			ship = { name = "Pulau Rangsang" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MAL } } }
+			ship = { name = "Pulau Rupat" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MAL } } }
+			ship = { name = "1st Banda Aceh Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MAL } } }
+			ship = { name = "1st Jambi Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MAL } } }
+			ship = { name = "2nd Jambi Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MAL } } }
+			ship = { name = "Pulau Tebing Tinggi" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MAL } } }
+			ship = { name = "Sultan Iskandar" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MAL } } }
+		}
+	}
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 1345
+		task_force = {
+			name = "1st Fleet"
+			location = 1345
+			ship = { name = "Laksamana" definition = battleship equipment = { battleship_1 = { amount = 1 owner = MAL } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "MAL"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "MAL"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

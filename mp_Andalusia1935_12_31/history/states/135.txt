@@ -1,0 +1,26 @@
+
+state={
+	id=135
+	name="STATE_135"
+
+	history={
+		owner = X18
+		victory_points = {
+			6642 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		4660 6642 6997 
+	}
+	manpower=416344
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

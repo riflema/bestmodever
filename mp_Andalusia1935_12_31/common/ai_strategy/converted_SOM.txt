@@ -1,0 +1,156 @@
+﻿converted_war_strategies_SOM = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "ADU"
+		value = 214
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ENG"
+		value = 163
+	}
+	ai_strategy = {
+		type = conquer
+		id = "EGY"
+		value = 42
+	}
+	ai_strategy = {
+		type = conquer
+		id = "TUR"
+		value = 30
+	}
+	ai_strategy = {
+		type = conquer
+		id = "DJI"
+		value = 27
+	}
+	ai_strategy = {
+		type = conquer
+		id = "CHA"
+		value = 15
+	}
+}
+
+converted_diplo_strategies_SOM = {
+	enable = {
+		tag = SOM
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "ITA"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "ADU"
+		value = 231
+	}
+	ai_strategy = {
+		type = contain
+		id = "X73"
+		value = 60
+	}
+	ai_strategy = {
+		type = contain
+		id = "X56"
+		value = 26
+	}
+	ai_strategy = {
+		type = contain
+		id = "DJI"
+		value = 14
+	}
+	ai_strategy = {
+		type = contain
+		id = "ENG"
+		value = 12
+	}
+	ai_strategy = {
+		type = contain
+		id = "ETH"
+		value = 9
+	}
+	ai_strategy = {
+		type = contain
+		id = "TZN"
+		value = 9
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ADU"
+		value = 334
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "DJI"
+		value = 271
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ENG"
+		value = 163
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CHA"
+		value = 39
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "EGY"
+		value = 14
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "TUR"
+		value = 10
+	}
+	ai_strategy = {
+		type = alliance
+		id = "GER"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "TUR"
+		value = 33
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ETH"
+		value = 15
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X56"
+		value = 8
+	}
+	ai_strategy = {
+		type = protect
+		id = "DJI"
+		value = 140
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "DJI"
+		value = 86
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "UGA"
+		value = 37
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "ETH"
+		value = 28
+	}
+}

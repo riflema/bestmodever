@@ -1,0 +1,529 @@
+﻿capital = 6
+set_research_slots = 4
+add_named_threat = { threat = 4.8669 name = infamy }
+news_event = { id = andalusia.1 days = 123 }
+add_ideas = ADU_Agrarian_Economy_1
+add_ideas = ADU_Backwards_Industry_1
+add_ideas = ADU_Rebellious_Colonies_1
+
+oob = "ADU_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "ADU_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "ADU_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+set_technology = {
+	basic_light_tank = 1
+	early_bomber = 1
+	early_fighter = 1
+	electronic_mechanical_engineering = 1
+	fuel_refining = 1
+	fuel_silos = 1
+	gw_artillery = 1
+	gwtank = 1
+	improved_light_tank = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	interwar_antiair = 1
+	interwar_artillery = 1
+	motorised_infantry = 1
+	support_weapons = 1
+	tactical_bomber1 = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_support = 1
+}
+
+if = {
+	limit = { has_dlc = "La Resistance" }
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_battery = 1
+		basic_cruiser_armor_scheme = 1
+		basic_depth_charges = 1
+		basic_heavy_armor_scheme = 1
+		basic_medium_battery = 1
+		basic_naval_mines = 1
+		basic_ship_hull_cruiser = 1
+		basic_ship_hull_heavy = 1
+		basic_ship_hull_light = 1
+		basic_ship_hull_submarine = 1
+		basic_torpedo = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		submarine_mine_laying = 1
+	}
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		basic_battleship = 1
+		basic_destroyer = 1
+		basic_heavy_cruiser = 1
+		basic_light_cruiser = 1
+		early_battleship = 1
+		early_destroyer = 1
+		early_heavy_cruiser = 1
+		early_light_cruiser = 1
+		early_submarine = 1
+		transport = 1
+	}
+}
+
+# Research Bonuses
+add_tech_bonus = { name = air_doc_bonus bonus = 1000 uses = 1 category = air_doctrine }
+add_tech_bonus = { name = naval_doc_bonus bonus = 1000 uses = 1 category = naval_doctrine }
+set_convoys = 0
+
+add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 317 producer = ADU }
+add_equipment_to_stockpile = { type = fighter_equipment_0 amount = 180 producer = ADU }
+add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 2468 producer = ADU }
+add_equipment_to_stockpile = { type = tac_bomber_equipment_0 amount = 180 producer = ADU }
+
+# DIPLOMACY
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+    set_autonomy = {
+        target = BRD
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = GAM
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = GNB
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = MLI
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = RWA
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = SEN
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = SOM
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = TZN
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = ZAM
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+    }
+	set_autonomy = {
+		target = SIA
+		autonomous_state = autonomy_sphereling
+		freedom_level = 0.009
+	}
+	set_autonomy = {
+        target = X81
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = X79
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = X77
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = BAS
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = CAN
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = HON
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+    }
+    else = {
+        puppet = BRD
+        puppet = GAM
+        puppet = GNB
+        puppet = MLI
+        puppet = RWA
+        puppet = SEN
+        puppet = SOM
+        puppet = TZN
+        puppet = ZAM
+        puppet = X81
+        puppet = X79
+        puppet = X77
+        puppet = BAS
+        puppet = CAN
+        puppet = HON
+    }
+}
+
+if = {
+    limit = {has_dlc = "Together for Victory" }
+
+    add_to_tech_sharing_group = ADU_research
+}
+
+set_politics = {
+    ruling_party = communism
+    last_election = "1902.10.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	communism = 100
+}
+
+add_opinion_modifier = { target = BAS modifier = positive_167 }
+add_opinion_modifier = { target = BOS modifier = negative_35 }
+add_opinion_modifier = { target = BRA modifier = negative_16 }
+add_opinion_modifier = { target = BRD modifier = positive_197 }
+add_opinion_modifier = { target = CAN modifier = positive_74 }
+add_opinion_modifier = { target = CHA modifier = negative_198 }
+add_opinion_modifier = { target = CHL modifier = positive_89 }
+add_opinion_modifier = { target = CZE modifier = negative_100 }
+add_opinion_modifier = { target = DJI modifier = negative_10 }
+add_opinion_modifier = { target = EGY modifier = positive_27 }
+add_opinion_modifier = { target = ENG modifier = positive_30 }
+add_opinion_modifier = { target = ETH modifier = negative_8 }
+add_opinion_modifier = { target = FRA modifier = positive_101 }
+add_opinion_modifier = { target = GAB modifier = negative_29 }
+add_opinion_modifier = { target = GAM modifier = positive_198 }
+add_opinion_modifier = { target = GER modifier = negative_66 }
+add_opinion_modifier = { target = GHA modifier = negative_8 }
+add_opinion_modifier = { target = GNB modifier = positive_194 }
+add_opinion_modifier = { target = HON modifier = positive_187 }
+give_military_access = HON
+add_opinion_modifier = { target = HUN modifier = negative_5 }
+add_opinion_modifier = { target = ITA modifier = positive_198 }
+add_opinion_modifier = { target = JAP modifier = negative_200 }
+add_opinion_modifier = { target = KAZ modifier = positive_14 }
+add_opinion_modifier = { target = MAD modifier = positive_176 }
+add_opinion_modifier = { target = MAL modifier = negative_200 }
+add_opinion_modifier = { target = MAN modifier = negative_90 }
+add_opinion_modifier = { target = MEX modifier = positive_68 }
+add_opinion_modifier = { target = MLI modifier = positive_196 }
+add_opinion_modifier = { target = NGA modifier = negative_198 }
+add_opinion_modifier = { target = PAN modifier = positive_87 }
+add_opinion_modifier = { target = POR modifier = negative_30 }
+add_opinion_modifier = { target = PRU modifier = negative_8 }
+add_opinion_modifier = { target = RWA modifier = positive_194 }
+add_opinion_modifier = { target = SCA modifier = positive_159 }
+add_opinion_modifier = { target = SEN modifier = positive_199 }
+add_opinion_modifier = { target = SIA modifier = positive_179 }
+add_opinion_modifier = { target = SOM modifier = positive_196 }
+add_opinion_modifier = { target = TIB modifier = negative_150 }
+add_opinion_modifier = { target = TZN modifier = positive_194 }
+add_opinion_modifier = { target = UGA modifier = negative_198 }
+add_opinion_modifier = { target = USA modifier = positive_113 }
+add_opinion_modifier = { target = VEN modifier = negative_200 }
+add_opinion_modifier = { target = X04 modifier = negative_200 }
+add_opinion_modifier = { target = X10 modifier = negative_150 }
+add_opinion_modifier = { target = X18 modifier = negative_154 }
+add_opinion_modifier = { target = X29 modifier = positive_159 }
+add_opinion_modifier = { target = X31 modifier = negative_30 }
+add_opinion_modifier = { target = X33 modifier = negative_195 }
+add_opinion_modifier = { target = X37 modifier = negative_158 }
+add_opinion_modifier = { target = X39 modifier = negative_200 }
+add_opinion_modifier = { target = X40 modifier = positive_74 }
+add_opinion_modifier = { target = X43 modifier = positive_82 }
+add_opinion_modifier = { target = X46 modifier = negative_200 }
+add_opinion_modifier = { target = X56 modifier = positive_198 }
+add_opinion_modifier = { target = X58 modifier = negative_10 }
+add_opinion_modifier = { target = X65 modifier = negative_150 }
+add_opinion_modifier = { target = X67 modifier = positive_25 }
+add_opinion_modifier = { target = X70 modifier = negative_10 }
+add_opinion_modifier = { target = X73 modifier = negative_46 }
+add_opinion_modifier = { target = X76 modifier = positive_37 }
+add_opinion_modifier = { target = X77 modifier = positive_200 }
+add_opinion_modifier = { target = X78 modifier = negative_200 }
+add_opinion_modifier = { target = X79 modifier = positive_104 }
+add_opinion_modifier = { target = X80 modifier = positive_54 }
+add_opinion_modifier = { target = X81 modifier = positive_149 }
+add_opinion_modifier = { target = X82 modifier = positive_91 }
+add_opinion_modifier = { target = X83 modifier = positive_65 }
+add_opinion_modifier = { target = X84 modifier = negative_30 }
+add_opinion_modifier = { target = ZAM modifier = positive_199 }
+
+create_faction = "Alliance of Andalusia"
+add_to_faction = ADU
+add_to_faction = BRD
+add_to_faction = GAM
+add_to_faction = GNB
+add_to_faction = HON
+add_to_faction = MLI
+add_to_faction = RWA
+add_to_faction = SEN
+add_to_faction = SIA
+add_to_faction = SOM
+add_to_faction = TZN
+add_to_faction = ZAM
+
+give_guarantee = FRA
+give_guarantee = X79
+
+add_ideas = {
+	great_power
+	volunteer_only
+	civilian_economy
+	export_focus
+	culture_andalucian
+}
+set_stability = 0.20
+set_war_support = 0.21
+create_country_leader = {
+	name = "Abd ibn"
+	desc = "POLITICS_ALI_ABD_DESC"
+	picture = "gfx/leaders/OC/portrait_IRQ_Yusuf_Salman_Yusuf.dds"
+	expire = "1965.1.1"
+	ideology = leninism
+	traits = {
+	}
+}
+create_corps_commander = {
+	name = "Yusuf ibn"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Makki Allah"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Faris Yahya"
+	traits = { }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Faris ibn"
+	traits = { }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 5
+	logistics_skill = 1
+}
+
+create_navy_leader = {
+	name = "Isa Abd"
+	traits = { }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 3
+	coordination_skill = 1
+}
+
+create_navy_leader = {
+	name = "al-Aziz al-Kalai"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
+
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	create_equipment_variant = {
+		name = "1936 Battleship"
+		type = battleship_2
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "1936 Destroyer"
+		type = destroyer_2
+		upgrades = {
+			destroyer_engine_upgrade = 1
+			ship_ASW_upgrade = 1
+			ship_anti_air_upgrade = 1
+			ship_torpedo_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "1936 Heavy Cruiser"
+		type = heavy_cruiser_2
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "1936 Light Cruiser"
+		type = light_cruiser_2
+		upgrades = {
+			ship_anti_air_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Submarine"
+		type = submarine_1
+		upgrades = {
+			ship_reliability_upgrade = 1
+			sub_engine_upgrade = 1
+			sub_stealth_upgrade = 1
+			sub_torpedo_upgrade = 1
+		}
+	}
+
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	create_equipment_variant = {
+		name = "1936 Battleship"
+		type = ship_hull_heavy_2
+		name_group = ADU_BB_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_bb_2
+			fixed_ship_battery_slot = ship_heavy_battery_2
+			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			front_1_custom_slot = ship_heavy_battery_2
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = ship_heavy_battery_2
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "1936 Destroyer"
+		type = ship_hull_light_2
+		name_group = ADU_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_depth_charge_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "1936 Heavy Cruiser"
+		type = ship_hull_cruiser_2
+		name_group = ADU_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			fixed_ship_battery_slot = ship_medium_battery_2
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			mid_1_custom_slot = ship_secondaries_2
+			mid_2_custom_slot = ship_medium_battery_2
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "1936 Light Cruiser"
+		type = ship_hull_cruiser_2
+		name_group = ADU_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_light_battery_2
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "1936 Submarine"
+		type = ship_hull_submarine_2
+		name_group = ADU_SS_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_engine_slot = sub_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			rear_1_custom_slot = ship_torpedo_sub_2
+		}
+	}
+}

@@ -1,0 +1,101 @@
+﻿capital = 388
+set_research_slots = 2
+
+oob = "MON_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "MON_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "MON_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+# Research Bonuses
+set_convoys = 0
+
+
+set_politics = {
+    ruling_party = democratic
+    last_election = "1821.1.1"
+    election_frequency = 48
+    elections_allowed = yes
+}
+
+set_popularities = {
+	absolutist = 9
+	democratic = 89
+	neutrality = 2
+}
+
+add_opinion_modifier = { target = BAS modifier = negative_10 }
+add_opinion_modifier = { target = BOS modifier = negative_10 }
+add_opinion_modifier = { target = CAN modifier = negative_10 }
+add_opinion_modifier = { target = CHI modifier = negative_150 }
+add_opinion_modifier = { target = HON modifier = negative_10 }
+add_opinion_modifier = { target = JAP modifier = negative_5 }
+add_opinion_modifier = { target = KAZ modifier = negative_30 }
+add_opinion_modifier = { target = MAL modifier = negative_20 }
+add_opinion_modifier = { target = MAN modifier = negative_20 }
+add_opinion_modifier = { target = MEX modifier = negative_10 }
+add_opinion_modifier = { target = PAN modifier = negative_10 }
+add_opinion_modifier = { target = PRU modifier = negative_10 }
+add_opinion_modifier = { target = SCA modifier = negative_10 }
+add_opinion_modifier = { target = USA modifier = negative_10 }
+add_opinion_modifier = { target = VEN modifier = negative_10 }
+add_opinion_modifier = { target = X04 modifier = negative_5 }
+add_opinion_modifier = { target = X18 modifier = negative_20 }
+add_opinion_modifier = { target = X37 modifier = negative_10 }
+add_opinion_modifier = { target = X40 modifier = negative_5 }
+add_opinion_modifier = { target = X43 modifier = negative_10 }
+add_opinion_modifier = { target = X56 modifier = negative_10 }
+add_opinion_modifier = { target = X58 modifier = negative_20 }
+add_opinion_modifier = { target = X60 modifier = negative_20 }
+add_opinion_modifier = { target = X67 modifier = negative_20 }
+add_opinion_modifier = { target = X76 modifier = negative_10 }
+add_opinion_modifier = { target = X77 modifier = negative_10 }
+add_opinion_modifier = { target = X78 modifier = negative_10 }
+add_opinion_modifier = { target = X79 modifier = negative_10 }
+add_opinion_modifier = { target = X80 modifier = negative_10 }
+add_opinion_modifier = { target = X81 modifier = negative_10 }
+add_opinion_modifier = { target = X82 modifier = negative_10 }
+add_opinion_modifier = { target = X83 modifier = negative_10 }
+
+
+
+add_ideas = {
+	uncivilized
+	MON_monarch
+	limited_conscription
+	civilian_economy
+	export_focus
+	culture_mongol
+}
+set_stability = 0.60
+set_war_support = 0.78
+create_country_leader = {
+	name = "Gonchigjalzangiin Damdinbazar"
+	desc = "POLITICS_GONCHIGJALZANGIIN_DAMDINBAZAR_DESC"
+	picture = "gfx/leaders/OC/portrait_MON_Punsalmaagiin_Ochirbat.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+create_corps_commander = {
+	name = "Otgonbayar Sukhbaatar"
+	traits = { }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 1
+}
+
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}

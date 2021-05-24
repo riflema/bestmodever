@@ -1,0 +1,33 @@
+
+state={
+	id=623
+	name="STATE_623"
+	resources={
+		chromium=156.000
+	}
+
+	history={
+		owner = TUR
+		victory_points = {
+			4112 2 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 0
+			9799 = {
+				naval_base = 2
+			}
+			air_base = 0
+
+		}
+		add_core_of = TUR
+	}
+
+	provinces={
+		785 928 1119 3927 4112 6864 6912 6992 7130 9799 9887 9921 9929 9941 10038 10041 10122 11778 11796 11848 11898 11917 12013 12096 
+	}
+	manpower=3300060
+	buildings_max_level_factor=1.000
+	state_category=city
+}

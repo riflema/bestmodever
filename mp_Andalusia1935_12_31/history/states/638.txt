@@ -1,0 +1,43 @@
+
+state={
+	id=638
+	name="STATE_638"
+
+	history={
+		owner = TUR
+		victory_points = {
+			3335 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_claim_by = SOV
+		SOV = {
+			set_province_controller = 315
+			set_province_controller = 343
+			set_province_controller = 371
+			set_province_controller = 398
+			set_province_controller = 3226
+			set_province_controller = 3335
+			set_province_controller = 3364
+			set_province_controller = 3390
+			set_province_controller = 6252
+			set_province_controller = 6305
+			set_province_controller = 9301
+			set_province_controller = 11229
+			set_province_controller = 11298
+			set_province_controller = 11325
+		}
+	}
+
+	provinces={
+		315 343 371 398 3226 3335 3364 3390 6252 6305 9301 11229 11298 11325 
+	}
+	manpower=165332
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

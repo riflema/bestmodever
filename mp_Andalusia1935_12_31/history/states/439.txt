@@ -1,0 +1,31 @@
+
+state={
+	id=439
+	name="STATE_439"
+
+	history={
+		owner = X43
+		victory_points = {
+			4720 15 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 0
+			4720 = {
+				naval_base = 10
+			}
+			air_base = 6
+
+		}
+		add_core_of = X43
+		add_claim_by = CAN
+	}
+
+	provinces={
+		1426 1785 4720 4787 7758 7788 12503 12505 12680 12698 
+	}
+	manpower=2742557
+	buildings_max_level_factor=1.000
+	state_category=city
+}

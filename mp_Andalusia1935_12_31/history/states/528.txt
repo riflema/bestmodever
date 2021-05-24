@@ -1,0 +1,32 @@
+
+state={
+	id=528
+	name="STATE_528"
+	resources={
+		rubber=0.000
+		steel=1.000
+		tungsten=1.000
+	}
+
+	history={
+		owner = SIA
+		victory_points = {
+			12256 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = SIA
+	}
+
+	provinces={
+		1417 4293 7441 12256 
+	}
+	manpower=573848
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

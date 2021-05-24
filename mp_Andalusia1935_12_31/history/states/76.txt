@@ -1,0 +1,27 @@
+
+state={
+	id=76
+	name="STATE_76"
+
+	history={
+		owner = X04
+		victory_points = {
+			7940 0 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_claim_by = TIB
+	}
+
+	provinces={
+		1882 4914 4964 7940 8018 8037 12899 
+	}
+	manpower=176032
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

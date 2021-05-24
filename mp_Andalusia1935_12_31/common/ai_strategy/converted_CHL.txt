@@ -1,0 +1,141 @@
+﻿converted_war_strategies_CHL = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "X76"
+		value = 1349
+	}
+	ai_strategy = {
+		type = conquer
+		id = "PRU"
+		value = 240
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ARG"
+		value = 186
+	}
+	ai_strategy = {
+		type = conquer
+		id = "POR"
+		value = 148
+	}
+}
+
+converted_diplo_strategies_CHL = {
+	enable = {
+		tag = CHL
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "ITA"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "ADU"
+		value = 195
+	}
+	ai_strategy = {
+		type = contain
+		id = "X73"
+		value = 89
+	}
+	ai_strategy = {
+		type = contain
+		id = "X56"
+		value = 31
+	}
+	ai_strategy = {
+		type = contain
+		id = "PRU"
+		value = 26
+	}
+	ai_strategy = {
+		type = contain
+		id = "X76"
+		value = 22
+	}
+	ai_strategy = {
+		type = contain
+		id = "BRA"
+		value = 4
+	}
+	ai_strategy = {
+		type = contain
+		id = "VEN"
+		value = 4
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X76"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ARG"
+		value = 138
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "PRU"
+		value = 135
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "POR"
+		value = 81
+	}
+	ai_strategy = {
+		type = alliance
+		id = "GER"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ADU"
+		value = 85
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X56"
+		value = 20
+	}
+	ai_strategy = {
+		type = alliance
+		id = "TUR"
+		value = 15
+	}
+	ai_strategy = {
+		type = protect
+		id = "ARG"
+		value = 65
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X73"
+		value = 150
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X76"
+		value = 123
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "BRA"
+		value = 83
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "PRU"
+		value = 77
+	}
+}

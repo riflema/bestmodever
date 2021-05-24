@@ -1,0 +1,142 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 9793
+		task_force = {
+			name = "1st Fleet"
+			location = 9793
+			ship = { name = "Alif" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ADU version_name = "1936 Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 6906
+		task_force = {
+			name = "2nd Fleet"
+			location = 6906
+			ship = { name = "Amin" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ADU version_name = "1936 Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 1048
+		task_force = {
+			name = "3rd Fleet"
+			location = 1048
+			ship = { name = "Anwar" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ADU version_name = "1936 Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "4th Fleet"
+		naval_base = 10063
+		task_force = {
+			name = "4th Fleet"
+			location = 10063
+			ship = { name = "Ayham" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ADU version_name = "1936 Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "5th Fleet"
+		naval_base = 9793
+		task_force = {
+			name = "5th Fleet"
+			location = 9793
+			ship = { name = "Faraj" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ADU version_name = "1936 Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "6th Fleet"
+		naval_base = 4135
+		task_force = {
+			name = "6th Fleet"
+			location = 4135
+			ship = { name = "Bahir" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ADU version_name = "1936 Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "7th Fleet"
+		naval_base = 6906
+		task_force = {
+			name = "7th Fleet"
+			location = 6906
+			ship = { name = "Fawzan" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ADU version_name = "1936 Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "8th Fleet"
+		naval_base = 11805
+		task_force = {
+			name = "8th Fleet"
+			location = 11805
+			ship = { name = "Dhakwan" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ADU version_name = "1936 Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "9th Fleet"
+		naval_base = 6880
+		task_force = {
+			name = "9th Fleet"
+			location = 6880
+			ship = { name = "Falah" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ADU version_name = "1936 Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "10th Fleet"
+		naval_base = 1048
+		task_force = {
+			name = "10th Fleet"
+			location = 1048
+			ship = { name = "Ghanim" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ADU version_name = "1936 Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "11th Fleet"
+		naval_base = 10063
+		task_force = {
+			name = "11th Fleet"
+			location = 10063
+			ship = { name = "Ghassan" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ADU version_name = "1936 Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "12th Fleet"
+		naval_base = 9793
+		task_force = {
+			name = "12th Fleet"
+			location = 9793
+			ship = { name = "Iqbal" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ADU version_name = "1936 Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "13th Fleet"
+		naval_base = 4135
+		task_force = {
+			name = "13th Fleet"
+			location = 4135
+			ship = { name = "Hanbal" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ADU version_name = "1936 Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "ADU"
+			version_name = "1936 Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_2
+			creator = "ADU"
+			version_name = "1936 Battleship"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

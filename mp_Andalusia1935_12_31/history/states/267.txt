@@ -1,0 +1,48 @@
+
+state={
+	id=267
+	name="STATE_267"
+	resources={
+		aluminium=9.000
+		chromium=26.000
+		steel=1.000
+	}
+
+	history={
+		owner = X25
+		victory_points = {
+			7898 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X25
+		X61 = {
+			set_province_controller = 305
+			set_province_controller = 3270
+			set_province_controller = 3294
+			set_province_controller = 3300
+			set_province_controller = 4400
+			set_province_controller = 6217
+			set_province_controller = 6278
+			set_province_controller = 6297
+			set_province_controller = 6323
+			set_province_controller = 6388
+			set_province_controller = 7403
+			set_province_controller = 11320
+			set_province_controller = 11365
+			set_province_controller = 12244
+		}
+	}
+
+	provinces={
+		305 3270 3294 3300 4400 6217 6278 6297 6323 6388 7403 7712 7898 10677 11320 11365 12244 12393 12502 
+	}
+	manpower=1912092
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

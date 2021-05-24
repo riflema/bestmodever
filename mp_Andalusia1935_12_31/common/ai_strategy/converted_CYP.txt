@@ -1,0 +1,16 @@
+﻿converted_war_strategies_CYP = {
+	enable = {
+		always = no
+	}
+	
+}
+
+converted_diplo_strategies_CYP = {
+	enable = {
+		tag = CYP
+	}
+	abort = {
+		always = no
+	}
+	
+}

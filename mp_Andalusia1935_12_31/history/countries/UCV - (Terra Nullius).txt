@@ -1,0 +1,91 @@
+﻿capital = 656
+set_research_slots = 2
+
+oob = "UCV_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "UCV_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "UCV_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+# Research Bonuses
+set_convoys = 0
+
+
+set_politics = {
+    ruling_party = neutrality
+    last_election = "1821.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	neutrality = 100
+}
+
+add_opinion_modifier = { target = BAS modifier = negative_10 }
+add_opinion_modifier = { target = BOS modifier = negative_10 }
+add_opinion_modifier = { target = CAN modifier = negative_10 }
+add_opinion_modifier = { target = GER modifier = negative_50 }
+add_opinion_modifier = { target = HON modifier = negative_10 }
+add_opinion_modifier = { target = JAP modifier = negative_20 }
+add_opinion_modifier = { target = KAZ modifier = negative_30 }
+add_opinion_modifier = { target = MAL modifier = negative_20 }
+add_opinion_modifier = { target = MAN modifier = negative_20 }
+add_opinion_modifier = { target = MEX modifier = negative_10 }
+add_opinion_modifier = { target = PAN modifier = negative_10 }
+add_opinion_modifier = { target = PRU modifier = negative_10 }
+add_opinion_modifier = { target = SCA modifier = negative_10 }
+add_opinion_modifier = { target = SOV modifier = positive_1 }
+add_opinion_modifier = { target = USA modifier = negative_10 }
+add_opinion_modifier = { target = VEN modifier = negative_10 }
+add_opinion_modifier = { target = X04 modifier = negative_20 }
+add_opinion_modifier = { target = X18 modifier = negative_20 }
+add_opinion_modifier = { target = X37 modifier = negative_10 }
+add_opinion_modifier = { target = X40 modifier = negative_20 }
+add_opinion_modifier = { target = X43 modifier = negative_8 }
+add_opinion_modifier = { target = X46 modifier = positive_1 }
+add_opinion_modifier = { target = X56 modifier = negative_10 }
+add_opinion_modifier = { target = X58 modifier = negative_20 }
+add_opinion_modifier = { target = X60 modifier = negative_20 }
+add_opinion_modifier = { target = X63 modifier = negative_20 }
+add_opinion_modifier = { target = X67 modifier = negative_20 }
+add_opinion_modifier = { target = X76 modifier = negative_10 }
+add_opinion_modifier = { target = X77 modifier = negative_10 }
+add_opinion_modifier = { target = X78 modifier = negative_10 }
+add_opinion_modifier = { target = X79 modifier = negative_10 }
+add_opinion_modifier = { target = X80 modifier = positive_31 }
+add_opinion_modifier = { target = X81 modifier = negative_10 }
+add_opinion_modifier = { target = X82 modifier = negative_8 }
+add_opinion_modifier = { target = X83 modifier = negative_10 }
+
+
+
+add_ideas = {
+	uncivilized
+	volunteer_only
+	civilian_economy
+	export_focus
+	culture_zzz_religion_noreligion
+}
+set_stability = 0.60
+set_war_support = 0.55
+create_country_leader = {
+	name = ""
+	desc = "_DESC"
+	picture = "portrait_eng_fallen_government.dds"
+	expire = "1965.1.1"
+	ideology = anarchism
+	traits = {
+	}
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}

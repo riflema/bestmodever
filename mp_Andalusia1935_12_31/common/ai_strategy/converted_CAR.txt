@@ -1,0 +1,16 @@
+﻿converted_war_strategies_CAR = {
+	enable = {
+		always = no
+	}
+	
+}
+
+converted_diplo_strategies_CAR = {
+	enable = {
+		tag = CAR
+	}
+	abort = {
+		always = no
+	}
+	
+}

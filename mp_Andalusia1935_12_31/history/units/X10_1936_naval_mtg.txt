@@ -1,0 +1,26 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 1179
+		task_force = {
+			name = "1st Fleet"
+			location = 1179
+			ship = { name = "2nd Bela Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = X10 version_name = "Early Destroyer" } } }
+			ship = { name = "3rd Bela Commerce Raider" definition = destroyer start_experience_factor = 0.0496 equipment = { ship_hull_light_1 = { amount = 1 owner = X10 version_name = "Early Destroyer" } } }
+			ship = { name = "4th Bela Commerce Raider" definition = destroyer start_experience_factor = 0.0499 equipment = { ship_hull_light_1 = { amount = 1 owner = X10 version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "X10"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

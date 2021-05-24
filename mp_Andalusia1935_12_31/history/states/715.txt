@@ -1,0 +1,33 @@
+
+state={
+	id=715
+	name="STATE_715"
+	resources={
+		tungsten=33.000
+	}
+
+	history={
+		owner = X73
+		victory_points = {
+			799 0 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 0
+			arms_factory = 0
+			799 = {
+				naval_base = 1
+			}
+			air_base = 1
+
+		}
+		add_claim_by = POR
+	}
+
+	provinces={
+		799 3798 3861 6924 
+	}
+	manpower=514068
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

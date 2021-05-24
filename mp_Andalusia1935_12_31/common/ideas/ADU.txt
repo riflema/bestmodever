@@ -1,0 +1,692 @@
+ideas = {
+	country = {
+		ADU_Five_Year_Plan_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = man_five_year_plan_industry
+			modifier = {
+				production_speed_buildings_factor = 0.2
+				production_factory_efficiency_gain_factor = 0.1
+			}
+		}
+		ADU_Agrarian_Economy_1 = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_agrarian_reform
+			modifier = {
+				consumer_goods_factor = 0.3
+				production_speed_buildings_factor = -0.25
+				industrial_capacity_factory = -0.20
+				industrial_capacity_dockyard = -0.20
+				research_speed_factor = -0.1
+			}
+		}
+		ADU_Agrarian_Economy_2 = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_agrarian_reform
+			modifier = {
+				consumer_goods_factor = 0.15
+				production_speed_buildings_factor = -0.15
+				industrial_capacity_factory = -0.10
+				industrial_capacity_dockyard = -0.10
+				research_speed_factor = -0.05
+			}
+		}
+		ADU_Backwards_Industry_1 = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_production_bonus
+			modifier = {
+				production_factory_efficiency_gain_factor = -0.2
+				line_change_production_efficiency_factor = -0.3
+				production_factory_start_efficiency_factor = -0.15
+				production_factory_max_efficiency_factor = -0.15
+				industrial_capacity_factory = -0.25
+				industrial_capacity_dockyard = -0.25
+				conversion_cost_mil_to_civ_factor = 0.1
+				conversion_cost_civ_to_mil_factor = 0.1
+			}
+		}
+		ADU_Backwards_Industry_2 = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_production_bonus
+			modifier = {
+				production_factory_efficiency_gain_factor = -0.1
+				line_change_production_efficiency_factor = -0.15
+				production_factory_start_efficiency_factor = -0.05
+				production_factory_max_efficiency_factor = -0.05
+				industrial_capacity_factory = -0.15
+				industrial_capacity_dockyard = -0.15
+				conversion_cost_mil_to_civ_factor = 0.05
+				conversion_cost_civ_to_mil_factor = 0.05
+			}
+		}
+		ADU_Rebellious_Colonies_1 = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = chi_war_of_resistance3
+			modifier = {
+				stability_factor = -0.25
+				political_power_gain = -0.5
+				war_support_factor = -0.3
+				non_core_manpower = -0.5
+			}
+		}
+		ADU_Rebellious_Colonies_2 = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = chi_war_of_resistance3
+			modifier = {
+				stability_factor = -0.15
+				political_power_gain = -0.25
+				war_support_factor = -0.15
+				non_core_manpower = -0.25
+			}
+		}
+		ADU_A_Nation_Revitalized_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.15
+				war_support_factor = 0.1
+				consumer_goods_factor = -0.1
+				production_speed_buildings_factor = 0.15
+				research_speed_factor = 0.1
+				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = 0.1
+			}
+		}
+		ADU_Reeducation_Programs_1 = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_research_bonus
+			modifier = {
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
+			}
+		}
+		ADU_Reeducation_Programs_2 = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_research_bonus
+			modifier = {
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
+			}
+		}
+		ADU_Reeducation_Programs_3 = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_research_bonus
+			modifier = {
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
+			}
+		}
+		ADU_Worker_Subsidies_1 = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_goods_red_bonus
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.05
+				production_factory_start_efficiency_factor = 0.05
+				production_factory_max_efficiency_factor = 0.05
+				line_change_production_efficiency_factor = 0.05
+			}
+		}
+		ADU_Worker_Subsidies_2 = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_goods_red_bonus
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.05
+				production_factory_start_efficiency_factor = 0.05
+				production_factory_max_efficiency_factor = 0.05
+				line_change_production_efficiency_factor = 0.05
+			}
+		}
+		ADU_Worker_Subsidies_3 = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_goods_red_bonus
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.05
+				production_factory_start_efficiency_factor = 0.05
+				production_factory_max_efficiency_factor = 0.05
+				line_change_production_efficiency_factor = 0.05
+			}
+		}
+		ADU_Work_Relocation_Programs_1 = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_central_management
+			modifier = {
+				research_speed_factor = 0.05
+				industrial_capacity_factory = 0.02
+				industrial_capacity_dockyard = 0.02
+			}
+		}
+		ADU_Work_Relocation_Programs_2 = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_central_management
+			modifier = {
+				research_speed_factor = 0.05
+				industrial_capacity_factory = 0.02
+				industrial_capacity_dockyard = 0.02
+			}
+		}
+		ADU_Work_Relocation_Programs_3 = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_central_management
+			modifier = {
+				research_speed_factor = 0.05
+				industrial_capacity_factory = 0.02
+				industrial_capacity_dockyard = 0.02
+			}
+		}
+		ADU_Food_Banks = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = gre_agricultural_communes
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+		}
+		ADU_Welfare_Programs = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_foreign_capital
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+		}
+		ADU_Reformed_Administration = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_constitutional_guarantees
+			modifier = {
+				stability_weekly = 0.001
+			}
+		}
+		ADU_Premier_Propaganda = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_communist_army
+			modifier = {
+				stability_weekly = 0.001
+				war_support_weekly = 0.001
+				communism_drift = 0.1
+			}
+		}
+		ADU_Andalusia_Propaganda = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_communist_army
+			modifier = {
+				stability_weekly = 0.001
+				war_support_weekly = 0.001
+				communism_drift = 0.1
+			}
+		}
+		ADU_Communism_Propaganda = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_communist_army
+			modifier = {
+				stability_weekly = 0.001
+				war_support_weekly = 0.001
+				communism_drift = 0.1
+			}
+		}
+	}
+	political_advisor = {
+		ADU_absolutist_advisor = {
+			allowed = {
+				original_tag = "ADU"
+			}
+			traits = { absolutist_minister }
+			picture = triumphant_will
+			do_effect = {
+				NOT = {
+					has_government = absolutist
+				}
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		ADU_communism_advisor = {
+			allowed = {
+				original_tag = "ADU"
+			}
+			traits = { communism_minister }
+			do_effect = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		ADU_democratic_advisor = {
+			allowed = {
+				original_tag = "ADU"
+			}
+			traits = { democratic_minister }
+			do_effect = {
+				NOT = {
+					has_government = democratic
+				}
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		ADU_fascism_advisor = {
+			allowed = {
+				original_tag = "ADU"
+			}
+			traits = { fascism_minister }
+			do_effect = {
+				NOT = {
+					has_government = fascism
+				}
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		ADU_neutrality_advisor = {
+			allowed = {
+				original_tag = "ADU"
+			}
+			traits = { neutrality_minister }
+			picture = neutral_foreign_policy
+			do_effect = {
+				NOT = {
+					has_government = neutrality
+				}
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		ADU_radical_advisor = {
+			allowed = {
+				original_tag = "ADU"
+			}
+			traits = { radical_minister }
+			picture = generic_goods_red_bonus
+			do_effect = {
+				NOT = {
+					has_government = radical
+				}
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+	tank_manufacturer = { 
+		designer = yes
+		
+		ADU_tank_manufacturer = {
+			picture = generic_tank_manufacturer_1
+			
+			allowed = {
+				original_tag = ADU
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { tank_manufacturer }
+		}
+	}
+	naval_manufacturer = { 
+		designer = yes
+		ADU_naval_manufacturer = {
+			
+			picture = generic_naval_manufacturer_1
+			allowed = {
+				original_tag = ADU
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			
+			traits = { naval_manufacturer }
+		}
+	}
+	aircraft_manufacturer = { 
+		designer = yes
+		ADU_light_aircraft_manufacturer = {
+			
+			picture = generic_air_manufacturer_1
+			allowed = {
+				original_tag = ADU
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { light_aircraft_manufacturer }
+		}
+		
+		ADU_medium_aircraft_manufacturer = {
+			
+			picture = generic_air_manufacturer_3
+			allowed = {
+				original_tag = ADU
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { medium_aircraft_manufacturer }
+		}
+		
+		ADU_heavy_aircraft_manufacturer = {
+			picture = generic_air_manufacturer_2
+			
+			allowed = {
+				original_tag = ADU
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+		}
+		
+		ADU_naval_aircraft_manufacturer = {
+			
+			picture = generic_naval_manufacturer_2
+			allowed = {
+				original_tag = ADU
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { naval_aircraft_manufacturer }
+		}
+	}
+	industrial_concern = {
+		ADU_industrial_concern = {
+			
+			picture = generic_industrial_concern_1
+			allowed = {
+				original_tag = ADU
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				industry = 0.10
+			}
+			
+			traits = { industrial_concern }
+		}
+		ADU_electronics_concern = {
+			
+			picture = generic_electronics_concern_1
+			allowed = {
+				original_tag = ADU
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				electronics = 0.10
+			}
+			
+			traits = { electronics_concern }
+		}
+	}
+	materiel_manufacturer = {
+		designer = yes
+		ADU_motorized_equipment_manufacturer = {
+			
+			picture = generic_motorized_equipment_manufacturer_3
+			allowed = {
+				original_tag = ADU
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				motorized_equipment = 0.10
+			}
+			
+			traits = { motorized_equipment_manufacturer }
+		}
+		
+		ADU_infantry_equipment_manufacturer = {
+			
+			picture = generic_infantry_equipment_manufacturer_2
+			allowed = {
+				original_tag = ADU
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				infantry_weapons = 0.10
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+		}
+		
+		ADU_artillery_manufacturer = {
+			
+			picture = generic_artillery_manufacturer_2
+			allowed = {
+				original_tag = ADU
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				artillery = 0.10
+			}
+			
+			traits = { artillery_manufacturer }
+		}
+	}
+}

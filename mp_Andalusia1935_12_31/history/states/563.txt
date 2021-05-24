@@ -1,0 +1,34 @@
+
+state={
+	id=563
+	name="STATE_563"
+	resources={
+		steel=1.000
+	}
+
+	history={
+		owner = X56
+		victory_points = {
+			2229 1 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			2229 = {
+				naval_base = 10
+			}
+			air_base = 0
+
+		}
+		add_core_of = X56
+		add_claim_by = NMB
+	}
+
+	provinces={
+		2229 5154 5189 7605 7770 10963 
+	}
+	manpower=409872
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

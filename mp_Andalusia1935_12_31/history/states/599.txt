@@ -1,0 +1,30 @@
+
+state={
+	id=599
+	name="STATE_599"
+	resources={
+		steel=3.000
+	}
+
+	history={
+		owner = X87
+		victory_points = {
+			12717 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = X87
+	}
+
+	provinces={
+		1978 4558 4998 12717 12763 
+	}
+	manpower=1244152
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

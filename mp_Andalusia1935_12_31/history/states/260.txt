@@ -1,0 +1,31 @@
+
+state={
+	id=260
+	name="STATE_260"
+	resources={
+		aluminium=22.000
+	}
+
+	history={
+		owner = GER
+		victory_points = {
+			6631 3 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 1
+
+		}
+		add_core_of = GER
+		add_core_of = ITA
+	}
+
+	provinces={
+		656 6631 6675 9598 9630 11598 11615 
+	}
+	manpower=2671944
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

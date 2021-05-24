@@ -1,0 +1,31 @@
+
+state={
+	id=104
+	name="STATE_104"
+	resources={
+		tungsten=1.000
+	}
+
+	history={
+		owner = CHI
+		victory_points = {
+			6964 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_claim_by = CHI
+		add_claim_by = MAN
+	}
+
+	provinces={
+		783 944 973 1502 1545 1571 1588 1645 3791 3815 3944 3947 4506 4551 4592 4649 4876 5427 6806 6811 6863 6964 7526 7569 7582 7613 7670 7767 7894 7897 9623 9766 9798 9897 9928 10215 10368 10376 10379 10463 10519 10521 10567 10638 11862 11893 11906 12342 12355 12443 12482 12485 12500 
+	}
+	manpower=1272940
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

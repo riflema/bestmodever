@@ -1,0 +1,35 @@
+
+state={
+	id=564
+	name="STATE_564"
+	resources={
+		aluminium=3.000
+		rubber=1.000
+		steel=1.000
+	}
+
+	history={
+		owner = X56
+		victory_points = {
+			12858 1 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 0
+			arms_factory = 0
+			12858 = {
+				naval_base = 6
+			}
+			air_base = 1
+
+		}
+		add_core_of = X56
+	}
+
+	provinces={
+		1909 12858 
+	}
+	manpower=199576
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

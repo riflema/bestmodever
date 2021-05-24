@@ -1,0 +1,28 @@
+
+state={
+	id=767
+	name="STATE_767"
+
+	history={
+		owner = X80
+		victory_points = {
+			12553 2 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = X80
+		add_claim_by = USA
+	}
+
+	provinces={
+		1414 4347 4826 7721 7865 10305 10625 12183 12553 
+	}
+	manpower=2551344
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

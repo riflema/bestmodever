@@ -1,0 +1,20 @@
+
+state={
+	id=651
+	name="STATE_651"
+	resources={
+		steel=0.000
+	}
+	impassable = yes
+
+	history={
+		owner = TUR
+	}
+
+	provinces={
+		7987 10900 
+	}
+	manpower=14576
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

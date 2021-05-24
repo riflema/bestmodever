@@ -1,0 +1,53 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 12364
+		task_force = {
+			name = "2nd Fleet"
+			location = 12364
+			ship = { name = "Antofagasta" definition = battleship start_experience_factor = 0.25408 equipment = { ship_hull_heavy_1 = { amount = 1 owner = CHL version_name = "Early Battleship" } } }
+			ship = { name = "Atacama" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = CHL version_name = "Early Battleship" } } }
+			ship = { name = "Latorre" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = CHL version_name = "Early Battleship" } } }
+			ship = { name = "O'Higgins" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = CHL version_name = "Early Battleship" } } }
+			ship = { name = "República" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = CHL version_name = "Early Battleship" } } }
+			ship = { name = "San Martín" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = CHL version_name = "Early Battleship" } } }
+			ship = { name = "Santiago de Chile" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = CHL version_name = "Early Battleship" } } }
+			ship = { name = "1st Valparaíso Battleship" definition = heavy_cruiser start_experience_factor = 0.23034 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CHL version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Director Freire" definition = light_cruiser start_experience_factor = 0.27785 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CHL version_name = "Early Light Cruiser" } } }
+			ship = { name = "Diamante" definition = light_cruiser start_experience_factor = 0.27082 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CHL version_name = "Early Light Cruiser" } } }
+			ship = { name = "1st Paysandú Cruiser" definition = light_cruiser start_experience_factor = 0.28967 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CHL version_name = "Early Light Cruiser" } } }
+			ship = { name = "2nd Osorno Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CHL version_name = "Early Light Cruiser" } } }
+			ship = { name = "Llullaillaco" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CHL version_name = "Early Light Cruiser" } } }
+			ship = { name = "Parinacota" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CHL version_name = "Early Light Cruiser" } } }
+			ship = { name = "Presidente Errázuriz" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CHL version_name = "Early Light Cruiser" } } }
+			ship = { name = "Director Eyzaguirre" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CHL version_name = "Early Light Cruiser" } } }
+			ship = { name = "Esmeralda" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CHL version_name = "Early Light Cruiser" } } }
+			ship = { name = "2nd Paysandú Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CHL version_name = "Early Light Cruiser" } } }
+			ship = { name = "1st Valdivia Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CHL version_name = "Early Light Cruiser" } } }
+			ship = { name = "1st Valparaíso Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CHL version_name = "Early Light Cruiser" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "CHL"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_1
+			creator = "CHL"
+			version_name = "Early Battleship"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

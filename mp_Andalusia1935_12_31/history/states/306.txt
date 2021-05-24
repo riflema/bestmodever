@@ -1,0 +1,36 @@
+
+state={
+	id=306
+	name="STATE_306"
+	resources={
+		aluminium=10.000
+		chromium=3.000
+	}
+
+	history={
+		owner = ITA
+		victory_points = {
+			3924 2 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 0
+			3924 = {
+				naval_base = 10
+			}
+			air_base = 0
+
+		}
+		add_core_of = ITA
+		add_claim_by = SER
+		add_claim_by = YUG
+	}
+
+	provinces={
+		984 3868 3924 3943 3974 6889 9821 11816 
+	}
+	manpower=2131092
+	buildings_max_level_factor=1.000
+	state_category=town
+}

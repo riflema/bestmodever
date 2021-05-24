@@ -1,0 +1,58 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 6909
+		task_force = {
+			name = "1st Fleet"
+			location = 6909
+			ship = { name = "1st Newark Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X78 } } }
+			ship = { name = "2nd Newark Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X78 } } }
+			ship = { name = "1st Hartford Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X78 } } }
+			ship = { name = "3rd Newark Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X78 } } }
+			ship = { name = "2nd Hartford Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X78 } } }
+			ship = { name = "4th Newark Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X78 } } }
+			ship = { name = "3rd Hartford Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X78 } } }
+			ship = { name = "5th Newark Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X78 } } }
+			ship = { name = "2nd Concord Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = X78 } } }
+			ship = { name = "5th Newark Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = X78 } } }
+			ship = { name = "1st Hartford Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = X78 } } }
+			ship = { name = "2nd Long Island Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = X78 } } }
+			ship = { name = "2nd Hartford Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = X78 } } }
+			ship = { name = "6th Newark Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = X78 } } }
+			ship = { name = "1st Long Island Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = X78 } } }
+			ship = { name = "2nd Long Island Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X78 } } }
+			ship = { name = "3rd Hartford Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X78 } } }
+			ship = { name = "3rd Long Island Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X78 } } }
+			ship = { name = "3rd Concord Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X78 } } }
+			ship = { name = "5th Newark Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X78 } } }
+			ship = { name = "4th Newark Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X78 } } }
+			ship = { name = "1st Newark Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X78 } } }
+			ship = { name = "4th Long Island Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X78 } } }
+			ship = { name = "2nd Concord Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X78 } } }
+			ship = { name = "6th Newark Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X78 } } }
+			ship = { name = "4th Hartford Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X78 } } }
+			ship = { name = "7th Newark Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X78 } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "X78"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_2
+			creator = "X78"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

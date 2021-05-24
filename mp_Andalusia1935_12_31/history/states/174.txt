@@ -1,0 +1,29 @@
+
+state={
+	id=174
+	name="STATE_174"
+
+	history={
+		owner = ENG
+		victory_points = {
+			5012 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			5012 = {
+				naval_base = 10
+			}
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		5012 10875 
+	}
+	manpower=104968
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

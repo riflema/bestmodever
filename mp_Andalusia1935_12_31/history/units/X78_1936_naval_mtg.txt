@@ -1,0 +1,60 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 6909
+		task_force = {
+			name = "1st Fleet"
+			location = 6909
+			ship = { name = "1st Newark Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X78 version_name = "1936 Battleship" } } }
+			ship = { name = "2nd Newark Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X78 version_name = "1936 Battleship" } } }
+			ship = { name = "1st Hartford Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X78 version_name = "1936 Battleship" } } }
+			ship = { name = "3rd Newark Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X78 version_name = "1936 Battleship" } } }
+			ship = { name = "2nd Hartford Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X78 version_name = "1936 Battleship" } } }
+			ship = { name = "4th Newark Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X78 version_name = "1936 Battleship" } } }
+			ship = { name = "3rd Hartford Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X78 version_name = "1936 Battleship" } } }
+			ship = { name = "5th Newark Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X78 version_name = "1936 Battleship" } } }
+			ship = { name = "2nd Concord Battleship" definition = heavy_cruiser start_experience_factor = 0.13422 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X78 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "5th Newark Battleship" definition = heavy_cruiser start_experience_factor = 0.15744 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X78 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st Hartford Battleship" definition = heavy_cruiser start_experience_factor = 0.09008 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X78 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "2nd Long Island Battleship" definition = heavy_cruiser start_experience_factor = 0.18467 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X78 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "2nd Hartford Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X78 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "6th Newark Battleship" definition = heavy_cruiser start_experience_factor = 0.18467 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X78 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st Long Island Battleship" definition = heavy_cruiser start_experience_factor = 0.11443 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X78 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "2nd Long Island Cruiser" definition = light_cruiser start_experience_factor = 0.13422 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X78 version_name = "Early Light Cruiser" } } }
+			ship = { name = "3rd Hartford Cruiser" definition = light_cruiser start_experience_factor = 0.17051 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X78 version_name = "Early Light Cruiser" } } }
+			ship = { name = "3rd Long Island Cruiser" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X78 version_name = "Early Light Cruiser" } } }
+			ship = { name = "3rd Concord Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X78 version_name = "Early Light Cruiser" } } }
+			ship = { name = "5th Newark Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X78 version_name = "Early Light Cruiser" } } }
+			ship = { name = "4th Newark Cruiser" definition = light_cruiser start_experience_factor = 0.18467 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X78 version_name = "Early Light Cruiser" } } }
+			ship = { name = "1st Newark Cruiser" definition = light_cruiser start_experience_factor = 0.10566 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X78 version_name = "Early Light Cruiser" } } }
+			ship = { name = "4th Long Island Cruiser" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X78 version_name = "Early Light Cruiser" } } }
+			ship = { name = "2nd Concord Cruiser" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X78 version_name = "Early Light Cruiser" } } }
+			ship = { name = "6th Newark Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X78 version_name = "Early Light Cruiser" } } }
+			ship = { name = "4th Hartford Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X78 version_name = "Early Light Cruiser" } } }
+			ship = { name = "7th Newark Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X78 version_name = "Early Light Cruiser" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "X78"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_2
+			creator = "X78"
+			version_name = "1936 Battleship"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

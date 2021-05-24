@@ -1,0 +1,51 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 12364
+		task_force = {
+			name = "2nd Fleet"
+			location = 12364
+			ship = { name = "Antofagasta" definition = battleship equipment = { battleship_1 = { amount = 1 owner = CHL } } }
+			ship = { name = "Atacama" definition = battleship equipment = { battleship_1 = { amount = 1 owner = CHL } } }
+			ship = { name = "Latorre" definition = battleship equipment = { battleship_1 = { amount = 1 owner = CHL } } }
+			ship = { name = "O'Higgins" definition = battleship equipment = { battleship_1 = { amount = 1 owner = CHL } } }
+			ship = { name = "República" definition = battleship equipment = { battleship_1 = { amount = 1 owner = CHL } } }
+			ship = { name = "San Martín" definition = battleship equipment = { battleship_1 = { amount = 1 owner = CHL } } }
+			ship = { name = "Santiago de Chile" definition = battleship equipment = { battleship_1 = { amount = 1 owner = CHL } } }
+			ship = { name = "1st Valparaíso Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = CHL } } }
+			ship = { name = "Director Freire" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CHL } } }
+			ship = { name = "Diamante" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CHL } } }
+			ship = { name = "1st Paysandú Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CHL } } }
+			ship = { name = "2nd Osorno Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CHL } } }
+			ship = { name = "Llullaillaco" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CHL } } }
+			ship = { name = "Parinacota" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CHL } } }
+			ship = { name = "Presidente Errázuriz" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CHL } } }
+			ship = { name = "Director Eyzaguirre" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CHL } } }
+			ship = { name = "Esmeralda" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CHL } } }
+			ship = { name = "2nd Paysandú Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CHL } } }
+			ship = { name = "1st Valdivia Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CHL } } }
+			ship = { name = "1st Valparaíso Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CHL } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "CHL"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "CHL"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

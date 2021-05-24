@@ -1,0 +1,32 @@
+
+state={
+	id=313
+	name="STATE_313"
+	resources={
+		steel=1.000
+	}
+
+	history={
+		owner = ITA
+		victory_points = {
+			11586 10 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 10
+
+		}
+		add_claim_by = ITA
+		add_claim_by = SER
+		add_claim_by = YUG
+	}
+
+	provinces={
+		630 797 3609 3956 3984 6634 6998 9599 9602 9756 11583 11586 
+	}
+	manpower=1781180
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

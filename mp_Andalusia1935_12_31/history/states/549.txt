@@ -1,0 +1,29 @@
+
+state={
+	id=549
+	name="STATE_549"
+
+	history={
+		owner = X56
+		victory_points = {
+			7542 0 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			4468 = {
+				naval_base = 2
+			}
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		1546 1602 1617 1629 4468 4509 4524 4552 4593 7269 7487 7512 7529 7542 7570 7585 7627 8235 8250 10369 10396 10436 10505 10990 12315 12371 12386 12457 
+	}
+	manpower=2032088
+	buildings_max_level_factor=1.000
+	state_category=town
+}

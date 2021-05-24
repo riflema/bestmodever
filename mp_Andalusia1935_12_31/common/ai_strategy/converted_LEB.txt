@@ -1,0 +1,16 @@
+﻿converted_war_strategies_LEB = {
+	enable = {
+		always = no
+	}
+	
+}
+
+converted_diplo_strategies_LEB = {
+	enable = {
+		tag = LEB
+	}
+	abort = {
+		always = no
+	}
+	
+}

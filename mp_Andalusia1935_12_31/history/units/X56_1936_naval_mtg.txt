@@ -1,0 +1,1002 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 10074
+		task_force = {
+			name = "2nd Fleet"
+			location = 10074
+			ship = { name = "5th Aquila Dreadnought" definition = battleship start_experience_factor = 0.2 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "3rd Palermo Dreadnought" definition = battleship start_experience_factor = 0.2 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "6th Aquila Dreadnought" definition = battleship start_experience_factor = 0.2 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "4th Palermo Dreadnought" definition = battleship start_experience_factor = 0.2 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "7th Rome Dreadnought" definition = battleship start_experience_factor = 0.2 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "8th Rome Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "9th Rome Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "10th Rome Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "11th Rome Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "12th Rome Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "13th Rome Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "Duca di Calabria" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "Regina" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "2nd Palermo Dreadnought" definition = battleship start_experience_factor = 0.1911 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "Alfonso I" definition = battleship start_experience_factor = 0.17316 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "Duca di Castro" definition = battleship start_experience_factor = 0.2 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "Due Sicilie" definition = battleship start_experience_factor = 0.17932 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "Regno di Napoli" definition = battleship start_experience_factor = 0.18325 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "Regno di Sicilia" definition = battleship start_experience_factor = 0.19702 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "2nd Rome Dreadnought" definition = battleship start_experience_factor = 0.1996 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "1st Rome Dreadnought" definition = battleship start_experience_factor = 0.1996 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "1st Aquila Dreadnought" definition = battleship start_experience_factor = 0.1996 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "2nd Aquila Dreadnought" definition = battleship start_experience_factor = 0.1996 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "12th Naples Dreadnought" definition = battleship start_experience_factor = 0.1996 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "1st Naples Dreadnought" definition = battleship start_experience_factor = 0.1996 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "3rd Aquila Dreadnought" definition = battleship start_experience_factor = 0.1988 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "4th Aquila Dreadnought" definition = battleship start_experience_factor = 0.1988 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "3rd Rome Dreadnought" definition = battleship start_experience_factor = 0.1988 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "4th Rome Dreadnought" definition = battleship start_experience_factor = 0.1988 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "1st Palermo Dreadnought" definition = battleship start_experience_factor = 0.198 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "20th Palermo Dreadnought" definition = battleship start_experience_factor = 0.2 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "2nd Naples Dreadnought" definition = battleship start_experience_factor = 0.2 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "5th Rome Dreadnought" definition = battleship start_experience_factor = 0.2 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "3rd Naples Dreadnought" definition = battleship start_experience_factor = 0.2 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "6th Rome Dreadnought" definition = battleship start_experience_factor = 0.2 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "4th Naples Dreadnought" definition = battleship start_experience_factor = 0.2 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "5th Naples Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "6th Naples Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "7th Naples Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "8th Naples Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "9th Naples Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "10th Naples Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "11th Naples Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "Ferdinando III" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "14th Rome Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "15th Rome Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "16th Rome Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "17th Rome Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "18th Rome Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "19th Rome Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "20th Rome Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "21st Rome Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "22nd Rome Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "13th Naples Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "14th Naples Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "15th Naples Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "16th Naples Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "17th Naples Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "18th Naples Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "19th Naples Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "20th Naples Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "21st Naples Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "22nd Naples Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "23rd Naples Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "24th Naples Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "23rd Rome Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "24th Rome Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "25th Rome Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "26th Rome Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "7th Aquila Dreadnought" definition = battleship start_experience_factor = 0.2 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "5th Palermo Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "9th Aquila Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "6th Palermo Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "8th Aquila Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "7th Palermo Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "10th Aquila Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "9th Palermo Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "11th Aquila Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "10th Palermo Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "12th Aquila Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "11th Palermo Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "13th Aquila Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "12th Palermo Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "Duca di Noto" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "Reale" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "14th Aquila Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "8th Palermo Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "15th Aquila Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "13th Palermo Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "16th Aquila Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "14th Palermo Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "17th Aquila Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "15th Palermo Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "18th Aquila Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "16th Palermo Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "19th Aquila Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "17th Palermo Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "20th Aquila Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "18th Palermo Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "21st Aquila Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "19th Palermo Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "22nd Aquila Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "21st Palermo Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "23rd Aquila Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "22nd Palermo Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "24th Aquila Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "23rd Palermo Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "25th Aquila Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "24th Palermo Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "26th Aquila Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "25th Palermo Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "27th Aquila Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "25th Naples Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "26th Naples Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "27th Rome Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "27th Naples Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "28th Rome Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "26th Palermo Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "28th Aquila Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "27th Palermo Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "29th Aquila Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "28th Naples Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "28th Palermo Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "29th Rome Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "29th Naples Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "29th Palermo Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "30th Rome Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "31st Rome Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "30th Naples Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "31st Naples Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "32nd Naples Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "33rd Naples Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "34th Naples Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "35th Naples Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "36th Naples Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "37th Naples Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "38th Naples Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "39th Naples Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "30th Palermo Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "32nd Rome Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "31st Palermo Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "33rd Rome Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "32nd Palermo Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "34th Rome Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "33rd Palermo Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "35th Rome Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "34th Palermo Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "36th Rome Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "35th Palermo Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "37th Rome Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "36th Palermo Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "37th Palermo Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "38th Rome Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "39th Rome Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "40th Rome Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "38th Palermo Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "41st Rome Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+			ship = { name = "1st Rome Battleship" definition = heavy_cruiser start_experience_factor = 0.18709 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "2nd Aquila Battleship" definition = heavy_cruiser start_experience_factor = 0.199 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "2nd Rome Battleship" definition = heavy_cruiser start_experience_factor = 0.18336 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "1st Aquila Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "3rd Rome Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "3rd Aquila Battleship" definition = heavy_cruiser start_experience_factor = 0.1982 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "1st Palermo Battleship" definition = heavy_cruiser start_experience_factor = 0.1996 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "1st Naples Battleship" definition = heavy_cruiser start_experience_factor = 0.19681 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "5th Aquila Battleship" definition = heavy_cruiser start_experience_factor = 0.1972 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "5th Rome Battleship" definition = heavy_cruiser start_experience_factor = 0.1998 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "4th Rome Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "6th Rome Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "4th Aquila Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "2nd Naples Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "2nd Palermo Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Basilicata" definition = light_cruiser start_experience_factor = 0.1996 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Abruzzo" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Bari" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Calabria" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Capitanata" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 6831
+		task_force = {
+			name = "1st Fleet"
+			location = 6831
+			ship = { name = "30th Aquila Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+		}
+	}
+	fleet = {
+		name = "5th Fleet"
+		naval_base = 6831
+		task_force = {
+			name = "5th Fleet"
+			location = 6831
+			ship = { name = "31st Aquila Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+		}
+	}
+	fleet = {
+		name = "8th Fleet"
+		naval_base = 6831
+		task_force = {
+			name = "8th Fleet"
+			location = 6831
+			ship = { name = "32nd Aquila Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+		}
+	}
+	fleet = {
+		name = "12th Fleet"
+		naval_base = 6831
+		task_force = {
+			name = "12th Fleet"
+			location = 6831
+			ship = { name = "33rd Aquila Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+		}
+	}
+	fleet = {
+		name = "16th Fleet"
+		naval_base = 2038
+		task_force = {
+			name = "16th Fleet"
+			location = 2038
+			ship = { name = "Franceso II" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "17th Fleet"
+		naval_base = 6831
+		task_force = {
+			name = "17th Fleet"
+			location = 6831
+			ship = { name = "34th Aquila Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+		}
+	}
+	fleet = {
+		name = "20th Fleet"
+		naval_base = 2038
+		task_force = {
+			name = "20th Fleet"
+			location = 2038
+			ship = { name = "1st Freetown Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "22nd Fleet"
+		naval_base = 6831
+		task_force = {
+			name = "22nd Fleet"
+			location = 6831
+			ship = { name = "35th Aquila Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+		}
+	}
+	fleet = {
+		name = "25th Fleet"
+		naval_base = 2038
+		task_force = {
+			name = "25th Fleet"
+			location = 2038
+			ship = { name = "2nd Freetown Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "27th Fleet"
+		naval_base = 6831
+		task_force = {
+			name = "27th Fleet"
+			location = 6831
+			ship = { name = "36th Aquila Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+		}
+	}
+	fleet = {
+		name = "29th Fleet"
+		naval_base = 2038
+		task_force = {
+			name = "29th Fleet"
+			location = 2038
+			ship = { name = "3rd Freetown Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "32nd Fleet"
+		naval_base = 6831
+		task_force = {
+			name = "32nd Fleet"
+			location = 6831
+			ship = { name = "37th Aquila Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+		}
+	}
+	fleet = {
+		name = "37th Fleet"
+		naval_base = 6831
+		task_force = {
+			name = "37th Fleet"
+			location = 6831
+			ship = { name = "38th Aquila Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+		}
+	}
+	fleet = {
+		name = "41st Fleet"
+		naval_base = 6831
+		task_force = {
+			name = "41st Fleet"
+			location = 6831
+			ship = { name = "39th Aquila Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+		}
+	}
+	fleet = {
+		name = "46th Fleet"
+		naval_base = 12589
+		task_force = {
+			name = "46th Fleet"
+			location = 12589
+			ship = { name = "1st Cape Town Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "47th Fleet"
+		naval_base = 12921
+		task_force = {
+			name = "47th Fleet"
+			location = 12921
+			ship = { name = "Otranto" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "48th Fleet"
+		naval_base = 2229
+		task_force = {
+			name = "48th Fleet"
+			location = 2229
+			ship = { name = "Principato" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "49th Fleet"
+		naval_base = 7576
+		task_force = {
+			name = "49th Fleet"
+			location = 7576
+			ship = { name = "1st Umtata Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "50th Fleet"
+		naval_base = 12985
+		task_force = {
+			name = "50th Fleet"
+			location = 12985
+			ship = { name = "Molise" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "51st Fleet"
+		naval_base = 8178
+		task_force = {
+			name = "51st Fleet"
+			location = 8178
+			ship = { name = "1st Ulundi Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "53rd Fleet"
+		naval_base = 12589
+		task_force = {
+			name = "53rd Fleet"
+			location = 12589
+			ship = { name = "2nd Cape Town Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "54th Fleet"
+		naval_base = 12921
+		task_force = {
+			name = "54th Fleet"
+			location = 12921
+			ship = { name = "1st Swakopmund Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "55th Fleet"
+		naval_base = 2229
+		task_force = {
+			name = "55th Fleet"
+			location = 2229
+			ship = { name = "1st Angra Pequena Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "56th Fleet"
+		naval_base = 7576
+		task_force = {
+			name = "56th Fleet"
+			location = 7576
+			ship = { name = "2nd Umtata Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "57th Fleet"
+		naval_base = 12589
+		task_force = {
+			name = "57th Fleet"
+			location = 12589
+			ship = { name = "3rd Cape Town Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "58th Fleet"
+		naval_base = 12985
+		task_force = {
+			name = "58th Fleet"
+			location = 12985
+			ship = { name = "1st Moçâmedes Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "61st Fleet"
+		naval_base = 8178
+		task_force = {
+			name = "61st Fleet"
+			location = 8178
+			ship = { name = "2nd Ulundi Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "62nd Fleet"
+		naval_base = 12921
+		task_force = {
+			name = "62nd Fleet"
+			location = 12921
+			ship = { name = "2nd Swakopmund Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "63rd Fleet"
+		naval_base = 2229
+		task_force = {
+			name = "63rd Fleet"
+			location = 2229
+			ship = { name = "2nd Angra Pequena Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "64th Fleet"
+		naval_base = 7576
+		task_force = {
+			name = "64th Fleet"
+			location = 7576
+			ship = { name = "3rd Umtata Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "65th Fleet"
+		naval_base = 12589
+		task_force = {
+			name = "65th Fleet"
+			location = 12589
+			ship = { name = "4th Cape Town Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "66th Fleet"
+		naval_base = 12985
+		task_force = {
+			name = "66th Fleet"
+			location = 12985
+			ship = { name = "2nd Moçâmedes Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "67th Fleet"
+		naval_base = 8178
+		task_force = {
+			name = "67th Fleet"
+			location = 8178
+			ship = { name = "3rd Ulundi Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "68th Fleet"
+		naval_base = 12921
+		task_force = {
+			name = "68th Fleet"
+			location = 12921
+			ship = { name = "3rd Swakopmund Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "69th Fleet"
+		naval_base = 2229
+		task_force = {
+			name = "69th Fleet"
+			location = 2229
+			ship = { name = "3rd Angra Pequena Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "70th Fleet"
+		naval_base = 7576
+		task_force = {
+			name = "70th Fleet"
+			location = 7576
+			ship = { name = "4th Umtata Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "71st Fleet"
+		naval_base = 12985
+		task_force = {
+			name = "71st Fleet"
+			location = 12985
+			ship = { name = "3rd Moçâmedes Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "74th Fleet"
+		naval_base = 8178
+		task_force = {
+			name = "74th Fleet"
+			location = 8178
+			ship = { name = "4th Ulundi Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "76th Fleet"
+		naval_base = 6831
+		task_force = {
+			name = "76th Fleet"
+			location = 6831
+			ship = { name = "40th Aquila Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+		}
+	}
+	fleet = {
+		name = "81st Fleet"
+		naval_base = 6831
+		task_force = {
+			name = "81st Fleet"
+			location = 6831
+			ship = { name = "41st Aquila Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+		}
+	}
+	fleet = {
+		name = "87th Fleet"
+		naval_base = 6831
+		task_force = {
+			name = "87th Fleet"
+			location = 6831
+			ship = { name = "42nd Aquila Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+		}
+	}
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 10074
+		task_force = {
+			name = "3rd Fleet"
+			location = 10074
+			ship = { name = "39th Palermo Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+		}
+	}
+	fleet = {
+		name = "4th Fleet"
+		naval_base = 819
+		task_force = {
+			name = "4th Fleet"
+			location = 819
+			ship = { name = "40th Naples Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+		}
+	}
+	fleet = {
+		name = "6th Fleet"
+		naval_base = 6831
+		task_force = {
+			name = "6th Fleet"
+			location = 6831
+			ship = { name = "43rd Aquila Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+		}
+	}
+	fleet = {
+		name = "9th Fleet"
+		naval_base = 9904
+		task_force = {
+			name = "9th Fleet"
+			location = 9904
+			ship = { name = "7th Rome Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "14th Fleet"
+		naval_base = 10074
+		task_force = {
+			name = "14th Fleet"
+			location = 10074
+			ship = { name = "40th Palermo Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+		}
+	}
+	fleet = {
+		name = "15th Fleet"
+		naval_base = 819
+		task_force = {
+			name = "15th Fleet"
+			location = 819
+			ship = { name = "41st Naples Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+		}
+	}
+	fleet = {
+		name = "18th Fleet"
+		naval_base = 6831
+		task_force = {
+			name = "18th Fleet"
+			location = 6831
+			ship = { name = "6th Aquila Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "19th Fleet"
+		naval_base = 9904
+		task_force = {
+			name = "19th Fleet"
+			location = 9904
+			ship = { name = "8th Rome Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "21st Fleet"
+		naval_base = 10074
+		task_force = {
+			name = "21st Fleet"
+			location = 10074
+			ship = { name = "41st Palermo Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+		}
+	}
+	fleet = {
+		name = "23rd Fleet"
+		naval_base = 819
+		task_force = {
+			name = "23rd Fleet"
+			location = 819
+			ship = { name = "3rd Naples Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "24th Fleet"
+		naval_base = 6831
+		task_force = {
+			name = "24th Fleet"
+			location = 6831
+			ship = { name = "7th Aquila Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "26th Fleet"
+		naval_base = 9904
+		task_force = {
+			name = "26th Fleet"
+			location = 9904
+			ship = { name = "9th Rome Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "31st Fleet"
+		naval_base = 10074
+		task_force = {
+			name = "31st Fleet"
+			location = 10074
+			ship = { name = "3rd Palermo Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "33rd Fleet"
+		naval_base = 819
+		task_force = {
+			name = "33rd Fleet"
+			location = 819
+			ship = { name = "4th Naples Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "34th Fleet"
+		naval_base = 6831
+		task_force = {
+			name = "34th Fleet"
+			location = 6831
+			ship = { name = "8th Aquila Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "36th Fleet"
+		naval_base = 9904
+		task_force = {
+			name = "36th Fleet"
+			location = 9904
+			ship = { name = "10th Rome Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "38th Fleet"
+		naval_base = 10074
+		task_force = {
+			name = "38th Fleet"
+			location = 10074
+			ship = { name = "4th Palermo Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "39th Fleet"
+		naval_base = 819
+		task_force = {
+			name = "39th Fleet"
+			location = 819
+			ship = { name = "5th Naples Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "40th Fleet"
+		naval_base = 6831
+		task_force = {
+			name = "40th Fleet"
+			location = 6831
+			ship = { name = "9th Aquila Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "52nd Fleet"
+		naval_base = 9904
+		task_force = {
+			name = "52nd Fleet"
+			location = 9904
+			ship = { name = "42nd Rome Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+		}
+	}
+	fleet = {
+		name = "75th Fleet"
+		naval_base = 2038
+		task_force = {
+			name = "75th Fleet"
+			location = 2038
+			ship = { name = "4th Freetown Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "79th Fleet"
+		naval_base = 10074
+		task_force = {
+			name = "79th Fleet"
+			location = 10074
+			ship = { name = "5th Palermo Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "80th Fleet"
+		naval_base = 819
+		task_force = {
+			name = "80th Fleet"
+			location = 819
+			ship = { name = "6th Naples Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "83rd Fleet"
+		naval_base = 6831
+		task_force = {
+			name = "83rd Fleet"
+			location = 6831
+			ship = { name = "44th Aquila Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+		}
+	}
+	fleet = {
+		name = "84th Fleet"
+		naval_base = 2038
+		task_force = {
+			name = "84th Fleet"
+			location = 2038
+			ship = { name = "5th Freetown Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "88th Fleet"
+		naval_base = 9904
+		task_force = {
+			name = "88th Fleet"
+			location = 9904
+			ship = { name = "43rd Rome Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+		}
+	}
+	fleet = {
+		name = "89th Fleet"
+		naval_base = 10074
+		task_force = {
+			name = "89th Fleet"
+			location = 10074
+			ship = { name = "6th Palermo Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "90th Fleet"
+		naval_base = 819
+		task_force = {
+			name = "90th Fleet"
+			location = 819
+			ship = { name = "42nd Naples Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+		}
+	}
+	fleet = {
+		name = "91st Fleet"
+		naval_base = 12985
+		task_force = {
+			name = "91st Fleet"
+			location = 12985
+			ship = { name = "4th Moçâmedes Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "94th Fleet"
+		naval_base = 2038
+		task_force = {
+			name = "94th Fleet"
+			location = 2038
+			ship = { name = "6th Freetown Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "95th Fleet"
+		naval_base = 6831
+		task_force = {
+			name = "95th Fleet"
+			location = 6831
+			ship = { name = "45th Aquila Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+		}
+	}
+	fleet = {
+		name = "97th Fleet"
+		naval_base = 9904
+		task_force = {
+			name = "97th Fleet"
+			location = 9904
+			ship = { name = "44th Rome Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+		}
+	}
+	fleet = {
+		name = "98th Fleet"
+		naval_base = 12921
+		task_force = {
+			name = "98th Fleet"
+			location = 12921
+			ship = { name = "4th Swakopmund Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "99th Fleet"
+		naval_base = 12985
+		task_force = {
+			name = "99th Fleet"
+			location = 12985
+			ship = { name = "5th Moçâmedes Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "101st Fleet"
+		naval_base = 10074
+		task_force = {
+			name = "101st Fleet"
+			location = 10074
+			ship = { name = "42nd Palermo Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+		}
+	}
+	fleet = {
+		name = "102nd Fleet"
+		naval_base = 819
+		task_force = {
+			name = "102nd Fleet"
+			location = 819
+			ship = { name = "43rd Naples Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+		}
+	}
+	fleet = {
+		name = "103rd Fleet"
+		naval_base = 2038
+		task_force = {
+			name = "103rd Fleet"
+			location = 2038
+			ship = { name = "7th Freetown Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "104th Fleet"
+		naval_base = 6831
+		task_force = {
+			name = "104th Fleet"
+			location = 6831
+			ship = { name = "46th Aquila Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+		}
+	}
+	fleet = {
+		name = "105th Fleet"
+		naval_base = 12921
+		task_force = {
+			name = "105th Fleet"
+			location = 12921
+			ship = { name = "5th Swakopmund Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "106th Fleet"
+		naval_base = 2229
+		task_force = {
+			name = "106th Fleet"
+			location = 2229
+			ship = { name = "4th Angra Pequena Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "107th Fleet"
+		naval_base = 9904
+		task_force = {
+			name = "107th Fleet"
+			location = 9904
+			ship = { name = "45th Rome Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+		}
+	}
+	fleet = {
+		name = "108th Fleet"
+		naval_base = 12985
+		task_force = {
+			name = "108th Fleet"
+			location = 12985
+			ship = { name = "6th Moçâmedes Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "109th Fleet"
+		naval_base = 12589
+		task_force = {
+			name = "109th Fleet"
+			location = 12589
+			ship = { name = "5th Cape Town Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "112nd Fleet"
+		naval_base = 2038
+		task_force = {
+			name = "112nd Fleet"
+			location = 2038
+			ship = { name = "8th Freetown Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "113rd Fleet"
+		naval_base = 10074
+		task_force = {
+			name = "113rd Fleet"
+			location = 10074
+			ship = { name = "43rd Palermo Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+		}
+	}
+	fleet = {
+		name = "114th Fleet"
+		naval_base = 819
+		task_force = {
+			name = "114th Fleet"
+			location = 819
+			ship = { name = "44th Naples Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X56 version_name = "1936 Battleship" } } }
+		}
+	}
+	fleet = {
+		name = "115th Fleet"
+		naval_base = 12921
+		task_force = {
+			name = "115th Fleet"
+			location = 12921
+			ship = { name = "6th Swakopmund Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X56 version_name = "1936 Light Cruiser" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "X56"
+			version_name = "1936 Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_2
+			creator = "X56"
+			version_name = "1936 Battleship"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

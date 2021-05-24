@@ -1,0 +1,32 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 1237
+		task_force = {
+			name = "1st Fleet"
+			location = 1237
+			ship = { name = "12th New Hebrides Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X71 } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "X71"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "X71"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

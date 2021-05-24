@@ -1,0 +1,32 @@
+
+state={
+	id=547
+	name="STATE_547"
+	resources={
+		rubber=13.000
+	}
+
+	history={
+		owner = X56
+		victory_points = {
+			4273 0 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 0
+			arms_factory = 0
+			4273 = {
+				naval_base = 4
+			}
+			air_base = 1
+
+		}
+	}
+
+	provinces={
+		1298 4273 4301 7293 7321 10175 10191 10219 12151 12162 12219 12234 
+	}
+	manpower=3262012
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

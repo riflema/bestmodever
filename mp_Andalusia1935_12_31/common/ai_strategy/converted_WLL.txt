@@ -1,0 +1,16 @@
+﻿converted_war_strategies_WLL = {
+	enable = {
+		always = no
+	}
+	
+}
+
+converted_diplo_strategies_WLL = {
+	enable = {
+		tag = WLL
+	}
+	abort = {
+		always = no
+	}
+	
+}

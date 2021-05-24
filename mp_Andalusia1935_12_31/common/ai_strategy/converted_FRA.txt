@@ -1,0 +1,151 @@
+﻿converted_war_strategies_FRA = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "X73"
+		value = 3348
+	}
+	ai_strategy = {
+		type = conquer
+		id = "GER"
+		value = 2560
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ITA"
+		value = 1236
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ADU"
+		value = 519
+	}
+}
+
+converted_diplo_strategies_FRA = {
+	enable = {
+		tag = FRA
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "ITA"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "ADU"
+		value = 207
+	}
+	ai_strategy = {
+		type = contain
+		id = "X73"
+		value = 161
+	}
+	ai_strategy = {
+		type = contain
+		id = "X56"
+		value = 62
+	}
+	ai_strategy = {
+		type = contain
+		id = "GER"
+		value = 20
+	}
+	ai_strategy = {
+		type = contain
+		id = "TUR"
+		value = 7
+	}
+	ai_strategy = {
+		type = contain
+		id = "SOV"
+		value = 7
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X73"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "GER"
+		value = 156
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ITA"
+		value = 116
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ADU"
+		value = 81
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "IVO"
+		value = 44
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X56"
+		value = 30
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ADU"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "TUR"
+		value = 134
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X56"
+		value = 117
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ENG"
+		value = 34
+	}
+	ai_strategy = {
+		type = protect
+		id = "HOL"
+		value = 20
+	}
+	ai_strategy = {
+		type = protect
+		id = "POR"
+		value = 20
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "PAN"
+		value = 121
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X18"
+		value = 69
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X73"
+		value = 67
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X79"
+		value = 65
+	}
+}

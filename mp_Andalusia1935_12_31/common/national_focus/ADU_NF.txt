@@ -1,0 +1,1828 @@
+focus_tree = {
+	id = ADU_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = ADU
+		}
+	}
+	
+	default = no
+	
+	shared_focus = army_effort
+	shared_focus = aviation_effort
+	shared_focus = naval_effort
+	#shared_focus = industrial_effort
+
+	focus = {
+		id = ADU_Five_Year_Plan
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 20
+		y = 0
+		cost = 5
+		complete_tooltip = {
+			swap_ideas = {
+				remove_idea = ADU_Backwards_Industry_1
+				add_idea = ADU_Backwards_Industry_2
+			}
+			add_timed_idea = { idea = ADU_Five_Year_Plan_idea days = 1095 }
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}			
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = ADU_Backwards_Industry_1
+				add_idea = ADU_Backwards_Industry_2
+			}
+			add_timed_idea = { idea = ADU_Five_Year_Plan_idea days = 1095 }
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = ADU_New_Industrial_Revolution_1
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 18
+		y = 1
+		cost = 5
+		prerequisite = { focus = ADU_Five_Year_Plan }
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}		
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}	
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}		
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = ADU_New_Industrial_Revolution_2
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 18
+		y = 2
+		cost = 5
+		prerequisite = { focus = ADU_New_Industrial_Revolution_1 }
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}		
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}	
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}		
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = ADU_New_Industrial_Revolution_3
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 18
+		y = 3
+		cost = 5
+		prerequisite = { focus = ADU_New_Industrial_Revolution_2 }
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}		
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}	
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}		
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = ADU_Operation_Soaring_Hawk_1
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 22
+		y = 1
+		cost = 5
+		prerequisite = { focus = ADU_Five_Year_Plan }
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}		
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}	
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}		
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = ADU_Operation_Soaring_Hawk_2
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 22
+		y = 2
+		cost = 5
+		prerequisite = { focus = ADU_Operation_Soaring_Hawk_1 }
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}		
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}	
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}		
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = ADU_Operation_Soaring_Hawk_3
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 22
+		y = 3
+		cost = 5
+		prerequisite = { focus = ADU_Operation_Soaring_Hawk_2 }
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}		
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}	
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}		
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = ADU_Highway_Initiative_1
+		icon = GFX_goal_generic_construct_civilian
+		x = 20
+		y = 1
+		cost = 5
+		prerequisite = { focus = ADU_Five_Year_Plan }
+		complete_tooltip = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 0
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 1
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 0
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = ADU_Highway_Initiative_2
+		icon = GFX_goal_generic_construct_civilian
+		x = 20
+		y = 2
+		cost = 5
+		prerequisite = { focus = ADU_Highway_Initiative_1 }
+		complete_tooltip = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 0
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 1
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 0
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = ADU_Highway_Initiative_3
+		icon = GFX_goal_generic_construct_civilian
+		x = 20
+		y = 3
+		cost = 5
+		prerequisite = { focus = ADU_Highway_Initiative_2 }
+		complete_tooltip = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 0
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 1
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 0
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = ADU_A_Modern_Nation
+		icon = GFX_goal_generic_air_doctrine
+		x = 20
+		y = 4
+		cost = 1
+		prerequisite = { 
+			focus = ADU_New_Industrial_Revolution_3 
+		}
+		prerequisite = {
+			focus = ADU_Highway_Initiative_3
+		}
+		prerequisite = {
+			focus = ADU_Operation_Soaring_Hawk_3
+		}
+		completion_reward = {
+			remove_ideas = ADU_Backwards_Industry_2
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = ADU_Address_Agrarianism
+		icon = GFX_goal_generic_construction2
+		x = 26
+		y = 0
+		cost = 5
+		prerequisite = { 
+			
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = ADU_Agrarian_Economy_1
+				add_idea = ADU_Agrarian_Economy_2
+			}
+			add_political_power = 10
+		}
+	}
+	focus = {
+		id = ADU_Establish_Reeducation_Programs
+		icon = GFX_goal_generic_scientific_exchange
+		x = 24
+		y = 1
+		cost = 2
+		prerequisite = { 
+			focus = ADU_Address_Agrarianism
+		}
+		completion_reward = {
+			add_timed_idea = { idea = ADU_Reeducation_Programs_1 days = 120 }
+		}
+	}
+	focus = {
+		id = ADU_Expand_Reeducation_1
+		icon = GFX_focus_research
+		x = 24
+		y = 2
+		cost = 2
+		prerequisite = { 
+			focus = ADU_Establish_Reeducation_Programs
+		}
+		completion_reward = {
+			add_timed_idea = { idea = ADU_Reeducation_Programs_2 days = 120 }
+		}
+	}
+	focus = {
+		id = ADU_Expand_Reeducation_2
+		icon = GFX_focus_research2
+		x = 24
+		y = 3
+		cost = 2
+		prerequisite = { 
+			focus = ADU_Expand_Reeducation_1
+		}
+		completion_reward = {
+			add_timed_idea = { idea = ADU_Reeducation_Programs_3 days = 120 }
+		}
+	}
+	focus = {
+		id = ADU_Establish_Worker_Subsidies
+		icon = GFX_focus_generic_concessions
+		x = 26
+		y = 1
+		cost = 2
+		prerequisite = { 
+			focus = ADU_Address_Agrarianism
+		}
+		completion_reward = {
+			add_timed_idea = { idea = ADU_Worker_Subsidies_1 days = 120 }
+		}
+	}
+	focus = {
+		id = ADU_Expand_Worker_Subsidies_1
+		icon = GFX_goal_generic_consumer_goods
+		x = 26
+		y = 2
+		cost = 2
+		prerequisite = { 
+			focus = ADU_Establish_Worker_Subsidies
+		}
+		completion_reward = {
+			add_timed_idea = { idea = ADU_Worker_Subsidies_2 days = 120 }
+		}
+	}
+	focus = {
+		id = ADU_Expand_Worker_Subsidies_2
+		icon = GFX_focus_generic_support_the_left_right
+		x = 26
+		y = 3
+		cost = 2
+		prerequisite = { 
+			focus = ADU_Expand_Worker_Subsidies_1
+		}
+		completion_reward = {
+			add_timed_idea = { idea = ADU_Worker_Subsidies_3 days = 120 }
+		}
+	}
+	focus = {
+		id = ADU_Establish_Work_Relocation_Programs
+		icon = GFX_goal_generic_construction
+		x = 28
+		y = 1
+		cost = 2
+		prerequisite = { 
+			focus = ADU_Address_Agrarianism
+		}
+		completion_reward = {
+			add_timed_idea = { idea = ADU_Work_Relocation_Programs_1 days = 120 }
+		}
+	}
+	focus = {
+		id = ADU_Expand_Relocation_Programs_1
+		icon = GFX_goal_generic_improve_relations
+		x = 28
+		y = 2
+		cost = 2
+		prerequisite = { 
+			focus = ADU_Establish_Work_Relocation_Programs
+		}
+		completion_reward = {
+			add_timed_idea = { idea = ADU_Work_Relocation_Programs_2 days = 120 }
+		}
+	}
+	focus = {
+		id = ADU_Expand_Relocation_Programs_2
+		icon = GFX_goal_generic_intelligence_exchange
+		x = 28
+		y = 3
+		cost = 2
+		prerequisite = { 
+			focus = ADU_Expand_Relocation_Programs_1
+		}
+		completion_reward = {
+			add_timed_idea = { idea = ADU_Work_Relocation_Programs_3 days = 120 }
+		}
+	}
+	focus = {
+		id = ADU_A_Truly_Industrialized_Nation
+		icon = GFX_focus_generic_industry_3
+		x = 26
+		y = 4
+		cost = 1
+		prerequisite = { 
+			focus = ADU_Expand_Reeducation_2
+		}
+		prerequisite = {
+			focus = ADU_Expand_Worker_Subsidies_2
+		}
+		prerequisite = {
+			focus = ADU_Expand_Relocation_Programs_2
+		}
+		completion_reward = {
+			remove_ideas = ADU_Agrarian_Economy_2
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = ADU_Rein_In_The_Colonies
+		icon = GFX_goal_generic_political_pressure
+		x = 14
+		y = 0
+		cost = 5
+		prerequisite = { 
+			
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = ADU_Rebellious_Colonies_1
+				add_idea = ADU_Rebellious_Colonies_2
+			}
+			add_political_power = 10
+		}
+	}
+	focus = {
+		id = ADU_Colonial_Food_Banks
+		icon = GFX_goal_generic_national_unity
+		x = 12
+		y = 1
+		cost = 2
+		prerequisite = { 
+			focus = ADU_Rein_In_The_Colonies
+		}
+		completion_reward = {
+			add_timed_idea = { idea = ADU_Food_Banks days = 120 }
+		}
+	}
+	focus = {
+		id = ADU_Colonial_Welfare_Programs
+		icon = GFX_focus_generic_self_management
+		x = 12
+		y = 2
+		cost = 2
+		prerequisite = { 
+			focus = ADU_Colonial_Food_Banks
+		}
+		completion_reward = {
+			add_timed_idea = { idea = ADU_Welfare_Programs days = 120 }
+		}
+	}
+	focus = {
+		id = ADU_Reform_Colonial_Administration
+		icon = GFX_focus_generic_the_giant_wakes
+		x = 12
+		y = 3
+		cost = 2
+		prerequisite = { 
+			focus = ADU_Colonial_Welfare_Programs
+		}
+		completion_reward = {
+			add_timed_idea = { idea = ADU_Reformed_Administration days = 120 }
+		}
+	}
+	focus = {
+		id = ADU_Propagandize_For_The_Premier
+		icon = GFX_focus_por_workers_of_iberia
+		x = 14
+		y = 1
+		cost = 2
+		prerequisite = { 
+			focus = ADU_Rein_In_The_Colonies
+		}
+		completion_reward = {
+			add_timed_idea = { idea = ADU_Premier_Propaganda days = 120 }
+		}
+	}
+	focus = {
+		id = ADU_Propagandize_For_Andalusia
+		icon = GFX_focus_ger_great_red_menace
+		x = 14
+		y = 2
+		cost = 2
+		prerequisite = { 
+			focus = ADU_Propagandize_For_The_Premier
+		}
+		completion_reward = {
+			add_timed_idea = { idea = ADU_Andalusia_Propaganda days = 120 }
+		}
+	}
+	focus = {
+		id = ADU_Propagandize_For_Communism
+		icon = GFX_focus_generic_soviet_politics
+		x = 14
+		y = 3
+		cost = 2
+		prerequisite = { 
+			focus = ADU_Propagandize_For_Andalusia
+		}
+		completion_reward = {
+			add_timed_idea = { idea = ADU_Communism_Propaganda days = 120 }
+		}
+	}
+	focus = {
+		id = ADU_Develop_Colonial_Infrastructure_1
+		icon = GFX_focus_generic_africa_production
+		x = 16
+		y = 1
+		cost = 2
+		prerequisite = { 
+			focus = ADU_Rein_In_The_Colonies
+		}
+		complete_tooltip = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+					OR = {
+						NOT = {
+							is_core_of = ROOT
+						}
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 0
+									}
+									NOT = {
+										is_core_of = ROOT
+									}
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+					OR = {
+						NOT = {
+							is_core_of = ROOT
+						}
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 0
+									}
+									NOT = {
+										is_core_of = ROOT
+									}
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+					OR = {
+						NOT = {
+							is_core_of = ROOT
+						}
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 0
+									}
+									NOT = {
+										is_core_of = ROOT
+									}
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = ADU_Develop_Colonial_Infrastructure_2
+		icon = GFX_focus_generic_africa_infrastructure
+		x = 16
+		y = 2
+		cost = 2
+		prerequisite = { 
+			focus = ADU_Develop_Colonial_Infrastructure_1
+		}
+		complete_tooltip = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+					OR = {
+						NOT = {
+							is_core_of = ROOT
+						}
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 0
+									}
+									NOT = {
+										is_core_of = ROOT
+									}
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+					OR = {
+						NOT = {
+							is_core_of = ROOT
+						}
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 0
+									}
+									NOT = {
+										is_core_of = ROOT
+									}
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+					OR = {
+						NOT = {
+							is_core_of = ROOT
+						}
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 0
+									}
+									NOT = {
+										is_core_of = ROOT
+									}
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = ADU_Develop_Colonial_Infrastructure_3
+		icon = GFX_focus_generic_africa_factory
+		x = 16
+		y = 3
+		cost = 2
+		prerequisite = { 
+			focus = ADU_Develop_Colonial_Infrastructure_2
+		}
+		complete_tooltip = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+					OR = {
+						NOT = {
+							is_core_of = ROOT
+						}
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 0
+									}
+									NOT = {
+										is_core_of = ROOT
+									}
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+					OR = {
+						NOT = {
+							is_core_of = ROOT
+						}
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 0
+									}
+									NOT = {
+										is_core_of = ROOT
+									}
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+					OR = {
+						NOT = {
+							is_core_of = ROOT
+						}
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 0
+									}
+									NOT = {
+										is_core_of = ROOT
+									}
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = ADU_A_United_Empire
+		icon = GFX_goal_demand_sudetenland
+		x = 14
+		y = 4
+		cost = 1
+		prerequisite = { 
+			focus = ADU_Reform_Colonial_Administration
+		}
+		prerequisite = {
+			focus = ADU_Propagandize_For_Communism
+		}
+		prerequisite = {
+			focus = ADU_Develop_Colonial_Infrastructure_3
+		}
+		completion_reward = {
+			remove_ideas = ADU_Rebellious_Colonies_2
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = ADU_A_Nation_Revitalized
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		x = 20
+		y = 5
+		cost = 1
+		prerequisite = { 
+			focus = ADU_A_United_Empire
+		}
+		prerequisite = {
+			focus = ADU_A_Modern_Nation
+		}
+		prerequisite = {
+			focus = ADU_A_Truly_Industrialized_Nation
+		}
+		completion_reward = {
+			add_ideas = ADU_A_Nation_Revitalized_idea
+			add_political_power = 150
+		}
+	}
+	focus = {
+		id = ADU_Expand_Research_Bureau_I
+		icon = GFX_focus_research2
+		x = 20
+		y = 6
+		cost = 10
+		prerequisite = { 
+			focus = ADU_A_Nation_Revitalized
+		}
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+	focus = {
+		id = ADU_Expand_Research_Bureau_II
+		icon = GFX_focus_research2
+		x = 20
+		y = 7
+		cost = 20
+		prerequisite = { 
+			focus = ADU_Expand_Research_Bureau_I
+		}
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+}

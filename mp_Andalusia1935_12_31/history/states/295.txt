@@ -1,0 +1,31 @@
+
+state={
+	id=295
+	name="STATE_295"
+	resources={
+		aluminium=107.000
+		steel=6.000
+	}
+
+	history={
+		owner = HUN
+		victory_points = {
+			3713 1 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = HUN
+	}
+
+	provinces={
+		3713 3731 6751 9690 11520 
+	}
+	manpower=190516
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

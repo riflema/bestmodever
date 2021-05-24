@@ -1,0 +1,77 @@
+units = {
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 6115
+		task_force = {
+			name = "3rd Fleet"
+			location = 6115
+			ship = { name = "Hans Wachtmeister af Johannishus" definition = battleship equipment = { battleship_2 = { amount = 1 owner = SCA } } }
+			ship = { name = "Gustaf Otto Stenbock" definition = battleship equipment = { battleship_2 = { amount = 1 owner = SCA } } }
+			ship = { name = "Lorentz Creutz" definition = battleship equipment = { battleship_2 = { amount = 1 owner = SCA } } }
+			ship = { name = "Clas Eriksson Fleming" definition = battleship equipment = { battleship_2 = { amount = 1 owner = SCA } } }
+			ship = { name = "Axel Nilsson Ryning" definition = battleship equipment = { battleship_2 = { amount = 1 owner = SCA } } }
+			ship = { name = "Carl Carlsson Gyllenhielm" definition = battleship equipment = { battleship_2 = { amount = 1 owner = SCA } } }
+			ship = { name = "1st Trondheim Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = SCA } } }
+			ship = { name = "1st Christiania Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = SCA } } }
+			ship = { name = "2nd Trondheim Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = SCA } } }
+			ship = { name = "1st Gävle Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = SCA } } }
+			ship = { name = "1st Stockholm Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = SCA } } }
+			ship = { name = "2nd Christiania Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = SCA } } }
+			ship = { name = "2nd Gävle Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = SCA } } }
+			ship = { name = "2nd Stockholm Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = SCA } } }
+			ship = { name = "1st Göteborg Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = SCA } } }
+			ship = { name = "1st Viipuri Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = SCA } } }
+			ship = { name = "Hoder" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SCA } } }
+			ship = { name = "Vidar" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SCA } } }
+			ship = { name = "Njord" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SCA } } }
+			ship = { name = "Psilander" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SCA } } }
+			ship = { name = "Claes Horn" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SCA } } }
+			ship = { name = "Jacob Bakke" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SCA } } }
+			ship = { name = "Ornen" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SCA } } }
+			ship = { name = "Fylgia" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SCA } } }
+			ship = { name = "Tre Kronor" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SCA } } }
+			ship = { name = "Göta Lejon" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SCA } } }
+			ship = { name = "Östersund" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SCA } } }
+			ship = { name = "Borgholm" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SCA } } }
+			ship = { name = "Thor" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SCA } } }
+			ship = { name = "Odin" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SCA } } }
+			ship = { name = "Freyr" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SCA } } }
+			ship = { name = "Tyr" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SCA } } }
+		}
+	}
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 6050
+		task_force = {
+			name = "1st Fleet"
+			location = 6050
+			ship = { name = "3rd Trondheim Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = SCA } } }
+			ship = { name = "1st Tornio Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = SCA } } }
+			ship = { name = "2nd Viipuri Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = SCA } } }
+			ship = { name = "Bragl" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SCA } } }
+			ship = { name = "Claes Uggla" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SCA } } }
+			ship = { name = "Heimdall" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SCA } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_2
+			creator = "SCA"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_2
+			creator = "SCA"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

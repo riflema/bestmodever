@@ -1,0 +1,43 @@
+units = {
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 4450
+		task_force = {
+			name = "3rd Fleet"
+			location = 4450
+			ship = { name = "1st Antigua Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X75 } } }
+			ship = { name = "2nd Antigua Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X75 } } }
+			ship = { name = "3rd Antigua Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X75 } } }
+			ship = { name = "4th Antigua Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X75 } } }
+			ship = { name = "5th Antigua Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X75 } } }
+			ship = { name = "6th Antigua Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X75 } } }
+			ship = { name = "1st Antigua Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X75 } } }
+			ship = { name = "2nd Antigua Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X75 } } }
+			ship = { name = "3rd Antigua Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X75 } } }
+			ship = { name = "4th Antigua Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X75 } } }
+			ship = { name = "5th Antigua Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X75 } } }
+			ship = { name = "6th Antigua Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X75 } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "X75"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "X75"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

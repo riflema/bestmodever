@@ -1,0 +1,84 @@
+
+state={
+	id=266
+	name="STATE_266"
+	resources={
+		chromium=10.000
+		steel=24.000
+		tungsten=20.000
+	}
+
+	history={
+		owner = X25
+		victory_points = {
+			3578 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 5
+
+		}
+		add_core_of = X25
+		X61 = {
+			set_province_controller = 324
+			set_province_controller = 326
+			set_province_controller = 353
+			set_province_controller = 376
+			set_province_controller = 433
+			set_province_controller = 483
+			set_province_controller = 578
+			set_province_controller = 3304
+			set_province_controller = 3316
+			set_province_controller = 3317
+			set_province_controller = 3343
+			set_province_controller = 3371
+			set_province_controller = 3426
+			set_province_controller = 3465
+			set_province_controller = 3477
+			set_province_controller = 3518
+			set_province_controller = 3578
+			set_province_controller = 6248
+			set_province_controller = 6291
+			set_province_controller = 6328
+			set_province_controller = 6353
+			set_province_controller = 6366
+			set_province_controller = 6382
+			set_province_controller = 6391
+			set_province_controller = 6409
+			set_province_controller = 6450
+			set_province_controller = 6492
+			set_province_controller = 6563
+			set_province_controller = 9258
+			set_province_controller = 9276
+			set_province_controller = 9286
+			set_province_controller = 9324
+			set_province_controller = 9326
+			set_province_controller = 9344
+			set_province_controller = 9352
+			set_province_controller = 9380
+			set_province_controller = 9409
+			set_province_controller = 9460
+			set_province_controller = 11262
+			set_province_controller = 11269
+			set_province_controller = 11308
+			set_province_controller = 11309
+			set_province_controller = 11324
+			set_province_controller = 11335
+			set_province_controller = 11364
+			set_province_controller = 11393
+			set_province_controller = 11394
+			set_province_controller = 11408
+			set_province_controller = 11449
+			set_province_controller = 11551
+		}
+	}
+
+	provinces={
+		232 275 313 324 326 330 340 353 367 376 396 433 471 483 499 578 3221 3257 3266 3302 3304 3316 3317 3322 3332 3343 3360 3371 3387 3389 3406 3426 3465 3477 3490 3517 3518 3551 3566 3578 6248 6284 6291 6328 6329 6343 6353 6366 6382 6391 6409 6428 6430 6450 6479 6492 6539 6563 6574 6587 6601 9245 9258 9276 9286 9312 9324 9326 9344 9352 9367 9376 9380 9394 9407 9409 9422 9432 9447 9460 9473 9475 9487 9577 11227 11258 11262 11269 11296 11308 11309 11323 11324 11335 11351 11363 11364 11381 11393 11394 11395 11408 11421 11436 11449 11460 11523 11538 11551 
+	}
+	manpower=3138176
+	buildings_max_level_factor=1.000
+	state_category=city
+}

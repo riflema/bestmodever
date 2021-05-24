@@ -1,0 +1,43 @@
+units = {
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 153
+		task_force = {
+			name = "3rd Fleet"
+			location = 5633
+			ship = { name = "9th Puerto Rico Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BAS version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "5th Puerto Rico Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BAS version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st Puerto Rico Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BAS version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "2nd Puerto Rico Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BAS version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "10th Puerto Rico Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BAS version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "3rd Puerto Rico Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BAS version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "4th Puerto Rico Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BAS version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "7th Puerto Rico Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BAS version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "6th Puerto Rico Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BAS version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "8th Puerto Rico Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BAS version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Narcissus" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BAS version_name = "Early Light Cruiser" } } }
+			ship = { name = "Shannon" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BAS version_name = "Early Light Cruiser" } } }
+			ship = { name = "Nelson" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BAS version_name = "Early Light Cruiser" } } }
+			ship = { name = "Northampton" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BAS version_name = "Early Light Cruiser" } } }
+			ship = { name = "Galatea" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BAS version_name = "Early Light Cruiser" } } }
+			ship = { name = "Imperieuse" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BAS version_name = "Early Light Cruiser" } } }
+			ship = { name = "Warspite" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BAS version_name = "Early Light Cruiser" } } }
+			ship = { name = "Australia" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BAS version_name = "Early Light Cruiser" } } }
+			ship = { name = "Orlando" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BAS version_name = "Early Light Cruiser" } } }
+			ship = { name = "Undaunted" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BAS version_name = "Early Light Cruiser" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "BAS"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

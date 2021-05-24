@@ -1,0 +1,28 @@
+
+state={
+	id=437
+	name="STATE_437"
+
+	history={
+		owner = HOL
+		victory_points = {
+			6496 15 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 6
+
+		}
+		add_claim_by = GER
+		add_claim_by = HOL
+	}
+
+	provinces={
+		6496 6500 
+	}
+	manpower=594088
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

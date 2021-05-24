@@ -1,0 +1,6 @@
+spriteTypes = {	##Icon For: 
+	SpriteType = {
+		name = "GFX_idea_ADU_A_Nation_Revitalized_idea"
+		texturefile = "gfx/interface/ideas/ADU_A_Nation_Revitalized_idea.dds"
+	}
+}

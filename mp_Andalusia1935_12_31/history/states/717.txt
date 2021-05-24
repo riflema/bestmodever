@@ -1,0 +1,33 @@
+
+state={
+	id=717
+	name="STATE_717"
+	resources={
+		aluminium=0.000
+		rubber=0.000
+	}
+
+	history={
+		owner = X73
+		victory_points = {
+			12975 0 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			12975 = {
+				naval_base = 1
+			}
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		12975 
+	}
+	manpower=626132
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

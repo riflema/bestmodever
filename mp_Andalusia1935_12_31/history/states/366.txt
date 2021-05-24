@@ -1,0 +1,29 @@
+
+state={
+	id=366
+	name="STATE_366"
+
+	history={
+		owner = X37
+		victory_points = {
+			1678 3 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 2
+
+		}
+		add_core_of = X37
+		add_core_of = X81
+		add_claim_by = USA
+	}
+
+	provinces={
+		1586 1678 1770 1831 4691 7306 7458 7539 9892 9910 10478 10666 11788 11971 12418 12646 
+	}
+	manpower=3118372
+	buildings_max_level_factor=1.000
+	state_category=city
+}

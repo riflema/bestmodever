@@ -1,0 +1,31 @@
+
+state={
+	id=231
+	name="STATE_231"
+
+	history={
+		owner = GER
+		victory_points = {
+			11562 3 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 1
+
+		}
+		add_core_of = FLA
+		add_core_of = X12
+		add_claim_by = GER
+		add_claim_by = HOL
+		add_claim_by = X69
+	}
+
+	provinces={
+		3262 9363 11456 11562 
+	}
+	manpower=5091484
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

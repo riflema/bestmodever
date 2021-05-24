@@ -1,0 +1,35 @@
+
+state={
+	id=440
+	name="STATE_440"
+	resources={
+		aluminium=0.000
+		rubber=1.000
+		steel=0.000
+	}
+
+	history={
+		owner = NGA
+		victory_points = {
+			2050 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			2050 = {
+				naval_base = 2
+			}
+			air_base = 5
+
+		}
+		add_claim_by = NGA
+	}
+
+	provinces={
+		2050 12731 
+	}
+	manpower=952972
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

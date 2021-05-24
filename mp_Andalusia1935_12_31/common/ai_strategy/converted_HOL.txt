@@ -1,0 +1,91 @@
+﻿converted_war_strategies_HOL = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "GER"
+		value = 2029
+	}
+}
+
+converted_diplo_strategies_HOL = {
+	enable = {
+		tag = HOL
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "ITA"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "ADU"
+		value = 141
+	}
+	ai_strategy = {
+		type = contain
+		id = "X73"
+		value = 66
+	}
+	ai_strategy = {
+		type = contain
+		id = "X56"
+		value = 28
+	}
+	ai_strategy = {
+		type = contain
+		id = "GER"
+		value = 22
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "GER"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ITA"
+		value = 39
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ADU"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X56"
+		value = 83
+	}
+	ai_strategy = {
+		type = alliance
+		id = "TUR"
+		value = 61
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ENG"
+		value = 25
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "PHI"
+		value = 125
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "TOG"
+		value = 125
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X11"
+		value = 22
+	}
+}

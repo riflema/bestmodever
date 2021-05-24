@@ -1,0 +1,16 @@
+﻿converted_war_strategies_X21 = {
+	enable = {
+		always = no
+	}
+	
+}
+
+converted_diplo_strategies_X21 = {
+	enable = {
+		tag = X21
+	}
+	abort = {
+		always = no
+	}
+	
+}

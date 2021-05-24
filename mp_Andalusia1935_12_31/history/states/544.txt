@@ -1,0 +1,32 @@
+
+state={
+	id=544
+	name="STATE_544"
+
+	history={
+		owner = X56
+		victory_points = {
+			11773 5 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 5
+			arms_factory = 2
+			dockyard = 2
+			11773 = {
+				naval_base = 10
+			}
+			air_base = 2
+
+		}
+		add_core_of = ITA
+		add_core_of = X56
+	}
+
+	provinces={
+		902 6891 9772 9863 11755 11773 11824 11874 
+	}
+	manpower=8920548
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

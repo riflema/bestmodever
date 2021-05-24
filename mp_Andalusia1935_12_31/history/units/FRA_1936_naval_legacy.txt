@@ -1,0 +1,53 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 11535
+		task_force = {
+			name = "2nd Fleet"
+			location = 11535
+			ship = { name = "Patrie" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = FRA } } }
+			ship = { name = "Masséna" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = FRA } } }
+			ship = { name = "Gaulois" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = FRA } } }
+			ship = { name = "Jauréguiberry" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = FRA } } }
+			ship = { name = "Brennus" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = FRA } } }
+			ship = { name = "Brennus" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = FRA } } }
+			ship = { name = "Charles Martel" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = FRA } } }
+			ship = { name = "Charles Martel" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = FRA } } }
+			ship = { name = "Carnot" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = FRA } } }
+			ship = { name = "République" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = FRA } } }
+			ship = { name = "Liberté" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = FRA } } }
+			ship = { name = "Conde" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FRA } } }
+			ship = { name = "Clovis" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FRA } } }
+			ship = { name = "Maurice de Saxe" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FRA } } }
+			ship = { name = "Vercingetorix" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FRA } } }
+			ship = { name = "Vercingetorix" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FRA } } }
+			ship = { name = "Richemont" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FRA } } }
+			ship = { name = "Dunois" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FRA } } }
+			ship = { name = "Ney" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FRA } } }
+			ship = { name = "Leger" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FRA } } }
+			ship = { name = "Vauban" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FRA } } }
+			ship = { name = "Turenne" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FRA } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "FRA"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "FRA"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

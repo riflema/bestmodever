@@ -1,0 +1,79 @@
+units = {
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 6115
+		task_force = {
+			name = "3rd Fleet"
+			location = 6115
+			ship = { name = "Hans Wachtmeister af Johannishus" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = SCA version_name = "1936 Battleship" } } }
+			ship = { name = "Gustaf Otto Stenbock" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = SCA version_name = "1936 Battleship" } } }
+			ship = { name = "Lorentz Creutz" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = SCA version_name = "1936 Battleship" } } }
+			ship = { name = "Clas Eriksson Fleming" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = SCA version_name = "1936 Battleship" } } }
+			ship = { name = "Axel Nilsson Ryning" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = SCA version_name = "1936 Battleship" } } }
+			ship = { name = "Carl Carlsson Gyllenhielm" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = SCA version_name = "1936 Battleship" } } }
+			ship = { name = "1st Trondheim Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "1st Christiania Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "2nd Trondheim Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "1st Gävle Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "1st Stockholm Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "2nd Christiania Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "2nd Gävle Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "2nd Stockholm Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "1st Göteborg Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "1st Viipuri Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Hoder" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Vidar" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Njord" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Psilander" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Claes Horn" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Jacob Bakke" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Ornen" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Fylgia" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Tre Kronor" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Göta Lejon" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Östersund" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Borgholm" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Thor" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Odin" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Freyr" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Tyr" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 6050
+		task_force = {
+			name = "1st Fleet"
+			location = 6050
+			ship = { name = "3rd Trondheim Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "1st Tornio Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "2nd Viipuri Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Bragl" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Claes Uggla" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Heimdall" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SCA version_name = "1936 Light Cruiser" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "SCA"
+			version_name = "1936 Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_2
+			creator = "SCA"
+			version_name = "1936 Battleship"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

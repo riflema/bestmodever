@@ -1,0 +1,33 @@
+
+state={
+	id=117
+	name="STATE_117"
+	resources={
+		aluminium=2.000
+		steel=2.000
+		tungsten=8.000
+	}
+
+	history={
+		owner = CHL
+		victory_points = {
+			5143 1 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = ARG
+		add_core_of = CHL
+	}
+
+	provinces={
+		5143 8255 
+	}
+	manpower=618644
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

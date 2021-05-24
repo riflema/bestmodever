@@ -1,0 +1,29 @@
+
+state={
+	id=249
+	name="STATE_249"
+
+	history={
+		owner = GER
+		victory_points = {
+			9548 1 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_claim_by = GER
+		add_claim_by = ROM
+		add_claim_by = UKR
+	}
+
+	provinces={
+		723 744 3728 3741 6584 6706 6729 6747 6761 9548 9701 9716 11534 11652 11655 11672 11689 
+	}
+	manpower=2555848
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

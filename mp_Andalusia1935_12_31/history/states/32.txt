@@ -1,0 +1,18 @@
+
+state={
+	id=32
+	name="STATE_32"
+	impassable = yes
+
+	history={
+		owner = ADU
+		add_claim_by = ADU
+	}
+
+	provinces={
+		1956 4913 7939 8128 10917 
+	}
+	manpower=521112
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

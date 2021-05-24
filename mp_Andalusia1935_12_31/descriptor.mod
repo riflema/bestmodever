@@ -1,0 +1,5 @@
+name = "Converted - mp_Andalusia1935_12_31"
+replace_path="common/ideologies"
+replace_path="history/countries"
+replace_path="history/states"
+supported_version="1.10.*"

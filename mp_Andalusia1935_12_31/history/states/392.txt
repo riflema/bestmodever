@@ -1,0 +1,21 @@
+
+state={
+	id=392
+	name="STATE_392"
+	resources={
+		steel=1.000
+	}
+	impassable = yes
+
+	history={
+		owner = MLI
+		add_claim_by = MLI
+	}
+
+	provinces={
+		1115 2068 10725 10868 
+	}
+	manpower=279528
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

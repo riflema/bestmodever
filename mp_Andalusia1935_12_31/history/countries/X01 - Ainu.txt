@@ -1,0 +1,87 @@
+﻿capital = 335
+set_research_slots = 2
+
+oob = "X01_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "X01_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "X01_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+# Research Bonuses
+set_convoys = 0
+
+
+set_politics = {
+    ruling_party = democratic
+    last_election = "1884.7.26"
+    election_frequency = 48
+    elections_allowed = yes
+}
+
+set_popularities = {
+	absolutist = 27
+	democratic = 55
+	neutrality = 2
+	radical = 16
+}
+
+add_opinion_modifier = { target = BAS modifier = negative_10 }
+add_opinion_modifier = { target = BOS modifier = negative_10 }
+add_opinion_modifier = { target = CAN modifier = negative_10 }
+add_opinion_modifier = { target = HON modifier = negative_10 }
+add_opinion_modifier = { target = KAZ modifier = negative_30 }
+add_opinion_modifier = { target = MAL modifier = negative_20 }
+add_opinion_modifier = { target = MAN modifier = positive_5 }
+add_opinion_modifier = { target = MEX modifier = negative_10 }
+add_opinion_modifier = { target = PAN modifier = negative_10 }
+add_opinion_modifier = { target = PRU modifier = negative_10 }
+add_opinion_modifier = { target = SCA modifier = negative_10 }
+add_opinion_modifier = { target = USA modifier = negative_10 }
+add_opinion_modifier = { target = VEN modifier = negative_10 }
+add_opinion_modifier = { target = X04 modifier = negative_5 }
+add_opinion_modifier = { target = X18 modifier = negative_20 }
+add_opinion_modifier = { target = X37 modifier = negative_10 }
+add_opinion_modifier = { target = X40 modifier = positive_15 }
+add_opinion_modifier = { target = X43 modifier = negative_10 }
+add_opinion_modifier = { target = X56 modifier = negative_10 }
+add_opinion_modifier = { target = X58 modifier = positive_5 }
+add_opinion_modifier = { target = X60 modifier = negative_20 }
+add_opinion_modifier = { target = X67 modifier = negative_20 }
+add_opinion_modifier = { target = X76 modifier = negative_10 }
+add_opinion_modifier = { target = X77 modifier = negative_10 }
+add_opinion_modifier = { target = X78 modifier = negative_10 }
+add_opinion_modifier = { target = X79 modifier = negative_10 }
+add_opinion_modifier = { target = X80 modifier = negative_10 }
+add_opinion_modifier = { target = X81 modifier = negative_10 }
+add_opinion_modifier = { target = X82 modifier = negative_10 }
+add_opinion_modifier = { target = X83 modifier = negative_10 }
+
+
+
+add_ideas = {
+	uncivilized
+	limited_conscription
+	civilian_economy
+	export_focus
+	culture_ainu
+}
+create_country_leader = {
+	name = "Unayanke Harukor"
+	desc = "POLITICS_UNAYANKE_HARUKOR_DESC"
+	picture = "GFX_CHI_Sun_Fo"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}

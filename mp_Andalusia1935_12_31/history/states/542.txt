@@ -1,0 +1,32 @@
+
+state={
+	id=542
+	name="STATE_542"
+
+	history={
+		owner = X56
+		victory_points = {
+			10074 50 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 5
+			arms_factory = 1
+			dockyard = 2
+			10074 = {
+				naval_base = 10
+			}
+			air_base = 10
+
+		}
+		add_core_of = ITA
+		add_core_of = X56
+	}
+
+	provinces={
+		1009 1156 3857 4014 4159 7059 7147 10074 12047 
+	}
+	manpower=4444928
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

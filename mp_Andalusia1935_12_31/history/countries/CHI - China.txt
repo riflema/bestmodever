@@ -1,0 +1,121 @@
+﻿capital = 103
+set_research_slots = 3
+
+oob = "CHI_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "CHI_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "CHI_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+# Research Bonuses
+set_convoys = 0
+
+
+set_politics = {
+    ruling_party = democratic
+    last_election = "1931.9.12"
+    election_frequency = 48
+    elections_allowed = yes
+}
+
+set_popularities = {
+	absolutist = 2
+	democratic = 9
+	fascism = 86
+	neutrality = 3
+	radical = 0
+}
+
+add_opinion_modifier = { target = BAS modifier = negative_10 }
+add_opinion_modifier = { target = BOS modifier = negative_10 }
+add_opinion_modifier = { target = CAN modifier = negative_10 }
+add_opinion_modifier = { target = CHA modifier = negative_100 }
+add_opinion_modifier = { target = GER modifier = positive_200 }
+add_opinion_modifier = { target = HOL modifier = negative_100 }
+add_opinion_modifier = { target = HON modifier = negative_10 }
+add_opinion_modifier = { target = ITA modifier = negative_200 }
+add_opinion_modifier = { target = JAP modifier = negative_130 }
+add_opinion_modifier = { target = KAZ modifier = negative_30 }
+add_opinion_modifier = { target = MAL modifier = negative_120 }
+add_opinion_modifier = { target = MEX modifier = negative_10 }
+add_opinion_modifier = { target = MON modifier = negative_150 }
+add_opinion_modifier = { target = MRT modifier = negative_200 }
+add_opinion_modifier = { target = PAN modifier = negative_10 }
+add_opinion_modifier = { target = PRU modifier = negative_10 }
+add_opinion_modifier = { target = SCA modifier = negative_10 }
+add_opinion_modifier = { target = UGA modifier = negative_100 }
+add_opinion_modifier = { target = USA modifier = negative_85 }
+add_opinion_modifier = { target = VEN modifier = negative_110 }
+add_opinion_modifier = { target = X04 modifier = negative_5 }
+add_opinion_modifier = { target = X18 modifier = negative_20 }
+add_opinion_modifier = { target = X29 modifier = negative_17 }
+add_opinion_modifier = { target = X37 modifier = negative_10 }
+add_opinion_modifier = { target = X39 modifier = negative_100 }
+add_opinion_modifier = { target = X40 modifier = negative_9 }
+add_opinion_modifier = { target = X43 modifier = negative_10 }
+add_opinion_modifier = { target = X46 modifier = negative_31 }
+add_opinion_modifier = { target = X56 modifier = negative_10 }
+add_opinion_modifier = { target = X58 modifier = negative_9 }
+add_opinion_modifier = { target = X60 modifier = negative_20 }
+add_opinion_modifier = { target = X66 modifier = negative_10 }
+add_opinion_modifier = { target = X67 modifier = negative_20 }
+add_opinion_modifier = { target = X76 modifier = negative_10 }
+add_opinion_modifier = { target = X77 modifier = negative_10 }
+add_opinion_modifier = { target = X78 modifier = negative_110 }
+add_opinion_modifier = { target = X79 modifier = negative_10 }
+add_opinion_modifier = { target = X80 modifier = negative_10 }
+add_opinion_modifier = { target = X81 modifier = negative_10 }
+add_opinion_modifier = { target = X82 modifier = negative_10 }
+add_opinion_modifier = { target = X83 modifier = negative_10 }
+
+
+
+add_ideas = {
+	CHI_monarch
+	volunteer_only
+	civilian_economy
+	export_focus
+	culture_manchu
+}
+set_stability = 0.60
+set_war_support = 0.77
+create_country_leader = {
+	name = "Deng Linge"
+	desc = "POLITICS_DENG_LINGE_DESC"
+	picture = "GFX_CHI_Sun_Fo"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+create_corps_commander = {
+	name = "Sonin Kang'an"
+	traits = { }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "zhao Xingde"
+	traits = { }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 1
+}
+
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}

@@ -1,0 +1,50 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 10933
+		task_force = {
+			name = "1st Fleet"
+			location = 10933
+			ship = { name = "Sao Paulo" definition = battleship equipment = { battleship_2 = { amount = 1 owner = BRA } } }
+			ship = { name = "Marshal Floriano" definition = battleship equipment = { battleship_2 = { amount = 1 owner = BRA } } }
+			ship = { name = "Marshal Deodoro" definition = battleship equipment = { battleship_2 = { amount = 1 owner = BRA } } }
+			ship = { name = "Rio de Janeiro" definition = battleship equipment = { battleship_2 = { amount = 1 owner = BRA } } }
+			ship = { name = "Riachuelo" definition = battleship equipment = { battleship_2 = { amount = 1 owner = BRA } } }
+			ship = { name = "Constituicao" definition = battleship equipment = { battleship_2 = { amount = 1 owner = BRA } } }
+			ship = { name = "1st Salvador de Bahia Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = BRA } } }
+			ship = { name = "2nd Recife Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = BRA } } }
+			ship = { name = "3rd Recife Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = BRA } } }
+			ship = { name = "Republica" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = BRA } } }
+			ship = { name = "Aquidaban" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = BRA } } }
+			ship = { name = "Benjamin Constant" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = BRA } } }
+			ship = { name = "Fortaleza" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = BRA } } }
+			ship = { name = "Tiradentes" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = BRA } } }
+			ship = { name = "Almirante Barrozo" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = BRA } } }
+			ship = { name = "Almirante Tamandaré" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = BRA } } }
+			ship = { name = "1st Recife Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = BRA } } }
+			ship = { name = "1st Salvador de Bahia Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = BRA } } }
+			ship = { name = "1st Natal Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = BRA } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_2
+			creator = "BRA"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_2
+			creator = "BRA"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

@@ -1,0 +1,61 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 740
+		task_force = {
+			name = "2nd Fleet"
+			location = 740
+			ship = { name = "1st La Rochelle Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X73 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "2nd La Rochelle Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X73 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st Barcelona Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X73 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st La Rochelle Cruiser" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X73 version_name = "Early Light Cruiser" } } }
+			ship = { name = "2nd La Rochelle Cruiser" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X73 version_name = "Early Light Cruiser" } } }
+			ship = { name = "3rd La Rochelle Cruiser" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X73 version_name = "Early Light Cruiser" } } }
+			ship = { name = "4th La Rochelle Cruiser" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X73 version_name = "Early Light Cruiser" } } }
+			ship = { name = "5th La Rochelle Cruiser" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X73 version_name = "Early Light Cruiser" } } }
+			ship = { name = "1st Nantes Cruiser" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X73 version_name = "Early Light Cruiser" } } }
+			ship = { name = "1st Oviedo Cruiser" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X73 version_name = "Early Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 740
+		task_force = {
+			name = "1st Fleet"
+			location = 740
+			ship = { name = "6th La Rochelle Cruiser" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X73 version_name = "Early Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 740
+		task_force = {
+			name = "3rd Fleet"
+			location = 740
+			ship = { name = "1st Barcelona Cruiser" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X73 version_name = "Early Light Cruiser" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "X73"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_1
+			creator = "X73"
+			version_name = "Early Battleship"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

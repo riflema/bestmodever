@@ -1,0 +1,29 @@
+
+state={
+	id=196
+	name="STATE_196"
+
+	history={
+		owner = FRA
+		victory_points = {
+			12140 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			12140 = {
+				naval_base = 6
+			}
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		3995 12140 13023 13024 
+	}
+	manpower=242868
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,53 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 7315
+		task_force = {
+			name = "1st Fleet"
+			location = 7315
+			ship = { name = "1st Seattle Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X80 } } }
+			ship = { name = "1st Yakutat Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X80 } } }
+			ship = { name = "2nd Seattle Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X80 } } }
+			ship = { name = "2nd Yakutat Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X80 } } }
+			ship = { name = "3rd Yakutat Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X80 } } }
+			ship = { name = "1st Vancouver Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = X80 } } }
+			ship = { name = "1st Yakutat Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = X80 } } }
+			ship = { name = "1st Seattle Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = X80 } } }
+			ship = { name = "2nd Seattle Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = X80 } } }
+			ship = { name = "3rd Seattle Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = X80 } } }
+			ship = { name = "2nd Yakutat Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = X80 } } }
+			ship = { name = "3rd Seattle Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X80 } } }
+			ship = { name = "4th Seattle Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X80 } } }
+			ship = { name = "4th Yakutat Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X80 } } }
+			ship = { name = "5th Seattle Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X80 } } }
+			ship = { name = "6th Seattle Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X80 } } }
+			ship = { name = "7th Seattle Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X80 } } }
+			ship = { name = "1st Yakutat Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X80 } } }
+			ship = { name = "2nd Yakutat Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X80 } } }
+			ship = { name = "1st Seattle Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X80 } } }
+			ship = { name = "3rd Yakutat Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X80 } } }
+			ship = { name = "2nd Seattle Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X80 } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_2
+			creator = "X80"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_2
+			creator = "X80"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

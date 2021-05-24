@@ -1,0 +1,28 @@
+
+state={
+	id=388
+	name="STATE_388"
+
+	history={
+		owner = MON
+		victory_points = {
+			4561 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = MON
+		add_core_of = X29
+	}
+
+	provinces={
+		1499 1508 1558 1627 1638 3877 4561 4633 7812 10429 11903 12337 12469 12478 
+	}
+	manpower=612708
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

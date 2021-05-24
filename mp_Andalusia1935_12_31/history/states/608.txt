@@ -1,0 +1,31 @@
+
+state={
+	id=608
+	name="STATE_608"
+
+	history={
+		owner = X67
+		victory_points = {
+			1419 15 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 0
+			1419 = {
+				naval_base = 2
+			}
+			air_base = 5
+
+		}
+		add_core_of = X38
+		add_core_of = X67
+	}
+
+	provinces={
+		1419 7413 10141 
+	}
+	manpower=195672
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

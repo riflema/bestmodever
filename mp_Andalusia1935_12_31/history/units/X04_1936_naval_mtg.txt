@@ -1,0 +1,26 @@
+units = {
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 9991
+		task_force = {
+			name = "3rd Fleet"
+			location = 9991
+			ship = { name = "Balugaon" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = X04 version_name = "Early Destroyer" } } }
+			ship = { name = "Behrampur" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = X04 version_name = "Early Destroyer" } } }
+			ship = { name = "Bhubeneswar" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = X04 version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "X04"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

@@ -1,0 +1,16 @@
+﻿converted_war_strategies_SLO = {
+	enable = {
+		always = no
+	}
+	
+}
+
+converted_diplo_strategies_SLO = {
+	enable = {
+		tag = SLO
+	}
+	abort = {
+		always = no
+	}
+	
+}

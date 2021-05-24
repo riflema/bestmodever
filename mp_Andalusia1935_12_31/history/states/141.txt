@@ -1,0 +1,31 @@
+
+state={
+	id=141
+	name="STATE_141"
+
+	history={
+		owner = EGY
+		victory_points = {
+			9940 10 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 0
+			9940 = {
+				naval_base = 6
+			}
+			air_base = 10
+
+		}
+		add_claim_by = GRE
+		add_claim_by = X15
+	}
+
+	provinces={
+		1164 4170 9940 12058 
+	}
+	manpower=706056
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

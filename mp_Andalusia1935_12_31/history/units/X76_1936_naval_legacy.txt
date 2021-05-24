@@ -1,0 +1,77 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 10980
+		task_force = {
+			name = "1st Fleet"
+			location = 10980
+			ship = { name = "2nd Montevideo Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X76 } } }
+			ship = { name = "4th Montevideo Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X76 } } }
+			ship = { name = "5th Montevideo Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X76 } } }
+			ship = { name = "1st Porto Seguro Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X76 } } }
+			ship = { name = "1st January City Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X76 } } }
+			ship = { name = "1st Curitiba Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X76 } } }
+			ship = { name = "1st Porto Alegre Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X76 } } }
+			ship = { name = "2nd January City Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X76 } } }
+			ship = { name = "3rd Montevideo Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X76 } } }
+			ship = { name = "2nd Curitiba Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X76 } } }
+			ship = { name = "3rd Curitiba Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X76 } } }
+			ship = { name = "2nd Porto Alegre Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X76 } } }
+			ship = { name = "3rd January City Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X76 } } }
+			ship = { name = "1st Montevideo Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X76 } } }
+			ship = { name = "1st Montevideo Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = X76 } } }
+			ship = { name = "3rd January City Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = X76 } } }
+			ship = { name = "1st Porto Seguro Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = X76 } } }
+			ship = { name = "1st Curitiba Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = X76 } } }
+			ship = { name = "1st January City Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = X76 } } }
+			ship = { name = "1st Porto Alegre Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = X76 } } }
+			ship = { name = "2nd Montevideo Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = X76 } } }
+			ship = { name = "2nd January City Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = X76 } } }
+			ship = { name = "2nd Curitiba Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = X76 } } }
+			ship = { name = "5th Porto Seguro Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X76 } } }
+			ship = { name = "6th Porto Seguro Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X76 } } }
+			ship = { name = "3rd January City Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X76 } } }
+			ship = { name = "2nd January City Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X76 } } }
+			ship = { name = "2nd Porto Seguro Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X76 } } }
+			ship = { name = "1st January City Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X76 } } }
+			ship = { name = "1st Porto Alegre Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X76 } } }
+			ship = { name = "4th Montevideo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X76 } } }
+			ship = { name = "4th January City Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X76 } } }
+			ship = { name = "1st Porto Seguro Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X76 } } }
+			ship = { name = "7th Montevideo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X76 } } }
+			ship = { name = "8th Montevideo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X76 } } }
+			ship = { name = "7th Porto Seguro Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X76 } } }
+			ship = { name = "6th Montevideo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X76 } } }
+			ship = { name = "4th Porto Seguro Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X76 } } }
+			ship = { name = "5th Montevideo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X76 } } }
+			ship = { name = "8th Porto Seguro Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X76 } } }
+			ship = { name = "5th January City Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X76 } } }
+			ship = { name = "9th Porto Seguro Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X76 } } }
+			ship = { name = "1st Santos Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X76 } } }
+			ship = { name = "1st Montevideo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X76 } } }
+			ship = { name = "2nd Montevideo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X76 } } }
+			ship = { name = "3rd Montevideo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X76 } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_2
+			creator = "X76"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_2
+			creator = "X76"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

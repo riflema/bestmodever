@@ -1,0 +1,30 @@
+
+state={
+	id=349
+	name="STATE_349"
+
+	history={
+		owner = X33
+		victory_points = {
+			13072 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			13072 = {
+				naval_base = 2
+			}
+			air_base = 5
+
+		}
+		add_claim_by = X33
+	}
+
+	provinces={
+		13072 
+	}
+	manpower=123240
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=92
+	name="STATE_92"
+
+	history={
+		owner = CAL
+		victory_points = {
+			3513 0 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 0
+			arms_factory = 0
+			12281 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = USA
+	}
+
+	provinces={
+		505 528 3471 3513 4274 4328 4380 7398 10151 10183 11495 11733 12211 12281 
+	}
+	manpower=1378732
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

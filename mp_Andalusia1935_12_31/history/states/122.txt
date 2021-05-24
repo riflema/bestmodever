@@ -1,0 +1,30 @@
+
+state={
+	id=122
+	name="STATE_122"
+
+	history={
+		owner = BAS
+		victory_points = {
+			10254 2 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 0
+			10254 = {
+				naval_base = 10
+			}
+			air_base = 0
+
+		}
+		add_core_of = BAS
+	}
+
+	provinces={
+		4647 7245 10254 
+	}
+	manpower=599256
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}
