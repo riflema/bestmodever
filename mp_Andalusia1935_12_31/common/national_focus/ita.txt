@@ -1,0 +1,2126 @@
+focus_tree = {
+	id = ita
+	continuous_focus_position = { x = 0 y = 1000 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ITA
+		}
+	}
+	#Naval Effort
+	focus = {
+		id = ITA_naval_effort
+		icon = GFX_goal_generic_construct_naval_dockyard
+		x = 8
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = ITA_expand_the_naval_docks  }
+		completion_reward = {
+			random_owned_controlled_state ={
+			 limit = {
+			 free_building_slots = {
+			 building = dockyard
+			 size > 0
+			 include_locked = yes
+			 }
+			 }
+			 add_extra_state_shared_building_slots = 2
+			 add_building_construction = {
+			 type = dockyard
+			 level = 2
+			 instant_build = yes
+			 }
+			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			 }
+		}
+	}
+
+	#Demand Old Territories
+	focus = {
+		id = ITA_demand_old_territories
+		icon = GFX_ITA_demand_old_territories-59
+		x = 26
+		y = 13
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = ITA_demand_a_bosnian_puppet  } prerequisite = { focus = ITA_hungarian_subjugation  } prerequisite = { focus = ITA_attack_the_british  }
+		completion_reward = {
+			
+			country_event = {
+			days = 1 
+			id = finland.1 
+			}
+			
+		}
+	}
+
+	#Armament Effort
+	focus = {
+		id = ITA_armament_effort
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 14
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = ITA_military_industrial_complex  }
+		completion_reward = {
+			random_owned_controlled_state ={
+			 limit = {
+			 free_building_slots = {
+			 building = arms_factory
+			 size > 0
+			 include_locked = yes
+			 }
+			 }
+			 add_extra_state_shared_building_slots = 1
+			 add_building_construction = {
+			 type = arms_factory
+			 level = 1
+			 instant_build = yes
+			 }
+			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			 }
+			
+		}
+	}
+
+	#Kickstart Research
+	focus = {
+		id = ITA_kickstart_research
+		icon = GFX_focus_research
+		x = 3
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		completion_reward = {
+			add_tech_bonus = {
+			 bonus = 1 
+			uses = 2 
+			category = electronics 
+			}
+			
+		}
+	}
+
+	#Infantry and Heavy Navy
+	focus = {
+		id = ITA_infantry_and_heavy_navy
+		icon = GFX_focus_generic_navy_battleship2
+		x = 5
+		y = 2
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = ITA_kickstart_research  }
+		mutually_exclusive = { focus = ITA_tanks_and_light_navy  }
+	}
+
+	#Expansion of the Economy
+	focus = {
+		id = ITA_expansion_of_the_economy
+		icon = GFX_focus_befriend_italy
+		x = 11
+		y = 1
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+			set_major = yes
+			
+		}
+	}
+
+	#Military Industrial Complex
+	focus = {
+		id = ITA_military_industrial_complex
+		icon = GFX_focus_generic_combined_arms
+		x = 14
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = ITA_expansion_of_the_economy  }
+		completion_reward = {
+			add_tech_bonus = {
+			 bonus = 1 
+			uses = 2 
+			category = industry 
+			}
+			
+		}
+	}
+
+	#Research Greater Production Methods
+	focus = {
+		id = ITA_research_greater_production_methods
+		icon = GFX_goal_continuous_research
+		x = 16
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = ITA_armament_effort_iii  }
+		completion_reward = {
+			add_tech_bonus = {
+			 bonus = 1 
+			uses = 2 
+			category = industry 
+			}
+			
+		}
+	}
+
+	#Armament Effort II
+	focus = {
+		id = ITA_armament_effort_ii
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 14
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = ITA_armament_effort  }
+		completion_reward = {
+			random_owned_controlled_state ={
+			 limit = {
+			 free_building_slots = {
+			 building = arms_factory
+			 size > 0
+			 include_locked = yes
+			 }
+			 }
+			 add_extra_state_shared_building_slots = 2
+			 add_building_construction = {
+			 type = arms_factory
+			 level = 2
+			 instant_build = yes
+			 }
+			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			 }
+			
+		}
+	}
+
+	#Armament Effort III
+	focus = {
+		id = ITA_armament_effort_iii
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 14
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = ITA_armament_effort_ii  }
+		completion_reward = {
+			random_owned_controlled_state ={
+			 limit = {
+			 free_building_slots = {
+			 building = arms_factory
+			 size > 0
+			 include_locked = yes
+			 }
+			 }
+			 add_extra_state_shared_building_slots = 3
+			 add_building_construction = {
+			 type = arms_factory
+			 level = 3
+			 instant_build = yes
+			 }
+			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			 }
+			
+		}
+	}
+
+	#Mil REsearch 1
+	focus = {
+		id = ITA_mil_research_1
+		icon = GFX_ITA_mil_research_1-166
+		x = 16
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = ITA_research_greater_production_methods  }
+	}
+
+	#Armament Effort IV
+	focus = {
+		id = ITA_armament_effort_iv
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 14
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = ITA_armament_effort_iii  }
+		completion_reward = {
+			random_owned_controlled_state ={
+			 limit = {
+			 free_building_slots = {
+			 building = arms_factory
+			 size > 0
+			 include_locked = yes
+			 }
+			 }
+			 add_extra_state_shared_building_slots = 3
+			 add_building_construction = {
+			 type = arms_factory
+			 level = 3
+			 instant_build = yes
+			 }
+			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			 }
+			
+		}
+	}
+
+	#Rejuvenate The Workforce
+	focus = {
+		id = ITA_rejuvenate_the_workforce
+		icon = GFX_ITA_rejuvenate_the_workforce-61
+		x = 15
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = ITA_mil_research_1  } prerequisite = { focus = ITA_armament_effort_iv  }
+	}
+
+	#Create Jobs For The Poor
+	focus = {
+		id = ITA_create_jobs_for_the_poor
+		icon = GFX_ITA_create_jobs_for_the_poor-382
+		x = 11
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = ITA_expansion_of_the_economy  }
+		completion_reward = {
+			random_owned_controlled_state ={
+			 limit = {
+			 free_building_slots = {
+			 building = industrial_complex
+			 size > 0
+			 include_locked = yes
+			 }
+			 }
+			 add_extra_state_shared_building_slots = 3
+			 add_building_construction = {
+			 type = industrial_complex
+			 level = 1
+			 instant_build = yes
+			 }
+			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			 }
+			
+		}
+	}
+
+	#Tanks and Light Navy
+	focus = {
+		id = ITA_tanks_and_light_navy
+		icon = GFX_goal_generic_army_tanks
+		x = 1
+		y = 2
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = ITA_kickstart_research  }
+		mutually_exclusive = { focus = ITA_infantry_and_heavy_navy  }
+		select_effect = {
+			add_tech_bonus = {
+			bonus = 1.0
+			uses = 2
+			category = armor
+						}
+		}
+	}
+
+	#Submarine Research
+	focus = {
+		id = ITA_submarine_research
+		icon = GFX_goal_generic_navy_submarine
+		x = 0
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = ITA_tanks_and_light_navy  }
+		completion_reward = {
+			add_tech_bonus = {
+			 bonus = 1
+			uses = 2 
+			category = navy 
+			}
+			
+		}
+	}
+
+	#Destroyer Funding
+	focus = {
+		id = ITA_destroyer_funding
+		icon = GFX_focus_generic_destroyer
+		x = 0
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = ITA_submarine_research  }
+		completion_reward = {
+			add_tech_bonus = {
+			 bonus = 1 
+			uses = 2 
+			category = dd_tech 
+			}
+			
+		}
+	}
+
+	#Fleet In Being
+	focus = {
+		id = ITA_fleet_in_being
+		icon = GFX_goal_generic_navy_cruiser
+		x = 0
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = ITA_destroyer_funding  }
+		completion_reward = {
+			add_tech_bonus = {
+							name = fleet_in_being_bonus
+							bonus = 1.0
+							uses = 2
+							category = fleet_in_being_tree
+						}
+		}
+	}
+
+	#Fund Fiat
+	focus = {
+		id = ITA_fund_fiat
+		icon = GFX_focus_generic_army_tanks2
+		x = 2
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = ITA_tanks_and_light_navy  }
+		completion_reward = {
+			add_tech_bonus = {
+			 bonus = 1.0
+			uses = 2
+			category = armor
+			}
+		}
+	}
+
+	#Give Abarth Truck Contracts
+	focus = {
+		id = ITA_give_abarth_truck_contracts
+		icon = GFX_goal_generic_army_motorized
+		x = 2
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = ITA_fund_fiat  }
+		completion_reward = {
+			add_tech_bonus = {
+			 bonus = 1 
+			uses = 2 
+			category = motorized
+			}
+			
+		}
+	}
+
+	#Mechanize The Military
+	focus = {
+		id = ITA_mechanize_the_military
+		icon = GFX_focus_generic_strike_at_democracy1
+		x = 2
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = ITA_give_abarth_truck_contracts  }
+		completion_reward = {
+			army_experience = 100
+			
+			add_tech_bonus = {
+			 bonus = 1 
+			uses = 2 
+			category = armor
+			}
+			
+		}
+	}
+
+	#Buy Equipment From Americans
+	focus = {
+		id = ITA_buy_equipment_from_americans
+		icon = GFX_focus_chi_mission_to_the_us
+		x = 2
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_CHI_INFLATION
+		}
+		prerequisite = { focus = ITA_mechanize_the_military  }
+		completion_reward = {
+			send_equipment = {
+			 target = USA 
+			type = convoy amount = 100
+			}
+			random_owned_controlled_state ={
+			 limit = {
+			 free_building_slots = {
+			 building = arms_factory
+			 size > 0
+			 include_locked = yes
+			 }
+			 }
+			 add_extra_state_shared_building_slots = 1
+			 add_building_construction = {
+			 type = arms_factory
+			 level = 1
+			 instant_build = yes
+			 }
+			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			 }
+			
+		}
+	}
+
+	#Fix The Old Ports
+	focus = {
+		id = ITA_fix_the_old_ports
+		icon = GFX_goal_generic_construct_naval_dockyard
+		x = 0
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = ITA_buy_equipment_from_americans  }
+		completion_reward = {
+			random_owned_controlled_state ={
+			 limit = {
+			 free_building_slots = {
+			 building = dockyard
+			 size > 0
+			 include_locked = yes
+			 }
+			 }
+			 add_extra_state_shared_building_slots = 1
+			 add_building_construction = {
+			 type = dockyard
+			 level = 1
+			 instant_build = yes
+			 }
+			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			 }
+			
+		}
+	}
+
+	#Build a Submarine Port
+	focus = {
+		id = ITA_build_a_submarine_port
+		icon = GFX_goal_generic_construct_naval_dockyard
+		x = 0
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = ITA_fix_the_old_ports  }
+		completion_reward = {
+			random_owned_controlled_state ={
+			 limit = {
+			 free_building_slots = {
+			 building = dockyard
+			 size > 0
+			 include_locked = yes
+			 }
+			 }
+			 add_extra_state_shared_building_slots = 1
+			 add_building_construction = {
+			 type = dockyard
+			 level = 1
+			 instant_build = yes
+			 }
+			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			 }
+			
+		}
+	}
+
+	#Fiat Factory
+	focus = {
+		id = ITA_fiat_factory
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 2
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = ITA_buy_equipment_from_americans  }
+		completion_reward = {
+			random_owned_controlled_state ={
+			 limit = {
+			 free_building_slots = {
+			 building = arms_factory
+			 size > 0
+			 include_locked = yes
+			 }
+			 }
+			 add_extra_state_shared_building_slots = 2
+			 add_building_construction = {
+			 type = arms_factory
+			 level = 2
+			 instant_build = yes
+			 }
+			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			 }
+			
+		}
+	}
+
+	#Abarth Tank Contracts
+	focus = {
+		id = ITA_abarth_tank_contracts
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 2
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = ITA_fiat_factory  }
+		completion_reward = {
+			random_owned_controlled_state ={
+			 limit = {
+			 free_building_slots = {
+			 building = arms_factory
+			 size > 0
+			 include_locked = yes
+			 }
+			 }
+			 add_extra_state_shared_building_slots = 2
+			 add_building_construction = {
+			 type = arms_factory
+			 level = 2
+			 instant_build = yes
+			 }
+			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			 }
+			
+		}
+	}
+
+	#Artillery Research
+	focus = {
+		id = ITA_artillery_research
+		icon = GFX_goal_generic_army_artillery2
+		x = 6
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = ITA_infantry_and_heavy_navy  }
+		completion_reward = {
+			add_tech_bonus = {
+			 bonus = 1 
+			uses = 2 
+			category = artillery 
+			}
+			
+		}
+	}
+
+	#Fund Regia Marina
+	focus = {
+		id = ITA_fund_regia_marina
+		icon = GFX_focus_generic_cruiser2
+		x = 4
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = ITA_infantry_and_heavy_navy  }
+		completion_reward = {
+			add_tech_bonus = {
+							name = cr_bonus
+							bonus = 1.0
+							uses = 1
+							category = cl_tech
+							category = ca_tech
+						}
+		}
+	}
+
+	#Research Better Capital ships
+	focus = {
+		id = ITA_research_better_capital_ships
+		icon = GFX_goal_generic_navy_carrier
+		x = 4
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = ITA_fund_regia_marina  }
+		completion_reward = {
+			navy_experience = 25
+						add_tech_bonus = {
+							name = capital_ships_bonus
+							bonus = 1.0
+							uses = 1
+							category = bc_tech
+							category = bb_tech
+							category = cv_tech
+						}
+		}
+	}
+
+	#Forge Our Own Gun Designs
+	focus = {
+		id = ITA_forge_our_own_gun_designs
+		icon = GFX_focus_secret_rearmament
+		x = 6
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = ITA_artillery_research  }
+		completion_reward = {
+			add_ideas = special_forces
+						add_tech_bonus = {
+							name = special_forces_bonus
+							bonus = 1.0
+							uses = 1
+							technology = paratroopers
+							technology = paratroopers2
+							technology = marines
+							technology = marines2
+							technology = tech_mountaineers
+							technology = tech_mountaineers2
+						}
+		}
+	}
+
+	#The Sea In the Sky
+	focus = {
+		id = ITA_the_sea_in_the_sky
+		icon = GFX_focus_chi_flying_tigers
+		x = 4
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = ITA_research_better_capital_ships  }
+		completion_reward = {
+			add_tech_bonus = {
+							name = nav_bomber_bonus
+							bonus = 1.0
+							uses = 1
+							category = naval_bomber
+						}
+		}
+	}
+
+	#Doctrine Effort
+	focus = {
+		id = ITA_doctrine_effort
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		x = 6
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = ITA_forge_our_own_gun_designs  }
+		completion_reward = {
+			army_experience = 5
+						add_tech_bonus = {
+							name = land_doc_bonus
+							bonus = 1.0
+							uses = 1
+							category = land_doctrine
+			}
+			add_tech_bonus = {
+							name = special_forces_bonus
+							bonus = 1.0
+							uses = 1
+							technology = paratroopers
+							technology = paratroopers2
+							technology = marines
+							technology = marines2
+							technology = tech_mountaineers
+							technology = tech_mountaineers2
+						}
+		}
+	}
+
+	#Rebuild the crumbling Docks
+	focus = {
+		id = ITA_rebuild_the_crumbling_docks
+		icon = GFX_goal_generic_construct_naval_dockyard
+		x = 4
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = ITA_sicilian_naval_pact  }
+		completion_reward = {
+			random_owned_controlled_state ={
+			 limit = {
+			 free_building_slots = {
+			 building = dockyard
+			 size > 0
+			 include_locked = yes
+			 }
+			 }
+			 add_extra_state_shared_building_slots = 2
+			 add_building_construction = {
+			 type = dockyard
+			 level = 2
+			 instant_build = yes
+			 }
+			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			 }
+			
+		}
+	}
+
+	#Industry Research I
+	focus = {
+		id = ITA_industry_research_i
+		icon = GFX_goal_continuous_research
+		x = 10
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = ITA_industry_research  focus = ITA_construction_effort  }
+		completion_reward = {
+			add_tech_bonus = {
+			 bonus = 1 
+			uses = 2 
+			category = industry 
+			}
+			
+		}
+	}
+
+	#Construction Effort
+	focus = {
+		id = ITA_construction_effort
+		icon = GFX_focus_generic_industry_1
+		x = 12
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = ITA_create_jobs_for_the_poor  }
+		completion_reward = {
+			random_owned_controlled_state ={
+			 limit = {
+			 free_building_slots = {
+			 building = industrial_complex
+			 size > 0
+			 include_locked = yes
+			 }
+			 }
+			 add_extra_state_shared_building_slots = 1
+			 add_building_construction = {
+			 type = industrial_complex
+			 level = 1
+			 instant_build = yes
+			 }
+			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			 }
+			
+		}
+	}
+
+	#Industry Research
+	focus = {
+		id = ITA_industry_research
+		icon = GFX_goal_continuous_research
+		x = 10
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = ITA_create_jobs_for_the_poor  }
+		completion_reward = {
+			add_tech_bonus = {
+							name = industrial_bonus
+							bonus = 1.5
+							uses = 3
+							category = industry
+						}
+		}
+	}
+
+	#Build New Docks
+	focus = {
+		id = ITA_build_new_docks
+		icon = GFX_goal_generic_construct_naval_dockyard
+		x = 4
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = ITA_rebuild_the_crumbling_docks  }
+		completion_reward = {
+			random_owned_controlled_state ={
+			 limit = {
+			 free_building_slots = {
+			 building = dockyard
+			 size > 0
+			 include_locked = yes
+			 }
+			 }
+			 add_extra_state_shared_building_slots = 3
+			 add_building_construction = {
+			 type = dockyard
+			 level = 3
+			 instant_build = yes
+			 }
+			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			 }
+			
+		}
+	}
+
+	#Artillery Production
+	focus = {
+		id = ITA_artillery_production
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 6
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = ITA_build_gun_factories  }
+		completion_reward = {
+			random_owned_controlled_state ={
+			 limit = {
+			 free_building_slots = {
+			 building = arms_factory
+			 size > 0
+			 include_locked = yes
+			 }
+			 }
+			 add_extra_state_shared_building_slots = 1
+			 add_building_construction = {
+			 type = arms_factory
+			 level = 1
+			 instant_build = yes
+			 }
+			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			 }
+			
+		}
+	}
+
+	#Build Gun Factories
+	focus = {
+		id = ITA_build_gun_factories
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 6
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = ITA_sicilian_naval_pact  }
+		completion_reward = {
+			random_owned_controlled_state ={
+			 limit = {
+			 free_building_slots = {
+			 building = arms_factory
+			 size > 0
+			 include_locked = yes
+			 }
+			 }
+			 add_extra_state_shared_building_slots = 1
+			 add_building_construction = {
+			 type = arms_factory
+			 level = 1
+			 instant_build = yes
+			 }
+			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			 }
+			
+		}
+	}
+
+	#Sicilian Naval Pact
+	focus = {
+		id = ITA_sicilian_naval_pact
+		icon = GFX_focus_generic_concessions
+		x = 4
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = ITA_the_sea_in_the_sky  }
+		completion_reward = {
+			navy_experience = 100
+			
+			random_owned_controlled_state ={
+			 limit = {
+			 free_building_slots = {
+			 building = dockyard
+			 size > 0
+			 include_locked = yes
+			 }
+			 }
+			 add_extra_state_shared_building_slots = 1
+			 add_building_construction = {
+			 type = dockyard
+			 level = 1
+			 instant_build = yes
+			 }
+			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			 }
+			add_tech_bonus = {
+							name = cr_bonus
+							bonus = 1.0
+							uses = 1
+							category = cl_tech
+							category = ca_tech
+						}
+		}
+	}
+
+	#Construction Effort I
+	focus = {
+		id = ITA_construction_effort_i
+		icon = GFX_focus_generic_industry_2
+		x = 12
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = ITA_construction_effort  focus = ITA_industry_research  }
+		completion_reward = {
+			random_owned_controlled_state ={
+			 limit = {
+			 free_building_slots = {
+			 building = industrial_complex
+			 size > 0
+			 include_locked = yes
+			 }
+			 }
+			 add_extra_state_shared_building_slots = 2
+			 add_building_construction = {
+			 type = industrial_complex
+			 level = 2
+			 instant_build = yes
+			 }
+			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			 }
+			
+		}
+	}
+
+	#Construction Effort II
+	focus = {
+		id = ITA_construction_effort_ii
+		icon = GFX_focus_generic_industry_2
+		x = 12
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = ITA_construction_effort_i  focus = ITA_industry_research_i  }
+		completion_reward = {
+			random_owned_controlled_state ={
+			 limit = {
+			 free_building_slots = {
+			 building = industrial_complex
+			 size > 0
+			 include_locked = yes
+			 }
+			 }
+			 add_extra_state_shared_building_slots = 4
+			 add_building_construction = {
+			 type = industrial_complex
+			 level = 2
+			 instant_build = yes
+			 }
+			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			 }
+			
+		}
+	}
+
+	#Construction Effort III
+	focus = {
+		id = ITA_construction_effort_iii
+		icon = GFX_focus_generic_industry_2
+		x = 10
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = ITA_industry_research_i  focus = ITA_construction_effort_i  }
+		completion_reward = {
+			random_owned_controlled_state ={
+			 limit = {
+			 free_building_slots = {
+			 building = industrial_complex
+			 size > 0
+			 include_locked = yes
+			 }
+			 }
+			 add_extra_state_shared_building_slots = 4
+			 add_building_construction = {
+			 type = industrial_complex
+			 level = 2
+			 instant_build = yes
+			 }
+			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			 }
+			
+		}
+	}
+
+	#Revitalize the Nation
+	focus = {
+		id = ITA_revitalize_the_nation
+		icon = GFX_ITA_revitalize_the_nation-88
+		x = 11
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = ITA_construction_effort_iv  }
+		completion_reward = {
+			random_owned_controlled_state ={
+			 limit = {
+			 free_building_slots = {
+			 building = industrial_complex
+			 size > 0
+			 include_locked = yes
+			 }
+			 }
+			 add_extra_state_shared_building_slots = 4
+			 add_building_construction = {
+			 type = industrial_complex
+			 level = 4
+			 instant_build = yes
+			 }
+			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			 }
+			
+		}
+	}
+
+	#Break The Labor Shortage
+	focus = {
+		id = ITA_break_the_labor_shortage
+		icon = GFX_goal_continuous_boost_freedom
+		x = 11
+		y = 8
+		cost = 15
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = ITA_revitalize_the_nation  }
+	}
+
+	#Expand The Naval Docks
+	focus = {
+		id = ITA_expand_the_naval_docks
+		icon = GFX_goal_generic_construct_naval_dockyard
+		x = 8
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = ITA_expansion_of_the_economy  }
+		completion_reward = {
+			random_owned_controlled_state ={
+			 limit = {
+			 free_building_slots = {
+			 building = dockyard
+			 size > 0
+			 include_locked = yes
+			 }
+			 }
+			 add_extra_state_shared_building_slots = 1
+			 add_building_construction = {
+			 type = dockyard
+			 level = 1
+			 instant_build = yes3
+			 }
+			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			 }
+			
+		}
+	}
+
+	#Naval Effort I
+	focus = {
+		id = ITA_naval_effort_i
+		icon = GFX_goal_generic_construct_naval_dockyard
+		x = 8
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = ITA_naval_effort  }
+		completion_reward = {
+			random_owned_controlled_state ={
+			 limit = {
+			 free_building_slots = {
+			 building = dockyard
+			 size > 0
+			 include_locked = yes
+			 }
+			 }
+			 add_extra_state_shared_building_slots = 3
+			 add_building_construction = {
+			 type = dockyard
+			 level = 3
+			 instant_build = yes
+			 }
+			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			 }
+		}
+	}
+
+	#Lab Expansion
+	focus = {
+		id = ITA_lab_expansion
+		icon = GFX_focus_research2
+		x = 3
+		y = 9
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = ITA_build_a_submarine_port  focus = ITA_abarth_tank_contracts  focus = ITA_build_new_docks  focus = ITA_artillery_production  }
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+
+	#Naval Effort II
+	focus = {
+		id = ITA_naval_effort_ii
+		icon = GFX_goal_generic_construct_naval_dockyard
+		x = 8
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = ITA_naval_effort_i  }
+		completion_reward = {
+			
+			
+			random_owned_controlled_state ={
+			 limit = {
+			 free_building_slots = {
+			 building = dockyard
+			 size > 0
+			 include_locked = yes
+			 }
+			 }
+			 add_extra_state_shared_building_slots = 3
+			 add_building_construction = {
+			 type = dockyard
+			 level = 3
+			 instant_build = yes
+			 }
+			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			 }
+			
+		}
+	}
+
+	#Naval Effort III
+	focus = {
+		id = ITA_naval_effort_iii
+		icon = GFX_goal_generic_construct_naval_dockyard
+		x = 8
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = ITA_naval_effort_ii  }
+		completion_reward = {
+			random_owned_controlled_state ={
+			 limit = {
+			 free_building_slots = {
+			 building = dockyard
+			 size > 0
+			 include_locked = yes
+			 }
+			 }
+			 add_extra_state_shared_building_slots = 3
+			 add_building_construction = {
+			 type = dockyard
+			 level = 3
+			 instant_build = yes
+			 }
+			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			 }
+		}
+	}
+
+	#Womens Suffrage
+	focus = {
+		id = ITA_womens_suffrage
+		icon = GFX_focus_generic_treaty
+		x = 25
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ITA_agricultural_collectivization  }
+		completion_reward = {
+			add_ideas = FRA_womens_suffrage
+		}
+	}
+
+	#Political Effort
+	focus = {
+		id = ITA_political_effort
+		icon = GFX_goal_generic_political_pressure
+		x = 26
+		y = 1
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			add_political_power = 75
+			
+		}
+	}
+
+	#Stick With The Current Government
+	focus = {
+		id = ITA_stick_with_the_current_government
+		icon = GFX_ITA_stick_with_the_current_government-427
+		x = 26
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ITA_political_effort  }
+		completion_reward = {
+			add_popularity = { 
+			ideology = democratic 
+			popularity = 0.2
+			}
+			
+		}
+	}
+
+	#Revise the Constitution
+	focus = {
+		id = ITA_revise_the_constitution
+		icon = GFX_goal_anti_comintern_pact
+		x = 26
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ITA_stick_with_the_current_government  }
+		completion_reward = {
+			add_political_power = 100
+			
+			
+		}
+	}
+
+	#Support the Socialists
+	focus = {
+		id = ITA_support_the_socialists
+		icon = GFX_focus_prc_agrarian_socialism
+		x = 24
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ITA_revise_the_constitution  }
+		mutually_exclusive = { focus = ITA_support_the_conservatives  }
+		completion_reward = {
+			set_party_name = { 
+			ideology = democratic 
+			long_name =  Italian Socialist Party
+			name =  ISP
+			}
+			create_country_leader = {
+			 name = "Filippo Turati Costa Kuliscioff" 
+			desc = "POLITICS_PETER_II_DESC"
+			picture = "portrait_ita_palmiro_togliatti.dds" 
+			expire = '1965.1.1' 
+			ideology = socialism 
+			traits = {
+			}
+			}
+		}
+	}
+
+	#Support The Conservatives
+	focus = {
+		id = ITA_support_the_conservatives
+		icon = GFX_goal_continuous_increase_nu
+		x = 28
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ITA_revise_the_constitution  }
+		mutually_exclusive = { focus = ITA_support_the_socialists  }
+		completion_reward = {
+			set_party_name = { 
+			ideology = democratic 
+			long_name = Italian_Conservative_Party 
+			name = ICP 
+			}
+			add_country_leader_trait = great_war_hero
+			
+		}
+	}
+
+	#Increase Extraction Spendings
+	focus = {
+		id = ITA_increase_extraction_spendings
+		icon = GFX_goal_continuous_non_factory_construct
+		x = 23
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ITA_support_the_socialists  }
+		completion_reward = {
+			add_resource = { 
+			type = steel 
+			amount = 25 
+			state = 158 
+			}
+			
+		}
+	}
+
+	#Agricultural Collectivization
+	focus = {
+		id = ITA_agricultural_collectivization
+		icon = GFX_goal_generic_demand_territory
+		x = 25
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ITA_support_the_socialists  }
+		completion_reward = {
+			add_ideas = FRA_agricultural_collectivization
+			
+		}
+	}
+
+	#Economic Reform
+	focus = {
+		id = ITA_economic_reform
+		icon = GFX_focus_eng_move_to_secure_the_dominions
+		x = 29
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ITA_clamp_down_on_fascism  }
+		completion_reward = {
+			random_owned_controlled_state ={
+			 limit = {
+			 free_building_slots = {
+			 building = industrial_complex
+			 size > 0
+			 include_locked = yes
+			 }
+			 }
+			 add_extra_state_shared_building_slots = 2
+			 add_building_construction = {
+			 type = industrial_complex
+			 level = 2
+			 instant_build = yes
+			 }
+			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			 }
+			
+		}
+	}
+
+	#Clamp Down On Fascism
+	focus = {
+		id = ITA_clamp_down_on_fascism
+		icon = GFX_focus_secret_rearmament
+		x = 29
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ITA_support_the_conservatives  }
+		completion_reward = {
+			add_ideas = FRA_counter_action
+			
+		}
+	}
+
+	#Construction Effort IV
+	focus = {
+		id = ITA_construction_effort_iv
+		icon = GFX_focus_generic_industry_3
+		x = 11
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = ITA_construction_effort_ii  } prerequisite = { focus = ITA_construction_effort_iii  }
+		completion_reward = {
+			random_owned_controlled_state ={
+			 limit = {
+			 free_building_slots = {
+			 building = industrial_complex
+			 size > 0
+			 include_locked = yes
+			 }
+			 }
+			 add_extra_state_shared_building_slots = 2
+			 add_building_construction = {
+			 type = industrial_complex
+			 level = 2
+			 instant_build = yes
+			 }
+			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			 }
+			
+		}
+	}
+
+	#Democratic Bastion
+	focus = {
+		id = ITA_democratic_bastion
+		icon = GFX_focus_generic_the_giant_wakes
+		x = 27
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = ITA_support_the_conservatives  }
+		completion_reward = {
+			add_political_power = 200
+			add_ideas = CZE_democratic_bastion
+			
+		}
+	}
+
+	#Beacon Of Liberty
+	focus = {
+		id = ITA_beacon_of_liberty
+		icon = GFX_ITA_beacon_of_liberty-427
+		x = 27
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ITA_democratic_bastion  }
+		completion_reward = {
+			remove_ideas = CZE_democratic_bastion
+			add_ideas = CZE_Beacon_of_liberty
+			
+		}
+	}
+
+	#Socialist Military
+	focus = {
+		id = ITA_socialist_military
+		icon = GFX_focus_ger_great_red_menace
+		x = 23
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ITA_increase_extraction_spendings  }
+		completion_reward = {
+			add_ideas = CZE_communism_with_a_human_face
+			
+		}
+	}
+
+	#Liberty Fighters
+	focus = {
+		id = ITA_liberty_fighters
+		icon = GFX_goal_continuous_boost_freedom
+		x = 27
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = ITA_beacon_of_liberty  }
+		completion_reward = {
+			add_ideas = militarism_focus
+			
+			
+		}
+	}
+
+	#Why We Fight
+	focus = {
+		id = ITA_why_we_fight
+		icon = GFX_focus_RAJ_lions_of_the_great_war
+		x = 29
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ITA_economic_reform  }
+		completion_reward = {
+			add_ideas = why_we_fight_focus
+			
+		}
+	}
+
+	#Progress Cult
+	focus = {
+		id = ITA_progress_cult
+		icon = GFX_goal_generic_scientific_exchange
+		x = 25
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = ITA_womens_suffrage  }
+		completion_reward = {
+			add_ideas = SOV_progress_cult_focus
+			
+			
+		}
+	}
+
+	#Socialist Science
+	focus = {
+		id = ITA_socialist_science
+		icon = GFX_focus_generic_manpower
+		x = 23
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = ITA_socialist_military  }
+		completion_reward = {
+			add_ideas = socialist_science_focus
+			
+		}
+	}
+
+	#Workers' Culture
+	focus = {
+		id = ITA_workers_culture
+		icon = GFX_focus_por_workers_of_iberia
+		x = 24
+		y = 8
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ITA_progress_cult  } prerequisite = { focus = ITA_socialist_science  }
+		bypass = {
+			add_ideas = workers_culture
+			
+		}
+	}
+
+	#Victory At All Costs
+	focus = {
+		id = ITA_victory_at_all_costs
+		icon = GFX_focus_secret_rearmament
+		x = 28
+		y = 8
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ITA_liberty_fighters  } prerequisite = { focus = ITA_why_we_fight  }
+		completion_reward = {
+			add_ideas = TUR_victory_at_all_costs
+			
+		}
+	}
+
+	#Italian Friendships
+	focus = {
+		id = ITA_italian_friendships
+		icon = GFX_focus_befriend_italy
+		x = 26
+		y = 9
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ITA_victory_at_all_costs  focus = ITA_workers_culture  }
+		completion_reward = {
+			dismantle_faction = yes
+			create_faction = 'Pan_European_Entante'
+			
+		}
+	}
+
+	#Invite Sicily
+	focus = {
+		id = ITA_invite_sicily
+		icon = GFX_focus_generic_diplomatic_treaty
+		x = 22
+		y = 10
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ITA_italian_friendships  }
+		completion_reward = {
+			X57 = {
+			    country_event = { id = italy.1 }
+			}
+		}
+	}
+
+	#Invite Andalucia
+	focus = {
+		id = ITA_invite_andalucia
+		icon = GFX_ITA_invite_andalucia-120
+		x = 26
+		y = 10
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ITA_italian_friendships  }
+		completion_reward = {
+			ADU = {
+			    country_event = { id = italy.1 }
+			}
+		}
+	}
+
+	#Invite Asturias
+	focus = {
+		id = ITA_invite_asturias
+		icon = GFX_focus_generic_diplomatic_treaty
+		x = 30
+		y = 10
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ITA_italian_friendships  }
+		select_effect = {
+			x73 = {
+			    country_event = { id = italy.1 }
+			}
+		}
+	}
+
+	#Attack Hungary
+	focus = {
+		id = ITA_attack_hungary
+		icon = GFX_focus_generic_attack_bulgaria
+		x = 21
+		y = 11
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = ITA_invite_sicily  }
+		mutually_exclusive = { focus = ITA_invite_hungary  }
+		completion_reward = {
+			create_wargoal = { 
+			type = annex_everything 
+			target = HUN
+			}
+			
+		}
+	}
+
+	#Invite Hungary
+	focus = {
+		id = ITA_invite_hungary
+		icon = GFX_focus_generic_befriend_bulgaria
+		x = 23
+		y = 11
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = ITA_invite_sicily  }
+		mutually_exclusive = { focus = ITA_attack_hungary  }
+		completion_reward = {
+			HUN = {
+			    country_event = { id = italy.1 }
+			}
+		}
+	}
+
+	#A Common Threat
+	focus = {
+		id = ITA_a_common_threat
+		icon = GFX_focus_generic_attack_turkey
+		x = 25
+		y = 11
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = ITA_invite_andalucia  }
+		mutually_exclusive = { focus = ITA_an_enemy_of_my_enemy_is_my_ally  }
+		completion_reward = {
+			create_wargoal = { 
+			type = annex_everything 
+			target = TUR
+			}
+			
+		}
+	}
+
+	#An Enemy Of MY Enemy Is My Ally
+	focus = {
+		id = ITA_an_enemy_of_my_enemy_is_my_ally
+		icon = GFX_focus_generic_befriend_turkey
+		x = 27
+		y = 11
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = ITA_invite_andalucia  }
+		mutually_exclusive = { focus = ITA_a_common_threat  }
+		completion_reward = {
+			TUR = {
+			    country_event = { id = italy.1 }
+			}
+		}
+	}
+
+	#Finish Off France
+	focus = {
+		id = ITA_finish_off_france
+		icon = GFX_focus_attack_france
+		x = 29
+		y = 11
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = ITA_invite_asturias  }
+		mutually_exclusive = { focus = ITA_ally_france  }
+		completion_reward = {
+			create_wargoal = { 
+			type = annex_everything 
+			target = FRA
+			}
+			
+		}
+	}
+
+	#Ally France
+	focus = {
+		id = ITA_ally_france
+		icon = GFX_focus_chi_reach_out_to_france
+		x = 31
+		y = 11
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = ITA_invite_asturias  }
+		mutually_exclusive = { focus = ITA_finish_off_france  }
+		completion_reward = {
+			FRA = {
+			    country_event = { id = italy.1 }
+			}
+		}
+	}
+
+	#Hungarian Subjugation
+	focus = {
+		id = ITA_hungarian_subjugation
+		icon = GFX_ITA_hungarian_subjugation-59
+		x = 22
+		y = 12
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ITA_attack_hungary  focus = ITA_invite_hungary  }
+		completion_reward = {
+			HUN = {
+			    country_event = { id = italy.4 }
+			}
+			
+		}
+	}
+
+	#Demand A bosnian Puppet
+	focus = {
+		id = ITA_demand_a_bosnian_puppet
+		icon = GFX_focus_YUG_divide_bosnia
+		x = 26
+		y = 12
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = ITA_a_common_threat  focus = ITA_an_enemy_of_my_enemy_is_my_ally  }
+		completion_reward = {
+			BOS = {
+			    country_event = { id = italy.4 }
+			}
+			
+		}
+	}
+
+	#Attack The British
+	focus = {
+		id = ITA_attack_the_british
+		icon = GFX_ITA_attack_the_british-7
+		x = 30
+		y = 12
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = ITA_finish_off_france  focus = ITA_ally_france  }
+		completion_reward = {
+			create_wargoal = { 
+			type = annex_everything 
+			target = ENG
+			}
+			
+		}
+	}
+
+	#Railway Expansion
+	focus = {
+		id = ITA_railway_expansion
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 16
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = ITA_expansion_of_the_economy  }
+		completion_reward = {
+			random_owned_controlled_state = {
+			add_building_construction = {						type = infrastructure						level = 1
+			instant_build = yes					}
+			}
+			
+			random_owned_controlled_state = {
+			add_building_construction = {						type = infrastructure						level = 1
+			instant_build = yes					}
+			}
+			
+			random_owned_controlled_state = {
+			add_building_construction = {						type = infrastructure						level = 1
+			instant_build = yes					}
+			}
+			
+			
+		}
+	}
+
+	#Railway Expansion I
+	focus = {
+		id = ITA_railway_expansion_i
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 16
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = ITA_railway_expansion  }
+		completion_reward = {
+			random_owned_controlled_state = {
+			add_building_construction = {						type = infrastructure						level = 1
+			instant_build = yes					}
+			}
+			
+			random_owned_controlled_state = {
+			add_building_construction = {						type = infrastructure						level = 1
+			instant_build = yes					}
+			}
+			
+			random_owned_controlled_state = {
+			add_building_construction = {						type = infrastructure						level = 1
+			instant_build = yes					}
+			}
+			
+			random_owned_controlled_state = {
+			add_building_construction = {						type = infrastructure						level = 1
+			instant_build = yes					}
+			}
+			
+			
+		}
+	}
+
+	#Build Civilian Roads
+	focus = {
+		id = ITA_build_civilian_roads
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 16
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = ITA_railway_expansion_i  }
+		completion_reward = {
+			random_owned_controlled_state = {
+			add_building_construction = {						type = infrastructure						level = 1
+			instant_build = yes					}
+			}
+			
+			random_owned_controlled_state = {
+			add_building_construction = {						type = infrastructure						level = 1
+			instant_build = yes					}
+			}
+			
+			random_owned_controlled_state = {
+			add_building_construction = {						type = infrastructure						level = 1
+			instant_build = yes					}
+			}
+			
+			random_owned_controlled_state = {
+			add_building_construction = {						type = infrastructure						level = 1
+			instant_build = yes					}
+			}
+			
+			random_owned_controlled_state = {
+			add_building_construction = {						type = infrastructure						level = 1
+			instant_build = yes					}
+			}
+			
+			random_owned_controlled_state = {
+			add_building_construction = {						type = infrastructure						level = 1
+			instant_build = yes					}
+			}
+			
+			random_owned_controlled_state = {
+			add_building_construction = {						type = infrastructure						level = 1
+			instant_build = yes					}
+			}
+			
+			random_owned_controlled_state = {
+			add_building_construction = {						type = infrastructure						level = 1
+			instant_build = yes					}
+			}
+			
+			random_owned_controlled_state = {
+			add_building_construction = {						type = infrastructure						level = 1
+			instant_build = yes					}
+			}
+			
+			random_owned_controlled_state = {
+			add_building_construction = {						type = infrastructure						level = 1
+			instant_build = yes					}
+			}
+			
+			random_owned_controlled_state = {
+			add_building_construction = {						type = infrastructure						level = 1
+			instant_build = yes					}
+			}
+			
+			
+		}
+	}
+
+	#Settle Istria
+	focus = {
+		id = ITA_settle_istria
+		icon = GFX_ITA_settle_istria-22549
+		x = 26
+		y = 14
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ITA_demand_old_territories  }
+	}
+
+}
