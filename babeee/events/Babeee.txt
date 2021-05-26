@@ -1,0 +1,44 @@
+country_event = {
+	id = 69420
+	title = "EVTNAME69420"
+	desc = "EVTDESC69420"
+	picture = "emigration"
+	
+	trigger = {
+		colonial_nation = yes
+		invention = mission_to_civilize
+	}
+	
+	mean_time_to_happen = {	
+		months = 700
+		modifier = {
+			factor = 0.9
+			average_consciousness = 4
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 1.5
+			NOT = {
+				average_consciousness = 4
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA69420"
+		random_state = {
+			limit = {
+				is_colonial = no
+			}
+			any_owned = {
+				add_province_modifier = {
+					name = femoid_fertilization
+					duration = 36500
+				}
+			}
+		}
+	}
+}
