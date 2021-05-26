@@ -335,6 +335,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Makki Allah"
+	picture = "Portrait_Japan_Hirohito.dds"
 	traits = { }
 	skill = 1
 	attack_skill = 1
@@ -355,6 +356,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Faris ibn"
+	picture = "Portrait_Germany_Adolf_Hitler.dds"
 	traits = { }
 	skill = 2
 	attack_skill = 1
