@@ -1,1 +1,136 @@
-﻿
+###########################
+# Italian Events
+###########################
+
+add_namespace = italy
+
+
+# Invitation to italian Faction
+country_event = {
+	id = italy.1
+	title = italy.1.t
+	desc = italy.1.d
+	picture = GFX_report_event_worried_french
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = italy.1.a
+		ai_chance = { factor = 90 }
+		ITA = {
+			country_event = italy.2
+			add_to_faction = ROOT
+		}
+		add_ai_strategy = {
+			type = alliance
+			id = "ITA"
+			value = 200
+		}
+	}
+
+	option = {
+		name = italy.1.b
+		ai_chance = { factor = 10 }
+		ITA = { country_event = italy.3 }
+	}
+}
+
+# [Country] Accepts
+country_event = {
+	id = italy.2
+	title = italy.2.t
+	desc = italy.2.d
+	picture = GFX_report_event_soldiers_in_france
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = italy.2.a
+		effect_tooltip = {
+			add_to_faction = FROM
+		}
+	}
+}
+
+# [Country] Refuses
+country_event = {
+	id = italy.3
+	title = italy.3.t
+	desc = italy.3.d
+	picture = GFX_report_event_finnish_letter
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = italy.3.a
+	}
+}
+
+country_event = {
+	id = italy.4
+	title = italy.4.t
+	desc = italy.4.desc
+	picture = GFX_report_event_manchukuo_army_2
+
+	is_triggered_only = yes
+	
+	#Accept puppet
+	option = {
+		name = italy.4.a
+		ai_chance = { 
+			base = 80 
+			modifier = {
+				has_global_flag = CHI_xian_refused
+				factor = 0
+			}
+		}
+		FROM = {
+			puppet = ROOT
+			country_event = { id = italy.5 }
+		}
+	}
+
+	#Never
+	option = {
+		name = italy.4.b
+		ai_chance = { 
+			base = 10 
+		}
+		FROM = {
+			country_event = { id = italy.5 }
+		}
+	}
+}
+
+# Answer from warlord wtt_manchukou.1 - Yes
+country_event = {
+	id = italy.5
+	title = italy.5.t
+	desc = italy.5.desc
+	picture = GFX_report_event_chinese_japanese_handshake
+
+	is_triggered_only = yes
+	
+	option = {
+		name = italy.5.a
+	}
+}
+
+
+# Answer from warlord wtt_manchukou.1 - No
+country_event = {
+	id = italy.6
+	title = italy.6.t
+	desc = italy.6.desc
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = {
+		name = italy.6.a
+		create_wargoal = {
+			type = puppet_wargoal_focus
+			target = FROM
+		}
+	}
+}

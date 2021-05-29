@@ -1177,6 +1177,10 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		prerequisite = { focus = ITA_revitalize_the_nation  }
+		select_effect = {
+			remove_ideas = ITA_labor_shortage
+			
+		}
 	}
 
 	#Expand The Naval Docks
@@ -1231,10 +1235,10 @@ focus_tree = {
 			 include_locked = yes
 			 }
 			 }
-			 add_extra_state_shared_building_slots = 3
+			 add_extra_state_shared_building_slots = 2
 			 add_building_construction = {
 			 type = dockyard
-			 level = 3
+			 level = 2
 			 instant_build = yes
 			 }
 			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
@@ -1280,10 +1284,10 @@ focus_tree = {
 			 include_locked = yes
 			 }
 			 }
-			 add_extra_state_shared_building_slots = 3
+			 add_extra_state_shared_building_slots = 2
 			 add_building_construction = {
 			 type = dockyard
-			 level = 3
+			 level = 2
 			 instant_build = yes
 			 }
 			 set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
@@ -1752,7 +1756,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = ITA_italian_friendships  }
 		completion_reward = {
-			X57 = {
+			X56 = {
 			    country_event = { id = italy.1 }
 			}
 		}
@@ -2114,13 +2118,125 @@ focus_tree = {
 	focus = {
 		id = ITA_settle_istria
 		icon = GFX_ITA_settle_istria-22549
-		x = 26
-		y = 14
+		x = 25
+		y = 15
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = ITA_demand_old_territories  }
+		available = {
+			owns_state = 262
+			
+			owns_state = 263
+			
+		}
+		completion_reward = {
+			add_state_core = 218
+			add_state_core = 228
+			
+		}
+	}
+
+	#Balkan Diplomacy
+	focus = {
+		id = ITA_balkan_diplomacy
+		icon = GFX_focus_BUL_free_balkan_states
+		x = 19
+		y = 2
+		cost = 15
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ITA_french_diplomacy  }
+		completion_reward = {
+			add_state_core = 307
+			add_state_core = 309
+			add_state_core = 306
+			add_state_core = 312
+			add_state_core = 310
+			add_state_core = 311
+			
+			
+		}
+	}
+
+	#French Diplomacy
+	focus = {
+		id = ITA_french_diplomacy
+		icon = GFX_focus_chi_reach_out_to_france
+		x = 19
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			add_state_core = 296
+			add_state_core = 298
+			add_state_core = 308
+			
+		}
+	}
+
+	#Ask Newfoundland To Come Back
+	focus = {
+		id = ITA_ask_newfoundland_to_come_back
+		icon = GFX_ITA_ask_newfoundland_to_come_back-22685
+		x = 19
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ITA_balkan_diplomacy  }
+		completion_reward = {
+			country_event = {
+			days = 1 
+			id = italy.4
+			}
+			
+		}
+	}
+
+	#Ask Panama To Come Back
+	focus = {
+		id = ITA_ask_panama_to_come_back
+		icon = GFX_ITA_ask_panama_to_come_back-22690
+		x = 19
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ITA_ask_newfoundland_to_come_back  }
+		completion_reward = {
+			country_event = {
+			days = 1 
+			id = italy.4 
+			}
+			
+		}
+	}
+
+	#Ask India To Come Back
+	focus = {
+		id = ITA_ask_india_to_come_back
+		icon = GFX_ITA_ask_india_to_come_back-22701
+		x = 19
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ITA_ask_panama_to_come_back  }
+		completion_reward = {
+			country_event = {
+			days = 1 
+			id = italy.4
+			}
+			
+		}
 	}
 
 }
