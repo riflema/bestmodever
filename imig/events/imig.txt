@@ -1,0 +1,21 @@
+country_event = {
+	id = 69420
+	title = "EVTNAME69420"
+	desc = "EVTDESC69420"
+	picture = "emigration"
+	
+	is_triggered_only = yes
+
+	trigger = {
+		ai = no
+	}
+	
+	option = {
+		name = "EVTOPTA69420"
+		add_country_modifier = {
+			name = tiny_windows
+			duration = 36500
+		}
+		set_country_flag = tiny_windowsf
+	}
+}
