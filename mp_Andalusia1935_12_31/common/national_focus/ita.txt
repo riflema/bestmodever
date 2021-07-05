@@ -1412,7 +1412,7 @@ focus_tree = {
 		completion_reward = {
 			set_party_name = { 
 			ideology = democratic 
-			long_name =  Italian Socialist Party
+			long_name =  Italian_Socialist_Party
 			name =  ISP
 			}
 			create_country_leader = {
@@ -1498,7 +1498,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = ITA_clamp_down_on_fascism  }
+		prerequisite = { focus = ITA_anti_facist_immigrants  }
 		completion_reward = {
 			random_owned_controlled_state ={
 			 limit = {
@@ -1520,9 +1520,9 @@ focus_tree = {
 		}
 	}
 
-	#Clamp Down On Fascism
+	#Anti Facist Immigrants
 	focus = {
-		id = ITA_clamp_down_on_fascism
+		id = ITA_anti_facist_immigrants
 		icon = GFX_focus_secret_rearmament
 		x = 29
 		y = 5
@@ -1532,7 +1532,8 @@ focus_tree = {
 		}
 		prerequisite = { focus = ITA_support_the_conservatives  }
 		completion_reward = {
-			add_ideas = FRA_counter_action
+			add_ideas =FRA_anti_fascist_immigrants
+			
 			
 		}
 	}
@@ -1599,8 +1600,10 @@ focus_tree = {
 		}
 		prerequisite = { focus = ITA_democratic_bastion  }
 		completion_reward = {
-			remove_ideas = CZE_democratic_bastion
-			add_ideas = CZE_Beacon_of_liberty
+			swap_ideas = {
+			 remove_idea = CZE_democratic_bastion
+			add_idea = CZE_Beacon_of_liberty
+			}
 			
 		}
 	}
@@ -2118,8 +2121,8 @@ focus_tree = {
 	focus = {
 		id = ITA_settle_istria
 		icon = GFX_ITA_settle_istria-22549
-		x = 25
-		y = 15
+		x = 26
+		y = 14
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
