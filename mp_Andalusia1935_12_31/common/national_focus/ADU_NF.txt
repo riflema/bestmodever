@@ -1825,4 +1825,14 @@ focus_tree = {
 			add_research_slot = 1
 		}
 	}
+	focus = {
+		id = ADU_Banco_Constitution
+		icon = GFX_focus_ADU_banco_constitution
+		x = 34
+		y = 0
+		cost = 1
+		completion_reward = {
+			
+		}
+	}
 }
