@@ -1,6 +1,19 @@
 spriteTypes = {	##Icon For: 
+	spriteType = {
+		name = "GFX_intelligence_agency_logo_adu"
+		texturefile = "gfx/interface/operatives/agencies/agency_logo_adu.dds"
+		noOfFrames = 2
+	}
 	SpriteType = {
 		name = "GFX_idea_ADU_A_Nation_Revitalized_idea"
 		texturefile = "gfx/interface/ideas/ADU_A_Nation_Revitalized_idea.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_ADU_CPSE"
+		texturefile = "gfx/interface/ideas/ADU_CPSE.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_ADU_CAR"
+		texturefile = "gfx/interface/ideas/ADU_CAR.dds"
 	}
 }

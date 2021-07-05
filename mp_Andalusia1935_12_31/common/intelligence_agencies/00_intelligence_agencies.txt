@@ -1,6 +1,6 @@
 intelligence_agency = {
-	picture = GFX_intelligence_agency_logo_generic_5
-	names = { "SIGC" }
+	picture = GFX_intelligence_agency_logo_adu
+	names = { "CPSE" }
 	default = { tag = ADU }
 	available = { original_tag = ADU }
 }

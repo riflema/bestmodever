@@ -1832,7 +1832,53 @@ focus_tree = {
 		y = 0
 		cost = 1
 		completion_reward = {
-			
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = ADU_Establish_CPSE
+		icon = GFX_focus_ADU_establish_cpse
+		x = 32
+		y = 1
+		cost = 3
+		prerequisite = { 
+			focus = ADU_Banco_Constitution
+		}
+		completion_reward = {
+			add_political_power = 20
+			create_intelligence_agency = ADU
+			add_ideas = ADU_CPSE
+		}
+	}
+	focus = {
+		id = ADU_Asturian_Delegation
+		icon = GFX_focus_ADU_asturian_delegation
+		x = 34
+		y = 1
+		cost = 2
+		prerequisite = { 
+			focus = ADU_Banco_Constitution
+		}
+		completion_reward = {
+			X73 = {
+				country_event = {
+					id = andalusia.2
+				}
+			}
+		}
+	}
+	focus = {
+		id = ADU_Establish_CAR
+		icon = GFX_focus_ADU_establish_car
+		x = 36
+		y = 1
+		cost = 3
+		prerequisite = { 
+			focus = ADU_Banco_Constitution
+		}
+		completion_reward = {
+			add_political_power = 20
+			add_ideas = ADU_CAR
 		}
 	}
 }
