@@ -1881,4 +1881,92 @@ focus_tree = {
 			add_ideas = ADU_CAR
 		}
 	}
+	focus = {
+		id = ADU_Consolidate_Power
+		icon = GFX_focus_generic_support_the_left_right
+		x = 32
+		y = 2
+		cost = 4
+		prerequisite = { 
+			focus = ADU_Establish_CPSE
+		}
+		completion_reward = {
+			add_political_power = -20
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = ADU_Eliminate_Rivals
+		icon = GFX_goal_generic_secret_weapon
+		x = 32
+		y = 3
+		cost = 4
+		prerequisite = { 
+			focus = ADU_Consolidate_Power
+		}
+		completion_reward = {
+			add_political_power = -50
+			add_stability = 0.075
+		}
+	}
+	focus = {
+		id = ADU_Asturian_Trade
+		icon = GFX_focus_ADU_asturian_trade
+		x = 34
+		y = 2
+		cost = 3
+		prerequisite = { 
+			focus = ADU_Asturian_Delegation
+		}
+		completion_reward = {
+			X73 = {
+				country_event = {
+					id = andalusia.3
+				}
+			}
+		}
+	}
+	focus = {
+		id = ADU_Brothers_United
+		icon = GFX_focus_ADU_brothers_united
+		x = 34
+		y = 3
+		cost = 3
+		prerequisite = { 
+			focus = ADU_Asturian_Trade
+		}
+		completion_reward = {
+			X73 = {
+				country_event = {
+					id = andalusia.4
+				}
+			}
+		}
+	}
+	focus = {
+		id = ADU_Last_Stand
+		icon = GFX_focus_ADU_last_stand
+		x = 36
+		y = 2
+		cost = 3
+		prerequisite = { 
+			focus = ADU_Establish_CAR
+		}
+		completion_reward = {
+			add_ideas = ADU_Al_Kalai
+		}
+	}
+	focus = {
+		id = ADU_Call_Against_Fascism
+		icon = GFX_focus_spr_the_anti_fascist_workers_revolution
+		x = 36
+		y = 3
+		cost = 3
+		prerequisite = { 
+			focus = ADU_Last_Stand
+		}
+		completion_reward = {
+			add_ideas = ADU_Anti_Fascist_Crusade
+		}
+	}
 }

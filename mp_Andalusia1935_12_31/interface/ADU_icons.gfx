@@ -16,4 +16,8 @@ spriteTypes = {	##Icon For:
 		name = "GFX_idea_ADU_CAR"
 		texturefile = "gfx/interface/ideas/ADU_CAR.dds"
 	}
+	SpriteType = {
+		name = "GFX_idea_ADU_Al_Kalai"
+		texturefile = "gfx/interface/ideas/ADU_Al_Kalai.dds"
+	}
 }

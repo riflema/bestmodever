@@ -435,6 +435,37 @@ ideas = {
 				communism_drift = 0.03
 			}
 		}
+		ADU_Al_Kalai = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			modifier = {
+				war_support_factor = 0.1
+				conscription = 0.01
+			}
+		}
+		ADU_Anti_Fascist_Crusade = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = SPR_anti_fascist_crusade
+			modifier = {
+				fascism_acceptance = -20
+				justify_war_goal_time = -0.2
+			}
+		}
 
 	}
 	political_advisor = {
