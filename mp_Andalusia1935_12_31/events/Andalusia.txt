@@ -27,6 +27,7 @@ news_event = {
 		name = andalusia.1.b
 		trigger = { TAG = ADU }
 		hidden_effect = {
+			set_global_flag = ADU_banco_prem 
 			kill_ideology_leader = communism
 			create_country_leader = {
 				name = "Bancisco Banco"
@@ -39,6 +40,240 @@ news_event = {
 					great_survivor
 				}
 			}
+		}
+	}
+}
+country_event = {
+	id = andalusia.2
+	title = andalusia.2.t
+	desc = andalusia.2.d
+	picture = GFX_report_event_generic_communist_congress
+
+	is_triggered_only = yes
+	
+	option = {
+		name = andalusia.2.a
+		ADU = {
+			country_event = {
+				id = andalusia.5
+				days = 1
+			}
+		}
+	}
+
+	option = {
+		name = andalusia.2.b
+		ADU = {
+			country_event = {
+				id = andalusia.6
+				days = 1
+			}
+		}
+	}
+}
+country_event = {
+	id = andalusia.3
+	title = andalusia.3.t
+	desc = andalusia.3.d
+	picture = GFX_report_event_generic_sign_treaty2
+
+	is_triggered_only = yes
+	
+	option = {
+		name = andalusia.3.a
+		transfer_state = 1
+		add_state_core = 1
+		remove_state_core = 715
+		ADU = {
+			transfer_state = 715
+			add_state_core = 715
+			remove_state_core = 1
+		}
+		hidden_effect = {
+			news_event = {
+				id = andalusia.7
+			}
+		}
+	}
+
+	option = {
+		name = andalusia.3.b
+		ADU = {
+			country_event = {
+				id = andalusia.8
+				days = 1
+			}
+		}
+	}
+}
+country_event = {
+	id = andalusia.4
+	title = andalusia.4.t
+	desc = andalusia.4.d
+	picture = GFX_report_event_generic_conference
+
+	is_triggered_only = yes
+	
+	option = {
+		name = andalusia.4.a
+		ADU = {
+			add_to_faction = X73
+		}
+		hidden_effect = {
+			news_event = {
+				id = andalusia.9
+			}
+		}
+	}
+
+	option = {
+		name = andalusia.4.b
+		ADU = {
+			country_event = {
+				id = andalusia.10
+				days = 1
+			}
+		}
+	}
+}
+country_event = {
+	id = andalusia.5
+	title = andalusia.5.t
+	desc = andalusia.5.d
+	picture = GFX_report_event_generic_communist_congress
+
+	is_triggered_only = yes
+	
+	option = {
+		name = andalusia.5.a
+		X73 = {
+			add_opinion_modifier = {
+				target = ADU
+				modifier = ADU_sent_diplo_delegation
+			}
+			remove_opinion_modifier = {
+ 				target = ADU
+    			modifier = negative_46
+			}
+		}
+		add_opinion_modifier = {
+			target = X73
+			modifier = ADU_sent_diplo_delegation
+		}
+		remove_opinion_modifier = {
+ 			target = X73
+    		modifier = negative_46
+		}
+
+	}
+}
+country_event = {
+	id = andalusia.6
+	title = andalusia.6.t
+	desc = andalusia.6.d
+	picture = GFX_report_event_generic_communist_congress
+
+	is_triggered_only = yes
+	
+	option = {
+		name = andalusia.6.a
+		add_opinion_modifier = {
+			target = X73
+			modifier = ADU_refused_request
+		}
+	}
+}
+news_event = {
+	id = andalusia.7
+	title = andalusia.7.t
+	desc = andalusia.7.d
+	picture = GFX_news_event_generic_sign_treaty2
+
+	major = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = andalusia.7.a
+		trigger = {
+			NOT = {
+				TAG = ADU
+				TAG = X73
+			}
+		}
+	}
+
+	option = {
+		name = andalusia.7.b
+		trigger = { 
+			OR = {
+				TAG = ADU
+				TAG = X73
+			}
+		}
+		
+	}
+}
+country_event = {
+	id = andalusia.8
+	title = andalusia.8.t
+	desc = andalusia.8.d
+	picture = GFX_report_event_generic_sign_treaty2
+
+	is_triggered_only = yes
+	
+	option = {
+		name = andalusia.8.a
+		add_opinion_modifier = {
+			target = X73
+			modifier = ADU_refused_request
+		}
+	}
+}
+news_event = {
+	id = andalusia.9
+	title = andalusia.9.t
+	desc = andalusia.9.d
+	picture = GFX_news_event_generic_read_write
+
+	major = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = andalusia.9.a
+		trigger = {
+			NOT = {
+				TAG = ADU
+				TAG = X73
+			}
+		}
+	}
+
+	option = {
+		name = andalusia.9.b
+		trigger = { 
+			OR = {
+				TAG = ADU
+				TAG = X73
+			}
+		}
+		
+	}
+}
+country_event = {
+	id = andalusia.10
+	title = andalusia.10.t
+	desc = andalusia.10.d
+	picture = GFX_report_event_generic_conference
+
+	is_triggered_only = yes
+	
+	option = {
+		name = andalusia.10.a
+		add_opinion_modifier = {
+			target = X73
+			modifier = ADU_refused_request
 		}
 	}
 }

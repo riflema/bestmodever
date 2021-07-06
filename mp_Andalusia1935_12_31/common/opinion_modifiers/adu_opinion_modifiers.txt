@@ -1,0 +1,8 @@
+opinion_modifiers = {
+	ADU_refused_request = {
+		value = -20
+	}
+	ADU_sent_diplo_delegation = {
+		value = 20
+	}
+}
