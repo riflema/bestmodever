@@ -1,4 +1,8 @@
 #reload countrycolors
+ACU = {
+	color = rgb { 241 234 184 }
+	color_ui = rgb { 241 234 184 }
+}
 ADU = {
 	color = rgb { 240 230 155 }
 	color_ui = rgb { 240 230 155 }}
