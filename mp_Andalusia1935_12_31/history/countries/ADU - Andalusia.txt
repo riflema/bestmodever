@@ -355,7 +355,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Faris ibn"
+	name = "Faris al-Isibili"
 	picture = "Portrait_Germany_Adolf_Hitler.dds"
 	traits = { }
 	skill = 2

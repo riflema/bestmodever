@@ -2003,6 +2003,158 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = ADU_Zavoyko_Strategy
+		icon = GFX_focus_ADU_zavoyko_strategy
+		x = 28
+		y = 5
+		cost = 3
+		prerequisite = { 
+			focus = ADU_Focus_Europe
+		}
+		mutually_exclusive = {
+			focus = ADU_al_Isibili_Strategy
+		}
+		completion_reward = {
+			add_political_power = 20
+			add_ideas = ADU_Zavoyko
+		}
+	}
+	focus = {
+		id = ADU_Create_CPM
+		icon = GFX_focus_ADU_create_cpm
+		x = 28
+		y = 6
+		cost = 3
+		prerequisite = { 
+			focus = ADU_Zavoyko_Strategy
+		}
+		completion_reward = {
+			create_faction = "Coalición para la Protección del Mediterráneo"
+		}
+	}
+	focus = {
+		id = ADU_Extend_Hand_Sicily
+		icon = GFX_focus_ADU_extend_hand_sicily
+		x = 29
+		y = 7
+		cost = 3
+		prerequisite = { 
+			focus = ADU_Create_CPM
+			focus = ADU_Create_Med_Pact
+		}
+		mutually_exclusive = {
+			focus = ADU_New_Brothers_War
+		}
+		completion_reward = {
+			X56 = {
+				country_event = {
+					id = andalusia.12
+					days = 1
+				}
+			}
+		}
+	}
+	focus = {
+		id = ADU_Eliminate_Italy
+		icon = GFX_focus_ADU_eliminate_italy
+		x = 28
+		y = 8
+		cost = 4
+		prerequisite = { 
+			focus = ADU_Create_CPM
+			focus = ADU_Extend_Hand_Sicily
+		}
+		completion_reward = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = ITA
+			}
+		}
+	}
+	focus = {
+		id = ADU_Destroy_Germany
+		icon = GFX_focus_ADU_destroy_germany
+		x = 29
+		y = 9
+		cost = 4
+		prerequisite = { 
+			focus = ADU_Eliminate_Italy
+			focus = ADU_Extend_Hand_Sicily
+			focus = ADU_Deal_with_Sicily
+		}
+		completion_reward = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = GER
+			}
+		}
+	}
+	focus = {
+		id = ADU_al_Isibili_Strategy
+		icon = GFX_focus_ADU_al_isibili_strategy
+		x = 30
+		y = 5
+		cost = 3
+		prerequisite = { 
+			focus = ADU_Focus_Europe
+		}
+		mutually_exclusive = {
+			focus = ADU_Zavoyko_Strategy
+		}
+		completion_reward = {
+			add_political_power = 20
+			add_ideas = ADU_al_Isibili
+		}
+	}
+	focus = {
+		id = ADU_Create_Med_Pact
+		icon = GFX_focus_ADU_create_med_pact
+		x = 30
+		y = 6
+		cost = 3
+		prerequisite = { 
+			focus = ADU_al_Isibili_Strategy
+		}
+		completion_reward = {
+			create_faction = "Pacto Mediterráneo"
+		}
+	}
+	focus = {
+		id = ADU_New_Brothers_War
+		icon = GFX_focus_ADU_new_brothers_war
+		x = 31
+		y = 7
+		cost = 4
+		prerequisite = { 
+			focus = ADU_Create_Med_Pact
+		}
+		mutually_exclusive = {
+			focus = ADU_Extend_Hand_Sicily
+		}
+		completion_reward = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = X73
+			}
+		}
+	}
+	focus = {
+		id = ADU_Deal_with_Sicily
+		icon = GFX_focus_ADU_deal_with_sicily
+		x = 30
+		y = 8
+		cost = 4
+		prerequisite = { 
+			focus = ADU_New_Brothers_War
+		}
+		completion_reward = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = X56
+			}
+		}
+	}
+	focus = {
 		id = ADU_Focus_Africa
 		icon = GFX_focus_ADU_focus_africa
 		x = 34
