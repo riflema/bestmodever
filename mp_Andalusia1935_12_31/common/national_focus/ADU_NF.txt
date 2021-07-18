@@ -2378,4 +2378,151 @@ focus_tree = {
 			}
 		}
 	}
+	focus = {
+		id = ADU_Expand_Colonies
+		icon = GFX_focus_
+		x = 38
+		y = 6
+		cost = 2
+		prerequisite = { 
+			focus = ADU_Demand_Colonies_Land
+		}
+		completion_reward = {
+			add_political_power = 20
+		}
+	}
+	focus = {
+		id = ADU_Deal_with_Fascists
+		icon = GFX_focus_
+		x = 37
+		y = 7
+		cost = 5
+		prerequisite = { 
+			focus = ADU_Expand_Colonies
+		}
+		completion_reward = {
+			#add wargoals
+		}
+	}
+	focus = {
+		id = ADU_Deal_with_Capitalists
+		icon = GFX_focus_
+		x = 38
+		y = 8
+		cost = 5
+		prerequisite = { 
+			focus = ADU_Expand_Colonies
+		}
+		completion_reward = {
+			#add wargoals
+		}
+	}
+	focus = {
+		id = ADU_Colonial_Hegemony
+		icon = GFX_focus_
+		x = 38
+		y = 9
+		cost = 5
+		prerequisite = { 
+			focus = ADU_Deal_with_Fascists
+		}
+		prerequisite = { 
+			focus = ADU_Deal_with_Capitalists
+		}
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	focus = {
+		id = ADU_Consolidate_Colony_Power
+		icon = GFX_focus_
+		x = 40
+		y = 6
+		cost = 5
+		prerequisite = { 
+			focus = ADU_Demand_Colonies_Land
+		}
+		completion_reward = {
+			#add autonomy ideas for colonies
+		}
+	}
+	focus = {
+		id = ADU_Talks_of_United_Colony
+		icon = GFX_focus_ADU_talks_united_colony
+		x = 40
+		y = 7
+		cost = 3
+		prerequisite = { 
+			focus = ADU_Consolidate_Colony_Power
+		}
+		completion_reward = {
+			add_political_power = -20
+		}
+	}
+	focus = {
+		id = ADU_Unified_Economies
+		icon = GFX_focus_
+		x = 40
+		y = 8
+		cost = 4
+		prerequisite = { 
+			focus = ADU_Talks_of_United_Colony
+		}
+		completion_reward = {
+			add_political_power = -40
+			#add economy ideas
+		}
+	}
+	focus = {
+		id = ADU_Expand_Propaganda
+		icon = GFX_focus_
+		x = 42
+		y = 8
+		cost = 4
+		prerequisite = { 
+			focus = ADU_Talks_of_United_Colony
+		}
+		completion_reward = {
+			add_political_power = 20
+			#add autonomy and political power ideas
+		}
+	}
+	focus = {
+		id = ADU_United_Colony
+		icon = GFX_focus_united_colony
+		x = 40
+		y = 9
+		cost = 5
+		prerequisite = { 
+			focus = ADU_Expand_Propaganda
+		}
+		prerequisite = { 
+			focus = ADU_Unified_Economies
+		}
+		completion_reward = {
+			add_political_power = 20
+			#unify colonies event
+		}
+	}
+	focus = {
+		id = ADU_New_World_Order
+		icon = GFX_focus_ADU_new_world_order
+		x = 34
+		y = 10
+		cost = 5
+		prerequisite = { 
+			focus = ADU_Destroy_Germany
+		}
+		prerequisite = { 
+			focus = ADU_Revenge_for_Tobruk
+		}
+		prerequisite = { 
+			focus = ADU_Colonial_Hegemony
+			focus = ADU_United_Colony
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_ideas = ADU_New_World_Order_idea
+		}
+	}
 }
