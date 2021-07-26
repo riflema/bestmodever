@@ -1,0 +1,340 @@
+1877 = {
+	slaves=
+	{
+		culture = wolof
+		religion = shamanism
+		size= 2151
+	}
+
+	soldiers=
+	{
+		culture = wolof
+		religion = shamanism
+		size= 7233
+	}
+
+	artisans=
+	{
+		culture = wolof
+		religion = shamanism
+		size= 269
+	}
+
+	clergymen=
+	{
+		culture = wolof
+		religion = shamanism
+		size= 50
+	}
+
+	bureaucrats=
+	{
+		culture = wolof
+		religion = shamanism
+		size= 9
+	}
+
+	officers=
+	{
+		culture = wolof
+		religion = shamanism
+		size= 14
+	}
+
+	aristocrats=
+	{
+		culture = wolof
+		religion = shamanism
+		size= 57
+	}
+
+	farmers=
+	{
+		culture = wolof
+		religion = shamanism
+		size= 17130
+	}
+
+	slaves=
+	{
+		culture = wolof
+		religion = catholic
+		size= 1084
+	}
+
+	soldiers=
+	{
+		culture = wolof
+		religion = catholic
+		size= 380
+	}
+
+	artisans=
+	{
+		culture = wolof
+		religion = catholic
+		size= 540
+	}
+
+	clergymen=
+	{
+		culture = wolof
+		religion = catholic
+		size= 101
+	}
+
+	bureaucrats=
+	{
+		culture = wolof
+		religion = catholic
+		size= 19
+	}
+
+	officers=
+	{
+		culture = wolof
+		religion = catholic
+		size= 28
+	}
+
+	aristocrats=
+	{
+		culture = wolof
+		religion = catholic
+		size= 113
+	}
+
+	farmers=
+	{
+		culture = wolof
+		religion = catholic
+		size= 11294
+	}
+
+	slaves=
+	{
+		culture = afro_caribeno
+		religion = catholic
+		size= 410
+	}
+
+	soldiers=
+	{
+		culture = morado
+		religion = catholic
+		size= 144
+	}
+
+	artisans=
+	{
+		culture = morado
+		religion = catholic
+		size= 1015
+	}
+
+	clergymen=
+	{
+		culture = morado
+		religion = catholic
+		size= 190
+	}
+
+	bureaucrats=
+	{
+		culture = morado
+		religion = catholic
+		size= 36
+	}
+
+	officers=
+	{
+		culture = morado
+		religion = catholic
+		size= 53
+	}
+
+	aristocrats=
+	{
+		culture = morado
+		religion = catholic
+		size= 213
+	}
+
+	farmers=
+	{
+		culture = morado
+		religion = catholic
+		size= 3074
+	}
+
+}
+1878 = {
+	slaves=
+	{
+		culture = wolof
+		religion = shamanism
+		size= 2393
+	}
+
+	soldiers=
+	{
+		culture = wolof
+		religion = shamanism
+		size= 7233
+	}
+
+	artisans=
+	{
+		culture = wolof
+		religion = shamanism
+		size= 269
+	}
+
+	clergymen=
+	{
+		culture = wolof
+		religion = shamanism
+		size= 50
+	}
+
+	bureaucrats=
+	{
+		culture = wolof
+		religion = shamanism
+		size= 9
+	}
+
+	officers=
+	{
+		culture = wolof
+		religion = shamanism
+		size= 14
+	}
+
+	aristocrats=
+	{
+		culture = wolof
+		religion = shamanism
+		size= 57
+	}
+
+	farmers=
+	{
+		culture = wolof
+		religion = shamanism
+		size= 16888
+	}
+
+	slaves=
+	{
+		culture = wolof
+		religion = catholic
+		size= 1205
+	}
+
+	soldiers=
+	{
+		culture = wolof
+		religion = catholic
+		size= 380
+	}
+
+	artisans=
+	{
+		culture = wolof
+		religion = catholic
+		size= 540
+	}
+
+	clergymen=
+	{
+		culture = wolof
+		religion = catholic
+		size= 101
+	}
+
+	bureaucrats=
+	{
+		culture = wolof
+		religion = catholic
+		size= 19
+	}
+
+	officers=
+	{
+		culture = wolof
+		religion = catholic
+		size= 28
+	}
+
+	aristocrats=
+	{
+		culture = wolof
+		religion = catholic
+		size= 113
+	}
+
+	farmers=
+	{
+		culture = wolof
+		religion = catholic
+		size= 11173
+	}
+
+	slaves=
+	{
+		culture = afro_caribeno
+		religion = catholic
+		size= 456
+	}
+
+	soldiers=
+	{
+		culture = morado
+		religion = catholic
+		size= 144
+	}
+
+	artisans=
+	{
+		culture = morado
+		religion = catholic
+		size= 1015
+	}
+
+	clergymen=
+	{
+		culture = morado
+		religion = catholic
+		size= 190
+	}
+
+	bureaucrats=
+	{
+		culture = morado
+		religion = catholic
+		size= 36
+	}
+
+	officers=
+	{
+		culture = morado
+		religion = catholic
+		size= 53
+	}
+
+	aristocrats=
+	{
+		culture = morado
+		religion = catholic
+		size= 213
+	}
+
+	farmers=
+	{
+		culture = morado
+		religion = catholic
+		size= 3028
+	}
+
+}

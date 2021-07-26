@@ -1,0 +1,759 @@
+518 = {
+	soldiers=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 4179
+	}
+
+	artisans=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 5970
+	}
+
+	clergymen=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 970
+	}
+
+	bureaucrats=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 209
+	}
+
+	officers=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 239
+	}
+
+	aristocrats=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 1881
+	}
+
+	farmers=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 135808
+	}
+
+}
+519 = {
+	soldiers=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 580
+	}
+
+	artisans=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 2322
+	}
+
+	clergymen=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 377
+	}
+
+	bureaucrats=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 81
+	}
+
+	officers=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 46
+	}
+
+	aristocrats=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 488
+	}
+
+	farmers=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 54150
+	}
+
+}
+520 = {
+	soldiers=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 157
+	}
+
+	artisans=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 314
+	}
+
+	clergymen=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 51
+	}
+
+	bureaucrats=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 8
+	}
+
+	officers=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 6
+	}
+
+	aristocrats=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 66
+	}
+
+	farmers=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 15091
+	}
+
+	soldiers=
+	{
+		culture = portuguese
+		religion = protestant
+		size= 175
+	}
+
+	artisans=
+	{
+		culture = portuguese
+		religion = protestant
+		size= 1013
+	}
+
+	clergymen=
+	{
+		culture = portuguese
+		religion = protestant
+		size= 165
+	}
+
+	bureaucrats=
+	{
+		culture = portuguese
+		religion = protestant
+		size= 25
+	}
+
+	officers=
+	{
+		culture = portuguese
+		religion = protestant
+		size= 20
+	}
+
+	aristocrats=
+	{
+		culture = portuguese
+		religion = protestant
+		size= 213
+	}
+
+	farmers=
+	{
+		culture = portuguese
+		religion = protestant
+		size= 15864
+	}
+
+}
+521 = {
+	soldiers=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 1244
+	}
+
+	artisans=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 4975
+	}
+
+	clergymen=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 808
+	}
+
+	bureaucrats=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 174
+	}
+
+	officers=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 100
+	}
+
+	aristocrats=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 1567
+	}
+
+	farmers=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 115512
+	}
+
+}
+522 = {
+	soldiers=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 1327
+	}
+
+	artisans=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 5307
+	}
+
+	clergymen=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 862
+	}
+
+	bureaucrats=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 185
+	}
+
+	officers=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 106
+	}
+
+	aristocrats=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 1115
+	}
+
+	farmers=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 123770
+	}
+
+}
+523 = {
+	soldiers=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 539
+	}
+
+	artisans=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 2156
+	}
+
+	clergymen=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 350
+	}
+
+	bureaucrats=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 54
+	}
+
+	officers=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 43
+	}
+
+	aristocrats=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 453
+	}
+
+	farmers=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 50303
+	}
+
+}
+524 = {
+	soldiers=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 145
+	}
+
+	artisans=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 580
+	}
+
+	clergymen=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 94
+	}
+
+	bureaucrats=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 15
+	}
+
+	officers=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 12
+	}
+
+	aristocrats=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 122
+	}
+
+	farmers=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 13543
+	}
+
+}
+525 = {
+	soldiers=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 456
+	}
+
+	artisans=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 1824
+	}
+
+	clergymen=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 296
+	}
+
+	bureaucrats=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 46
+	}
+
+	officers=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 36
+	}
+
+	aristocrats=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 383
+	}
+
+	farmers=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 42565
+	}
+
+}
+526 = {
+	soldiers=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 145
+	}
+
+	artisans=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 580
+	}
+
+	clergymen=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 94
+	}
+
+	bureaucrats=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 15
+	}
+
+	officers=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 12
+	}
+
+	aristocrats=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 122
+	}
+
+	farmers=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 13543
+	}
+
+}
+527 = {
+	soldiers=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 290
+	}
+
+	artisans=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 1161
+	}
+
+	clergymen=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 189
+	}
+
+	bureaucrats=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 29
+	}
+
+	officers=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 23
+	}
+
+	aristocrats=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 244
+	}
+
+	farmers=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 27086
+	}
+
+}
+2134 = {
+	soldiers=
+	{
+		culture = berber
+		religion = animist
+		size= 59
+	}
+
+	artisans=
+	{
+		culture = berber
+		religion = animist
+		size= 118
+	}
+
+	clergymen=
+	{
+		culture = berber
+		religion = animist
+		size= 19
+	}
+
+	bureaucrats=
+	{
+		culture = berber
+		religion = animist
+		size= 6
+	}
+
+	officers=
+	{
+		culture = berber
+		religion = animist
+		size= 2
+	}
+
+	aristocrats=
+	{
+		culture = berber
+		religion = animist
+		size= 25
+	}
+
+	farmers=
+	{
+		culture = berber
+		religion = animist
+		size= 5689
+	}
+
+	soldiers=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 272
+	}
+
+	artisans=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 1208
+	}
+
+	clergymen=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 196
+	}
+
+	bureaucrats=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 60
+	}
+
+	officers=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 24
+	}
+
+	aristocrats=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 254
+	}
+
+	farmers=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 25236
+	}
+
+}
+2135 = {
+	soldiers=
+	{
+		culture = berber
+		religion = animist
+		size= 93
+	}
+
+	artisans=
+	{
+		culture = berber
+		religion = animist
+		size= 186
+	}
+
+	clergymen=
+	{
+		culture = berber
+		religion = animist
+		size= 30
+	}
+
+	bureaucrats=
+	{
+		culture = berber
+		religion = animist
+		size= 9
+	}
+
+	officers=
+	{
+		culture = berber
+		religion = animist
+		size= 4
+	}
+
+	aristocrats=
+	{
+		culture = berber
+		religion = animist
+		size= 39
+	}
+
+	farmers=
+	{
+		culture = berber
+		religion = animist
+		size= 8928
+	}
+
+	soldiers=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 446
+	}
+
+	artisans=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 1970
+	}
+
+	clergymen=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 320
+	}
+
+	bureaucrats=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 99
+	}
+
+	officers=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 39
+	}
+
+	aristocrats=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 414
+	}
+
+	farmers=
+	{
+		culture = portuguese
+		religion = catholic
+		size= 41321
+	}
+
+}

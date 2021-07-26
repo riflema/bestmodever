@@ -1,0 +1,11 @@
+owner=SPA
+controller=SPA
+trade_goods = wool
+life_rating = 35
+terrain = mining_district
+state_building=
+{
+	level=1
+	building = regular_clothes_factory
+	upgrade = yes
+}

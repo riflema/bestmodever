@@ -1,0 +1,907 @@
+[eu3application.cpp:486]: Loaded GUI Definition File: interface/airbuilder.gui
+[eu3application.cpp:486]: Loaded GUI Definition File: interface/alerts.gui
+[eu3application.cpp:486]: Loaded GUI Definition File: interface/backend.gui
+[eu3application.cpp:486]: Loaded GUI Definition File: interface/battleplansinterface.gui
+[eu3application.cpp:486]: Loaded GUI Definition File: interface/brigaderbuilder.gui
+[eu3application.cpp:486]: Loaded GUI Definition File: interface/brigadeview.gui
+[eu3application.cpp:486]: Loaded GUI Definition File: interface/buildunit.gui
+[eu3application.cpp:486]: Loaded GUI Definition File: interface/combat.gui
+[eu3application.cpp:486]: Loaded GUI Definition File: interface/confirmbuild.gui
+[eu3application.cpp:486]: Loaded GUI Definition File: interface/convoys.gui
+[eu3application.cpp:486]: Loaded GUI Definition File: interface/core.gui
+[eu3application.cpp:486]: Loaded GUI Definition File: interface/country_budget.gui
+[eu3application.cpp:486]: Loaded GUI Definition File: interface/country_diplomacy.gui
+[eu3application.cpp:486]: Loaded GUI Definition File: interface/country_military.gui
+[eu3application.cpp:486]: Loaded GUI Definition File: interface/country_politics.gui
+[eu3application.cpp:486]: Loaded GUI Definition File: interface/country_pops.gui
+[eu3application.cpp:486]: Loaded GUI Definition File: interface/country_production.gui
+[eu3application.cpp:486]: Loaded GUI Definition File: interface/country_technology.gui
+[eu3application.cpp:486]: Loaded GUI Definition File: interface/country_trade.gui
+[eu3application.cpp:486]: Loaded GUI Definition File: interface/credits.gui
+[eu3application.cpp:486]: Loaded GUI Definition File: interface/datewidget.gui
+[eu3application.cpp:486]: Loaded GUI Definition File: interface/diplomacydialog.gui
+[eu3application.cpp:486]: Loaded GUI Definition File: interface/divisiondesigner.gui
+[eu3application.cpp:486]: Loaded GUI Definition File: interface/election.gui
+[eu3application.cpp:486]: Loaded GUI Definition File: interface/eu3dialog.gui
+[eu3application.cpp:486]: Loaded GUI Definition File: interface/event_country_window.gui
+[eu3application.cpp:486]: Loaded GUI Definition File: interface/event_election_window.gui
+[eu3application.cpp:486]: Loaded GUI Definition File: interface/event_major_window.gui
+[eu3application.cpp:486]: Loaded GUI Definition File: interface/event_province_window.gui
+[eu3application.cpp:486]: Loaded GUI Definition File: interface/goto.gui
+[eu3application.cpp:486]: Loaded GUI Definition File: interface/ingamelobby.gui
+[eu3application.cpp:486]: Loaded GUI Definition File: interface/invest_project.gui
+[eu3application.cpp:486]: Loaded GUI Definition File: interface/lobby.gui
+[eu3application.cpp:486]: Loaded GUI Definition File: interface/mapicons.gui
+[eu3application.cpp:486]: Loaded GUI Definition File: interface/menubar.gui
+[eu3application.cpp:486]: Loaded GUI Definition File: interface/messagesettings.gui
+[eu3application.cpp:486]: Loaded GUI Definition File: interface/metaserver.gui
+[eu3application.cpp:486]: Loaded GUI Definition File: interface/microgui.gui
+[eu3application.cpp:486]: Loaded GUI Definition File: interface/msg_filters.gui
+[eu3application.cpp:486]: Loaded GUI Definition File: interface/nationalfocus_overwrite.gui
+[eu3application.cpp:486]: Loaded GUI Definition File: interface/news.gui
+[eu3application.cpp:486]: Loaded GUI Definition File: interface/nudge.gui
+[eu3application.cpp:486]: Loaded GUI Definition File: interface/orders.gui
+[eu3application.cpp:486]: Loaded GUI Definition File: interface/outliner.gui
+[eu3application.cpp:486]: Loaded GUI Definition File: interface/popdetails.gui
+[eu3application.cpp:486]: Loaded GUI Definition File: interface/province_interface.gui
+[eu3application.cpp:486]: Loaded GUI Definition File: interface/rightclickmenu.gui
+[eu3application.cpp:486]: Loaded GUI Definition File: interface/settings.gui
+[eu3application.cpp:486]: Loaded GUI Definition File: interface/shipbuilder.gui
+[eu3application.cpp:486]: Loaded GUI Definition File: interface/sidebar.gui
+[eu3application.cpp:486]: Loaded GUI Definition File: interface/single_unitpanel.gui
+[eu3application.cpp:486]: Loaded GUI Definition File: interface/temp_frontend.gui
+[eu3application.cpp:486]: Loaded GUI Definition File: interface/topbar.gui
+[eu3application.cpp:486]: Loaded GUI Definition File: interface/trade_flow.gui
+[eu3application.cpp:486]: Loaded GUI Definition File: interface/tutorial.gui
+[eu3application.cpp:486]: Loaded GUI Definition File: interface/tutorial_control.gui
+[eu3application.cpp:486]: Loaded GUI Definition File: interface/unitpanel.gui
+[eu3application.cpp:486]: Loaded GUI Definition File: interface/v2ledger.gui
+[eu3application.cpp:486]: Loaded GUI Definition File: interface/wardeclaration.gui
+[map.cpp:834]: Terrain #0 name = ocean1 with 1 colors assigned.
+[map.cpp:834]: Terrain #1 name = text_0 with 1 colors assigned.
+[map.cpp:834]: Terrain #2 name = text_1 with 1 colors assigned.
+[map.cpp:834]: Terrain #3 name = text_2 with 1 colors assigned.
+[map.cpp:834]: Terrain #4 name = text_3 with 1 colors assigned.
+[map.cpp:834]: Terrain #5 name = text_4 with 1 colors assigned.
+[map.cpp:834]: Terrain #6 name = text_5 with 1 colors assigned.
+[map.cpp:834]: Terrain #7 name = text_6 with 1 colors assigned.
+[map.cpp:834]: Terrain #8 name = text_7 with 1 colors assigned.
+[map.cpp:834]: Terrain #9 name = text_8 with 1 colors assigned.
+[map.cpp:834]: Terrain #10 name = text_9 with 1 colors assigned.
+[map.cpp:834]: Terrain #11 name = text_10 with 1 colors assigned.
+[map.cpp:834]: Terrain #12 name = text_11 with 1 colors assigned.
+[map.cpp:834]: Terrain #13 name = text_12 with 1 colors assigned.
+[map.cpp:834]: Terrain #14 name = text_13 with 1 colors assigned.
+[map.cpp:834]: Terrain #15 name = text_14 with 1 colors assigned.
+[map.cpp:834]: Terrain #16 name = text_15 with 1 colors assigned.
+[map.cpp:834]: Terrain #17 name = text_16 with 1 colors assigned.
+[map.cpp:834]: Terrain #18 name = text_17 with 1 colors assigned.
+[map.cpp:834]: Terrain #19 name = text_18 with 1 colors assigned.
+[map.cpp:834]: Terrain #20 name = text_19 with 1 colors assigned.
+[map.cpp:834]: Terrain #21 name = text_20 with 1 colors assigned.
+[map.cpp:834]: Terrain #22 name = text_21 with 1 colors assigned.
+[map.cpp:834]: Terrain #23 name = text_22 with 1 colors assigned.
+[map.cpp:834]: Terrain #24 name = text_23 with 1 colors assigned.
+[map.cpp:834]: Terrain #25 name = text_24 with 1 colors assigned.
+[map.cpp:834]: Terrain #26 name = text_25 with 1 colors assigned.
+[map.cpp:834]: Terrain #27 name = text_26 with 1 colors assigned.
+[map.cpp:834]: Terrain #28 name = text_27 with 1 colors assigned.
+[map.cpp:834]: Terrain #29 name = text_28 with 1 colors assigned.
+[map.cpp:834]: Terrain #30 name = text_29 with 1 colors assigned.
+[map.cpp:834]: Terrain #31 name = text_30 with 1 colors assigned.
+[map.cpp:834]: Terrain #32 name = text_31 with 1 colors assigned.
+[map.cpp:834]: Terrain #33 name = text_32 with 1 colors assigned.
+[map.cpp:834]: Terrain #34 name = text_33 with 1 colors assigned.
+[map.cpp:834]: Terrain #35 name = text_34 with 1 colors assigned.
+[map.cpp:834]: Terrain #36 name = text_35 with 1 colors assigned.
+[map.cpp:834]: Terrain #37 name = text_36 with 1 colors assigned.
+[map.cpp:834]: Terrain #38 name = text_37 with 1 colors assigned.
+[map.cpp:834]: Terrain #39 name = text_38 with 1 colors assigned.
+[map.cpp:834]: Terrain #40 name = text_39 with 1 colors assigned.
+[map.cpp:834]: Terrain #41 name = text_40 with 1 colors assigned.
+[map.cpp:834]: Terrain #42 name = text_41 with 1 colors assigned.
+[map.cpp:834]: Terrain #43 name = text_42 with 1 colors assigned.
+[map.cpp:834]: Terrain #44 name = text_43 with 1 colors assigned.
+[map.cpp:834]: Terrain #45 name = text_44 with 1 colors assigned.
+[map.cpp:834]: Terrain #46 name = text_45 with 1 colors assigned.
+[map.cpp:834]: Terrain #47 name = text_46 with 1 colors assigned.
+[map.cpp:834]: Terrain #48 name = text_47 with 1 colors assigned.
+[map.cpp:834]: Terrain #49 name = text_48 with 1 colors assigned.
+[map.cpp:834]: Terrain #50 name = text_49 with 1 colors assigned.
+[map.cpp:834]: Terrain #51 name = text_50 with 1 colors assigned.
+[map.cpp:834]: Terrain #52 name = text_51 with 1 colors assigned.
+[map.cpp:834]: Terrain #53 name = text_52 with 1 colors assigned.
+[map.cpp:834]: Terrain #54 name = text_53 with 1 colors assigned.
+[map.cpp:834]: Terrain #55 name = text_54 with 1 colors assigned.
+[map.cpp:834]: Terrain #56 name = text_55 with 1 colors assigned.
+[map.cpp:834]: Terrain #57 name = text_56 with 1 colors assigned.
+[map.cpp:834]: Terrain #58 name = text_57 with 1 colors assigned.
+[map.cpp:834]: Terrain #59 name = text_58 with 1 colors assigned.
+[map.cpp:834]: Terrain #60 name = text_59 with 1 colors assigned.
+[map.cpp:834]: Terrain #61 name = text_60 with 1 colors assigned.
+[map.cpp:834]: Terrain #62 name = text_61 with 1 colors assigned.
+[map.cpp:834]: Terrain #63 name = text_62 with 1 colors assigned.
+[map.cpp:834]: Terrain #64 name = text_63 with 1 colors assigned.
+[map.cpp:834]: Terrain #65 name = pti with 191 colors assigned.
+[culture.cpp:127]: Culture Group #0 tag = noculturegroup name =  ===>noculture 
+[culture.cpp:127]: Culture Group #1 tag = african_diaspora_cultures name = African Diaspora Cultures ===>Afro American Afro Antillean Afro Brazilian Afro Caribbean Afro Latino Afro-Carpathian Afro-Greek Afro-Italian Afro-Norse Afro-Slavic 
+[culture.cpp:127]: Culture Group #2 tag = american_cultures name = American Cultures ===>Dixie Texan Yankee 
+[culture.cpp:127]: Culture Group #3 tag = anti_human name = Non-Human ===>Extraterrestrial Undead 
+[culture.cpp:127]: Culture Group #4 tag = arab name = Arab ===>Andalucian Bedouin Berber Ealimi Faransh Ifriqi Janubii Maghrebi maghrebi_central_america_superregion_culture maghrebi_north_america_superregion_culture maghrebi_south_america_superregion_culture Mashriqi Maures Misri Sudanese 
+[culture.cpp:127]: Culture Group #5 tag = balkan name = Balkan ===>Dacian Daciafrican Daciamerican Daciaustralian Illyrian Thracian Dinupulian Midneic Scalmenian 
+[culture.cpp:127]: Culture Group #6 tag = baltic name = Baltic ===>Antivuorean Estonian Hopeajokan Kepejokian Kujaanan Latvian Lithuanian Lounast Maraivoan Meksikan Mustvalge Salislahtian Suurjokian Usmailmian 
+[culture.cpp:127]: Culture Group #7 tag = barbarian name = Barbarian ===>Anglo-Saxon Frankish Suebi Vandal 
+[culture.cpp:127]: Culture Group #8 tag = beneluxian name = Low Countries ===>Dutch Flemish germanic_south_america_superregion_culture Grootdesseyn Mauritsstadtian Nieuwereld Surinamese Wallonian Zuidelijk 
+[culture.cpp:127]: Culture Group #9 tag = british name = British ===>British british_andes_superregion_culture british_central_america_superregion_culture british_north_america_superregion_culture british_south_america_superregion_culture English Falklander Irish Pictish Scottish Welsh 
+[culture.cpp:127]: Culture Group #10 tag = caucasian name = North Caucasian ===>Chechen Circassian Dagestani 
+[culture.cpp:127]: Culture Group #11 tag = celtic name = Celtic ===>Alpine Belgian Celtiberian Gurmian Balirigean Gainemian Gaulish Noric Nova Scotian Y-Wladfan 
+[culture.cpp:127]: Culture Group #12 tag = central_african name = Central African ===>African Minor Maban Bakongo Chokwe Fang Northwest Bantu Kanuri Kavango-Kimbundu Kingwana Bakuba Lendu Luba Lunda Mongo Sara-Baguirmi Central Bantu Toubou Ubangi 
+[culture.cpp:127]: Culture Group #13 tag = central_asian name = Central Asian ===>Janalem Mongol Nepali Ontustik Qalindigi Siberian Minor Tibetan Yakut 
+[culture.cpp:127]: Culture Group #14 tag = czecho_slovak_culture_group name = Czecho-Slovak ===>Czech Hnêdi Jižní Novisvêt Slovak 
+[culture.cpp:127]: Culture Group #15 tag = dytic_g name = Dytic ===>Adelphic Dendrytic Elysian Catogreek Galatian Prettanian Spaniolic 
+[culture.cpp:127]: Culture Group #16 tag = east_african name = East African ===>Afar Amhara Azande Baganda Beja Cushitic Dinka Fur Habesha Omotic Kikuyu–Kamba Kilombero Northeast Bantu Luo Kalenjin-Maasai Nilotic Nuba Nuer Oromo Banyarwanda Rundi Sidama Somali Sukuma Swahili Tigray Unyamwezi 
+[culture.cpp:127]: Culture Group #17 tag = east_asian name = East Asian ===>Bai Beieren North Han Dongren Hakka Heiren Manchu Miao Min Naiyeren South Han Nanren Xiyeren Yi Yue Zhuang 
+[culture.cpp:127]: Culture Group #18 tag = east_slavic name = East Slavic ===>Alaskan Byelorussian Kholodnovoynsky Novvymir Russian Smugly Ugrian Ukrainian Yužny 
+[culture.cpp:127]: Culture Group #19 tag = far_east_asian name = Far East Asian ===>Ainu Japanese Korean 
+[culture.cpp:127]: Culture Group #20 tag = french name = French ===>Breton French french_andes_superregion_culture french_central_america_superregion_culture french_north_america_superregion_culture french_south_america_superregion_culture Guillaumois Guiscard Occitan d'Outremer Picard Rollonian 
+[culture.cpp:127]: Culture Group #21 tag = germanic name = Germanic ===>Amerikaner Böhmisch No Culture Geheimnis-Deutsch Germanic germanic_central_america_superregion_culture germanic_north_america_superregion_culture Hilterian Hunsrik Kleinvenedic Maximilianish Neoswiss North German Overnissian Schwarzreicher South German Südreicher 
+[culture.cpp:127]: Culture Group #22 tag = gothic_g name = Gothic ===>Getian Gothic Ostrogothic Visigothic 
+[culture.cpp:127]: Culture Group #23 tag = hittite_g name = Hittite ===>Anniniyami Kattanda Hittite Luwian Lydian Phrygian 
+[culture.cpp:127]: Culture Group #24 tag = hungarian_culture_group name = Hungarian ===>Délian Fekete Hungarian Székely Újvilág 
+[culture.cpp:127]: Culture Group #25 tag = iberian name = Iberian ===>Basque Catalan Galician iberian_andes_superregion_culture iberian_central_america_superregion_culture iberian_north_america_superregion_culture iberian_south_america_superregion_culture Portuguese Spanish 
+[culture.cpp:127]: Culture Group #26 tag = indo_iranian name = Indo-Iranian ===>Bengali Panjabi Sindi 
+[culture.cpp:127]: Culture Group #27 tag = iranian_turanian name = Iranian Turanian ===>Baluchi Dinajidad Gypsy Hazara Janub Kazakh Kyrgyz Pashtun Persian Saahi Sarmatian Tajik Tatar Tocharian Turkmen Uighur Uzbek 
+[culture.cpp:127]: Culture Group #28 tag = italian name = Italian ===>Africano Neo-Italian Australiano Beltramian Cabottian Ceian Deagostinian Garibaldine Italo-Americano latin_andes_superregion_culture latin_central_america_superregion_culture latin_north_america_superregion_culture Lombard Maltese Morlach North Italian South Italian Trattoloyan Vespuccian 
+[culture.cpp:127]: Culture Group #29 tag = jewish_cultures name = Jewish Cultures ===>Ashkenazi Camite Hulwud Israeli Kaifeng Knaanic Laaz Magogic Misrayim Mizrahi Sephardic Yevanic Zarphatic 
+[culture.cpp:127]: Culture Group #30 tag = latin_american_cultures name = Latin American Cultures ===>Americano Brazilian Caribeno Central American Mexican Morado North Andean Platinean South Andean Sureño 
+[culture.cpp:127]: Culture Group #31 tag = levantine name = Greco-Caucasian ===>Alan Alexandrine Anatolian Armenian Assyrian Bazramani Copts Georgian Greek Salinatorian Magna-Greek Mavro Neokosmi Notios 
+[culture.cpp:127]: Culture Group #32 tag = native_american name = Native American ===>Aimara Amazonian Araucanian Caddoan Central Algonquian Chacoan Cherokee Chibchan Cree Dakota Eastern Algonquian Eskaleut Wayuu Guarani Inuit Iroquoian Jê Marañón Mayan Metis Muskogean Na Dene Mesoamerican Indian Native American Minor Navajo Patagonian Penutian Plains Algonquian Pueblo Quechua Siouan Sonoran Tarascan Tupinamba Zapotec 
+[culture.cpp:127]: Culture Group #33 tag = native_carribean name = Native Carribean ===>Carribean 
+[culture.cpp:127]: Culture Group #34 tag = neo_european_cultures name = Neo European Cultures ===>Africaine Anglo African Anglo Canadian Antarctique Australian Australienne Boer Foederatus French Canadian Guyanese Incacunapic Meashighcaw Nouvellien Redwoodian Tounensois 
+[culture.cpp:127]: Culture Group #35 tag = non_human name = Non-Human ===>Feline Dog Dragon Duck Elephant Hedgehog Equine Polar Bears 
+[culture.cpp:127]: Culture Group #36 tag = oceanic name = Pacific Islander ===>Aborigine Hawaiian Maori Melanesian Micronesian Polynesian 
+[culture.cpp:127]: Culture Group #37 tag = old_italian name = Italic ===>Lepontic Camelic Pelignian Orconian Ligurian Sabellian Siculian Venetic 
+[culture.cpp:127]: Culture Group #38 tag = pan_albanian name = Albanian ===>Albanian 
+[culture.cpp:127]: Culture Group #39 tag = pan_romanian name = Romanian ===>Aromanian Lumenoua Lau Romanian Sudic 
+[culture.cpp:127]: Culture Group #40 tag = pan_swiss name = Swiss ===>Swiss 
+[culture.cpp:127]: Culture Group #41 tag = polish_culture_group name = Western Slavic ===>Czarny Juodaodis Nowyswiat Pomeranian Polish Poludniowy Smèlis Sorbian Viršjûros west_slavic_andes_superregion_culture west_slavic_central_america_superregion_culture west_slavic_north_america_superregion_culture west_slavic_south_america_superregion_culture Wend 
+[culture.cpp:127]: Culture Group #42 tag = pre_indo_european name = Chalcolithic ===>Lusitanian Nuragic Iberian Lurbeltzian Munduberrian Hondaritsasoan 
+[culture.cpp:127]: Culture Group #43 tag = punic name = Punic ===>Bythlimmoth Carthaginian Epicrateian Gadolite Inythmum Lacanite Liphocaneth Mlachthi Mysehi Phoenician Pmpese Hannibalesque Hamilcarian Sicorathi Sidonian Symacom Sythchy Taliaite Ualonuth Ychibarku Ynnocho Ysthyalm Ythalonim Ythbynuthi 
+[culture.cpp:127]: Culture Group #44 tag = romantic name = Romantic ===>Afer Algonquish Aravacian Arcansian Ostralus Brithenig Calusan Cetuan Euxinian Garanian Gaul Harpeian Läßin Latin Mesican Thulean Venedic Xliponian 
+[culture.cpp:127]: Culture Group #45 tag = scandinavian name = Scandinavian ===>Bomullborgar Bundsförvant Danish Elsinorian Finnish Guldfjallling Hjartnaäter Holmgardrian Hvítrduptling Icelandic Norwegian Nyasverigian Rauðskógarling Sami Silfrvazling Svart Swedish Sydlig Vinlander 
+[culture.cpp:127]: Culture Group #46 tag = south_asian name = South Asian ===>Assamese Avadhi Bihari Dakshin Gujarati Kaala Kanauji Kannada Kashmiri Malayalam Manipuri Marathi Nayeduniya Oriya Rajput Sinhala Tamil Telegu 
+[culture.cpp:127]: Culture Group #47 tag = south_slavic name = South Slavic ===>Bosniak Bulgarian Crni Croatian Južno Macedonian Novisvet Serbian Slovene 
+[culture.cpp:127]: Culture Group #48 tag = southeast_asian name = Southeast Asian ===>Asian Minor Bornean Burmese Ðen Filipino Javan Kachin Karen Khmer Lao Malay Moluccan Phianam Shan Thai Thegioimoi Vietnamese 
+[culture.cpp:127]: Culture Group #49 tag = southern_african name = Southern African ===>Chewa Herero Khoisan Lomwe Makua Malagasy Nguni Nyasa Ovimbundu Sena Shona Sotho Southern Bantu Tonga Tswana Xhosa Yao-Makonde Zulu 
+[culture.cpp:127]: Culture Group #50 tag = turko_semitic name = Turkic ===>Azerbaijani Esmer Güney Kurdish Caucasian Minor Pecheneg Turkish Yenidün 
+[culture.cpp:127]: Culture Group #51 tag = tyrrhenian name = Tyrrhenian ===>Etrurian Lemnian Neo-Tyrrhenian Rhaetian Tyrrh-African Tyrrh-Australian 
+[culture.cpp:127]: Culture Group #52 tag = varangian_g name = Varangian ===>Nehwaustronijaz Varangian Blålander Amalahaimer Samder Wander-Norse 
+[culture.cpp:127]: Culture Group #53 tag = west_african name = West African ===>Akan Bambara Dyula Kwa Edo Ewe Fon Fulbe Gur Hausa Ibibio Ibo Ijaw Kru Mande Mossi Senufo Songhai Bantoid Tuareg Western Nigritic Wolof Yoruba 
+[culture.cpp:127]: Culture Group #54 tag = zzz_religions name = Religions ===>§HReligion§!: Adamitism §HReligion§!: Animist §HReligion§!: Bedouin Paganism §HReligion§!: Arianism §HReligion§!: Aztec §HReligion§!: Baltic §HReligion§!: Bogomilist §HReligion§!: Canaanite §HReligion§!: Cathar §HReligion§!: Catholic §HReligion§!: Catholic Heresy §HReligion§!: Coptic §HReligion§!: Cybelene §HReligion§!: Druidism §HReligion§!: Druze §HReligion§!: (Religion) §HReligion§!: Finnish §HReligion§!: Fraticelli §HReligion§!: Gelugpa §HReligion§!: Irminism §HReligion§!: Gnosticism §HReligion§!: Hellenic §HReligion§!: Theodism §HReligion§!: Hindu §HReligion§!: Hurufi §HReligion§!: Hussite §HReligion§!: Ibadi §HReligion§!: Iberian §HReligion§!: Iconoclast §HReligion§!: Incan §HReligion§!: Inti §HReligion§!: Jain §HReligion§!: Jewish §HReligion§!: Jewish Heresy §HReligion§!: Karaite §HReligion§!: Kemetism §HReligion§!: Kharijite §HReligion§!: Lollard §HReligion§!: Mahayana §HReligion§!: Manichean §HReligion§!: Mardukism zzz_religion_mayan §HReligion§!: Mazdaki §HReligion§!: Messalian §HReligion§!: Mithraism §HReligion§!: Monophysite §HReligion§!: Monothelite zzz_religion_mormon §HReligion§!: Muism §HReligion§!: Nahuatl §HReligion§!: Nestorian §HReligion§!: Atheist §HReligion§!: Odinism §HReligion§!: Orthodox §HReligion§!: Orthodox Heresy §HReligion§!: Paulician §HReligion§!: Chalcedonian §HReligion§!: Protestant §HReligion§!: Protestant Heresy §HReligion§!: Samaritan §HReligion§!: Scythian §HReligion§!: Fetishist §HReligion§!: Shiite §HReligion§!: Shiite Heresy §HReligion§!: Shinto §HReligion§!: Sikh §HReligion§!: Slavic §HReligion§!: Sunni §HReligion§!: Sunni Heresy §HReligion§!: Tengri §HReligion§!: Theravada §HReligion§!: Bön §HReligion§!: Totemism §HReligion§!: Waldensian §HReligion§!: West African §HReligion§!: Yazidi §HReligion§!: Zamolxism §HReligion§!: Zikri §HReligion§!: Zoroastrian §HReligion§!: Zoroastrian Heresy §HReligion§!: Zun 
+[eu3application.cpp:924]: Culture Initialized
+[religion.cpp:125]: Religion Group #0 tag = none name =  ===>noreligion 
+[religion.cpp:125]: Religion Group #1 tag = christian name = Christian ===>Adamitism Arianism Bogomilist Cathar Catholic Catholic Heresy Oriental Orthodox Fraticelli Hussite Iconoclast Lollard Messalian Monophysite Monothelite Mormon Nestorian Eastern Orthodox Orthodox Heresy Paulician Chalcedonian Protestant Protestant Heresy Waldensian 
+[religion.cpp:125]: Religion Group #2 tag = dummy_g name = & ===>(Religion) 
+[religion.cpp:125]: Religion Group #3 tag = eastern name = Eastern Religions ===>Gelugpa Mahayana Muism Shinto Theravada Bön 
+[religion.cpp:125]: Religion Group #4 tag = euro_pagan name = European Pagan ===>Baltic Druidism Finnish Irminism Hellenic Theodism Iberian Odinism Slavic Zamolxism 
+[religion.cpp:125]: Religion Group #5 tag = gnostic_g name = Gnostic ===>Gnosticism 
+[religion.cpp:125]: Religion Group #6 tag = indian name = Indian ===>Hindu Jain Sikh 
+[religion.cpp:125]: Religion Group #7 tag = jewish_group name = Jewish ===>Jewish Jewish Heresy Karaite Samaritan 
+[religion.cpp:125]: Religion Group #8 tag = mena_pagan name = Middle Eastern Pagan ===>Bedouin Paganism Canaanite Cybelene Kemetism Mardukism Mithraism 
+[religion.cpp:125]: Religion Group #9 tag = muslim name = Muslim ===>Druze Hurufi Ibadi Kharijite Shiite Shiite Heresy Sunni Sunni Heresy Zikri 
+[religion.cpp:125]: Religion Group #10 tag = pagan name = Pagans ===>Animist Reformed Pagan Scythian Fetishist Turumism Tengri West African 
+[religion.cpp:125]: Religion Group #11 tag = red_pagan name = American Pagan ===>Aztec Incan Inti Mayan Nahuatl Totemism 
+[religion.cpp:125]: Religion Group #12 tag = yazidi_group name = Yazidi Group ===>Yazidi 
+[religion.cpp:125]: Religion Group #13 tag = zoroastrian name = Zoroastrian ===>Manichean Mazdaki Zoroastrian Zoroastrian Heresy Zun 
+[eu3application.cpp:934]: Religion Initialized
+[ideology.cpp:253]: Ideology #0 tag = noIdeology name = Independent
+[ideology.cpp:253]: Ideology #1 tag = fascist name = Fascist
+[ideology.cpp:253]: Ideology #2 tag = reactionary name = Reactionary
+[ideology.cpp:253]: Ideology #3 tag = conservative name = Conservative
+[ideology.cpp:253]: Ideology #4 tag = socialist name = Socialist
+[ideology.cpp:253]: Ideology #5 tag = communist name = Communist
+[ideology.cpp:253]: Ideology #6 tag = liberal name = Liberal
+[ideology.cpp:253]: Ideology #7 tag = anarcho_liberal name = Anarcho Liberal
+[eu3application.cpp:944]: IdeologyDataBase Initialized
+[eu3application.cpp:955]: TechnologyDatabase Phase #1 Initialized
+[issues.cpp:371]: Issue #0 tag = noIssue group = 
+[issues.cpp:371]: Issue #1 tag = protectionism group = Trade Policy
+[issues.cpp:371]: Issue #2 tag = free_trade group = Trade Policy
+[issues.cpp:371]: Issue #3 tag = laissez_faire group = Economic Policy
+[issues.cpp:371]: Issue #4 tag = interventionism group = Economic Policy
+[issues.cpp:371]: Issue #5 tag = state_capitalism group = Economic Policy
+[issues.cpp:371]: Issue #6 tag = planned_economy group = Economic Policy
+[issues.cpp:371]: Issue #7 tag = pro_atheism group = Religious Policy
+[issues.cpp:371]: Issue #8 tag = secularized group = Religious Policy
+[issues.cpp:371]: Issue #9 tag = pluralism group = Religious Policy
+[issues.cpp:371]: Issue #10 tag = moralism group = Religious Policy
+[issues.cpp:371]: Issue #11 tag = residency group = Citizenship Policy
+[issues.cpp:371]: Issue #12 tag = limited_citizenship group = Citizenship Policy
+[issues.cpp:371]: Issue #13 tag = full_citizenship group = Citizenship Policy
+[issues.cpp:371]: Issue #14 tag = jingoism group = War Policy
+[issues.cpp:371]: Issue #15 tag = pro_military group = War Policy
+[issues.cpp:371]: Issue #16 tag = anti_military group = War Policy
+[issues.cpp:371]: Issue #17 tag = pacifism group = War Policy
+[issues.cpp:371]: Issue #18 tag = no_state_interference group = Welfare Policy
+[issues.cpp:371]: Issue #19 tag = colonial_spending_policy group = Welfare Policy
+[issues.cpp:371]: Issue #20 tag = no_position_set group = Welfare Policy
+[issues.cpp:371]: Issue #21 tag = populist_welfare group = Welfare Policy
+[issues.cpp:371]: Issue #22 tag = welfare_state group = Welfare Policy
+[issues.cpp:371]: Issue #23 tag = yes_slavery group = Slavery
+[issues.cpp:371]: Issue #24 tag = freedom_of_womb group = Slavery
+[issues.cpp:371]: Issue #25 tag = no_slavery group = Slavery
+[issues.cpp:371]: Issue #26 tag = none_voting group = Vote Franchise
+[issues.cpp:371]: Issue #27 tag = landed_voting group = Vote Franchise
+[issues.cpp:371]: Issue #28 tag = wealth_weighted_voting group = Vote Franchise
+[issues.cpp:371]: Issue #29 tag = wealth_voting group = Vote Franchise
+[issues.cpp:371]: Issue #30 tag = universal_weighted_voting group = Vote Franchise
+[issues.cpp:371]: Issue #31 tag = universal_voting group = Vote Franchise
+[issues.cpp:371]: Issue #32 tag = party_appointed group = Upper House
+[issues.cpp:371]: Issue #33 tag = appointed group = Upper House
+[issues.cpp:371]: Issue #34 tag = state_equal_weight group = Upper House
+[issues.cpp:371]: Issue #35 tag = population_equal_weight group = Upper House
+[issues.cpp:371]: Issue #36 tag = first_past_the_post group = Voting System
+[issues.cpp:371]: Issue #37 tag = jefferson_method group = Voting System
+[issues.cpp:371]: Issue #38 tag = proportional_representation group = Voting System
+[issues.cpp:371]: Issue #39 tag = no_meeting group = Public Meetings
+[issues.cpp:371]: Issue #40 tag = yes_meeting group = Public Meetings
+[issues.cpp:371]: Issue #41 tag = state_press group = Press Rights
+[issues.cpp:371]: Issue #42 tag = censored_press group = Press Rights
+[issues.cpp:371]: Issue #43 tag = free_press group = Press Rights
+[issues.cpp:371]: Issue #44 tag = no_trade_unions group = Trade Unions
+[issues.cpp:371]: Issue #45 tag = state_controlled group = Trade Unions
+[issues.cpp:371]: Issue #46 tag = non_socialist group = Trade Unions
+[issues.cpp:371]: Issue #47 tag = all_trade_unions group = Trade Unions
+[issues.cpp:371]: Issue #48 tag = underground_parties group = Political Parties
+[issues.cpp:371]: Issue #49 tag = harassment group = Political Parties
+[issues.cpp:371]: Issue #50 tag = gerrymandering group = Political Parties
+[issues.cpp:371]: Issue #51 tag = non_secret_ballots group = Political Parties
+[issues.cpp:371]: Issue #52 tag = secret_ballots group = Political Parties
+[issues.cpp:371]: Issue #53 tag = mandatory_service group = Conscription
+[issues.cpp:371]: Issue #54 tag = four_year_draft group = Conscription
+[issues.cpp:371]: Issue #55 tag = two_year_draft group = Conscription
+[issues.cpp:371]: Issue #56 tag = one_year_draft group = Conscription
+[issues.cpp:371]: Issue #57 tag = no_draft group = Conscription
+[issues.cpp:371]: Issue #58 tag = closed_borders group = Border Policy
+[issues.cpp:371]: Issue #59 tag = quota_immigration group = Border Policy
+[issues.cpp:371]: Issue #60 tag = open_borders group = Border Policy
+[issues.cpp:371]: Issue #61 tag = serfdom group = Debt Law
+[issues.cpp:371]: Issue #62 tag = peonage group = Debt Law
+[issues.cpp:371]: Issue #63 tag = debtors_prisons group = Debt Law
+[issues.cpp:371]: Issue #64 tag = bankruptcy group = Debt Law
+[issues.cpp:371]: Issue #65 tag = no_minimum_wage group = Minimum Wage
+[issues.cpp:371]: Issue #66 tag = trinket_wage group = Minimum Wage
+[issues.cpp:371]: Issue #67 tag = low_minimum_wage group = Minimum Wage
+[issues.cpp:371]: Issue #68 tag = acceptable_minimum_wage group = Minimum Wage
+[issues.cpp:371]: Issue #69 tag = good_minimum_wage group = Minimum Wage
+[issues.cpp:371]: Issue #70 tag = no_work_hour_limit group = Max. Work Hours
+[issues.cpp:371]: Issue #71 tag = fourteen_hours group = Max. Work Hours
+[issues.cpp:371]: Issue #72 tag = twelve_hours group = Max. Work Hours
+[issues.cpp:371]: Issue #73 tag = ten_hours group = Max. Work Hours
+[issues.cpp:371]: Issue #74 tag = eight_hours group = Max. Work Hours
+[issues.cpp:371]: Issue #75 tag = no_safety group = Safety Regulations
+[issues.cpp:371]: Issue #76 tag = trinket_safety group = Safety Regulations
+[issues.cpp:371]: Issue #77 tag = low_safety group = Safety Regulations
+[issues.cpp:371]: Issue #78 tag = acceptable_safety group = Safety Regulations
+[issues.cpp:371]: Issue #79 tag = good_safety group = Safety Regulations
+[issues.cpp:371]: Issue #80 tag = no_subsidies group = Unemployment
+[issues.cpp:371]: Issue #81 tag = trinket_subsidies group = Unemployment
+[issues.cpp:371]: Issue #82 tag = low_subsidies group = Unemployment
+[issues.cpp:371]: Issue #83 tag = acceptable_subsidies group = Unemployment
+[issues.cpp:371]: Issue #84 tag = good_subsidies group = Unemployment
+[issues.cpp:371]: Issue #85 tag = no_pensions group = Pensions
+[issues.cpp:371]: Issue #86 tag = trinket_pensions group = Pensions
+[issues.cpp:371]: Issue #87 tag = low_pensions group = Pensions
+[issues.cpp:371]: Issue #88 tag = acceptable_pensions group = Pensions
+[issues.cpp:371]: Issue #89 tag = good_pensions group = Pensions
+[issues.cpp:371]: Issue #90 tag = no_health_care group = Health Care
+[issues.cpp:371]: Issue #91 tag = trinket_health_care group = Health Care
+[issues.cpp:371]: Issue #92 tag = low_health_care group = Health Care
+[issues.cpp:371]: Issue #93 tag = acceptable_health_care group = Health Care
+[issues.cpp:371]: Issue #94 tag = good_health_care group = Health Care
+[issues.cpp:371]: Issue #95 tag = no_schools group = School System
+[issues.cpp:371]: Issue #96 tag = low_schools group = School System
+[issues.cpp:371]: Issue #97 tag = acceptable_schools group = School System
+[issues.cpp:371]: Issue #98 tag = good_schools group = School System
+[issues.cpp:371]: Issue #99 tag = capital_punishment group = Penal System
+[issues.cpp:371]: Issue #100 tag = colonial_transportation group = Penal System
+[issues.cpp:371]: Issue #101 tag = incarceration group = Penal System
+[issues.cpp:371]: Issue #102 tag = rehabilitation group = Penal System
+[issues.cpp:371]: Issue #103 tag = child_labor_legal group = Child Labor
+[issues.cpp:371]: Issue #104 tag = child_labor_restricted group = Child Labor
+[issues.cpp:371]: Issue #105 tag = child_labor_illegal group = Child Labor
+[issues.cpp:371]: Issue #106 tag = primary_culture_only group = Political Rights
+[issues.cpp:371]: Issue #107 tag = culture_voting_only group = Political Rights
+[issues.cpp:371]: Issue #108 tag = all_voting_pops group = Political Rights
+[issues.cpp:371]: Issue #109 tag = no_land_reform group = Land Reform
+[issues.cpp:371]: Issue #110 tag = yes_land_reform group = Land Reform
+[issues.cpp:371]: Issue #111 tag = no_admin_reform group = Administrative Reform
+[issues.cpp:371]: Issue #112 tag = yes_admin_reform group = Administrative Reform
+[issues.cpp:371]: Issue #113 tag = no_finance_reform group = Financial Reform
+[issues.cpp:371]: Issue #114 tag = yes_finance_reform group = Financial Reform
+[issues.cpp:371]: Issue #115 tag = finance_reform_two group = Financial Reform
+[issues.cpp:371]: Issue #116 tag = no_monetary_reform group = Currency Reform
+[issues.cpp:371]: Issue #117 tag = yes_monetary_reform group = Currency Reform
+[issues.cpp:371]: Issue #118 tag = monetary_reform_two group = Currency Reform
+[issues.cpp:371]: Issue #119 tag = no_education_reform group = Basic Education
+[issues.cpp:371]: Issue #120 tag = yes_education_reform group = Basic Education
+[issues.cpp:371]: Issue #121 tag = no_research_reform group = University Reform
+[issues.cpp:371]: Issue #122 tag = yes_research_reform group = University Reform
+[issues.cpp:371]: Issue #123 tag = no_transport_improv group = Transportation System
+[issues.cpp:371]: Issue #124 tag = yes_transport_improv group = Transportation System
+[issues.cpp:371]: Issue #125 tag = no_firearms_production group = Firearms Production
+[issues.cpp:371]: Issue #126 tag = yes_firearms_production group = Firearms Production
+[issues.cpp:371]: Issue #127 tag = no_pre_indust group = Early Industrialisation
+[issues.cpp:371]: Issue #128 tag = yes_pre_indust group = Early Industrialisation
+[issues.cpp:371]: Issue #129 tag = no_industrial_construction group = Industrial Construction
+[issues.cpp:371]: Issue #130 tag = yes_industrial_construction group = Industrial Construction
+[issues.cpp:371]: Issue #131 tag = no_foreign_training group = Training Methods
+[issues.cpp:371]: Issue #132 tag = yes_foreign_training group = Training Methods
+[issues.cpp:371]: Issue #133 tag = no_foreign_weapons group = Foreign Weapons
+[issues.cpp:371]: Issue #134 tag = yes_foreign_weapons group = Foreign Weapons
+[issues.cpp:371]: Issue #135 tag = no_military_constructions group = Military Constructions
+[issues.cpp:371]: Issue #136 tag = yes_military_constructions group = Military Constructions
+[issues.cpp:371]: Issue #137 tag = no_foreign_officers group = Officer Training
+[issues.cpp:371]: Issue #138 tag = yes_foreign_officers group = Officer Training
+[issues.cpp:371]: Issue #139 tag = no_army_schools group = Army Training
+[issues.cpp:371]: Issue #140 tag = yes_army_schools group = Army Training
+[issues.cpp:371]: Issue #141 tag = no_foreign_naval_officers group = Naval Officers
+[issues.cpp:371]: Issue #142 tag = yes_foreign_naval_officers group = Naval Officers
+[issues.cpp:371]: Issue #143 tag = no_naval_schools group = Naval Training
+[issues.cpp:371]: Issue #144 tag = yes_naval_schools group = Naval Training
+[issues.cpp:371]: Issue #145 tag = no_foreign_navies group = Foreign Ships
+[issues.cpp:371]: Issue #146 tag = yes_foreign_navies group = Foreign Ships
+[issues.cpp:371]: Issue #147 tag = no_western_shipyards group = Shipyards
+[issues.cpp:371]: Issue #148 tag = yes_western_shipyards group = Shipyards
+[issues.cpp:371]: Issue #149 tag = no_foreign_artillery group = Foreign Artillery
+[issues.cpp:371]: Issue #150 tag = yes_foreign_artillery group = Foreign Artillery
+[eu3application.cpp:966]: IssueDataBase Initialized
+[eu3application.cpp:978]: NationalValueDataBase Initialized
+[subunit.cpp:1668]: UNITS loaded units/artillery.txt' #1
+[subunit.cpp:1668]: UNITS loaded units/battleship.txt' #1
+[subunit.cpp:1668]: UNITS loaded units/cavalry.txt' #1
+[subunit.cpp:1668]: UNITS loaded units/clipper_transport.txt' #1
+[subunit.cpp:1668]: UNITS loaded units/commerce_raider.txt' #1
+[subunit.cpp:1668]: UNITS loaded units/cruiser.txt' #1
+[subunit.cpp:1668]: UNITS loaded units/cuirassier.txt' #1
+[subunit.cpp:1668]: UNITS loaded units/dragoon.txt' #1
+[subunit.cpp:1668]: UNITS loaded units/dreadnought.txt' #1
+[subunit.cpp:1668]: UNITS loaded units/engineer.txt' #1
+[subunit.cpp:1668]: UNITS loaded units/frigate.txt' #1
+[subunit.cpp:1668]: UNITS loaded units/guard.txt' #1
+[subunit.cpp:1668]: UNITS loaded units/hussar.txt' #1
+[subunit.cpp:1668]: UNITS loaded units/infantry.txt' #1
+[subunit.cpp:1668]: UNITS loaded units/ironclad.txt' #1
+[subunit.cpp:1668]: UNITS loaded units/irregular.txt' #1
+[subunit.cpp:1668]: UNITS loaded units/manowar.txt' #1
+[subunit.cpp:1668]: UNITS loaded units/monitor.txt' #1
+[subunit.cpp:1668]: UNITS loaded units/plane.txt' #1
+[subunit.cpp:1668]: UNITS loaded units/steam_transport.txt' #1
+[subunit.cpp:1668]: UNITS loaded units/tank.txt' #1
+[eu3application.cpp:988]: CSubUnitDataBase  Initialized
+[map.cpp:1350]: Continent #0 name = Europe with 771province assigned.
+[map.cpp:1350]: Continent #1 name = Asia with 574province assigned.
+[map.cpp:1350]: Continent #2 name = Africa with 455province assigned.
+[map.cpp:1350]: Continent #3 name = North America with 366province assigned.
+[map.cpp:1350]: Continent #4 name = South America with 235province assigned.
+[map.cpp:1350]: Continent #5 name = Near East with 203province assigned.
+[map.cpp:1350]: Continent #6 name = Oceania with 56province assigned.
+[map.cpp:1350]: Continent #7 name = Polynesia with 48province assigned.
+[government.cpp:264]: Government #0 tag = nogovernment name = Anarchy
+[government.cpp:264]: Government #1 tag = proletarian_dictatorship name = Proletarian Dictatorship
+[government.cpp:264]: Government #2 tag = presidential_dictatorship name = Military Dictatorship
+[government.cpp:264]: Government #3 tag = bourgeois_dictatorship name = Radical Dictatorship
+[government.cpp:264]: Government #4 tag = fascist_dictatorship name = Fascist Dictatorship
+[government.cpp:264]: Government #5 tag = absolute_monarchy name = Absolute Monarchy
+[government.cpp:264]: Government #6 tag = prussian_constitutionalism name = Semi-Constitutional Monarchy
+[government.cpp:264]: Government #7 tag = hms_government name = Constitutional Monarchy
+[government.cpp:264]: Government #8 tag = democracy name = Republic
+[government.cpp:264]: Government #9 tag = theocracy name = Theocracy
+[eu3application.cpp:1000]: GovernmentDatabase Initialized
+[eu3application.cpp:1011]: PopDatabase Phase Initialized
+[eu3application.cpp:1024]: CCrimeDataBase Initialized
+[modifier.cpp:858]: TriggeredModifier #0 tag = trinket_health_care_fully_funded name = Fully Funded Healthcare
+[modifier.cpp:858]: TriggeredModifier #1 tag = low_health_care_fully_funded name = Fully Funded Healthcare
+[modifier.cpp:858]: TriggeredModifier #2 tag = acceptable_health_care_fully_funded name = Fully Funded Healthcare
+[modifier.cpp:858]: TriggeredModifier #3 tag = good_health_care_fully_funded name = Fully Funded Healthcare
+[modifier.cpp:858]: TriggeredModifier #4 tag = health_care_fully_funded name = Excellent Healthcare
+[modifier.cpp:858]: TriggeredModifier #5 tag = low_schools_fully_funded name = Fully Funded Education
+[modifier.cpp:858]: TriggeredModifier #6 tag = acceptable_schools_fully_funded name = Fully Funded Education
+[modifier.cpp:858]: TriggeredModifier #7 tag = good_schools_fully_funded name = Fully Funded Education
+[modifier.cpp:858]: TriggeredModifier #8 tag = education_fully_funded name = Excellent Education System
+[modifier.cpp:858]: TriggeredModifier #9 tag = neglected_education name = Neglected Education Funding
+[modifier.cpp:858]: TriggeredModifier #10 tag = islamic_law_triggered name = Islamic Law
+[modifier.cpp:858]: TriggeredModifier #11 tag = the_british_raj name = The Indian Raj
+[modifier.cpp:858]: TriggeredModifier #12 tag = dutch_east_india name = East India Company
+[modifier.cpp:858]: TriggeredModifier #13 tag = vassal_nation name = Vassal Nation
+[modifier.cpp:858]: TriggeredModifier #14 tag = substate_nation name = Substate
+[modifier.cpp:858]: TriggeredModifier #15 tag = substate_nation_player name = Substate
+[modifier.cpp:858]: TriggeredModifier #16 tag = chinese_substate name = Qing Oppression
+[modifier.cpp:858]: TriggeredModifier #17 tag = own_kiel_canal name = The Kiel Canal
+[modifier.cpp:858]: TriggeredModifier #18 tag = own_suez_canal name = The Suez Canal
+[modifier.cpp:858]: TriggeredModifier #19 tag = own_panama_canal name = The Panama Canal
+[modifier.cpp:858]: TriggeredModifier #20 tag = small_but_efficient name = Small But Efficient
+[modifier.cpp:858]: TriggeredModifier #21 tag = sound_dues name = Sound Dues Toll
+[modifier.cpp:858]: TriggeredModifier #22 tag = landlocked_nation name = Landlocked Nation
+[modifier.cpp:858]: TriggeredModifier #23 tag = social_reformed_nation name = Full Welfare State
+[modifier.cpp:858]: TriggeredModifier #24 tag = educational_spen name = AI Educational Spending
+[modifier.cpp:858]: TriggeredModifier #25 tag = admin_spen name = AI Administration Spending
+[modifier.cpp:858]: TriggeredModifier #26 tag = hormuz_strait name = Hormuz Strait
+[modifier.cpp:858]: TriggeredModifier #27 tag = new_world_war name = War
+[modifier.cpp:858]: TriggeredModifier #28 tag = ryotwari name = The Ryotwari System
+[eu3application.cpp:1037]: Triggered Modifiers Initialized
+[modifier.cpp:639]: StaticModifier #0 tag = very_easy_player name = Very Easy Difficulty
+[modifier.cpp:639]: StaticModifier #1 tag = easy_player name = Easy Difficulty
+[modifier.cpp:639]: StaticModifier #2 tag = hard_player name = Hard Difficulty
+[modifier.cpp:639]: StaticModifier #3 tag = very_hard_player name = Very Hard Difficulty
+[modifier.cpp:639]: StaticModifier #4 tag = very_easy_ai name = Very Easy Difficulty
+[modifier.cpp:639]: StaticModifier #5 tag = easy_ai name = Easy Difficulty
+[modifier.cpp:639]: StaticModifier #6 tag = hard_ai name = Hard Difficulty
+[modifier.cpp:639]: StaticModifier #7 tag = very_hard_ai name = Very Hard Difficulty
+[modifier.cpp:639]: StaticModifier #8 tag = overseas name = No land connection to capital
+[modifier.cpp:639]: StaticModifier #9 tag = coastal name = Coastal
+[modifier.cpp:639]: StaticModifier #10 tag = non_coastal name = Non Coastal
+[modifier.cpp:639]: StaticModifier #11 tag = coastal_sea name = Coastal Sea
+[modifier.cpp:639]: StaticModifier #12 tag = sea_zone name = Sea Zone
+[modifier.cpp:639]: StaticModifier #13 tag = land_province name = Land Province
+[modifier.cpp:639]: StaticModifier #14 tag = blockaded name = Blockaded
+[modifier.cpp:639]: StaticModifier #15 tag = no_adjacent_controlled name = No Adjacent Controlled
+[modifier.cpp:639]: StaticModifier #16 tag = core name = Core
+[modifier.cpp:639]: StaticModifier #17 tag = has_siege name = Has Siege
+[modifier.cpp:639]: StaticModifier #18 tag = occupied name = Occupied
+[modifier.cpp:639]: StaticModifier #19 tag = nationalism name = Nationalism
+[modifier.cpp:639]: StaticModifier #20 tag = infrastructure name = Infrastructure
+[modifier.cpp:639]: StaticModifier #21 tag = base_values name = Base Value
+[modifier.cpp:639]: StaticModifier #22 tag = war name = War
+[modifier.cpp:639]: StaticModifier #23 tag = peace name = Peace
+[modifier.cpp:639]: StaticModifier #24 tag = disarming name = Forced to Disarm
+[modifier.cpp:639]: StaticModifier #25 tag = war_exhaustion name = War Exhaustion
+[modifier.cpp:639]: StaticModifier #26 tag = badboy name = Infamy
+[modifier.cpp:639]: StaticModifier #27 tag = debt_default_to name = Debt Default To
+[modifier.cpp:639]: StaticModifier #28 tag = bad_debter name = Bad debter
+[modifier.cpp:639]: StaticModifier #29 tag = great_power name = Great Power
+[modifier.cpp:639]: StaticModifier #30 tag = second_power name = Secondary Power
+[modifier.cpp:639]: StaticModifier #31 tag = civ_nation name = Civilized Nation
+[modifier.cpp:639]: StaticModifier #32 tag = unciv_nation name = Uncivilized Nation
+[modifier.cpp:639]: StaticModifier #33 tag = average_literacy name = Literacy
+[modifier.cpp:639]: StaticModifier #34 tag = plurality name = Plurality
+[modifier.cpp:639]: StaticModifier #35 tag = generalised_debt_default name = Generalized Debt Default
+[modifier.cpp:639]: StaticModifier #36 tag = total_occupation name = Occupied Home Provinces
+[modifier.cpp:639]: StaticModifier #37 tag = total_blockaded name = Blockaded Home Ports
+[modifier.cpp:639]: StaticModifier #38 tag = in_bankrupcy name = In bankruptcy
+[modifier.cpp:639]: StaticModifier #0 tag = very_easy_player name = Very Easy Difficulty
+[modifier.cpp:639]: StaticModifier #1 tag = easy_player name = Easy Difficulty
+[modifier.cpp:639]: StaticModifier #2 tag = hard_player name = Hard Difficulty
+[modifier.cpp:639]: StaticModifier #3 tag = very_hard_player name = Very Hard Difficulty
+[modifier.cpp:639]: StaticModifier #4 tag = very_easy_ai name = Very Easy Difficulty
+[modifier.cpp:639]: StaticModifier #5 tag = easy_ai name = Easy Difficulty
+[modifier.cpp:639]: StaticModifier #6 tag = hard_ai name = Hard Difficulty
+[modifier.cpp:639]: StaticModifier #7 tag = very_hard_ai name = Very Hard Difficulty
+[modifier.cpp:639]: StaticModifier #8 tag = overseas name = No land connection to capital
+[modifier.cpp:639]: StaticModifier #9 tag = coastal name = Coastal
+[modifier.cpp:639]: StaticModifier #10 tag = non_coastal name = Non Coastal
+[modifier.cpp:639]: StaticModifier #11 tag = coastal_sea name = Coastal Sea
+[modifier.cpp:639]: StaticModifier #12 tag = sea_zone name = Sea Zone
+[modifier.cpp:639]: StaticModifier #13 tag = land_province name = Land Province
+[modifier.cpp:639]: StaticModifier #14 tag = blockaded name = Blockaded
+[modifier.cpp:639]: StaticModifier #15 tag = no_adjacent_controlled name = No Adjacent Controlled
+[modifier.cpp:639]: StaticModifier #16 tag = core name = Core
+[modifier.cpp:639]: StaticModifier #17 tag = has_siege name = Has Siege
+[modifier.cpp:639]: StaticModifier #18 tag = occupied name = Occupied
+[modifier.cpp:639]: StaticModifier #19 tag = nationalism name = Nationalism
+[modifier.cpp:639]: StaticModifier #20 tag = infrastructure name = Infrastructure
+[modifier.cpp:639]: StaticModifier #21 tag = base_values name = Base Value
+[modifier.cpp:639]: StaticModifier #22 tag = war name = War
+[modifier.cpp:639]: StaticModifier #23 tag = peace name = Peace
+[modifier.cpp:639]: StaticModifier #24 tag = disarming name = Forced to Disarm
+[modifier.cpp:639]: StaticModifier #25 tag = war_exhaustion name = War Exhaustion
+[modifier.cpp:639]: StaticModifier #26 tag = badboy name = Infamy
+[modifier.cpp:639]: StaticModifier #27 tag = debt_default_to name = Debt Default To
+[modifier.cpp:639]: StaticModifier #28 tag = bad_debter name = Bad debter
+[modifier.cpp:639]: StaticModifier #29 tag = great_power name = Great Power
+[modifier.cpp:639]: StaticModifier #30 tag = second_power name = Secondary Power
+[modifier.cpp:639]: StaticModifier #31 tag = civ_nation name = Civilized Nation
+[modifier.cpp:639]: StaticModifier #32 tag = unciv_nation name = Uncivilized Nation
+[modifier.cpp:639]: StaticModifier #33 tag = average_literacy name = Literacy
+[modifier.cpp:639]: StaticModifier #34 tag = plurality name = Plurality
+[modifier.cpp:639]: StaticModifier #35 tag = generalised_debt_default name = Generalized Debt Default
+[modifier.cpp:639]: StaticModifier #36 tag = total_occupation name = Occupied Home Provinces
+[modifier.cpp:639]: StaticModifier #37 tag = total_blockaded name = Blockaded Home Ports
+[modifier.cpp:639]: StaticModifier #38 tag = in_bankrupcy name = In bankruptcy
+[modifier.cpp:639]: StaticModifier #39 tag = coward_ai name = Coward Ruler
+[modifier.cpp:639]: StaticModifier #40 tag = benefactor_ai name = Benevolent Ruler
+[modifier.cpp:639]: StaticModifier #41 tag = malevolent_ai name = Malevolent Ruler
+[modifier.cpp:639]: StaticModifier #42 tag = picking_personality name = Ruler Personality
+[modifier.cpp:639]: StaticModifier #43 tag = partisan_occupation name = Partisan Rule
+[modifier.cpp:639]: StaticModifier #44 tag = core_when_done name = Add Core
+[modifier.cpp:639]: StaticModifier #45 tag = war_propaganda name = War Propaganda
+[modifier.cpp:639]: StaticModifier #46 tag = government_propaganda name = Government Propaganda
+[modifier.cpp:639]: StaticModifier #47 tag = constitutional_crisis name = Constitutional Crisis
+[modifier.cpp:639]: StaticModifier #48 tag = war_focus name = War Focused
+[modifier.cpp:639]: StaticModifier #49 tag = loyal_vassal name = Loyal Vassal
+[modifier.cpp:639]: StaticModifier #50 tag = in_disrepair name = Disrepair
+[modifier.cpp:639]: StaticModifier #51 tag = factories_nationalized name = Nationalized Factories
+[modifier.cpp:639]: StaticModifier #52 tag = nationalization_in_progress name = Nationalization in Progress
+[modifier.cpp:639]: StaticModifier #53 tag = santa_ana_rule name = Antonio López de Santa Anna
+[modifier.cpp:639]: StaticModifier #54 tag = forceful_back_to_africa name = Back to Africa Act
+[modifier.cpp:639]: StaticModifier #55 tag = ostflucht name = Ostflucht
+[modifier.cpp:639]: StaticModifier #56 tag = being_dismantled name = Under Dismantlement
+[modifier.cpp:639]: StaticModifier #57 tag = dismantling_country name = Dismantling Country
+[modifier.cpp:639]: StaticModifier #58 tag = considering_colonial_offer name = Considering Colonial Offer
+[modifier.cpp:639]: StaticModifier #59 tag = the_long_war name = The Long War
+[modifier.cpp:639]: StaticModifier #60 tag = homeland_productive_year name = Bountiful Year
+[modifier.cpp:639]: StaticModifier #61 tag = severe_homeland_drought name = Severe Drought
+[modifier.cpp:639]: StaticModifier #62 tag = homeland_drought name = Drought
+[modifier.cpp:639]: StaticModifier #63 tag = disable_conquest_cb name = Conquest CB Disabled
+[modifier.cpp:639]: StaticModifier #64 tag = colony_to_be_annexed name = Colonial Negotiations
+[modifier.cpp:639]: StaticModifier #65 tag = regency_government name = Regency
+[modifier.cpp:639]: StaticModifier #66 tag = reactionary_demands name = Reactionary Agenda
+[modifier.cpp:639]: StaticModifier #67 tag = integrating_colony name = Integrating Colony
+[modifier.cpp:639]: StaticModifier #68 tag = claimed_africa name = Claimed Colony
+[modifier.cpp:639]: StaticModifier #69 tag = non_interventionism_trade_policy name = Economic Non-Interventionism
+[modifier.cpp:639]: StaticModifier #70 tag = french_liberal_school name = Orthodox Liberal School
+[modifier.cpp:639]: StaticModifier #71 tag = smithian_school name = Smithianism
+[modifier.cpp:639]: StaticModifier #72 tag = no_trade_policy_set name = No Set Trade Policy
+[modifier.cpp:639]: StaticModifier #73 tag = russian_protectionism name = High Protectionism
+[modifier.cpp:639]: StaticModifier #74 tag = mercantilism name = Mercantilism
+[modifier.cpp:639]: StaticModifier #75 tag = economic_nationalism name = Economic Nationalism
+[modifier.cpp:639]: StaticModifier #76 tag = polish_uprising_mobilization name = Polish Uprising
+[modifier.cpp:639]: StaticModifier #77 tag = credit_risk name = High Credit Risk
+[modifier.cpp:639]: StaticModifier #78 tag = unrecognized_country name = Unrecognized Country
+[modifier.cpp:639]: StaticModifier #79 tag = monthly_payment_made name = Monthly Payment
+[modifier.cpp:639]: StaticModifier #80 tag = debt_system_cooldown name = Payment Made
+[modifier.cpp:639]: StaticModifier #81 tag = total_reform name = Comprehensive Miracle
+[modifier.cpp:639]: StaticModifier #82 tag = relutanct_figher name = Reluctant Fighter
+[modifier.cpp:639]: StaticModifier #83 tag = native_assimilation_act_policy name = Native Assimilation Act
+[modifier.cpp:639]: StaticModifier #84 tag = native_removal_act_policy name = Native Removal Act
+[modifier.cpp:639]: StaticModifier #85 tag = earthquake_devastation name = Earthquake Devastation
+[modifier.cpp:639]: StaticModifier #86 tag = amir_kabir name = Amir Kabir
+[modifier.cpp:639]: StaticModifier #87 tag = armenian_diaspora name = Armenian Diaspora
+[modifier.cpp:639]: StaticModifier #88 tag = tanzimat_land_reform name = Ottoman Land Code
+[modifier.cpp:639]: StaticModifier #89 tag = war_economy_ships name = Emergency Ship Building
+[modifier.cpp:639]: StaticModifier #90 tag = preparing_for_war name = Preparing for War
+[modifier.cpp:639]: StaticModifier #91 tag = state_of_emergency_modifier name = State of Emergency
+[modifier.cpp:639]: StaticModifier #92 tag = plantation name = Plantations and Mines
+[modifier.cpp:639]: StaticModifier #93 tag = haussmanns_renovations name = Haussmann's Renovations
+[modifier.cpp:639]: StaticModifier #94 tag = warship_commissioned name = Warship Delivered
+[modifier.cpp:639]: StaticModifier #95 tag = repatriation name = Repatriation
+[modifier.cpp:639]: StaticModifier #96 tag = international_zone_modifier name = International Zone
+[modifier.cpp:639]: StaticModifier #97 tag = preparations_for_war name = Preparations for War
+[modifier.cpp:639]: StaticModifier #98 tag = cultural_resurgence name = Cultural Resurgence
+[modifier.cpp:639]: StaticModifier #99 tag = chinese_treaty_port name = Chinese Treaty Port
+[modifier.cpp:639]: StaticModifier #100 tag = negotiating_unequal_treaty name = Unequal Treaty
+[modifier.cpp:639]: StaticModifier #101 tag = negotiating_treaty name = Negotiating Treaty
+[modifier.cpp:639]: StaticModifier #102 tag = lacks_writing_system name = Lacks Writing System
+[modifier.cpp:639]: StaticModifier #103 tag = penal_colony name = Penal Colony
+[modifier.cpp:639]: StaticModifier #104 tag = indian_territory name = Indian Territory
+[modifier.cpp:639]: StaticModifier #105 tag = reconstruction name = Reconstruction Policies
+[modifier.cpp:639]: StaticModifier #106 tag = divided_society name = Divided Society
+[modifier.cpp:639]: StaticModifier #107 tag = fanatic_army name = Fanatic Loyalty
+[modifier.cpp:639]: StaticModifier #108 tag = the_hedeselskab name = The Hedeselskab
+[modifier.cpp:639]: StaticModifier #109 tag = emigration_boom name = Emigration Boom
+[modifier.cpp:639]: StaticModifier #110 tag = totalitarian_system name = Totalitarianism
+[modifier.cpp:639]: StaticModifier #111 tag = political_education name = Ideological Education
+[modifier.cpp:639]: StaticModifier #112 tag = cult_of_personality name = Cult of Personality
+[modifier.cpp:639]: StaticModifier #113 tag = the_terror name = The Terror
+[modifier.cpp:639]: StaticModifier #114 tag = population_resettlement name = Population Resettlement
+[modifier.cpp:639]: StaticModifier #115 tag = pearl_season name = Pearl Hunting Season
+[modifier.cpp:639]: StaticModifier #116 tag = sound_dues_toll name = Sound Dues Toll
+[modifier.cpp:639]: StaticModifier #117 tag = silver_mine name = Silver Mine
+[modifier.cpp:639]: StaticModifier #118 tag = peacetime_mobilization name = Peace Time Mobilization
+[modifier.cpp:639]: StaticModifier #119 tag = treaty_port name = Treaty Port
+[modifier.cpp:639]: StaticModifier #120 tag = drained_marsh name = Drained Marsh
+[modifier.cpp:639]: StaticModifier #121 tag = backed_down_on_promise name = Backed Down on Promises
+[modifier.cpp:639]: StaticModifier #122 tag = highlander_raids name = Highlander Raids
+[modifier.cpp:639]: StaticModifier #123 tag = jewish_farms name = Jewish Farmlands
+[modifier.cpp:639]: StaticModifier #124 tag = monument_under_construction name = Under Construction
+[modifier.cpp:639]: StaticModifier #125 tag = recently_built_city name = Recently Built City
+[modifier.cpp:639]: StaticModifier #126 tag = law_changed_by_force name = Law Changed
+[modifier.cpp:639]: StaticModifier #127 tag = wahhabism_in_nejd name = Wahhabism
+[modifier.cpp:639]: StaticModifier #128 tag = fundamentalist_sympathies name = Islamic Fundamentalists
+[modifier.cpp:639]: StaticModifier #129 tag = new_constitution name = The New Constitution
+[modifier.cpp:639]: StaticModifier #130 tag = evidence_of_massacre name = Evidence of Massacres Leaks
+[modifier.cpp:639]: StaticModifier #131 tag = evidence_of_massacre2 name = Evidence of Massacres Leaks
+[modifier.cpp:639]: StaticModifier #132 tag = interment_camps name = Directive No. 1
+[modifier.cpp:639]: StaticModifier #133 tag = mass_graves name = Mass Deaths
+[modifier.cpp:639]: StaticModifier #134 tag = withdrew_from_geneva_convention name = Withdrew from the Geneva Convention
+[modifier.cpp:639]: StaticModifier #135 tag = rebuilding_city name = Rebuilding
+[modifier.cpp:639]: StaticModifier #136 tag = slave_growth name = Slave Demographics
+[modifier.cpp:639]: StaticModifier #137 tag = assegai name = Impi
+[modifier.cpp:639]: StaticModifier #138 tag = polish_spirit name = Polish Sentiment
+[modifier.cpp:639]: StaticModifier #139 tag = francia_utopia name = Francia's Utopia
+[modifier.cpp:639]: StaticModifier #140 tag = solano_lopez_industrialization name = Solano Lopez Industrialization
+[modifier.cpp:639]: StaticModifier #141 tag = rivera_reforms name = Rivera's Intervention
+[modifier.cpp:639]: StaticModifier #142 tag = colorado_sympathies name = Colorado Agitation
+[modifier.cpp:639]: StaticModifier #143 tag = blanco_sympathies name = Blanco Agitation
+[modifier.cpp:639]: StaticModifier #144 tag = north_coalition name = Ejercito Grande
+[modifier.cpp:639]: StaticModifier #145 tag = the_big_army name = The Big Army
+[modifier.cpp:639]: StaticModifier #146 tag = caudillo_leaders name = Caudillo
+[modifier.cpp:639]: StaticModifier #147 tag = kinda_bad_badboy name = International Sanctions
+[modifier.cpp:639]: StaticModifier #148 tag = bad_badboy name = International Isolation
+[modifier.cpp:639]: StaticModifier #149 tag = the_big_ben name = The Big Ben
+[modifier.cpp:639]: StaticModifier #150 tag = suez_canal_construction name = Suez Canal Under Construction
+[modifier.cpp:639]: StaticModifier #151 tag = kiel_canal_construction name = Kiel Canal Under Construction
+[modifier.cpp:639]: StaticModifier #152 tag = panama_canal_construction name = Panama Canal Under Construction
+[modifier.cpp:639]: StaticModifier #153 tag = eiffel_tower_construction name = Eiffel Tower Under Construction
+[modifier.cpp:639]: StaticModifier #154 tag = bigben_construction name = Reconstruction of the Palace of Westminster
+[modifier.cpp:639]: StaticModifier #155 tag = small_immigration_boom name = Immigration Boom
+[modifier.cpp:639]: StaticModifier #156 tag = land_of_opportunity name = Land of Opportunity
+[modifier.cpp:639]: StaticModifier #157 tag = swiss_banking name = Swiss Banking
+[modifier.cpp:639]: StaticModifier #158 tag = freedom_of_religion name = Freedom of Religion
+[modifier.cpp:639]: StaticModifier #159 tag = foreign_claims name = Foreign Claims
+[modifier.cpp:639]: StaticModifier #160 tag = government_sanitarium name = Sanitarium
+[modifier.cpp:639]: StaticModifier #161 tag = silver_age name = A Silver Age
+[modifier.cpp:639]: StaticModifier #162 tag = pancasila name = Pancasila
+[modifier.cpp:639]: StaticModifier #163 tag = bazaari_strike name = Bazaari strike
+[modifier.cpp:639]: StaticModifier #164 tag = submarine_warfare name = Submarine warfare
+[modifier.cpp:639]: StaticModifier #165 tag = exemplary_troops name = Exemplary troops
+[modifier.cpp:639]: StaticModifier #166 tag = rancho name = Rancho California
+[modifier.cpp:639]: StaticModifier #167 tag = reading name = Reading
+[modifier.cpp:639]: StaticModifier #168 tag = camillo_cavour name = Camillo Cavour
+[modifier.cpp:639]: StaticModifier #169 tag = serial_killer name = Serial Killer On The Loose
+[modifier.cpp:639]: StaticModifier #170 tag = academic_confusion name = Academic Confusion
+[modifier.cpp:639]: StaticModifier #171 tag = liberal_agitation name = Liberal Agitation
+[modifier.cpp:639]: StaticModifier #172 tag = springtime_of_nations name = The Springtime of Nations!
+[modifier.cpp:639]: StaticModifier #173 tag = global_liberal_agitation name = Liberal Agitation
+[modifier.cpp:639]: StaticModifier #174 tag = potato_blight name = Potato Blight
+[modifier.cpp:639]: StaticModifier #175 tag = anti_jacobin_tract name = Anti-Jacobin Tract
+[modifier.cpp:639]: StaticModifier #176 tag = cholera_epidemic_small name = Outbreak of Cholera
+[modifier.cpp:639]: StaticModifier #177 tag = cholera_epidemic_big name = Cholera Epidemic
+[modifier.cpp:639]: StaticModifier #178 tag = conservative_reaction name = Conservative Opposition
+[modifier.cpp:639]: StaticModifier #179 tag = liberal_reaction name = Liberal Opposition
+[modifier.cpp:639]: StaticModifier #180 tag = national_tragedy name = National Tragedy
+[modifier.cpp:639]: StaticModifier #181 tag = missionary_activity name = Missionary Activity
+[modifier.cpp:639]: StaticModifier #182 tag = western_influences name = Western Influences
+[modifier.cpp:639]: StaticModifier #183 tag = uncivilized_isolationism name = Isolationism
+[modifier.cpp:639]: StaticModifier #184 tag = western_presence name = Western Presence
+[modifier.cpp:639]: StaticModifier #185 tag = western_presence_research name = Western Presence
+[modifier.cpp:639]: StaticModifier #186 tag = foreign_smugglers name = Foreign Smugglers
+[modifier.cpp:639]: StaticModifier #187 tag = foreign_trading_post name = Foreign Trading Post
+[modifier.cpp:639]: StaticModifier #188 tag = silk_famine name = Silk Famine
+[modifier.cpp:639]: StaticModifier #189 tag = naval_school name = Naval School
+[modifier.cpp:639]: StaticModifier #190 tag = trade_restrictions name = Trade Restrictions
+[modifier.cpp:639]: StaticModifier #191 tag = colonial_dry_spell name = Dry Spell
+[modifier.cpp:639]: StaticModifier #192 tag = colonial_exploitation name = Colonial Exploitation
+[modifier.cpp:639]: StaticModifier #193 tag = colonial_museum_of_natural_history name = Museum of Natural History
+[modifier.cpp:639]: StaticModifier #194 tag = colonial_mismanagement name = Colonial Mismanagement
+[modifier.cpp:639]: StaticModifier #195 tag = colonial_recruitment name = Land! Liberty! Labour!
+[modifier.cpp:639]: StaticModifier #196 tag = small_baby_boom name = Baby Boom
+[modifier.cpp:639]: StaticModifier #197 tag = baby_boom name = Baby Boom
+[modifier.cpp:639]: StaticModifier #198 tag = global_baby_boom name = Baby Boom
+[modifier.cpp:639]: StaticModifier #199 tag = loyal_askaris name = Gurkhas, Askaris & Tirailleurs
+[modifier.cpp:639]: StaticModifier #200 tag = muhammad_alis_reforms name = Muhammad Ali's Reforms
+[modifier.cpp:639]: StaticModifier #201 tag = female_suffrage name = Woman's Suffrage
+[modifier.cpp:639]: StaticModifier #202 tag = labor_union name = Labor Union
+[modifier.cpp:639]: StaticModifier #203 tag = militant_trade_union name = Militant Trade Union
+[modifier.cpp:639]: StaticModifier #204 tag = worker_union name = Worker's Union
+[modifier.cpp:639]: StaticModifier #205 tag = strike_solution name = Strike Solution
+[modifier.cpp:639]: StaticModifier #206 tag = province_strike name = Province Strike
+[modifier.cpp:639]: StaticModifier #207 tag = may_day name = May Day
+[modifier.cpp:639]: StaticModifier #208 tag = black_shirts name = Blackshirts
+[modifier.cpp:639]: StaticModifier #209 tag = free_corps name = Free Corps
+[modifier.cpp:639]: StaticModifier #210 tag = the_massacre name = The Massacre
+[modifier.cpp:639]: StaticModifier #211 tag = fascist_welfare name = Fascist Welfare
+[modifier.cpp:639]: StaticModifier #212 tag = beer_hall_putsch name = Beer Hall Putsch
+[modifier.cpp:639]: StaticModifier #213 tag = local_opium_habit name = Opium Problem
+[modifier.cpp:639]: StaticModifier #214 tag = sayings_of_the_dutch name = Sayings of The Dutch
+[modifier.cpp:639]: StaticModifier #215 tag = european_military_mission name = Military Mission
+[modifier.cpp:639]: StaticModifier #216 tag = extraterritoriality_granted name = Extraterritoriality Granted
+[modifier.cpp:639]: StaticModifier #217 tag = military_reform name = Military Reform
+[modifier.cpp:639]: StaticModifier #218 tag = educational_reform name = Educational Reform
+[modifier.cpp:639]: StaticModifier #219 tag = legation_quarter name = Legation Quarter
+[modifier.cpp:639]: StaticModifier #220 tag = kettler_denkmal name = Memorial to Foreign Diplomat
+[modifier.cpp:639]: StaticModifier #221 tag = local_economic_downturn name = Local Economic Downturn
+[modifier.cpp:639]: StaticModifier #222 tag = emigrant_aid_company name = Emigrant Aid Company
+[modifier.cpp:639]: StaticModifier #223 tag = bleeding_state name = Bleeding State
+[modifier.cpp:639]: StaticModifier #224 tag = free_staters_national name = Free Staters Prohibition
+[modifier.cpp:639]: StaticModifier #225 tag = copperhead_democrats_national name = Copperhead Democrats
+[modifier.cpp:639]: StaticModifier #226 tag = underground_railroad_shutdown name = Underground Railroad Shutdown
+[modifier.cpp:639]: StaticModifier #227 tag = fugitive_slave name = Fugitive Slave
+[modifier.cpp:639]: StaticModifier #228 tag = abolitionist_pamphlets name = Abolitionist Pamphlets
+[modifier.cpp:639]: StaticModifier #229 tag = slave_market name = Slave Market
+[modifier.cpp:639]: StaticModifier #230 tag = drinking_gourd name = Drinking Gourd
+[modifier.cpp:639]: StaticModifier #231 tag = fire_eaters name = Fire-Eaters
+[modifier.cpp:639]: StaticModifier #232 tag = yankee_doodle name = Yankee Doodle
+[modifier.cpp:639]: StaticModifier #233 tag = wish_I_was_dixie name = Dixie Identity
+[modifier.cpp:639]: StaticModifier #234 tag = southern_manorialism name = Southern Manorialism
+[modifier.cpp:639]: StaticModifier #235 tag = southern_pride name = Southern Pride
+[modifier.cpp:639]: StaticModifier #236 tag = free_staters name = Free-Staters
+[modifier.cpp:639]: StaticModifier #237 tag = border_ruffians name = Border Ruffians
+[modifier.cpp:639]: StaticModifier #238 tag = underground_railroad name = Underground Railroad
+[modifier.cpp:639]: StaticModifier #239 tag = knights_of_the_golden_circle name = Knights of The Golden Circle
+[modifier.cpp:639]: StaticModifier #240 tag = american_anti_slavery_society name = American Anti-Slavery Society
+[modifier.cpp:639]: StaticModifier #241 tag = copperhead_democrats name = Copperhead Democrats
+[modifier.cpp:639]: StaticModifier #242 tag = anaconda_plan name = The Anaconda Plan
+[modifier.cpp:639]: StaticModifier #243 tag = the_homestead_act name = The Homestead Act
+[modifier.cpp:639]: StaticModifier #244 tag = the_slavery_debate name = The Slavery Debate
+[modifier.cpp:639]: StaticModifier #245 tag = the_bonnie_blue_flag name = The Bonnie Blue Flag
+[modifier.cpp:639]: StaticModifier #246 tag = silk_famine name = Silk Famine
+[modifier.cpp:639]: StaticModifier #247 tag = libertine_culture name = Libertine Culture
+[modifier.cpp:639]: StaticModifier #248 tag = temperance_league name = Temperance League
+[modifier.cpp:639]: StaticModifier #249 tag = beer_halls name = Beer Halls
+[modifier.cpp:639]: StaticModifier #250 tag = destitution_and_poverty name = Destitution & Poverty
+[modifier.cpp:639]: StaticModifier #251 tag = liquor_prohibition name = Liquor Prohibition
+[modifier.cpp:639]: StaticModifier #252 tag = minority_building_restrictions name = Minority Building Restrictions
+[modifier.cpp:639]: StaticModifier #253 tag = dryzymalas_wagon name = Dryzymala's Wagon
+[modifier.cpp:639]: StaticModifier #254 tag = discriminatory_school_system name = Discriminatory School System
+[modifier.cpp:639]: StaticModifier #255 tag = flying_university name = Flying University
+[modifier.cpp:639]: StaticModifier #256 tag = organic_work name = Organic Work
+[modifier.cpp:639]: StaticModifier #257 tag = protector_of_eastern_christendom name = Protector of Eastern Christendom
+[modifier.cpp:639]: StaticModifier #258 tag = egyptian_excavations name = Egyptian Excavations
+[modifier.cpp:639]: StaticModifier #259 tag = international_negotiations name = International Pressure
+[modifier.cpp:639]: StaticModifier #260 tag = the_statue_of_liberty name = The Statue of Liberty
+[modifier.cpp:639]: StaticModifier #261 tag = congo_company name = The Congo Company
+[modifier.cpp:639]: StaticModifier #262 tag = congo_exploitation name = Congolese Exploitation
+[modifier.cpp:639]: StaticModifier #263 tag = the_congo_reform_association name = The Congo Reform Association
+[modifier.cpp:639]: StaticModifier #264 tag = philantropic_work name = Philanthropic Work
+[modifier.cpp:639]: StaticModifier #265 tag = germania_werft name = The Germaniawerft
+[modifier.cpp:639]: StaticModifier #266 tag = ruhr_boom name = The Ruhr Boom
+[modifier.cpp:639]: StaticModifier #267 tag = prussian_general_staff name = Prussian General Staff
+[modifier.cpp:639]: StaticModifier #268 tag = trek_boers name = Trek Boers
+[modifier.cpp:639]: StaticModifier #269 tag = boer_republic name = Boer Republic
+[modifier.cpp:639]: StaticModifier #270 tag = boer_exodus name = Boer Exodus
+[modifier.cpp:639]: StaticModifier #271 tag = gold_rush_country name = Gold Rush
+[modifier.cpp:639]: StaticModifier #272 tag = gold_rush name = Gold Rush
+[modifier.cpp:639]: StaticModifier #273 tag = witwatersrand_gold_rush name = Witwatersrand Gold Rush
+[modifier.cpp:639]: StaticModifier #274 tag = local_tractors name = Tractors and Trawlers
+[modifier.cpp:639]: StaticModifier #275 tag = local_nitroglycerin_and_machine_tools name = Mechanized Mining
+[modifier.cpp:639]: StaticModifier #276 tag = local_conveyors_and_excavators name = Conveyor Belts and Excavators
+[modifier.cpp:639]: StaticModifier #277 tag = local_distribution_channels_und_electricity name = Commercial Retailers and Electrical Lighting
+[modifier.cpp:639]: StaticModifier #278 tag = switched_production name = Switched Production
+[modifier.cpp:639]: StaticModifier #279 tag = pandemic_influenza name = Pandemic Influenza
+[modifier.cpp:639]: StaticModifier #280 tag = pandemic_influenza_immunity name = Influenza Free
+[modifier.cpp:639]: StaticModifier #281 tag = trustee_system name = The Trusty System
+[modifier.cpp:639]: StaticModifier #282 tag = penal_colonies name = Penal Colonies
+[modifier.cpp:639]: StaticModifier #283 tag = stock_market_crash name = Stock Market Crash
+[modifier.cpp:639]: StaticModifier #284 tag = great_depression name = Great Depression
+[modifier.cpp:639]: StaticModifier #285 tag = central_bank_established name = Central Bank
+[modifier.cpp:639]: StaticModifier #286 tag = local_stock_exchange name = Stock Exchange
+[modifier.cpp:639]: StaticModifier #287 tag = economic_boom name = Economic Boom
+[modifier.cpp:639]: StaticModifier #288 tag = corn_laws_repealed name = Corn Laws Repealed
+[modifier.cpp:639]: StaticModifier #289 tag = the_yard name = The Scotland Yard
+[modifier.cpp:639]: StaticModifier #290 tag = la_guardia_civil name = La Guardia Civil
+[modifier.cpp:639]: StaticModifier #291 tag = spanish_restoration name = The Restoration
+[modifier.cpp:639]: StaticModifier #292 tag = national_instability name = National Instability
+[modifier.cpp:639]: StaticModifier #293 tag = carlist_sympathies name = Carlist Sympathies
+[modifier.cpp:639]: StaticModifier #294 tag = christino_sympathies name = Christino Sympathies
+[modifier.cpp:639]: StaticModifier #295 tag = rebel_cell_discovered name = Rebel Cell Discovered
+[modifier.cpp:639]: StaticModifier #296 tag = the_french_foreign_legion name = La Légion Étrangère
+[modifier.cpp:639]: StaticModifier #297 tag = the_eiffel_tower name = The Eiffel Tower
+[modifier.cpp:639]: StaticModifier #298 tag = signed_the_geneva_convention name = The Geneva Convention
+[modifier.cpp:639]: StaticModifier #299 tag = folkis_educates name = Folkskolan
+[modifier.cpp:639]: StaticModifier #300 tag = motala_verkstad name = Motala Verkstad
+[modifier.cpp:639]: StaticModifier #301 tag = miskatonic_campus name = Miskatonic University
+[modifier.cpp:639]: StaticModifier #302 tag = the_walhalla name = The Walhalla
+[modifier.cpp:639]: StaticModifier #303 tag = CB_gen_plus name = CB generation speed increased
+[modifier.cpp:639]: StaticModifier #304 tag = CB_gen_minus name = CB generation speed decreased
+[modifier.cpp:639]: StaticModifier #305 tag = recent_safari name = Recent safari
+[modifier.cpp:639]: StaticModifier #306 tag = recent_safari2 name = Too many safaris
+[modifier.cpp:639]: StaticModifier #307 tag = free_press_promised name = Free press promised
+[modifier.cpp:639]: StaticModifier #308 tag = yes_meeting_promised name = Right to public meetings promised
+[modifier.cpp:639]: StaticModifier #309 tag = trade_unions_promised name = Trade unions promised
+[modifier.cpp:639]: StaticModifier #310 tag = dar_al_funun name = The Dar al funun.
+[modifier.cpp:639]: StaticModifier #311 tag = fight_the_power name = Government Resistance
+[modifier.cpp:639]: StaticModifier #312 tag = begin_revolution name = Revolutionary State
+[modifier.cpp:639]: StaticModifier #313 tag = small_country_draft name = Emergency Draft
+[modifier.cpp:639]: StaticModifier #314 tag = nationalist_agitation name = Nationalist Agitation
+[modifier.cpp:639]: StaticModifier #315 tag = patriot_uprising name = Patriot Uprising
+[modifier.cpp:639]: StaticModifier #316 tag = peasant_revolt name = Open Revolt
+[modifier.cpp:639]: StaticModifier #317 tag = war_torn name = War Torn
+[modifier.cpp:639]: StaticModifier #318 tag = no_freedom name = Attempted Freedom
+[modifier.cpp:639]: StaticModifier #319 tag = colonial_chaos name = Colonial Chaos
+[modifier.cpp:639]: StaticModifier #320 tag = loss_of_control name = Loss of Control
+[modifier.cpp:639]: StaticModifier #321 tag = power_vacuum name = Power Vacuum
+[modifier.cpp:639]: StaticModifier #322 tag = enclosures name = Enclosures
+[modifier.cpp:639]: StaticModifier #323 tag = irish_oppression name = Irish Destitution
+[modifier.cpp:639]: StaticModifier #324 tag = irish_potato_blight name = Potato Blight
+[modifier.cpp:639]: StaticModifier #325 tag = irish_republicans name = Irish Republicans
+[modifier.cpp:639]: StaticModifier #326 tag = irish_unionists name = Irish Unionists
+[modifier.cpp:639]: StaticModifier #327 tag = rally_tribesmen name = Rally Tribesmen
+[modifier.cpp:639]: StaticModifier #328 tag = the_ikhwan name = The Ikhwan
+[modifier.cpp:639]: StaticModifier #329 tag = holy_city name = The Holy City
+[modifier.cpp:639]: StaticModifier #330 tag = boxer_rebellion name = Boxer Rebellion
+[modifier.cpp:639]: StaticModifier #331 tag = boxer_presence name = Boxer Presence
+[modifier.cpp:639]: StaticModifier #332 tag = boxer_agitation name = Boxer Agitation
+[modifier.cpp:639]: StaticModifier #333 tag = self_strengthening_movement name = Self-Strengthening Movement
+[modifier.cpp:639]: StaticModifier #334 tag = drive_to_reunify name = Reunification Drive
+[modifier.cpp:639]: StaticModifier #335 tag = the_female_shortage name = The Female Shortage
+[modifier.cpp:639]: StaticModifier #336 tag = christian_pamphlets name = Christian Pamphlets
+[modifier.cpp:639]: StaticModifier #337 tag = christian_repression name = Christian Repression
+[modifier.cpp:639]: StaticModifier #338 tag = anti_manchu_sentiment name = Anti-Manchu Sentiment
+[modifier.cpp:639]: StaticModifier #339 tag = chinese_floods name = Chinese Floods
+[modifier.cpp:639]: StaticModifier #340 tag = taiping_draft name = Emergency Draft
+[modifier.cpp:639]: StaticModifier #341 tag = shastar_vidya name = Shastar Vidiya
+[modifier.cpp:639]: StaticModifier #342 tag = sakoku name = Sakoku
+[modifier.cpp:639]: StaticModifier #343 tag = rangaku name = Rangaku
+[modifier.cpp:639]: StaticModifier #344 tag = ansei_purge name = Ansei Purge
+[modifier.cpp:639]: StaticModifier #345 tag = kobu_gattai name = Kobu Gattai
+[modifier.cpp:639]: StaticModifier #346 tag = fukoku_kyohei name = Fukoku Kyohei
+[modifier.cpp:639]: StaticModifier #347 tag = line_of_advantage name = Line of Advantage
+[modifier.cpp:639]: StaticModifier #348 tag = no_line_of_advantage name = Path of Progress
+[modifier.cpp:639]: StaticModifier #349 tag = daimyo_draft name = Emergency Draft
+[modifier.cpp:639]: StaticModifier #350 tag = force_publique name = Force Publique
+[modifier.cpp:639]: StaticModifier #351 tag = rcmp name = R.C.M.P.
+[modifier.cpp:639]: StaticModifier #352 tag = jewish_diaspora name = Jewish Diaspora
+[modifier.cpp:639]: StaticModifier #353 tag = exploiting_the_land name = Exploiting the Land
+[modifier.cpp:639]: StaticModifier #354 tag = tewodros_reforms name = Kassa Hailu
+[modifier.cpp:639]: StaticModifier #355 tag = disunited_country name = Disunited Country
+[modifier.cpp:639]: StaticModifier #356 tag = border_incident name = Recent Border Incident
+[modifier.cpp:639]: StaticModifier #357 tag = kalmar_union name = Kalmar Union
+[modifier.cpp:639]: StaticModifier #358 tag = leader_of_kalmar name = Leader of the Kalmar Union
+[modifier.cpp:639]: StaticModifier #359 tag = customs_union name = Customs Union
+[modifier.cpp:639]: StaticModifier #360 tag = dust_bowl name = Dust Bowl
+[modifier.cpp:639]: StaticModifier #361 tag = home_of_the_mormons name = Home of the Mormons
+[modifier.cpp:639]: StaticModifier #362 tag = province_small_immigration_boom name = Local Immigration Boom
+[modifier.cpp:639]: StaticModifier #363 tag = gateway_to_harbor name = Gateway to a New Land
+[modifier.cpp:639]: StaticModifier #364 tag = gateway_to_america name = Gateway to America
+[modifier.cpp:639]: StaticModifier #365 tag = begin_disunited_states name = Disunited States
+[modifier.cpp:639]: StaticModifier #366 tag = sons_of_liberty name = Sons of Liberty
+[modifier.cpp:639]: StaticModifier #367 tag = apache_raiders name = Apache Raiders
+[modifier.cpp:639]: StaticModifier #368 tag = treaties_of_velasco name = Treaties of Velasco
+[modifier.cpp:639]: StaticModifier #369 tag = jizya name = Jizya
+[modifier.cpp:639]: StaticModifier #370 tag = religious_minority_oppression name = Oppressed Religious Minorities
+[modifier.cpp:639]: StaticModifier #371 tag = ottoman_oppression name = Christian Oppression
+[modifier.cpp:639]: StaticModifier #372 tag = ottomanism_reform name = Imperial Reform Edict
+[modifier.cpp:639]: StaticModifier #373 tag = republican_reforms name = Republican Reforms
+[modifier.cpp:639]: StaticModifier #374 tag = great_war name = Total War
+[modifier.cpp:639]: StaticModifier #375 tag = great_war2 name = The Demands of War
+[modifier.cpp:639]: StaticModifier #376 tag = great_war3 name = Is It All For Nothing?
+[modifier.cpp:639]: StaticModifier #377 tag = punitive_effects name = National Humiliation
+[modifier.cpp:639]: StaticModifier #378 tag = no_more_war name = No More War
+[modifier.cpp:639]: StaticModifier #379 tag = end_the_war name = End the War
+[modifier.cpp:639]: StaticModifier #380 tag = international_pariah name = International Pariah
+[modifier.cpp:639]: StaticModifier #381 tag = integration_refusal name = No Integration
+[modifier.cpp:639]: StaticModifier #382 tag = core_integration name = Core Integration
+[modifier.cpp:639]: StaticModifier #383 tag = national_assimilation name = National Assimilation
+[modifier.cpp:639]: StaticModifier #384 tag = national_assimilation_rejection name = Assimilation Rejection
+[modifier.cpp:639]: StaticModifier #385 tag = national_assimilation_acceptance name = Assimilation Acceptance
+[modifier.cpp:639]: StaticModifier #386 tag = national_assimilation_complete name = National Assimilation Complete
+[modifier.cpp:639]: StaticModifier #387 tag = otto_von_bismarck name = Otto von Bismarck
+[modifier.cpp:639]: StaticModifier #388 tag = louis_napoleon_iii name = Louis-Napoléon Bonaparte
+[modifier.cpp:639]: StaticModifier #389 tag = neutrality_modifier name = Political Neutrality
+[modifier.cpp:639]: StaticModifier #390 tag = national_confusion name = National Confusion
+[modifier.cpp:639]: StaticModifier #391 tag = loss_of_support name = Loss of Support
+[modifier.cpp:639]: StaticModifier #392 tag = ruling_party_scandal name = National Scandal
+[modifier.cpp:639]: StaticModifier #393 tag = party_scandal_evidence name = Major National Scandal
+[modifier.cpp:639]: StaticModifier #394 tag = coup_risk name = Coup D'etat Risk
+[modifier.cpp:639]: StaticModifier #395 tag = military_strife name = Military Strife
+[modifier.cpp:639]: StaticModifier #396 tag = recent_crisis name = Recent Crisis
+[modifier.cpp:639]: StaticModifier #397 tag = french_cultural_unity name = French Cultural Unity
+[modifier.cpp:639]: StaticModifier #398 tag = emergency_tax_measures1 name = Emergency Measures
+[modifier.cpp:639]: StaticModifier #399 tag = emergency_tax_measures2 name = Extreme Measures
+[eu3application.cpp:1082]: Static Modifiers Initialized
+[building.cpp:691]: Building #0 tag = nobuilding name = Free Real Estate
+[building.cpp:691]: Building #1 tag = aeroplane_factory name = Aeroplane Factory
+[building.cpp:691]: Building #2 tag = barrel_factory name = Tank Factory
+[building.cpp:691]: Building #3 tag = automobile_factory name = Automobile Factory
+[building.cpp:691]: Building #4 tag = radio_factory name = Radio Factory
+[building.cpp:691]: Building #5 tag = telephone_factory name = Telephone Factory
+[building.cpp:691]: Building #6 tag = electric_gear_factory name = Electric Gear Factory
+[building.cpp:691]: Building #7 tag = machine_parts_factory name = Machine Parts Factory
+[building.cpp:691]: Building #8 tag = synthetic_oil_factory name = Coal Liquefaction Plant
+[building.cpp:691]: Building #9 tag = fuel_refinery name = Oil Refinery
+[building.cpp:691]: Building #10 tag = steamer_shipyard name = Steamer Shipyard
+[building.cpp:691]: Building #11 tag = clipper_shipyard name = Clipper Shipyard
+[building.cpp:691]: Building #12 tag = luxury_clothes_factory name = Luxury Clothes Factory
+[building.cpp:691]: Building #13 tag = luxury_furniture_factory name = Luxury Furniture Factory
+[building.cpp:691]: Building #14 tag = steel_factory name = Steel Mill
+[building.cpp:691]: Building #15 tag = artillery_factory name = Artillery Factory
+[building.cpp:691]: Building #16 tag = small_arms_factory name = Small Arms Factory
+[building.cpp:691]: Building #17 tag = furniture_factory name = Furniture Factory
+[building.cpp:691]: Building #18 tag = paper_mill name = Paper Mill
+[building.cpp:691]: Building #19 tag = regular_clothes_factory name = Clothes Factory
+[building.cpp:691]: Building #20 tag = explosives_factory name = Explosives Factory
+[building.cpp:691]: Building #21 tag = ammunition_factory name = Ammunition Factory
+[building.cpp:691]: Building #22 tag = canned_food_factory name = Cannery
+[building.cpp:691]: Building #23 tag = dye_factory name = Synthetic Dyeworks
+[building.cpp:691]: Building #24 tag = liquor_distillery name = Bottling Works
+[building.cpp:691]: Building #25 tag = winery name = Winery
+[building.cpp:691]: Building #26 tag = lumber_mill name = Sawmill
+[building.cpp:691]: Building #27 tag = fabric_factory name = Textile Mill
+[building.cpp:691]: Building #28 tag = cement_factory name = Cement Factory
+[building.cpp:691]: Building #29 tag = glass_factory name = Glass Factory
+[building.cpp:691]: Building #30 tag = fertilizer_factory name = Fertilizer Factory
+[building.cpp:691]: Building #31 tag = fort name = Fort
+[building.cpp:691]: Building #32 tag = naval_base name = Naval Base
+[building.cpp:691]: Building #33 tag = railroad name = Railroad
+[eu3application.cpp:1119]: BuildingDatabase Initialized

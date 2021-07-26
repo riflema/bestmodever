@@ -1,0 +1,7 @@
+owner=NGA
+controller=BLC
+add_core=BLC
+trade_goods = wool
+life_rating = 35
+terrain = dryhills
+fort = 1

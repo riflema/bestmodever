@@ -1,0 +1,3245 @@
+828 = {
+	soldiers=
+	{
+		culture = greek
+		religion = orthodox
+		size= 7230
+	}
+
+	artisans=
+	{
+		culture = greek
+		religion = orthodox
+		size= 17974
+	}
+
+	clergymen=
+	{
+		culture = greek
+		religion = orthodox
+		size= 662
+	}
+
+	bureaucrats=
+	{
+		culture = greek
+		religion = orthodox
+		size= 318
+	}
+
+	officers=
+	{
+		culture = greek
+		religion = orthodox
+		size= 212
+	}
+
+	aristocrats=
+	{
+		culture = greek
+		religion = orthodox
+		size= 1114
+	}
+
+	farmers=
+	{
+		culture = greek
+		religion = orthodox
+		size= 103162
+	}
+
+	clergymen=
+	{
+		culture = sephardic
+		religion = jewish
+		size= 200
+	}
+
+	artisans=
+	{
+		culture = sephardic
+		religion = jewish
+		size= 600
+	}
+
+	soldiers=
+	{
+		culture = sephardic
+		religion = jewish
+		size= 200
+	}
+
+	farmers=
+	{
+		culture = sephardic
+		religion = jewish
+		size= 1000
+	}
+
+}
+858 = {
+	soldiers=
+	{
+		culture = greek
+		religion = orthodox
+		size= 10166
+	}
+
+	artisans=
+	{
+		culture = greek
+		religion = orthodox
+		size= 7745
+	}
+
+	clergymen=
+	{
+		culture = greek
+		religion = orthodox
+		size= 341
+	}
+
+	bureaucrats=
+	{
+		culture = greek
+		religion = orthodox
+		size= 155
+	}
+
+	officers=
+	{
+		culture = greek
+		religion = orthodox
+		size= 133
+	}
+
+	aristocrats=
+	{
+		culture = greek
+		religion = orthodox
+		size= 544
+	}
+
+	farmers=
+	{
+		culture = greek
+		religion = orthodox
+		size= 91715
+	}
+
+	soldiers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 15482
+	}
+
+	artisans=
+	{
+		culture = turkish
+		religion = sunni
+		size= 31335
+	}
+
+	clergymen=
+	{
+		culture = turkish
+		religion = sunni
+		size= 1379
+	}
+
+	bureaucrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 628
+	}
+
+	officers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 539
+	}
+
+	aristocrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 2199
+	}
+
+	farmers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 117098
+	}
+
+}
+859 = {
+	soldiers=
+	{
+		culture = greek
+		religion = orthodox
+		size= 4133
+	}
+
+	artisans=
+	{
+		culture = greek
+		religion = orthodox
+		size= 2222
+	}
+
+	clergymen=
+	{
+		culture = greek
+		religion = orthodox
+		size= 277
+	}
+
+	bureaucrats=
+	{
+		culture = greek
+		religion = orthodox
+		size= 116
+	}
+
+	officers=
+	{
+		culture = greek
+		religion = orthodox
+		size= 93
+	}
+
+	aristocrats=
+	{
+		culture = greek
+		religion = orthodox
+		size= 975
+	}
+
+	farmers=
+	{
+		culture = greek
+		religion = orthodox
+		size= 49828
+	}
+
+	soldiers=
+	{
+		culture = sephardic
+		religion = jewish
+		size= 100
+	}
+
+	clergymen=
+	{
+		culture = sephardic
+		religion = jewish
+		size= 100
+	}
+
+	artisans=
+	{
+		culture = sephardic
+		religion = jewish
+		size= 100
+	}
+
+	farmers=
+	{
+		culture = sephardic
+		religion = jewish
+		size= 100
+	}
+
+}
+860 = {
+	slaves=
+	{
+		culture = afro_greek
+		religion = orthodox
+		size= 3550
+	}
+
+	soldiers=
+	{
+		culture = greek
+		religion = orthodox
+		size= 9968
+	}
+
+	artisans=
+	{
+		culture = greek
+		religion = orthodox
+		size= 7561
+	}
+
+	clergymen=
+	{
+		culture = greek
+		religion = orthodox
+		size= 341
+	}
+
+	bureaucrats=
+	{
+		culture = greek
+		religion = orthodox
+		size= 155
+	}
+
+	officers=
+	{
+		culture = greek
+		religion = orthodox
+		size= 133
+	}
+
+	aristocrats=
+	{
+		culture = greek
+		religion = orthodox
+		size= 544
+	}
+
+	farmers=
+	{
+		culture = greek
+		religion = orthodox
+		size= 84547
+	}
+
+	slaves=
+	{
+		culture = african_minor
+		religion = sunni
+		size= 5407
+	}
+
+	soldiers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 15180
+	}
+
+	artisans=
+	{
+		culture = turkish
+		religion = sunni
+		size= 30594
+	}
+
+	clergymen=
+	{
+		culture = turkish
+		religion = sunni
+		size= 1379
+	}
+
+	bureaucrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 628
+	}
+
+	officers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 539
+	}
+
+	aristocrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 2199
+	}
+
+	farmers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 107109
+	}
+
+}
+861 = {
+	soldiers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 3250
+	}
+
+	artisans=
+	{
+		culture = turkish
+		religion = sunni
+		size= 2322
+	}
+
+	clergymen=
+	{
+		culture = turkish
+		religion = sunni
+		size= 377
+	}
+
+	bureaucrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 116
+	}
+
+	officers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 93
+	}
+
+	aristocrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 975
+	}
+
+	farmers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 50911
+	}
+
+}
+862 = {
+	slaves=
+	{
+		culture = african_minor
+		religion = sunni
+		size= 362
+	}
+
+	soldiers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 3250
+	}
+
+	artisans=
+	{
+		culture = turkish
+		religion = sunni
+		size= 2322
+	}
+
+	clergymen=
+	{
+		culture = turkish
+		religion = sunni
+		size= 377
+	}
+
+	bureaucrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 116
+	}
+
+	officers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 93
+	}
+
+	aristocrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 975
+	}
+
+	farmers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 50549
+	}
+
+}
+863 = {
+	slaves=
+	{
+		culture = african_minor
+		religion = sunni
+		size= 2068
+	}
+
+	soldiers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 16533
+	}
+
+	artisans=
+	{
+		culture = turkish
+		religion = sunni
+		size= 29402
+	}
+
+	clergymen=
+	{
+		culture = turkish
+		religion = sunni
+		size= 1274
+	}
+
+	bureaucrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 592
+	}
+
+	officers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 338
+	}
+
+	aristocrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 1776
+	}
+
+	farmers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 158963
+	}
+
+	soldiers=
+	{
+		culture = sephardic
+		religion = jewish
+		size= 100
+	}
+
+	clergymen=
+	{
+		culture = sephardic
+		religion = jewish
+		size= 100
+	}
+
+	artisans=
+	{
+		culture = sephardic
+		religion = jewish
+		size= 200
+	}
+
+	farmers=
+	{
+		culture = sephardic
+		religion = jewish
+		size= 100
+	}
+
+}
+864 = {
+	soldiers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 5216
+	}
+
+	artisans=
+	{
+		culture = turkish
+		religion = sunni
+		size= 6343
+	}
+
+	clergymen=
+	{
+		culture = turkish
+		religion = sunni
+		size= 458
+	}
+
+	bureaucrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 141
+	}
+
+	officers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 141
+	}
+
+	aristocrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 592
+	}
+
+	farmers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 57591
+	}
+
+}
+865 = {
+	soldiers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 5216
+	}
+
+	artisans=
+	{
+		culture = turkish
+		religion = sunni
+		size= 6343
+	}
+
+	clergymen=
+	{
+		culture = turkish
+		religion = sunni
+		size= 458
+	}
+
+	bureaucrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 141
+	}
+
+	officers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 141
+	}
+
+	aristocrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 592
+	}
+
+	farmers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 57591
+	}
+
+}
+866 = {
+	soldiers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 4179
+	}
+
+	artisans=
+	{
+		culture = turkish
+		religion = sunni
+		size= 6717
+	}
+
+	clergymen=
+	{
+		culture = turkish
+		religion = sunni
+		size= 485
+	}
+
+	bureaucrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 149
+	}
+
+	officers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 119
+	}
+
+	aristocrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 1254
+	}
+
+	farmers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 61725
+	}
+
+}
+867 = {
+	soldiers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 14876
+	}
+
+	artisans=
+	{
+		culture = turkish
+		religion = sunni
+		size= 22637
+	}
+
+	clergymen=
+	{
+		culture = turkish
+		religion = sunni
+		size= 1051
+	}
+
+	bureaucrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 388
+	}
+
+	officers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 388
+	}
+
+	aristocrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 1358
+	}
+
+	farmers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 120996
+	}
+
+}
+868 = {
+	soldiers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 16533
+	}
+
+	artisans=
+	{
+		culture = turkish
+		religion = sunni
+		size= 10448
+	}
+
+	clergymen=
+	{
+		culture = turkish
+		religion = sunni
+		size= 755
+	}
+
+	bureaucrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 232
+	}
+
+	officers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 279
+	}
+
+	aristocrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 975
+	}
+
+	farmers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 86866
+	}
+
+}
+869 = {
+	soldiers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 32033
+	}
+
+	artisans=
+	{
+		culture = turkish
+		religion = sunni
+		size= 19023
+	}
+
+	clergymen=
+	{
+		culture = turkish
+		religion = sunni
+		size= 1382
+	}
+
+	bureaucrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 456
+	}
+
+	officers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 364
+	}
+
+	aristocrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 3731
+	}
+
+	farmers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 168041
+	}
+
+	aristocrats=
+	{
+		culture = sephardic
+		religion = jewish
+		size= 100
+	}
+
+	soldiers=
+	{
+		culture = sephardic
+		religion = jewish
+		size= 200
+	}
+
+	clergymen=
+	{
+		culture = sephardic
+		religion = jewish
+		size= 100
+	}
+
+	artisans=
+	{
+		culture = sephardic
+		religion = jewish
+		size= 1500
+	}
+
+	farmers=
+	{
+		culture = sephardic
+		religion = jewish
+		size= 1100
+	}
+
+}
+870 = {
+	soldiers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 18309
+	}
+
+	artisans=
+	{
+		culture = turkish
+		religion = sunni
+		size= 27861
+	}
+
+	clergymen=
+	{
+		culture = turkish
+		religion = sunni
+		size= 1294
+	}
+
+	bureaucrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 478
+	}
+
+	officers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 478
+	}
+
+	aristocrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 3343
+	}
+
+	farmers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 147245
+	}
+
+}
+871 = {
+	soldiers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 14494
+	}
+
+	artisans=
+	{
+		culture = turkish
+		religion = sunni
+		size= 22057
+	}
+
+	clergymen=
+	{
+		culture = turkish
+		religion = sunni
+		size= 1024
+	}
+
+	bureaucrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 315
+	}
+
+	officers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 378
+	}
+
+	aristocrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 1323
+	}
+
+	farmers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 117957
+	}
+
+}
+872 = {
+	soldiers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 28933
+	}
+
+	artisans=
+	{
+		culture = turkish
+		religion = sunni
+		size= 10075
+	}
+
+	clergymen=
+	{
+		culture = turkish
+		religion = sunni
+		size= 728
+	}
+
+	bureaucrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 224
+	}
+
+	officers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 179
+	}
+
+	aristocrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 940
+	}
+
+	farmers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 70863
+	}
+
+}
+873 = {
+	slaves=
+	{
+		culture = african_minor
+		religion = sunni
+		size= 5783
+	}
+
+	soldiers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 17414
+	}
+
+	artisans=
+	{
+		culture = turkish
+		religion = sunni
+		size= 27986
+	}
+
+	clergymen=
+	{
+		culture = turkish
+		religion = sunni
+		size= 2021
+	}
+
+	bureaucrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 746
+	}
+
+	officers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 497
+	}
+
+	aristocrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 5224
+	}
+
+	farmers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 251279
+	}
+
+}
+874 = {
+	soldiers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 4876
+	}
+
+	artisans=
+	{
+		culture = turkish
+		religion = sunni
+		size= 7836
+	}
+
+	clergymen=
+	{
+		culture = turkish
+		religion = sunni
+		size= 566
+	}
+
+	bureaucrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 174
+	}
+
+	officers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 139
+	}
+
+	aristocrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 1463
+	}
+
+	farmers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 72012
+	}
+
+}
+875 = {
+	soldiers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 10333
+	}
+
+	artisans=
+	{
+		culture = turkish
+		religion = sunni
+		size= 23798
+	}
+
+	clergymen=
+	{
+		culture = turkish
+		religion = sunni
+		size= 1105
+	}
+
+	bureaucrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 340
+	}
+
+	officers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 272
+	}
+
+	aristocrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 2856
+	}
+
+	farmers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 131282
+	}
+
+}
+876 = {
+	soldiers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 25833
+	}
+
+	artisans=
+	{
+		culture = turkish
+		religion = sunni
+		size= 16045
+	}
+
+	clergymen=
+	{
+		culture = turkish
+		religion = sunni
+		size= 1159
+	}
+
+	bureaucrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 357
+	}
+
+	officers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 285
+	}
+
+	aristocrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 1498
+	}
+
+	farmers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 133101
+	}
+
+}
+877 = {
+	soldiers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 26319
+	}
+
+	artisans=
+	{
+		culture = turkish
+		religion = sunni
+		size= 25746
+	}
+
+	clergymen=
+	{
+		culture = turkish
+		religion = sunni
+		size= 1860
+	}
+
+	bureaucrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 687
+	}
+
+	officers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 687
+	}
+
+	aristocrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 4806
+	}
+
+	farmers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 225969
+	}
+
+}
+878 = {
+	slaves=
+	{
+		culture = african_minor
+		religion = sunni
+		size= 1053
+	}
+
+	soldiers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 9511
+	}
+
+	artisans=
+	{
+		culture = turkish
+		religion = sunni
+		size= 17994
+	}
+
+	clergymen=
+	{
+		culture = turkish
+		religion = sunni
+		size= 835
+	}
+
+	bureaucrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 257
+	}
+
+	officers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 257
+	}
+
+	aristocrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 1080
+	}
+
+	farmers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 97539
+	}
+
+}
+879 = {
+	soldiers=
+	{
+		culture = turkish
+		religion = shiite
+		size= 2652
+	}
+
+	artisans=
+	{
+		culture = turkish
+		religion = shiite
+		size= 2131
+	}
+
+	clergymen=
+	{
+		culture = turkish
+		religion = shiite
+		size= 154
+	}
+
+	bureaucrats=
+	{
+		culture = turkish
+		religion = shiite
+		size= 57
+	}
+
+	officers=
+	{
+		culture = turkish
+		religion = shiite
+		size= 38
+	}
+
+	aristocrats=
+	{
+		culture = turkish
+		religion = shiite
+		size= 398
+	}
+
+	farmers=
+	{
+		culture = turkish
+		religion = shiite
+		size= 41928
+	}
+
+	soldiers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 16533
+	}
+
+	artisans=
+	{
+		culture = turkish
+		religion = sunni
+		size= 16899
+	}
+
+	clergymen=
+	{
+		culture = turkish
+		religion = sunni
+		size= 1221
+	}
+
+	bureaucrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 451
+	}
+
+	officers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 300
+	}
+
+	aristocrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 3154
+	}
+
+	farmers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 125530
+	}
+
+}
+880 = {
+	soldiers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 28933
+	}
+
+	artisans=
+	{
+		culture = turkish
+		religion = sunni
+		size= 16418
+	}
+
+	clergymen=
+	{
+		culture = turkish
+		religion = sunni
+		size= 1186
+	}
+
+	bureaucrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 365
+	}
+
+	officers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 292
+	}
+
+	aristocrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 1532
+	}
+
+	farmers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 133698
+	}
+
+}
+881 = {
+	soldiers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 16533
+	}
+
+	artisans=
+	{
+		culture = turkish
+		religion = sunni
+		size= 3151
+	}
+
+	clergymen=
+	{
+		culture = turkish
+		religion = sunni
+		size= 512
+	}
+
+	bureaucrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 158
+	}
+
+	officers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 126
+	}
+
+	aristocrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 662
+	}
+
+	farmers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 57632
+	}
+
+}
+882 = {
+	soldiers=
+	{
+		culture = greek
+		religion = orthodox
+		size= 6501
+	}
+
+	artisans=
+	{
+		culture = greek
+		religion = orthodox
+		size= 4644
+	}
+
+	clergymen=
+	{
+		culture = greek
+		religion = orthodox
+		size= 755
+	}
+
+	bureaucrats=
+	{
+		culture = greek
+		religion = orthodox
+		size= 232
+	}
+
+	officers=
+	{
+		culture = greek
+		religion = orthodox
+		size= 186
+	}
+
+	aristocrats=
+	{
+		culture = greek
+		religion = orthodox
+		size= 975
+	}
+
+	farmers=
+	{
+		culture = greek
+		religion = orthodox
+		size= 102795
+	}
+
+}
+883 = {
+	soldiers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 5804
+	}
+
+	artisans=
+	{
+		culture = turkish
+		religion = sunni
+		size= 4146
+	}
+
+	clergymen=
+	{
+		culture = turkish
+		religion = sunni
+		size= 674
+	}
+
+	bureaucrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 207
+	}
+
+	officers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 166
+	}
+
+	aristocrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 871
+	}
+
+	farmers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 91782
+	}
+
+}
+884 = {
+	soldiers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 4133
+	}
+
+	artisans=
+	{
+		culture = turkish
+		religion = sunni
+		size= 5970
+	}
+
+	clergymen=
+	{
+		culture = turkish
+		religion = sunni
+		size= 431
+	}
+
+	bureaucrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 133
+	}
+
+	officers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 53
+	}
+
+	aristocrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 1114
+	}
+
+	farmers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 54502
+	}
+
+}
+885 = {
+	soldiers=
+	{
+		culture = armenian
+		religion = coptic
+		size= 2308
+	}
+
+	artisans=
+	{
+		culture = armenian
+		religion = coptic
+		size= 494
+	}
+
+	clergymen=
+	{
+		culture = armenian
+		religion = coptic
+		size= 93
+	}
+
+	bureaucrats=
+	{
+		culture = armenian
+		religion = coptic
+		size= 43
+	}
+
+	officers=
+	{
+		culture = armenian
+		religion = coptic
+		size= 34
+	}
+
+	aristocrats=
+	{
+		culture = armenian
+		religion = coptic
+		size= 180
+	}
+
+	farmers=
+	{
+		culture = armenian
+		religion = coptic
+		size= 38751
+	}
+
+	soldiers=
+	{
+		culture = armenian
+		religion = sunni
+		size= 147
+	}
+
+	artisans=
+	{
+		culture = armenian
+		religion = sunni
+		size= 556
+	}
+
+	clergymen=
+	{
+		culture = armenian
+		religion = sunni
+		size= 104
+	}
+
+	bureaucrats=
+	{
+		culture = armenian
+		religion = sunni
+		size= 48
+	}
+
+	officers=
+	{
+		culture = armenian
+		religion = sunni
+		size= 39
+	}
+
+	aristocrats=
+	{
+		culture = armenian
+		religion = sunni
+		size= 203
+	}
+
+	farmers=
+	{
+		culture = armenian
+		religion = sunni
+		size= 1135
+	}
+
+}
+886 = {
+	slaves=
+	{
+		culture = afro_greek
+		religion = orthodox
+		size= 653
+	}
+
+	soldiers=
+	{
+		culture = georgian
+		religion = orthodox
+		size= 5168
+	}
+
+	artisans=
+	{
+		culture = georgian
+		religion = orthodox
+		size= 281
+	}
+
+	clergymen=
+	{
+		culture = georgian
+		religion = orthodox
+		size= 46
+	}
+
+	bureaucrats=
+	{
+		culture = georgian
+		religion = orthodox
+		size= 14
+	}
+
+	officers=
+	{
+		culture = georgian
+		religion = orthodox
+		size= 17
+	}
+
+	aristocrats=
+	{
+		culture = georgian
+		religion = orthodox
+		size= 118
+	}
+
+	farmers=
+	{
+		culture = georgian
+		religion = orthodox
+		size= 49875
+	}
+
+	slaves=
+	{
+		culture = afro_greek
+		religion = sunni
+		size= 276
+	}
+
+	soldiers=
+	{
+		culture = georgian
+		religion = sunni
+		size= 2186
+	}
+
+	artisans=
+	{
+		culture = georgian
+		religion = sunni
+		size= 2544
+	}
+
+	clergymen=
+	{
+		culture = georgian
+		religion = sunni
+		size= 413
+	}
+
+	bureaucrats=
+	{
+		culture = georgian
+		religion = sunni
+		size= 127
+	}
+
+	officers=
+	{
+		culture = georgian
+		religion = sunni
+		size= 153
+	}
+
+	aristocrats=
+	{
+		culture = georgian
+		religion = sunni
+		size= 1069
+	}
+
+	farmers=
+	{
+		culture = georgian
+		religion = sunni
+		size= 17251
+	}
+
+	slaves=
+	{
+		culture = afro_greek
+		religion = shiite
+		size= 228
+	}
+
+	soldiers=
+	{
+		culture = georgian
+		religion = shiite
+		size= 1801
+	}
+
+	artisans=
+	{
+		culture = georgian
+		religion = shiite
+		size= 1155
+	}
+
+	clergymen=
+	{
+		culture = georgian
+		religion = shiite
+		size= 188
+	}
+
+	bureaucrats=
+	{
+		culture = georgian
+		religion = shiite
+		size= 58
+	}
+
+	officers=
+	{
+		culture = georgian
+		religion = shiite
+		size= 69
+	}
+
+	aristocrats=
+	{
+		culture = georgian
+		religion = shiite
+		size= 485
+	}
+
+	farmers=
+	{
+		culture = georgian
+		religion = shiite
+		size= 15587
+	}
+
+}
+887 = {
+	soldiers=
+	{
+		culture = armenian
+		religion = coptic
+		size= 4179
+	}
+
+	artisans=
+	{
+		culture = armenian
+		religion = coptic
+		size= 2985
+	}
+
+	clergymen=
+	{
+		culture = armenian
+		religion = coptic
+		size= 485
+	}
+
+	bureaucrats=
+	{
+		culture = armenian
+		religion = coptic
+		size= 179
+	}
+
+	officers=
+	{
+		culture = armenian
+		religion = coptic
+		size= 119
+	}
+
+	aristocrats=
+	{
+		culture = armenian
+		religion = coptic
+		size= 1254
+	}
+
+	farmers=
+	{
+		culture = armenian
+		religion = coptic
+		size= 65427
+	}
+
+}
+888 = {
+	soldiers=
+	{
+		culture = armenian
+		religion = coptic
+		size= 746
+	}
+
+	artisans=
+	{
+		culture = armenian
+		religion = coptic
+		size= 1493
+	}
+
+	clergymen=
+	{
+		culture = armenian
+		religion = coptic
+		size= 243
+	}
+
+	bureaucrats=
+	{
+		culture = armenian
+		religion = coptic
+		size= 90
+	}
+
+	officers=
+	{
+		culture = armenian
+		religion = coptic
+		size= 30
+	}
+
+	aristocrats=
+	{
+		culture = armenian
+		religion = coptic
+		size= 313
+	}
+
+	farmers=
+	{
+		culture = armenian
+		religion = coptic
+		size= 34399
+	}
+
+}
+889 = {
+	soldiers=
+	{
+		culture = turkish
+		religion = shiite
+		size= 9072
+	}
+
+	artisans=
+	{
+		culture = turkish
+		religion = shiite
+		size= 4437
+	}
+
+	clergymen=
+	{
+		culture = turkish
+		religion = shiite
+		size= 321
+	}
+
+	bureaucrats=
+	{
+		culture = turkish
+		religion = shiite
+		size= 99
+	}
+
+	officers=
+	{
+		culture = turkish
+		religion = shiite
+		size= 118
+	}
+
+	aristocrats=
+	{
+		culture = turkish
+		religion = shiite
+		size= 414
+	}
+
+	farmers=
+	{
+		culture = turkish
+		religion = shiite
+		size= 84154
+	}
+
+	soldiers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 11525
+	}
+
+	artisans=
+	{
+		culture = turkish
+		religion = sunni
+		size= 15712
+	}
+
+	clergymen=
+	{
+		culture = turkish
+		religion = sunni
+		size= 1135
+	}
+
+	bureaucrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 349
+	}
+
+	officers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 419
+	}
+
+	aristocrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 1466
+	}
+
+	farmers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 94663
+	}
+
+}
+890 = {
+	slaves=
+	{
+		culture = afro_greek
+		religion = coptic
+		size= 718
+	}
+
+	soldiers=
+	{
+		culture = armenian
+		religion = coptic
+		size= 4794
+	}
+
+	artisans=
+	{
+		culture = armenian
+		religion = coptic
+		size= 1824
+	}
+
+	clergymen=
+	{
+		culture = armenian
+		religion = coptic
+		size= 85
+	}
+
+	bureaucrats=
+	{
+		culture = armenian
+		religion = coptic
+		size= 26
+	}
+
+	officers=
+	{
+		culture = armenian
+		religion = coptic
+		size= 31
+	}
+
+	aristocrats=
+	{
+		culture = armenian
+		religion = coptic
+		size= 109
+	}
+
+	farmers=
+	{
+		culture = armenian
+		religion = coptic
+		size= 44516
+	}
+
+	slaves=
+	{
+		culture = afro_greek
+		religion = shiite
+		size= 760
+	}
+
+	soldiers=
+	{
+		culture = armenian
+		religion = shiite
+		size= 5077
+	}
+
+	artisans=
+	{
+		culture = armenian
+		religion = shiite
+		size= 5687
+	}
+
+	clergymen=
+	{
+		culture = armenian
+		religion = shiite
+		size= 264
+	}
+
+	bureaucrats=
+	{
+		culture = armenian
+		religion = shiite
+		size= 81
+	}
+
+	officers=
+	{
+		culture = armenian
+		religion = shiite
+		size= 97
+	}
+
+	aristocrats=
+	{
+		culture = armenian
+		religion = shiite
+		size= 341
+	}
+
+	farmers=
+	{
+		culture = armenian
+		religion = shiite
+		size= 42882
+	}
+
+	slaves=
+	{
+		culture = afro_greek
+		religion = sunni
+		size= 64
+	}
+
+	soldiers=
+	{
+		culture = armenian
+		religion = sunni
+		size= 428
+	}
+
+	artisans=
+	{
+		culture = armenian
+		religion = sunni
+		size= 8161
+	}
+
+	clergymen=
+	{
+		culture = armenian
+		religion = sunni
+		size= 379
+	}
+
+	bureaucrats=
+	{
+		culture = armenian
+		religion = sunni
+		size= 117
+	}
+
+	officers=
+	{
+		culture = armenian
+		religion = sunni
+		size= 140
+	}
+
+	aristocrats=
+	{
+		culture = armenian
+		religion = sunni
+		size= 490
+	}
+
+}
+891 = {
+	soldiers=
+	{
+		culture = armenian
+		religion = coptic
+		size= 6866
+	}
+
+	artisans=
+	{
+		culture = armenian
+		religion = coptic
+		size= 10448
+	}
+
+	clergymen=
+	{
+		culture = armenian
+		religion = coptic
+		size= 485
+	}
+
+	bureaucrats=
+	{
+		culture = armenian
+		religion = coptic
+		size= 149
+	}
+
+	officers=
+	{
+		culture = armenian
+		religion = coptic
+		size= 179
+	}
+
+	aristocrats=
+	{
+		culture = armenian
+		religion = coptic
+		size= 627
+	}
+
+	farmers=
+	{
+		culture = armenian
+		religion = coptic
+		size= 55874
+	}
+
+	soldiers=
+	{
+		culture = kurdish
+		religion = sunni
+		size= 3559
+	}
+
+	artisans=
+	{
+		culture = kurdish
+		religion = sunni
+		size= 7291
+	}
+
+	clergymen=
+	{
+		culture = kurdish
+		religion = sunni
+		size= 339
+	}
+
+	bureaucrats=
+	{
+		culture = kurdish
+		religion = sunni
+		size= 104
+	}
+
+	officers=
+	{
+		culture = kurdish
+		religion = sunni
+		size= 125
+	}
+
+	aristocrats=
+	{
+		culture = kurdish
+		religion = sunni
+		size= 437
+	}
+
+	farmers=
+	{
+		culture = kurdish
+		religion = sunni
+		size= 30306
+	}
+
+	soldiers=
+	{
+		culture = kurdish
+		religion = shiite
+		size= 4070
+	}
+
+	artisans=
+	{
+		culture = kurdish
+		religion = shiite
+		size= 4318
+	}
+
+	clergymen=
+	{
+		culture = kurdish
+		religion = shiite
+		size= 200
+	}
+
+	bureaucrats=
+	{
+		culture = kurdish
+		religion = shiite
+		size= 62
+	}
+
+	officers=
+	{
+		culture = kurdish
+		religion = shiite
+		size= 74
+	}
+
+	aristocrats=
+	{
+		culture = kurdish
+		religion = shiite
+		size= 259
+	}
+
+	farmers=
+	{
+		culture = kurdish
+		religion = shiite
+		size= 35253
+	}
+
+}
+892 = {
+	soldiers=
+	{
+		culture = kurdish
+		religion = sunni
+		size= 1165
+	}
+
+	artisans=
+	{
+		culture = kurdish
+		religion = sunni
+		size= 975
+	}
+
+	clergymen=
+	{
+		culture = kurdish
+		religion = sunni
+		size= 158
+	}
+
+	bureaucrats=
+	{
+		culture = kurdish
+		religion = sunni
+		size= 48
+	}
+
+	officers=
+	{
+		culture = kurdish
+		religion = sunni
+		size= 39
+	}
+
+	aristocrats=
+	{
+		culture = kurdish
+		religion = sunni
+		size= 205
+	}
+
+	farmers=
+	{
+		culture = kurdish
+		religion = sunni
+		size= 18220
+	}
+
+	soldiers=
+	{
+		culture = kurdish
+		religion = shiite
+		size= 924
+	}
+
+	artisans=
+	{
+		culture = kurdish
+		religion = shiite
+		size= 517
+	}
+
+	clergymen=
+	{
+		culture = kurdish
+		religion = shiite
+		size= 84
+	}
+
+	bureaucrats=
+	{
+		culture = kurdish
+		religion = shiite
+		size= 26
+	}
+
+	officers=
+	{
+		culture = kurdish
+		religion = shiite
+		size= 21
+	}
+
+	aristocrats=
+	{
+		culture = kurdish
+		religion = shiite
+		size= 109
+	}
+
+	farmers=
+	{
+		culture = kurdish
+		religion = shiite
+		size= 14823
+	}
+
+}
+893 = {
+	soldiers=
+	{
+		culture = kurdish
+		religion = sunni
+		size= 7233
+	}
+
+	artisans=
+	{
+		culture = kurdish
+		religion = sunni
+		size= 4061
+	}
+
+	clergymen=
+	{
+		culture = kurdish
+		religion = sunni
+		size= 293
+	}
+
+	bureaucrats=
+	{
+		culture = kurdish
+		religion = sunni
+		size= 108
+	}
+
+	officers=
+	{
+		culture = kurdish
+		religion = sunni
+		size= 72
+	}
+
+	aristocrats=
+	{
+		culture = kurdish
+		religion = sunni
+		size= 505
+	}
+
+	farmers=
+	{
+		culture = kurdish
+		religion = sunni
+		size= 77962
+	}
+
+	soldiers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 1680
+	}
+
+	artisans=
+	{
+		culture = turkish
+		religion = sunni
+		size= 6761
+	}
+
+	clergymen=
+	{
+		culture = turkish
+		religion = sunni
+		size= 488
+	}
+
+	bureaucrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 180
+	}
+
+	officers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 120
+	}
+
+	aristocrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 841
+	}
+
+	farmers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 19930
+	}
+
+}
+894 = {
+	soldiers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 10680
+	}
+
+	artisans=
+	{
+		culture = turkish
+		religion = sunni
+		size= 26700
+	}
+
+	clergymen=
+	{
+		culture = turkish
+		religion = sunni
+		size= 1240
+	}
+
+	bureaucrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 458
+	}
+
+	officers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 305
+	}
+
+	aristocrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 1869
+	}
+
+	farmers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 149464
+	}
+
+}
+895 = {
+	soldiers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 6501
+	}
+
+	artisans=
+	{
+		culture = turkish
+		religion = sunni
+		size= 4644
+	}
+
+	clergymen=
+	{
+		culture = turkish
+		religion = sunni
+		size= 755
+	}
+
+	bureaucrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 232
+	}
+
+	officers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 186
+	}
+
+	aristocrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 975
+	}
+
+	farmers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 102795
+	}
+
+}
+896 = {
+	soldiers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 7233
+	}
+
+	artisans=
+	{
+		culture = turkish
+		religion = sunni
+		size= 7090
+	}
+
+	clergymen=
+	{
+		culture = turkish
+		religion = sunni
+		size= 512
+	}
+
+	bureaucrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 158
+	}
+
+	officers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 126
+	}
+
+	aristocrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 662
+	}
+
+	farmers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 62993
+	}
+
+}
+898 = {
+	soldiers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 4411
+	}
+
+	artisans=
+	{
+		culture = turkish
+		religion = sunni
+		size= 7090
+	}
+
+	clergymen=
+	{
+		culture = turkish
+		religion = sunni
+		size= 512
+	}
+
+	bureaucrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 158
+	}
+
+	officers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 126
+	}
+
+	aristocrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 662
+	}
+
+	farmers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 65815
+	}
+
+}
+899 = {
+	slaves=
+	{
+		culture = kurdish
+		religion = sunni
+		size= 536
+	}
+
+	soldiers=
+	{
+		culture = kurdish
+		religion = sunni
+		size= 2691
+	}
+
+	artisans=
+	{
+		culture = kurdish
+		religion = sunni
+		size= 1847
+	}
+
+	clergymen=
+	{
+		culture = kurdish
+		religion = sunni
+		size= 134
+	}
+
+	bureaucrats=
+	{
+		culture = kurdish
+		religion = sunni
+		size= 49
+	}
+
+	officers=
+	{
+		culture = kurdish
+		religion = sunni
+		size= 32
+	}
+
+	aristocrats=
+	{
+		culture = kurdish
+		religion = sunni
+		size= 172
+	}
+
+	farmers=
+	{
+		culture = kurdish
+		religion = sunni
+		size= 42586
+	}
+
+	slaves=
+	{
+		culture = kurdish
+		religion = ibadi
+		size= 108
+	}
+
+	soldiers=
+	{
+		culture = kurdish
+		religion = ibadi
+		size= 541
+	}
+
+	artisans=
+	{
+		culture = kurdish
+		religion = ibadi
+		size= 751
+	}
+
+	clergymen=
+	{
+		culture = kurdish
+		religion = ibadi
+		size= 55
+	}
+
+	bureaucrats=
+	{
+		culture = kurdish
+		religion = ibadi
+		size= 20
+	}
+
+	officers=
+	{
+		culture = kurdish
+		religion = ibadi
+		size= 14
+	}
+
+	aristocrats=
+	{
+		culture = kurdish
+		religion = ibadi
+		size= 70
+	}
+
+	farmers=
+	{
+		culture = kurdish
+		religion = ibadi
+		size= 8109
+	}
+
+	slaves=
+	{
+		culture = african_minor
+		religion = sunni
+		size= 373
+	}
+
+	soldiers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 1876
+	}
+
+	artisans=
+	{
+		culture = turkish
+		religion = sunni
+		size= 5612
+	}
+
+	clergymen=
+	{
+		culture = turkish
+		religion = sunni
+		size= 405
+	}
+
+	bureaucrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 150
+	}
+
+	officers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 100
+	}
+
+	aristocrats=
+	{
+		culture = turkish
+		religion = sunni
+		size= 524
+	}
+
+	farmers=
+	{
+		culture = turkish
+		religion = sunni
+		size= 24457
+	}
+
+}
+900 = {
+	soldiers=
+	{
+		culture = mashriqi
+		religion = sunni
+		size= 8823
+	}
+
+	artisans=
+	{
+		culture = mashriqi
+		religion = sunni
+		size= 22057
+	}
+
+	clergymen=
+	{
+		culture = mashriqi
+		religion = sunni
+		size= 1024
+	}
+
+	bureaucrats=
+	{
+		culture = mashriqi
+		religion = sunni
+		size= 378
+	}
+
+	officers=
+	{
+		culture = mashriqi
+		religion = sunni
+		size= 252
+	}
+
+	aristocrats=
+	{
+		culture = mashriqi
+		religion = sunni
+		size= 1323
+	}
+
+	farmers=
+	{
+		culture = mashriqi
+		religion = sunni
+		size= 123691
+	}
+
+}
+2414 = {
+	soldiers=
+	{
+		culture = kurdish
+		religion = sunni
+		size= 1165
+	}
+
+	artisans=
+	{
+		culture = kurdish
+		religion = sunni
+		size= 975
+	}
+
+	clergymen=
+	{
+		culture = kurdish
+		religion = sunni
+		size= 158
+	}
+
+	bureaucrats=
+	{
+		culture = kurdish
+		religion = sunni
+		size= 48
+	}
+
+	officers=
+	{
+		culture = kurdish
+		religion = sunni
+		size= 39
+	}
+
+	aristocrats=
+	{
+		culture = kurdish
+		religion = sunni
+		size= 205
+	}
+
+	farmers=
+	{
+		culture = kurdish
+		religion = sunni
+		size= 18220
+	}
+
+	soldiers=
+	{
+		culture = kurdish
+		religion = shiite
+		size= 924
+	}
+
+	artisans=
+	{
+		culture = kurdish
+		religion = shiite
+		size= 517
+	}
+
+	clergymen=
+	{
+		culture = kurdish
+		religion = shiite
+		size= 84
+	}
+
+	bureaucrats=
+	{
+		culture = kurdish
+		religion = shiite
+		size= 26
+	}
+
+	officers=
+	{
+		culture = kurdish
+		religion = shiite
+		size= 21
+	}
+
+	aristocrats=
+	{
+		culture = kurdish
+		religion = shiite
+		size= 109
+	}
+
+	farmers=
+	{
+		culture = kurdish
+		religion = shiite
+		size= 14823
+	}
+
+}

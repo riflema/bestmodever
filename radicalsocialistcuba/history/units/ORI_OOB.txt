@@ -1,0 +1,1871 @@
+#Sphere of Influence
+
+ABE = {
+	value = 0
+	level = 2
+}
+AFG = {
+	value = 0
+	level = 2
+}
+AIN = {
+	value = 0
+	level = 2
+}
+AJU = {
+	value = 0
+	level = 2
+}
+ARL = {
+	value = 0
+	level = 2
+}
+ASK = {
+	value = 0
+	level = 2
+}
+ATT = {
+	value = 0
+	level = 2
+}
+AVA = {
+	value = 143
+	influence_value = 23
+	level = 3
+}
+BAU = {
+	value = 0
+	level = 2
+}
+BAV = {
+	value = 0
+	level = 2
+}
+BLC = {
+	value = 85
+	influence_value = 8
+	level = 2
+}
+BLM = {
+	value = 181
+	influence_value = 32
+	level = 4
+}
+BNY = {
+	value = 57
+	influence_value = 1
+	level = 2
+}
+BRA = {
+	value = 0
+	level = 2
+}
+BRD = {
+	value = 79
+	influence_value = 7
+	level = 2
+}
+BRU = {
+	value = 0
+	level = 2
+}
+BRZ = {
+	value = 0
+	level = 2
+}
+BSG = {
+	value = 0
+	level = 2
+}
+BTU = {
+	value = 85
+	influence_value = 8
+	level = 2
+}
+BUR = {
+	value = 0
+	level = 2
+}
+BYT = {
+	value = 0
+	level = 2
+}
+CAD = {
+	value = 0
+	level = 2
+}
+CAM = {
+	value = 79
+	influence_value = 7
+	level = 2
+}
+CAN = {
+	value = 0
+	level = 2
+}
+CAO = {
+	value = 0
+	level = 2
+}
+CCQ = {
+	value = 0
+	level = 2
+}
+CEB = {
+	value = 174
+	influence_value = 31
+	level = 4
+}
+CHM = {
+	value = 0
+	level = 2
+}
+CIR = {
+	value = 0
+	level = 2
+}
+CJA = {
+	value = 0
+	level = 2
+}
+CLI = {
+	value = 0
+	level = 2
+}
+CMA = {
+	value = 0
+	level = 2
+}
+COL = {
+	value = 0
+	level = 2
+}
+CUB = {
+	value = 0
+	level = 2
+}
+DAI = {
+	value = 178
+	influence_value = 32
+	level = 4
+}
+DJA = {
+	value = 77
+	influence_value = 6
+	level = 2
+}
+DLH = {
+	value = 204
+	influence_value = 38
+	level = 4
+}
+ETH = {
+	value = 0
+	level = 2
+}
+FOX = {
+	value = 0
+	level = 2
+}
+FRA = {
+	value = 1
+	level = 2
+}
+FRM = {
+	value = 0
+	level = 2
+}
+GEN = {
+	value = 0
+	level = 2
+}
+GOS = {
+	value = 0
+	level = 2
+}
+HDJ = {
+	value = 0
+	level = 2
+}
+HDR = {
+	value = 94
+	influence_value = 11
+	level = 2
+}
+HES = {
+	value = 0
+	level = 2
+}
+HWM = {
+	value = 0
+	level = 2
+}
+ICH = {
+	value = 0
+	level = 2
+}
+IRO = {
+	value = 0
+	level = 2
+}
+JAP = {
+	value = 0
+	level = 2
+}
+KAN = {
+	value = 83
+	influence_value = 8
+	level = 2
+}
+KED = {
+	value = 2
+	level = 2
+}
+KHA = {
+	value = 0
+	level = 2
+}
+KHO = {
+	value = 0
+	level = 2
+}
+KIK = {
+	value = 73
+	influence_value = 5
+	level = 2
+}
+KLE = {
+	value = 39
+	level = 2
+}
+KNZ = {
+	value = 0
+	level = 2
+}
+KOR = {
+	value = 87
+	influence_value = 9
+	level = 2
+}
+KRW = {
+	value = 80
+	influence_value = 7
+	level = 2
+}
+KUB = {
+	value = 97
+	influence_value = 11
+	level = 2
+}
+LNA = {
+	value = 156
+	influence_value = 26
+	level = 4
+}
+LOM = {
+	value = 0
+	level = 2
+}
+LUX = {
+	value = 0
+	level = 2
+}
+MAG = {
+	value = 0
+	level = 2
+}
+MBZ = {
+	value = 0
+	level = 2
+}
+MCK = {
+	value = 0
+	level = 2
+}
+MDO = {
+	value = 0
+	level = 2
+}
+MEM = {
+	value = 0
+	level = 2
+}
+MGD = {
+	value = 73
+	influence_value = 5
+	level = 2
+}
+MJP = {
+	value = 91
+	influence_value = 10
+	level = 2
+}
+MKA = {
+	value = 0
+	level = 2
+}
+MLC = {
+	value = -22
+	level = 2
+}
+MLH = {
+	value = 0
+	level = 2
+}
+MNP = {
+	value = 0
+	level = 2
+}
+MNX = {
+	value = 0
+	level = 2
+}
+MTL = {
+	value = 0
+	level = 2
+}
+MUL = {
+	value = 82
+	influence_value = 8
+	level = 2
+}
+MUS = {
+	value = 0
+	level = 2
+}
+NET = {
+	value = 0
+	level = 2
+}
+NGA = {
+	value = 55
+	influence_value = 1
+	level = 2
+}
+NHX = {
+	value = 0
+	level = 2
+}
+NTC = {
+	value = 0
+	level = 2
+}
+NUB = {
+	value = 0
+	level = 2
+}
+NVG = {
+	value = 0
+	level = 2
+}
+NVK = {
+	value = 0
+	level = 2
+}
+OHK = {
+	value = 0
+	level = 2
+}
+OIR = {
+	value = 0
+	level = 2
+}
+OLD = {
+	value = 0
+	level = 2
+}
+ORI = {
+	value = 0
+	level = 2
+}
+ORM = {
+	value = 0
+	level = 2
+}
+PAL = {
+	value = 0
+	level = 2
+}
+PAP = {
+	value = 0
+	level = 2
+}
+PAW = {
+	value = 0
+	level = 2
+}
+PGR = {
+	value = 82
+	influence_value = 8
+	level = 2
+}
+PHG = {
+	value = 73
+	influence_value = 5
+	level = 2
+}
+PLC = {
+	value = 0
+	level = 2
+}
+POR = {
+	value = 0
+	level = 2
+}
+PRO = {
+	value = 0
+	level = 2
+}
+PRU = {
+	value = 0
+	level = 2
+}
+PSA = {
+	value = -4
+	level = 2
+}
+PTW = {
+	value = 0
+	level = 2
+}
+QAR = {
+	value = 0
+	level = 2
+}
+REG = {
+	value = 0
+	level = 2
+}
+RYU = {
+	value = 0
+	level = 2
+}
+SCA = {
+	value = 0
+	level = 2
+}
+SCO = {
+	value = 100
+	influence_value = 12
+	level = 2
+}
+SER = {
+	value = 0
+	level = 2
+}
+SHA = {
+	value = -18
+	level = 2
+}
+SIA = {
+	value = -8
+	level = 2
+}
+SIN = {
+	value = 94
+	influence_value = 11
+	level = 2
+}
+SLZ = {
+	value = 0
+	level = 2
+}
+SPA = {
+	value = 73
+	influence_value = 5
+	level = 2
+}
+SUL = {
+	value = 0
+	level = 2
+}
+SUN = {
+	value = 82
+	influence_value = 8
+	level = 2
+}
+SVY = {
+	value = 0
+	level = 2
+}
+SWA = {
+	value = 91
+	influence_value = 10
+	level = 2
+}
+SWI = {
+	value = 0
+	level = 2
+}
+TBK = {
+	value = 0
+	level = 2
+}
+TDO = {
+	value = 76
+	influence_value = 6
+	level = 2
+}
+TER = {
+	value = 0
+	level = 2
+}
+TGT = {
+	value = 0
+	level = 2
+}
+THU = {
+	value = 0
+	level = 2
+}
+TID = {
+	value = 0
+	level = 2
+}
+TLA = {
+	value = 0
+	level = 2
+}
+TRX = {
+	value = 0
+	level = 2
+}
+TTE = {
+	value = 52
+	level = 2
+}
+TUN = {
+	value = 0
+	level = 2
+}
+TUR = {
+	value = 0
+	level = 2
+}
+UBV = {
+	value = 0
+	level = 2
+}
+ULM = {
+	value = 0
+	level = 2
+}
+URU = {
+	value = 0
+	level = 2
+}
+UTS = {
+	value = 79
+	influence_value = 7
+	level = 2
+}
+VEN = {
+	value = 0
+	level = 2
+}
+VRM = {
+	value = 0
+	level = 2
+}
+WBG = {
+	value = 0
+	level = 2
+}
+WES = {
+	value = 0
+	level = 2
+}
+WNR = {
+	value = 0
+	level = 2
+}
+X02 = {
+	value = 0
+	level = 2
+}
+X03 = {
+	value = 0
+	level = 2
+}
+X04 = {
+	value = 0
+	level = 2
+}
+X09 = {
+	value = 0
+	level = 2
+}
+X10 = {
+	value = 0
+	level = 2
+}
+X11 = {
+	value = 91
+	influence_value = 10
+	level = 2
+}
+YEM = {
+	value = 0
+	level = 2
+}
+ZIM = {
+	value = 0
+	level = 2
+}
+
+#Leaders
+leader = {
+	name="Rudra Velama"
+	date="1800.7.8"
+	type=land
+	personality="coolminded"
+	background="bootlicker"
+}
+
+leader = {
+	name="Pratâprudra Deo"
+	date="1816.8.2"
+	type=sea
+	personality="active_p"
+	background="aristocrat"
+}
+
+leader = {
+	name="Raghurâma Chhotra Bhowarbar"
+	date="1816.10.15"
+	type=land
+	personality="stalwart"
+	background="generals_aide"
+}
+
+leader = {
+	name="Ananga Roy"
+	date="1816.10.18"
+	type=land
+	personality="balanced_p"
+	background="generals_aide"
+}
+
+leader = {
+	name="Anantavarman Vansa"
+	date="1818.3.6"
+	type=sea
+	personality="stalwart"
+	background="uncommonly_young"
+}
+
+leader = {
+	name="Jagat Poosapati"
+	date="1820.7.11"
+	type=land
+	personality="unflinching"
+	background="cavalry_school"
+}
+
+
+#Armies
+navy = {
+	name="1st Fleet"
+	location=1261
+	ship = {
+		name="2nd  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="1st  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="1st  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="1st  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="1st  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="1st  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="1st  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="2nd  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="2nd  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="1st  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="3rd  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="4th  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="3rd  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="1st  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="2nd  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="5th  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="1st  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="3rd  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="4th  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="1st  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="3rd  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="6th  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="4th  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="7th  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="4th  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="1st  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="1st  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="2nd  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="5th  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="1st  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="2nd  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="2nd  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="6th  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="7th  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="1st Orissi Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="8th  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="3rd  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="3rd  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="1st  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="9th  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="10th  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="11th  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="8th  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="5th  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="12th  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="2nd  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="9th  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="10th  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="13th  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="4th  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="14th  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="11th  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="5th  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="2nd  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="17th  Man'o'war"
+		type=manowar
+	}
+}
+
+army = {
+	name="4th Army"
+	location=1245
+	regiment = {
+		name="1st  Irregulars"
+		type=irregular
+		home=1315
+	}
+	regiment = {
+		name="1st  Irregulars"
+		type=irregular
+		home=1285
+	}
+	regiment = {
+		name="1st  Irregulars"
+		type=irregular
+		home=1279
+	}
+	regiment = {
+		name="1st  Artillery"
+		type=artillery
+		home=1309
+	}
+	regiment = {
+		name="1st  Artillery"
+		type=artillery
+		home=1304
+	}
+	regiment = {
+		name="1st  Artillery"
+		type=artillery
+		home=1253
+	}
+	regiment = {
+		name="1st  Artillery"
+		type=artillery
+		home=1257
+	}
+	regiment = {
+		name="1st  Irregulars"
+		type=irregular
+		home=1301
+	}
+	regiment = {
+		name="1st  Artillery"
+		type=artillery
+		home=1282
+	}
+}
+
+army = {
+	name="17th Army"
+	location=1332
+	regiment = {
+		name="1st  Irregulars"
+		type=irregular
+		home=1261
+	}
+	regiment = {
+		name="2nd  Irregulars"
+		type=irregular
+		home=1261
+	}
+	regiment = {
+		name="1st  Irregulars"
+		type=irregular
+		home=1252
+	}
+	regiment = {
+		name="3rd  Irregulars"
+		type=irregular
+		home=1261
+	}
+	regiment = {
+		name="1st  Artillery"
+		type=artillery
+		home=1285
+	}
+	regiment = {
+		name="1st  Artillery"
+		type=artillery
+		home=1286
+	}
+	regiment = {
+		name="1st  Artillery"
+		type=artillery
+		home=1305
+	}
+	regiment = {
+		name="2nd  Artillery"
+		type=artillery
+		home=1305
+	}
+	regiment = {
+		name="16th  Irregulars"
+		type=irregular
+		home=1261
+	}
+	regiment = {
+		name="2nd  Artillery"
+		type=artillery
+		home=1308
+	}
+}
+
+navy = {
+	name="8th Fleet"
+	location=1261
+	ship = {
+		name="2nd  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="1st  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="2nd  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="3rd  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="15th  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="16th  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="1st  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="2nd  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="2nd  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="2nd  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="3rd  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="2nd  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="2nd  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="3rd  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="3rd  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="4th  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="5th  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="3rd  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="3rd  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="2nd  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="4th  Frigate"
+		type=frigate
+	}
+}
+
+navy = {
+	name="10th Fleet"
+	location=1261
+	ship = {
+		name="2nd  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="6th  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="7th  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="4th  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="8th  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="4th  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="9th  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st  Frigate"
+		type=frigate
+	}
+}
+
+navy = {
+	name="2nd Fleet"
+	location=1261
+	ship = {
+		name="2nd  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="4th  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="5th  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="2nd  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="3rd  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="5th  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="10th  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st Orissi Frigate"
+		type=frigate
+	}
+	ship = {
+		name="3rd  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="11th  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="6th  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st  Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st  Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st  Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st  Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st  Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd  Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd  Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st  Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st  Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd  Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st  Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd  Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd  Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st  Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd  Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd  Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="3rd  Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="3rd  Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="3rd  Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="3rd  Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st  Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st  Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st  Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="3rd  Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd  Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="3rd  Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="4th  Clipper Transport"
+		type=clipper_transport
+	}
+}
+
+army = {
+	name="15th Army"
+	location=1398
+	regiment = {
+		name="1st  Irregulars"
+		type=irregular
+		home=1308
+	}
+	regiment = {
+		name="4th  Irregulars"
+		type=irregular
+		home=1261
+	}
+	regiment = {
+		name="1st  Irregulars"
+		type=irregular
+		home=1262
+	}
+	regiment = {
+		name="1st  Irregulars"
+		type=irregular
+		home=1307
+	}
+	regiment = {
+		name="1st  Irregulars"
+		type=irregular
+		home=1286
+	}
+	regiment = {
+		name="1st  Artillery"
+		type=artillery
+		home=1283
+	}
+	regiment = {
+		name="1st  Artillery"
+		type=artillery
+		home=2566
+	}
+	regiment = {
+		name="2nd  Artillery"
+		type=artillery
+		home=1283
+	}
+	regiment = {
+		name="1st  Artillery"
+		type=artillery
+		home=1261
+	}
+	regiment = {
+		name="2nd  Artillery"
+		type=artillery
+		home=1261
+	}
+	regiment = {
+		name="4th  Irregulars"
+		type=irregular
+		home=1286
+	}
+	regiment = {
+		name="1st  Artillery"
+		type=artillery
+		home=1307
+	}
+}
+
+army = {
+	name="13th Army"
+	location=1339
+	regiment = {
+		name="2nd  Irregulars"
+		type=irregular
+		home=1315
+	}
+	regiment = {
+		name="1st  Irregulars"
+		type=irregular
+		home=1300
+	}
+	regiment = {
+		name="5th  Irregulars"
+		type=irregular
+		home=1261
+	}
+	regiment = {
+		name="2nd  Irregulars"
+		type=irregular
+		home=1308
+	}
+	regiment = {
+		name="1st  Artillery"
+		type=artillery
+		home=1251
+	}
+	regiment = {
+		name="1st  Artillery"
+		type=artillery
+		home=1254
+	}
+	regiment = {
+		name="3rd  Artillery"
+		type=artillery
+		home=1283
+	}
+	regiment = {
+		name="3rd  Artillery"
+		type=artillery
+		home=1305
+	}
+	regiment = {
+		name="1st  Artillery"
+		type=artillery
+		home=1312
+	}
+	regiment = {
+		name="1st  Irregulars"
+		type=irregular
+		home=1345
+	}
+	regiment = {
+		name="1st  Artillery"
+		type=artillery
+		home=1297
+	}
+}
+
+army = {
+	name="38th Army"
+	location=1332
+	regiment = {
+		name="1st  Irregulars"
+		type=irregular
+		home=1302
+	}
+	regiment = {
+		name="1st  Irregulars"
+		type=irregular
+		home=1303
+	}
+}
+
+army = {
+	name="Free Company"
+	location=1332
+	regiment = {
+		name="1st  Irregulars"
+		type=irregular
+		home=1253
+	}
+	regiment = {
+		name="2nd  Irregulars"
+		type=irregular
+		home=1253
+	}
+	regiment = {
+		name="3rd  Irregulars"
+		type=irregular
+		home=1253
+	}
+	regiment = {
+		name="4th  Irregulars"
+		type=irregular
+		home=1253
+	}
+	regiment = {
+		name="5th  Irregulars"
+		type=irregular
+		home=1253
+	}
+	regiment = {
+		name="6th  Irregulars"
+		type=irregular
+		home=1253
+	}
+}
+
+army = {
+	name="Grand Company"
+	location=1330
+	regiment = {
+		name="2nd  Irregulars"
+		type=irregular
+		home=1286
+	}
+	regiment = {
+		name="1st  Irregulars"
+		type=irregular
+		home=1406
+	}
+	regiment = {
+		name="2nd  Irregulars"
+		type=irregular
+		home=1406
+	}
+	regiment = {
+		name="6th  Irregulars"
+		type=irregular
+		home=1261
+	}
+	regiment = {
+		name="3rd  Irregulars"
+		type=irregular
+		home=1286
+	}
+	regiment = {
+		name="3rd  Irregulars"
+		type=irregular
+		home=1406
+	}
+}
+
+army = {
+	name="130th Army"
+	location=1248
+	regiment = {
+		name="1st  Artillery"
+		type=artillery
+		home=1279
+	}
+	regiment = {
+		name="1st  Artillery"
+		type=artillery
+		home=1308
+	}
+	regiment = {
+		name="2nd  Artillery"
+		type=artillery
+		home=1279
+	}
+}
+
+army = {
+	name="Independent Army"
+	location=1332
+	regiment = {
+		name="2nd  Irregulars"
+		type=irregular
+		home=1262
+	}
+	regiment = {
+		name="3rd  Irregulars"
+		type=irregular
+		home=1262
+	}
+	regiment = {
+		name="4th  Irregulars"
+		type=irregular
+		home=1262
+	}
+	regiment = {
+		name="5th  Irregulars"
+		type=irregular
+		home=1262
+	}
+	regiment = {
+		name="6th  Irregulars"
+		type=irregular
+		home=1262
+	}
+	regiment = {
+		name="7th  Irregulars"
+		type=irregular
+		home=1262
+	}
+}
+
+army = {
+	name="144th Army"
+	location=1330
+	regiment = {
+		name="2nd  Irregulars"
+		type=irregular
+		home=1285
+	}
+	regiment = {
+		name="1st  Irregulars"
+		type=irregular
+		home=1263
+	}
+	regiment = {
+		name="2nd  Artillery"
+		type=artillery
+		home=1304
+	}
+	regiment = {
+		name="1st  Artillery"
+		type=artillery
+		home=1302
+	}
+	regiment = {
+		name="2nd  Artillery"
+		type=artillery
+		home=1307
+	}
+}
+
+army = {
+	name="Gosains"
+	location=1337
+	regiment = {
+		name="1st  Irregulars"
+		type=irregular
+		home=1255
+	}
+	regiment = {
+		name="2nd  Irregulars"
+		type=irregular
+		home=1252
+	}
+	regiment = {
+		name="2nd  Irregulars"
+		type=irregular
+		home=1255
+	}
+	regiment = {
+		name="3rd  Irregulars"
+		type=irregular
+		home=1252
+	}
+	regiment = {
+		name="3rd  Irregulars"
+		type=irregular
+		home=1255
+	}
+	regiment = {
+		name="1st  Artillery"
+		type=artillery
+		home=1252
+	}
+	regiment = {
+		name="1st  Artillery"
+		type=artillery
+		home=1255
+	}
+	regiment = {
+		name="2nd  Artillery"
+		type=artillery
+		home=1252
+	}
+	regiment = {
+		name="4th  Irregulars"
+		type=irregular
+		home=1255
+	}
+	regiment = {
+		name="3rd  Artillery"
+		type=artillery
+		home=1252
+	}
+}
+
+army = {
+	name="Purbiyas"
+	location=1330
+	regiment = {
+		name="7th  Irregulars"
+		type=irregular
+		home=1261
+	}
+	regiment = {
+		name="8th  Irregulars"
+		type=irregular
+		home=1261
+	}
+	regiment = {
+		name="9th  Irregulars"
+		type=irregular
+		home=1261
+	}
+	regiment = {
+		name="10th  Irregulars"
+		type=irregular
+		home=1261
+	}
+	regiment = {
+		name="11th  Irregulars"
+		type=irregular
+		home=1261
+	}
+	regiment = {
+		name="12th  Irregulars"
+		type=irregular
+		home=1261
+	}
+	regiment = {
+		name="3rd  Artillery"
+		type=artillery
+		home=1261
+	}
+	regiment = {
+		name="4th  Artillery"
+		type=artillery
+		home=1261
+	}
+	regiment = {
+		name="5th  Artillery"
+		type=artillery
+		home=1261
+	}
+	regiment = {
+		name="8th  Artillery"
+		type=artillery
+		home=1261
+	}
+}
+
+army = {
+	name="Company of the Ganges"
+	location=1245
+	regiment = {
+		name="1st  Irregulars"
+		type=irregular
+		home=1254
+	}
+	regiment = {
+		name="2nd  Irregulars"
+		type=irregular
+		home=1254
+	}
+	regiment = {
+		name="3rd  Irregulars"
+		type=irregular
+		home=1254
+	}
+	regiment = {
+		name="4th  Irregulars"
+		type=irregular
+		home=1254
+	}
+	regiment = {
+		name="5th  Irregulars"
+		type=irregular
+		home=1254
+	}
+	regiment = {
+		name="6th  Irregulars"
+		type=irregular
+		home=1254
+	}
+}
+
+army = {
+	name="Tamil Company"
+	location=1593
+	regiment = {
+		name="1st  Irregulars"
+		type=irregular
+		home=1251
+	}
+	regiment = {
+		name="2nd  Irregulars"
+		type=irregular
+		home=1251
+	}
+	regiment = {
+		name="3rd  Irregulars"
+		type=irregular
+		home=1251
+	}
+	regiment = {
+		name="4th  Irregulars"
+		type=irregular
+		home=1251
+	}
+	regiment = {
+		name="5th  Irregulars"
+		type=irregular
+		home=1251
+	}
+	regiment = {
+		name="2nd  Artillery"
+		type=artillery
+		home=1251
+	}
+	regiment = {
+		name="3rd  Artillery"
+		type=artillery
+		home=1251
+	}
+	regiment = {
+		name="4th  Artillery"
+		type=artillery
+		home=1251
+	}
+	regiment = {
+		name="6th  Irregulars"
+		type=irregular
+		home=1251
+	}
+}
+
+army = {
+	name="Banjara Company"
+	location=1332
+	regiment = {
+		name="13th  Irregulars"
+		type=irregular
+		home=1261
+	}
+	regiment = {
+		name="14th  Irregulars"
+		type=irregular
+		home=1261
+	}
+	regiment = {
+		name="6th  Artillery"
+		type=artillery
+		home=1261
+	}
+	regiment = {
+		name="15th  Irregulars"
+		type=irregular
+		home=1261
+	}
+	regiment = {
+		name="7th  Artillery"
+		type=artillery
+		home=1261
+	}
+}
+
