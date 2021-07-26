@@ -1,6 +1,0 @@
-owner=PLC
-controller=PLC
-add_core=ROM
-add_core=WAL
-trade_goods = grain
-life_rating = 35

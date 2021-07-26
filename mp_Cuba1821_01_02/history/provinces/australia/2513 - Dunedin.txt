@@ -1,8 +1,0 @@
-owner=X11
-controller=X11
-add_core=AOT
-add_core=SNZ
-trade_goods = wool
-life_rating = 30
-terrain = hills
-naval_base = 2

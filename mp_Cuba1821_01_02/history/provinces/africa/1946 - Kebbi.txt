@@ -1,8 +1,0 @@
-owner=NET
-controller=NET
-add_core=HAU
-add_core=MOR
-trade_goods = cattle
-life_rating = 35
-terrain = semidesert
-colonial=2

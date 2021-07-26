@@ -1,8 +1,0 @@
-owner=PLC
-controller=MUS
-add_core=LIT
-add_core=MUS
-add_core=RUS
-trade_goods = coal
-life_rating = 40
-terrain = mining_district
