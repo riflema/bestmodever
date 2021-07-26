@@ -1,0 +1,8 @@
+owner=NET
+controller=NET
+add_core=AYR
+add_core=KAN
+trade_goods = cattle
+life_rating = 10
+terrain = plains
+colonial=2

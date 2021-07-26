@@ -1,0 +1,6 @@
+owner=VRM
+controller=VRM
+add_core=VRM
+trade_goods = grain
+life_rating = 35
+terrain = steppe

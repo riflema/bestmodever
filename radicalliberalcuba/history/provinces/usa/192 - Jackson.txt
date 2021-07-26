@@ -1,0 +1,9 @@
+owner=VRM
+controller=VRM
+add_core=CAD
+add_core=CCW
+add_core=NTZ
+add_core=QUI
+trade_goods = cotton
+life_rating = 35
+terrain = farmlands

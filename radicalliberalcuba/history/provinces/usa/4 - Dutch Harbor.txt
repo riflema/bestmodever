@@ -1,0 +1,12 @@
+owner=CUB
+controller=CUB
+add_core=CUB
+trade_goods = fish
+life_rating = 20
+terrain = arctic
+state_building=
+{
+	level=1
+	building = explosives_factory
+	upgrade = yes
+}

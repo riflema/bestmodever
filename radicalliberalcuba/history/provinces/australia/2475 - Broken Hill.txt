@@ -1,0 +1,9 @@
+owner=X11
+controller=X11
+add_core=ABO
+add_core=AUE
+add_core=AUI
+add_core=X11
+trade_goods = grain
+life_rating = 30
+terrain = plains

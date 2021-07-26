@@ -1,0 +1,417 @@
+2228 = {
+	slaves=
+	{
+		culture = carribean
+		religion = animist
+		size= 15914
+	}
+
+	soldiers=
+	{
+		culture = carribean
+		religion = animist
+		size= 489
+	}
+
+	artisans=
+	{
+		culture = carribean
+		religion = animist
+		size= 44
+	}
+
+	clergymen=
+	{
+		culture = carribean
+		religion = animist
+		size= 8
+	}
+
+	bureaucrats=
+	{
+		culture = carribean
+		religion = animist
+		size= 3
+	}
+
+	officers=
+	{
+		culture = carribean
+		religion = animist
+		size= 2
+	}
+
+	aristocrats=
+	{
+		culture = carribean
+		religion = animist
+		size= 9
+	}
+
+	farmers=
+	{
+		culture = carribean
+		religion = animist
+		size= 1003
+	}
+
+	slaves=
+	{
+		culture = afro_norse
+		religion = protestant
+		size= 7749
+	}
+
+	soldiers=
+	{
+		culture = maximilianish
+		religion = protestant
+		size= 238
+	}
+
+	artisans=
+	{
+		culture = maximilianish
+		religion = protestant
+		size= 216
+	}
+
+	clergymen=
+	{
+		culture = maximilianish
+		religion = protestant
+		size= 41
+	}
+
+	bureaucrats=
+	{
+		culture = maximilianish
+		religion = protestant
+		size= 15
+	}
+
+	officers=
+	{
+		culture = maximilianish
+		religion = protestant
+		size= 9
+	}
+
+	aristocrats=
+	{
+		culture = maximilianish
+		religion = protestant
+		size= 45
+	}
+
+	farmers=
+	{
+		culture = maximilianish
+		religion = protestant
+		size= 217
+	}
+
+	slaves=
+	{
+		culture = afro_norse
+		religion = hussite
+		size= 1395
+	}
+
+	soldiers=
+	{
+		culture = maximilianish
+		religion = hussite
+		size= 43
+	}
+
+	artisans=
+	{
+		culture = maximilianish
+		religion = hussite
+		size= 290
+	}
+
+	clergymen=
+	{
+		culture = maximilianish
+		religion = hussite
+		size= 54
+	}
+
+	bureaucrats=
+	{
+		culture = maximilianish
+		religion = hussite
+		size= 20
+	}
+
+	officers=
+	{
+		culture = maximilianish
+		religion = hussite
+		size= 12
+	}
+
+	aristocrats=
+	{
+		culture = maximilianish
+		religion = hussite
+		size= 61
+	}
+
+	slaves=
+	{
+		culture = afro_slavic
+		religion = hussite
+		size= 43518
+	}
+
+	soldiers=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 1338
+	}
+
+	artisans=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 2461
+	}
+
+	clergymen=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 462
+	}
+
+	bureaucrats=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 172
+	}
+
+	officers=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 98
+	}
+
+	aristocrats=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 517
+	}
+
+}
+2230 = {
+	slaves=
+	{
+		culture = carribean
+		religion = animist
+		size= 15014
+	}
+
+	soldiers=
+	{
+		culture = carribean
+		religion = animist
+		size= 465
+	}
+
+	artisans=
+	{
+		culture = carribean
+		religion = animist
+		size= 145
+	}
+
+	clergymen=
+	{
+		culture = carribean
+		religion = animist
+		size= 8
+	}
+
+	bureaucrats=
+	{
+		culture = carribean
+		religion = animist
+		size= 2
+	}
+
+	officers=
+	{
+		culture = carribean
+		religion = animist
+		size= 2
+	}
+
+	aristocrats=
+	{
+		culture = carribean
+		religion = animist
+		size= 17
+	}
+
+	farmers=
+	{
+		culture = carribean
+		religion = animist
+		size= 966
+	}
+
+	slaves=
+	{
+		culture = afro_norse
+		religion = protestant
+		size= 8042
+	}
+
+	soldiers=
+	{
+		culture = maximilianish
+		religion = protestant
+		size= 249
+	}
+
+	artisans=
+	{
+		culture = maximilianish
+		religion = protestant
+		size= 747
+	}
+
+	clergymen=
+	{
+		culture = maximilianish
+		religion = protestant
+		size= 40
+	}
+
+	bureaucrats=
+	{
+		culture = maximilianish
+		religion = protestant
+		size= 10
+	}
+
+	officers=
+	{
+		culture = maximilianish
+		religion = protestant
+		size= 9
+	}
+
+	aristocrats=
+	{
+		culture = maximilianish
+		religion = protestant
+		size= 90
+	}
+
+	slaves=
+	{
+		culture = afro_norse
+		religion = hussite
+		size= 1411
+	}
+
+	soldiers=
+	{
+		culture = maximilianish
+		religion = hussite
+		size= 44
+	}
+
+	artisans=
+	{
+		culture = maximilianish
+		religion = hussite
+		size= 1003
+	}
+
+	clergymen=
+	{
+		culture = maximilianish
+		religion = hussite
+		size= 54
+	}
+
+	bureaucrats=
+	{
+		culture = maximilianish
+		religion = hussite
+		size= 14
+	}
+
+	officers=
+	{
+		culture = maximilianish
+		religion = hussite
+		size= 11
+	}
+
+	aristocrats=
+	{
+		culture = maximilianish
+		religion = hussite
+		size= 120
+	}
+
+	slaves=
+	{
+		culture = afro_slavic
+		religion = hussite
+		size= 39972
+	}
+
+	soldiers=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 1239
+	}
+
+	artisans=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 8090
+	}
+
+	clergymen=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 433
+	}
+
+	bureaucrats=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 116
+	}
+
+	officers=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 92
+	}
+
+	aristocrats=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 971
+	}
+
+}

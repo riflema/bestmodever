@@ -1,0 +1,7 @@
+owner=FOX
+controller=FOX
+add_core=FOX
+add_core=SIO
+trade_goods = iron
+life_rating = 35
+terrain = forest

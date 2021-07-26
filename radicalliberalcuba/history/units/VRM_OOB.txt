@@ -1,0 +1,795 @@
+#Sphere of Influence
+
+ABE = {
+	value = -29
+	level = 2
+}
+AFG = {
+	value = 0
+	level = 2
+}
+AJU = {
+	value = 0
+	level = 2
+}
+ATT = {
+	value = 97
+	influence_value = 11
+	level = 2
+}
+AVA = {
+	value = 0
+	level = 2
+}
+BAU = {
+	value = 0
+	level = 2
+}
+BAV = {
+	value = 0
+	level = 2
+}
+BLC = {
+	value = 0
+	level = 2
+}
+BLM = {
+	value = 0
+	level = 2
+}
+BNY = {
+	value = 0
+	level = 2
+}
+BRA = {
+	value = 0
+	level = 2
+}
+BRD = {
+	value = 0
+	level = 2
+}
+BRU = {
+	value = 0
+	level = 2
+}
+BRZ = {
+	value = -3
+	level = 2
+}
+BSG = {
+	value = 0
+	level = 2
+}
+BTU = {
+	value = 0
+	level = 2
+}
+BUR = {
+	value = 0
+	level = 2
+}
+BYT = {
+	value = 0
+	level = 2
+}
+CAD = {
+	value = 0
+	level = 2
+}
+CAM = {
+	value = 0
+	level = 2
+}
+CAN = {
+	value = 96
+	influence_value = 11
+	level = 3
+}
+CAO = {
+	value = -5
+	level = 2
+}
+CCQ = {
+	value = 0
+	level = 2
+}
+CEB = {
+	value = 0
+	level = 2
+}
+CIR = {
+	value = 0
+	level = 2
+}
+CJA = {
+	value = 0
+	level = 2
+}
+CLI = {
+	value = 24
+	level = 2
+}
+COL = {
+	value = -17
+	level = 2
+}
+CRI = {
+	value = 0
+	level = 2
+}
+CUB = {
+	value = -28
+	level = 2
+}
+DAI = {
+	value = 0
+	level = 2
+}
+DJA = {
+	value = 0
+	level = 2
+}
+DLH = {
+	value = 0
+	level = 2
+}
+ETH = {
+	value = 0
+	level = 2
+}
+FOX = {
+	value = -32
+	level = 2
+}
+FRA = {
+	value = 0
+	level = 2
+}
+FRM = {
+	value = 0
+	level = 2
+}
+GEN = {
+	value = 0
+	level = 2
+}
+GOS = {
+	value = 0
+	level = 2
+}
+HDR = {
+	value = 0
+	level = 2
+}
+HES = {
+	value = 0
+	level = 2
+}
+HWM = {
+	value = 0
+	level = 2
+}
+IRO = {
+	value = -68
+	level = 2
+}
+JAP = {
+	value = 0
+	level = 2
+}
+KAN = {
+	value = 0
+	level = 2
+}
+KED = {
+	value = 0
+	level = 2
+}
+KHA = {
+	value = 0
+	level = 2
+}
+KIK = {
+	value = 0
+	level = 2
+}
+KLE = {
+	value = 0
+	level = 2
+}
+KNZ = {
+	value = 0
+	level = 2
+}
+KOR = {
+	value = 0
+	level = 2
+}
+KRW = {
+	value = 0
+	level = 2
+}
+KUB = {
+	value = 0
+	level = 2
+}
+LNA = {
+	value = 0
+	level = 2
+}
+LOM = {
+	value = 0
+	level = 2
+}
+LUX = {
+	value = 0
+	level = 2
+}
+MAG = {
+	value = 0
+	level = 2
+}
+MBZ = {
+	value = 0
+	level = 2
+}
+MCK = {
+	value = 0
+	level = 2
+}
+MDO = {
+	value = 0
+	level = 2
+}
+MEM = {
+	value = 0
+	level = 2
+}
+MGD = {
+	value = 0
+	level = 2
+}
+MJP = {
+	value = 0
+	level = 2
+}
+MKA = {
+	value = 0
+	level = 2
+}
+MLC = {
+	value = 0
+	level = 2
+}
+MLH = {
+	value = 0
+	level = 2
+}
+MNX = {
+	value = 0
+	level = 2
+}
+MUL = {
+	value = 0
+	level = 2
+}
+MUS = {
+	value = 0
+	level = 2
+}
+NAV = {
+	value = 0
+	level = 2
+}
+NET = {
+	value = 51
+	level = 2
+}
+NGA = {
+	value = 0
+	level = 2
+}
+NHX = {
+	value = 0
+	level = 2
+}
+NTC = {
+	value = 52
+	level = 2
+}
+NUB = {
+	value = 0
+	level = 2
+}
+NVK = {
+	value = 0
+	level = 2
+}
+OHK = {
+	value = 27
+	level = 2
+}
+OIR = {
+	value = 0
+	level = 2
+}
+OLD = {
+	value = 33
+	level = 2
+}
+ORI = {
+	value = 0
+	level = 2
+}
+ORM = {
+	value = 0
+	level = 2
+}
+PAL = {
+	value = 0
+	level = 2
+}
+PAP = {
+	value = 0
+	level = 2
+}
+PAW = {
+	value = 0
+	level = 2
+}
+PGR = {
+	value = 0
+	level = 2
+}
+PHG = {
+	value = 0
+	level = 2
+}
+PLC = {
+	value = 0
+	level = 2
+}
+POR = {
+	value = 0
+	level = 2
+}
+PRO = {
+	value = 0
+	level = 2
+}
+PRU = {
+	value = 0
+	level = 2
+}
+PSA = {
+	value = 0
+	level = 2
+}
+QAR = {
+	value = 0
+	level = 2
+}
+REG = {
+	value = 0
+	level = 2
+}
+RYU = {
+	value = 0
+	level = 2
+}
+SCA = {
+	value = 157
+	influence_value = 26
+	level = 3
+}
+SCO = {
+	value = 0
+	level = 2
+}
+SER = {
+	value = 0
+	level = 2
+}
+SHA = {
+	value = 0
+	level = 2
+}
+SIA = {
+	value = 0
+	level = 2
+}
+SIN = {
+	value = 0
+	level = 2
+}
+SLZ = {
+	value = 0
+	level = 2
+}
+SPA = {
+	value = 0
+	level = 2
+}
+SUL = {
+	value = 0
+	level = 2
+}
+SUN = {
+	value = 0
+	level = 2
+}
+SVY = {
+	value = 0
+	level = 2
+}
+SWA = {
+	value = 0
+	level = 2
+}
+SWE = {
+	value = 0
+	level = 2
+}
+SWI = {
+	value = 0
+	level = 2
+}
+TBK = {
+	value = 0
+	level = 2
+}
+TDO = {
+	value = 0
+	level = 2
+}
+TER = {
+	value = 0
+	level = 2
+}
+TGT = {
+	value = 0
+	level = 2
+}
+THU = {
+	value = 0
+	level = 2
+}
+TID = {
+	value = 0
+	level = 2
+}
+TLA = {
+	value = 0
+	level = 2
+}
+TRX = {
+	value = 0
+	level = 2
+}
+TTE = {
+	value = 0
+	level = 2
+}
+TUN = {
+	value = 0
+	level = 2
+}
+TUR = {
+	value = 0
+	level = 2
+}
+UBV = {
+	value = 0
+	level = 2
+}
+ULM = {
+	value = 0
+	level = 2
+}
+URU = {
+	value = 0
+	level = 2
+}
+UTS = {
+	value = 0
+	level = 2
+}
+VEN = {
+	value = 0
+	level = 2
+}
+VRM = {
+	value = 0
+	level = 2
+}
+WBG = {
+	value = 0
+	level = 2
+}
+WES = {
+	value = 0
+	level = 2
+}
+WNR = {
+	value = 49
+	level = 2
+}
+X02 = {
+	value = 0
+	level = 2
+}
+X03 = {
+	value = 236
+	military_access = yes
+	influence_value = 96
+	level = 5
+}
+X04 = {
+	value = 0
+	level = 2
+}
+X09 = {
+	value = 0
+	level = 2
+}
+X10 = {
+	value = 0
+	level = 2
+}
+X11 = {
+	value = -3
+	level = 2
+}
+YEM = {
+	value = 0
+	level = 2
+}
+YOK = {
+	value = 0
+	level = 2
+}
+ZIM = {
+	value = 0
+	level = 2
+}
+
+#Leaders
+leader = {
+	name="Inácio Coelho"
+	date="1819.3.29"
+	type=land
+	personality="coolminded"
+	background="natural_born_leader"
+}
+
+leader = {
+	name="Francisco Xavier Rodrigues"
+	date="1819.7.9"
+	type=land
+	personality="coolminded"
+	background="uncommonly_young"
+}
+
+leader = {
+	name="Francisco de Bragança"
+	date="1819.11.22"
+	type=land
+	personality="intuitive"
+	background="generals_aide"
+}
+
+leader = {
+	name="Henrique Gonçalves"
+	date="1820.1.6"
+	type=land
+	personality="stalwart"
+	background="artillerist"
+}
+
+
+#Armies
+navy = {
+	name="1st Fleet"
+	location=2965
+	ship = {
+		name="2nd Norfolk Frigate"
+		type=frigate
+	}
+	ship = {
+		name="3rd Vermonter Frigate"
+		type=frigate
+	}
+	ship = {
+		name="3rd Norfolk Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st Providence Frigate"
+		type=frigate
+	}
+	ship = {
+		name="2nd Providence Frigate"
+		type=frigate
+	}
+	ship = {
+		name="2nd Boston Frigate"
+		type=frigate
+	}
+	ship = {
+		name="4th Norfolk Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st Long Island Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st Hartford Frigate"
+		type=frigate
+	}
+	ship = {
+		name="2nd New Bedford Frigate"
+		type=frigate
+	}
+	ship = {
+		name="4th Vermonter Frigate"
+		type=frigate
+	}
+}
+
+army = {
+	name="12th Army"
+	location=13
+	regiment = {
+		name="1st Laredo Infantry"
+		type=infantry
+		home=138
+	}
+	regiment = {
+		name="1st El Paso Infantry"
+		type=infantry
+		home=136
+	}
+}
+
+army = {
+	name="41st Army"
+	location=13
+	regiment = {
+		name="1st Pittsfield Infantry"
+		type=infantry
+		home=245
+	}
+	regiment = {
+		name="1st Wichita Infantry"
+		type=infantry
+		home=128
+	}
+	regiment = {
+		name="1st Jackson Infantry"
+		type=infantry
+		home=192
+	}
+	regiment = {
+		name="1st Las Cruces Infantry"
+		type=infantry
+		home=105
+	}
+	regiment = {
+		name="1st Phoenix Artillery"
+		type=artillery
+		home=100
+	}
+	regiment = {
+		name="2nd Las Cruces Infantry"
+		type=infantry
+		home=105
+	}
+	regiment = {
+		name="1st Alliance Artillery"
+		type=artillery
+		home=124
+	}
+	regiment = {
+		name="1st Las Cruces Artillery"
+		type=artillery
+		home=105
+	}
+	regiment = {
+		name="2nd Alliance Artillery"
+		type=artillery
+		home=124
+	}
+}
+
+army = {
+	name="8th Army"
+	location=15
+	regiment = {
+		name="1st Alliance Infantry"
+		type=infantry
+		home=124
+	}
+	regiment = {
+		name="1st Goodland Infantry"
+		type=infantry
+		home=127
+	}
+}
+
+army = {
+	name="1st Army"
+	location=202
+	regiment = {
+		name="1st Hartford Infantry"
+		type=infantry
+		home=241
+	}
+	regiment = {
+		name="2nd Hartford Infantry"
+		type=infantry
+		home=241
+	}
+	regiment = {
+		name="1st Trenton Infantry"
+		type=infantry
+		home=230
+	}
+	regiment = {
+		name="2nd Pittsfield Infantry"
+		type=infantry
+		home=245
+	}
+	regiment = {
+		name="1st Richmond Artillery"
+		type=artillery
+		home=211
+	}
+	regiment = {
+		name="1st Wilmington Artillery"
+		type=artillery
+		home=210
+	}
+	regiment = {
+		name="1st Charleston Artillery"
+		type=artillery
+		home=205
+	}
+	regiment = {
+		name="2nd Wilmington Artillery"
+		type=artillery
+		home=210
+	}
+}
+
+army = {
+	name="32nd Army"
+	location=116
+	regiment = {
+		name="2nd Goodland Infantry"
+		type=infantry
+		home=127
+	}
+	regiment = {
+		name="1st Billings Infantry"
+		type=infantry
+		home=116
+	}
+}
+
+army = {
+	name="3rd Army"
+	location=19
+	regiment = {
+		name="1st Bismarck Infantry"
+		type=infantry
+		home=117
+	}
+	regiment = {
+		name="1st Topeka Infantry"
+		type=infantry
+		home=126
+	}
+}
+

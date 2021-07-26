@@ -1,0 +1,8 @@
+owner=FOX
+controller=FOX
+add_core=CLG
+add_core=FOX
+add_core=HWK
+trade_goods = coal
+life_rating = 35
+terrain = woods

@@ -1,0 +1,15 @@
+owner=VEN
+controller=GEN
+add_core=ITA
+add_core=LOM
+add_core=VEN
+trade_goods = iron
+life_rating = 35
+terrain = farmlands
+fort = 1
+state_building=
+{
+	level=1
+	building = steel_factory
+	upgrade = yes
+}

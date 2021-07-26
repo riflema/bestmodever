@@ -1,0 +1,10 @@
+owner=TUR
+controller=TUR
+add_core=ALH
+add_core=ARA
+add_core=ORM
+trade_goods = grain
+life_rating = 35
+terrain = desert
+colonial=2
+naval_base = 1

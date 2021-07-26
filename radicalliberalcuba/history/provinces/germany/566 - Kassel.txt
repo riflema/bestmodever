@@ -1,0 +1,9 @@
+owner=HES
+controller=HES
+add_core=GER
+add_core=HES
+add_core=HRE
+add_core=WES
+trade_goods = coal
+life_rating = 40
+terrain = plains

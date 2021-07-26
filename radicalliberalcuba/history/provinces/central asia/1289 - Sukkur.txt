@@ -1,0 +1,7 @@
+owner=NGA
+controller=SIN
+add_core=HND
+add_core=SIN
+trade_goods = grain
+life_rating = 35
+terrain = mountain

@@ -1,0 +1,7 @@
+owner=NET
+controller=NET
+add_core=KON
+trade_goods = iron
+life_rating = 15
+terrain = jungle
+colonial=2

@@ -1,0 +1,1871 @@
+#Sphere of Influence
+
+ABE = {
+	value = 0
+	level = 2
+}
+AFG = {
+	value = 0
+	level = 2
+}
+AIN = {
+	value = 0
+	level = 2
+}
+AJU = {
+	value = 0
+	level = 2
+}
+ARL = {
+	value = 0
+	level = 2
+}
+ASK = {
+	value = 0
+	level = 2
+}
+ATT = {
+	value = 0
+	level = 2
+}
+AVA = {
+	value = 143
+	influence_value = 23
+	level = 3
+}
+BAU = {
+	value = 0
+	level = 2
+}
+BAV = {
+	value = 0
+	level = 2
+}
+BLC = {
+	value = 85
+	influence_value = 8
+	level = 2
+}
+BLM = {
+	value = 181
+	influence_value = 32
+	level = 4
+}
+BNY = {
+	value = 57
+	influence_value = 1
+	level = 2
+}
+BRA = {
+	value = 0
+	level = 2
+}
+BRD = {
+	value = 79
+	influence_value = 7
+	level = 2
+}
+BRU = {
+	value = 0
+	level = 2
+}
+BRZ = {
+	value = 0
+	level = 2
+}
+BSG = {
+	value = 0
+	level = 2
+}
+BTU = {
+	value = 85
+	influence_value = 8
+	level = 2
+}
+BUR = {
+	value = 0
+	level = 2
+}
+BYT = {
+	value = 0
+	level = 2
+}
+CAD = {
+	value = 0
+	level = 2
+}
+CAM = {
+	value = 79
+	influence_value = 7
+	level = 2
+}
+CAN = {
+	value = 0
+	level = 2
+}
+CAO = {
+	value = 0
+	level = 2
+}
+CCQ = {
+	value = 0
+	level = 2
+}
+CEB = {
+	value = 174
+	influence_value = 31
+	level = 4
+}
+CHM = {
+	value = 0
+	level = 2
+}
+CIR = {
+	value = 0
+	level = 2
+}
+CJA = {
+	value = 0
+	level = 2
+}
+CLI = {
+	value = 0
+	level = 2
+}
+CMA = {
+	value = 0
+	level = 2
+}
+COL = {
+	value = 0
+	level = 2
+}
+CUB = {
+	value = 0
+	level = 2
+}
+DAI = {
+	value = 178
+	influence_value = 32
+	level = 4
+}
+DJA = {
+	value = 77
+	influence_value = 6
+	level = 2
+}
+DLH = {
+	value = 204
+	influence_value = 38
+	level = 4
+}
+ETH = {
+	value = 0
+	level = 2
+}
+FOX = {
+	value = 0
+	level = 2
+}
+FRA = {
+	value = 1
+	level = 2
+}
+FRM = {
+	value = 0
+	level = 2
+}
+GEN = {
+	value = 0
+	level = 2
+}
+GOS = {
+	value = 0
+	level = 2
+}
+HDJ = {
+	value = 0
+	level = 2
+}
+HDR = {
+	value = 94
+	influence_value = 11
+	level = 2
+}
+HES = {
+	value = 0
+	level = 2
+}
+HWM = {
+	value = 0
+	level = 2
+}
+ICH = {
+	value = 0
+	level = 2
+}
+IRO = {
+	value = 0
+	level = 2
+}
+JAP = {
+	value = 0
+	level = 2
+}
+KAN = {
+	value = 83
+	influence_value = 8
+	level = 2
+}
+KED = {
+	value = 2
+	level = 2
+}
+KHA = {
+	value = 0
+	level = 2
+}
+KHO = {
+	value = 0
+	level = 2
+}
+KIK = {
+	value = 73
+	influence_value = 5
+	level = 2
+}
+KLE = {
+	value = 39
+	level = 2
+}
+KNZ = {
+	value = 0
+	level = 2
+}
+KOR = {
+	value = 87
+	influence_value = 9
+	level = 2
+}
+KRW = {
+	value = 80
+	influence_value = 7
+	level = 2
+}
+KUB = {
+	value = 97
+	influence_value = 11
+	level = 2
+}
+LNA = {
+	value = 156
+	influence_value = 26
+	level = 4
+}
+LOM = {
+	value = 0
+	level = 2
+}
+LUX = {
+	value = 0
+	level = 2
+}
+MAG = {
+	value = 0
+	level = 2
+}
+MBZ = {
+	value = 0
+	level = 2
+}
+MCK = {
+	value = 0
+	level = 2
+}
+MDO = {
+	value = 0
+	level = 2
+}
+MEM = {
+	value = 0
+	level = 2
+}
+MGD = {
+	value = 73
+	influence_value = 5
+	level = 2
+}
+MJP = {
+	value = 91
+	influence_value = 10
+	level = 2
+}
+MKA = {
+	value = 0
+	level = 2
+}
+MLC = {
+	value = -22
+	level = 2
+}
+MLH = {
+	value = 0
+	level = 2
+}
+MNP = {
+	value = 0
+	level = 2
+}
+MNX = {
+	value = 0
+	level = 2
+}
+MTL = {
+	value = 0
+	level = 2
+}
+MUL = {
+	value = 82
+	influence_value = 8
+	level = 2
+}
+MUS = {
+	value = 0
+	level = 2
+}
+NET = {
+	value = 0
+	level = 2
+}
+NGA = {
+	value = 55
+	influence_value = 1
+	level = 2
+}
+NHX = {
+	value = 0
+	level = 2
+}
+NTC = {
+	value = 0
+	level = 2
+}
+NUB = {
+	value = 0
+	level = 2
+}
+NVG = {
+	value = 0
+	level = 2
+}
+NVK = {
+	value = 0
+	level = 2
+}
+OHK = {
+	value = 0
+	level = 2
+}
+OIR = {
+	value = 0
+	level = 2
+}
+OLD = {
+	value = 0
+	level = 2
+}
+ORI = {
+	value = 0
+	level = 2
+}
+ORM = {
+	value = 0
+	level = 2
+}
+PAL = {
+	value = 0
+	level = 2
+}
+PAP = {
+	value = 0
+	level = 2
+}
+PAW = {
+	value = 0
+	level = 2
+}
+PGR = {
+	value = 82
+	influence_value = 8
+	level = 2
+}
+PHG = {
+	value = 73
+	influence_value = 5
+	level = 2
+}
+PLC = {
+	value = 0
+	level = 2
+}
+POR = {
+	value = 0
+	level = 2
+}
+PRO = {
+	value = 0
+	level = 2
+}
+PRU = {
+	value = 0
+	level = 2
+}
+PSA = {
+	value = -4
+	level = 2
+}
+PTW = {
+	value = 0
+	level = 2
+}
+QAR = {
+	value = 0
+	level = 2
+}
+REG = {
+	value = 0
+	level = 2
+}
+RYU = {
+	value = 0
+	level = 2
+}
+SCA = {
+	value = 0
+	level = 2
+}
+SCO = {
+	value = 100
+	influence_value = 12
+	level = 2
+}
+SER = {
+	value = 0
+	level = 2
+}
+SHA = {
+	value = -18
+	level = 2
+}
+SIA = {
+	value = -8
+	level = 2
+}
+SIN = {
+	value = 94
+	influence_value = 11
+	level = 2
+}
+SLZ = {
+	value = 0
+	level = 2
+}
+SPA = {
+	value = 73
+	influence_value = 5
+	level = 2
+}
+SUL = {
+	value = 0
+	level = 2
+}
+SUN = {
+	value = 82
+	influence_value = 8
+	level = 2
+}
+SVY = {
+	value = 0
+	level = 2
+}
+SWA = {
+	value = 91
+	influence_value = 10
+	level = 2
+}
+SWI = {
+	value = 0
+	level = 2
+}
+TBK = {
+	value = 0
+	level = 2
+}
+TDO = {
+	value = 76
+	influence_value = 6
+	level = 2
+}
+TER = {
+	value = 0
+	level = 2
+}
+TGT = {
+	value = 0
+	level = 2
+}
+THU = {
+	value = 0
+	level = 2
+}
+TID = {
+	value = 0
+	level = 2
+}
+TLA = {
+	value = 0
+	level = 2
+}
+TRX = {
+	value = 0
+	level = 2
+}
+TTE = {
+	value = 52
+	level = 2
+}
+TUN = {
+	value = 0
+	level = 2
+}
+TUR = {
+	value = 0
+	level = 2
+}
+UBV = {
+	value = 0
+	level = 2
+}
+ULM = {
+	value = 0
+	level = 2
+}
+URU = {
+	value = 0
+	level = 2
+}
+UTS = {
+	value = 79
+	influence_value = 7
+	level = 2
+}
+VEN = {
+	value = 0
+	level = 2
+}
+VRM = {
+	value = 0
+	level = 2
+}
+WBG = {
+	value = 0
+	level = 2
+}
+WES = {
+	value = 0
+	level = 2
+}
+WNR = {
+	value = 0
+	level = 2
+}
+X02 = {
+	value = 0
+	level = 2
+}
+X03 = {
+	value = 0
+	level = 2
+}
+X04 = {
+	value = 0
+	level = 2
+}
+X09 = {
+	value = 0
+	level = 2
+}
+X10 = {
+	value = 0
+	level = 2
+}
+X11 = {
+	value = 91
+	influence_value = 10
+	level = 2
+}
+YEM = {
+	value = 0
+	level = 2
+}
+ZIM = {
+	value = 0
+	level = 2
+}
+
+#Leaders
+leader = {
+	name="Rudra Velama"
+	date="1800.7.8"
+	type=land
+	personality="coolminded"
+	background="bootlicker"
+}
+
+leader = {
+	name="Pratâprudra Deo"
+	date="1816.8.2"
+	type=sea
+	personality="active_p"
+	background="aristocrat"
+}
+
+leader = {
+	name="Raghurâma Chhotra Bhowarbar"
+	date="1816.10.15"
+	type=land
+	personality="stalwart"
+	background="generals_aide"
+}
+
+leader = {
+	name="Ananga Roy"
+	date="1816.10.18"
+	type=land
+	personality="balanced_p"
+	background="generals_aide"
+}
+
+leader = {
+	name="Anantavarman Vansa"
+	date="1818.3.6"
+	type=sea
+	personality="stalwart"
+	background="uncommonly_young"
+}
+
+leader = {
+	name="Jagat Poosapati"
+	date="1820.7.11"
+	type=land
+	personality="unflinching"
+	background="cavalry_school"
+}
+
+
+#Armies
+navy = {
+	name="1st Fleet"
+	location=1261
+	ship = {
+		name="1st Jessore Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="1st Pegu Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="1st Vizagapatnam Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="1st Rangoon Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="2nd Vizagapatnam Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="1st Cuttack Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="3rd Vizagapatnam Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="6th Moulmein Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="2nd Cuttack Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="4th Vizagapatnam Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="3rd Cuttack Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="1st Chittagong Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="1st Calcutta Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="5th Vizagapatnam Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="6th Vizagapatnam Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="2nd Calcutta Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="1st Orissi Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="7th Vizagapatnam Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="1st Masulipatnam Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="4th Cuttack Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="5th Cuttack Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="7th Moulmein Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="2nd Pegu Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="2nd Orissi Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="6th Cuttack Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="7th Cuttack Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="8th Cuttack Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="9th Cuttack Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="10th Cuttack Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="1st Ratchaburi Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="1st Nellore Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="2nd Ratchaburi Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="2nd Jessore Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="2nd Nellore Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="3rd Calcutta Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="3rd Orissi Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="8th Vizagapatnam Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="11th Cuttack Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="8th Moulmein Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="12th Cuttack Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="13th Cuttack Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="9th Moulmein Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="14th Cuttack Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="3rd Ratchaburi Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="9th Vizagapatnam Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="2nd Chittagong Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="2nd Masulipatnam Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="4th Orissi Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="15th Cuttack Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="10th Moulmein Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="4th Ratchaburi Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="10th Vizagapatnam Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="3rd Chittagong Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="1st Belgaum Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="12th Vizagapatnam Man'o'war"
+		type=manowar
+	}
+}
+
+army = {
+	name="4th Army"
+	location=1245
+	regiment = {
+		name="1st Gulbarga Irregulars"
+		type=irregular
+		home=1286
+	}
+	regiment = {
+		name="1st Kurnool Irregulars"
+		type=irregular
+		home=1308
+	}
+	regiment = {
+		name="1st Kolhapur Irregulars"
+		type=irregular
+		home=1301
+	}
+	regiment = {
+		name="1st Vizagapatnam Artillery"
+		type=artillery
+		home=1305
+	}
+	regiment = {
+		name="1st Calcutta Artillery"
+		type=artillery
+		home=1251
+	}
+	regiment = {
+		name="1st Jagdalpur Artillery"
+		type=artillery
+		home=1279
+	}
+	regiment = {
+		name="1st Bardwan Artillery"
+		type=artillery
+		home=1253
+	}
+	regiment = {
+		name="2nd Kurnool Irregulars"
+		type=irregular
+		home=1308
+	}
+	regiment = {
+		name="2nd Jagdalpur Artillery"
+		type=artillery
+		home=1279
+	}
+}
+
+army = {
+	name="17th Army"
+	location=1330
+	regiment = {
+		name="1st Dibrugarh Irregulars"
+		type=irregular
+		home=1260
+	}
+	regiment = {
+		name="1st Cuttack Irregulars"
+		type=irregular
+		home=1261
+	}
+	regiment = {
+		name="2nd Cuttack Irregulars"
+		type=irregular
+		home=1261
+	}
+	regiment = {
+		name="3rd Cuttack Irregulars"
+		type=irregular
+		home=1261
+	}
+	regiment = {
+		name="2nd Vizagapatnam Artillery"
+		type=artillery
+		home=1305
+	}
+	regiment = {
+		name="1st Cuttack Artillery"
+		type=artillery
+		home=1261
+	}
+	regiment = {
+		name="1st Masulipatnam Artillery"
+		type=artillery
+		home=1306
+	}
+	regiment = {
+		name="2nd Cuttack Artillery"
+		type=artillery
+		home=1261
+	}
+	regiment = {
+		name="1st Hyderabad Irregulars"
+		type=irregular
+		home=1283
+	}
+	regiment = {
+		name="2nd Warangal Artillery"
+		type=artillery
+		home=1287
+	}
+}
+
+navy = {
+	name="8th Fleet"
+	location=1261
+	ship = {
+		name="11th Vizagapatnam Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="3rd Nellore Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="2nd Belgaum Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="3rd Belgaum Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="16th Cuttack Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="9th Bombay Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="1st Chittagong Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st Calcutta Frigate"
+		type=frigate
+	}
+	ship = {
+		name="2nd Chittagong Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st Vizagapatnam Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st Kolhapur Frigate"
+		type=frigate
+	}
+	ship = {
+		name="3rd Chittagong Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st Rangoon Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st Ratchaburi Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st Banda Aceh Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st Cuttack Frigate"
+		type=frigate
+	}
+	ship = {
+		name="2nd Pondicherry Frigate"
+		type=frigate
+	}
+	ship = {
+		name="2nd Cuttack Frigate"
+		type=frigate
+	}
+	ship = {
+		name="3rd Cuttack Frigate"
+		type=frigate
+	}
+	ship = {
+		name="4th Cuttack Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st Mergui Frigate"
+		type=frigate
+	}
+	ship = {
+		name="2nd Ratchaburi Frigate"
+		type=frigate
+	}
+	ship = {
+		name="5th Cuttack Frigate"
+		type=frigate
+	}
+	ship = {
+		name="3rd Bombay Frigate"
+		type=frigate
+	}
+	ship = {
+		name="6th Cuttack Frigate"
+		type=frigate
+	}
+	ship = {
+		name="7th Cuttack Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st Calicut Frigate"
+		type=frigate
+	}
+	ship = {
+		name="2nd Vizagapatnam Frigate"
+		type=frigate
+	}
+	ship = {
+		name="8th Cuttack Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st Nellore Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st Andaman Islands Frigate"
+		type=frigate
+	}
+	ship = {
+		name="2nd Jessore Frigate"
+		type=frigate
+	}
+}
+
+navy = {
+	name="10th Fleet"
+	location=1261
+	ship = {
+		name="1st Masulipatnam Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st Sittwe Frigate"
+		type=frigate
+	}
+	ship = {
+		name="2nd Calcutta Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st Kota Bahru Frigate"
+		type=frigate
+	}
+	ship = {
+		name="9th Cuttack Frigate"
+		type=frigate
+	}
+	ship = {
+		name="3rd Vizagapatnam Frigate"
+		type=frigate
+	}
+	ship = {
+		name="10th Cuttack Frigate"
+		type=frigate
+	}
+	ship = {
+		name="3rd Calcutta Frigate"
+		type=frigate
+	}
+	ship = {
+		name="4th Chittagong Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st Bassein Frigate"
+		type=frigate
+	}
+	ship = {
+		name="2nd Rangoon Frigate"
+		type=frigate
+	}
+}
+
+navy = {
+	name="2nd Fleet"
+	location=1261
+	ship = {
+		name="1st Jessore Frigate"
+		type=frigate
+	}
+	ship = {
+		name="11th Cuttack Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st Tanjore Frigate"
+		type=frigate
+	}
+	ship = {
+		name="5th Chittagong Frigate"
+		type=frigate
+	}
+	ship = {
+		name="12th Cuttack Frigate"
+		type=frigate
+	}
+	ship = {
+		name="13th Cuttack Frigate"
+		type=frigate
+	}
+	ship = {
+		name="2nd Banda Aceh Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st Orissi Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st Belgaum Frigate"
+		type=frigate
+	}
+	ship = {
+		name="4th Vizagapatnam Frigate"
+		type=frigate
+	}
+	ship = {
+		name="14th Cuttack Frigate"
+		type=frigate
+	}
+	ship = {
+		name="15th Cuttack Frigate"
+		type=frigate
+	}
+	ship = {
+		name="4th Calcutta Frigate"
+		type=frigate
+	}
+	ship = {
+		name="16th Cuttack Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st Masulipatnam Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Orissi Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Jessore Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Cuttack Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Sittwe Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Chittagong Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Bassein Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd Chittagong Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="3rd Chittagong Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="4th Chittagong Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd Orissi Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Calcutta Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="5th Chittagong Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd Jessore Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="6th Chittagong Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="7th Chittagong Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="3rd Jessore Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="8th Chittagong Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="4th Jessore Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="9th Chittagong Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st Vizagapatnam Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd Vizagapatnam Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd Moulmein Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="3rd Orissi Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="10th Chittagong Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd Siak Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd Tanjore Frigate"
+		type=frigate
+	}
+	ship = {
+		name="3rd Vizagapatnam Clipper Transport"
+		type=clipper_transport
+	}
+}
+
+army = {
+	name="15th Army"
+	location=1398
+	regiment = {
+		name="4th Cuttack Irregulars"
+		type=irregular
+		home=1261
+	}
+	regiment = {
+		name="2nd Kolhapur Irregulars"
+		type=irregular
+		home=1301
+	}
+	regiment = {
+		name="5th Cuttack Irregulars"
+		type=irregular
+		home=1261
+	}
+	regiment = {
+		name="1st Bardwan Irregulars"
+		type=irregular
+		home=1253
+	}
+	regiment = {
+		name="2nd Bardwan Irregulars"
+		type=irregular
+		home=1253
+	}
+	regiment = {
+		name="1st Keunjahr Artillery"
+		type=artillery
+		home=1262
+	}
+	regiment = {
+		name="1st Nellore Artillery"
+		type=artillery
+		home=1307
+	}
+	regiment = {
+		name="1st Darjeeling Artillery"
+		type=artillery
+		home=1252
+	}
+	regiment = {
+		name="1st Rajshahi Artillery"
+		type=artillery
+		home=1255
+	}
+	regiment = {
+		name="1st Hyderabad Artillery"
+		type=artillery
+		home=1283
+	}
+	regiment = {
+		name="17th Cuttack Irregulars"
+		type=irregular
+		home=1261
+	}
+	regiment = {
+		name="3rd Hyderabad Artillery"
+		type=artillery
+		home=1283
+	}
+}
+
+army = {
+	name="13th Army"
+	location=1339
+	regiment = {
+		name="6th Cuttack Irregulars"
+		type=irregular
+		home=1261
+	}
+	regiment = {
+		name="7th Cuttack Irregulars"
+		type=irregular
+		home=1261
+	}
+	regiment = {
+		name="1st Masulipatnam Irregulars"
+		type=irregular
+		home=1306
+	}
+	regiment = {
+		name="3rd Kolhapur Irregulars"
+		type=irregular
+		home=1301
+	}
+	regiment = {
+		name="1st Gulbarga Artillery"
+		type=artillery
+		home=1286
+	}
+	regiment = {
+		name="1st Warangal Artillery"
+		type=artillery
+		home=1287
+	}
+	regiment = {
+		name="3rd Cuttack Artillery"
+		type=artillery
+		home=1261
+	}
+	regiment = {
+		name="2nd Hyderabad Artillery"
+		type=artillery
+		home=1283
+	}
+	regiment = {
+		name="4th Cuttack Artillery"
+		type=artillery
+		home=1261
+	}
+	regiment = {
+		name="1st Nellore Irregulars"
+		type=irregular
+		home=1307
+	}
+	regiment = {
+		name="2nd Nellore Artillery"
+		type=artillery
+		home=1307
+	}
+}
+
+army = {
+	name="38th Army"
+	location=1332
+	regiment = {
+		name="1st Keunjahr Irregulars"
+		type=irregular
+		home=1262
+	}
+	regiment = {
+		name="1st Chitaldroog Irregulars"
+		type=irregular
+		home=1315
+	}
+}
+
+army = {
+	name="Free Company"
+	location=1332
+	regiment = {
+		name="3rd Bardwan Irregulars"
+		type=irregular
+		home=1253
+	}
+	regiment = {
+		name="4th Bardwan Irregulars"
+		type=irregular
+		home=1253
+	}
+	regiment = {
+		name="5th Bardwan Irregulars"
+		type=irregular
+		home=1253
+	}
+	regiment = {
+		name="6th Bardwan Irregulars"
+		type=irregular
+		home=1253
+	}
+	regiment = {
+		name="7th Bardwan Irregulars"
+		type=irregular
+		home=1253
+	}
+	regiment = {
+		name="8th Bardwan Irregulars"
+		type=irregular
+		home=1253
+	}
+}
+
+army = {
+	name="Grand Company"
+	location=1330
+	regiment = {
+		name="2nd Gulbarga Irregulars"
+		type=irregular
+		home=1286
+	}
+	regiment = {
+		name="1st Medan Irregulars"
+		type=irregular
+		home=1406
+	}
+	regiment = {
+		name="2nd Medan Irregulars"
+		type=irregular
+		home=1406
+	}
+	regiment = {
+		name="3rd Gulbarga Irregulars"
+		type=irregular
+		home=1286
+	}
+	regiment = {
+		name="3rd Medan Irregulars"
+		type=irregular
+		home=1406
+	}
+	regiment = {
+		name="4th Gulbarga Irregulars"
+		type=irregular
+		home=1286
+	}
+}
+
+army = {
+	name="130th Army"
+	location=1248
+	regiment = {
+		name="2nd Bardwan Artillery"
+		type=artillery
+		home=1253
+	}
+	regiment = {
+		name="5th Cuttack Artillery"
+		type=artillery
+		home=1261
+	}
+	regiment = {
+		name="3rd Bardwan Artillery"
+		type=artillery
+		home=1253
+	}
+}
+
+army = {
+	name="Independent Army"
+	location=1330
+	regiment = {
+		name="2nd Keunjahr Irregulars"
+		type=irregular
+		home=1262
+	}
+	regiment = {
+		name="3rd Keunjahr Irregulars"
+		type=irregular
+		home=1262
+	}
+	regiment = {
+		name="4th Keunjahr Irregulars"
+		type=irregular
+		home=1262
+	}
+	regiment = {
+		name="5th Keunjahr Irregulars"
+		type=irregular
+		home=1262
+	}
+	regiment = {
+		name="6th Keunjahr Irregulars"
+		type=irregular
+		home=1262
+	}
+	regiment = {
+		name="7th Keunjahr Irregulars"
+		type=irregular
+		home=1262
+	}
+}
+
+army = {
+	name="144th Army"
+	location=1330
+	regiment = {
+		name="1st Bombay Irregulars"
+		type=irregular
+		home=1297
+	}
+	regiment = {
+		name="1st Warangal Irregulars"
+		type=irregular
+		home=1287
+	}
+	regiment = {
+		name="3rd Vizagapatnam Artillery"
+		type=artillery
+		home=1305
+	}
+	regiment = {
+		name="4th Vizagapatnam Artillery"
+		type=artillery
+		home=1305
+	}
+	regiment = {
+		name="1st Madras Artillery"
+		type=artillery
+		home=1304
+	}
+}
+
+army = {
+	name="Gosains"
+	location=1337
+	regiment = {
+		name="1st Darjeeling Irregulars"
+		type=irregular
+		home=1252
+	}
+	regiment = {
+		name="1st Rajshahi Irregulars"
+		type=irregular
+		home=1255
+	}
+	regiment = {
+		name="2nd Darjeeling Irregulars"
+		type=irregular
+		home=1252
+	}
+	regiment = {
+		name="2nd Rajshahi Irregulars"
+		type=irregular
+		home=1255
+	}
+	regiment = {
+		name="3rd Darjeeling Irregulars"
+		type=irregular
+		home=1252
+	}
+	regiment = {
+		name="2nd Rajshahi Artillery"
+		type=artillery
+		home=1255
+	}
+	regiment = {
+		name="2nd Darjeeling Artillery"
+		type=artillery
+		home=1252
+	}
+	regiment = {
+		name="3rd Rajshahi Artillery"
+		type=artillery
+		home=1255
+	}
+	regiment = {
+		name="4th Darjeeling Irregulars"
+		type=irregular
+		home=1252
+	}
+	regiment = {
+		name="4th Rajshahi Artillery"
+		type=artillery
+		home=1255
+	}
+}
+
+army = {
+	name="Purbiyas"
+	location=1330
+	regiment = {
+		name="8th Cuttack Irregulars"
+		type=irregular
+		home=1261
+	}
+	regiment = {
+		name="9th Cuttack Irregulars"
+		type=irregular
+		home=1261
+	}
+	regiment = {
+		name="10th Cuttack Irregulars"
+		type=irregular
+		home=1261
+	}
+	regiment = {
+		name="11th Cuttack Irregulars"
+		type=irregular
+		home=1261
+	}
+	regiment = {
+		name="12th Cuttack Irregulars"
+		type=irregular
+		home=1261
+	}
+	regiment = {
+		name="13th Cuttack Irregulars"
+		type=irregular
+		home=1261
+	}
+	regiment = {
+		name="6th Cuttack Artillery"
+		type=artillery
+		home=1261
+	}
+	regiment = {
+		name="7th Cuttack Artillery"
+		type=artillery
+		home=1261
+	}
+	regiment = {
+		name="8th Cuttack Artillery"
+		type=artillery
+		home=1261
+	}
+	regiment = {
+		name="11th Cuttack Artillery"
+		type=artillery
+		home=1261
+	}
+}
+
+army = {
+	name="Company of the Ganges"
+	location=1245
+	regiment = {
+		name="1st Dacca Irregulars"
+		type=irregular
+		home=1254
+	}
+	regiment = {
+		name="2nd Dacca Irregulars"
+		type=irregular
+		home=1254
+	}
+	regiment = {
+		name="3rd Dacca Irregulars"
+		type=irregular
+		home=1254
+	}
+	regiment = {
+		name="4th Dacca Irregulars"
+		type=irregular
+		home=1254
+	}
+	regiment = {
+		name="5th Dacca Irregulars"
+		type=irregular
+		home=1254
+	}
+	regiment = {
+		name="6th Dacca Irregulars"
+		type=irregular
+		home=1254
+	}
+}
+
+army = {
+	name="Tamil Company"
+	location=1593
+	regiment = {
+		name="1st Calcutta Irregulars"
+		type=irregular
+		home=1251
+	}
+	regiment = {
+		name="2nd Calcutta Irregulars"
+		type=irregular
+		home=1251
+	}
+	regiment = {
+		name="3rd Calcutta Irregulars"
+		type=irregular
+		home=1251
+	}
+	regiment = {
+		name="4th Calcutta Irregulars"
+		type=irregular
+		home=1251
+	}
+	regiment = {
+		name="5th Calcutta Irregulars"
+		type=irregular
+		home=1251
+	}
+	regiment = {
+		name="2nd Calcutta Artillery"
+		type=artillery
+		home=1251
+	}
+	regiment = {
+		name="3rd Calcutta Artillery"
+		type=artillery
+		home=1251
+	}
+	regiment = {
+		name="4th Calcutta Artillery"
+		type=artillery
+		home=1251
+	}
+	regiment = {
+		name="6th Calcutta Irregulars"
+		type=irregular
+		home=1251
+	}
+}
+
+army = {
+	name="Banjara Company"
+	location=1330
+	regiment = {
+		name="14th Cuttack Irregulars"
+		type=irregular
+		home=1261
+	}
+	regiment = {
+		name="15th Cuttack Irregulars"
+		type=irregular
+		home=1261
+	}
+	regiment = {
+		name="9th Cuttack Artillery"
+		type=artillery
+		home=1261
+	}
+	regiment = {
+		name="16th Cuttack Irregulars"
+		type=irregular
+		home=1261
+	}
+	regiment = {
+		name="10th Cuttack Artillery"
+		type=artillery
+		home=1261
+	}
+}
+

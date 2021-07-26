@@ -1,0 +1,7 @@
+owner=WNR
+controller=FOX
+add_core=HWK
+add_core=WNR
+trade_goods = coal
+life_rating = 35
+terrain = hills

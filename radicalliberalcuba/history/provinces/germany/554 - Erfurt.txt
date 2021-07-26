@@ -1,0 +1,14 @@
+owner=THU
+controller=BRA
+add_core=GER
+add_core=HRE
+add_core=THU
+trade_goods = iron
+life_rating = 40
+terrain = farmlands
+state_building=
+{
+	level=1
+	building = canned_food_factory
+	upgrade = yes
+}

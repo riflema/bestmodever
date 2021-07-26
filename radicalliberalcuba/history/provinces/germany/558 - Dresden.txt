@@ -1,0 +1,9 @@
+owner=PRU
+controller=MAG
+add_core=GER
+add_core=HRE
+add_core=PRU
+add_core=SAX
+trade_goods = coal
+life_rating = 40
+terrain = woods

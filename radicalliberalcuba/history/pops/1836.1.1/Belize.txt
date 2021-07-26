@@ -1,0 +1,198 @@
+2190 = {
+	slaves=
+	{
+		culture = mayan
+		religion = mayan
+		size= 49693
+	}
+
+	soldiers=
+	{
+		culture = mayan
+		religion = mayan
+		size= 944
+	}
+
+	artisans=
+	{
+		culture = mayan
+		religion = mayan
+		size= 1621
+	}
+
+	clergymen=
+	{
+		culture = mayan
+		religion = mayan
+		size= 135
+	}
+
+	bureaucrats=
+	{
+		culture = mayan
+		religion = mayan
+		size= 18
+	}
+
+	officers=
+	{
+		culture = mayan
+		religion = mayan
+		size= 21
+	}
+
+	aristocrats=
+	{
+		culture = mayan
+		religion = mayan
+		size= 303
+	}
+
+	slaves=
+	{
+		culture = mayan
+		religion = nahuatl
+		size= 71
+	}
+
+	soldiers=
+	{
+		culture = mayan
+		religion = nahuatl
+		size= 1
+	}
+
+	artisans=
+	{
+		culture = mayan
+		religion = nahuatl
+		size= 112
+	}
+
+	clergymen=
+	{
+		culture = mayan
+		religion = nahuatl
+		size= 9
+	}
+
+	bureaucrats=
+	{
+		culture = mayan
+		religion = nahuatl
+		size= 1
+	}
+
+	officers=
+	{
+		culture = mayan
+		religion = nahuatl
+		size= 1
+	}
+
+	aristocrats=
+	{
+		culture = mayan
+		religion = nahuatl
+		size= 21
+	}
+
+	slaves=
+	{
+		culture = mayan
+		religion = hussite
+		size= 39695
+	}
+
+	soldiers=
+	{
+		culture = mayan
+		religion = hussite
+		size= 754
+	}
+
+	artisans=
+	{
+		culture = mayan
+		religion = hussite
+		size= 4611
+	}
+
+	clergymen=
+	{
+		culture = mayan
+		religion = hussite
+		size= 384
+	}
+
+	bureaucrats=
+	{
+		culture = mayan
+		religion = hussite
+		size= 51
+	}
+
+	officers=
+	{
+		culture = mayan
+		religion = hussite
+		size= 61
+	}
+
+	aristocrats=
+	{
+		culture = mayan
+		religion = hussite
+		size= 861
+	}
+
+	slaves=
+	{
+		culture = afro_slavic
+		religion = hussite
+		size= 1683
+	}
+
+	soldiers=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 32
+	}
+
+	artisans=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 1859
+	}
+
+	clergymen=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 155
+	}
+
+	bureaucrats=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 21
+	}
+
+	officers=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 25
+	}
+
+	aristocrats=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 347
+	}
+
+}

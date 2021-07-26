@@ -1,0 +1,855 @@
+#Sphere of Influence
+
+ABE = {
+	value = 0
+	level = 2
+}
+AFG = {
+	value = 0
+	level = 2
+}
+AIN = {
+	value = 0
+	level = 2
+}
+AJU = {
+	value = 0
+	level = 2
+}
+ARL = {
+	value = 0
+	level = 2
+}
+ASK = {
+	value = 0
+	level = 2
+}
+ATT = {
+	value = 0
+	level = 2
+}
+AVA = {
+	value = 0
+	level = 2
+}
+BAU = {
+	value = 58
+	influence_value = 2
+	level = 2
+}
+BAV = {
+	value = 0
+	level = 2
+}
+BLC = {
+	value = 0
+	level = 2
+}
+BLM = {
+	value = 0
+	level = 2
+}
+BNY = {
+	value = 0
+	level = 2
+}
+BRA = {
+	value = 0
+	level = 2
+}
+BRD = {
+	value = 0
+	level = 2
+}
+BRU = {
+	value = 166
+	influence_value = 29
+	level = 4
+}
+BRZ = {
+	value = 0
+	level = 2
+}
+BSG = {
+	value = 0
+	level = 2
+}
+BTU = {
+	value = 0
+	level = 2
+}
+BUR = {
+	value = 0
+	level = 2
+}
+BYT = {
+	value = 0
+	level = 2
+}
+CAD = {
+	value = 0
+	level = 2
+}
+CAM = {
+	value = 0
+	level = 2
+}
+CAN = {
+	value = 0
+	level = 2
+}
+CAO = {
+	value = 0
+	level = 2
+}
+CCQ = {
+	value = 0
+	level = 2
+}
+CEB = {
+	value = 0
+	level = 2
+}
+CHM = {
+	value = 0
+	level = 2
+}
+CIR = {
+	value = 0
+	level = 2
+}
+CJA = {
+	value = 0
+	level = 2
+}
+CLI = {
+	value = 0
+	level = 2
+}
+CMA = {
+	value = 0
+	level = 2
+}
+COL = {
+	value = 0
+	level = 2
+}
+CRI = {
+	value = 0
+	level = 2
+}
+CUB = {
+	value = 0
+	level = 2
+}
+DAI = {
+	value = 0
+	level = 2
+}
+DJA = {
+	value = 148
+	military_access = yes
+	influence_value = 44
+	level = 5
+}
+DLH = {
+	value = 0
+	level = 2
+}
+ETH = {
+	value = 0
+	level = 2
+}
+FOX = {
+	value = 0
+	level = 2
+}
+FRA = {
+	value = 0
+	level = 2
+}
+FRM = {
+	value = 0
+	level = 2
+}
+GEN = {
+	value = 0
+	level = 2
+}
+GOS = {
+	value = 0
+	level = 2
+}
+GZK = {
+	value = 0
+	level = 2
+}
+HDR = {
+	value = 76
+	influence_value = 6
+	level = 2
+}
+HES = {
+	value = 0
+	level = 2
+}
+HWM = {
+	value = 0
+	level = 2
+}
+ICH = {
+	value = 0
+	level = 2
+}
+IRO = {
+	value = 0
+	level = 2
+}
+JAP = {
+	value = 0
+	level = 2
+}
+KAN = {
+	value = 0
+	level = 2
+}
+KED = {
+	value = 214
+	military_access = yes
+	influence_value = 61
+	level = 5
+}
+KHA = {
+	value = -4
+	level = 2
+}
+KHO = {
+	value = 0
+	level = 2
+}
+KIK = {
+	value = 0
+	level = 2
+}
+KLE = {
+	value = 0
+	level = 2
+}
+KNZ = {
+	value = 0
+	level = 2
+}
+KOR = {
+	value = 0
+	level = 2
+}
+KRW = {
+	value = 0
+	level = 2
+}
+KUB = {
+	value = 0
+	level = 2
+}
+LNA = {
+	value = 0
+	level = 2
+}
+LOM = {
+	value = 0
+	level = 2
+}
+LUX = {
+	value = 0
+	level = 2
+}
+MAG = {
+	value = 0
+	level = 2
+}
+MBZ = {
+	value = 0
+	level = 2
+}
+MCK = {
+	value = 0
+	level = 2
+}
+MDO = {
+	value = 0
+	level = 2
+}
+MEM = {
+	value = 0
+	level = 2
+}
+MGD = {
+	value = 0
+	level = 2
+}
+MJP = {
+	value = -92
+	level = 2
+}
+MKA = {
+	value = 0
+	level = 2
+}
+MLC = {
+	value = 0
+	level = 2
+}
+MLH = {
+	value = 0
+	level = 2
+}
+MNX = {
+	value = 0
+	level = 2
+}
+MTL = {
+	value = 0
+	level = 2
+}
+MUL = {
+	value = 0
+	level = 2
+}
+MUS = {
+	value = 0
+	level = 2
+}
+NET = {
+	value = 3
+	level = 2
+}
+NGA = {
+	value = 0
+	level = 2
+}
+NHX = {
+	value = 0
+	level = 2
+}
+NTC = {
+	value = 0
+	level = 2
+}
+NUB = {
+	value = 0
+	level = 2
+}
+NVG = {
+	value = 0
+	level = 2
+}
+NVK = {
+	value = 0
+	level = 2
+}
+OHK = {
+	value = 0
+	level = 2
+}
+OIR = {
+	value = 0
+	level = 2
+}
+OLD = {
+	value = 0
+	level = 2
+}
+ORI = {
+	value = -10
+	level = 2
+}
+ORM = {
+	value = 0
+	level = 2
+}
+PAL = {
+	value = 0
+	level = 2
+}
+PAP = {
+	value = 0
+	level = 2
+}
+PAW = {
+	value = 0
+	level = 2
+}
+PGR = {
+	value = 183
+	military_access = yes
+	influence_value = 53
+	level = 5
+}
+PHG = {
+	value = 216
+	military_access = yes
+	influence_value = 61
+	level = 5
+}
+PLC = {
+	value = 0
+	level = 2
+}
+POR = {
+	value = 0
+	level = 2
+}
+PRO = {
+	value = 0
+	level = 2
+}
+PRU = {
+	value = 0
+	level = 2
+}
+PSA = {
+	value = 48
+	level = 2
+}
+PTW = {
+	value = 0
+	level = 2
+}
+QAR = {
+	value = 0
+	level = 2
+}
+REG = {
+	value = 0
+	level = 2
+}
+RYU = {
+	value = 0
+	level = 2
+}
+SCA = {
+	value = 0
+	level = 2
+}
+SCO = {
+	value = 0
+	level = 2
+}
+SER = {
+	value = 0
+	level = 2
+}
+SHA = {
+	value = -42
+	level = 2
+}
+SIA = {
+	value = -98
+	level = 2
+}
+SIN = {
+	value = 0
+	level = 2
+}
+SLZ = {
+	value = 0
+	level = 2
+}
+SPA = {
+	value = 0
+	level = 2
+}
+SUL = {
+	value = 117
+	influence_value = 16
+	level = 2
+}
+SUN = {
+	value = 0
+	level = 2
+}
+SVY = {
+	value = 0
+	level = 2
+}
+SWA = {
+	value = 0
+	level = 2
+}
+SWI = {
+	value = 0
+	level = 2
+}
+TBK = {
+	value = 0
+	level = 2
+}
+TDO = {
+	value = -3
+	level = 2
+}
+TER = {
+	value = 0
+	level = 2
+}
+TGT = {
+	value = 0
+	level = 2
+}
+THU = {
+	value = 0
+	level = 2
+}
+TID = {
+	value = -35
+	level = 2
+}
+TLA = {
+	value = 0
+	level = 2
+}
+TRX = {
+	value = -3
+	level = 2
+}
+TTE = {
+	value = 147
+	influence_value = 24
+	level = 3
+}
+TUN = {
+	value = 0
+	level = 2
+}
+TUR = {
+	value = 0
+	level = 2
+}
+UBV = {
+	value = 0
+	level = 2
+}
+ULM = {
+	value = 0
+	level = 2
+}
+URU = {
+	value = 0
+	level = 2
+}
+UTS = {
+	value = 0
+	level = 2
+}
+VEN = {
+	value = 0
+	level = 2
+}
+VRM = {
+	value = 0
+	level = 2
+}
+WBG = {
+	value = 0
+	level = 2
+}
+WES = {
+	value = 0
+	level = 2
+}
+WNR = {
+	value = 0
+	level = 2
+}
+X02 = {
+	value = 0
+	level = 2
+}
+X03 = {
+	value = 0
+	level = 2
+}
+X04 = {
+	value = 0
+	level = 2
+}
+X09 = {
+	value = 0
+	level = 2
+}
+X10 = {
+	value = 0
+	level = 2
+}
+X11 = {
+	value = 0
+	level = 2
+}
+YEM = {
+	value = 0
+	level = 2
+}
+ZIM = {
+	value = 0
+	level = 2
+}
+
+#Leaders
+leader = {
+	name="Ma'ayat Shâh I Srivijaya"
+	date="1801.12.21"
+	type=land
+	personality="disciplined"
+	background="cavalry_school"
+}
+
+leader = {
+	name="Rahmat Shâh Nazmizan"
+	date="1799.8.9"
+	type=land
+	personality="unflinching"
+	background="cavalry_school"
+}
+
+leader = {
+	name="Riayat Shah Abdulfatah"
+	date="1800.6.30"
+	type=sea
+	personality="resourceful"
+	background="artillerist"
+}
+
+leader = {
+	name="'Abd ar-Rahmân Shâh Kyai"
+	date="1803.8.26"
+	type=land
+	personality="persistant"
+	background="bureaucrat_speed"
+}
+
+leader = {
+	name="Ibrâhîm Shâh Srivijaya"
+	date="1819.5.24"
+	type=land
+	personality="chivalrous"
+	background="artillerist"
+}
+
+leader = {
+	name="Mansûr Shâh Mukhtar"
+	date="1814.10.21"
+	type=land
+	personality="stalwart"
+	background="natural_born_leader"
+}
+
+
+#Armies
+navy = {
+	name="1st Fleet"
+	location=3215
+	ship = {
+		name="1st Andaman Islands Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="2nd Andaman Islands Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="5th Moulmein Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="1st Iloilo Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="1st Ipoh Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="2nd Ipoh Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="1st Malaccan Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="3rd Ipoh Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="2nd Yogyakarta Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="1st Lome Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="4th Ipoh Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="1st Phuket Frigate"
+		type=frigate
+	}
+	ship = {
+		name="2nd Malaccan Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="2nd Phuket Frigate"
+		type=frigate
+	}
+}
+
+army = {
+	name="Grand Company"
+	location=1428
+	regiment = {
+		name="1st Ipoh Irregulars"
+		type=irregular
+		home=2575
+	}
+	regiment = {
+		name="2nd Ipoh Irregulars"
+		type=irregular
+		home=2575
+	}
+	regiment = {
+		name="3rd Ipoh Irregulars"
+		type=irregular
+		home=2575
+	}
+}
+
+army = {
+	name="Kutai Company"
+	location=1426
+	regiment = {
+		name="1st Kuala Lumpur Irregulars"
+		type=irregular
+		home=1387
+	}
+	regiment = {
+		name="2nd Kuala Lumpur Irregulars"
+		type=irregular
+		home=1387
+	}
+}
+
+army = {
+	name="2nd Army"
+	location=1404
+	regiment = {
+		name="1st Tanjungpinang Irregulars"
+		type=irregular
+		home=1402
+	}
+	regiment = {
+		name="1st Singapore Artillery"
+		type=artillery
+		home=1384
+	}
+	regiment = {
+		name="1st Siak Artillery"
+		type=artillery
+		home=1401
+	}
+	regiment = {
+		name="1st Johor Bahru Artillery"
+		type=artillery
+		home=1385
+	}
+	regiment = {
+		name="1st Tanjungpinang Artillery"
+		type=artillery
+		home=1402
+	}
+	regiment = {
+		name="1st Malacca Artillery"
+		type=artillery
+		home=1386
+	}
+	regiment = {
+		name="4th Ipoh Irregulars"
+		type=irregular
+		home=2575
+	}
+	regiment = {
+		name="2nd Johor Bahru Artillery"
+		type=artillery
+		home=1385
+	}
+}
+
+army = {
+	name="Free Company"
+	location=1406
+	regiment = {
+		name="1st Johor Bahru Irregulars"
+		type=irregular
+		home=1385
+	}
+}
+
+army = {
+	name="1st Army"
+	location=1426
+	regiment = {
+		name="2nd Siak Artillery"
+		type=artillery
+		home=1401
+	}
+	regiment = {
+		name="3rd Siak Artillery"
+		type=artillery
+		home=1401
+	}
+}
+
+army = {
+	name="4th Army"
+	location=1406
+	regiment = {
+		name="1st Inderagiri Artillery"
+		type=artillery
+		home=1400
+	}
+	regiment = {
+		name="2nd Singapore Artillery"
+		type=artillery
+		home=1384
+	}
+	regiment = {
+		name="1st Phuket Artillery"
+		type=artillery
+		home=1352
+	}
+	regiment = {
+		name="2nd Tanjungpinang Artillery"
+		type=artillery
+		home=1402
+	}
+}
+
+navy = {
+	name="2nd Fleet"
+	location=1404
+	ship = {
+		name="2nd Tonga Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st Cirebon Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd Cirebon Clipper Transport"
+		type=clipper_transport
+	}
+}
+

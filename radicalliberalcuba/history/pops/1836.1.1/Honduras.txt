@@ -1,0 +1,729 @@
+2193 = {
+	soldiers=
+	{
+		culture = chibchan
+		religion = animist
+		size= 112
+	}
+
+	artisans=
+	{
+		culture = chibchan
+		religion = animist
+		size= 56
+	}
+
+	clergymen=
+	{
+		culture = chibchan
+		religion = animist
+		size= 11
+	}
+
+	bureaucrats=
+	{
+		culture = chibchan
+		religion = animist
+		size= 3
+	}
+
+	officers=
+	{
+		culture = chibchan
+		religion = animist
+		size= 1
+	}
+
+	aristocrats=
+	{
+		culture = chibchan
+		religion = animist
+		size= 24
+	}
+
+	farmers=
+	{
+		culture = chibchan
+		religion = animist
+		size= 10993
+	}
+
+	soldiers=
+	{
+		culture = maximilianish
+		religion = hussite
+		size= 18
+	}
+
+	artisans=
+	{
+		culture = maximilianish
+		religion = hussite
+		size= 205
+	}
+
+	clergymen=
+	{
+		culture = maximilianish
+		religion = hussite
+		size= 38
+	}
+
+	bureaucrats=
+	{
+		culture = maximilianish
+		religion = hussite
+		size= 10
+	}
+
+	officers=
+	{
+		culture = maximilianish
+		religion = hussite
+		size= 4
+	}
+
+	aristocrats=
+	{
+		culture = maximilianish
+		religion = hussite
+		size= 86
+	}
+
+	farmers=
+	{
+		culture = maximilianish
+		religion = hussite
+		size= 1462
+	}
+
+	soldiers=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 226
+	}
+
+	artisans=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 1166
+	}
+
+	clergymen=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 219
+	}
+
+	bureaucrats=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 58
+	}
+
+	officers=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 23
+	}
+
+	aristocrats=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 490
+	}
+
+	farmers=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 20457
+	}
+
+}
+2194 = {
+	soldiers=
+	{
+		culture = mayan
+		religion = mayan
+		size= 204
+	}
+
+	artisans=
+	{
+		culture = mayan
+		religion = mayan
+		size= 204
+	}
+
+	clergymen=
+	{
+		culture = mayan
+		religion = mayan
+		size= 38
+	}
+
+	bureaucrats=
+	{
+		culture = mayan
+		religion = mayan
+		size= 5
+	}
+
+	officers=
+	{
+		culture = mayan
+		religion = mayan
+		size= 4
+	}
+
+	aristocrats=
+	{
+		culture = mayan
+		religion = mayan
+		size= 43
+	}
+
+	farmers=
+	{
+		culture = mayan
+		religion = mayan
+		size= 19907
+	}
+
+	soldiers=
+	{
+		culture = mayan
+		religion = hussite
+		size= 173
+	}
+
+	artisans=
+	{
+		culture = mayan
+		religion = hussite
+		size= 550
+	}
+
+	clergymen=
+	{
+		culture = mayan
+		religion = hussite
+		size= 103
+	}
+
+	bureaucrats=
+	{
+		culture = mayan
+		religion = hussite
+		size= 14
+	}
+
+	officers=
+	{
+		culture = mayan
+		religion = hussite
+		size= 11
+	}
+
+	aristocrats=
+	{
+		culture = mayan
+		religion = hussite
+		size= 116
+	}
+
+	farmers=
+	{
+		culture = mayan
+		religion = hussite
+		size= 16355
+	}
+
+	soldiers=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 19
+	}
+
+	artisans=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 830
+	}
+
+	clergymen=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 156
+	}
+
+	bureaucrats=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 21
+	}
+
+	officers=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 17
+	}
+
+	aristocrats=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 174
+	}
+
+	farmers=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 682
+	}
+
+}
+2195 = {
+	soldiers=
+	{
+		culture = chibchan
+		religion = animist
+		size= 135
+	}
+
+	artisans=
+	{
+		culture = chibchan
+		religion = animist
+		size= 67
+	}
+
+	clergymen=
+	{
+		culture = chibchan
+		religion = animist
+		size= 13
+	}
+
+	bureaucrats=
+	{
+		culture = chibchan
+		religion = animist
+		size= 3
+	}
+
+	officers=
+	{
+		culture = chibchan
+		religion = animist
+		size= 1
+	}
+
+	aristocrats=
+	{
+		culture = chibchan
+		religion = animist
+		size= 14
+	}
+
+	farmers=
+	{
+		culture = chibchan
+		religion = animist
+		size= 13226
+	}
+
+	soldiers=
+	{
+		culture = maximilianish
+		religion = hussite
+		size= 30
+	}
+
+	artisans=
+	{
+		culture = maximilianish
+		religion = hussite
+		size= 237
+	}
+
+	clergymen=
+	{
+		culture = maximilianish
+		religion = hussite
+		size= 44
+	}
+
+	bureaucrats=
+	{
+		culture = maximilianish
+		religion = hussite
+		size= 12
+	}
+
+	officers=
+	{
+		culture = maximilianish
+		religion = hussite
+		size= 4
+	}
+
+	aristocrats=
+	{
+		culture = maximilianish
+		religion = hussite
+		size= 49
+	}
+
+	farmers=
+	{
+		culture = maximilianish
+		religion = hussite
+		size= 2569
+	}
+
+	soldiers=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 307
+	}
+
+	artisans=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 1644
+	}
+
+	clergymen=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 309
+	}
+
+	bureaucrats=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 82
+	}
+
+	officers=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 33
+	}
+
+	aristocrats=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 346
+	}
+
+	farmers=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 27979
+	}
+
+	soldiers=
+	{
+		culture = chibchan
+		religion = mayan
+		size= 42
+	}
+
+	artisans=
+	{
+		culture = chibchan
+		religion = mayan
+		size= 50
+	}
+
+	clergymen=
+	{
+		culture = chibchan
+		religion = mayan
+		size= 9
+	}
+
+	bureaucrats=
+	{
+		culture = chibchan
+		religion = mayan
+		size= 2
+	}
+
+	officers=
+	{
+		culture = chibchan
+		religion = mayan
+		size= 1
+	}
+
+	aristocrats=
+	{
+		culture = chibchan
+		religion = mayan
+		size= 10
+	}
+
+	farmers=
+	{
+		culture = chibchan
+		religion = mayan
+		size= 4050
+	}
+
+	soldiers=
+	{
+		culture = chibchan
+		religion = hussite
+		size= 2
+	}
+
+	artisans=
+	{
+		culture = chibchan
+		religion = hussite
+		size= 63
+	}
+
+	clergymen=
+	{
+		culture = chibchan
+		religion = hussite
+		size= 12
+	}
+
+	bureaucrats=
+	{
+		culture = chibchan
+		religion = hussite
+		size= 3
+	}
+
+	officers=
+	{
+		culture = chibchan
+		religion = hussite
+		size= 1
+	}
+
+	aristocrats=
+	{
+		culture = chibchan
+		religion = hussite
+		size= 13
+	}
+
+	farmers=
+	{
+		culture = chibchan
+		religion = hussite
+		size= 154
+	}
+
+}
+2196 = {
+	soldiers=
+	{
+		culture = chibchan
+		religion = animist
+		size= 102
+	}
+
+	artisans=
+	{
+		culture = chibchan
+		religion = animist
+		size= 38
+	}
+
+	farmers=
+	{
+		culture = chibchan
+		religion = animist
+		size= 10068
+	}
+
+	clergymen=
+	{
+		culture = chibchan
+		religion = animist
+		size= 7
+	}
+
+	aristocrats=
+	{
+		culture = chibchan
+		religion = animist
+		size= 8
+	}
+
+	artisans=
+	{
+		culture = novysvet
+		religion = protestant
+		size= 13
+	}
+
+	clergymen=
+	{
+		culture = novysvet
+		religion = protestant
+		size= 2
+	}
+
+	bureaucrats=
+	{
+		culture = novysvet
+		religion = protestant
+		size= 1
+	}
+
+	aristocrats=
+	{
+		culture = novysvet
+		religion = protestant
+		size= 3
+	}
+
+	farmers=
+	{
+		culture = novysvet
+		religion = protestant
+		size= 18
+	}
+
+	bureaucrats=
+	{
+		culture = chibchan
+		religion = animist
+		size= 1
+	}
+
+	officers=
+	{
+		culture = chibchan
+		religion = animist
+		size= 1
+	}
+
+	soldiers=
+	{
+		culture = maximilianish
+		religion = hussite
+		size= 28
+	}
+
+	artisans=
+	{
+		culture = maximilianish
+		religion = hussite
+		size= 210
+	}
+
+	clergymen=
+	{
+		culture = maximilianish
+		religion = hussite
+		size= 39
+	}
+
+	bureaucrats=
+	{
+		culture = maximilianish
+		religion = hussite
+		size= 11
+	}
+
+	officers=
+	{
+		culture = maximilianish
+		religion = hussite
+		size= 4
+	}
+
+	aristocrats=
+	{
+		culture = maximilianish
+		religion = hussite
+		size= 45
+	}
+
+	farmers=
+	{
+		culture = maximilianish
+		religion = hussite
+		size= 2501
+	}
+
+	soldiers=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 226
+	}
+
+	artisans=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 1165
+	}
+
+	clergymen=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 218
+	}
+
+	bureaucrats=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 58
+	}
+
+	officers=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 23
+	}
+
+	aristocrats=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 245
+	}
+
+	farmers=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 20628
+	}
+
+}

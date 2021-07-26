@@ -1,0 +1,459 @@
+2237 = {
+	slaves=
+	{
+		culture = carribean
+		religion = animist
+		size= 5605
+	}
+
+	soldiers=
+	{
+		culture = carribean
+		religion = animist
+		size= 118
+	}
+
+	farmers=
+	{
+		culture = carribean
+		religion = animist
+		size= 389
+	}
+
+	slaves=
+	{
+		culture = guajiro
+		religion = animist
+		size= 399
+	}
+
+	soldiers=
+	{
+		culture = guajiro
+		religion = animist
+		size= 8
+	}
+
+	farmers=
+	{
+		culture = guajiro
+		religion = animist
+		size= 33
+	}
+
+	artisans=
+	{
+		culture = carribean
+		religion = animist
+		size= 33
+	}
+
+	clergymen=
+	{
+		culture = carribean
+		religion = animist
+		size= 12
+	}
+
+	aristocrats=
+	{
+		culture = carribean
+		religion = animist
+		size= 7
+	}
+
+	bureaucrats=
+	{
+		culture = carribean
+		religion = animist
+		size= 2
+	}
+
+	officers=
+	{
+		culture = carribean
+		religion = animist
+		size= 1
+	}
+
+	slaves=
+	{
+		culture = afro_antillean
+		religion = catholic
+		size= 6321
+	}
+
+	soldiers=
+	{
+		culture = antartique
+		religion = catholic
+		size= 132
+	}
+
+	artisans=
+	{
+		culture = antartique
+		religion = catholic
+		size= 103
+	}
+
+	clergymen=
+	{
+		culture = antartique
+		religion = catholic
+		size= 38
+	}
+
+	bureaucrats=
+	{
+		culture = antartique
+		religion = catholic
+		size= 8
+	}
+
+	officers=
+	{
+		culture = antartique
+		religion = catholic
+		size= 3
+	}
+
+	aristocrats=
+	{
+		culture = antartique
+		religion = catholic
+		size= 22
+	}
+
+	farmers=
+	{
+		culture = antartique
+		religion = catholic
+		size= 326
+	}
+
+	slaves=
+	{
+		culture = afro_antillean
+		religion = hussite
+		size= 889
+	}
+
+	soldiers=
+	{
+		culture = antartique
+		religion = hussite
+		size= 19
+	}
+
+	artisans=
+	{
+		culture = antartique
+		religion = hussite
+		size= 155
+	}
+
+	clergymen=
+	{
+		culture = antartique
+		religion = hussite
+		size= 58
+	}
+
+	bureaucrats=
+	{
+		culture = antartique
+		religion = hussite
+		size= 12
+	}
+
+	officers=
+	{
+		culture = antartique
+		religion = hussite
+		size= 5
+	}
+
+	aristocrats=
+	{
+		culture = antartique
+		religion = hussite
+		size= 33
+	}
+
+	slaves=
+	{
+		culture = afro_slavic
+		religion = hussite
+		size= 21009
+	}
+
+	soldiers=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 439
+	}
+
+	artisans=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 1215
+	}
+
+	clergymen=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 456
+	}
+
+	bureaucrats=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 97
+	}
+
+	officers=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 36
+	}
+
+	aristocrats=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 255
+	}
+
+}
+2238 = {
+	slaves=
+	{
+		culture = carribean
+		religion = animist
+		size= 5999
+	}
+
+	soldiers=
+	{
+		culture = carribean
+		religion = animist
+		size= 118
+	}
+
+	farmers=
+	{
+		culture = carribean
+		religion = animist
+		size= 28
+	}
+
+	slaves=
+	{
+		culture = guajiro
+		religion = animist
+		size= 428
+	}
+
+	soldiers=
+	{
+		culture = guajiro
+		religion = animist
+		size= 8
+	}
+
+	farmers=
+	{
+		culture = guajiro
+		religion = animist
+		size= 4
+	}
+
+	artisans=
+	{
+		culture = carribean
+		religion = animist
+		size= 33
+	}
+
+	clergymen=
+	{
+		culture = carribean
+		religion = animist
+		size= 12
+	}
+
+	aristocrats=
+	{
+		culture = carribean
+		religion = animist
+		size= 7
+	}
+
+	bureaucrats=
+	{
+		culture = carribean
+		religion = animist
+		size= 2
+	}
+
+	officers=
+	{
+		culture = carribean
+		religion = animist
+		size= 1
+	}
+
+	slaves=
+	{
+		culture = afro_antillean
+		religion = catholic
+		size= 6768
+	}
+
+	soldiers=
+	{
+		culture = antartique
+		religion = catholic
+		size= 132
+	}
+
+	artisans=
+	{
+		culture = antartique
+		religion = catholic
+		size= 103
+	}
+
+	clergymen=
+	{
+		culture = antartique
+		religion = catholic
+		size= 38
+	}
+
+	bureaucrats=
+	{
+		culture = antartique
+		religion = catholic
+		size= 8
+	}
+
+	officers=
+	{
+		culture = antartique
+		religion = catholic
+		size= 3
+	}
+
+	aristocrats=
+	{
+		culture = antartique
+		religion = catholic
+		size= 22
+	}
+
+	slaves=
+	{
+		culture = afro_antillean
+		religion = hussite
+		size= 952
+	}
+
+	soldiers=
+	{
+		culture = antartique
+		religion = hussite
+		size= 19
+	}
+
+	artisans=
+	{
+		culture = antartique
+		religion = hussite
+		size= 155
+	}
+
+	clergymen=
+	{
+		culture = antartique
+		religion = hussite
+		size= 58
+	}
+
+	bureaucrats=
+	{
+		culture = antartique
+		religion = hussite
+		size= 12
+	}
+
+	officers=
+	{
+		culture = antartique
+		religion = hussite
+		size= 5
+	}
+
+	aristocrats=
+	{
+		culture = antartique
+		religion = hussite
+		size= 33
+	}
+
+	slaves=
+	{
+		culture = afro_slavic
+		religion = hussite
+		size= 22493
+	}
+
+	soldiers=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 439
+	}
+
+	artisans=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 1215
+	}
+
+	clergymen=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 456
+	}
+
+	bureaucrats=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 97
+	}
+
+	officers=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 36
+	}
+
+	aristocrats=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 255
+	}
+
+}

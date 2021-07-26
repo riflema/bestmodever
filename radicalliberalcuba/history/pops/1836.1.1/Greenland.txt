@@ -1,0 +1,708 @@
+251 = {
+	soldiers=
+	{
+		culture = eskaleut
+		religion = animist
+		size= 24
+	}
+
+	artisans=
+	{
+		culture = eskaleut
+		religion = animist
+		size= 6
+	}
+
+	aristocrats=
+	{
+		culture = eskaleut
+		religion = animist
+		size= 2
+	}
+
+	farmers=
+	{
+		culture = eskaleut
+		religion = animist
+		size= 2370
+	}
+
+	soldiers=
+	{
+		culture = geheimnisdeutsch
+		religion = protestant
+		size= 14
+	}
+
+	artisans=
+	{
+		culture = geheimnisdeutsch
+		religion = protestant
+		size= 32
+	}
+
+	aristocrats=
+	{
+		culture = geheimnisdeutsch
+		religion = protestant
+		size= 7
+	}
+
+	farmers=
+	{
+		culture = geheimnisdeutsch
+		religion = protestant
+		size= 1323
+	}
+
+	clergymen=
+	{
+		culture = geheimnisdeutsch
+		religion = protestant
+		size= 5
+	}
+
+	bureaucrats=
+	{
+		culture = geheimnisdeutsch
+		religion = protestant
+		size= 2
+	}
+
+	soldiers=
+	{
+		culture = novysvet
+		religion = protestant
+		size= 52
+	}
+
+	artisans=
+	{
+		culture = novysvet
+		religion = protestant
+		size= 142
+	}
+
+	clergymen=
+	{
+		culture = novysvet
+		religion = protestant
+		size= 24
+	}
+
+	bureaucrats=
+	{
+		culture = novysvet
+		religion = protestant
+		size= 7
+	}
+
+	officers=
+	{
+		culture = novysvet
+		religion = protestant
+		size= 3
+	}
+
+	aristocrats=
+	{
+		culture = novysvet
+		religion = protestant
+		size= 30
+	}
+
+	farmers=
+	{
+		culture = novysvet
+		religion = protestant
+		size= 4989
+	}
+
+	soldiers=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 1033
+	}
+
+	artisans=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 493
+	}
+
+	clergymen=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 80
+	}
+
+	bureaucrats=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 24
+	}
+
+	officers=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 10
+	}
+
+	aristocrats=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 104
+	}
+
+	farmers=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 6064
+	}
+
+	clergymen=
+	{
+		culture = eskaleut
+		religion = animist
+		size= 1
+	}
+
+}
+2591 = {
+	soldiers=
+	{
+		culture = eskaleut
+		religion = animist
+		size= 24
+	}
+
+	artisans=
+	{
+		culture = eskaleut
+		religion = animist
+		size= 6
+	}
+
+	aristocrats=
+	{
+		culture = eskaleut
+		religion = animist
+		size= 2
+	}
+
+	farmers=
+	{
+		culture = eskaleut
+		religion = animist
+		size= 2370
+	}
+
+	soldiers=
+	{
+		culture = geheimnisdeutsch
+		religion = protestant
+		size= 14
+	}
+
+	artisans=
+	{
+		culture = geheimnisdeutsch
+		religion = protestant
+		size= 32
+	}
+
+	aristocrats=
+	{
+		culture = geheimnisdeutsch
+		religion = protestant
+		size= 7
+	}
+
+	farmers=
+	{
+		culture = geheimnisdeutsch
+		religion = protestant
+		size= 1323
+	}
+
+	clergymen=
+	{
+		culture = geheimnisdeutsch
+		religion = protestant
+		size= 5
+	}
+
+	bureaucrats=
+	{
+		culture = geheimnisdeutsch
+		religion = protestant
+		size= 2
+	}
+
+	soldiers=
+	{
+		culture = novysvet
+		religion = protestant
+		size= 52
+	}
+
+	artisans=
+	{
+		culture = novysvet
+		religion = protestant
+		size= 142
+	}
+
+	clergymen=
+	{
+		culture = novysvet
+		religion = protestant
+		size= 24
+	}
+
+	bureaucrats=
+	{
+		culture = novysvet
+		religion = protestant
+		size= 7
+	}
+
+	officers=
+	{
+		culture = novysvet
+		religion = protestant
+		size= 3
+	}
+
+	aristocrats=
+	{
+		culture = novysvet
+		religion = protestant
+		size= 30
+	}
+
+	farmers=
+	{
+		culture = novysvet
+		religion = protestant
+		size= 4989
+	}
+
+	soldiers=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 78
+	}
+
+	artisans=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 493
+	}
+
+	clergymen=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 80
+	}
+
+	bureaucrats=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 24
+	}
+
+	officers=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 10
+	}
+
+	aristocrats=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 104
+	}
+
+	farmers=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 7019
+	}
+
+	clergymen=
+	{
+		culture = eskaleut
+		religion = animist
+		size= 1
+	}
+
+}
+2632 = {
+	soldiers=
+	{
+		culture = eskaleut
+		religion = animist
+		size= 24
+	}
+
+	artisans=
+	{
+		culture = eskaleut
+		religion = animist
+		size= 6
+	}
+
+	aristocrats=
+	{
+		culture = eskaleut
+		religion = animist
+		size= 2
+	}
+
+	farmers=
+	{
+		culture = eskaleut
+		religion = animist
+		size= 2370
+	}
+
+	soldiers=
+	{
+		culture = geheimnisdeutsch
+		religion = protestant
+		size= 14
+	}
+
+	artisans=
+	{
+		culture = geheimnisdeutsch
+		religion = protestant
+		size= 32
+	}
+
+	aristocrats=
+	{
+		culture = geheimnisdeutsch
+		religion = protestant
+		size= 7
+	}
+
+	farmers=
+	{
+		culture = geheimnisdeutsch
+		religion = protestant
+		size= 1323
+	}
+
+	clergymen=
+	{
+		culture = geheimnisdeutsch
+		religion = protestant
+		size= 5
+	}
+
+	bureaucrats=
+	{
+		culture = geheimnisdeutsch
+		religion = protestant
+		size= 2
+	}
+
+	soldiers=
+	{
+		culture = novysvet
+		religion = protestant
+		size= 52
+	}
+
+	artisans=
+	{
+		culture = novysvet
+		religion = protestant
+		size= 142
+	}
+
+	clergymen=
+	{
+		culture = novysvet
+		religion = protestant
+		size= 24
+	}
+
+	bureaucrats=
+	{
+		culture = novysvet
+		religion = protestant
+		size= 7
+	}
+
+	officers=
+	{
+		culture = novysvet
+		religion = protestant
+		size= 3
+	}
+
+	aristocrats=
+	{
+		culture = novysvet
+		religion = protestant
+		size= 30
+	}
+
+	farmers=
+	{
+		culture = novysvet
+		religion = protestant
+		size= 4989
+	}
+
+	soldiers=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 78
+	}
+
+	artisans=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 493
+	}
+
+	clergymen=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 80
+	}
+
+	bureaucrats=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 24
+	}
+
+	officers=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 10
+	}
+
+	aristocrats=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 104
+	}
+
+	farmers=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 7019
+	}
+
+	clergymen=
+	{
+		culture = eskaleut
+		religion = animist
+		size= 1
+	}
+
+}
+2636 = {
+	soldiers=
+	{
+		culture = eskaleut
+		religion = animist
+		size= 24
+	}
+
+	artisans=
+	{
+		culture = eskaleut
+		religion = animist
+		size= 6
+	}
+
+	aristocrats=
+	{
+		culture = eskaleut
+		religion = animist
+		size= 2
+	}
+
+	farmers=
+	{
+		culture = eskaleut
+		religion = animist
+		size= 2370
+	}
+
+	soldiers=
+	{
+		culture = geheimnisdeutsch
+		religion = protestant
+		size= 14
+	}
+
+	artisans=
+	{
+		culture = geheimnisdeutsch
+		religion = protestant
+		size= 32
+	}
+
+	aristocrats=
+	{
+		culture = geheimnisdeutsch
+		religion = protestant
+		size= 7
+	}
+
+	farmers=
+	{
+		culture = geheimnisdeutsch
+		religion = protestant
+		size= 1323
+	}
+
+	clergymen=
+	{
+		culture = geheimnisdeutsch
+		religion = protestant
+		size= 5
+	}
+
+	bureaucrats=
+	{
+		culture = geheimnisdeutsch
+		religion = protestant
+		size= 2
+	}
+
+	soldiers=
+	{
+		culture = novysvet
+		religion = protestant
+		size= 52
+	}
+
+	artisans=
+	{
+		culture = novysvet
+		religion = protestant
+		size= 142
+	}
+
+	clergymen=
+	{
+		culture = novysvet
+		religion = protestant
+		size= 24
+	}
+
+	bureaucrats=
+	{
+		culture = novysvet
+		religion = protestant
+		size= 7
+	}
+
+	officers=
+	{
+		culture = novysvet
+		religion = protestant
+		size= 3
+	}
+
+	aristocrats=
+	{
+		culture = novysvet
+		religion = protestant
+		size= 30
+	}
+
+	farmers=
+	{
+		culture = novysvet
+		religion = protestant
+		size= 4989
+	}
+
+	soldiers=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 78
+	}
+
+	artisans=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 493
+	}
+
+	clergymen=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 80
+	}
+
+	bureaucrats=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 24
+	}
+
+	officers=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 10
+	}
+
+	aristocrats=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 104
+	}
+
+	farmers=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 7019
+	}
+
+	clergymen=
+	{
+		culture = eskaleut
+		religion = animist
+		size= 1
+	}
+
+}

@@ -1,0 +1,9 @@
+owner=TRX
+controller=TRX
+add_core=HND
+add_core=KAS
+add_core=MUL
+add_core=PAN
+trade_goods = cotton
+life_rating = 32
+terrain = mountain

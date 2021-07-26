@@ -1,0 +1,8 @@
+owner=VRM
+controller=VRM
+add_core=ASI
+add_core=OEO
+trade_goods = timber
+life_rating = 35
+terrain = forest
+colonial=2

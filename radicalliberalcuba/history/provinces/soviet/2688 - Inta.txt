@@ -1,0 +1,7 @@
+owner=FRA
+controller=FRA
+add_core=NVG
+add_core=RUS
+trade_goods = fish
+life_rating = 15
+terrain = arctic

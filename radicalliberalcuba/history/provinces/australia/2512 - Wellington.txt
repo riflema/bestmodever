@@ -1,0 +1,8 @@
+owner=X11
+controller=X11
+add_core=AOT
+add_core=NZK
+trade_goods = cattle
+life_rating = 30
+terrain = woods
+colonial=2

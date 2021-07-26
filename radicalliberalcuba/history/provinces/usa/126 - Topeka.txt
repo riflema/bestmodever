@@ -1,0 +1,8 @@
+owner=VRM
+controller=VRM
+add_core=CAO
+add_core=WIC
+trade_goods = grain
+life_rating = 35
+terrain = steppe
+colonial=2

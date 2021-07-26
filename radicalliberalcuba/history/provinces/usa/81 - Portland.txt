@@ -1,0 +1,12 @@
+owner=VRM
+controller=VRM
+add_core=SAL
+trade_goods = timber
+life_rating = 35
+terrain = forest
+state_building=
+{
+	level=1
+	building = paper_mill
+	upgrade = yes
+}

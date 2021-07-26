@@ -1,0 +1,8 @@
+owner=MEM
+controller=MBZ
+add_core=GER
+add_core=HRE
+add_core=MEM
+trade_goods = cattle
+life_rating = 40
+terrain = hills

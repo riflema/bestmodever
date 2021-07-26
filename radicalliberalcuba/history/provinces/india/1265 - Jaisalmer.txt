@@ -1,0 +1,8 @@
+owner=NGA
+controller=NGA
+add_core=HND
+add_core=MEW
+add_core=NGA
+trade_goods = wool
+life_rating = 32
+terrain = woods

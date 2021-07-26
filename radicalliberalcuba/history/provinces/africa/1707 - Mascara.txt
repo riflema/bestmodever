@@ -1,0 +1,8 @@
+owner=TGT
+controller=TGT
+add_core=MOR
+add_core=TGT
+add_core=TLC
+trade_goods = fruit
+life_rating = 35
+terrain = mountain

@@ -1,0 +1,10 @@
+owner=KHA
+controller=KHA
+add_core=CHI
+add_core=KHA
+add_core=MCK
+add_core=MYR
+add_core=SOL
+trade_goods = coal
+life_rating = 32
+terrain = plains

@@ -1,0 +1,1032 @@
+alliance=
+{
+	first="SCA"
+	second="TUR"
+	start_date="1764.8.30"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="SCA"
+	second="VRM"
+	start_date="1808.3.1"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="SER"
+	second="PLC"
+	start_date="1671.10.12"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="SER"
+	second="CLI"
+	start_date="1813.1.30"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="VRM"
+	second="CAN"
+	start_date="1815.8.29"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="PRU"
+	second="TUR"
+	start_date="1587.10.20"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="FRA"
+	second="PLC"
+	start_date="1757.11.14"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="FRA"
+	second="SWA"
+	start_date="1812.1.19"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="FRM"
+	second="ULM"
+	start_date="1710.5.12"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="FRM"
+	second="PAL"
+	start_date="1778.12.13"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="HES"
+	second="TER"
+	start_date="1806.5.7"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="HES"
+	second="LUX"
+	start_date="1809.9.27"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="OLD"
+	second="FRM"
+	start_date="1692.10.12"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="OLD"
+	second="SPA"
+	start_date="1794.11.13"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="PAL"
+	second="CLI"
+	start_date="1622.9.22"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="SLZ"
+	second="LUX"
+	start_date="1727.4.13"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="THU"
+	second="WES"
+	start_date="1806.9.9"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="TER"
+	second="THU"
+	start_date="1796.7.30"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="WBG"
+	second="PAL"
+	start_date="1697.1.2"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="WES"
+	second="LUX"
+	start_date="1797.1.26"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="MEM"
+	second="SLZ"
+	start_date="1779.4.18"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="MEM"
+	second="UBV"
+	start_date="1813.6.2"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="MEM"
+	second="SVY"
+	start_date="1819.10.27"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="POR"
+	second="PAP"
+	start_date="1630.4.6"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="SPA"
+	second="PLC"
+	start_date="1695.8.22"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="SPA"
+	second="PRO"
+	start_date="1702.8.22"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="GEN"
+	second="FRA"
+	start_date="1497.10.25"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="PAP"
+	second="PRO"
+	start_date="1814.9.23"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="SVY"
+	second="SWI"
+	start_date="1713.3.19"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="SVY"
+	second="LUX"
+	start_date="1807.8.2"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="VEN"
+	second="FRA"
+	start_date="1496.11.6"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="VEN"
+	second="GEN"
+	start_date="1530.12.8"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="VEN"
+	second="NET"
+	start_date="1680.11.16"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="LUX"
+	second="CLI"
+	start_date="1635.11.16"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="LUX"
+	second="OLD"
+	start_date="1714.5.17"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="LUX"
+	second="KNZ"
+	start_date="1767.5.2"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="NET"
+	second="FRA"
+	start_date="1759.12.29"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="NET"
+	second="THU"
+	start_date="1767.2.24"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="NET"
+	second="TUR"
+	start_date="1816.3.28"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="MUS"
+	second="PAL"
+	start_date="1572.7.12"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="MUS"
+	second="VEN"
+	start_date="1585.1.12"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="HDR"
+	second="PHG"
+	start_date="1589.11.16"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="MKA"
+	second="KAN"
+	start_date="1764.10.6"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="MKA"
+	second="TUR"
+	start_date="1803.12.25"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="AFG"
+	second="TRX"
+	start_date="1700.4.4"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="QAR"
+	second="X02"
+	start_date="1707.5.24"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="QAR"
+	second="CIR"
+	start_date="1812.12.14"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="TRX"
+	second="QAR"
+	start_date="1744.9.16"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="TRX"
+	second="ORM"
+	start_date="1793.8.26"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="CIR"
+	second="MUS"
+	start_date="1505.9.29"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="ORM"
+	second="QAR"
+	start_date="1804.7.4"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="ORM"
+	second="AFG"
+	start_date="1810.6.8"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="X02"
+	second="TRX"
+	start_date="1563.1.11"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="ETH"
+	second="BSG"
+	start_date="1798.1.25"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="ETH"
+	second="ORM"
+	start_date="1818.8.20"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="NUB"
+	second="KAN"
+	start_date="1549.5.1"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="NUB"
+	second="ETH"
+	start_date="1812.11.24"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="ZIM"
+	second="KIK"
+	start_date="1468.7.26"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="ZIM"
+	second="SWA"
+	start_date="1704.1.23"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="KUB"
+	second="BRD"
+	start_date="1693.7.24"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="KUB"
+	second="KIK"
+	start_date="1698.1.13"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="KUB"
+	second="BNY"
+	start_date="1800.8.2"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="BRD"
+	second="KRW"
+	start_date="1444.11.28"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="KRW"
+	second="KUB"
+	start_date="1813.10.20"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="BNY"
+	second="KRW"
+	start_date="1538.4.18"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="BNY"
+	second="BRD"
+	start_date="1622.6.5"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="BSG"
+	second="KRW"
+	start_date="1444.12.14"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="BSG"
+	second="BNY"
+	start_date="1527.8.9"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="BSG"
+	second="KUB"
+	start_date="1686.1.22"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="SIA"
+	second="SHA"
+	start_date="1787.1.28"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="BRU"
+	second="TTE"
+	start_date="1715.2.6"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="DAI"
+	second="ORI"
+	start_date="1745.3.10"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="LNA"
+	second="ORI"
+	start_date="1730.10.18"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="LNA"
+	second="AVA"
+	start_date="1766.12.5"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="MJP"
+	second="FRA"
+	start_date="1647.1.5"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="MLC"
+	second="BRU"
+	start_date="1781.1.26"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="MNX"
+	second="NHX"
+	start_date="1789.6.10"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="OIR"
+	second="MUL"
+	start_date="1811.2.20"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="RYU"
+	second="HDR"
+	start_date="1727.11.7"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="SHA"
+	second="NGA"
+	start_date="1763.5.30"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="SHA"
+	second="MNX"
+	start_date="1797.10.6"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="SHA"
+	second="LNA"
+	start_date="1801.9.5"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="SUL"
+	second="BRU"
+	start_date="1610.9.5"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="BUR"
+	second="MNX"
+	start_date="1737.5.21"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="BUR"
+	second="SIA"
+	start_date="1767.12.28"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="UTS"
+	second="AFG"
+	start_date="1705.6.8"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="UTS"
+	second="DLH"
+	start_date="1756.8.15"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="BLC"
+	second="TUR"
+	start_date="1801.3.12"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="BLC"
+	second="TRX"
+	start_date="1819.7.25"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="BLC"
+	second="AFG"
+	start_date="1819.12.26"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="DLH"
+	second="ORI"
+	start_date="1508.5.18"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="DLH"
+	second="SIN"
+	start_date="1768.11.22"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="DLH"
+	second="MUL"
+	start_date="1787.7.9"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="MUL"
+	second="SIN"
+	start_date="1775.2.22"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="ORI"
+	second="CEB"
+	start_date="1815.10.29"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="SIN"
+	second="X02"
+	start_date="1760.11.6"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="NGA"
+	second="ORM"
+	start_date="1738.3.21"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="NGA"
+	second="MUL"
+	start_date="1797.11.16"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="ABE"
+	second="IRO"
+	start_date="1807.10.29"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="CAD"
+	second="FOX"
+	start_date="1632.4.4"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="AVA"
+	second="ORI"
+	start_date="1709.4.10"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="KED"
+	second="PHG"
+	start_date="1475.9.3"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="KED"
+	second="BRU"
+	start_date="1794.1.4"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="BLM"
+	second="BAU"
+	start_date="1737.10.31"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="BLM"
+	second="ORI"
+	start_date="1805.1.5"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="PGR"
+	second="MJP"
+	start_date="1709.12.5"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="PGR"
+	second="SIA"
+	start_date="1758.9.17"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="PGR"
+	second="DJA"
+	start_date="1796.3.26"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="SUN"
+	second="BLM"
+	start_date="1521.3.3"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="SUN"
+	second="SPA"
+	start_date="1610.12.13"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="SUN"
+	second="PHG"
+	start_date="1783.12.14"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="TID"
+	second="BRU"
+	start_date="1781.10.16"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="TDO"
+	second="MJP"
+	start_date="1697.7.20"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="CEB"
+	second="MJP"
+	start_date="1708.4.22"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="BTU"
+	second="SUL"
+	start_date="1601.9.8"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="BTU"
+	second="TDO"
+	start_date="1615.1.6"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="KNZ"
+	second="SWI"
+	start_date="1553.8.18"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="KNZ"
+	second="ULM"
+	start_date="1568.4.19"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="REG"
+	second="ULM"
+	start_date="1720.6.29"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="REG"
+	second="OLD"
+	start_date="1754.9.10"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="REG"
+	second="FRM"
+	start_date="1788.11.18"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="X10"
+	second="ULM"
+	start_date="1463.3.11"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="X10"
+	second="KNZ"
+	start_date="1571.7.3"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="DJA"
+	second="BAU"
+	start_date="1801.8.11"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="WNR"
+	second="ABE"
+	start_date="1721.12.28"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="CAO"
+	second="CAD"
+	start_date="1679.9.8"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="CAO"
+	second="OHK"
+	start_date="1787.8.24"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="CAO"
+	second="FOX"
+	start_date="1811.9.18"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
+	first="CAO"
+	second="IRO"
+	start_date="1812.11.28"
+	end_date="1936.1.1"
+}
+

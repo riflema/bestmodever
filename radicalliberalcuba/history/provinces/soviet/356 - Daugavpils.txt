@@ -1,0 +1,9 @@
+owner=SCA
+controller=SCA
+add_core=LAT
+add_core=UBD
+add_core=X07
+trade_goods = grain
+life_rating = 35
+terrain = woods
+fort = 1

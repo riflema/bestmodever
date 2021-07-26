@@ -1,0 +1,368 @@
+2240 = {
+	soldiers=
+	{
+		culture = guajiro
+		religion = animist
+		size= 25
+	}
+
+	artisans=
+	{
+		culture = guajiro
+		religion = animist
+		size= 6
+	}
+
+	clergymen=
+	{
+		culture = guajiro
+		religion = animist
+		size= 1
+	}
+
+	aristocrats=
+	{
+		culture = guajiro
+		religion = animist
+		size= 1
+	}
+
+	farmers=
+	{
+		culture = guajiro
+		religion = animist
+		size= 2492
+	}
+
+	soldiers=
+	{
+		culture = surinamian
+		religion = protestant
+		size= 42
+	}
+
+	artisans=
+	{
+		culture = surinamian
+		religion = protestant
+		size= 61
+	}
+
+	clergymen=
+	{
+		culture = surinamian
+		religion = protestant
+		size= 11
+	}
+
+	aristocrats=
+	{
+		culture = surinamian
+		religion = protestant
+		size= 13
+	}
+
+	farmers=
+	{
+		culture = surinamian
+		religion = protestant
+		size= 4082
+	}
+
+	bureaucrats=
+	{
+		culture = surinamian
+		religion = protestant
+		size= 3
+	}
+
+	officers=
+	{
+		culture = surinamian
+		religion = protestant
+		size= 1
+	}
+
+	soldiers=
+	{
+		culture = surinamian
+		religion = hussite
+		size= 1033
+	}
+
+	artisans=
+	{
+		culture = surinamian
+		religion = hussite
+		size= 301
+	}
+
+	clergymen=
+	{
+		culture = surinamian
+		religion = hussite
+		size= 57
+	}
+
+	bureaucrats=
+	{
+		culture = surinamian
+		religion = hussite
+		size= 18
+	}
+
+	officers=
+	{
+		culture = surinamian
+		religion = hussite
+		size= 6
+	}
+
+	aristocrats=
+	{
+		culture = surinamian
+		religion = hussite
+		size= 63
+	}
+
+	farmers=
+	{
+		culture = surinamian
+		religion = hussite
+		size= 10222
+	}
+
+	soldiers=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 14
+	}
+
+	artisans=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 424
+	}
+
+	clergymen=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 79
+	}
+
+	bureaucrats=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 25
+	}
+
+	officers=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 8
+	}
+
+	aristocrats=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 89
+	}
+
+	farmers=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 736
+	}
+
+}
+2245 = {
+	soldiers=
+	{
+		culture = carribean
+		religion = animist
+		size= 54
+	}
+
+	artisans=
+	{
+		culture = carribean
+		religion = animist
+		size= 47
+	}
+
+	clergymen=
+	{
+		culture = carribean
+		religion = animist
+		size= 3
+	}
+
+	bureaucrats=
+	{
+		culture = carribean
+		religion = animist
+		size= 1
+	}
+
+	aristocrats=
+	{
+		culture = carribean
+		religion = animist
+		size= 6
+	}
+
+	farmers=
+	{
+		culture = carribean
+		religion = animist
+		size= 5314
+	}
+
+	soldiers=
+	{
+		culture = surinamian
+		religion = protestant
+		size= 53
+	}
+
+	artisans=
+	{
+		culture = surinamian
+		religion = protestant
+		size= 328
+	}
+
+	clergymen=
+	{
+		culture = surinamian
+		religion = protestant
+		size= 18
+	}
+
+	bureaucrats=
+	{
+		culture = surinamian
+		religion = protestant
+		size= 5
+	}
+
+	aristocrats=
+	{
+		culture = surinamian
+		religion = protestant
+		size= 40
+	}
+
+	farmers=
+	{
+		culture = surinamian
+		religion = protestant
+		size= 4840
+	}
+
+	officers=
+	{
+		culture = surinamian
+		religion = protestant
+		size= 2
+	}
+
+	soldiers=
+	{
+		culture = surinamian
+		religion = hussite
+		size= 188
+	}
+
+	artisans=
+	{
+		culture = surinamian
+		religion = hussite
+		size= 1690
+	}
+
+	clergymen=
+	{
+		culture = surinamian
+		religion = hussite
+		size= 91
+	}
+
+	bureaucrats=
+	{
+		culture = surinamian
+		religion = hussite
+		size= 24
+	}
+
+	officers=
+	{
+		culture = surinamian
+		religion = hussite
+		size= 10
+	}
+
+	aristocrats=
+	{
+		culture = surinamian
+		religion = hussite
+		size= 203
+	}
+
+	farmers=
+	{
+		culture = surinamian
+		religion = hussite
+		size= 16586
+	}
+
+	soldiers=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 22
+	}
+
+	artisans=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 2373
+	}
+
+	clergymen=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 127
+	}
+
+	bureaucrats=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 34
+	}
+
+	officers=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 14
+	}
+
+	aristocrats=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 285
+	}
+
+}

@@ -1,0 +1,9 @@
+owner=PGR
+controller=MLC
+add_core=MLY
+add_core=PGR
+add_core=SMB
+trade_goods = grain
+life_rating = 15
+terrain = jungle
+naval_base = 2

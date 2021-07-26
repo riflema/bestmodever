@@ -1,0 +1,9 @@
+owner=TUR
+controller=TUR
+add_core=ADA
+add_core=AJU
+add_core=SOM
+trade_goods = cotton
+life_rating = 15
+terrain = mountain
+colonial=2
