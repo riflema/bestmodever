@@ -1,0 +1,7 @@
+owner=REG
+controller=BAV
+add_core=GER
+add_core=HRE
+add_core=REG
+trade_goods = coal
+life_rating = 40

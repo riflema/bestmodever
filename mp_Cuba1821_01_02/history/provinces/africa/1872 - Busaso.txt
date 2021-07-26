@@ -1,0 +1,10 @@
+owner=TUR
+controller=TUR
+add_core=ADA
+add_core=AJU
+add_core=SOM
+trade_goods = grain
+life_rating = 31
+terrain = semidesert
+colonial=2
+naval_base = 2

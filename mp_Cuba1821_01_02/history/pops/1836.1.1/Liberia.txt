@@ -1,0 +1,619 @@
+1887 = {
+	slaves=
+	{
+		culture = dyula
+		religion = shamanism
+		size= 1678
+	}
+
+	soldiers=
+	{
+		culture = dyula
+		religion = shamanism
+		size= 968
+	}
+
+	craftsmen=
+	{
+		culture = dyula
+		religion = shamanism
+		size= 3786
+	}
+
+	artisans=
+	{
+		culture = dyula
+		religion = shamanism
+		size= 778
+	}
+
+	clergymen=
+	{
+		culture = dyula
+		religion = shamanism
+		size= 56
+	}
+
+	clerks=
+	{
+		culture = dyula
+		religion = shamanism
+		size= 57
+	}
+
+	bureaucrats=
+	{
+		culture = dyula
+		religion = shamanism
+		size= 17
+	}
+
+	officers=
+	{
+		culture = dyula
+		religion = shamanism
+		size= 14
+	}
+
+	capitalists=
+	{
+		culture = dyula
+		religion = shamanism
+		size= 5
+	}
+
+	aristocrats=
+	{
+		culture = dyula
+		religion = shamanism
+		size= 73
+	}
+
+	farmers=
+	{
+		culture = dyula
+		religion = shamanism
+		size= 27127
+	}
+
+	slaves=
+	{
+		culture = dyula
+		religion = hussite
+		size= 90
+	}
+
+	soldiers=
+	{
+		culture = dyula
+		religion = hussite
+		size= 52
+	}
+
+	craftsmen=
+	{
+		culture = dyula
+		religion = hussite
+		size= 204
+	}
+
+	artisans=
+	{
+		culture = dyula
+		religion = hussite
+		size= 861
+	}
+
+	clergymen=
+	{
+		culture = dyula
+		religion = hussite
+		size= 62
+	}
+
+	clerks=
+	{
+		culture = dyula
+		religion = hussite
+		size= 63
+	}
+
+	bureaucrats=
+	{
+		culture = dyula
+		religion = hussite
+		size= 19
+	}
+
+	officers=
+	{
+		culture = dyula
+		religion = hussite
+		size= 15
+	}
+
+	capitalists=
+	{
+		culture = dyula
+		religion = hussite
+		size= 5
+	}
+
+	aristocrats=
+	{
+		culture = dyula
+		religion = hussite
+		size= 80
+	}
+
+	farmers=
+	{
+		culture = dyula
+		religion = hussite
+		size= 408
+	}
+
+	slaves=
+	{
+		culture = afro_slavic
+		religion = hussite
+		size= 1853
+	}
+
+	soldiers=
+	{
+		culture = hnedy
+		religion = hussite
+		size= 1068
+	}
+
+	craftsmen=
+	{
+		culture = hnedy
+		religion = hussite
+		size= 4180
+	}
+
+	artisans=
+	{
+		culture = hnedy
+		religion = hussite
+		size= 5073
+	}
+
+	clergymen=
+	{
+		culture = hnedy
+		religion = hussite
+		size= 366
+	}
+
+	clerks=
+	{
+		culture = hnedy
+		religion = hussite
+		size= 373
+	}
+
+	bureaucrats=
+	{
+		culture = hnedy
+		religion = hussite
+		size= 113
+	}
+
+	officers=
+	{
+		culture = hnedy
+		religion = hussite
+		size= 90
+	}
+
+	capitalists=
+	{
+		culture = hnedy
+		religion = hussite
+		size= 32
+	}
+
+	aristocrats=
+	{
+		culture = hnedy
+		religion = hussite
+		size= 473
+	}
+
+	farmers=
+	{
+		culture = hnedy
+		religion = hussite
+		size= 24537
+	}
+
+}
+1888 = {
+	slaves=
+	{
+		culture = dyula
+		religion = shamanism
+		size= 720
+	}
+
+	soldiers=
+	{
+		culture = dyula
+		religion = shamanism
+		size= 914
+	}
+
+	artisans=
+	{
+		culture = dyula
+		religion = shamanism
+		size= 326
+	}
+
+	clergymen=
+	{
+		culture = dyula
+		religion = shamanism
+		size= 53
+	}
+
+	bureaucrats=
+	{
+		culture = dyula
+		religion = shamanism
+		size= 16
+	}
+
+	officers=
+	{
+		culture = dyula
+		religion = shamanism
+		size= 13
+	}
+
+	aristocrats=
+	{
+		culture = dyula
+		religion = shamanism
+		size= 69
+	}
+
+	farmers=
+	{
+		culture = dyula
+		religion = shamanism
+		size= 30516
+	}
+
+	slaves=
+	{
+		culture = dyula
+		religion = hussite
+		size= 39
+	}
+
+	soldiers=
+	{
+		culture = dyula
+		religion = hussite
+		size= 49
+	}
+
+	artisans=
+	{
+		culture = dyula
+		religion = hussite
+		size= 362
+	}
+
+	clergymen=
+	{
+		culture = dyula
+		religion = hussite
+		size= 59
+	}
+
+	bureaucrats=
+	{
+		culture = dyula
+		religion = hussite
+		size= 18
+	}
+
+	officers=
+	{
+		culture = dyula
+		religion = hussite
+		size= 14
+	}
+
+	aristocrats=
+	{
+		culture = dyula
+		religion = hussite
+		size= 76
+	}
+
+	farmers=
+	{
+		culture = dyula
+		religion = hussite
+		size= 1149
+	}
+
+	slaves=
+	{
+		culture = afro_slavic
+		religion = hussite
+		size= 795
+	}
+
+	soldiers=
+	{
+		culture = hnedy
+		religion = hussite
+		size= 1009
+	}
+
+	artisans=
+	{
+		culture = hnedy
+		religion = hussite
+		size= 2129
+	}
+
+	clergymen=
+	{
+		culture = hnedy
+		religion = hussite
+		size= 346
+	}
+
+	bureaucrats=
+	{
+		culture = hnedy
+		religion = hussite
+		size= 106
+	}
+
+	officers=
+	{
+		culture = hnedy
+		religion = hussite
+		size= 85
+	}
+
+	aristocrats=
+	{
+		culture = hnedy
+		religion = hussite
+		size= 447
+	}
+
+	farmers=
+	{
+		culture = hnedy
+		religion = hussite
+		size= 31123
+	}
+
+}
+1889 = {
+	aristocrats=
+	{
+		culture = mande
+		religion = sunni
+		size= 475
+	}
+
+	clergymen=
+	{
+		culture = mande
+		religion = sunni
+		size= 250
+	}
+
+	artisans=
+	{
+		culture = mande
+		religion = sunni
+		size= 1250
+	}
+
+	soldiers=
+	{
+		culture = mande
+		religion = sunni
+		size= 250
+	}
+
+	farmers=
+	{
+		culture = mande
+		religion = sunni
+		size= 32775
+	}
+
+	aristocrats=
+	{
+		culture = mande
+		religion = animist
+		size= 100
+	}
+
+	clergymen=
+	{
+		culture = mande
+		religion = animist
+		size= 100
+	}
+
+	artisans=
+	{
+		culture = mande
+		religion = animist
+		size= 300
+	}
+
+	soldiers=
+	{
+		culture = mande
+		religion = animist
+		size= 100
+	}
+
+	farmers=
+	{
+		culture = mande
+		religion = animist
+		size= 35475
+	}
+
+}
+1890 = {
+	aristocrats=
+	{
+		culture = mande
+		religion = sunni
+		size= 200
+	}
+
+	clergymen=
+	{
+		culture = mande
+		religion = sunni
+		size= 100
+	}
+
+	artisans=
+	{
+		culture = mande
+		religion = sunni
+		size= 550
+	}
+
+	soldiers=
+	{
+		culture = mande
+		religion = sunni
+		size= 125
+	}
+
+	farmers=
+	{
+		culture = mande
+		religion = sunni
+		size= 15025
+	}
+
+	aristocrats=
+	{
+		culture = mande
+		religion = animist
+		size= 425
+	}
+
+	clergymen=
+	{
+		culture = mande
+		religion = animist
+		size= 225
+	}
+
+	artisans=
+	{
+		culture = mande
+		religion = animist
+		size= 1100
+	}
+
+	soldiers=
+	{
+		culture = mande
+		religion = animist
+		size= 225
+	}
+
+	farmers=
+	{
+		culture = mande
+		religion = animist
+		size= 65025
+	}
+
+}
+1891 = {
+	aristocrats=
+	{
+		culture = kru
+		religion = animist
+		size= 425
+	}
+
+	clergymen=
+	{
+		culture = afro_american
+		religion = animist
+		size= 250
+	}
+
+	artisans=
+	{
+		culture = afro_american
+		religion = animist
+		size= 1150
+	}
+
+	soldiers=
+	{
+		culture = kru
+		religion = animist
+		size= 250
+	}
+
+	farmers=
+	{
+		culture = kru
+		religion = animist
+		size= 5975
+	}
+
+	aristocrats=
+	{
+		culture = afro_american
+		religion = animist
+		size= 350
+	}
+
+	clergymen=
+	{
+		culture = afro_american
+		religion = animist
+		size= 200
+	}
+
+	artisans=
+	{
+		culture = afro_american
+		religion = animist
+		size= 950
+	}
+
+	soldiers=
+	{
+		culture = afro_american
+		religion = animist
+		size= 200
+	}
+
+	farmers=
+	{
+		culture = western_nigritic
+		religion = animist
+		size= 32300
+	}
+
+}

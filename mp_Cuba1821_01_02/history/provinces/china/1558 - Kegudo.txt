@@ -1,0 +1,7 @@
+owner=MNX
+controller=UTS
+add_core=MDO
+add_core=TIB
+add_core=UTS
+trade_goods = grain
+life_rating = 32

@@ -1,0 +1,6 @@
+owner=IRO
+controller=IRO
+add_core=KSK
+add_core=WNR
+trade_goods = grain
+life_rating = 35

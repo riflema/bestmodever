@@ -1,0 +1,6 @@
+owner=VRM
+controller=VRM
+add_core=MSG
+add_core=OEO
+trade_goods = grain
+life_rating = 35

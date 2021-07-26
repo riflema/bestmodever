@@ -1,0 +1,9 @@
+owner=TUR
+controller=TUR
+add_core=ALH
+add_core=ARA
+add_core=ORM
+trade_goods = grain
+life_rating = 35
+terrain = semidesert
+colonial=2

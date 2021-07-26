@@ -1,0 +1,1160 @@
+1901 = {
+	slaves=
+	{
+		culture = mossi
+		religion = shamanism
+		size= 14506
+	}
+
+	soldiers=
+	{
+		culture = gur
+		religion = shamanism
+		size= 2802
+	}
+
+	artisans=
+	{
+		culture = gur
+		religion = shamanism
+		size= 4666
+	}
+
+	clergymen=
+	{
+		culture = gur
+		religion = shamanism
+		size= 217
+	}
+
+	aristocrats=
+	{
+		culture = gur
+		religion = shamanism
+		size= 561
+	}
+
+	farmers=
+	{
+		culture = gur
+		religion = shamanism
+		size= 29123
+	}
+
+	slaves=
+	{
+		culture = mossi
+		religion = sunni
+		size= 10955
+	}
+
+	soldiers=
+	{
+		culture = gur
+		religion = sunni
+		size= 2116
+	}
+
+	artisans=
+	{
+		culture = gur
+		religion = sunni
+		size= 371
+	}
+
+	clergymen=
+	{
+		culture = gur
+		religion = sunni
+		size= 17
+	}
+
+	officers=
+	{
+		culture = gur
+		religion = sunni
+		size= 5
+	}
+
+	aristocrats=
+	{
+		culture = gur
+		religion = sunni
+		size= 45
+	}
+
+	farmers=
+	{
+		culture = gur
+		religion = sunni
+		size= 24283
+	}
+
+	slaves=
+	{
+		culture = mossi
+		religion = shiite
+		size= 50
+	}
+
+	soldiers=
+	{
+		culture = gur
+		religion = shiite
+		size= 10
+	}
+
+	artisans=
+	{
+		culture = gur
+		religion = shiite
+		size= 63
+	}
+
+	clergymen=
+	{
+		culture = gur
+		religion = shiite
+		size= 3
+	}
+
+	bureaucrats=
+	{
+		culture = gur
+		religion = shiite
+		size= 1
+	}
+
+	officers=
+	{
+		culture = gur
+		religion = shiite
+		size= 1
+	}
+
+	aristocrats=
+	{
+		culture = gur
+		religion = shiite
+		size= 8
+	}
+
+	farmers=
+	{
+		culture = gur
+		religion = shiite
+		size= 38
+	}
+
+	bureaucrats=
+	{
+		culture = gur
+		religion = sunni
+		size= 3
+	}
+
+	slaves=
+	{
+		culture = mossi
+		religion = ibadi
+		size= 1825
+	}
+
+	soldiers=
+	{
+		culture = gur
+		religion = ibadi
+		size= 353
+	}
+
+	artisans=
+	{
+		culture = gur
+		religion = ibadi
+		size= 559
+	}
+
+	clergymen=
+	{
+		culture = gur
+		religion = ibadi
+		size= 26
+	}
+
+	bureaucrats=
+	{
+		culture = gur
+		religion = ibadi
+		size= 6
+	}
+
+	officers=
+	{
+		culture = gur
+		religion = ibadi
+		size= 6
+	}
+
+	aristocrats=
+	{
+		culture = gur
+		religion = ibadi
+		size= 67
+	}
+
+	farmers=
+	{
+		culture = gur
+		religion = ibadi
+		size= 3453
+	}
+
+	slaves=
+	{
+		culture = mossi
+		religion = protestant
+		size= 2686
+	}
+
+	soldiers=
+	{
+		culture = gur
+		religion = protestant
+		size= 519
+	}
+
+	artisans=
+	{
+		culture = gur
+		religion = protestant
+		size= 8842
+	}
+
+	clergymen=
+	{
+		culture = gur
+		religion = protestant
+		size= 411
+	}
+
+	bureaucrats=
+	{
+		culture = gur
+		religion = protestant
+		size= 89
+	}
+
+	officers=
+	{
+		culture = gur
+		religion = protestant
+		size= 101
+	}
+
+	aristocrats=
+	{
+		culture = gur
+		religion = protestant
+		size= 1062
+	}
+
+	bureaucrats=
+	{
+		culture = gur
+		religion = shamanism
+		size= 46
+	}
+
+	officers=
+	{
+		culture = gur
+		religion = shamanism
+		size= 54
+	}
+
+}
+1902 = {
+	slaves=
+	{
+		culture = mossi
+		religion = shamanism
+		size= 10166
+	}
+
+	soldiers=
+	{
+		culture = gur
+		religion = shamanism
+		size= 938
+	}
+
+	artisans=
+	{
+		culture = gur
+		religion = shamanism
+		size= 3281
+	}
+
+	clergymen=
+	{
+		culture = gur
+		religion = shamanism
+		size= 152
+	}
+
+	bureaucrats=
+	{
+		culture = gur
+		religion = shamanism
+		size= 23
+	}
+
+	officers=
+	{
+		culture = gur
+		religion = shamanism
+		size= 19
+	}
+
+	aristocrats=
+	{
+		culture = gur
+		religion = shamanism
+		size= 394
+	}
+
+	farmers=
+	{
+		culture = gur
+		religion = shamanism
+		size= 31904
+	}
+
+	slaves=
+	{
+		culture = mossi
+		religion = protestant
+		size= 616
+	}
+
+	soldiers=
+	{
+		culture = gur
+		religion = protestant
+		size= 57
+	}
+
+	artisans=
+	{
+		culture = gur
+		religion = protestant
+		size= 3679
+	}
+
+	clergymen=
+	{
+		culture = gur
+		religion = protestant
+		size= 171
+	}
+
+	bureaucrats=
+	{
+		culture = gur
+		religion = protestant
+		size= 26
+	}
+
+	officers=
+	{
+		culture = gur
+		religion = protestant
+		size= 21
+	}
+
+	aristocrats=
+	{
+		culture = gur
+		religion = protestant
+		size= 441
+	}
+
+}
+1903 = {
+	slaves=
+	{
+		culture = mossi
+		religion = shamanism
+		size= 3677
+	}
+
+	soldiers=
+	{
+		culture = gur
+		religion = shamanism
+		size= 333
+	}
+
+	artisans=
+	{
+		culture = gur
+		religion = shamanism
+		size= 495
+	}
+
+	clergymen=
+	{
+		culture = gur
+		religion = shamanism
+		size= 23
+	}
+
+	bureaucrats=
+	{
+		culture = gur
+		religion = shamanism
+		size= 5
+	}
+
+	officers=
+	{
+		culture = gur
+		religion = shamanism
+		size= 3
+	}
+
+	aristocrats=
+	{
+		culture = gur
+		religion = shamanism
+		size= 60
+	}
+
+	farmers=
+	{
+		culture = gur
+		religion = shamanism
+		size= 12071
+	}
+
+	slaves=
+	{
+		culture = mossi
+		religion = sunni
+		size= 8996
+	}
+
+	soldiers=
+	{
+		culture = gur
+		religion = sunni
+		size= 816
+	}
+
+	artisans=
+	{
+		culture = gur
+		religion = sunni
+		size= 3527
+	}
+
+	clergymen=
+	{
+		culture = gur
+		religion = sunni
+		size= 164
+	}
+
+	bureaucrats=
+	{
+		culture = gur
+		religion = sunni
+		size= 35
+	}
+
+	officers=
+	{
+		culture = gur
+		religion = sunni
+		size= 20
+	}
+
+	aristocrats=
+	{
+		culture = gur
+		religion = sunni
+		size= 423
+	}
+
+	farmers=
+	{
+		culture = gur
+		religion = sunni
+		size= 26801
+	}
+
+	slaves=
+	{
+		culture = mossi
+		religion = protestant
+		size= 1036
+	}
+
+	soldiers=
+	{
+		culture = gur
+		religion = protestant
+		size= 94
+	}
+
+	artisans=
+	{
+		culture = gur
+		religion = protestant
+		size= 4679
+	}
+
+	clergymen=
+	{
+		culture = gur
+		religion = protestant
+		size= 217
+	}
+
+	bureaucrats=
+	{
+		culture = gur
+		religion = protestant
+		size= 47
+	}
+
+	officers=
+	{
+		culture = gur
+		religion = protestant
+		size= 27
+	}
+
+	aristocrats=
+	{
+		culture = gur
+		religion = protestant
+		size= 561
+	}
+
+}
+1904 = {
+	slaves=
+	{
+		culture = mossi
+		religion = shamanism
+		size= 6669
+	}
+
+	soldiers=
+	{
+		culture = gur
+		religion = shamanism
+		size= 820
+	}
+
+	artisans=
+	{
+		culture = gur
+		religion = shamanism
+		size= 1174
+	}
+
+	clergymen=
+	{
+		culture = gur
+		religion = shamanism
+		size= 55
+	}
+
+	bureaucrats=
+	{
+		culture = gur
+		religion = shamanism
+		size= 12
+	}
+
+	officers=
+	{
+		culture = gur
+		religion = shamanism
+		size= 7
+	}
+
+	aristocrats=
+	{
+		culture = gur
+		religion = shamanism
+		size= 141
+	}
+
+	farmers=
+	{
+		culture = gur
+		religion = shamanism
+		size= 32094
+	}
+
+	slaves=
+	{
+		culture = mossi
+		religion = protestant
+		size= 863
+	}
+
+	soldiers=
+	{
+		culture = gur
+		religion = protestant
+		size= 106
+	}
+
+	artisans=
+	{
+		culture = gur
+		religion = protestant
+		size= 1344
+	}
+
+	clergymen=
+	{
+		culture = gur
+		religion = protestant
+		size= 62
+	}
+
+	bureaucrats=
+	{
+		culture = gur
+		religion = protestant
+		size= 13
+	}
+
+	officers=
+	{
+		culture = gur
+		religion = protestant
+		size= 8
+	}
+
+	aristocrats=
+	{
+		culture = gur
+		religion = protestant
+		size= 161
+	}
+
+	farmers=
+	{
+		culture = gur
+		religion = protestant
+		size= 2747
+	}
+
+	slaves=
+	{
+		culture = afro_norse
+		religion = protestant
+		size= 9
+	}
+
+	soldiers=
+	{
+		culture = boer
+		religion = protestant
+		size= 1
+	}
+
+	artisans=
+	{
+		culture = boer
+		religion = protestant
+		size= 2324
+	}
+
+	clergymen=
+	{
+		culture = boer
+		religion = protestant
+		size= 108
+	}
+
+	bureaucrats=
+	{
+		culture = boer
+		religion = protestant
+		size= 23
+	}
+
+	officers=
+	{
+		culture = boer
+		religion = protestant
+		size= 13
+	}
+
+	aristocrats=
+	{
+		culture = boer
+		religion = protestant
+		size= 279
+	}
+
+	slaves=
+	{
+		culture = mossi
+		religion = sunni
+		size= 1928
+	}
+
+	soldiers=
+	{
+		culture = gur
+		religion = sunni
+		size= 237
+	}
+
+	artisans=
+	{
+		culture = gur
+		religion = sunni
+		size= 3184
+	}
+
+	clergymen=
+	{
+		culture = gur
+		religion = sunni
+		size= 148
+	}
+
+	aristocrats=
+	{
+		culture = gur
+		religion = sunni
+		size= 381
+	}
+
+	farmers=
+	{
+		culture = gur
+		religion = sunni
+		size= 5920
+	}
+
+	bureaucrats=
+	{
+		culture = gur
+		religion = sunni
+		size= 31
+	}
+
+	officers=
+	{
+		culture = gur
+		religion = sunni
+		size= 18
+	}
+
+	slaves=
+	{
+		culture = mossi
+		religion = shiite
+		size= 1320
+	}
+
+	soldiers=
+	{
+		culture = gur
+		religion = shiite
+		size= 162
+	}
+
+	artisans=
+	{
+		culture = gur
+		religion = shiite
+		size= 1256
+	}
+
+	clergymen=
+	{
+		culture = gur
+		religion = shiite
+		size= 58
+	}
+
+	bureaucrats=
+	{
+		culture = gur
+		religion = shiite
+		size= 13
+	}
+
+	officers=
+	{
+		culture = gur
+		religion = shiite
+		size= 7
+	}
+
+	aristocrats=
+	{
+		culture = gur
+		religion = shiite
+		size= 151
+	}
+
+	farmers=
+	{
+		culture = gur
+		religion = shiite
+		size= 5142
+	}
+
+}
+1905 = {
+	slaves=
+	{
+		culture = dyula
+		religion = shamanism
+		size= 2608
+	}
+
+	soldiers=
+	{
+		culture = dyula
+		religion = shamanism
+		size= 371
+	}
+
+	artisans=
+	{
+		culture = dyula
+		religion = shamanism
+		size= 186
+	}
+
+	clergymen=
+	{
+		culture = dyula
+		religion = shamanism
+		size= 30
+	}
+
+	bureaucrats=
+	{
+		culture = dyula
+		religion = shamanism
+		size= 6
+	}
+
+	officers=
+	{
+		culture = dyula
+		religion = shamanism
+		size= 4
+	}
+
+	aristocrats=
+	{
+		culture = dyula
+		religion = shamanism
+		size= 39
+	}
+
+	farmers=
+	{
+		culture = dyula
+		religion = shamanism
+		size= 15326
+	}
+
+	slaves=
+	{
+		culture = dyula
+		religion = protestant
+		size= 989
+	}
+
+	soldiers=
+	{
+		culture = dyula
+		religion = protestant
+		size= 141
+	}
+
+	artisans=
+	{
+		culture = dyula
+		religion = protestant
+		size= 327
+	}
+
+	clergymen=
+	{
+		culture = dyula
+		religion = protestant
+		size= 53
+	}
+
+	bureaucrats=
+	{
+		culture = dyula
+		religion = protestant
+		size= 11
+	}
+
+	officers=
+	{
+		culture = dyula
+		religion = protestant
+		size= 7
+	}
+
+	aristocrats=
+	{
+		culture = dyula
+		religion = protestant
+		size= 69
+	}
+
+	farmers=
+	{
+		culture = dyula
+		religion = protestant
+		size= 5447
+	}
+
+	slaves=
+	{
+		culture = afro_norse
+		religion = protestant
+		size= 476
+	}
+
+	soldiers=
+	{
+		culture = boer
+		religion = protestant
+		size= 68
+	}
+
+	artisans=
+	{
+		culture = boer
+		religion = protestant
+		size= 648
+	}
+
+	clergymen=
+	{
+		culture = boer
+		religion = protestant
+		size= 105
+	}
+
+	bureaucrats=
+	{
+		culture = boer
+		religion = protestant
+		size= 23
+	}
+
+	officers=
+	{
+		culture = boer
+		religion = protestant
+		size= 13
+	}
+
+	aristocrats=
+	{
+		culture = boer
+		religion = protestant
+		size= 136
+	}
+
+	farmers=
+	{
+		culture = boer
+		religion = protestant
+		size= 1918
+	}
+
+}
+1906 = {
+	slaves=
+	{
+		culture = dyula
+		religion = shamanism
+		size= 2801
+	}
+
+	soldiers=
+	{
+		culture = dyula
+		religion = shamanism
+		size= 420
+	}
+
+	artisans=
+	{
+		culture = dyula
+		religion = shamanism
+		size= 735
+	}
+
+	clergymen=
+	{
+		culture = dyula
+		religion = shamanism
+		size= 34
+	}
+
+	bureaucrats=
+	{
+		culture = dyula
+		religion = shamanism
+		size= 5
+	}
+
+	officers=
+	{
+		culture = dyula
+		religion = shamanism
+		size= 4
+	}
+
+	aristocrats=
+	{
+		culture = dyula
+		religion = shamanism
+		size= 88
+	}
+
+	farmers=
+	{
+		culture = dyula
+		religion = shamanism
+		size= 16920
+	}
+
+	slaves=
+	{
+		culture = dyula
+		religion = protestant
+		size= 510
+	}
+
+	soldiers=
+	{
+		culture = dyula
+		religion = protestant
+		size= 77
+	}
+
+	artisans=
+	{
+		culture = dyula
+		religion = protestant
+		size= 1003
+	}
+
+	clergymen=
+	{
+		culture = dyula
+		religion = protestant
+		size= 47
+	}
+
+	bureaucrats=
+	{
+		culture = dyula
+		religion = protestant
+		size= 7
+	}
+
+	officers=
+	{
+		culture = dyula
+		religion = protestant
+		size= 6
+	}
+
+	aristocrats=
+	{
+		culture = dyula
+		religion = protestant
+		size= 120
+	}
+
+	farmers=
+	{
+		culture = dyula
+		religion = protestant
+		size= 2056
+	}
+
+	slaves=
+	{
+		culture = afro_norse
+		religion = protestant
+		size= 1108
+	}
+
+	soldiers=
+	{
+		culture = boer
+		religion = protestant
+		size= 166
+	}
+
+	artisans=
+	{
+		culture = boer
+		religion = protestant
+		size= 2902
+	}
+
+	clergymen=
+	{
+		culture = boer
+		religion = protestant
+		size= 135
+	}
+
+	bureaucrats=
+	{
+		culture = boer
+		religion = protestant
+		size= 21
+	}
+
+	officers=
+	{
+		culture = boer
+		religion = protestant
+		size= 17
+	}
+
+	aristocrats=
+	{
+		culture = boer
+		religion = protestant
+		size= 348
+	}
+
+	farmers=
+	{
+		culture = boer
+		religion = protestant
+		size= 3614
+	}
+
+}

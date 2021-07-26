@@ -1,0 +1,354 @@
+2219 = {
+	slaves=
+	{
+		culture = carribean
+		religion = animist
+		size= 7419
+	}
+
+	soldiers=
+	{
+		culture = carribean
+		religion = animist
+		size= 88
+	}
+
+	artisans=
+	{
+		culture = carribean
+		religion = animist
+		size= 66
+	}
+
+	clergymen=
+	{
+		culture = carribean
+		religion = animist
+		size= 12
+	}
+
+	bureaucrats=
+	{
+		culture = carribean
+		religion = animist
+		size= 3
+	}
+
+	aristocrats=
+	{
+		culture = carribean
+		religion = animist
+		size= 13
+	}
+
+	farmers=
+	{
+		culture = carribean
+		religion = animist
+		size= 1155
+	}
+
+	slaves=
+	{
+		culture = afro_slavic
+		religion = protestant
+		size= 801
+	}
+
+	artisans=
+	{
+		culture = novysvet
+		religion = protestant
+		size= 127
+	}
+
+	clergymen=
+	{
+		culture = novysvet
+		religion = protestant
+		size= 24
+	}
+
+	bureaucrats=
+	{
+		culture = novysvet
+		religion = protestant
+		size= 6
+	}
+
+	aristocrats=
+	{
+		culture = novysvet
+		religion = protestant
+		size= 26
+	}
+
+	officers=
+	{
+		culture = carribean
+		religion = animist
+		size= 1
+	}
+
+	soldiers=
+	{
+		culture = novysvet
+		religion = protestant
+		size= 9
+	}
+
+	officers=
+	{
+		culture = novysvet
+		religion = protestant
+		size= 2
+	}
+
+	slaves=
+	{
+		culture = afro_slavic
+		religion = hussite
+		size= 19954
+	}
+
+	soldiers=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 235
+	}
+
+	artisans=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 1132
+	}
+
+	clergymen=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 212
+	}
+
+	bureaucrats=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 57
+	}
+
+	officers=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 23
+	}
+
+	aristocrats=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 238
+	}
+
+	farmers=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 1624
+	}
+
+}
+2220 = {
+	slaves=
+	{
+		culture = carribean
+		religion = animist
+		size= 9187
+	}
+
+	soldiers=
+	{
+		culture = carribean
+		religion = animist
+		size= 92
+	}
+
+	artisans=
+	{
+		culture = carribean
+		religion = animist
+		size= 80
+	}
+
+	clergymen=
+	{
+		culture = carribean
+		religion = animist
+		size= 4
+	}
+
+	bureaucrats=
+	{
+		culture = carribean
+		religion = animist
+		size= 1
+	}
+
+	aristocrats=
+	{
+		culture = carribean
+		religion = animist
+		size= 10
+	}
+
+	slaves=
+	{
+		culture = afro_caribbean
+		religion = protestant
+		size= 6067
+	}
+
+	soldiers=
+	{
+		culture = meashighcaw
+		religion = protestant
+		size= 61
+	}
+
+	artisans=
+	{
+		culture = meashighcaw
+		religion = protestant
+		size= 453
+	}
+
+	clergymen=
+	{
+		culture = meashighcaw
+		religion = protestant
+		size= 24
+	}
+
+	bureaucrats=
+	{
+		culture = meashighcaw
+		religion = protestant
+		size= 6
+	}
+
+	officers=
+	{
+		culture = meashighcaw
+		religion = protestant
+		size= 3
+	}
+
+	aristocrats=
+	{
+		culture = meashighcaw
+		religion = protestant
+		size= 54
+	}
+
+	slaves=
+	{
+		culture = afro_caribbean
+		religion = hussite
+		size= 633
+	}
+
+	soldiers=
+	{
+		culture = meashighcaw
+		religion = hussite
+		size= 6
+	}
+
+	artisans=
+	{
+		culture = meashighcaw
+		religion = hussite
+		size= 578
+	}
+
+	clergymen=
+	{
+		culture = meashighcaw
+		religion = hussite
+		size= 31
+	}
+
+	bureaucrats=
+	{
+		culture = meashighcaw
+		religion = hussite
+		size= 8
+	}
+
+	officers=
+	{
+		culture = meashighcaw
+		religion = hussite
+		size= 3
+	}
+
+	aristocrats=
+	{
+		culture = meashighcaw
+		religion = hussite
+		size= 69
+	}
+
+	slaves=
+	{
+		culture = afro_slavic
+		religion = hussite
+		size= 29688
+	}
+
+	soldiers=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 297
+	}
+
+	artisans=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 5268
+	}
+
+	clergymen=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 282
+	}
+
+	bureaucrats=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 75
+	}
+
+	officers=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 30
+	}
+
+	aristocrats=
+	{
+		culture = novysvet
+		religion = hussite
+		size= 632
+	}
+
+}

@@ -1,0 +1,8 @@
+owner=TGT
+controller=SPA
+add_core=MOR
+add_core=TGT
+add_core=TUN
+trade_goods = grain
+life_rating = 35
+naval_base = 1
