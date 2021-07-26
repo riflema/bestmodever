@@ -1,0 +1,8 @@
+owner=VEN
+controller=VEN
+add_core=CLI
+add_core=HRE
+add_core=SLO
+add_core=YUG
+trade_goods = cotton
+life_rating = 35

@@ -1,0 +1,1227 @@
+#Sphere of Influence
+
+ABE = {
+	value = 88
+	influence_value = 9
+	level = 2
+}
+AFG = {
+	value = 0
+	level = 2
+}
+AJU = {
+	value = 0
+	level = 2
+}
+ATT = {
+	value = 84
+	influence_value = 8
+	level = 2
+}
+AVA = {
+	value = 0
+	level = 2
+}
+BAU = {
+	value = 0
+	level = 2
+}
+BAV = {
+	value = 0
+	level = 2
+}
+BLC = {
+	value = 0
+	level = 2
+}
+BLM = {
+	value = 0
+	level = 2
+}
+BNY = {
+	value = 0
+	level = 2
+}
+BRA = {
+	value = 0
+	level = 2
+}
+BRD = {
+	value = 0
+	level = 2
+}
+BRU = {
+	value = 0
+	level = 2
+}
+BRZ = {
+	value = -29
+	level = 2
+}
+BSG = {
+	value = 0
+	level = 2
+}
+BTU = {
+	value = 0
+	level = 2
+}
+BUR = {
+	value = 0
+	level = 2
+}
+BYT = {
+	value = 16
+	level = 2
+}
+CAD = {
+	value = 91
+	influence_value = 10
+	level = 2
+}
+CAM = {
+	value = 0
+	level = 2
+}
+CAN = {
+	value = 39
+	level = 2
+}
+CAO = {
+	value = 97
+	influence_value = 11
+	level = 2
+}
+CCQ = {
+	value = 104
+	influence_value = 13
+	level = 2
+}
+CEB = {
+	value = 0
+	level = 2
+}
+CIR = {
+	value = 0
+	level = 2
+}
+CJA = {
+	value = 0
+	level = 2
+}
+CLI = {
+	value = 0
+	level = 2
+}
+COL = {
+	value = 85
+	influence_value = 8
+	level = 2
+}
+CUB = {
+	value = 0
+	level = 2
+}
+DAI = {
+	value = 0
+	level = 2
+}
+DJA = {
+	value = 0
+	level = 2
+}
+DLH = {
+	value = 0
+	level = 2
+}
+ETH = {
+	value = 0
+	level = 2
+}
+FOX = {
+	value = 94
+	influence_value = 11
+	level = 2
+}
+FRA = {
+	value = -8
+	level = 2
+}
+FRM = {
+	value = 16
+	level = 2
+}
+GEN = {
+	value = 0
+	level = 2
+}
+GOS = {
+	value = 0
+	level = 2
+}
+GZK = {
+	value = 0
+	level = 2
+}
+HDR = {
+	value = 0
+	level = 2
+}
+HES = {
+	value = 0
+	level = 2
+}
+HWM = {
+	value = 0
+	level = 2
+}
+IRO = {
+	value = 76
+	influence_value = 6
+	level = 2
+}
+JAP = {
+	value = 79
+	influence_value = 7
+	level = 2
+}
+KAN = {
+	value = 0
+	level = 2
+}
+KED = {
+	value = 0
+	level = 2
+}
+KHA = {
+	value = 70
+	influence_value = 5
+	level = 2
+}
+KIK = {
+	value = 0
+	level = 2
+}
+KLE = {
+	value = 16
+	level = 2
+}
+KNZ = {
+	value = 0
+	level = 2
+}
+KOR = {
+	value = 95
+	influence_value = 11
+	level = 2
+}
+KRW = {
+	value = 0
+	level = 2
+}
+KUB = {
+	value = 0
+	level = 2
+}
+LNA = {
+	value = 0
+	level = 2
+}
+LOM = {
+	value = 0
+	level = 2
+}
+LUX = {
+	value = 0
+	level = 2
+}
+MAG = {
+	value = 0
+	level = 2
+}
+MBZ = {
+	value = 19
+	level = 2
+}
+MCK = {
+	value = 0
+	level = 2
+}
+MDO = {
+	value = 0
+	level = 2
+}
+MEM = {
+	value = 0
+	level = 2
+}
+MGD = {
+	value = 0
+	level = 2
+}
+MJP = {
+	value = 0
+	level = 2
+}
+MKA = {
+	value = 0
+	level = 2
+}
+MLC = {
+	value = 0
+	level = 2
+}
+MLH = {
+	value = 0
+	level = 2
+}
+MNX = {
+	value = 61
+	influence_value = 2
+	level = 2
+}
+MUL = {
+	value = 76
+	influence_value = 6
+	level = 2
+}
+MUS = {
+	value = 0
+	level = 2
+}
+NET = {
+	value = 0
+	level = 2
+}
+NGA = {
+	value = 0
+	level = 2
+}
+NHX = {
+	value = 94
+	influence_value = 11
+	level = 2
+}
+NTC = {
+	value = 94
+	influence_value = 11
+	level = 2
+}
+NUB = {
+	value = 0
+	level = 2
+}
+NVK = {
+	value = 71
+	influence_value = 5
+	level = 2
+}
+OHK = {
+	value = 85
+	influence_value = 8
+	level = 2
+}
+OIR = {
+	value = 0
+	level = 2
+}
+OLD = {
+	value = 0
+	level = 2
+}
+ORI = {
+	value = 0
+	level = 2
+}
+ORM = {
+	value = 0
+	level = 2
+}
+PAL = {
+	value = 0
+	level = 2
+}
+PAP = {
+	value = 0
+	level = 2
+}
+PAW = {
+	value = 85
+	influence_value = 8
+	level = 2
+}
+PGR = {
+	value = 0
+	level = 2
+}
+PHG = {
+	value = 0
+	level = 2
+}
+PLC = {
+	value = 19
+	level = 2
+}
+POR = {
+	value = 0
+	level = 2
+}
+PRO = {
+	value = 13
+	level = 2
+}
+PRU = {
+	value = 22
+	level = 2
+}
+PSA = {
+	value = 0
+	level = 2
+}
+QAR = {
+	value = 0
+	level = 2
+}
+REG = {
+	value = 0
+	level = 2
+}
+RYU = {
+	value = 0
+	level = 2
+}
+SCA = {
+	value = 100
+	influence_value = 12
+	level = 2
+}
+SCO = {
+	value = 0
+	level = 2
+}
+SER = {
+	value = 0
+	level = 2
+}
+SHA = {
+	value = 0
+	level = 2
+}
+SIA = {
+	value = 0
+	level = 2
+}
+SIN = {
+	value = 0
+	level = 2
+}
+SLZ = {
+	value = 0
+	level = 2
+}
+SPA = {
+	value = 0
+	level = 2
+}
+SUL = {
+	value = 0
+	level = 2
+}
+SUN = {
+	value = 0
+	level = 2
+}
+SVY = {
+	value = 0
+	level = 2
+}
+SWA = {
+	value = 85
+	influence_value = 8
+	level = 2
+}
+SWI = {
+	value = 0
+	level = 2
+}
+TBK = {
+	value = 0
+	level = 2
+}
+TDO = {
+	value = 0
+	level = 2
+}
+TER = {
+	value = 0
+	level = 2
+}
+TGT = {
+	value = 0
+	level = 2
+}
+THU = {
+	value = 0
+	level = 2
+}
+TID = {
+	value = 0
+	level = 2
+}
+TLA = {
+	value = 0
+	level = 2
+}
+TRX = {
+	value = 116
+	influence_value = 16
+	level = 2
+}
+TTE = {
+	value = 0
+	level = 2
+}
+TUN = {
+	value = 0
+	level = 2
+}
+TUR = {
+	value = 0
+	level = 2
+}
+UBV = {
+	value = 0
+	level = 2
+}
+ULM = {
+	value = 0
+	level = 2
+}
+URU = {
+	value = 0
+	level = 2
+}
+UTS = {
+	value = 0
+	level = 2
+}
+VEN = {
+	value = 13
+	level = 2
+}
+VRM = {
+	value = -64
+	level = 2
+}
+WBG = {
+	value = 0
+	level = 2
+}
+WES = {
+	value = 16
+	level = 2
+}
+WNR = {
+	value = 97
+	influence_value = 11
+	level = 2
+}
+X02 = {
+	value = 0
+	level = 2
+}
+X03 = {
+	value = 53
+	level = 2
+}
+X04 = {
+	value = 0
+	level = 2
+}
+X09 = {
+	value = 0
+	level = 2
+}
+X10 = {
+	value = 0
+	level = 2
+}
+X11 = {
+	value = 0
+	level = 2
+}
+YEM = {
+	value = 0
+	level = 2
+}
+ZIM = {
+	value = 0
+	level = 2
+}
+
+#Leaders
+leader = {
+	name="Albrecht Schnittern"
+	date="1800.8.28"
+	type=land
+	personality="intuitive"
+	background="war_college"
+}
+
+leader = {
+	name="Otto von Bimback"
+	date="1810.1.1"
+	type=land
+	personality="stalwart"
+	background="artillerist"
+}
+
+leader = {
+	name="Siegmund von Kyau"
+	date="1811.5.7"
+	type=land
+	personality="disciplined"
+	background="artillerist"
+}
+
+
+#Armies
+army = {
+	name="3rd Army"
+	location=2448
+	regiment = {
+		name="1st  Infantry"
+		type=infantry
+		home=2425
+	}
+	regiment = {
+		name="1st  Infantry"
+		type=infantry
+		home=2266
+	}
+	regiment = {
+		name="2nd  Infantry"
+		type=infantry
+		home=2425
+	}
+	regiment = {
+		name="1st  Infantry"
+		type=infantry
+		home=2253
+	}
+	regiment = {
+		name="1st  Infantry"
+		type=infantry
+		home=2410
+	}
+	regiment = {
+		name="1st  Artillery"
+		type=artillery
+		home=2424
+	}
+	regiment = {
+		name="1st  Infantry"
+		type=infantry
+		home=2265
+	}
+	regiment = {
+		name="1st  Artillery"
+		type=artillery
+		home=2209
+	}
+}
+
+army = {
+	name="4th Army"
+	location=2465
+	regiment = {
+		name="1st  Infantry"
+		type=infantry
+		home=2246
+	}
+	regiment = {
+		name="1st  Infantry"
+		type=infantry
+		home=2286
+	}
+	regiment = {
+		name="1st  Infantry"
+		type=infantry
+		home=2209
+	}
+	regiment = {
+		name="1st  Infantry"
+		type=infantry
+		home=2255
+	}
+	regiment = {
+		name="1st  Infantry"
+		type=infantry
+		home=2254
+	}
+	regiment = {
+		name="1st  Artillery"
+		type=artillery
+		home=2270
+	}
+	regiment = {
+		name="1st  Infantry"
+		type=infantry
+		home=2290
+	}
+	regiment = {
+		name="2nd  Artillery"
+		type=artillery
+		home=2270
+	}
+}
+
+army = {
+	name="1st Army"
+	location=2438
+	regiment = {
+		name="2nd  Infantry"
+		type=infantry
+		home=2254
+	}
+	regiment = {
+		name="2nd  Infantry"
+		type=infantry
+		home=2209
+	}
+	regiment = {
+		name="1st  Infantry"
+		type=infantry
+		home=2177
+	}
+	regiment = {
+		name="1st  Infantry"
+		type=infantry
+		home=2252
+	}
+	regiment = {
+		name="1st  Infantry"
+		type=infantry
+		home=44
+	}
+	regiment = {
+		name="1st  Artillery"
+		type=artillery
+		home=2259
+	}
+	regiment = {
+		name="2nd  Infantry"
+		type=infantry
+		home=2162
+	}
+	regiment = {
+		name="1st  Artillery"
+		type=artillery
+		home=2210
+	}
+}
+
+army = {
+	name="24th Army"
+	location=2427
+	regiment = {
+		name="1st  Infantry"
+		type=infantry
+		home=2262
+	}
+	regiment = {
+		name="1st  Infantry"
+		type=infantry
+		home=2277
+	}
+	regiment = {
+		name="1st  Infantry"
+		type=infantry
+		home=2274
+	}
+	regiment = {
+		name="2nd  Infantry"
+		type=infantry
+		home=2252
+	}
+	regiment = {
+		name="2nd  Infantry"
+		type=infantry
+		home=2274
+	}
+	regiment = {
+		name="1st  Artillery"
+		type=artillery
+		home=2532
+	}
+	regiment = {
+		name="3rd  Artillery"
+		type=artillery
+		home=2532
+	}
+}
+
+army = {
+	name="20th Army"
+	location=2175
+	regiment = {
+		name="1st  Infantry"
+		type=infantry
+		home=2276
+	}
+	regiment = {
+		name="1st  Infantry"
+		type=infantry
+		home=2272
+	}
+	regiment = {
+		name="1st  Infantry"
+		type=infantry
+		home=2251
+	}
+	regiment = {
+		name="3rd  Infantry"
+		type=infantry
+		home=2254
+	}
+	regiment = {
+		name="1st  Infantry"
+		type=infantry
+		home=2273
+	}
+	regiment = {
+		name="1st  Artillery"
+		type=artillery
+		home=2275
+	}
+	regiment = {
+		name="1st  Artillery"
+		type=artillery
+		home=2257
+	}
+}
+
+army = {
+	name="23rd Army"
+	location=2440
+	regiment = {
+		name="1st  Infantry"
+		type=infantry
+		home=2271
+	}
+	regiment = {
+		name="1st  Infantry"
+		type=infantry
+		home=2270
+	}
+	regiment = {
+		name="1st  Infantry"
+		type=infantry
+		home=2162
+	}
+	regiment = {
+		name="1st  Infantry"
+		type=infantry
+		home=2250
+	}
+	regiment = {
+		name="2nd  Infantry"
+		type=infantry
+		home=2251
+	}
+	regiment = {
+		name="1st  Artillery"
+		type=artillery
+		home=2264
+	}
+	regiment = {
+		name="2nd  Artillery"
+		type=artillery
+		home=2257
+	}
+}
+
+army = {
+	name="2nd Army"
+	location=2447
+	regiment = {
+		name="1st  Infantry"
+		type=infantry
+		home=2320
+	}
+	regiment = {
+		name="1st  Infantry"
+		type=infantry
+		home=2415
+	}
+	regiment = {
+		name="1st  Infantry"
+		type=infantry
+		home=2423
+	}
+	regiment = {
+		name="3rd  Infantry"
+		type=infantry
+		home=2425
+	}
+	regiment = {
+		name="1st  Infantry"
+		type=infantry
+		home=2408
+	}
+	regiment = {
+		name="1st  Artillery"
+		type=artillery
+		home=2425
+	}
+	regiment = {
+		name="1st  Artillery"
+		type=artillery
+		home=2310
+	}
+}
+
+navy = {
+	name="1st Fleet"
+	location=2267
+	ship = {
+		name="1st  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="1st  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="1st  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="1st  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="1st  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="1st  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="2nd  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="1st  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="1st  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="1st  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="2nd  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="2nd  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="3rd  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="1st  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="4th  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="2nd  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="3rd  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="2nd  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="1st  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="1st Cuban Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="3rd  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="1st  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="2nd  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="3rd  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="2nd  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="2nd  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="4th  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="3rd  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="2nd  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="4th  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="2nd  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="5th  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="2nd  Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="1st  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="2nd  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="2nd  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="2nd  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="2nd  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st  Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st  Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st  Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st  Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st  Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st  Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st  Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st  Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd  Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st  Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd  Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st  Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st  Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st  Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="1st  Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd  Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="3rd  Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd  Clipper Transport"
+		type=clipper_transport
+	}
+}
+
+army = {
+	name="28th Army"
+	location=2169
+	regiment = {
+		name="2nd  Infantry"
+		type=infantry
+		home=2266
+	}
+	regiment = {
+		name="3rd  Infantry"
+		type=infantry
+		home=2251
+	}
+	regiment = {
+		name="3rd  Infantry"
+		type=infantry
+		home=2266
+	}
+	regiment = {
+		name="2nd  Infantry"
+		type=infantry
+		home=2271
+	}
+	regiment = {
+		name="2nd  Infantry"
+		type=infantry
+		home=2273
+	}
+	regiment = {
+		name="1st  Artillery"
+		type=artillery
+		home=2252
+	}
+	regiment = {
+		name="1st  Artillery"
+		type=artillery
+		home=2250
+	}
+}
+
+army = {
+	name="27th Army"
+	location=2272
+	regiment = {
+		name="3rd  Infantry"
+		type=infantry
+		home=2271
+	}
+	regiment = {
+		name="2nd  Infantry"
+		type=infantry
+		home=2255
+	}
+	regiment = {
+		name="4th  Infantry"
+		type=infantry
+		home=2271
+	}
+	regiment = {
+		name="3rd  Infantry"
+		type=infantry
+		home=2255
+	}
+	regiment = {
+		name="2nd  Artillery"
+		type=artillery
+		home=2532
+	}
+	regiment = {
+		name="1st  Infantry"
+		type=infantry
+		home=2249
+	}
+}
+

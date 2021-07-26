@@ -1,0 +1,7 @@
+owner=TGT
+controller=TGT
+add_core=MOR
+add_core=TGT
+add_core=TUN
+trade_goods = wool
+life_rating = 10

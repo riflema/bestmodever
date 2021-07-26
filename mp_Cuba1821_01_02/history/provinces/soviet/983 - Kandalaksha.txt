@@ -1,0 +1,7 @@
+owner=FRA
+controller=FRA
+add_core=NVG
+add_core=SCA
+add_core=SMI
+trade_goods = sulphur
+life_rating = 10

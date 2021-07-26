@@ -1,0 +1,8 @@
+owner=KHA
+controller=KHA
+add_core=KHA
+add_core=KRC
+add_core=MGL
+add_core=SOL
+trade_goods = cattle
+life_rating = 35

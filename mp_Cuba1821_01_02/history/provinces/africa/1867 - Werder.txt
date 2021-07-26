@@ -1,0 +1,8 @@
+owner=TUR
+controller=TUR
+add_core=AJU
+add_core=SOM
+trade_goods = grain
+life_rating = 10
+terrain = dryhills
+colonial=2
