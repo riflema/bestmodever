@@ -1,0 +1,9 @@
+owner=X11
+controller=X11
+add_core=ABO
+add_core=AUL
+add_core=TIW
+add_core=X11
+trade_goods = grain
+life_rating = 31
+naval_base = 1

@@ -1,0 +1,18 @@
+owner=SWI
+controller=SWI
+add_core=GER
+add_core=SWI
+trade_goods = sulphur
+life_rating = 31
+state_building=
+{
+	level=1
+	building = ammunition_factory
+	upgrade = yes
+}
+state_building=
+{
+	level=1
+	building = artillery_factory
+	upgrade = yes
+}

@@ -1,0 +1,7 @@
+owner=TRX
+controller=TRX
+add_core=HND
+add_core=MUL
+add_core=PNJ
+trade_goods = wool
+life_rating = 32

@@ -1,0 +1,8 @@
+owner=X03
+controller=X03
+add_core=GAM
+add_core=HST
+add_core=OTO
+trade_goods = fish
+life_rating = 35
+colonial=2

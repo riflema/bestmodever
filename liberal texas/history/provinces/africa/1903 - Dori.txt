@@ -1,0 +1,8 @@
+owner=NET
+controller=NET
+add_core=MOR
+add_core=MOS
+trade_goods = cattle
+life_rating = 32
+terrain = semidesert
+colonial=2

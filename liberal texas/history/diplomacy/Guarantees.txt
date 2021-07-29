@@ -1,0 +1,48 @@
+guarantee=
+{
+	first="PRU"
+	second="OLD"
+	start_date="1796.10.29"
+	end_date="1936.1.1"
+}
+
+guarantee=
+{
+	first="PLC"
+	second="VEN"
+	start_date="1797.4.22"
+	end_date="1936.1.1"
+}
+
+guarantee=
+{
+	first="PRO"
+	second="LUX"
+	start_date="1812.4.14"
+	end_date="1936.1.1"
+}
+
+guarantee=
+{
+	first="GEN"
+	second="PAP"
+	start_date="1808.12.20"
+	end_date="1936.1.1"
+}
+
+guarantee=
+{
+	first="VEN"
+	second="SER"
+	start_date="1801.5.26"
+	end_date="1936.1.1"
+}
+
+guarantee=
+{
+	first="LNA"
+	second="DAI"
+	start_date="1817.8.3"
+	end_date="1936.1.1"
+}
+

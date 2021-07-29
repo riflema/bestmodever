@@ -1,0 +1,17 @@
+name = "Majapahit Reconquest of Madura"
+
+1814.10.18 = {
+	add_attacker = MJP
+	add_attacker = FRA
+	add_attacker = TDO
+	add_attacker = CEB
+	add_defender = MLC
+	add_defender = BRU
+
+	war_goal = {
+		casus_belli = acquire_core_state
+		actor = MJP
+		receiver = MLC
+		state_province_id = 1421
+	}
+}

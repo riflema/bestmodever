@@ -1,0 +1,51 @@
+2244 = {
+	soldiers=
+	{
+		culture = french
+		religion = catholic
+		size= 871
+	}
+
+	artisans=
+	{
+		culture = french
+		religion = catholic
+		size= 3483
+	}
+
+	clergymen=
+	{
+		culture = french
+		religion = catholic
+		size= 565
+	}
+
+	bureaucrats=
+	{
+		culture = french
+		religion = catholic
+		size= 260
+	}
+
+	officers=
+	{
+		culture = french
+		religion = catholic
+		size= 113
+	}
+
+	aristocrats=
+	{
+		culture = french
+		religion = catholic
+		size= 731
+	}
+
+	farmers=
+	{
+		culture = french
+		religion = catholic
+		size= 81043
+	}
+
+}

@@ -1,0 +1,10 @@
+[main.cpp:509]: Loading text.csv took 0.457641 seconds...
+[main.cpp:512]: Loading files took 0.155135
+[main.cpp:513]: Loading blob took 0.296069
+[main.cpp:579]: 
+***>  Total loadtime before app init 4.58964 seconds.
+[eu3application.cpp:345]: Initiliasing Music & Sound<0.254996>
+[eu3application.cpp:415]: Loading .gfx files <0.643839>
+[eu3application.cpp:428]: Initialise Graphics<1.41537>
+[eu3application.cpp:493]: Loading GUI <0.0702085>
+[eu3application.cpp:1125]: Loading Databases <0.531754>

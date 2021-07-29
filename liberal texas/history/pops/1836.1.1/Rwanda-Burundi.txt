@@ -1,0 +1,102 @@
+2034 = {
+	soldiers=
+	{
+		culture = ruanda
+		religion = shamanism
+		size= 20216
+	}
+
+	artisans=
+	{
+		culture = ruanda
+		religion = shamanism
+		size= 30763
+	}
+
+	clergymen=
+	{
+		culture = ruanda
+		religion = shamanism
+		size= 1648
+	}
+
+	bureaucrats=
+	{
+		culture = ruanda
+		religion = shamanism
+		size= 286
+	}
+
+	officers=
+	{
+		culture = ruanda
+		religion = shamanism
+		size= 527
+	}
+
+	aristocrats=
+	{
+		culture = ruanda
+		religion = shamanism
+		size= 1846
+	}
+
+	farmers=
+	{
+		culture = ruanda
+		religion = shamanism
+		size= 164452
+	}
+
+}
+2035 = {
+	soldiers=
+	{
+		culture = ruanda
+		religion = shamanism
+		size= 12587
+	}
+
+	artisans=
+	{
+		culture = ruanda
+		religion = shamanism
+		size= 19155
+	}
+
+	clergymen=
+	{
+		culture = ruanda
+		religion = shamanism
+		size= 1026
+	}
+
+	bureaucrats=
+	{
+		culture = ruanda
+		religion = shamanism
+		size= 68
+	}
+
+	officers=
+	{
+		culture = ruanda
+		religion = shamanism
+		size= 328
+	}
+
+	aristocrats=
+	{
+		culture = ruanda
+		religion = shamanism
+		size= 2299
+	}
+
+	farmers=
+	{
+		culture = ruanda
+		religion = shamanism
+		size= 101355
+	}
+
+}

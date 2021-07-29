@@ -1,0 +1,14 @@
+owner=THU
+controller=THU
+add_core=GER
+add_core=HRE
+add_core=SAX
+add_core=THU
+trade_goods = coal
+life_rating = 40
+state_building=
+{
+	level=1
+	building = small_arms_factory
+	upgrade = yes
+}

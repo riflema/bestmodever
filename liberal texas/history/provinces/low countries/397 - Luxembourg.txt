@@ -1,0 +1,10 @@
+owner=LUX
+controller=LUX
+add_core=BEL
+add_core=HRE
+add_core=LUX
+add_core=WLL
+trade_goods = coal
+life_rating = 35
+terrain = mining_district
+fort = 1

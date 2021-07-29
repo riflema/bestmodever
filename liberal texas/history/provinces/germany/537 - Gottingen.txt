@@ -1,0 +1,7 @@
+owner=GOS
+controller=BRA
+add_core=GER
+add_core=GOS
+add_core=HRE
+trade_goods = grain
+life_rating = 40
