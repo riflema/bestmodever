@@ -1,0 +1,111 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 131 202 12 }
+revolutionary_colors = { 15 0 9 }
+historical_idea_groups = {
+	administrative_ideas
+	trade_ideas
+	quantity_ideas
+	expansion_ideas
+	offensive_ideas
+	economic_ideas
+	defensive_ideas
+	religious_ideas
+}
+historical_units = {
+	reformed_steppe_rifles
+	steppe_cavalry
+	steppe_footmen
+	steppe_infantry
+	steppe_lancers
+	steppe_mounted_raiders
+	steppe_musketeers
+	steppe_raiders
+	steppe_riders
+	steppe_rifles
+	steppe_uhlans
+}
+monarch_names = {
+	"Aibak #0" = 0
+	"Almish #0" = 0
+	"Alzek #0" = 0
+	"Balamber #0" = 0
+	"Batulia #0" = 0
+	"Bulaq #0" = 0
+	"Chenksa #0" = -1
+	"Chinialush #0" = 0
+	"Dilek #0" = -1
+	"Gundes #0" = -1
+	"Gündüz #0" = -1
+	"Ipek #0" = -1
+	"Irge #0" = -1
+	"Karaton #1" = 10
+	"Kharaton #0" = 0
+	"Khudbard #0" = 0
+	"Mala #0" = -1
+	"Maturkka #0" = -1
+	"Oli #0" = 0
+	"Organ #0" = 0
+	"Organa #1" = 10
+	"Ornag #0" = 0
+	"Patiyer #0" = -1
+	"Paykëlti #0" = -1
+	"Praksa #0" = 0
+	"Samur #0" = -1
+	"Sarantay #0" = -1
+	"Sarica #0" = -1
+	"Sati #0" = -1
+	"Savilay #0" = -1
+	"Sirin #0" = -1
+	"Songul #0" = -1
+	"Timëreç #0" = 0
+	"Tinibeg #1" = 10
+	"Tiradin #0" = 0
+	"Turgut #0" = 0
+	"Umay #0" = -1
+	"Venda #0" = 0
+	"Vinekh #0" = 0
+	"Yartilek #0" = -1
+	"Yasar #0" = -1
+	"Yeldem #0" = -1
+	"Yildiz #0" = -1
+	"Zina #0" = -1
+	"Çiltanesi #0" = -1
+}
+leader_names = {
+	"Arinin"
+	"Aven"
+	"Balna"
+	"Kanin"
+	"Maimbava"
+	"Ravna"
+	"Salmiianov"
+	"Taiborey"
+	"Tsoy"
+	"Vylka"
+}
+ship_names = {
+	"Baraq"
+	"Bayan"
+	"Chimtai"
+	"Devlat Berdi"
+	"Ghengis Khan"
+	"Ilbasan"
+	"Jabbar Berdi"
+	"Jalal Ad-Din"
+	"Karim Berdi"
+	"Kebek"
+	"Kochu"
+	"Mubarrak Kwaja"
+	"Orda"
+	"Pulad"
+	"Sasibuga"
+	"Sayyid Ahmad"
+	"Shadi Beg"
+	"Timur Malik"
+	"Timur Qutlugh"
+	"Toqtamish"
+	"Tuqtaqiya"
+	"Ulugh Muhammad"
+	"Urus"
+}

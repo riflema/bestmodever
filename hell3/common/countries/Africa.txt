@@ -1,0 +1,103 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 67 96 179 }
+revolutionary_colors = { 12 14 0 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	religious_ideas
+	maritime_ideas
+	administrative_ideas
+	offensive_ideas
+	economic_ideas
+	expansion_ideas
+}
+historical_units = {
+	ali_bey_reformed_infantry
+	mamluk_archer
+	mamluk_cavalry_charge
+	mamluk_duel
+	mamluk_musket_charge
+	muslim_dragoon
+	muslim_mass_infantry
+}
+monarch_names = {
+	"Abd-ar-Rahman #1" = 10
+	"Abdallah #1" = 10
+	"Abdul-Hasan #1" = 10
+	"Abdullah #1" = 10
+	"Abu Iqal #1" = 10
+	"Adballah #1" = 10
+	"Ahmad #1" = 10
+	"Akgül #0" = -1
+	"Al-Fadl #1" = 10
+	"Ali #1" = 10
+	"Asaru #0" = 0
+	"Basilie #0" = -1
+	"Basimah #0" = -1
+	"Dankaran #0" = 0
+	"Dawud #1" = 10
+	"Durra #0" = -1
+	"Fella #0" = 0
+	"Geiserich #1" = 10
+	"Gelimer #1" = 10
+	"Habib #1" = 10
+	"Hilderich #1" = 10
+	"Hunerich #1" = 10
+	"Ibrahim #2" = 10
+	"Ishaq #2" = 10
+	"Ixfensen #0" = 0
+	"Khalid #2" = 10
+	"Magsen #1" = 10
+	"Maysar #2" = 10
+	"Muhammad #2" = 10
+	"Muhammed #2" = 10
+	"Mustafa #0" = 0
+	"Nasr #1" = 10
+	"Rawh #1" = 10
+	"Sultan #0" = 0
+	"T'item #0" = -1
+	"Tafrara #0" = -1
+	"Tamim #1" = 10
+	"Tazenkwedt #0" = -1
+	"Thrasamund #1" = 10
+	"Umar #2" = 10
+	"Wnissa #0" = -1
+	"Yahya #4" = 10
+	"Yasmin #0" = -1
+	"Yazid #1" = 10
+	"Yusuf #0" = 0
+	"Zakariya #2" = 10
+	"Ziyadat Allah #1" = 10
+	"Ziydat Allah #1" = 10
+	"al-Muizz #1" = 10
+	"al-Qaim #1" = 10
+}
+leader_names = {
+	"Barqa"
+	"Hamilcar"
+	"Hannibal"
+	"Hasdrubal"
+	"Mago"
+}
+ship_names = {
+	"Alim"
+	"Aziz"
+	"Bari"
+	"Fattah"
+	"Ghaffar"
+	"Jabbar"
+	"Khaliq"
+	"Malik"
+	"Mu'min"
+	"Muhaymin"
+	"Musawwir"
+	"Mutakabbir"
+	"Qahhar"
+	"Quddus"
+	"Rahim"
+	"Rahman"
+	"Razzaq"
+	"Salam"
+	"Wahhab"
+}

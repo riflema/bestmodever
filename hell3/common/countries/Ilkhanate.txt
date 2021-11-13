@@ -1,0 +1,110 @@
+ck2_converter_generated = yes
+graphical_culture = asiangfx
+color = { 232 48 2 }
+historical_idea_groups = {
+	humanist_ideas
+	trade_ideas
+	quantity_ideas
+	offensive_ideas
+	expansion_ideas
+	economic_ideas
+	defensive_ideas
+	administrative_ideas
+}
+historical_units = {
+	reformed_steppe_rifles
+	steppe_cavalry
+	steppe_footmen
+	steppe_infantry
+	steppe_lancers
+	steppe_mounted_raiders
+	steppe_musketeers
+	steppe_raiders
+	steppe_riders
+	steppe_rifles
+	steppe_uhlans
+}
+monarch_names = {
+	"Abaga #1" = 10
+	"Abu Sa'id #1" = 10
+	"Al-Alta #0" = -1
+	"Arghun #1" = 10
+	"Arpa Ke'un #1" = 10
+	"Asa #0" = -1
+	"Baidu #1" = 10
+	"Belgünütei #0" = 0
+	"Gaikhatu #1" = 10
+	"Ghazan #1" = 10
+	"Goland #0" = -1
+	"Gulçeçek #0" = -1
+	"Gundes #0" = -1
+	"Hülegü #1" = 10
+	"Jamugha #0" = 0
+	"Khorijin #0" = -1
+	"Khubilai #0" = 0
+	"Mohammad #3" = 10
+	"Mongoljin #0" = -1
+	"Musa #1" = 10
+	"Negar #0" = -1
+	"Nicholas #1" = 10
+	"Rajkunvarbai #0" = -1
+	"Someshvara #0" = 0
+	"Taplo #0" = -1
+	"Teguder #1" = 10
+	"Timëreç #0" = 0
+	"Tolui #1" = 10
+	"Tähtani #0" = -1
+	"Yedi #0" = 0
+	"Yeke #0" = 0
+	"Yesugun #0" = -1
+}
+leader_names = {
+	"Abbâs"
+	"Abû"
+	"Akbar"
+	"Bakr"
+	"Borjigin"
+	"Genghisid"
+	"Jahagir"
+	"Jalâl"
+	"Jâmî"
+	"Khalil"
+	"Mohsin"
+	"Zaman"
+	"ud-Dîn"
+}
+ship_names = {
+	"Adai"
+	"Batu"
+	"Bo'orchu"
+	"Borokhula"
+	"Böke"
+	"Chagaan"
+	"Chilaun"
+	"Dharmapala"
+	"Dörben Külü'üd"
+	"Dörben Noyas"
+	"Elbeg"
+	"Ghengis Khan"
+	"Hohhot"
+	"Hülegü"
+	"Jebe"
+	"Jelme"
+	"Jinggim"
+	"Jöchi"
+	"Kamala"
+	"Karakorum"
+	"Khar Khiruge"
+	"Khubilai"
+	"Mugali"
+	"Möngke"
+	"Qubilai"
+	"Shikhikhutug"
+	"Sorqan Shira"
+	"Subutai"
+	"Tolui"
+	"Yelü Chucai"
+	"Yingchang"
+	"Ögödei"
+	"Örüg Temür"
+}

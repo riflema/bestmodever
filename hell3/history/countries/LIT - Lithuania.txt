@@ -1,0 +1,56 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2
+technology_group = eastern
+religion = orthodox
+primary_culture = lithuanian
+capital = 4535
+add_accepted_culture = lithuanian
+1444.11.11= {
+	monarch = {
+		name = "Gleb"
+		dynasty = "Gediminaitis"
+		adm = 4
+		dip = 4
+		mil = 4
+		birth_date = 1370.7.15
+		religion = orthodox
+		culture = lithuanian
+	}
+	add_ruler_personality = entrepreneur_personality
+	add_ruler_personality = scholar_personality
+	queen = {
+		name = "Mikova"
+		dynasty = "Gediminaitis-Naugardukas"
+		adm = 5
+		dip = 3
+		mil = 4
+		country_of_origin = LIT
+		birth_date = 1421.2.8
+		death_date = 1481.2.8
+		female = yes
+		religion = orthodox
+		culture = lithuanian
+	}
+	add_queen_personality = just_personality
+	add_queen_personality = strict_personality
+	heir = {
+		name = "Aras"
+		monarch_name = "Aras"
+		dynasty = "Gediminaitis"
+		adm = 5
+		dip = 6
+		mil = 5
+		birth_date = 1422.11.3
+		death_date = 1487.11.3
+		claim = 89
+		religion = orthodox
+		culture = lithuanian
+	}
+	add_heir_personality = charismatic_negotiator_personality
+	add_heir_personality = tolerant_personality
+}
+1444.11.11= {
+	add_prestige = 101
+	add_treasury = 65
+}

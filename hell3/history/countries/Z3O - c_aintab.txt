@@ -1,0 +1,58 @@
+government = monarchy
+add_government_reform = iqta
+government_rank = 1
+technology_group = muslim
+religion = sunni
+primary_culture = kurdish
+capital = 4298
+fixed_capital = 4298
+religious_school = hanafi_school
+add_accepted_culture = kurdish
+1444.11.11= {
+	monarch = {
+		name = "Adil"
+		dynasty = "Adilid"
+		adm = 5
+		dip = 0
+		mil = 5
+		birth_date = 1368.1.7
+		religion = sunni
+		culture = kurdish
+	}
+	add_ruler_personality = loose_lips_personality
+	add_ruler_personality = scholar_personality
+	queen = {
+		name = "Leyla"
+		dynasty = "Sinan"
+		adm = 4
+		dip = 2
+		mil = 3
+		country_of_origin = Z3O
+		birth_date = 1410.8.17
+		death_date = 1470.8.17
+		female = yes
+		religion = sunni
+		culture = turkish
+	}
+	add_queen_personality = charismatic_negotiator_personality
+	add_queen_personality = obsessive_perfectionist_personality
+	heir = {
+		name = "Pêšeng"
+		monarch_name = "Pêšeng"
+		dynasty = "Orsini"
+		adm = 6
+		dip = 6
+		mil = 6
+		birth_date = 1398.2.17
+		death_date = 1463.2.17
+		claim = 89
+		religion = sunni
+		culture = kurdish
+	}
+	add_heir_personality = charismatic_negotiator_personality
+	add_heir_personality = well_connected_personality
+}
+1444.11.11= {
+	add_prestige = 67
+	add_treasury = 69
+}

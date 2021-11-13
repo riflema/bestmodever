@@ -1,0 +1,44 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = nomad_group
+religion = vajrayana
+primary_culture = buryat
+capital = 1064
+fixed_capital = 1064
+add_accepted_culture = buryat
+1444.11.11= {
+	monarch = {
+		name = "Medegma"
+		dynasty = "Khongodor"
+		adm = 2
+		dip = 4
+		mil = 3
+		birth_date = 1407.4.27
+		female = yes
+		religion = vajrayana
+		culture = buryat
+	}
+	add_ruler_personality = strict_personality
+	add_ruler_personality = tactical_genius_personality
+	heir = {
+		name = "Namzila"
+		monarch_name = "Namzila"
+		dynasty = "Abazaj"
+		adm = 4
+		dip = 5
+		mil = 6
+		birth_date = 1381.7.19
+		death_date = 1446.7.19
+		female = yes
+		claim = 89
+		religion = siberian_pagan
+		culture = buryat
+	}
+	add_heir_personality = expansionist_personality
+	add_heir_personality = fertile_personality
+}
+1444.11.11= {
+	add_prestige = 52
+	add_treasury = 53
+}

@@ -1,0 +1,123 @@
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 117 167 117 }
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	spy_ideas
+	maritime_ideas
+	economic_ideas
+	diplomatic_ideas
+	administrative_ideas
+}
+historical_units = {
+	bardiche_infantry
+	eastern_carabinier
+	eastern_knights
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	muscovite_caracolle
+	muscovite_cossack
+	muscovite_musketeer
+	muscovite_soldaty
+	russian_cuirassier
+	russian_green_coat
+	russian_lancer
+	russian_mass
+	russian_petrine
+	slavic_stradioti
+}
+monarch_names = {
+	"Abaga #1" = 10
+	"Abas #1" = 10
+	"Abirad #0" = 0
+	"Abu Sa'id #2" = 10
+	"Alp Arslan #1" = 10
+	"Arghun #1" = 10
+	"Atabeg #1" = 10
+	"Atrnerseh #1" = 10
+	"Azarmidokht #0" = -1
+	"Babgen #2" = 10
+	"Baidu #1" = 10
+	"Barkiarok #1" = 10
+	"Dinah #0" = -1
+	"Fereedun #0" = 0
+	"Gaikhatu #1" = 10
+	"Ghazan #1" = 10
+	"Hasan #2" = 10
+	"Haykaz #2" = 10
+	"Hormazd #0" = 0
+	"Hovhannes #1" = 10
+	"Hrahat #1" = 10
+	"Humayun #1" = 10
+	"Jahangir #1" = 10
+	"Kourd #2" = 10
+	"Mahmud #1" = 10
+	"Malik Shah #1" = 10
+	"Mohammed #1" = 10
+	"Mozaffar #1" = 10
+	"Nicholas #1" = 10
+	"Philipo #1" = 10
+	"Sanjar #1" = 10
+	"Shahrzad #0" = -1
+	"Smbat #1" = 10
+	"Teguder #1" = 10
+	"Vakhtank #1" = 10
+	"Vasak #2" = 10
+}
+leader_names = {
+	"Adamian"
+	"Adomian"
+	"Aghajanian"
+	"Altounyan"
+	"Apkarian"
+	"Babaian"
+	"Babikian"
+	"Bagian"
+	"Bhobanyan"
+	"Chobanian"
+	"Damadian"
+	"Eskandarian"
+	"Kapikian"
+	"Kazanjian"
+	"Kebabian"
+	"Kevorkian"
+	"Khachikyan"
+	"Khatchaturian"
+	"Kirlian"
+	"Mergelyan"
+	"Meymarian"
+	"Orbeli"
+	"Pogosyan"
+	"Sadian"
+	"Sevanian"
+	"Shahinian"
+	"Simjian"
+}
+ship_names = {
+	"Ani"
+	"Aramu"
+	"Ararat"
+	"Argishtis"
+	"Artsakh"
+	"Dvin"
+	"Erimena"
+	"Haik"
+	"Haldi"
+	"Ishpuinis"
+	"Kars"
+	"Lutipri"
+	"Manzikert"
+	"Menuas"
+	"Musasir"
+	"Parisos"
+	"Rusas II"
+	"Sarduri I"
+	"Sarduris II"
+	"Selardi"
+	"Siwini"
+	"Vaspurakan"
+	"Yerevan"
+}

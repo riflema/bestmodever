@@ -1,0 +1,123 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 53 140 73 }
+revolutionary_colors = { 16 0 14 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	diplomatic_ideas
+	economic_ideas
+	innovativeness_ideas
+	offensive_ideas
+	administrative_ideas
+	spy_ideas
+}
+historical_units = {
+	anglofrench_line
+	dutch_maurician
+	french_bluecoat
+	french_caracolle
+	french_cuirassier
+	french_dragoon
+	french_impulse
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Bedrich #1" = 10
+	"Benedicta #0" = -1
+	"Ekkehard #1" = 10
+	"Ermesinde #1" = -1
+	"Gerhard #0" = 0
+	"Gertruda #0" = -1
+	"Gisela #0" = -1
+	"Giselbert #1" = 10
+	"Gudrun #0" = -1
+	"Guntrud #0" = -1
+	"Hardwin #0" = 0
+	"Hartwig #0" = 0
+	"Heinrich #6" = 10
+	"Henri #1" = 10
+	"Irmeltrud #0" = -1
+	"Jan #0" = 0
+	"Johann #1" = 10
+	"Karl #0" = 0
+	"Katharina #0" = -1
+	"Konrad #2" = 10
+	"Lothar #0" = 0
+	"Lucia #0" = -1
+	"Lucinetta #0" = -1
+	"Margarete #0" = -1
+	"Martin #0" = 0
+	"Maura #0" = -1
+	"Mila #0" = -1
+	"Milo #0" = 0
+	"Otto #1" = 10
+	"Pedro #0" = 0
+	"Richer #1" = 10
+	"Siegfried #1" = 10
+	"Veliš #1" = 10
+	"Verana #0" = -1
+	"Václav #1" = 10
+	"Werner #0" = 0
+	"Wilhelm #1" = 10
+	"Židana #0" = -1
+}
+leader_names = {
+	"Biberen"
+	"Borchert"
+	"Bourscheidt"
+	"Bültel"
+	"Cemmerer"
+	"Clees"
+	"Croye"
+	"Delhaes"
+	"Dumont"
+	"Genot"
+	"Gonderinger"
+	"Greff"
+	"Herrig"
+	"Hoscheit"
+	"Maussen"
+	"Mersch"
+	"Nissar"
+	"Paguet"
+	"Petilliot"
+	"Pinkernell"
+	"Riener"
+	"Schannen"
+	"Voigt"
+	"Weiler"
+	"Winen"
+	"du Carme"
+	"von Bettborn"
+	"von Bous"
+	"von Capellen"
+	"von Diekirch"
+	"von Grevenmach"
+	"von Grosbous"
+	"von Pontpierre"
+	"von Redange"
+	"von Reisdorf"
+	"von Schuttrange"
+	"von Sommerfeld"
+}
+ship_names = {
+	"Capellen"
+	"Clervaux"
+	"Diekirch"
+	"Echternach"
+	"Esch-sur-Alzette"
+	"Feulen"
+	"Grevenmacher"
+	"Mersch"
+	"Redange"
+	"Remich"
+	"Vianden"
+	"Wiltz"
+}

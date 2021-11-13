@@ -1,0 +1,56 @@
+government = monarchy
+add_government_reform = iqta
+government_rank = 1
+technology_group = eastern
+religion = sunni
+primary_culture = mordvin
+capital = 2415
+fixed_capital = 2415
+religious_school = hanafi_school
+add_accepted_culture = mordvin
+1444.11.11= {
+	monarch = {
+		name = "Saksa"
+		dynasty = "Mastoron Kirdi"
+		adm = 5
+		dip = 2
+		mil = 3
+		birth_date = 1400.9.1
+		religion = sunni
+		culture = mordvin
+	}
+	add_ruler_personality = scholar_personality
+	add_ruler_personality = tolerant_personality
+	queen = {
+		name = "Këlnissa"
+		adm = 3
+		dip = 5
+		mil = 5
+		country_of_origin = Z3Z
+		birth_date = 1407.5.26
+		death_date = 1467.5.26
+		female = yes
+		religion = sunni
+		culture = bashkir
+	}
+	add_queen_personality = secretive_personality
+	add_queen_personality = tolerant_personality
+	heir = {
+		name = "Batoya"
+		monarch_name = "Batoya"
+		adm = 6
+		dip = 5
+		mil = 6
+		birth_date = 1393.12.2
+		death_date = 1458.12.2
+		claim = 89
+		religion = sunni
+		culture = bashkir
+	}
+	add_heir_personality = expansionist_personality
+	add_heir_personality = fierce_negotiator_personality
+}
+1444.11.11= {
+	add_prestige = 63
+	add_treasury = 38
+}

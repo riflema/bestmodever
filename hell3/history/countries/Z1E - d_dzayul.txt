@@ -1,0 +1,41 @@
+government = monarchy
+add_government_reform = mandala_reform
+government_rank = 1
+technology_group = chinese
+religion = vajrayana
+primary_culture = tibetan
+capital = 2132
+add_accepted_culture = tibetan
+1444.11.11= {
+	monarch = {
+		name = "Pelkhortsen"
+		dynasty = "Meldro"
+		adm = 4
+		dip = 4
+		mil = 4
+		birth_date = 1393.9.14
+		religion = vajrayana
+		culture = tibetan
+	}
+	add_ruler_personality = drunkard_personality
+	add_ruler_personality = free_thinker_personality
+	heir = {
+		name = "Azarga"
+		monarch_name = "Azarga"
+		dynasty = "Meldro"
+		adm = 0
+		dip = 0
+		mil = 0
+		birth_date = 1444.10.11
+		death_date = 1509.10.11
+		claim = 89
+		religion = vajrayana
+		culture = buryat
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11= {
+	add_prestige = 69
+	add_treasury = 60
+}

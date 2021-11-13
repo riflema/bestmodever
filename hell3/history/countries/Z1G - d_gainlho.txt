@@ -1,0 +1,56 @@
+government = monarchy
+add_government_reform = mandala_reform
+government_rank = 1
+technology_group = chinese
+religion = vajrayana
+primary_culture = oirats
+capital = 2183
+1444.11.11= {
+	monarch = {
+		name = "Khalama"
+		dynasty = "Choné"
+		adm = 4
+		dip = 2
+		mil = 4
+		birth_date = 1413.12.18
+		female = yes
+		religion = vajrayana
+		culture = oirats
+	}
+	add_ruler_personality = cruel_personality
+	add_ruler_personality = just_personality
+	queen = {
+		name = "Udumtsen"
+		dynasty = "Sumpa"
+		adm = 3
+		dip = 3
+		mil = 3
+		country_of_origin = Z1G
+		birth_date = 1413.1.12
+		death_date = 1473.1.12
+		religion = vajrayana
+		culture = khalkha
+	}
+	add_queen_personality = lawgiver_personality
+	add_queen_personality = tactical_genius_personality
+	heir = {
+		name = "Gümüs"
+		monarch_name = "Gümüs"
+		dynasty = "Choné"
+		adm = 3
+		dip = 5
+		mil = 5
+		birth_date = 1432.3.17
+		death_date = 1497.3.17
+		female = yes
+		claim = 89
+		religion = vajrayana
+		culture = oirats
+	}
+	add_heir_personality = loose_lips_personality
+	add_heir_personality = righteous_personality
+}
+1444.11.11= {
+	add_prestige = 73
+	add_treasury = 52
+}

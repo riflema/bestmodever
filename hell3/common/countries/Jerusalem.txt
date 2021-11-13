@@ -1,0 +1,146 @@
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 211 230 211 }
+revolutionary_colors = { 13 0 13 }
+historical_idea_groups = {
+	defensive_ideas
+	religious_ideas
+	offensive_ideas
+	spy_ideas
+	trade_ideas
+	innovativeness_ideas
+	economic_ideas
+	quantity_ideas
+}
+historical_units = {
+	anglofrench_line
+	french_caracolle
+	french_dragoon
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	prussian_frederickian
+	prussian_uhlan
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Abu Husayan #1" = 10
+	"Abu Mansur al-Nizar #1" = 10
+	"Al-Afdal #1" = 10
+	"Al-Ashraf #1" = 10
+	"Al-Hasan #1" = 10
+	"Al-Mu'zzam #1" = 10
+	"Amaury #1" = 10
+	"An-Nasir Dawud #1" = 10
+	"An-Nasir Yusuf #1" = 10
+	"As-Salih Ismail #1" = 10
+	"Asli #0" = -1
+	"Ayasun #0" = -1
+	"Aziz #0" = 0
+	"Baram #0" = 0
+	"Baudouin #5" = 10
+	"Blush #1" = 10
+	"Fatima #0" = -1
+	"Foulques #1" = 10
+	"Girgen #1" = 10
+	"Godefroy #1" = 10
+	"Gulnaz #0" = -1
+	"Guy #1" = 10
+	"Ibtisam #0" = -1
+	"Iftikhar #1" = 10
+	"Il-Ghazi #1" = 10
+	"Imamaddin #0" = 0
+	"Isa #1" = 10
+	"Kadiyrbirde #0" = 0
+	"Khatira #0" = -1
+	"Lajin #1" = 10
+	"Majid #0" = 0
+	"Masgava #1" = 10
+	"Muaddam #0" = 0
+	"Muhammad #1" = 10
+	"Nazy #0" = -1
+	"Ortok #1" = 10
+	"Ovlur #0" = 0
+	"Qahtaba #1" = 10
+	"Sa'ad #0" = 0
+	"Salil #1" = 10
+	"Sayf-ad-Din #2" = 10
+	"Shabib #1" = 10
+	"Shamir #0" = 0
+	"Sharukan #1" = 10
+	"Shaykh #1" = 10
+	"Shudja al-Din #1" = 10
+	"Songul #0" = -1
+	"Sunkur #1" = 10
+	"Sökmen #1" = 10
+	"Tapar #0" = 0
+	"Usunbike #0" = -1
+	"Yeldem #0" = -1
+	"Yusuf #1" = 10
+	"Çiltanesi #0" = -1
+}
+leader_names = {
+	"Arenberg"
+	"Bragadin"
+	"Crispo"
+	"Doria"
+	"Douglas"
+	"Duncan"
+	"Fadrigue"
+	"Hagedorn"
+	"Le Tellier"
+	"Lusignans"
+	"Maxwell"
+	"Melissinos"
+	"Minucci"
+	"Paleologi Montferrato"
+	"Pallavicini"
+	"Paradisi"
+	"Petrucci"
+	"Pico"
+	"Pignatelli"
+	"Plethon"
+	"Rendis"
+	"Saraceno"
+	"Sauerzapff"
+	"Schrüder"
+	"Selkirk"
+	"Stichsenstein"
+	"Sulerzycki"
+	"Tocco"
+	"dalla Rosa"
+	"de La Barthe"
+	"de La Ferrandie"
+	"de La Galissonière"
+	"de La Mothe"
+	"de La Motte d'Airan"
+	"de La Porte"
+	"de Lhéry"
+	"de Luynes"
+	"della Rovere"
+	"di Paesana"
+}
+ship_names = {
+	"Absolution"
+	"Avenger"
+	"Baldwin's Gate"
+	"Crusader"
+	"God Will Know His Own"
+	"Guardian"
+	"Hammer of God"
+	"Paladin"
+	"Pilgrim"
+	"Purifier"
+	"The Cleansing"
+	"The Faithful"
+	"The Grail"
+	"The Holy Cross"
+	"The Rapture"
+	"The Scourge"
+	"True Believer"
+	"Vindicator"
+}

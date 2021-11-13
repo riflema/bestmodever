@@ -1,0 +1,142 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 98 138 99 }
+revolutionary_colors = { 8 9 5 }
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	diplomatic_ideas
+	religious_ideas
+	economic_ideas
+	administrative_ideas
+	spy_ideas
+}
+historical_units = {
+	asian_arquebusier
+	asian_charge_cavalry
+	asian_mass_infantry
+	asian_musketeer
+	east_asian_spearmen
+	eastern_bow
+	reformed_asian_cavalry
+	reformed_asian_musketeer
+}
+monarch_names = {
+	"Alaungsithu #1" = 10
+	"Anawrahta #1" = 10
+	"Athinkhaya #1" = 10
+	"Civatêvi #0" = -1
+	"Htilominlo #1" = 10
+	"Htin #1" = 10
+	"Inzali #0" = -1
+	"Kavatiyakkan #0" = -1
+	"Kunhsaw Kyaunghpyu #1" = 10
+	"Kyansittha #1" = 10
+	"Kyaswa #1" = 10
+	"Kyaukni #0" = -1
+	"Kyawswa #1" = 10
+	"Kyiso #1" = 10
+	"Kywe #0" = 0
+	"Narapatisithu #1" = 10
+	"Naratheinkha #1" = 10
+	"Narathihapate #1" = 10
+	"Narathu #1" = 10
+	"Nyaung-u Sawrahan #1" = 10
+	"Paannsee #0" = -1
+	"Payang #0" = -1
+	"Phway #0" = -1
+	"Pulai #0" = -1
+	"Pyinbya #1" = 10
+	"Pyit #1" = 10
+	"Sale Ngahkwe #1" = 10
+	"Saw Lu #1" = 10
+	"Sithu Min Oo #1" = 10
+	"Sokkate #1" = 10
+	"Tannet #1" = 10
+	"Thang #0" = 0
+	"Theinhko #1" = 10
+	"Thihathu #1" = 10
+	"Thinzar #0" = -1
+	"Thukha #0" = 0
+	"Uzana #2" = 10
+	"Yazathingyan #1" = 10
+	"Zeya #0" = 0
+}
+leader_names = {
+	"Ava"
+	"Banyin"
+	"Bawnin"
+	"Bawzaing"
+	"Bhamo"
+	"Hopon"
+	"Kale"
+	"Kokang"
+	"Kyaingchaing"
+	"Kyaingkan"
+	"Kyaingtong"
+	"Kyaukku"
+	"Kyithi Bansan"
+	"Kyon"
+	"Lwee"
+	"Lwelong"
+	"Lwemaw"
+	"Lègya"
+	"Maingpyin"
+	"Maingseik"
+	"Maington"
+	"Manglon"
+	"Maukme"
+	"Maw"
+	"Mobye"
+	"Mogaung"
+	"Mohnyin"
+	"Momeik"
+	"Mong Pan"
+	"Monghsu"
+	"Mongleam"
+	"Monglin"
+	"Mongnawng"
+	"Mongtorm"
+	"Monè"
+	"Mönglong"
+	"Möngyawng"
+	"Nanke"
+	"Nankok"
+	"Nankon"
+	"Nantok"
+	"Nyaungshwe"
+	"Panglawng"
+	"Pangmi"
+	"Pindara"
+	"Poila"
+	"Sakoi"
+	"Samka"
+	"Tawngpeng"
+	"Thamaingkan"
+	"Thaton"
+	"Thaungdut"
+	"Theinni"
+	"Thibaw"
+	"Thigyit"
+	"Wynn Tho"
+	"Yatsauk"
+	"Yengan"
+}
+ship_names = {
+	"Hsim"
+	"Inle"
+	"Kengtong"
+	"Lui"
+	"Myitnge"
+	"Nam"
+	"Pilu"
+	"Saluen"
+	"Salween"
+	"Shweli"
+	"Tachileik"
+	"Taunggyi"
+	"Teng"
+	"Thanlwin"
+}
+special_unit_culture = south_east_asian_special

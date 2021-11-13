@@ -1,0 +1,58 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = eastern
+religion = orthodox
+primary_culture = serbian
+capital = 1853
+add_accepted_culture = greek
+add_accepted_culture = serbian
+1444.11.11= {
+	monarch = {
+		name = "Vukan"
+		dynasty = "Vojislavljevic-Trikala"
+		adm = 4
+		dip = 3
+		mil = 4
+		birth_date = 1395.8.1
+		religion = orthodox
+		culture = serbian
+	}
+	add_ruler_personality = intricate_web_weaver_personality
+	add_ruler_personality = scholar_personality
+	queen = {
+		name = "Kale"
+		dynasty = "Palaiologos-Phocaea"
+		adm = 3
+		dip = 5
+		mil = 2
+		country_of_origin = Z2Z
+		birth_date = 1396.2.14
+		death_date = 1456.2.14
+		female = yes
+		religion = orthodox
+		culture = greek
+	}
+	add_queen_personality = righteous_personality
+	add_queen_personality = tactical_genius_personality
+	heir = {
+		name = "Bojana"
+		monarch_name = "Bojana"
+		dynasty = "Vojislavljevic-Trikala"
+		adm = 3
+		dip = 6
+		mil = 4
+		birth_date = 1413.10.29
+		death_date = 1478.10.29
+		female = yes
+		claim = 89
+		religion = orthodox
+		culture = serbian
+	}
+	add_heir_personality = charismatic_negotiator_personality
+	add_heir_personality = well_connected_personality
+}
+1444.11.11= {
+	add_prestige = 64
+	add_treasury = 59
+}

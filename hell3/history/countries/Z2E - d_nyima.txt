@@ -1,0 +1,57 @@
+government = monarchy
+add_government_reform = mandala_reform
+government_rank = 1
+technology_group = chinese
+religion = vajrayana
+primary_culture = tibetan
+capital = 4518
+add_accepted_culture = tibetan
+1444.11.11= {
+	monarch = {
+		name = "Zhangtsun"
+		dynasty = "Jétanak"
+		adm = 3
+		dip = 3
+		mil = 2
+		birth_date = 1387.10.30
+		religion = vajrayana
+		culture = tibetan
+	}
+	add_ruler_personality = malevolent_personality
+	add_ruler_personality = well_connected_personality
+	queen = {
+		name = "Geleg"
+		dynasty = "Gurib"
+		adm = 4
+		dip = 4
+		mil = 5
+		country_of_origin = Z2E
+		birth_date = 1403.9.28
+		death_date = 1463.9.28
+		female = yes
+		religion = vajrayana
+		culture = tibetan
+	}
+	add_queen_personality = free_thinker_personality
+	add_queen_personality = strict_personality
+	heir = {
+		name = "Yon"
+		monarch_name = "Yon"
+		dynasty = "Jétanak"
+		adm = 6
+		dip = 6
+		mil = 4
+		birth_date = 1405.11.8
+		death_date = 1470.11.8
+		female = yes
+		claim = 89
+		religion = vajrayana
+		culture = tibetan
+	}
+	add_heir_personality = charismatic_negotiator_personality
+	add_heir_personality = tactical_genius_personality
+}
+1444.11.11= {
+	add_prestige = 81
+	add_treasury = 59
+}

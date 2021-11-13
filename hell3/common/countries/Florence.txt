@@ -1,0 +1,198 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 236 47 47 }
+revolutionary_colors = { 14 0 14 }
+historical_idea_groups = {
+	innovativeness_ideas
+	trade_ideas
+	defensive_ideas
+	administrative_ideas
+	diplomatic_ideas
+	offensive_ideas
+	economic_ideas
+	quality_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	italian_condotta
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adalberto #2" = 10
+	"Adaloald #1" = 10
+	"Agilolf #1" = 10
+	"Agostino #1" = 10
+	"Aistulf #1" = 10
+	"Alachis #1" = 10
+	"Alboin #1" = 10
+	"Aleramo #1" = 10
+	"Alessandra #0" = -1
+	"Andrea #1" = 10
+	"Ansprand #1" = 10
+	"Arioald #1" = 10
+	"Aripert #2" = 10
+	"Atenolfo #0" = 0
+	"Authari #1" = 10
+	"Bernardo #1" = 10
+	"Berto #1" = 10
+	"Bonifacio #3" = 10
+	"Boson #1" = 10
+	"Carlo #1" = 10
+	"Cesare #1" = 10
+	"Charles #1" = 10
+	"Clef #1" = 10
+	"Cuncipert #2" = 10
+	"Davide #2" = 10
+	"Desiderius #1" = 10
+	"Eleonora #1" = -1
+	"Engelbert #1" = 10
+	"Eudossia #0" = -1
+	"Federico #1" = 10
+	"Gabriele #1" = 10
+	"Garipald #1" = 10
+	"Geraldo #1" = 10
+	"Giovanni #2" = 10
+	"Godepert #1" = 10
+	"Grimoald #1" = 10
+	"Guido #2" = 10
+	"Heinrich #1" = 10
+	"Hildeprand #1" = 10
+	"Konrad #1" = 10
+	"Lamberto #1" = 10
+	"Liutpert #2" = 10
+	"Liutprand #1" = 10
+	"Lodovica #0" = -1
+	"Lothar #1" = 10
+	"Ludovít #0" = 0
+	"Manfred #1" = 10
+	"Matilda #1" = -1
+	"Nazareno #0" = 0
+	"Paolo #1" = 10
+	"Perctarit #2" = 10
+	"Philipp #1" = 10
+	"Raginpert #1" = 10
+	"Raineri #1" = 10
+	"Rainero #1" = 10
+	"Ratchis #1" = 10
+	"Roberto #1" = 10
+	"Rodoald #1" = 10
+	"Rothari #1" = 10
+	"Sergio #1" = 10
+	"Stefano #1" = 10
+	"Szczesny #0" = 0
+	"Torquato #1" = 10
+	"Ubert #1" = 10
+	"Uc #1" = 10
+	"Ugolino #1" = 10
+	"Ulrich #1" = 10
+	"Welf #3" = 10
+}
+leader_names = {
+	"Allori"
+	"Barberini"
+	"Bardi"
+	"Bartolini"
+	"Benciveni"
+	"Bizzelli"
+	"Boncompagni"
+	"Botta-Adorno"
+	"Buontalenti"
+	"Buti"
+	"Butteri"
+	"Cercignani"
+	"Chiastavelli"
+	"Chigi"
+	"Corsini"
+	"Cybo-Malaspina"
+	"Gori"
+	"Grimaldi"
+	"Grimaldi di Busca"
+	"Lanzi"
+	"Lessi"
+	"Ludovisi"
+	"Malaspina"
+	"Mancinetti"
+	"Marescotti"
+	"Nasini"
+	"Orsini"
+	"Pazzi"
+	"Peruzzi"
+	"Petrucci"
+	"Piccolomini"
+	"Pico"
+	"Pierallini"
+	"Pieroni"
+	"Piombante"
+	"Pontelli"
+	"Rivani"
+	"Rospigliosi"
+	"Savaranola"
+	"Soderini"
+	"Tempesta"
+	"Terreni"
+	"Tonelli"
+	"Traballesi"
+	"Ulivelli"
+	"Vasari"
+	"Zucchi"
+	"d'Appiani d'Aragona"
+	"d'Asburgo"
+	"de' Medici"
+	"degli Albizzi"
+	"del Moro"
+	"del Rosso"
+	"di Campofregoso"
+	"di Farnese"
+}
+ship_names = {
+	"Albizi"
+	"Arcetri"
+	"Arezzo"
+	"Bellosguardo"
+	"Bisenzio"
+	"Careggi"
+	"Corso Donati"
+	"Cosimo de' Medici"
+	"Dante Alighieri"
+	"Dino Compagni"
+	"Fiesole"
+	"Filippo Brunelleschi"
+	"Firenze"
+	"Francesco Petrarca"
+	"Galluzzo"
+	"Giano della Bella"
+	"Giotto"
+	"Impruneta"
+	"Medici"
+	"Mugnone"
+	"Orsanmichele"
+	"Pistoia"
+	"Prato"
+	"Ripoli"
+	"San Frediano"
+	"San Giovanni Battista"
+	"San Lorenzo"
+	"San Marco"
+	"Santa Maria del Fiore"
+	"Santa Trinita"
+	"Scandicci"
+	"Sesto Fiorentino"
+	"Settignano"
+	"Terzolle"
+	"Vieri de Cerchi"
+	"fiume Arno"
+	"fiume Greve"
+}
+army_names = {
+	"Armata di $PROVINCE$"
+}

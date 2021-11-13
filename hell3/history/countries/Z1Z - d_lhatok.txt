@@ -1,0 +1,42 @@
+government = monarchy
+add_government_reform = mandala_reform
+government_rank = 1
+technology_group = chinese
+religion = vajrayana
+primary_culture = tibetan
+capital = 2131
+add_accepted_culture = tibetan
+1444.11.11= {
+	monarch = {
+		name = "Geleg"
+		dynasty = "Lhatok"
+		adm = 5
+		dip = 5
+		mil = 5
+		birth_date = 1377.9.13
+		female = yes
+		religion = vajrayana
+		culture = tibetan
+	}
+	add_ruler_personality = secretive_personality
+	add_ruler_personality = tolerant_personality
+	heir = {
+		name = "Kongtrül"
+		monarch_name = "Kongtrül"
+		dynasty = "Lhatok"
+		adm = 6
+		dip = 6
+		mil = 6
+		birth_date = 1410.11.28
+		death_date = 1475.11.28
+		claim = 89
+		religion = vajrayana
+		culture = tibetan
+	}
+	add_heir_personality = pious_personality
+	add_heir_personality = righteous_personality
+}
+1444.11.11= {
+	add_prestige = 70
+	add_treasury = 68
+}

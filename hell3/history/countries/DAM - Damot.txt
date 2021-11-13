@@ -1,0 +1,43 @@
+government = monarchy
+add_government_reform = plutocratic_reform
+government_rank = 2
+technology_group = east_african
+religion = coptic
+primary_culture = sidamo
+capital = 2757
+mercantilism = 15
+add_accepted_culture = amhara
+1444.11.11= {
+	monarch = {
+		name = "Dawit"
+		dynasty = "Solomonid"
+		adm = 3
+		dip = 3
+		mil = 3
+		birth_date = 1422.1.26
+		religion = coptic
+		culture = sidamo
+	}
+	add_ruler_personality = kind_hearted_personality
+	add_ruler_personality = naive_personality
+	heir = {
+		name = "Bathsheba"
+		monarch_name = "Bathsheba"
+		dynasty = "Solomonid"
+		adm = 5
+		dip = 5
+		mil = 6
+		birth_date = 1416.12.22
+		death_date = 1481.12.22
+		female = yes
+		claim = 89
+		religion = coptic
+		culture = amhara
+	}
+	add_heir_personality = secretive_personality
+	add_heir_personality = silver_tongue_personality
+}
+1444.11.11= {
+	add_prestige = 63
+	add_treasury = 56
+}

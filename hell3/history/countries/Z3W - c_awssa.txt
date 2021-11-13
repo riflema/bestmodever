@@ -1,0 +1,13 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = east_african
+religion = coptic
+primary_culture = harari
+capital = 2764
+fixed_capital = 2764
+add_accepted_culture = afar
+1444.11.11= {
+	add_prestige = 68
+	add_treasury = 51
+}

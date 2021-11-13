@@ -1,0 +1,57 @@
+government = monarchy
+add_government_reform = iqta
+government_rank = 1
+technology_group = sub_saharan
+religion = sunni
+primary_culture = yorumba
+capital = 1144
+fixed_capital = 1144
+religious_school = hanbali_school
+1444.11.11= {
+	monarch = {
+		name = "Olukayode"
+		dynasty = "Ifon"
+		adm = 3
+		dip = 3
+		mil = 3
+		birth_date = 1414.9.18
+		religion = sunni
+		culture = yorumba
+	}
+	add_ruler_personality = charismatic_negotiator_personality
+	add_ruler_personality = well_connected_personality
+	queen = {
+		name = "Chinaza"
+		dynasty = "Idoma"
+		adm = 4
+		dip = 2
+		mil = 4
+		country_of_origin = Z53
+		birth_date = 1414.5.4
+		death_date = 1474.5.4
+		female = yes
+		religion = sunni
+		culture = nupe
+	}
+	add_queen_personality = intricate_web_weaver_personality
+	add_queen_personality = strict_personality
+	heir = {
+		name = "Oduduwa"
+		monarch_name = "Oduduwa II"
+		dynasty = "Ifon"
+		adm = 4
+		dip = 1
+		mil = 3
+		birth_date = 1435.9.10
+		death_date = 1500.9.10
+		claim = 89
+		religion = sunni
+		culture = yorumba
+	}
+	add_heir_personality = just_personality
+	add_heir_personality = naive_personality
+}
+1444.11.11= {
+	add_prestige = 63
+	add_treasury = 53
+}

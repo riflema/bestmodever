@@ -1,0 +1,82 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 158 164 225 }
+historical_idea_groups = {
+	religious_ideas
+	offensive_ideas
+	trade_ideas
+	quantity_ideas
+	defensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	spy_ideas
+}
+historical_units = {
+	indian_archers
+	indian_arquebusier
+	indian_footsoldier
+	indian_rifle
+	sikh_hit_and_run
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"Ahavamalla #0" = 0
+	"Akkadevi #0" = -1
+	"Ganpatideva #1" = 10
+	"Kaapayanayaka #1" = 10
+	"Kavadeva #1" = 10
+	"Lhami #0" = -1
+	"Mahadeva #1" = 10
+	"Mahadevi #0" = -1
+	"Mailaladevi #0" = -1
+	"Nuba #0" = -1
+	"Pammava #1" = -1
+	"Prataparudra #2" = 10
+	"Prolayanayak #1" = 10
+	"Prolayavema #1" = 10
+	"Ramaraya #0" = 0
+	"Revakanimmadi #0" = -1
+	"Rudramadevi #1" = -1
+	"Sawbu #0" = -1
+	"Syamadevi #0" = -1
+	"Thuganda #0" = 0
+	"Uttara #0" = 0
+}
+leader_names = {
+	"Ambadeva"
+	"Damerla"
+	"Gannaiah"
+	"Gona"
+	"Jannigadeva"
+	"Malraju"
+	"Meka"
+	"Racha"
+	"Suryavamsa"
+	"Tripurar"
+	"Velugoti"
+}
+ship_names = {
+	"Anantavarman"
+	"Bishnupriya"
+	"Devarakonda"
+	"Godavari"
+	"Hidimba"
+	"Kataya"
+	"Konark"
+	"Krishnapriya"
+	"Kumar"
+	"Lakshmi"
+	"Masulipatnam"
+	"Naga"
+	"Paradeep"
+	"Parvati"
+	"Rachakonda"
+	"Radha"
+	"Rahu"
+	"Rajahmundry"
+	"Rakshasa"
+	"Sarasvati"
+	"Satapada"
+	"Vizianagaram"
+	"Warangal"
+}

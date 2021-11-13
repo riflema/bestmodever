@@ -1,0 +1,41 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 3
+technology_group = eastern
+religion = catholic
+primary_culture = greek
+capital = 151
+add_accepted_culture = greek
+1444.11.11= {
+	monarch = {
+		name = "Evanthia"
+		dynasty = "Palaiologos-Phocaea"
+		adm = 3
+		dip = 4
+		mil = 4
+		birth_date = 1369.11.5
+		female = yes
+		religion = catholic
+		culture = greek
+	}
+	add_ruler_personality = entrepreneur_personality
+	add_ruler_personality = scholar_personality
+	heir = {
+		name = "Pàulu"
+		monarch_name = "Pàulu"
+		adm = 6
+		dip = 6
+		mil = 6
+		birth_date = 1414.5.11
+		death_date = 1479.5.11
+		claim = 89
+		religion = catholic
+		culture = greek
+	}
+	add_heir_personality = just_personality
+	add_heir_personality = strict_personality
+}
+1444.11.11= {
+	add_prestige = 87
+	add_treasury = 76
+}

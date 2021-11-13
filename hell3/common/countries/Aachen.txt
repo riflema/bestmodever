@@ -1,0 +1,82 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 157 51 167 }
+revolutionary_colors = { 8 1 8 }
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	trade_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	prussian_uhlan
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Alberto #0" = 0
+	"Anna #0" = -1
+	"Der-Ilei #0" = -1
+	"Hjalmar #0" = 0
+	"Jakob #1" = 10
+	"Liupolt #1" = 10
+	"Ludwig #2" = 10
+	"Reinhold #1" = 10
+	"Tormod #0" = 0
+}
+leader_names = {
+	"Adenau"
+	"Ansembourg"
+	"Bensenraede"
+	"Blittersdorf"
+	"Cölln"
+	"Dammerscheidt"
+	"Elmpt"
+	"Falkenberg"
+	"Gruithausen"
+	"Hillensberg"
+	"Hohenfeld"
+	"Naxleden"
+	"Schaluyn"
+	"Zebnitsch"
+	"von Clausbruch"
+	"von Dieblich"
+	"von Gelnhausen"
+	"von Leyen"
+	"von Namedy"
+	"von Schöneck"
+}
+ship_names = {
+	"Deidesheim"
+	"Elmstein"
+	"Hochspeyer"
+	"Kaiserslautern"
+	"Landstuhl"
+	"Neunkirchen"
+	"Neustadt"
+	"Rhodt"
+	"Winnweiler"
+	"Wolfstein"
+}
+army_names = {
+	"Armee von $PROVINCE$"
+}
+fleet_names = {
+	"Stadtflotte"
+}

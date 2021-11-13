@@ -1,0 +1,71 @@
+ck2_converter_generated = yes
+graphical_culture = africangfx
+color = { 110 173 129 }
+revolutionary_colors = { 5 10 0 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+	diplomatic_ideas
+	quality_ideas
+	religious_ideas
+	economic_ideas
+}
+historical_units = {
+	african_abyssinian_light_cavalry
+	african_spearmen
+	niger_kongolese_forest_warfare
+	niger_kongolese_guerilla_warfare
+	niger_kongolese_gunpowder_warfare
+	niger_kongolese_tribal_warfare
+	westernized_niger_kongolese
+}
+monarch_names = {
+	"Abdul-Rahman #0" = 0
+	"Abioye #0" = 0
+	"Ayokunle #0" = 0
+	"Babajide #0" = 0
+	"Bamari #1" = 10
+	"Bolade #1" = 10
+	"Eweka #1" = 10
+	"Ewuare #2" = 10
+	"Faaduma #0" = -1
+	"Henmihen #2" = 10
+	"Itohan #1" = -1
+	"Nahal #0" = -1
+	"Ndate #0" = -1
+	"Oguola #1" = 10
+	"Olufunmilola #0" = 0
+	"Onyekachi #0" = -1
+	"Orunmiyan #1" = 10
+	"Uwuakhuahen #1" = 10
+}
+leader_names = {
+	"Ahomadegbe"
+	"Apithy"
+	"Dangbo"
+	"Kerekou"
+	"Kouandete"
+	"Kuetey"
+	"Maga"
+	"Soglo"
+	"Trudo"
+	"Zinsou"
+}
+ship_names = {
+	"Ayaba"
+	"Da"
+	"Dan"
+	"Gbadu"
+	"Gleti"
+	"Gu"
+	"Loko"
+	"Mawu-Lisa"
+	"Nana Buluku"
+	"Sakpata"
+	"Sogbo"
+	"Xevioso"
+	"Zinsi"
+	"Zinsu"
+}

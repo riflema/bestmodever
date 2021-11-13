@@ -1,0 +1,101 @@
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 146 134 77 }
+revolutionary_colors = { 0 8 5 }
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	spy_ideas
+	economic_ideas
+	quantity_ideas
+	diplomatic_ideas
+	quality_ideas
+}
+historical_units = {
+	bardiche_infantry
+	druzhina_cavalry
+	eastern_carabinier
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	muscovite_caracolle
+	muscovite_cossack
+	muscovite_musketeer
+	muscovite_soldaty
+	russian_cuirassier
+	russian_green_coat
+	russian_lancer
+	russian_mass
+	russian_petrine
+	slavic_stradioti
+}
+monarch_names = {
+	"Aleksandr #2" = 10
+	"Aristarkh #0" = 0
+	"Gleb #2" = 10
+	"Gradislava #0" = -1
+	"Iakov #0" = 0
+	"Ingvar #1" = 10
+	"Ivan #2" = 10
+	"Konstantin #1" = 10
+	"Matija #0" = 0
+	"Mikhail #2" = 10
+	"Oleg #1" = 10
+	"Roman #2" = 10
+	"Rostislav #1" = 10
+	"Sofia #0" = -1
+	"Sviatoslav #1" = 10
+	"Ulita #0" = -1
+	"Varvara #0" = -1
+	"Vsevolod #1" = 10
+	"Yaroslav #2" = 10
+	"Yelizaveta #0" = -1
+	"Yevpraxia #0" = -1
+	"Yuriy #2" = 10
+	"Zvenislava #0" = -1
+}
+leader_names = {
+	"Barabshin"
+	"Brukathy"
+	"Danilov"
+	"Dmitriev"
+	"Dobrynsky"
+	"Glazaty"
+	"Gorbaty"
+	"Gubastov"
+	"Ivanov"
+	"Kirdyapin"
+	"Muromsky"
+	"Nizhegorodsky"
+	"Nogtew"
+	"Pronsky"
+	"Rozhestvensky"
+	"Sapogov"
+	"Shuisky"
+	"Skopin"
+	"Tolbuzin"
+	"Travin"
+	"Vsevolozhsky"
+	"Yeropkin"
+}
+ship_names = {
+	"Kadorn"
+	"Kasimov"
+	"Lolotcha"
+	"Mikhailov"
+	"Moksha"
+	"Murom"
+	"Novornichurinsk"
+	"Oka"
+	"Pereslavl"
+	"Pronsk"
+	"Pronya"
+	"Ryazansky"
+	"Sasovo"
+	"Shatsk"
+	"Skopin"
+	"Staraya Ryazan"
+	"Tsna"
+	"Y. Sviatoslavich"
+}

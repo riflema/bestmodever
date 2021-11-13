@@ -1,0 +1,56 @@
+government = monarchy
+add_government_reform = iqta
+government_rank = 1
+technology_group = muslim
+religion = sunni
+primary_culture = berber
+capital = 1130
+religious_school = hanbali_school
+add_accepted_culture = berber
+1444.11.11= {
+	monarch = {
+		name = "Massnsen"
+		dynasty = "Umarid"
+		adm = 2
+		dip = 4
+		mil = 4
+		birth_date = 1380.7.6
+		religion = sunni
+		culture = berber
+	}
+	add_ruler_personality = charismatic_negotiator_personality
+	add_ruler_personality = tactical_genius_personality
+	queen = {
+		name = "Tebunnu"
+		adm = 3
+		dip = 3
+		mil = 3
+		country_of_origin = Z30
+		birth_date = 1391.8.23
+		death_date = 1451.8.23
+		female = yes
+		religion = sunni
+		culture = kanuri
+	}
+	add_queen_personality = fierce_negotiator_personality
+	add_queen_personality = intricate_web_weaver_personality
+	heir = {
+		name = "Massnsen"
+		monarch_name = "Massnsen II"
+		dynasty = "Umarid"
+		adm = 4
+		dip = 6
+		mil = 4
+		birth_date = 1413.7.30
+		death_date = 1478.7.30
+		claim = 89
+		religion = sunni
+		culture = berber
+	}
+	add_heir_personality = conqueror_personality
+	add_heir_personality = tactical_genius_personality
+}
+1444.11.11= {
+	add_prestige = 72
+	add_treasury = 55
+}

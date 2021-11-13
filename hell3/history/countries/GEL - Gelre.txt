@@ -1,0 +1,55 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = western
+religion = catholic
+primary_culture = frisian
+capital = 99
+add_accepted_culture = frisian
+1444.11.11= {
+	monarch = {
+		name = "Séamas"
+		dynasty = "van Loon"
+		adm = 2
+		dip = 3
+		mil = 3
+		birth_date = 1406.1.18
+		religion = catholic
+		culture = frisian
+	}
+	add_ruler_personality = charismatic_negotiator_personality
+	add_ruler_personality = silver_tongue_personality
+	queen = {
+		name = "Caterina"
+		adm = 4
+		dip = 3
+		mil = 3
+		country_of_origin = GEL
+		birth_date = 1406.5.13
+		death_date = 1466.5.13
+		female = yes
+		religion = catholic
+		culture = catalan
+	}
+	add_queen_personality = strict_personality
+	add_queen_personality = tactical_genius_personality
+	heir = {
+		name = "Frans"
+		monarch_name = "Frans"
+		dynasty = "van Loon"
+		adm = 5
+		dip = 4
+		mil = 5
+		birth_date = 1425.11.2
+		death_date = 1490.11.2
+		claim = 89
+		religion = catholic
+		culture = dutch
+	}
+	add_heir_personality = silver_tongue_personality
+	add_heir_personality = well_connected_personality
+}
+1444.11.11= {
+	add_prestige = 84
+	add_treasury = 65
+}

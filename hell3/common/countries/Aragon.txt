@@ -1,0 +1,136 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 166 68 72 }
+revolutionary_colors = { 4 8 4 }
+historical_idea_groups = {
+	maritime_ideas
+	quantity_ideas
+	religious_ideas
+	trade_ideas
+	naval_ideas
+	economic_ideas
+	innovativeness_ideas
+	offensive_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	french_caracolle
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	spanish_tercio
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Alfons #2" = 10
+	"Alifonso #1" = 10
+	"Ermenerda #0" = -1
+	"Guifré #0" = 0
+	"Jaume #2" = 10
+	"Joan Guerau #2" = 10
+	"Manel #0" = 0
+	"Peironela #1" = -1
+	"Pere #5" = 10
+	"Pero #1" = 10
+	"Ramon Berenguer #1" = 10
+	"Remiro #2" = 10
+	"Sancho #1" = 10
+	"Saura #0" = -1
+	"Udalard #0" = 0
+}
+leader_names = {
+	"Amic"
+	"Arbués"
+	"Balaguer"
+	"Barceló"
+	"Berguedà"
+	"Bielsa"
+	"Cajal"
+	"Colom"
+	"Domènec"
+	"Fernández de Hijar"
+	"Ferrer"
+	"Folc de Cardona"
+	"Franco"
+	"Galindo"
+	"Gil de Biedma"
+	"Gisbert"
+	"Loaisa"
+	"Martorell"
+	"Monteagudo"
+	"Muntaner"
+	"Oliva"
+	"Ordovás"
+	"Peña"
+	"Piquer"
+	"Pérez de Coloma"
+	"Ripoll"
+	"Sastre"
+	"Vallès"
+	"Veldrán"
+	"Vilamarí"
+	"Villarroya"
+	"d'Aragó"
+	"d'Empúries"
+	"d'Ixer"
+	"d'Ors"
+	"d'Urgell"
+	"d'Àustria"
+	"de Alagón"
+	"de Ayerbe"
+	"de Belchite"
+	"de Borja"
+	"de Cabrera"
+	"de Gotor"
+	"de Guimerà"
+	"de Gurrea"
+	"de Luna"
+	"de Montcada"
+	"de Requesens"
+	"de Ripperdá"
+	"de Zaporta"
+	"de la Riba"
+}
+ship_names = {
+	"Blanca Aurora"
+	"Falcó"
+	"Flama"
+	"La Bonaventura"
+	"La Garsa"
+	"La Gasela"
+	"La Reial"
+	"Lleona"
+	"Magnana"
+	"Sant Ambrós"
+	"Sant Antoni"
+	"Sant Bernat"
+	"Sant Climent"
+	"Sant Francesc"
+	"Sant Gabriel"
+	"Sant Jacob"
+	"Sant Joan Evangelista"
+	"Sant Jordi"
+	"Sant Miquel"
+	"Sant Pere de Roma"
+	"Sant Víctor"
+	"Santa Bàrbara"
+	"Santa Caterina"
+	"Santa Coloma"
+	"Santa Creu"
+	"Santa Eulàlia"
+	"Santa Magdalena"
+	"Santa Maria"
+	"Santa Ventura"
+	"Santa Ágata"
+	"Trinitat"
+}
+army_names = {
+	"Terç de $PROVINCE$"
+}

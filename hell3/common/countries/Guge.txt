@@ -1,0 +1,98 @@
+ck2_converter_generated = yes
+graphical_culture = asiangfx
+color = { 50 37 125 }
+revolutionary_colors = { 13 16 13 }
+historical_idea_groups = {
+	quantity_ideas
+	offensive_ideas
+	trade_ideas
+	defensive_ideas
+	diplomatic_ideas
+	spy_ideas
+	economic_ideas
+	innovativeness_ideas
+}
+historical_units = {
+	asian_arquebusier
+	asian_charge_cavalry
+	asian_mass_infantry
+	asian_musketeer
+	chinese_dragoon
+	chinese_footsoldier
+	chinese_longspear
+	chinese_steppe
+	eastern_bow
+	han_banner
+	manchu_banner
+	reformed_asian_cavalry
+	reformed_asian_musketeer
+	reformed_manchu_rifle
+}
+monarch_names = {
+	"Berkya #1" = 10
+	"Bummé #1" = 10
+	"Chunmardang #1" = 10
+	"Damitheke #1" = 10
+	"Demdruk #1" = 10
+	"Dokchen #1" = 10
+	"Drenpa #1" = 10
+	"Droza #0" = -1
+	"Duddul #1" = 10
+	"Dzomar #1" = 10
+	"Gekhö #1" = 10
+	"Geleg #1" = -1
+	"Gyerpung #1" = 10
+	"Gön #1" = 10
+	"Khyabpa #1" = 10
+	"Kyabpai #1" = 10
+	"Likmur #1" = 10
+	"Lurab #1" = 10
+	"Löpo #1" = 10
+	"Meri #1" = 10
+	"Milwo #1" = 10
+	"Mranyite #1" = 10
+	"Namje #1" = 10
+	"Nangzher #1" = 10
+	"Naro #1" = 10
+	"Phuntsok #1" = 10
+	"Rakhuk #1" = 10
+	"Sangto #1" = 10
+	"Shelgyung #1" = 10
+	"Shenpa #1" = 10
+	"Shok #0" = 0
+	"Sridpa #1" = 10
+	"Taktsab #0" = 0
+	"Thenwa #1" = 10
+	"Thokgö #1" = 10
+	"Yultuz #0" = -1
+	"Zutse #1" = 10
+}
+leader_names = {
+	"Gampo"
+	"Phuntsok"
+	"Sonam"
+	"Sregs"
+	"Srong"
+	"Tashi"
+	"Thekchen"
+	"Tsewang"
+	"Wangdak"
+	"Wangdue"
+}
+ship_names = {
+	"Barkam"
+	"Dartsendo"
+	"Gartse"
+	"Gyantse"
+	"Lhasa"
+	"Lhotse"
+	"Makalu"
+	"Nagqu"
+	"Nedong"
+	"Nyingchi"
+	"Pelbar"
+	"Qamdo"
+	"Sakya"
+	"Shigatse"
+	"Tinggri"
+}

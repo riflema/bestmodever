@@ -1,0 +1,102 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 60 123 65 }
+revolutionary_colors = { 9 6 4 }
+historical_idea_groups = {
+	trade_ideas
+	maritime_ideas
+	defensive_ideas
+	economic_ideas
+	religious_ideas
+	diplomatic_ideas
+	spy_ideas
+	administrative_ideas
+}
+historical_units = {
+	bhonsle_infantry
+	indian_archers
+	indian_arquebusier
+	indian_footsoldier
+	indian_shock_cavalry
+	maharathan_guerilla_warfare
+	reformed_mughal_musketeer
+	sikh_rifle
+	south_indian_musketeer
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"Abijliguta #0" = -1
+	"Aggabodhi #1" = 10
+	"Anikanga #1" = 10
+	"Anuridi #0" = -1
+	"Apaya #0" = 0
+	"Bhuvanaikabaahu #1" = 10
+	"Bhuvanaikabahu #2" = 10
+	"Butisamana #1" = 10
+	"Chodaganga #1" = 10
+	"Dharmasoka #1" = 10
+	"Gajabahu #1" = 10
+	"Ganapathideva #1" = 10
+	"Jayabahu #1" = 10
+	"Jhotiya #0" = -1
+	"Kalyanavati #1" = -1
+	"Kanadasika #1" = -1
+	"Kariyamâtêvi #0" = -1
+	"Kassapa #1" = 10
+	"Khadaga #0" = 0
+	"Kitti #1" = 10
+	"Kulingai #1" = 10
+	"Lilavati #3" = -1
+	"Lokissara #1" = 10
+	"Mahadeva #0" = 0
+	"Mahanaga #0" = 0
+	"Mahinda #1" = 10
+	"Nissanka #1" = 10
+	"Parakkamabahu #2" = 10
+	"Parakramabahu #2" = 10
+	"Parâkkirama #1" = 10
+	"Sahassamalla #1" = 10
+	"Samudaguta #0" = -1
+	"Sanghamitta #0" = 0
+	"Sayeebai #0" = -1
+	"Sena #1" = 10
+	"Siva #0" = 0
+	"Sumanadevi #0" = -1
+	"Ta-Lat #0" = -1
+	"Tissadata #0" = -1
+	"Umaiyâlvâr #0" = -1
+	"Utaiyaval #0" = -1
+	"Vassaba #0" = 0
+	"Vijayabahu #4" = 10
+	"Vikramabahu #2" = 10
+	"Virabahu #1" = 10
+}
+leader_names = {
+	"Atapattu"
+	"Chandana"
+	"Jayaratne"
+	"Jayawardene"
+	"Kalpage"
+	"Pushpakumara"
+	"Ranga"
+	"Ratnayake"
+	"Thilakaratne"
+	"Tillekaratne"
+}
+ship_names = {
+	"Anaradhapura"
+	"Anula"
+	"Jaffna"
+	"Kandy"
+	"Mahaweli"
+	"Mannar"
+	"Nil Manel"
+	"Palk"
+	"Pidurutalagala"
+	"Siddhartha"
+	"Sigiriya"
+	"Sinharaja"
+	"Sirimavo"
+	"Sri Maha Bodhi"
+	"Sri Pada"
+}

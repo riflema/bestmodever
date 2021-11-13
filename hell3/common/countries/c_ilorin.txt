@@ -1,0 +1,22 @@
+ck2_converter_generated = yes
+graphical_culture = africangfx
+color = { 51 61 229 }
+monarch_names = {
+	"Abipa #1" = 10
+	"Agbedegbede #1" = 10
+	"Ajaka #2" = 10
+	"Ajiboyede #1" = 10
+	"Bandele #0" = 0
+	"Chinaza #0" = -1
+	"Eguguojo #1" = 10
+	"Kori #1" = 10
+	"Nkem #0" = -1
+	"Oduduwa #1" = 10
+	"Ofinran #1" = 10
+	"Olukayode #1" = 10
+	"Olumuyiwa #0" = 0
+	"Orompoto #1" = 10
+	"Oyo #2" = 10
+	"Remilekun #0" = 0
+	"Sango #1" = 10
+}

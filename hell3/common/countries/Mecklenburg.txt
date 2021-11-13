@@ -1,0 +1,105 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 55 140 143 }
+revolutionary_colors = { 13 8 5 }
+historical_idea_groups = {
+	administrative_ideas
+	trade_ideas
+	defensive_ideas
+	innovativeness_ideas
+	diplomatic_ideas
+	offensive_ideas
+	economic_ideas
+	quality_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Albrecht #1" = 10
+	"Boriwoj #1" = 10
+	"Bretislav #1" = 10
+	"Burchard #0" = 0
+	"Dalimil #0" = 0
+	"Freawine #0" = 0
+	"Glismod #0" = -1
+	"Gryn #1" = 10
+	"Guthskalco #1" = 10
+	"Heilwig #0" = -1
+	"Heinrich #3" = 10
+	"Heinrich-Borwin #1" = 10
+	"Henrik #1" = 10
+	"Hermann #1" = 10
+	"Johann #2" = 10
+	"Kanut #1" = 10
+	"Knud #1" = 10
+	"Krutoj #1" = 10
+	"Lembert #0" = 0
+	"Liawizo #1" = 10
+	"Michael #0" = 0
+	"Mscislaw #1" = 10
+	"Msciwoj #2" = 10
+	"Nakon #1" = 10
+	"Niklot #1" = 10
+	"Pribigniew #1" = 10
+	"Przybyslaw #1" = 10
+	"Richardis #0" = -1
+	"Serhilda #0" = -1
+	"Swietopelk #2" = 10
+	"Zvinike #1" = 10
+}
+leader_names = {
+	"Busekke"
+	"Bußacker"
+	"Gesiter"
+	"Gothan"
+	"Jacobs"
+	"Jauert"
+	"Klatt"
+	"Laudan"
+	"Meincke"
+	"Niemann"
+	"Panck"
+	"Porepp"
+	"Reinike"
+	"Sass"
+	"Schliechting"
+	"Schlien"
+	"Schuhr"
+	"Schultz"
+	"Seeland"
+	"Steinkopp"
+	"Theeß"
+	"Wacker"
+	"Warncke"
+	"Wilcke"
+}
+ship_names = {
+	"Fürst Borwin"
+	"Fürst Nikolaus"
+	"Herzog Adolf Friedrich"
+	"Herzog Albrecht"
+	"Herzog Balthasar"
+	"Herzog Erich"
+	"Herzog Heinrich"
+	"Herzog Johann Georg"
+	"Herzog Karl"
+	"Herzog Magnus"
+	"Mekelenborch"
+}
+army_names = {
+	"Armee von $PROVINCE$"
+}

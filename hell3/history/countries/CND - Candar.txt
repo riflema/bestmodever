@@ -1,0 +1,57 @@
+government = monarchy
+add_government_reform = iqta
+government_rank = 2
+technology_group = ottoman
+religion = sunni
+primary_culture = turkish
+capital = 159
+religious_school = hanafi_school
+add_accepted_culture = turkish
+1444.11.11= {
+	monarch = {
+		name = "Baybars"
+		dynasty = "Candar"
+		adm = 4
+		dip = 3
+		mil = 4
+		birth_date = 1414.12.29
+		religion = sunni
+		culture = turkish
+	}
+	add_ruler_personality = embezzler_personality
+	add_ruler_personality = expansionist_personality
+	queen = {
+		name = "Yasar"
+		dynasty = "Ural"
+		adm = 4
+		dip = 3
+		mil = 4
+		country_of_origin = CND
+		birth_date = 1415.3.26
+		death_date = 1475.3.26
+		female = yes
+		religion = sunni
+		culture = bashkir
+	}
+	add_queen_personality = tactical_genius_personality
+	add_queen_personality = tolerant_personality
+	heir = {
+		name = "Alp Yurek"
+		monarch_name = "Alp Yurek"
+		dynasty = "Candar"
+		adm = 6
+		dip = 4
+		mil = 4
+		birth_date = 1432.9.12
+		death_date = 1497.9.12
+		claim = 89
+		religion = sunni
+		culture = turkish
+	}
+	add_heir_personality = free_thinker_personality
+	add_heir_personality = lawgiver_personality
+}
+1444.11.11= {
+	add_prestige = 80
+	add_treasury = 70
+}

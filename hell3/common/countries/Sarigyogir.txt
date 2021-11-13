@@ -1,0 +1,156 @@
+ck2_converter_generated = yes
+graphical_culture = asiangfx
+color = { 219 206 94 }
+revolutionary_colors = { 8 0 8 }
+historical_idea_groups = {
+	religious_ideas
+	trade_ideas
+	quantity_ideas
+	offensive_ideas
+	expansion_ideas
+	economic_ideas
+	defensive_ideas
+	administrative_ideas
+}
+historical_units = {
+	reformed_steppe_rifles
+	steppe_cavalry
+	steppe_footmen
+	steppe_infantry
+	steppe_lancers
+	steppe_mounted_raiders
+	steppe_musketeers
+	steppe_raiders
+	steppe_riders
+	steppe_rifles
+	steppe_uhlans
+}
+monarch_names = {
+	"Aduoyu #1" = 10
+	"Al-Alta #0" = -1
+	"Altan #0" = 0
+	"Amannisa #0" = -1
+	"Awu #1" = 10
+	"Aykhan #0" = -1
+	"Baladitya #0" = 0
+	"Baoguo #1" = 10
+	"Bilge #1" = 10
+	"Chahan #1" = 10
+	"Chixin #1" = 10
+	"Daoyin #1" = 10
+	"Diyin #1" = 10
+	"Dokez #0" = -1
+	"Doquz #0" = -1
+	"Dorjne Naljorma #0" = -1
+	"Guizhong Baoshun #1" = 10
+	"Gündüz #0" = -1
+	"Günes #0" = -1
+	"Hougu #1" = 10
+	"Huaijian #1" = 10
+	"Huaining Shunhua #1" = 10
+	"Huitong #0" = -1
+	"Ilknur #0" = -1
+	"Jiawei #1" = 10
+	"Jing #1" = 10
+	"Jingqiong #1" = 10
+	"Khogaghchin #0" = -1
+	"Koresh #0" = 0
+	"Kuge #1" = 10
+	"Longyou #1" = 10
+	"Lu #2" = 10
+	"Lusheng #1" = 10
+	"Mohui #1" = 10
+	"Nagihan #0" = -1
+	"Qinde #1" = 10
+	"Quchulu #1" = 10
+	"Renxiao #1" = 10
+	"Shishi #1" = -1
+	"Sorkhaghatani #0" = -1
+	"Temuge #0" = 0
+	"Tömür #0" = 0
+	"Wumo #1" = 10
+	"Xinie #1" = 10
+	"Yab #0" = 0
+	"Yeluohe Mili'e #1" = 10
+	"Zhixian #1" = 10
+	"Zhongshun Baode #1" = 10
+}
+leader_names = {
+	"Baga-khotgoid"
+	"Barga"
+	"Bashgid"
+	"Besud"
+	"Bicheech"
+	"Borjigin"
+	"Burged"
+	"Choros"
+	"Chuluun"
+	"Dairtan"
+	"Darkhad"
+	"Doloon"
+	"Doloon-suvai"
+	"Dotno"
+	"Duutan"
+	"Ikh-khotgoid"
+	"Khaliuchin"
+	"Khariad"
+	"Khavkhchin"
+	"Khemchigiinkhen"
+	"Kherdeg"
+	"Khirgis"
+	"Khonin-khotgoid"
+	"Khorkhoinkhon"
+	"Khukh-nokhoinkhon"
+	"Khukh-nuur"
+	"Khukhnuud"
+	"Khurniad"
+	"Khuushan"
+	"Mudar"
+	"Myangad"
+	"Ogniud"
+	"Oimuud"
+	"Okhid"
+	"Onkhod"
+	"Orchid"
+	"Sharnuud"
+	"Tangud"
+	"Todno"
+	"Togoruutan"
+	"Toos"
+	"Tsognuud"
+	"Tsookhor"
+	"Tsuvdag"
+	"Tugchin"
+	"Tumt"
+	"Ukher-onkhod"
+	"Ukher-tsagaanikhan"
+	"Unduriinkhen"
+	"Uuld"
+	"Uushgiinkhan"
+	"Uushin"
+	"Uvur-togoruutan"
+	"Zelmen"
+	"ar-togoruutan"
+	"avkhainkhan"
+	"ayagachin"
+}
+ship_names = {
+	"Altan Khan"
+	"Amdo"
+	"Bargut"
+	"Buzav"
+	"Dorbot"
+	"Dzungar"
+	"Dörvn Öörd"
+	"Güshi"
+	"Kerait"
+	"Khoshot"
+	"Khoshut"
+	"Naiman"
+	"Olo"
+	"Olöts"
+	"Torgut"
+}
+army_names = {
+	"$PROVINCE$ Tumen"
+}

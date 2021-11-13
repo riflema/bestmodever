@@ -1,0 +1,58 @@
+government = monarchy
+add_government_reform = iqta
+government_rank = 1
+technology_group = sub_saharan
+religion = sunni
+primary_culture = yorumba
+capital = 2290
+fixed_capital = 2290
+religious_school = hanbali_school
+add_accepted_culture = yorumba
+1444.11.11= {
+	monarch = {
+		name = "Abioye"
+		dynasty = "Shaki"
+		adm = 3
+		dip = 3
+		mil = 4
+		birth_date = 1402.5.8
+		religion = sunni
+		culture = yorumba
+	}
+	add_ruler_personality = pious_personality
+	add_ruler_personality = tactical_genius_personality
+	queen = {
+		name = "Ndate"
+		dynasty = "Todo"
+		adm = 3
+		dip = 3
+		mil = 3
+		country_of_origin = Z6G
+		birth_date = 1400.5.11
+		death_date = 1460.5.11
+		female = yes
+		religion = sunni
+		culture = fon
+	}
+	add_queen_personality = silver_tongue_personality
+	add_queen_personality = well_connected_personality
+	heir = {
+		name = "Ayokunle"
+		monarch_name = "Ayokunle"
+		dynasty = "Shaki"
+		adm = 6
+		dip = 6
+		mil = 6
+		birth_date = 1419.4.6
+		death_date = 1484.4.6
+		claim = 89
+		religion = sunni
+		culture = yorumba
+	}
+	add_heir_personality = charismatic_negotiator_personality
+	add_heir_personality = intricate_web_weaver_personality
+}
+1444.11.11= {
+	add_prestige = 66
+	add_treasury = 67
+}

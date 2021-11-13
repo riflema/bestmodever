@@ -1,0 +1,58 @@
+government = monarchy
+add_government_reform = iqta
+government_rank = 1
+technology_group = eastern
+religion = sunni
+primary_culture = armenian
+capital = 2205
+fixed_capital = 2205
+religious_school = hanafi_school
+add_accepted_culture = armenian
+1444.11.11= {
+	monarch = {
+		name = "Malek Asraf"
+		dynasty = "Asrafid"
+		adm = 4
+		dip = 3
+		mil = 4
+		birth_date = 1374.2.21
+		religion = sunni
+		culture = armenian
+	}
+	add_ruler_personality = entrepreneur_personality
+	add_ruler_personality = strict_personality
+	queen = {
+		name = "Dinah"
+		dynasty = "Orsini"
+		adm = 4
+		dip = 3
+		mil = 6
+		country_of_origin = MLK
+		birth_date = 1402.5.21
+		death_date = 1462.5.21
+		female = yes
+		religion = sunni
+		culture = mazandarani
+	}
+	add_queen_personality = charismatic_negotiator_personality
+	add_queen_personality = craven_personality
+	heir = {
+		name = "Fereedun"
+		monarch_name = "Fereedun"
+		dynasty = "Asrafid"
+		adm = 4
+		dip = 5
+		mil = 6
+		birth_date = 1430.6.26
+		death_date = 1495.6.26
+		claim = 89
+		religion = sunni
+		culture = armenian
+	}
+	add_heir_personality = expansionist_personality
+	add_heir_personality = greedy_personality
+}
+1444.11.11= {
+	add_prestige = 73
+	add_treasury = 47
+}

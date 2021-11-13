@@ -1,0 +1,58 @@
+government = monarchy
+add_government_reform = iqta
+government_rank = 1
+technology_group = muslim
+religion = sunni
+primary_culture = algerian
+capital = 337
+fixed_capital = 337
+religious_school = hanbali_school
+add_accepted_culture = algerian
+1444.11.11= {
+	monarch = {
+		name = "Yeften"
+		dynasty = "Madinid"
+		adm = 6
+		dip = 1
+		mil = 6
+		birth_date = 1402.1.21
+		religion = sunni
+		culture = algerian
+	}
+	add_ruler_personality = careful_personality
+	add_ruler_personality = tolerant_personality
+	queen = {
+		name = "Durriyya"
+		dynasty = "Orsini"
+		adm = 5
+		dip = 2
+		mil = 4
+		country_of_origin = Z6F
+		birth_date = 1411.10.27
+		death_date = 1471.10.27
+		female = yes
+		religion = sunni
+		culture = berber
+	}
+	add_queen_personality = intricate_web_weaver_personality
+	add_queen_personality = secretive_personality
+	heir = {
+		name = "Tahir"
+		monarch_name = "Tahir"
+		dynasty = "Orsini"
+		adm = 0
+		dip = 6
+		mil = 4
+		birth_date = 1399.5.2
+		death_date = 1464.5.2
+		claim = 89
+		religion = sunni
+		culture = berber
+	}
+	add_heir_personality = calm_personality
+	add_heir_personality = tactical_genius_personality
+}
+1444.11.11= {
+	add_prestige = 56
+	add_treasury = 61
+}
