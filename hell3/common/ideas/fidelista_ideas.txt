@@ -1,0 +1,39 @@
+fidelista_ideas = {
+	start = {
+		culture_conversion_cost = -0.20
+		missionaries = 1
+	}
+	bonus = {
+		global_manpower_modifier = 0.15
+	}
+	trigger = {
+		tag = Z0I
+		religion = converted_dynamic_faith_102
+		government = monarchy
+	}
+	free = yes
+	
+	fid_fidels_revolution = {
+		global_missionary_strength = 0.03
+	}
+	fid_prophecy_of_the_homeland = {
+		colonists = 1
+		global_colonial_growth = 10
+	}
+	fid_pure_bloodline = {
+		monarch_lifespan = 0.25
+	}
+	fid_holy_communist_crusade = {
+		unjustified_demands = -0.2
+		warscore_cost_vs_other_religion = -0.2
+	}
+	fid_fidels_universities = {
+		technology_cost = -0.05
+	}
+	fid_free_thought_with_fidelista_characteristics = {
+		idea_cost = -0.15
+	}
+	fid_crushed_rebellions = {
+		global_unrest = -2
+	}
+}

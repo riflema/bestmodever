@@ -1,6 +1,6 @@
 christian = {
 	converted_dynamic_faith_102 = {
-		color = { 170 109 40 }
+		color = { 140 0 0 }
 		icon =  171
 		country = {
  
@@ -31,8 +31,72 @@ christian = {
 		local_missionary_strength = -0.02
 	
 }
-		 
-		fervor = yes
+		has_patriarchs = yes
+		orthodox_icons = {
+		
+		
+			icon_fideltherevolutionary = {
+				global_missionary_strength = 0.02
+				warscore_cost_vs_other_religion = -0.1
+				
+				allow = {
+					always = yes
+				}
+				ai_will_do = {
+					factor = 1
+				}
+			}
+
+			icon_archambaut = {
+				idea_cost = -0.1
+				global_tax_modifier = 0.10
+				
+				allow = {
+					always = yes
+				}
+				ai_will_do = {
+					factor = 1
+				}
+			}
+
+			icon_fidelii = {
+				yearly_absolutism = 1
+				global_autonomy = -0.1
+				
+				allow = {
+					always = yes
+				}
+				ai_will_do = {
+					factor = 1
+				}
+			}
+	
+			icon_aznar = {
+				global_unrest = -2
+				shock_damage = 0.1
+
+				allow = {
+					always = yes
+				}
+				ai_will_do = {
+					factor = 1
+				}
+			}
+
+			icon_sebastian = {
+				infantry_power = 0.1
+				discipline = 0.025
+
+				allow = {
+					always = yes
+				}
+				ai_will_do = {
+					factor = 1
+				}
+			}
+			
+			
+		}
 	
 		
 	heretic = { BOGOMILIST WALDENSIAN FRATICELLI LOLLARD SOCINIAN }

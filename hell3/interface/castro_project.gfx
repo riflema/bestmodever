@@ -1,0 +1,7 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_great_project_castro_holy_cathedral"	
+		texturefile = "gfx//interface//great_projects//great_project_castro_holy_cathedral.dds"
+	}
+}
