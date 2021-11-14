@@ -1,0 +1,45 @@
+##############################
+#Insuline Ideas
+##############################
+AUV_ideas = {
+	start = {
+		global_tax_modifier = 0.20
+		cavalry_power = 0.20
+	}
+
+	bonus = {
+		administrative_efficiency = 0.05
+	}
+	
+	trigger = {
+		tag = AUV
+	}
+	free = yes		
+
+	knight_academies = {
+		army_tradition = 0.5
+		leader_land_shock = 1
+	}
+	dixon_generosity = {
+		global_unrest = -1
+		diplomatic_reputation = 1
+	}
+	subject_extortion = {
+		vassal_income = 0.35
+	}
+	invest_in_land = {
+		development_cost = -0.15
+	}
+	professional_work_force  = {
+		build_cost = -0.10
+		build_time = -0.20
+		great_project_upgrade_cost = -0.1
+	}
+	mercenary_deals = {
+		mercenary_cost = -0.20
+	}
+	oliver_ii_legacy = {
+			max_absolutism = 15
+			yearly_absolutism = 0.1
+	}
+}

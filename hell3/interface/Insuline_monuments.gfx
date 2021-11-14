@@ -1,0 +1,7 @@
+spriteTypes = {
+
+		spriteType = {
+		name = "GFX_great_project_Auvergne_Knight_Academy"	
+		texturefile = "gfx//interface//great_projects//great_project_Auvergne_Knight_Academy.dds"
+	}
+}

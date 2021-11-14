@@ -1,0 +1,375 @@
+Insuline_missions_far_left_slot = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = AUV
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	AUV_fortress_picardy = {
+		icon = mission_arabian_fort
+		position = 2
+		required_missions = { }
+		provinces_to_highlight = {
+		 province_id = 89
+		}
+		trigger = {
+			89 = { 
+			has_building = fort_15th
+		   }
+		}
+		effect = {
+					picardy_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+				89_scope = {
+				add_base_manpower = 2
+			    }
+			    add_mil_power = 25
+			 }
+        }
+	}
+	AUV_control_amiens = {
+		icon = mission_have_two_subjects
+		position = 3
+		required_missions = { AUV_fortress_picardy }
+		provinces_to_highlight = {
+		 OR = {
+				area = picardy_area
+		}
+	}
+		trigger = {
+			picardy_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+					normandy_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			    add_mil_power = 25
+			    add_country_modifier = {
+				name = conquest_of_the_north
+				duration = 9125
+			    }
+			 }
+        }
+	}
+	AUV_control_the_north = {
+		icon = mission_have_two_subjects
+		position = 4
+		required_missions = { AUV_control_amiens }
+		provinces_to_highlight = {
+		 OR = {
+				area = normandy_area
+		}
+	}
+		trigger = {
+			normandy_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+					add_casus_belli = {
+					type = cb_restore_personal_union
+					months = 600
+					target = FRA
+				}
+			    add_country_modifier = {
+				name = onward_to_paris
+				duration = 5475
+			    }
+			    add_army_tradition = 10
+			 }
+        }
+       AUV_king_of_the_franks = {
+		icon = mission_empire
+		position = 5
+		required_missions = { AUV_control_the_north }
+		provinces_to_highlight = {
+	    }
+		trigger = {
+			senior_union_with = FRA
+		}
+		effect = {
+				france_region = {
+					limit = {
+						NOT = { is_permanent_claim = root }
+						NOT = { is_core = root }
+					}
+					add_permanent_claim = root
+				add_country_modifier = {
+				name = king_of_franks
+				duration = -1
+			    }
+			 }
+	    }
+    }
+ }
+        
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Insuline_missions_left = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = AUV
+		NOT = { map_setup = map_setup_random }
+	} 
+	has_country_shield = yes
+
+	AUV_religiously_united = {
+		icon = mission_hands_praying
+		required_missions = { }
+		provinces_to_highlight = {
+		}
+		trigger = {
+			religious_unity = 0.75
+		}
+		effect = {
+		add_country_modifier = {
+				name = communism_prevails
+				duration = 9125
+			}
+        	add_patriarch_authority = 0.1
+            add_stability = 1
+			}
+		}
+		AUV_all_under_communism = {
+		icon = mission_hands_praying
+		position = 3
+		required_missions = {AUV_a_country_reinvigorated }
+		provinces_to_highlight = {
+		}
+		trigger = {
+			religious_unity = 1.00
+		}
+		effect = {
+		          define_general = {
+               shock = 4
+               fire = 1
+               manuever = 3
+               siege = 2
+               name = Oil the liberator
+               female = no 
+               traits = inspirational_leader_general_personality
+             }
+        	add_patriarch_authority = 0.1
+			}
+		}
+}
+
+
+
+
+
+
+
+
+
+
+
+Insuline_missions_middle = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = AUV
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+	AUV_a_stable_country = {
+		icon = mission_early_modern_university
+		required_missions = { }
+		provinces_to_highlight = {
+		}
+		trigger = {
+			stability = 2
+		}
+		effect = {
+		add_country_modifier = {
+				name = Insuline_stable
+				duration = 9125
+			}
+				add_adm_power = 50
+				add_mil_power = 50
+				add_dip_power = 50
+			}
+		}
+	AUV_a_country_reinvigorated= {
+		icon = mission_empire
+		required_missions = {AUV_a_stable_country AUV_religiously_united AUV_accept_aquitaine_culture }
+		provinces_to_highlight = {
+		}
+		trigger = {
+		}
+		effect = {
+			capital_scope = {
+				add_base_tax = 3
+				add_base_production = 3
+				add_base_manpower = 3
+				area = {
+					limit = { owned_by = ROOT }
+
+				}
+			}
+				add_adm_power = 100
+				add_mil_power = 100
+				add_dip_power = 100
+			}
+		}
+	AUV_develop_foix = {
+		icon = mission_early_modern_university
+		required_missions = {AUV_a_country_reinvigorated }
+		provinces_to_highlight = {
+		}
+		trigger = {
+			4694 = {
+              development = 12
+			}
+		}
+		effect = {
+	4694 = {
+		add_province_modifier = { 
+           name = Insuline_investment
+           duration = 7300  
+           desc = insuline_investment_tooltip
+           hidden = no
+         } 
+      }
+
+			}
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+Insuline_missions_right = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = AUV
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+    AUV_accept_aquitaine_culture = {
+		icon = mission_have_two_subjects
+		required_missions = { }
+		provinces_to_highlight = {
+		}
+		trigger = {
+			accepted_culture = aquitaine
+		}
+		effect = {
+		add_country_modifier = {
+				name = aquitaine_accepted
+				duration = 9125
+			}
+				add_adm_power = 100
+			}
+		}
+	AUV_promote_aquitaine_leaders = {
+		icon = mission_have_two_subjects
+		position = 3
+		required_missions = {AUV_a_country_reinvigorated }
+		provinces_to_highlight = {
+		}
+		trigger = {
+			accepted_culture = aquitaine
+			4694 = {
+              unrest = 0
+			}
+			176 = {
+              unrest = 0
+			}
+			175 = {
+              unrest = 0
+			}
+			173 = {
+              unrest = 0
+			}
+			174 = {
+              unrest = 0
+			}
+			198 = {
+              unrest = 0
+			}
+			4112 = {
+              unrest = 0
+			}
+		}
+		effect = {
+                  define_advisor = {
+               type = theologian
+               name = "Arnaut Kapp"
+               skill = 2
+               location = 174
+               discount = yes
+               cost_multiplier = 0.25
+               culture = aquitaine
+               religion = converted_dynamic_faith_102
+               }
+				add_adm_power = 100
+			}
+		}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+Insuline_missions_far_right = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		tag = AUV
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+}
