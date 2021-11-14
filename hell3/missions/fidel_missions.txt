@@ -1,0 +1,182 @@
+fidel_missions_1 = {
+
+	slot = 1
+	
+	has_country_shield = yes
+	generic = no
+	ai = yes
+	
+	potential = {
+		tag = Z0I
+	}
+	
+	fidel_missions_1_task_1 = {
+	
+		icon = mission_religious			#the holy crusade
+		
+		position = 1
+		
+		trigger = {
+			NOT = {
+				exists = CAS
+				exists = VAL
+				exists = ADU
+			}
+		}
+		
+		effect = {
+			iberia_region = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	fidel_missions_1_task_2 = {
+	
+		icon = mission_settlers_north_america			#the search for the homeland
+		
+		position = 2
+		
+		required_missions = {
+			fidel_missions_1_task_1
+		}
+
+		provinces_to_highlight = {
+			region = carribeans_region
+		}
+
+		trigger = {
+			carribeans_region = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		
+		effect = {
+			add_country_modifier = { 
+  				name = fid_search_for_the_homeland
+    			duration = 3650
+			}
+		}
+	}
+	fidel_missions_1_task_3 = {
+	
+		icon = mission_early_modern_university		#invasion of naples
+		
+		position = 3
+		
+		required_missions = {
+			fidel_missions_1_task_2
+		}
+
+		provinces_to_highlight = {
+			region = iberia_region
+		}
+
+		trigger = {
+			iberia_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		
+		effect = {
+			sicily_area = {
+				add_permanent_claim = ROOT
+			}
+			western_sicily_area = {
+				add_permanent_claim = ROOT
+			}
+			calabria_area = {
+				add_permanent_claim = ROOT
+			}
+			apulia_area = {
+				add_permanent_claim = ROOT
+			}
+			naples_area = {
+				add_permanent_claim = ROOT
+			}
+			corsica_sardinia_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	fidel_missions_1_task_4 = {
+	
+		icon = mission_arabian_fort			#destruction of mali
+		
+		position = 4
+		
+		required_missions = {
+			fidel_missions_1_task_3
+		}
+
+		provinces_to_highlight = {
+			area = sicily_area
+			area = western_sicily_area
+			area = calabria_area
+			area = apulia_area
+			area = naples_area
+			area = corsica_sardinia_area
+		}
+
+		trigger = {
+			sicily_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			western_sicily_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			calabria_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			apulia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			naples_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			corsica_sardinia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		
+		effect = {
+			maghreb_region = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	fidel_missions_1_task_5 = {
+	
+		icon = mission_empire			#communism reigns supreme
+		
+		position = 5
+		
+		required_missions = {
+			fidel_missions_1_task_4
+		}
+
+		provinces_to_highlight = {
+			region = maghreb_region
+		}
+
+		trigger = {
+			maghreb_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		
+		effect = {
+			override_country_name = HOLY_COMMUNIST_STATE
+			set_government_rank = 3
+			add_prestige = 100
+			add_legitimacy = 100
+		}
+	}
+}
