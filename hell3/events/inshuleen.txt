@@ -118,3 +118,29 @@ country_event = {
 		}
 	}
 }
+country_event = {
+	id = inshuleen.5
+	title = inshuleen.5.t
+	desc = inshuleen.5.d
+	picture = POPE_PREACHING_eventPicture
+	
+	trigger = {
+		current_age = age_of_reformation
+		tag = Z0I
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		name = inshuleen.5.a
+		
+		206 = {
+			change_religion = converted_dynamic_faith_102
+			add_reform_center = converted_dynamic_faith_102
+		}
+	}
+}

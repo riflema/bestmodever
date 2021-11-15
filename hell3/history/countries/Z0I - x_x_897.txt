@@ -53,4 +53,5 @@ add_accepted_culture = galician
 1444.11.11= {
 	add_prestige = 86
 	add_treasury = 0
+	leader = {	name = "Cumlord John"		type = general	fire = 1	shock = 5	manuever = 4 siege = 1000	death_date = 1569.4.20 } }
 }
