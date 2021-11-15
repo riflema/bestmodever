@@ -94,9 +94,6 @@ fidel_missions_1 = {
 			naples_area = {
 				add_permanent_claim = ROOT
 			}
-			corsica_sardinia_area = {
-				add_permanent_claim = ROOT
-			}
 		}
 	}
 	fidel_missions_1_task_4 = {
@@ -136,10 +133,6 @@ fidel_missions_1 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 			naples_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			corsica_sardinia_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
