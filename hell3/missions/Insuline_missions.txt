@@ -66,7 +66,7 @@ Insuline_missions_far_left_slot = {
         }
 	}
 	AUV_control_the_north = {
-		icon = mission_have_two_subjects
+		icon = mission_build_up_to_force_limit
 		position = 4
 		required_missions = { AUV_control_amiens }
 		provinces_to_highlight = {
@@ -173,7 +173,7 @@ Insuline_missons_left = {
 			}
 		}
 	  AUV_a_army_for_revolution = {
-		icon = mission_hands_praying
+		icon = mission_assemble_an_army
 		position = 4
 		required_missions = {AUV_all_under_communism }
 		provinces_to_highlight = {}
@@ -201,7 +201,7 @@ Insuline_missons_left = {
 		}
     }
     AUV_a_navy_for_revolution = {
-		icon = mission_hands_praying
+		icon = mission_establish_high_seas_navy
 		position = 5
 		required_missions = {AUV_a_army_for_revolution }
 		provinces_to_highlight = {}
@@ -230,7 +230,7 @@ Insuline_missons_left = {
 	}
      
     AUV_begin_the_great_crusade = {
-		icon = mission_hands_praying
+		icon = mission_impaled_soldies
 		position = 6
 		required_missions = {AUV_a_navy_for_revolution AUV_king_of_the_franks}
 		provinces_to_highlight = {}
@@ -257,7 +257,7 @@ Insuline_missons_left = {
 		    }
 	    }
 	AUV_communism_in_rome = {
-		icon = mission_hands_praying
+		icon = mission_luther_theses
 		position = 7
 		required_missions = {AUV_begin_the_great_crusade}
 		provinces_to_highlight = {}
@@ -351,7 +351,7 @@ Insuline_missions_middle = {
 			}
 		}
 	AUV_foix_gold_mine = {
-		icon = mission_early_modern_university
+		icon = mission_high_income
 		required_missions = { AUV_develop_foix }
 		provinces_to_highlight = {}
 		trigger = {
@@ -369,7 +369,7 @@ Insuline_missions_middle = {
 			}
 		}
 	AUV_invest_in_the_land = {
-		icon = mission_early_modern_university
+		icon = mission_early_game_buildings
 		required_missions = { AUV_foix_gold_mine }
 		provinces_to_highlight = {
 		}
@@ -385,7 +385,7 @@ Insuline_missions_middle = {
 			}
 		}
 	AUV_the_great_city_of_auvergne = {
-		icon = mission_early_modern_university
+		icon = mission_eastern_european_city
 		required_missions = { AUV_invest_in_the_land AUV_merge_with_aquitaine }
 		provinces_to_highlight = {
 		}
@@ -447,34 +447,13 @@ Insuline_missions_right = {
 			}
 		}
 	AUV_promote_aquitaine_leaders = {
-		icon = mission_have_two_subjects
+		icon = mission_italian_condottiere
 		position = 3
 		required_missions = {AUV_a_country_reinvigorated }
 		provinces_to_highlight = {
 		}
 		trigger = {
 			accepted_culture = aquitaine
-			4694 = {
-              unrest = 0
-			}
-			176 = {
-              unrest = 0
-			}
-			175 = {
-              unrest = 0
-			}
-			173 = {
-              unrest = 0
-			}
-			174 = {
-              unrest = 0
-			}
-			198 = {
-              unrest = 0
-			}
-			4112 = {
-              unrest = 0
-			}
 		}
 		effect = {
                   define_advisor = {
@@ -491,7 +470,7 @@ Insuline_missions_right = {
 			}
 		}
 		AUV_develop_aquitaine_land = {
-		icon = mission_have_two_subjects
+		icon = mission_have_manufactories
 		position = 4
 		required_missions = {AUV_promote_aquitaine_leaders }
 		provinces_to_highlight = {
@@ -583,7 +562,7 @@ Insuline_missions_right = {
 			}
 		}
 		AUV_merge_with_aquitaine = {
-		icon = mission_have_two_subjects
+		icon = mission_noble_council
 		position = 5
 		required_missions = {AUV_develop_aquitaine_land }
 		provinces_to_highlight = {
