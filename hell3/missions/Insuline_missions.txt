@@ -109,6 +109,7 @@ Insuline_missions_far_left_slot = {
 						NOT = { is_core = root }
 					}
 					add_permanent_claim = root
+					set_government_rank = 3
 				add_country_modifier = {
 				name = king_of_franks
 				duration = -1
@@ -133,7 +134,7 @@ Insuline_missions_far_left_slot = {
 
 
 
-Insuline_missions_left = {
+Insuline_missons_left = {
 	slot = 2
 	generic = no
 	ai = yes
@@ -146,8 +147,7 @@ Insuline_missions_left = {
 	AUV_religiously_united = {
 		icon = mission_hands_praying
 		required_missions = { }
-		provinces_to_highlight = {
-		}
+		provinces_to_highlight = {}
 		trigger = {
 			religious_unity = 0.75
 		}
@@ -164,10 +164,21 @@ Insuline_missions_left = {
 		icon = mission_hands_praying
 		position = 3
 		required_missions = {AUV_a_country_reinvigorated }
-		provinces_to_highlight = {
-		}
+		provinces_to_highlight = {}
 		trigger = {
 			religious_unity = 1.00
+		}
+		effect = {
+        	add_patriarch_authority = 0.1
+			}
+		}
+	  AUV_a_army_for_revolution = {
+		icon = mission_hands_praying
+		position = 4
+		required_missions = {AUV_all_under_communism }
+		provinces_to_highlight = {}
+		trigger = {
+				army_size_percentage = 1.00
 		}
 		effect = {
 		          define_general = {
@@ -179,19 +190,88 @@ Insuline_missions_left = {
                female = no 
                traits = inspirational_leader_general_personality
              }
-        	add_patriarch_authority = 0.1
+             provence_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+        	
 			}
 		}
-}
-
-
-
-
-
-
-
-
-
+    }
+    AUV_a_navy_for_revolution = {
+		icon = mission_hands_praying
+		position = 5
+		required_missions = {AUV_a_army_for_revolution }
+		provinces_to_highlight = {}
+		trigger = {
+				navy_size_percentage = 1.00
+				heavy_ships_in_province = 3
+		}
+		effect = {
+		          define_admiral = {
+               shock = 4
+               fire = 4
+               manuever = 4
+               siege = 2
+               name = Olivier the wise
+               female = no 
+               traits = inspirational_leader_general_personality
+             }
+             corsica_sardinia_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+     
+    AUV_begin_the_great_crusade = {
+		icon = mission_hands_praying
+		position = 6
+		required_missions = {AUV_a_navy_for_revolution AUV_king_of_the_franks}
+		provinces_to_highlight = {}
+		trigger = {
+				corsica_sardinia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			    provence_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+		        add_casus_belli = {
+                target = PAP
+                type = cb_annex
+                months = 120
+               }
+                add_country_modifier = {
+				name = The_Great_Crusade 
+				duration = 9125
+			   }
+		    }
+	    }
+	AUV_communism_in_rome = {
+		icon = mission_hands_praying
+		position = 7
+		required_missions = {AUV_begin_the_great_crusade}
+		provinces_to_highlight = {}
+		trigger = {
+          owns_core_province = 118
+		}
+		effect = {
+		        118 = { 
+		        add_reform_center = converted_dynamic_faith_102
+		          }
+                add_prestige = 50
+            }
+        }
+     }
 
 
 Insuline_missions_middle = {
@@ -242,6 +322,7 @@ Insuline_missions_middle = {
 				add_adm_power = 100
 				add_mil_power = 100
 				add_dip_power = 100
+				set_government_rank = 2
 			}
 		}
 	AUV_develop_foix = {
@@ -264,6 +345,63 @@ Insuline_missions_middle = {
          } 
       }
 
+			}
+		}
+	AUV_foix_gold_mine = {
+		icon = mission_early_modern_university
+		required_missions = { AUV_develop_foix }
+		provinces_to_highlight = {}
+		trigger = {
+			4694 = {
+              development = 15
+              unrest = 0
+			}
+			adm_tech = 6
+		}
+		effect = {
+	4694 = {
+		change_trade_goods = gold
+      }
+
+			}
+		}
+	AUV_invest_in_the_land = {
+		icon = mission_early_modern_university
+		required_missions = { AUV_foix_gold_mine }
+		provinces_to_highlight = {
+		}
+		trigger = {
+			total_development = 500
+		}
+		effect = {
+	add_country_modifier = {
+				name = great_investment_initiative
+				duration = 5475
+			}
+
+			}
+		}
+	AUV_the_great_city_of_auvergne = {
+		icon = mission_early_modern_university
+		required_missions = { AUV_invest_in_the_land AUV_merge_with_aquitaine }
+		provinces_to_highlight = {
+		}
+		trigger = {
+			has_great_project = {
+	        type = Auvergne_Knight_Academy
+	        tier = 3
+	     199 = {
+	     development = 50
+	     }
+
+     }
+		}
+		effect = {
+	add_country_modifier = {
+				name = great_investment_initiative
+				duration = -1
+			}
+    add_prestige = 100
 			}
 		}
 	}
@@ -347,6 +485,133 @@ Insuline_missions_right = {
                religion = converted_dynamic_faith_102
                }
 				add_adm_power = 100
+			}
+		}
+		AUV_develop_aquitaine_land = {
+		icon = mission_have_two_subjects
+		position = 4
+		required_missions = {AUV_promote_aquitaine_leaders }
+		provinces_to_highlight = {
+		}
+		trigger = {
+			accepted_culture = aquitaine
+			4694 = {
+              development = 10
+			}
+			176 = {
+              development = 10
+			}
+			175 = {
+              development = 10
+			}
+			173 = {
+              development = 10
+			}
+			174 = {
+              development = 10
+			}
+			198 = {
+              development = 10
+			}
+			4112 = {
+              development = 10
+			}
+		}
+		effect = {
+                  4694 = {
+		add_province_modifier = { 
+           name = happy_citizens
+           duration = 7300  
+           desc = insuline_investment_tooltip
+           hidden = no
+         } 
+      }
+      176 = {
+		add_province_modifier = { 
+           name = happy_citizens
+           duration = 7300  
+           desc = insuline_investment_tooltip
+           hidden = no
+         } 
+      }
+      175 = {
+		add_province_modifier = { 
+           name = happy_citizens
+           duration = 7300  
+           desc = insuline_investment_tooltip
+           hidden = no
+         } 
+      }
+      173 = {
+		add_province_modifier = { 
+           name = happy_citizens
+           duration = 7300  
+           desc = insuline_investment_tooltip
+           hidden = no
+         } 
+      }
+      174 = {
+		add_province_modifier = { 
+           name = happy_citizens
+           duration = 7300  
+           desc = insuline_investment_tooltip
+           hidden = no
+         } 
+      }
+      198 = {
+		add_province_modifier = { 
+           name = happy_citizens
+           duration = 7300  
+           desc = insuline_investment_tooltip
+           hidden = no
+         } 
+      }
+      4112 = {
+		add_province_modifier = { 
+           name = happy_citizens
+           duration = 7300  
+           desc = insuline_investment_tooltip
+           hidden = no
+         } 
+      }
+				add_adm_power = 50
+				add_dip_power = 50
+				add_mil_power = 50
+			}
+		}
+		AUV_merge_with_aquitaine = {
+		icon = mission_have_two_subjects
+		position = 5
+		required_missions = {AUV_develop_aquitaine_land }
+		provinces_to_highlight = {
+		}
+		trigger = {
+			accepted_culture = aquitaine
+			adm_power = 500
+		}
+		effect = {
+                  4694 = {
+		change_culture = occitan
+      }
+      176 = {
+		change_culture = occitan
+      }
+      175 = {
+		change_culture = occitan
+      }
+      173 = {
+		change_culture = occitan
+      }
+      174 = {
+		change_culture = occitan
+      }
+      198 = {
+		change_culture = occitan
+      }
+      4112 = {
+		change_culture = occitan
+      }
+
 			}
 		}
 
