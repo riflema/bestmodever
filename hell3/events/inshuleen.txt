@@ -1,0 +1,120 @@
+namespace = inshuleen
+country_event = {
+	id = inshuleen.1
+	title = inshuleen.1.t
+	desc = inshuleen.1.d
+	picture = POPE_PREACHING_eventPicture
+	
+	trigger = {
+		start_date = 1444.11.11
+		tag = Z0I
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		name = inshuleen.1.a
+		
+		Z0I = {
+			inherit = CAS
+			inherit = ADU
+			inherit = VAL
+		}
+	}
+}
+country_event = {
+	id = inshuleen.2
+	title = inshuleen.2.t
+	desc = inshuleen.2.d
+	picture = POPE_PREACHING_eventPicture
+	
+	trigger = {
+		start_date = 1444.11.11
+		tag = AUV
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		name = inshuleen.2.a
+		
+		AUV = {
+			inherit = GUY
+			inherit = DAU
+			inherit = AMG
+		}
+	}
+}
+country_event = {
+	id = inshuleen.3
+	title = inshuleen.3.t
+	desc = inshuleen.3.d
+	picture = POPE_PREACHING_eventPicture
+	
+	trigger = {
+		start_date = 1444.11.11
+		tag = Z38
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		name = inshuleen.3.a
+		
+		Z38 = {
+			inherit = BRI
+			inherit = NRM
+			inherit = Z0P
+			inherit = Z47
+			inherit = Z7F
+			inherit = Z7L
+			inherit = CHP
+			inherit = BUR
+			inherit = BOU
+			inherit = Z0Q
+			inherit = Z2K
+			inherit = BER
+			inherit = Z35
+			inherit = FLA
+			inherit = Z4E
+		}
+	}
+}
+country_event = {
+	id = inshuleen.4
+	title = inshuleen.4.t
+	desc = inshuleen.4.d
+	picture = POPE_PREACHING_eventPicture
+	
+	trigger = {
+		484 = {
+			country_or_non_sovereign_subject_holds = Z0I
+		}
+		tag = Z0I
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		name = inshuleen.4.a
+		
+		Z0I = {
+			add_country_modifier = { 
+   				name = fid_colonization_of_the_homeland
+   				duration = 1825
+			}
+		}
+	}
+}

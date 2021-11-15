@@ -1,3 +1,7 @@
 fid_search_for_the_homeland = {
 	global_colonial_growth = 50
 }
+fid_colonization_of_the_homeland = {
+	global_colonial_growth = 20
+	land_morale = 0.3
+}
