@@ -263,6 +263,9 @@ Insuline_missons_left = {
 		provinces_to_highlight = {}
 		trigger = {
           owns_core_province = 118
+          118 = {
+           religion = converted_dynamic_faith_102
+          }
 		}
 		effect = {
 		        118 = { 
@@ -591,25 +594,25 @@ Insuline_missions_right = {
 		}
 		effect = {
                   4694 = {
-		change_culture = occitan
+		change_culture = occitain
       }
       176 = {
-		change_culture = occitan
+		change_culture = occitain
       }
       175 = {
-		change_culture = occitan
+		change_culture = occitain
       }
       173 = {
-		change_culture = occitan
+		change_culture = occitain
       }
       174 = {
-		change_culture = occitan
+		change_culture = occitain
       }
       198 = {
-		change_culture = occitan
+		change_culture = occitain
       }
       4112 = {
-		change_culture = occitan
+		change_culture = occitain
       }
 
 			}
