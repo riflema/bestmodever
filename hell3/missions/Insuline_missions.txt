@@ -392,15 +392,15 @@ Insuline_missions_middle = {
 			has_great_project = {
 	        type = Auvergne_Knight_Academy
 	        tier = 3
+	     }
 	     199 = {
 	     development = 50
 	     }
 
-     }
 		}
 		effect = {
 	add_country_modifier = {
-				name = great_investment_initiative
+				name = prestigious_city_of_auvergne
 				duration = -1
 			}
     add_prestige = 100
