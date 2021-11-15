@@ -357,7 +357,6 @@ Insuline_missions_middle = {
 		trigger = {
 			4694 = {
               development = 15
-              unrest = 0
 			}
 			adm_tech = 6
 		}
