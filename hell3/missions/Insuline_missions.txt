@@ -618,4 +618,68 @@ Insuline_missions_far_right = {
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
-}
+
+	AUV_Olivia_the_curious = {
+		icon = mission_hanseatic_city
+		position = 2
+		required_missions = {  }
+		provinces_to_highlight = {
+	    }
+		trigger = {
+			adm_tech = 4
+		}
+		effect = {
+				define_explorer = {
+                      shock = 1
+                      fire = 0
+                      manuever = 6
+                      siege = 2
+                      name = Olivia the Curious
+                      female = yes
+                    }
+			 }
+	    }
+	  AUV_search_the_seas = {
+		icon = mission_junk_boat
+		position = 3
+		required_missions = { AUV_Olivia_the_curious }
+		provinces_to_highlight = {
+	    }
+		trigger = {
+			num_of_light_ship = 4
+		}
+		effect = {
+				north_atlantic_region = {
+             discover_country = AUV
+                }
+                caribbean_sea_region = {
+             discover_country = AUV
+                }
+                west_african_sea_region = {
+             discover_country = AUV
+                }
+			 }
+	    }
+	  AUV_expedition_set_sail = {
+		icon = mission_galleys_in_port
+		position = 4
+		required_missions = { AUV_search_the_seas }
+		provinces_to_highlight = {
+	    }
+		trigger = {
+			174 = {
+			 development = 15
+			}
+			num_of_light_ship = 6
+		}
+		effect = {
+				american_east_coast_region = {
+             discover_country = AUV
+                }
+                add_country_modifier = {
+				name = colonial_fervor
+				duration = 5475
+			    }
+			 }
+	    }
+    }

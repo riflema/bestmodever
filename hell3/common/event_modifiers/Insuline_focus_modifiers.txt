@@ -51,4 +51,9 @@ prestigious_city_of_auvergne = {
     	development_cost = -0.1
     	global_prosperity_growth = 0.1
 }
+colonial_fervor = { 
+      range = 0.5
+      global_colonial_growth = 10
+      colonist_placement_chance = 0.05
+}
 
