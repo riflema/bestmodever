@@ -207,7 +207,6 @@ Insuline_missons_left = {
 		provinces_to_highlight = {}
 		trigger = {
 				navy_size_percentage = 1.00
-				heavy_ships_in_province = 3
 		}
 		effect = {
 		          define_admiral = {
