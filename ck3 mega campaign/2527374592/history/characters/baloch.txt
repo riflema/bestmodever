@@ -1,0 +1,496 @@
+﻿6899 = {
+	name = "Bahram" # Fantasy
+	dynasty = 858
+	religion = maturidi
+	culture = baloch
+	835.1.1 = {
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+6910 = {
+	name = "Ferux" # Fantasy
+	dynasty = 859
+	religion = maturidi
+	culture = baloch
+	830.1.1 = {
+		birth = yes
+	}
+	880.1.1 = {
+		death = yes
+	}
+}
+
+178018 = {
+	name = "Zahak" # Fictional
+	dynasty = 1041118
+	religion = "maturidi"
+	culture = "baloch"
+	842.1.1 = {
+		birth = yes
+	}
+	888.1.1 = {
+		death = yes
+	}
+}
+
+188544 = {
+	name = "Ma_dan"
+	dynasty = 1042102 # Ma'danid
+	religion = "maturidi"
+	culture = "baloch"
+	980.1.1 = {
+		birth = yes
+	}
+	1025.1.1 = {
+		death = yes
+	}
+}
+
+188545 = {
+	name = "Isa"
+	dynasty = 1042102 # Ma'danid
+	religion = "maturidi"
+	culture = "baloch"
+	father = 188544
+	1000.1.1 = {
+		birth = yes
+	}
+	1031.1.1 = {
+		death = yes
+	}
+}
+
+188546 = {
+	name = "Husayn"
+	dynasty = 1042102 # Ma'danid
+	religion = "maturidi"
+	culture = "baloch"
+	father = 188544
+	stewardship = 10
+	1005.1.1 = {
+		birth = yes
+	}
+	1068.1.1 = {
+		death = yes
+	}
+}
+
+188547 = {
+	name = "Feraz" # fictitious
+	dynasty = 1042102 # Ma'danid
+	religion = "maturidi"
+	culture = "baloch"
+	father = 188546
+	1034.1.1 = {
+		birth = yes
+	}
+	1090.1.1 = {
+		death = yes
+	}
+}
+
+188548 = {
+	name = "Naveed" # fictitious
+	dynasty = 1042102 # Ma'danid
+	religion = "maturidi"
+	culture = "baloch"
+	father = 188547
+	1060.1.1 = {
+		birth = yes
+	}
+	1105.1.1 = {
+		death = yes
+	}
+}
+
+188549 = {
+	name = "Ehmed" # fictitious
+	dynasty = 1042102 # Ma'danid
+	religion = "maturidi"
+	culture = "baloch"
+	father = 188548
+	1082.1.1 = {
+		birth = yes
+	}
+	1130.1.1 = {
+		death = yes
+	}
+}
+
+188550 = {
+	name = "Mistefa" # fictitious
+	dynasty = 1042102 # Ma'danid
+	religion = "maturidi"
+	culture = "baloch"
+	father = 188549
+	1109.1.1 = {
+		birth = yes
+	}
+	1150.1.1 = {
+		death = yes
+	}
+}
+188661 = {
+	name = "Xwedadad" # fictitious holder of Jask
+	dynasty = 1042134
+	religion = "zurvanism"
+	culture = "baloch"
+	725.1.1 = {
+		birth = yes
+	}
+	790.1.1 = {
+		death = yes
+	}
+}
+
+188662 = {
+	name = "Keyxusrew" # fictitious holder of Tis
+	dynasty = 1042135
+	religion = "zurvanism"
+	culture = "baloch"
+	738.1.1 = {
+		birth = yes
+	}
+	795.1.1 = {
+		death = yes
+	}
+}
+
+188663 = {
+	name = "Ferzad" # fictitious holder of Saravan
+	dynasty = 1042136
+	religion = "zurvanism"
+	culture = "baloch"
+	744.1.1 = {
+		birth = yes
+	}
+	803.1.1 = {
+		death = yes
+	}
+}
+188679 = {
+	name = "Tahmasp" # fictitious holder of Shiraz
+	dynasty = 1042146
+	religion = "zurvanism"
+	culture = "baloch"
+	740.1.1 = {
+		birth = yes
+	}
+	795.1.1 = {
+		death = yes
+	}
+}
+
+302700 = {		#Fictional/Placeholder in southern Makran 867
+	name = "Feraz"
+	religion = azariqa
+	culture = baloch
+	847.1.2 = {
+		birth = yes
+	}
+	900.1.2 = {
+		death = yes
+	}
+}
+baloch0001 = {		#Fictional/Placeholder in south-eastern Makran 867
+	name = "Morteza"
+	religion = azariqa
+	culture = baloch
+	840.1.3 = {
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+261110 = {
+	name = "Hayaat"
+	dynasty = 1062543
+	religion = maturidi
+	culture = baloch
+	891.1.1 = {
+		birth = yes
+	}
+	942.1.1 = {
+		death = yes
+	}
+}
+
+261113 = {
+	name = "Meraan"
+	dynasty = 1062545
+	religion = azariqa
+	culture = baloch
+	905.1.1 = {
+		birth = yes
+	}
+	941.1.1 = {
+		death = yes
+	}
+}
+261114 = {
+	name = "Isa"
+	dynasty = 1062545
+	religion = azariqa
+	culture = baloch
+	father = 261113
+	926.1.1 = {
+		birth = yes
+	}
+	979.1.1 = {
+		death = yes
+	}
+}
+
+#Legendary rulers of Baluchistan: From [i]The Baloch Race: A Historical and Ethnological Sketch[/i] (1904) by Mansel Longworth Dames.
+jalal_khan = {
+	name = "JalA_l_KhA_n"
+	dynasty = baloch_dynasty
+	religion = maturidi
+	culture = baloch
+	
+	1100.1.1 = {
+		birth = yes
+	}
+	1185.1.1 = {
+		death = yes
+	}
+}
+
+#Rinds
+rind_khan = {
+	name = "dynn_Rind"
+	dynasty = baloch_dynasty
+	religion = maturidi
+	culture = baloch
+	father = jalal_khan
+	
+	1167.1.1 = { #Fictional date
+		birth = yes
+	}
+	1185.1.1 = {
+		dynasty_house = house_rind
+	}
+	1228.1.1 = { #Fictional date
+		death = yes
+	}
+}
+rind_2 = {
+	name = "RazmA_n"
+	dynasty_house = house_rind
+	religion = maturidi
+	culture = baloch
+	father = rind_khan
+	
+	1201.1.1 = { #Fictional date
+		birth = yes
+	}
+	1255.1.1 = { #Fictional date
+		death = yes
+	}
+}
+rind_3 = {
+	name = "Nau_NA_sir_DI_n"
+	dynasty_house = house_rind
+	religion = maturidi
+	culture = baloch
+	father = rind_2
+	
+	1223.1.1 = { #Fictional date
+		birth = yes
+	}
+	1267.1.1 = { #Fictional date
+		death = yes
+	}
+}
+rind_4 = {
+	name = "Ahmad"
+	dynasty_house = house_rind
+	religion = maturidi
+	culture = baloch
+	father = rind_3
+	
+	1250.1.1 = { #Fictional date
+		birth = yes
+	}
+	1301.1.1 = { #Fictional date
+		death = yes
+	}
+}
+rind_5 = {
+	name = "Gilo"
+	dynasty_house = house_rind
+	religion = maturidi
+	culture = baloch
+	father = rind_4
+	
+	1278.1.1 = { #Fictional date
+		birth = yes
+	}
+	1331.1.1 = { #Fictional date
+		death = yes
+	}
+}
+rind_baloch_1337 = {
+	name = "Pheroz"
+	dynasty_house = house_rind
+	religion = maturidi
+	culture = baloch
+	father = rind_5
+	
+	1308.1.1 = { #Fictional date
+		birth = yes
+	}
+	1453.1.1 = { #Fictional date
+		death = yes
+	}
+}
+rind_baloch_1337_son = {
+	name = "Kalo"
+	dynasty_house = house_rind
+	religion = maturidi
+	culture = baloch
+	father = rind_baloch_1337
+	
+	1334.1.1 = { #Fictional date
+		birth = yes
+	}
+	1453.1.1 = { #Fictional date
+		death = yes
+	}
+}
+rind_baloch_1337_brother = {
+	name = "KA_im"
+	dynasty_house = house_rind
+	religion = maturidi
+	culture = baloch
+	father = rind_5
+	
+	1310.1.1 = { #Fictional date
+		birth = yes
+	}
+	1453.1.1 = { #Fictional date
+		death = yes
+	}
+}
+rind_baloch_1337_nephew = {
+	name = "Chauro"
+	dynasty_house = house_rind
+	religion = maturidi
+	culture = baloch
+	father = rind_baloch_1337_brother
+	
+	1335.1.1 = { #Fictional date
+		birth = yes
+	}
+	1453.1.1 = { #Fictional date
+		death = yes
+	}
+}
+
+#Lasharis; "main" line with Gwaharām and Nodhbandagh is unknown
+
+lashar_khan = {
+	name = "LA_shA_r"
+	dynasty = baloch_dynasty
+	religion = maturidi
+	culture = baloch
+	father = jalal_khan
+	
+	1169.1.1 = { #Fictional date
+		birth = yes
+	}
+	1185.1.1 = {
+		dynasty_house = house_lashari
+	}
+	1223.1.1 = { #Fictional date
+		death = yes
+	}
+}
+lashar_2 = {
+	name = "Bakar"
+	dynasty_house = house_lashari
+	religion = maturidi
+	culture = baloch
+	father = lashar_khan
+	
+	1204.1.1 = { #Fictional date
+		birth = yes
+	}
+	1259.1.1 = { #Fictional date
+		death = yes
+	}
+}
+lashar_3 = {
+	name = "RA_men"
+	dynasty_house = house_lashari
+	religion = maturidi
+	culture = baloch
+	father = lashar_2
+	
+	1229.1.1 = {
+		birth = yes
+	}
+	1286.1.1 = {
+		death = yes
+	}
+}
+lashar_4 = {
+	name = "MubA_rak"
+	dynasty_house = house_lashari
+	religion = maturidi
+	culture = baloch
+	father = lashar_3
+	
+	1252.1.1 = {
+		birth = yes
+	}
+	1304.1.1 = {
+		death = yes
+	}
+}
+lashar_5 = {
+	name = "_Ali_"
+	dynasty_house = house_lashari
+	religion = maturidi
+	culture = baloch
+	father = lashar_4
+	
+	1275.1.1 = {
+		birth = yes
+	}
+	1320.1.1 = {
+		death = yes
+	}
+}
+lashari_baloch_1337 = {
+	name = "BhU_t"
+	dynasty_house = house_lashari
+	religion = maturidi
+	culture = baloch
+	father = lashar_5
+	
+	1302.1.1 = {
+		birth = yes
+	}
+	1453.1.1 = {
+		death = yes
+	}
+}
+lashari_baloch_1337_son = {
+	name = "Mag"
+	dynasty_house = house_lashari
+	religion = maturidi
+	culture = baloch
+	father = lashari_baloch_1337
+	
+	1328.1.1 = {
+		birth = yes
+	}
+	1453.1.1 = {
+		death = yes
+	}
+}

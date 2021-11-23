@@ -1,0 +1,218 @@
+﻿l_korean:
+
+
+ ##Aging types
+ gene_age:0 "노화 (노인 인물만 해당)"
+ old_1:0 "노화 1"
+ old_2:0 "노화 2"
+ old_3:0 "노화 3"
+ old_4:0 "노화 4"
+ old_beauty_1:0 "노화 Beauty"
+ no_aging:0 "노화없음"
+
+ ##bust types
+ bust_clothes:0 "가슴 의복"
+ bust_default:0 "가슴 기본"
+ bust_shape_1_half:0 "가슴 모양 1 Half"
+ bust_shape_1_full:0 "가슴 모양 1 full"
+ bust_shape_2_half:0 "가슴 모양 2 Half"
+ bust_shape_2_full:0 "가슴 모양 2 full"
+ bust_shape_3_half:0 "가슴 모양 3 Half"
+ bust_shape_3_full:0 "가슴 모양 3 full"
+ bust_shape_4_half:0 "가슴 모양 4 Half"
+ bust_shape_4_full:0 "가슴 모양 4 full"
+ 
+ ##body hair types
+ gene_body_hair:0 "체모 (남성 인물만 해당)"
+ body_hair_sparse:0 "듬성함"
+ body_hair_avg:0 "적당함"
+ body_hair_dense:0 "빽빽함"
+ body_hair_sparse_low_stubble:0 "듬성함, 짧음"
+ body_hair_avg_low_stubble:0 "적당함, 짧음"
+ body_hair_dense_low_stubble:0 "빽빽함, 짧음"
+##Wrinkles types
+ expression_brow_wrinkles:0 "미간 주름 (노인 인물만 해당)"
+ brow_wrinkles_01:0 "미간 주름 1"
+ brow_wrinkles_02:0 "미간 주름 2"
+ brow_wrinkles_03:0 "미간 주름 3"
+ brow_wrinkles_04:0 "미간 주름 4"
+ 
+###Body types
+ gene_bs_body_shape:0 "신체 모양"
+ body_shape_average:0 "Average"
+ body_shape_apple_half:0 "Apple Half"
+ body_shape_apple_full:0 "Apple Full"
+ body_shape_hourglass_half:0 "Hourglass Half"
+ body_shape_hourglass_full:0 "Hourglass Full"
+ body_shape_pear_half:0 "Pear Half"
+ body_shape_pear_full:0 "Pear Full"
+ body_shape_rectangle_half:0 "Rectangle Half"
+ body_shape_rectangle_full:0 "Rectangle Full"
+ body_shape_triangle_half:0 "Triangle Half"
+ body_shape_triangle_full:0 "Triangle Full" 
+ 
+###Ears
+ gene_bs_ear_lobe:0 "귓불" 
+ vanilla_ear_lobe:0 "기본 귓불"  
+ ear_lobe_fused:0 "붙어있는 귓불"   
+ ear_lobe_detached:0 "분리된 귓불"  
+ 
+###Eyes 
+ gene_bs_eye_height_inside:0 "눈 각도 (안쪽)"  
+ vanilla_eye_height_inside:0 "변화없음"   
+ eye_height_inside_neg:0 "안쪽 눈 각도 처짐"    
+ eye_height_inside_pos:0 "안쪽 눈 각도 치켜뜸"   
+
+ gene_bs_eye_height_outisde:0 "눈 각도 (바깥쪽)"  
+ vanilla_eye_height_outisde:0 "변화없음"   
+ eye_height_outisde_neg:0 "바깥쪽 눈 각도 처짐"    
+ eye_height_outisde_pos:0 "바깥쪽 눈 각도 치켜뜸"   
+
+ gene_eye_shut_bottom:0 "눈 감긴 정도 (하단)"  
+ vanilla_eye_shut_bottom:0 "변화없음"  
+ eye_shut_bottom:0 "하단 눈 감긴 정도"  
+
+ gene_eye_shut_top:0 "눈 감긴 정도 (상단)"  
+ vanilla_eye_shut_top:0 "변화없음"  
+ eye_shut_top:0 "상단 눈 감긴 정도"  
+
+ gene_eye_size:0 "눈 크기"  
+ vanilla_eye_size:0 "기본 눈 크기"  
+ eye_size:0 "눈 크기"  
+ 
+ eye_lower_lid_def:0 "아랫눈꺼풀 선명도 1"  
+ eye_lower_lid_def_02:0 "아랫눈꺼풀 선명도 2"   
+ 
+ 
+###Nose  
+ gene_bs_nose_central_width:0 "콧날 중간 너비"   
+ vanilla_nose_central_width:0 "변화없음"   
+ nose_central_width_neg:0 "함몰"   
+ nose_central_width_pos:0 "돌출"   
+ 
+ gene_bs_nose_septum_width:0 "코끝 비중격 너비"   
+ vanilla_nose_septum_width:0 "변화없음"   
+ nose_septum_width_neg:0 "함몰"   
+ nose_septum_width_pos:0 "돌출"   
+ 
+ ##complexions
+ complexion_beauty_1:0 "안색 아름다움"
+ complexion_ugly_1:0 "안색 못생김" 
+ complexion_no_face:0 "안색 no face(unsused)"  
+ complexion_8:0 "안색 유형 8"  
+ complexion_9:0 "안색 유형 9"   
+ complexion_10:0 "안색 유형 10"  
+ complexion_11:0 "안색 유형 11"
+ complexion_12:0 "안색 유형 12"    
+ complexion_13:0 "안색 유형 13"  
+ complexion_14:0 "안색 유형 14"    
+ complexion_15:0 "안색 유형 15"  
+ complexion_16:0 "안색 유형 16"
+ complexion_17:0 "안색 유형 17"  
+ complexion_18:0 "안색 유형 18"   
+ complexion_19:0 "안색 유형 19"  
+ complexion_20:0 "안색 유형 20"    
+ complexion_21:0 "안색 유형 21"  
+ complexion_22:0 "안색 유형 22"    
+ complexion_23:0 "안색 유형 23"  
+ complexion_24:0 "안색 유형 24"
+ complexion_25:0 "안색 유형 25"  
+ complexion_26:0 "안색 유형 26"
+ complexion_27:0 "안색 유형 27"  
+ complexion_28:0 "안색 유형 28"   
+ complexion_29:0 "안색 유형 29"  
+ complexion_30:0 "안색 유형 30"
+ complexion_31:0 "안색 유형 31"  
+ complexion_32:0 "안색 유형 32"    
+ complexion_33:0 "안색 유형 33"  
+ complexion_34:0 "안색 유형 34"
+ complexion_35:0 "안색 유형 35"  
+ complexion_36:0 "안색 유형 36"
+ complexion_37:0 "안색 유형 37"
+ complexion_1af:0 "안색 아프리카인 1"
+ complexion_2af:0 "안색 아프리카인 2" 
+ complexion_3af:0 "안색 아프리카인 3" 
+ complexion_4af:0 "안색 아프리카인 4" 
+ complexion_5af:0 "안색 아프리카인 5" 
+ complexion_6af:0 "안색 아프리카인 6" 
+ complexion_7af:0 "안색 아프리카인 7" 
+ complexion_11a:0 "안색 아시아인 11"   
+ complexion_12a:0 "안색 아시아인 12"   
+ complexion_13a:0 "안색 아시아인 13"    
+ complexion_14a:0 "안색 아시아인 14"    
+ complexion_15a:0 "안색 아시아인 15"    
+ complexion_16a:0 "안색 아시아인 16"     
+ complexion_1in:0 "안색 인도인 1" 
+ complexion_2in:0 "안색 인도인 2"  
+ complexion_3in:0 "안색 인도인 3"  
+ complexion_4in:0 "안색 인도인 4"  
+ complexion_5in:0 "안색 인도인 5"  
+ complexion_6in:0 "안색 인도인 6"  
+ complexion_7in:0 "안색 인도인 7"  
+ complexion_8in:0 "안색 인도인 8"   
+ complexion_9in:0 "안색 인도인 9"   
+ complexion_10in:0 "안색 인도인 10"   
+ complexion_11in:0 "안색 인도인 11"  
+ complexion_12in:0 "안색 인도인 12"  
+ complexion_13in:0 "안색 인도인 13"  
+ complexion_14in:0 "안색 인도인 14" 
+ 
+ 
+ ##expression_eye_wrinkles 
+ expression_eye_wrinkles:0 "주름 (눈가)"  
+ eye_wrinkles_01:0 "눈가 주름 1"  
+ eye_wrinkles_02:0 "눈가 주름 2"  
+ eye_wrinkles_03:0 "눈가 주름 3"   
+ 
+##expression_forehead_wrinkles 
+ expression_forehead_wrinkles:0 "주름 (이마)"  
+ forehead_wrinkles_01:0 "이마 주름 1"   
+ forehead_wrinkles_02:0 "이마 주름 2"    
+ forehead_wrinkles_03:0 "이마 주름 3"    
+ 
+##expression_other  
+ expression_other:0 "주름 (기타)"  
+ cheek_wrinkles_left_01:0 "뺨 주름 (왼쪽) 1" 
+ cheek_wrinkles_right_01:0 "뺨 주름 (오른쪽) 1"  
+ cheek_wrinkles_both_01:0 "뺨 주름 (양쪽) 1"   
+ nose_wrinkles_01:0 "코 주름 1"    
+ 
+ 
+ 
+ ##hair  
+ gene_hair_type:0 "머리카락 유전자"   
+ hair_straight:0 "직모"    
+ hair_wavy:0 "웨이브진 머리"     
+ hair_curly:0 "곱슬머리"     
+ hair_afro:0 "아프로 머리"     
+ hair_straight_thin_beard:0 "직모 (얇은 수염)"       
+ hair_straight_no_beard:0 "직모 (수염 없음)"    
+ hair_wavy_no_beard:0 "웨이브진 머리 (수염 없음)"     
+ hair_curly_no_beard:0 "곱슬머리 (수염 없음)"     
+ hair_afro_no_beard:0 "아프로 머리 (수염 없음)" 
+ 
+ 
+##Face 
+ gene_forehead_inner_brow_width:0 "속눈썹 너비"
+ vanilla_inner_brow_width:0 "변화없음"
+ inner_brow_width:0 "속눈썹 너비" 
+ 
+ 
+##Mouth 
+ gene_bs_mouth_lower_lip_profile:0 "아랫입술 윤곽"      
+ vanilla_lower_lip_profile:0 "변화없음"    
+ lower_lip_profile:0 "아랫입술 윤곽"     
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

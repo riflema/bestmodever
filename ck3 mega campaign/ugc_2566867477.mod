@@ -1,0 +1,15 @@
+version="1.2.2"
+picture="thumbnail.png"
+tags={
+	"Gameplay"
+	"Bookmarks"
+	"Culture"
+	"Historical"
+	"Portraits"
+	"Fixes"
+	"Graphics"
+}
+name="Additional start dates and cultures + CFP + EPE"
+supported_version="1.4.*"
+path="G:/Steam Library/steamapps/workshop/content/1158310/2566867477"
+remote_file_id="2566867477"

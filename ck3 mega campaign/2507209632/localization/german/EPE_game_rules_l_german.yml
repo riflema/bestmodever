@@ -1,0 +1,41 @@
+﻿l_german:
+
+ rule_epe_fullface_helmets:0 "Ethnicities and Portraits Expanded: Vollständig geschlossene Helme"
+ setting_default_epe_fullface_helmets:0 "Geschlossene Helme An(Default)"
+ setting_default_epe_fullface_helmets_desc:0 "Charaktere dürfen Helme tragen, die Kopf und Gesicht vollständig bedecken."
+ setting_never_epe_fullface_helmets:1 "Geschlossene Helme Aus"
+ setting_never_epe_fullface_helmets_desc:0 "Charaktere tragen keine Helme, die Kopf und Gesicht vollständig bedecken."
+ 
+ rule_epe_makeup_options:0 "Ethnicities and Portraits Expanded: Kosmetik"
+ setting_default_epe_makeup:0 "Kosmetik An (Default)"
+ setting_default_epe_makeup_desc:0 "Die Charaktere tragen kulturell angemessene Kosmetik."
+ setting_never_epe_makeup:1 "Kosmetik Aus"
+ setting_never_epe_makeup_desc:0 "Charaktere verwenden keine kosmetischen Details." 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

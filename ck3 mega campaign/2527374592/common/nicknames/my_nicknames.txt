@@ -1,0 +1,28 @@
+nick_curtmantle = {}
+nick_augustus = {}
+nick_lackland = { is_bad = yes }
+nick_barbarossa = {}
+nick_the_fortunate = {}
+nick_bloodaxe = {}
+nick_greycloak = {}
+nick_forkbeard = {}
+nick_nevsky = {}
+nick_longsword = {}
+nick_saphadin = {}
+nick_saladin = {}
+nick_meledin = {}
+nick_the_big_nest = {}
+nick_wrymouth = {}
+nick_the_hardy = {}
+nick_the_bulgar_slayer = {}
+nick_the_rich = {}
+nick_the_amorous = { is_bad = yes }
+nick_the_moneybag = {}
+nick_the_proud_2 = {} #Exists for Russian
+nick_beauclerc = {}
+nick_the_elder = {}
+nick_the_black_prince = {}
+nick_spindleshanks = {}
+nick_longshanks = {}
+nick_al-ikhshid = {}
+nick_the_good_2 = {} #Exists for Russian

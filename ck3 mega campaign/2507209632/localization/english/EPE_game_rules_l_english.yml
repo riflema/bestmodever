@@ -1,0 +1,41 @@
+﻿l_english:
+
+ rule_epe_fullface_helmets:0 "Ethnicities and Portraits Expanded: Fully Enclosed Helmets"
+ setting_default_epe_fullface_helmets:0 "Enclosed Helmets On (Default)"
+ setting_default_epe_fullface_helmets_desc:0 "Characters are allowed to wear helmets which fully cover the head and face."
+ setting_never_epe_fullface_helmets:1 "Enclosed Helmets Off"
+ setting_never_epe_fullface_helmets_desc:0 "Characters will not wear helmets that fully cover the head and face."
+ 
+ rule_epe_makeup_options:0 "Ethnicities and Portraits Expanded: Cosmetics"
+ setting_default_epe_makeup:0 "Cosmetics On (Default)"
+ setting_default_epe_makeup_desc:0 "Characters will wear culturally appropriate cosmetics."
+ setting_never_epe_makeup:1 "Cosmetics Off"
+ setting_never_epe_makeup_desc:0 "Characters will not use cosmetic decals." 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

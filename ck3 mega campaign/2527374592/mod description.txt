@@ -1,0 +1,95 @@
+﻿Formerly "Select CK2 start dates and cultures".
+
+EPE/CFP compatibility patch: https://steamcommunity.com/sharedfiles/filedetails/?id=2566867477
+
+Chinese localization patch (汉化包) by kennyS: https://steamcommunity.com/sharedfiles/filedetails/?id=2589024789
+
+Version 1.2.0; this mod is a work in progress.
+
+This mod adds five start dates, eleven cultures, and six decisions to form titles, along with various minor changes. Supports English and French (courtesy of Aliocha), though there is also some limited support for German, Spanish, and Russian, but not a lot. Feedback is very much appreciated.
+
+[h1]Start dates[/h1]
+[h2]August 7, 936: The Iron Century (WIP)[/h2]
+Recommended characters:
+[list]
+[*]Otto the Great, King of the Germans
+[*]Æthelstan the Glorious, King of the English
+[*]Caliph al-Qaim, Sultan of Africa
+[*]Hakon the Good, King of Norway
+[*]Abu Tahir al-Jannabi, Emir of Bahrain
+[*]Árpád Zolta, Grand Prince of the Hungarians
+[/list]
+[h2]April 1, 1081: The Alexiad[/h2]
+Recommended characters:
+[list]
+[*]Alexios Komnenos, Emperor and Autocrat of the Romans
+[*]Suleyman ibn Qutalmish, Sultan of Rum
+[/list]
+[h2]January 1, 1187: The Third Crusade[/h2]
+Recommended characters:
+[list]
+[*]Richard the Lionheart, Prince of the English
+[*]Philip Augustus, King of the Franks
+[*]Frederick Barbarossa, Emperor of the Romans
+[*]Guy de Lusignan, King of Jerusalem
+[*]Saladin Yusuf ibn Ayyub, Sultan of Egypt
+[/list]
+[h2]May 16, 1204: The Latin Empire[/h2]
+Recommended characters:
+[list]
+[*]Baldwin of Flanders, Latin Emperor of Constantinople
+[*]Theodoros Laskaris, Emperor of Nicaea
+[*]Alexios Megas Komnenos, Emperor of Trebizond
+[*]Michael Komnenos Doukas, Despot of Epirus
+[*]Boniface of Montferrat, King of Thessalonica
+[*]Temüjin, High Chieftain of Ögräsh
+[/list]
+[h2]January 1, 1337: Late Middle Ages[/h2]
+Recommended characters:
+[list]
+[*]Edward III, King of England
+[*]Philip VI, King of France
+[*]Uroš IV Dušan, King of Serbia
+[*]Casimir the Great, King of Poland
+[*]Ivan Kalita, Grand Duke of Moscow
+[*]Orhan Osmanoğlu, Sultan of the Ottoman Turks
+[/list]
+
+[h1]Cultures[/h1]
+Cultures ported from CK2:
+[list]
+[*]Albanian (Byzantine group)
+[*]Windic (South Slavic group)
+[*]Dalmatian (Latin group)
+[*]Coptic (Byzantine group)
+[*]Gothic (Byzantine group)
+[/list]
+New cultures:
+[list]
+[*][b]Turkish (Turkic group):[/b] Represents the Turks of Anatolia. Used in 1187 and later.
+[*][b]Chagatai (Turkic group):[/b] Represents the blend of cultures between the Mongol rulers and Karluk Turkic people of the Chagatai Khanate.
+[*][b]Tatar (Turkic group):[/b] Represents the Volga Tatars and the Turco-Mongols of the Golden Horde. Can always raid unless of a pacifist religion.
+[*][b]Circassian (Caucasian group):[/b] Represents the Circassian people in the Caucasus region.
+[*][b]Burgundian (Frankish group):[/b] Represents Gallo-Romance speakers in the Alps region that speak neither French nor Occitan.
+[*][b]Avaric (Caucasian group):[/b] Represents the Avars and related peoples in the northeastern Caucasus region.
+[/list]
+	
+[h1]Formable titles[/h1]
+[list]
+[*][b]Byzantine Empire:[/b] As any of the Byzantine rump states in 1204 (Nicaea, Trebizond, and Epirus), by retaking Thrace, your claim to the Byzantine throne can be recognized!
+[*][b]Serbian Empire:[/b] In the 1337 start date, the ambitious Stefan Uroš IV Dušan and his successors can declare themselves Tsar!
+[*][b]Kingdom of Sicily:[/b] In the 1337 start date, if the King of Naples or the King of Trinacria holds both thrones and all de jure land therein, the two Kingdoms of Sicily can be reunified back into a single Kingdom of Sicily!
+[*][b]Principality of Carantania:[/b] As a ruler of Windic culture who holds the duchies of Carinthia, Steyermark, and Krain, the Principality of Carantania can be restored!
+[*][b]Bulgarian Empire:[/b] The Bulgarian Empire is only recognized as a mere kingdom by those outside of it. By having enough land, others will finally recognize our Tsar as a true emperor!
+[*][b]Kingdom of Albania:[/b] Either the king of Sicily or an independent Albanian duke of Durrës can unite the Albanian tribes into a Kingdom of Albania!
+[/list]
+
+[h1]Credits[/h1]
+[list]
+[*][b]Aliocha:[/b] French localization
+[*][b]Patlichan:[/b] Circassian dynasty names
+[*][b]DarkyPwnz:[/b] Some bookmark character descriptions
+[*][b]Lev/Bromirsky:[/b] Russian character and dynasty names
+[*][b]Pressburger:[/b] Names for Caucasian cultures, from "Survivalist's Culture Mod" -  https://forum.paradoxplaza.com/forum/threads/mod-scm-survivalists-culture-mod.1418134/
+[*][b]Various others:[/b] Feedback and suggestions
+[/list]

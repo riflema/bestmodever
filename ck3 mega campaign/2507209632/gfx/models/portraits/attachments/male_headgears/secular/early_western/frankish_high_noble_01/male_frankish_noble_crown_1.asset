@@ -1,0 +1,42 @@
+pdxmesh = {
+	name = "male_frankish_noble_crown_1_mesh"
+	file = "male_frankish_noble_crown_1.mesh"
+
+	meshsettings = {
+		name = "frankish_noble_crown_1"
+		index = 0
+		texture_diffuse = "frankish_noble_crown_1_diffuse.dds"
+		texture_normal = "frankish_noble_crown_1_normal.dds"
+		texture_specular = "frankish_noble_crown_1_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "male_frankish_noble_crown_1_entity"
+	pdxmesh = "male_frankish_noble_crown_1_mesh"
+}
+
+
+###############################################
+
+
+entity = {
+	name = "male_frankish_noble_crown_2_entity"
+	pdxmesh = "male_frankish_noble_crown_1_mesh"
+
+	meshsettings = {
+		name = "frankish_noble_crown_1"
+		index = 0
+		texture_diffuse = "frankish_noble_crown_2_diffuse.dds"
+		texture_normal = "frankish_noble_crown_1_normal.dds"
+		texture_specular = "frankish_noble_crown_1_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+	
+}
+
+
+###############################################

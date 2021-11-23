@@ -1,0 +1,21 @@
+pdxmesh = {
+	name = "female_Western_Royal_Crown_03_mesh"
+	file = "female_Western_Royal_Crown_03.mesh"
+
+	meshsettings = {
+		name = "Western_Royal_Crown_03"
+		index = 0
+		texture_diffuse = "Western_Royal_Crown_03_diffuse.dds"
+		texture_normal = "Western_Royal_Crown_03_normal.dds"
+		texture_specular = "Western_Royal_Crown_03_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "female_Western_Royal_Crown_03_entity"
+	pdxmesh = "female_Western_Royal_Crown_03_mesh"
+}
+
+

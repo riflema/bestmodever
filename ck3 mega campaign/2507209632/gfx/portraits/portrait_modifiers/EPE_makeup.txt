@@ -1,0 +1,5435 @@
+﻿epe_makeup = {
+
+	usage = game
+	selection_behavior = weighted_random
+	fallback = no_makeup
+	
+	no_makeup = {
+        dna_modifiers = {
+##none
+
+        } 
+    }
+	
+###Western
+	
+	western_high_nobles = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_lipcolor
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier = tier_duchy
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+						portrait_western_clothing_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }							
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier = tier_duchy
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							portrait_western_clothing_spouse_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }								
+						}
+					}
+				}
+
+			}
+		}
+	}
+	
+	
+	western_royalty = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_lipcolor
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						highest_held_title_tier = tier_kingdom
+						NOR = {
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						portrait_western_clothing_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }							
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							highest_held_title_tier = tier_kingdom
+							NOR = {
+								AND = {
+								has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							portrait_western_clothing_spouse_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }								
+						}
+					}
+				}
+
+			}
+		}
+	}
+	
+	western_imperial = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_lipcolor
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						highest_held_title_tier = tier_empire
+						NOR = {
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						portrait_western_clothing_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }							
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							highest_held_title_tier = tier_empire
+							NOR = {
+								AND = {
+								has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							portrait_western_clothing_spouse_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }								
+						}
+					}
+				}
+
+			}
+		}
+	}		
+	
+####Byzantine	
+		byzantine_low_nobles = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = byzantine_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_lipcolor
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						highest_held_title_tier = tier_county
+						NOR = {
+							# has_dynasty = no
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						portrait_byzantine_clothing_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }							
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							highest_held_title_tier = tier_county
+							NOR = {
+								# has_dynasty = no
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							portrait_byzantine_clothing_spouse_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }								
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	byzantine_high_nobles = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = byzantine_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_eyeshadow
+				template = byzantine_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_lipcolor
+				template = byzantine_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = byzantine_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier = tier_duchy
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+						portrait_byzantine_clothing_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }							
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier = tier_duchy
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							portrait_byzantine_clothing_spouse_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }								
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	byzantine_royalty = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = byzantine_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_eyeshadow
+				template = byzantine_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_lipcolor
+				template = byzantine_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = byzantine_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						highest_held_title_tier = tier_kingdom
+						NOR = {
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						portrait_byzantine_clothing_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }							
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							highest_held_title_tier = tier_kingdom
+							NOR = {
+								AND = {
+								has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							portrait_byzantine_clothing_spouse_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }								
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	byzantine_imperial = {
+		dna_modifiers = {
+
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = byzantine_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_eyeshadow
+				template = byzantine_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_lipcolor
+				template = byzantine_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = byzantine_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						highest_held_title_tier = tier_empire
+						NOR = {
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						portrait_byzantine_clothing_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }							
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							highest_held_title_tier = tier_empire
+							NOR = {
+								AND = {
+								has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							portrait_byzantine_clothing_spouse_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }								
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+
+	byzantine_war = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = byzantine_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 101
+				portrait_wear_armor_trigger = yes
+				portrait_byzantine_clothing_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }					
+			}
+		}
+	}
+	
+	
+###India	
+	indian_low_nobles = {
+		dna_modifiers = {
+
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = indian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_eyeshadow
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_lipcolor
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						highest_held_title_tier = tier_county
+						NOR = {
+							# has_dynasty = no
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						portrait_indian_clothing_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }							
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							highest_held_title_tier = tier_county
+							NOR = {
+								# has_dynasty = no
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							portrait_indian_clothing_spouse_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }								
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	indian_high_nobles = {
+		dna_modifiers = {
+
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = indian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_eyeshadow
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_lipcolor
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier > tier_county
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+						portrait_indian_clothing_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }							
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier > tier_county
+								AND = {
+								has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							portrait_indian_clothing_spouse_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }								
+						}
+					}
+				}				
+
+			}
+		}
+	}
+	
+	
+	
+###Abbassid	
+	
+	dde_abbasid_commoners = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 40
+				highest_held_title_tier < tier_county
+				NOR = {
+					AND = {
+						exists = primary_spouse
+						primary_spouse = {
+							highest_held_title_tier > tier_county
+						}
+					}
+					has_government = republic_government
+					AND = { is_ruler = yes has_government = theocracy_government }
+				}
+				portrait_dde_abbasid_clothing_trigger = yes
+				EPE_culture_era_early_medieval_trigger = yes	
+				portrait_dde_abbasid_flavor_dlc_trigger = yes	
+				NOT = { has_game_rule = never_epe_makeup }					
+			}
+		}
+	}
+
+	dde_abbasid_mayors = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				highest_held_title_tier < tier_county
+				has_government = republic_government
+				portrait_dde_abbasid_clothing_trigger = yes
+				EPE_culture_era_early_medieval_trigger = yes	
+				portrait_dde_abbasid_flavor_dlc_trigger = yes	
+				NOT = { has_game_rule = never_epe_makeup }					
+			}
+		}
+	}
+
+
+	dde_abbasid_low_nobles = {
+		dna_modifiers = {
+
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_lipcolor
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						highest_held_title_tier = tier_county
+						NOR = {
+							# has_dynasty = no
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						portrait_dde_abbasid_clothing_trigger = yes
+				EPE_culture_era_early_medieval_trigger = yes	
+				portrait_dde_abbasid_flavor_dlc_trigger = yes	
+				NOT = { has_game_rule = never_epe_makeup }					
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							highest_held_title_tier = tier_county
+							NOR = {
+								# has_dynasty = no
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							portrait_dde_abbasid_clothing_spouse_trigger = yes
+				EPE_culture_era_early_medieval_trigger = yes	
+				portrait_dde_abbasid_flavor_dlc_trigger = yes				
+				NOT = { has_game_rule = never_epe_makeup }					
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	dde_abbasid_high_nobles = {
+		dna_modifiers = {
+
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_eyeshadow
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_lipcolor
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier > tier_county
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+						portrait_dde_abbasid_clothing_trigger = yes
+				EPE_culture_era_early_medieval_trigger = yes	
+				portrait_dde_abbasid_flavor_dlc_trigger = yes	
+				NOT = { has_game_rule = never_epe_makeup }					
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier > tier_county
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							portrait_dde_abbasid_clothing_spouse_trigger = yes
+				EPE_culture_era_early_medieval_trigger = yes		
+				portrait_dde_abbasid_flavor_dlc_trigger = yes	
+				NOT = { has_game_rule = never_epe_makeup }					
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	dde_abbasid_war = {
+		dna_modifiers = {
+
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 102 # slightly stronger than mena war
+				portrait_wear_armor_trigger = yes
+				portrait_dde_abbasid_clothing_trigger = yes
+				EPE_culture_era_early_medieval_trigger = yes	
+				portrait_dde_abbasid_flavor_dlc_trigger = yes	
+				NOT = { has_game_rule = never_epe_makeup }					
+			}
+		}
+	}	
+	
+	
+	
+	
+## DDE ABBASID ##
+	early_middle_ages_sunni_caliph = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_eyeshadow
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_lipcolor
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+	
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				OR = {
+					AND = {
+						OR = {
+							has_title = title:d_sunni
+						}
+						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+				EPE_culture_era_early_medieval_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }					
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							OR = {
+							has_title = title:d_sunni
+							}
+				EPE_culture_era_early_medieval_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }					
+						}
+					}
+				}
+
+			}
+		}
+	}
+	
+	
+	high_middle_ages_sunni_caliph = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_eyeshadow
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_lipcolor
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################		
+	
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				OR = {
+					AND = {
+						OR = {
+							has_title = title:d_sunni
+						}
+						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+				EPE_culture_era_high_medieval_trigger = yes		
+				NOT = { has_game_rule = never_epe_makeup }					
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							OR = {
+							has_title = title:d_sunni
+							}
+				EPE_culture_era_high_medieval_trigger = yes		
+				NOT = { has_game_rule = never_epe_makeup }					
+						}
+					}
+				}
+
+			}
+		}
+	}	
+
+	
+	
+## MENA ##
+
+	mena_commoners = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 40
+				highest_held_title_tier < tier_county
+				NOR = {
+					AND = {
+						exists = primary_spouse
+						primary_spouse = {
+							highest_held_title_tier > tier_county
+						}
+					}
+					has_government = republic_government
+					AND = { is_ruler = yes has_government = theocracy_government }
+				}
+				OR = {
+					portrait_mena_clothing_trigger = yes
+								AND = {
+				    portrait_iberia_muslim_clothing_trigger = yes	
+						portrait_iberia_muslim_trigger = yes				
+								}					
+								AND = {
+					portrait_dde_abbasid_clothing_trigger = yes	
+                NOT = { portrait_dde_abbasid_flavor_dlc_trigger = yes } 					
+								}					
+				}
+				NOT = { has_game_rule = never_epe_makeup }					
+			}
+		}
+	}
+
+	mena_mayors = {
+		dna_modifiers = {
+
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				highest_held_title_tier < tier_county
+				has_government = republic_government
+				OR = {
+					portrait_mena_clothing_trigger = yes
+								AND = {
+				    portrait_iberia_muslim_clothing_trigger = yes	
+						portrait_iberia_muslim_trigger = yes				
+								}					
+								AND = {
+					portrait_dde_abbasid_clothing_trigger = yes	
+                NOT = { portrait_dde_abbasid_flavor_dlc_trigger = yes } 					
+								}					
+				}
+				NOT = { has_game_rule = never_epe_makeup }					
+			}
+		}
+	}
+
+	mena_low_nobles = {
+		dna_modifiers = {
+
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_lipcolor
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						highest_held_title_tier = tier_county
+						NOR = {
+							# has_dynasty = no
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+				OR = {
+					portrait_mena_clothing_trigger = yes
+								AND = {
+				    portrait_iberia_muslim_clothing_trigger = yes	
+						portrait_iberia_muslim_trigger = yes				
+								}					
+								AND = {
+					portrait_dde_abbasid_clothing_trigger = yes	
+                NOT = { portrait_dde_abbasid_flavor_dlc_trigger = yes } 					
+								}					
+				}
+				NOT = { has_game_rule = never_epe_makeup }					
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							highest_held_title_tier = tier_county
+							NOR = {
+								# has_dynasty = no
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+				OR = {
+					portrait_mena_clothing_spouse_trigger = yes	
+								AND = {
+					portrait_iberia_muslim_clothing_spouse_trigger = yes	
+						portrait_iberia_muslim_trigger = yes						
+								}						
+								AND = {
+					portrait_dde_abbasid_clothing_spouse_trigger = yes	
+                NOT = { portrait_dde_abbasid_flavor_dlc_trigger = yes } 					
+								}					
+				}
+				NOT = { has_game_rule = never_epe_makeup }					
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	mena_high_nobles = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_eyeshadow
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_lipcolor
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier > tier_county
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+				OR = {
+					portrait_mena_clothing_trigger = yes
+								AND = {
+				    portrait_iberia_muslim_clothing_trigger = yes	
+						portrait_iberia_muslim_trigger = yes				
+								}						
+								AND = {
+					portrait_dde_abbasid_clothing_trigger = yes	
+                NOT = { portrait_dde_abbasid_flavor_dlc_trigger = yes } 					
+								}					
+				}
+				NOT = { has_game_rule = never_epe_makeup }					
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier > tier_county
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+				OR = {
+					portrait_mena_clothing_spouse_trigger = yes
+								AND = {
+					portrait_iberia_muslim_clothing_spouse_trigger = yes	
+						portrait_iberia_muslim_trigger = yes						
+								}						
+								AND = {
+					portrait_dde_abbasid_clothing_spouse_trigger = yes	
+                NOT = { portrait_dde_abbasid_flavor_dlc_trigger = yes } 					
+								}					
+				}
+				NOT = { has_game_rule = never_epe_makeup }					
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	mena_war = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 101
+				portrait_wear_armor_trigger = yes
+				OR = {
+					portrait_mena_clothing_trigger = yes
+								AND = {
+				    portrait_iberia_muslim_clothing_trigger = yes	
+						portrait_iberia_muslim_trigger = yes				
+								}					
+								AND = {
+					portrait_dde_abbasid_clothing_trigger = yes	
+                NOT = { portrait_dde_abbasid_flavor_dlc_trigger = yes } 					
+								}					
+				}
+				NOT = { has_game_rule = never_epe_makeup }					
+			}
+		}
+	}	
+	
+	
+	mena_stealth = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 110
+				has_character_flag = use_stealth_clothes
+				OR = {
+					portrait_mena_clothing_trigger = yes
+					portrait_indian_clothing_trigger = yes
+					portrait_steppe_clothing_trigger = yes
+					portrait_african_clothing_trigger = yes
+				    portrait_south_indian_clothing_trigger = yes	
+				    #portrait_ghaznavid_clothing_trigger = yes	
+				    portrait_seljuk_clothing_trigger = yes	
+				    portrait_dde_abbasid_clothing_trigger = yes		
+				    portrait_east_african_clothing_trigger = yes	
+				    portrait_early_eastern_iranian_trigger = yes	
+				    portrait_cuman_clothing_trigger = yes	
+				    portrait_uyghur_clothing_trigger = yes	
+				    portrait_iberia_muslim_clothing_trigger = yes	
+			        portrait_Khazar_clothing_trigger = yes	
+			        portrait_kirghiz_clothing_trigger = yes	
+				    portrait_burmese_clothing_trigger = yes						
+				}
+				NOT = { has_game_rule = never_epe_makeup }					
+			}
+		}
+	}	
+	
+	
+## FP1 NORSE ##
+
+	fp1_norse_commoners = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 41 # Slightly higher
+				highest_held_title_tier < tier_county
+				NOR = {
+					AND = {
+						exists = primary_spouse
+						primary_spouse = {
+							highest_held_title_tier > tier_county
+						}
+					}
+					has_government = republic_government
+					AND = { is_ruler = yes has_government = theocracy_government }
+				}
+						OR = {
+					portrait_fp1_norse_clothing_trigger = yes					
+					portrait_northern_clothing_trigger = yes				
+						}
+				NOT = { has_game_rule = never_epe_makeup }							
+			}
+		}
+	}
+
+	fp1_norse_low_nobles = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 51 # Slightly higher
+				OR = {
+					AND = {
+						highest_held_title_tier = tier_county
+						NOR = {
+							# has_dynasty = no
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						OR = {
+					portrait_fp1_norse_clothing_trigger = yes					
+					portrait_northern_clothing_trigger = yes				
+						}
+				NOT = { has_game_rule = never_epe_makeup }							
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							highest_held_title_tier = tier_county
+							NOR = {
+								# has_dynasty = no
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+						OR = {
+							portrait_fp1_norse_clothing_spouse_trigger = yes						
+							portrait_northern_clothing_spouse_trigger = yes
+						}
+				NOT = { has_game_rule = never_epe_makeup }							
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	fp1_norse_high_nobles = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 51 # Slightly higher
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier > tier_county
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+						OR = {
+					portrait_fp1_norse_clothing_trigger = yes					
+					portrait_northern_clothing_trigger = yes				
+						}
+				NOT = { has_game_rule = never_epe_makeup }							
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier > tier_county
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+						OR = {
+							portrait_fp1_norse_clothing_spouse_trigger = yes						
+							portrait_northern_clothing_spouse_trigger = yes
+						}
+				NOT = { has_game_rule = never_epe_makeup }							
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	fp1_norse_war = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 101 # slightly stronger than northern war
+				portrait_wear_armor_trigger = yes
+						OR = {
+					portrait_fp1_norse_clothing_trigger = yes					
+					portrait_northern_clothing_trigger = yes				
+						}
+				NOT = { has_game_rule = never_epe_makeup }							
+			}
+		}
+	}
+
+	
+	
+	
+## Han chinese ##
+
+
+	han_low_nobles = {
+		dna_modifiers = {
+
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = byzantine_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_eyeshadow
+				template = byzantine_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_lipcolor
+				template = byzantine_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = byzantine_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						highest_held_title_tier = tier_county
+						NOR = {
+							# has_dynasty = no
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							has_government = theocracy_government
+						}
+						portrait_han_clothing_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }							
+					}
+					AND = {
+						exists = primary_spouse
+						is_ruler = no
+						primary_spouse = {
+							highest_held_title_tier = tier_county
+							NOR = {
+								# has_dynasty = no
+								AND = {
+								has_government = republic_government
+									primary_title.tier > 1
+								}
+								has_government = theocracy_government
+							}
+							portrait_han_clothing_spouse_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }								
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	han_high_nobles = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = byzantine_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_eyeshadow
+				template = byzantine_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_lipcolor
+				template = byzantine_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = byzantine_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_foundation
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier > tier_county
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							has_government = theocracy_government
+						}
+						NOT = { has_government = mercenary_government } # Blocked for mercenaries
+						portrait_han_clothing_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }							
+					}
+					AND = {
+						exists = primary_spouse
+						is_ruler = no
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier > tier_county
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								has_government = theocracy_government
+							}
+							portrait_han_clothing_spouse_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }								
+						}
+					}
+				}
+
+			}
+		}
+	}	
+	
+	
+	
+## Iranian High Medieval####	
+	
+	
+	iranian_low_nobles = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_eyeshadow
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_lipcolor
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################						
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						highest_held_title_tier = tier_county
+						NOR = {
+							# has_dynasty = no
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						portrait_iranian_clothing_trigger = yes
+						portrait_islamic_iranian_trigger = yes						
+				EPE_culture_era_high_medieval_trigger = yes	
+				NOT = { has_game_rule = never_epe_makeup }					
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							highest_held_title_tier = tier_county
+							NOR = {
+								# has_dynasty = no
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+						portrait_iranian_clothing_spouse_trigger = yes
+						portrait_islamic_iranian_trigger = yes						
+				EPE_culture_era_high_medieval_trigger = yes	
+				NOT = { has_game_rule = never_epe_makeup }					
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	iranian_high_nobles = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_eyeshadow
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_lipcolor
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################				
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier > tier_county
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+				    portrait_iranian_clothing_trigger = yes	
+						portrait_islamic_iranian_trigger = yes	
+				EPE_culture_era_high_medieval_trigger = yes	
+				NOT = { has_game_rule = never_epe_makeup }					
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier > tier_county
+								AND = {
+								has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+				    portrait_iranian_clothing_spouse_trigger = yes	
+						portrait_islamic_iranian_trigger = yes		
+				EPE_culture_era_high_medieval_trigger = yes	
+				NOT = { has_game_rule = never_epe_makeup }					
+						}
+					}
+				}				
+
+			}
+		}
+	}	
+	
+	
+## french ##	
+	
+	
+	french_low_nobles = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						highest_held_title_tier = tier_county
+						NOR = {
+							# has_dynasty = no
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+				portrait_french_clothing_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }					
+					
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							highest_held_title_tier = tier_county
+							NOR = {
+								# has_dynasty = no
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							portrait_french_clothing_spouse_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }						
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	french_high_nobles = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_lipcolor
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier = tier_duchy
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+				portrait_french_clothing_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }					
+					
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier = tier_duchy
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							portrait_french_clothing_spouse_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }								
+					
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	french_royalty = {
+		dna_modifiers = {
+
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_lipcolor
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################		
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						highest_held_title_tier = tier_kingdom
+						NOR = {
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+				portrait_french_clothing_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }					
+					
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							highest_held_title_tier = tier_kingdom
+							NOR = {
+								AND = {
+								has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							portrait_french_clothing_spouse_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }								
+					
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	french_imperial = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_lipcolor
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						highest_held_title_tier = tier_empire
+						NOR = {
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+				portrait_french_clothing_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }					
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							highest_held_title_tier = tier_empire
+							NOR = {
+								AND = {
+								has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							portrait_french_clothing_spouse_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }								
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+
+
+	french_princes_noble = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+			    OR = {
+				any_parent = { highest_held_title_tier = tier_county }
+				any_parent = { highest_held_title_tier = tier_duchy }				
+						}				
+				portrait_french_clothing_trigger = yes
+				is_ruler = no					
+				is_landed = no	
+				is_married = no	
+				NOT = { has_game_rule = never_epe_makeup }					
+			}
+		}
+	}	
+	
+	french_princes_royalty = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_lipcolor
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+			    OR = {
+				any_parent = { highest_held_title_tier = tier_kingdom }
+				any_parent = { highest_held_title_tier = tier_empire }				
+						}				
+				portrait_french_clothing_trigger = yes
+				is_ruler = no					
+				is_landed = no	
+				is_married = no		
+				NOT = { has_game_rule = never_epe_makeup }					
+			}
+		}
+	}	
+	
+	
+#########################################################################	
+## italian ##
+######################################################	
+	
+	italian_low_nobles = {
+		dna_modifiers = {
+
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						highest_held_title_tier = tier_county
+						NOR = {
+							# has_dynasty = no
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						portrait_italian_clothing_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }							
+							
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							highest_held_title_tier = tier_county
+							NOR = {
+								# has_dynasty = no
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							portrait_italian_clothing_spouse_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }								
+								
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	italian_high_nobles = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_lipcolor
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier = tier_duchy
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+				portrait_italian_clothing_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }					
+					
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier = tier_duchy
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							portrait_italian_clothing_spouse_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }								
+					
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	italian_royalty = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_lipcolor
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						highest_held_title_tier = tier_kingdom
+						NOR = {
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+				portrait_italian_clothing_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }					
+					
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							highest_held_title_tier = tier_kingdom
+							NOR = {
+								AND = {
+								has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							portrait_italian_clothing_spouse_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }								
+					
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	italian_imperial = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_lipcolor
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						highest_held_title_tier = tier_empire
+						NOR = {
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+				portrait_italian_clothing_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }					
+					
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							highest_held_title_tier = tier_empire
+							NOR = {
+								AND = {
+								has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							portrait_italian_clothing_spouse_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }								
+					
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+
+	italian_war = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_lipcolor
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 102
+				portrait_wear_armor_trigger = yes
+				portrait_italian_clothing_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }						
+			 OR = {
+				EPE_armor_era_late_medieval_trigger = yes	
+				EPE_armor_era_high_medieval_trigger = yes						
+				}				
+			}
+		}
+	}
+	
+	italian_princes_noble = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+			    OR = {
+				any_parent = { highest_held_title_tier = tier_county }
+				any_parent = { highest_held_title_tier = tier_duchy }				
+						}				
+				portrait_italian_clothing_trigger = yes
+				is_ruler = no					
+				is_landed = no	
+				is_married = no	
+				NOT = { has_game_rule = never_epe_makeup }					
+			}
+		}
+	}	
+	
+	italian_princes_royalty = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_lipcolor
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+			    OR = {
+				any_parent = { highest_held_title_tier = tier_kingdom }
+				any_parent = { highest_held_title_tier = tier_empire }				
+						}				
+				portrait_italian_clothing_trigger = yes
+				is_ruler = no					
+				is_landed = no	
+				is_married = no	
+				NOT = { has_game_rule = never_epe_makeup }					
+			}
+		}
+	}		
+	
+	
+	
+	
+## DDE ABBASID High##
+
+	dde_high_abbasid_commoners = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 40
+				highest_held_title_tier < tier_county
+				NOR = {
+					AND = {
+						exists = primary_spouse
+						primary_spouse = {
+							highest_held_title_tier > tier_county
+						}
+					}
+					has_government = republic_government
+					AND = { is_ruler = yes has_government = theocracy_government }
+				}
+				portrait_dde_abbasid_clothing_trigger = yes
+				EPE_culture_era_high_medieval_trigger = yes	
+				portrait_dde_abbasid_flavor_dlc_trigger = yes		
+				NOT = { has_game_rule = never_epe_makeup }					
+			}
+		}
+	}
+
+	dde_high_abbasid_mayors = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################			
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				highest_held_title_tier < tier_county
+				has_government = republic_government
+				portrait_dde_abbasid_clothing_trigger = yes
+				EPE_culture_era_high_medieval_trigger = yes
+				portrait_dde_abbasid_flavor_dlc_trigger = yes	
+				NOT = { has_game_rule = never_epe_makeup }					
+			}
+		}
+	}
+
+	dde_high_abbasid_low_nobles = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_eyeshadow
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_lipcolor
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						highest_held_title_tier = tier_county
+						NOR = {
+							# has_dynasty = no
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						portrait_dde_abbasid_clothing_trigger = yes
+				EPE_culture_era_high_medieval_trigger = yes	
+				portrait_dde_abbasid_flavor_dlc_trigger = yes	
+				NOT = { has_game_rule = never_epe_makeup }					
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							highest_held_title_tier = tier_county
+							NOR = {
+								# has_dynasty = no
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							portrait_dde_abbasid_clothing_spouse_trigger = yes
+				EPE_culture_era_high_medieval_trigger = yes
+				portrait_dde_abbasid_flavor_dlc_trigger = yes	
+				NOT = { has_game_rule = never_epe_makeup }					
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	dde_high_abbasid_high_nobles = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_eyeshadow
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_lipcolor
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier > tier_county
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+						portrait_dde_abbasid_clothing_trigger = yes
+				EPE_culture_era_high_medieval_trigger = yes
+				portrait_dde_abbasid_flavor_dlc_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }					
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier > tier_county
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							portrait_dde_abbasid_clothing_spouse_trigger = yes
+				EPE_culture_era_high_medieval_trigger = yes	
+				portrait_dde_abbasid_flavor_dlc_trigger = yes	
+				NOT = { has_game_rule = never_epe_makeup }					
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	dde_high_abbasid_war = {
+		dna_modifiers = {
+
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				portrait_wear_armor_trigger = yes
+				portrait_dde_abbasid_clothing_trigger = yes
+				EPE_culture_era_high_medieval_trigger = yes	
+				portrait_dde_abbasid_flavor_dlc_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }					
+			}
+		}
+	}	
+	
+	
+	
+##########Tahirid dynasty
+	tahirid_dynasty_commoners = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				highest_held_title_tier < tier_county
+				NOR = {
+					AND = {
+						exists = primary_spouse
+						primary_spouse = {
+							highest_held_title_tier > tier_county
+						}
+					}
+					has_government = republic_government
+					AND = { is_ruler = yes has_government = theocracy_government }
+				}
+				portrait_tahirid_trigger = yes
+				EPE_culture_era_early_medieval_trigger = yes	
+				NOT = { has_game_rule = never_epe_makeup }					
+			}
+		}
+	}
+
+	tahirid_dynasty_mayors = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				highest_held_title_tier < tier_county
+				has_government = republic_government
+				portrait_tahirid_trigger = yes
+				EPE_culture_era_early_medieval_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }					
+			}
+		}
+	}
+
+	tahirid_dynasty_low_nobles = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_eyeshadow
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_lipcolor
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				OR = {
+					AND = {
+						highest_held_title_tier = tier_county
+						NOR = {
+							# has_dynasty = no
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						portrait_tahirid_trigger = yes
+				EPE_culture_era_early_medieval_trigger = yes	
+				NOT = { has_game_rule = never_epe_makeup }					
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							highest_held_title_tier = tier_county
+							NOR = {
+								# has_dynasty = no
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							portrait_tahirid_trigger = yes
+				EPE_culture_era_early_medieval_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }					
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	tahirid_dynasty_high_nobles = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_eyeshadow
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_lipcolor
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier > tier_county
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+						portrait_tahirid_trigger = yes
+				EPE_culture_era_early_medieval_trigger = yes	
+				NOT = { has_game_rule = never_epe_makeup }					
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier > tier_county
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							portrait_tahirid_trigger = yes
+				EPE_culture_era_early_medieval_trigger = yes	
+				NOT = { has_game_rule = never_epe_makeup }					
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	tahirid_dynasty_war = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				portrait_wear_armor_trigger = yes
+				portrait_tahirid_trigger = yes
+				EPE_culture_era_early_medieval_trigger = yes	
+				NOT = { has_game_rule = never_epe_makeup }					
+			}
+		}
+	}
+	
+	
+	
+## Early Eastern Iranian/Non Islamic iranian ##
+	
+	early_eastern_iranian_low_nobles = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_eyeshadow
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_lipcolor
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################						
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						highest_held_title_tier = tier_county
+						NOR = {
+							# has_dynasty = no
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+				        portrait_early_eastern_iranian_trigger = yes
+						portrait_non_iranian_trigger = yes	
+				NOT = { has_game_rule = never_epe_makeup }							
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							highest_held_title_tier = tier_county
+							NOR = {
+								# has_dynasty = no
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+					    portrait_early_eastern_iranian_spouse_trigger = yes	
+						portrait_non_iranian_trigger = yes		
+				NOT = { has_game_rule = never_epe_makeup }							
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	early_eastern_iranian_high_nobles = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_eyeshadow
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_lipcolor
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################				
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier > tier_county
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+				        portrait_early_eastern_iranian_trigger = yes	
+						portrait_non_iranian_trigger = yes	
+				NOT = { has_game_rule = never_epe_makeup }							
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier > tier_county
+								AND = {
+								has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+					    portrait_early_eastern_iranian_spouse_trigger = yes	
+						portrait_non_iranian_trigger = yes	
+				NOT = { has_game_rule = never_epe_makeup }							
+						}
+					}
+				}				
+
+			}
+		}
+	}
+
+	early_eastern_iranian_war = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################			
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				portrait_wear_armor_trigger = yes
+				portrait_early_eastern_iranian_trigger = yes	
+			    portrait_non_iranian_trigger = yes	
+				NOT = { has_game_rule = never_epe_makeup }					
+			}
+		}
+	}
+	
+	
+## Early Islamic Iranian ##	
+	
+	early_islamic_iranian_low_nobles = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_lipcolor
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################							
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						highest_held_title_tier = tier_county
+						NOR = {
+							# has_dynasty = no
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+				        portrait_iranian_clothing_trigger = yes	
+						portrait_islamic_iranian_trigger = yes	
+						EPE_culture_era_early_medieval_trigger = yes	
+				NOT = { has_game_rule = never_epe_makeup }							
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							highest_held_title_tier = tier_county
+							NOR = {
+								# has_dynasty = no
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+					  		}
+				            portrait_iranian_clothing_spouse_trigger = yes	
+						    portrait_islamic_iranian_trigger = yes	
+							EPE_culture_era_early_medieval_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }								
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	early_islamic_iranian_high_nobles = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_eyeshadow
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_lipcolor
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################					
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier > tier_county
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+				        portrait_iranian_clothing_trigger = yes	
+						portrait_islamic_iranian_trigger = yes	
+						EPE_culture_era_early_medieval_trigger = yes	
+				NOT = { has_game_rule = never_epe_makeup }							
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier > tier_county
+								AND = {
+								has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+				        portrait_iranian_clothing_spouse_trigger = yes	
+						portrait_islamic_iranian_trigger = yes	
+						EPE_culture_era_early_medieval_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }							
+						}
+					}
+				}				
+
+			}
+		}
+	}
+
+	early_islamic_iranian_war = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}			
+#############################################			
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				portrait_wear_armor_trigger = yes
+				EPE_culture_era_early_medieval_trigger = yes				
+				portrait_iranian_clothing_trigger = yes	
+			    portrait_islamic_iranian_trigger = yes	
+				NOT = { has_game_rule = never_epe_makeup }					
+			}
+		}
+	}	
+	
+	
+##########Shahi dynasty
+	shahi_dynasty_commoners = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				highest_held_title_tier < tier_county
+				NOR = {
+					AND = {
+						exists = primary_spouse
+						primary_spouse = {
+							highest_held_title_tier > tier_county
+						}
+					}
+					has_government = republic_government
+					AND = { is_ruler = yes has_government = theocracy_government }
+				}
+				portrait_shahi_trigger = yes	
+				NOT = { has_game_rule = never_epe_makeup }					
+			}
+		}
+	}
+
+	shahi_dynasty_mayors = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				highest_held_title_tier < tier_county
+				has_government = republic_government
+				portrait_shahi_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }					
+			}
+		}
+	}
+
+	shahi_dynasty_low_nobles = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_eyeshadow
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_lipcolor
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				OR = {
+					AND = {
+						highest_held_title_tier = tier_county
+						NOR = {
+							# has_dynasty = no
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						portrait_shahi_trigger = yes
+				EPE_culture_era_early_medieval_trigger = yes	
+				NOT = { has_game_rule = never_epe_makeup }					
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							highest_held_title_tier = tier_county
+							NOR = {
+								# has_dynasty = no
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							portrait_shahi_trigger = yes	
+				NOT = { has_game_rule = never_epe_makeup }								
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	shahi_dynasty_high_nobles = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_eyeshadow
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_lipcolor
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################		
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier > tier_county
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+						portrait_shahi_trigger = yes	
+				NOT = { has_game_rule = never_epe_makeup }							
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier > tier_county
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							portrait_shahi_trigger = yes	
+				NOT = { has_game_rule = never_epe_makeup }								
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	shahi_dynasty_war = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				portrait_wear_armor_trigger = yes
+				portrait_shahi_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }					
+			}
+		}
+	}	
+	
+##########################################################################
+####Gaelic / Irish
+##########################################################################
+	
+	gaelic_high_nobles = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier > tier_county
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+						OR = {				
+							portrait_gaelic_clothing_trigger = yes							
+						}
+				NOT = { has_game_rule = never_epe_makeup }							
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier > tier_county
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+						OR = {							
+							portrait_gaelic_clothing_spouse_trigger = yes							
+						}
+				NOT = { has_game_rule = never_epe_makeup }							
+						}
+					}
+				}
+
+			}
+		}
+	}	
+	
+##########################################################################
+####Iberian
+##########################################################################
+	
+	iberian_low_nobles = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						highest_held_title_tier = tier_county
+						NOR = {
+							# has_dynasty = no
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						portrait_iberia_clothing_trigger = yes
+						portrait_iberia_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }							
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							highest_held_title_tier = tier_county
+							NOR = {
+								# has_dynasty = no
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							portrait_iberia_clothing_spouse_trigger = yes
+							portrait_iberia_trigger = yes	
+				NOT = { has_game_rule = never_epe_makeup }								
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	iberian_high_nobles = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_lipcolor
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier > tier_county
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+						portrait_iberia_clothing_trigger = yes
+						portrait_iberia_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }							
+						
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier > tier_county
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							portrait_iberia_clothing_spouse_trigger = yes
+							portrait_iberia_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }								
+						}
+					}
+				}
+
+			}
+		}
+	}
+	
+
+	
+##########################################################################
+####Hungarian
+##########################################################################
+	
+	hungarian_low_nobles = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						highest_held_title_tier = tier_county
+						NOR = {
+							# has_dynasty = no
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						portrait_hungarian_clothing_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }							
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							highest_held_title_tier = tier_county
+							NOR = {
+								# has_dynasty = no
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							portrait_hungarian_clothing_spouse_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }								
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	hungarian_high_nobles = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_lipcolor
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier > tier_county
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+						portrait_hungarian_clothing_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }							
+						
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier > tier_county
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							portrait_hungarian_clothing_spouse_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }								
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+##########################################################################
+####Anglo-saxon
+##########################################################################
+
+	anglo_saxon_low_nobles = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						highest_held_title_tier = tier_county
+						NOR = {
+							# has_dynasty = no
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						portrait_anglo_saxon_clothing_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }							
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							highest_held_title_tier = tier_county
+							NOR = {
+								# has_dynasty = no
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							portrait_anglo_saxon_clothing_spouse_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }								
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	anglo_saxon_high_nobles = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_lipcolor
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier > tier_county
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+						portrait_anglo_saxon_clothing_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }							
+						
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier > tier_county
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							portrait_anglo_saxon_clothing_spouse_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }								
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+
+##########################################################################
+####Polish
+##########################################################################
+
+
+	polish_low_nobles = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						highest_held_title_tier = tier_county
+						NOR = {
+							# has_dynasty = no
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						portrait_polish_clothing_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }							
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							highest_held_title_tier = tier_county
+							NOR = {
+								# has_dynasty = no
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							portrait_polish_clothing_spouse_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }								
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	polish_high_nobles = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_lipcolor
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier > tier_county
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+						portrait_polish_clothing_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }							
+						
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier > tier_county
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							portrait_polish_clothing_spouse_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }								
+						}
+					}
+				}
+
+			}
+		}
+	}
+	
+
+##########################################################################
+####West Slav
+##########################################################################
+
+
+	west_slav_low_nobles = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						highest_held_title_tier = tier_county
+						NOR = {
+							# has_dynasty = no
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						portrait_west_slav_clothing_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }							
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							highest_held_title_tier = tier_county
+							NOR = {
+								# has_dynasty = no
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							portrait_west_slav_clothing_spouse_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }								
+							
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	west_slav_high_nobles = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_lipcolor
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier > tier_county
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+						portrait_west_slav_clothing_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }							
+						
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier > tier_county
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							portrait_west_slav_clothing_spouse_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }								
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+
+##########################################################################
+####Italian Merchant republics
+##########################################################################
+
+
+	italian_republic_low_nobles = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_lipcolor
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 101
+				OR = {
+					AND = {
+				highest_held_title_tier = tier_county
+				has_government = republic_government
+				portrait_italian_clothing_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }					
+						
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+				highest_held_title_tier = tier_county
+				has_government = republic_government
+							portrait_italian_clothing_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }								
+						}
+					}
+				}
+
+			}
+		}
+	}	
+	
+	italian_republic_high_nobles = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_lipcolor
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 101
+				OR = {
+					AND = {
+				highest_held_title_tier > tier_county
+				has_government = republic_government
+				portrait_italian_clothing_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }					
+						
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+				highest_held_title_tier > tier_county
+				has_government = republic_government
+							portrait_italian_clothing_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }								
+						}
+					}
+				}
+
+			}
+		}
+	}				
+	
+
+##########################################################################
+####German
+##########################################################################
+
+
+
+	german_low_nobles = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						highest_held_title_tier = tier_county
+						NOR = {
+							# has_dynasty = no
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						portrait_german_clothing_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }													
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							highest_held_title_tier = tier_county
+							NOR = {
+								# has_dynasty = no
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							portrait_german_clothing_spouse_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }								
+													
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	german_high_nobles = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_lipcolor
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier > tier_county
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+						portrait_german_clothing_trigger = yes	
+				NOT = { has_game_rule = never_epe_makeup }							
+						
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier > tier_county
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							portrait_german_clothing_spouse_trigger = yes	
+				NOT = { has_game_rule = never_epe_makeup }								
+						}
+					}
+				}
+
+			}
+		}
+	}
+	
+	
+	german_princes_noble = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+			    OR = {
+				any_parent = { highest_held_title_tier = tier_county }
+				any_parent = { highest_held_title_tier = tier_duchy }				
+						}				
+				portrait_german_clothing_trigger = yes
+				is_ruler = no					
+				is_landed = no	
+				is_married = no	
+				NOT = { has_game_rule = never_epe_makeup }					
+			}
+		}
+	}	
+	
+	german_princes_royalty = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_lipcolor
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+			    OR = {
+				any_parent = { highest_held_title_tier = tier_kingdom }
+				any_parent = { highest_held_title_tier = tier_empire }				
+						}				
+				portrait_german_clothing_trigger = yes
+				is_ruler = no					
+				is_landed = no	
+				is_married = no	
+				NOT = { has_game_rule = never_epe_makeup }					
+			}
+		}
+	}		
+	
+
+## georgian ##
+
+
+	georgian_low_nobles = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = byzantine_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_lipcolor
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################				
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						highest_held_title_tier = tier_county
+						NOR = {
+							# has_dynasty = no
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						portrait_georgian_clothing_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }							
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							highest_held_title_tier = tier_county
+							NOR = {
+								# has_dynasty = no
+								AND = {
+								has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							portrait_georgian_clothing_spouse_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }								
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	georgian_high_nobles = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = byzantine_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_eyeshadow
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_lipcolor
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = byzantine_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################				
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier > tier_county
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+						portrait_georgian_clothing_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }							
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier > tier_county
+								AND = {
+								has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							portrait_georgian_clothing_spouse_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }								
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	georgian_war = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = byzantine_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 101
+				portrait_wear_armor_trigger = yes
+				portrait_georgian_clothing_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }					
+			}
+		}
+	}	
+
+
+## bulgarian ##
+
+	bulgarian_low_nobles = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = byzantine_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_lipcolor
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################				
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						highest_held_title_tier = tier_county
+						NOR = {
+							# has_dynasty = no
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						portrait_bulgarian_clothing_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }							
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							highest_held_title_tier = tier_county
+							NOR = {
+								# has_dynasty = no
+								AND = {
+								has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							portrait_bulgarian_clothing_spouse_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }								
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	bulgarian_high_nobles = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = byzantine_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_eyeshadow
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_lipcolor
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = byzantine_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################				
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier > tier_county
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+						portrait_bulgarian_clothing_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }							
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier > tier_county
+								AND = {
+								has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							portrait_bulgarian_clothing_spouse_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }								
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	bulgarian_war = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = byzantine_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 101
+				portrait_wear_armor_trigger = yes
+				portrait_bulgarian_clothing_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }					
+			}
+		}
+	}	
+		
+	
+## armenian ##
+
+	armenian_low_nobles = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = byzantine_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_lipcolor
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################				
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						highest_held_title_tier = tier_county
+						NOR = {
+							# has_dynasty = no
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						portrait_armenian_clothing_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }							
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							highest_held_title_tier = tier_county
+							NOR = {
+								# has_dynasty = no
+								AND = {
+								has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							portrait_armenian_clothing_spouse_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }								
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	armenian_high_nobles = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = byzantine_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_eyeshadow
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_lipcolor
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = byzantine_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################				
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier > tier_county
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+						portrait_armenian_clothing_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }							
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier > tier_county
+								AND = {
+								has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							portrait_armenian_clothing_spouse_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }								
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	armenian_war = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = byzantine_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 101
+				portrait_wear_armor_trigger = yes
+				portrait_armenian_clothing_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }					
+			}
+		}
+	}	
+
+## south_slav ##
+
+	south_slav_low_nobles = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = byzantine_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_lipcolor
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################				
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						highest_held_title_tier = tier_county
+						NOR = {
+							# has_dynasty = no
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						portrait_south_slav_clothing_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }							
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							highest_held_title_tier = tier_county
+							NOR = {
+								# has_dynasty = no
+								AND = {
+								has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							portrait_south_slav_clothing_spouse_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }								
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	south_slav_high_nobles = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = byzantine_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_eyeshadow
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_lipcolor
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = byzantine_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################				
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier > tier_county
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							AND = { is_ruler = yes has_government = theocracy_government }
+						}
+						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+						portrait_south_slav_clothing_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }							
+					}
+					AND = {
+						exists = primary_spouse
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier > tier_county
+								AND = {
+								has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							portrait_south_slav_clothing_spouse_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }								
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	south_slav_war = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = byzantine_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = european_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 101
+				portrait_wear_armor_trigger = yes
+				portrait_south_slav_clothing_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }					
+			}
+		}
+	}	
+
+
+##########################################################################
+####Saka
+##########################################################################
+
+
+	saka_low_nobles = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = byzantine_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_eyeshadow
+				template = byzantine_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_lipcolor
+				template = byzantine_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = byzantine_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						highest_held_title_tier = tier_county
+						NOR = {
+							# has_dynasty = no
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							has_government = theocracy_government
+						}
+						portrait_saka_clothing_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }							
+					}
+					AND = {
+						exists = primary_spouse
+						is_ruler = no
+						primary_spouse = {
+							highest_held_title_tier = tier_county
+							NOR = {
+								# has_dynasty = no
+								AND = {
+								has_government = republic_government
+									primary_title.tier > 1
+								}
+								has_government = theocracy_government
+							}
+							portrait_saka_clothing_spouse_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }								
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	saka_high_nobles = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = byzantine_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_eyeshadow
+				template = byzantine_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_lipcolor
+				template = byzantine_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_blush
+				template = byzantine_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier > tier_county
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							has_government = theocracy_government
+						}
+						NOT = { has_government = mercenary_government } # Blocked for mercenaries
+						portrait_saka_clothing_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }							
+					}
+					AND = {
+						exists = primary_spouse
+						is_ruler = no
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier > tier_county
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								has_government = theocracy_government
+							}
+							portrait_saka_clothing_spouse_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }								
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+
+##########################################################################
+####Bedouin(arabs)
+##########################################################################
+
+
+	bedouin_commoners = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################			
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 20
+				highest_held_title_tier < tier_county
+				NOR = {
+					AND = {
+						exists = primary_spouse
+						primary_spouse = {
+							highest_held_title_tier > tier_county
+						}
+					}
+					AND = {
+						has_government = republic_government
+						primary_title.tier > 1
+					}
+					has_government = theocracy_government
+				}
+				portrait_bedouin_clothing_spouse_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }					
+			}
+		}
+	}
+
+	bedouin_low_nobles = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_eyeshadow
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_lipcolor
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################	
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						highest_held_title_tier = tier_county
+						NOR = {
+							# has_dynasty = no
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							has_government = theocracy_government
+						}
+						portrait_bedouin_clothing_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }							
+					}
+					AND = {
+						exists = primary_spouse
+						is_ruler = no
+						primary_spouse = {
+							highest_held_title_tier = tier_county
+							NOR = {
+								# has_dynasty = no
+								AND = {
+								has_government = republic_government
+									primary_title.tier > 1
+								}
+								has_government = theocracy_government
+							}
+							portrait_bedouin_clothing_spouse_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }								
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	bedouin_high_nobles = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_eyeshadow
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = add
+				gene = cosmetics_lipcolor
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					AND = {
+						OR = {
+							highest_held_title_tier > tier_county
+							AND = {
+								has_government = republic_government
+								primary_title.tier > 1
+							}
+							has_government = theocracy_government
+						}
+						NOT = { has_government = mercenary_government } # Blocked for mercenaries
+						portrait_bedouin_clothing_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }							
+					}
+					AND = {
+						exists = primary_spouse
+						is_ruler = no
+						primary_spouse = {
+							OR = {
+								highest_held_title_tier > tier_county
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								has_government = theocracy_government
+							}
+							portrait_bedouin_clothing_spouse_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }								
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	bedouin_war = {
+		dna_modifiers = {
+########Makeup placeholder test#############		
+			morph = {
+				mode = add
+				gene = cosmetics_eyeliner
+				template = iranian_1
+				range = { 0 1 } # For the randomness to work correctly
+			}
+#############################################				
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				portrait_wear_armor_trigger = yes
+				portrait_bedouin_clothing_trigger = yes
+				NOT = { has_game_rule = never_epe_makeup }					
+			}
+		}
+	}	
+	
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

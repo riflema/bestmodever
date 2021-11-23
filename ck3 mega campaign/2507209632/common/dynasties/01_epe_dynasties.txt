@@ -1,0 +1,21 @@
+﻿## These are really not in numeric order... sorry...
+1001_epe_westphalia = {
+	name = "dynn_Westphalia"
+	culture = "franconian"
+}
+
+1002_epe_bjornson = {
+	name = "dynn_Juul"
+	culture = "norse"
+}
+
+1003_epe_johnstone = {
+	name = "dynn_Johnstone"
+	culture = "scottish"
+}
+
+60606060 = {
+	name = "dynn_Gibb"
+	culture = "gaelic"
+	motto = "dynn_Gibb_motto"
+}

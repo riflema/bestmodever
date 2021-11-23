@@ -1,0 +1,978 @@
+###Cumans
+
+texticon = {
+	icon = epe_icon_cuman_bronze
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_cuman_bronze.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = epe_icon_cuman_silver
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_cuman_silver.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = epe_icon_cuman_gold
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_cuman_gold.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+##Uyghur
+
+texticon = {
+	icon = epe_icon_uyghur_bronze
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_uyghur_bronze.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = epe_icon_uyghur_silver
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_uyghur_silver.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = epe_icon_uyghur_gold
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_uyghur_gold.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+##Northern Slav 
+
+texticon = {
+	icon = epe_icon_northern_slav_bronze
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_northern_slav_bronze.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = epe_icon_northern_slav_silver
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_northern_slav_silver.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = epe_icon_northern_slav_gold
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_northern_slav_gold.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+
+##Early Islamic Iranians
+
+texticon = {
+	icon = epe_icon_early_islamic_iranian_bronze
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_early_islamic_iranian_bronze.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = epe_icon_early_islamic_iranian_silver
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_early_islamic_iranian_silver.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = epe_icon_early_islamic_iranian_gold
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_early_islamic_iranian_gold.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+
+
+
+##Early Non-Islamic Iranians
+
+texticon = {
+	icon = epe_icon_non_islamic_iranian_bronze
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_non_islamic_iranian_bronze.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = epe_icon_non_islamic_iranian_silver
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_non_islamic_iranian_silver.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = epe_icon_non_islamic_iranian_gold
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_non_islamic_iranian_gold.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+##East African
+
+texticon = {
+	icon = epe_icon_east_african_bronze
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_east_african_bronze.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = epe_icon_east_african_silver
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_east_african_silver.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = epe_icon_east_african_gold
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_east_african_gold.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+##Seljuk Turks
+
+texticon = {
+	icon = epe_icon_seljuk_bronze
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_seljuk_bronze.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = epe_icon_seljuk_silver
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_seljuk_silver.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = epe_icon_seljuk_gold
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_seljuk_gold.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+##Abbasid 
+
+texticon = {
+	icon = epe_icon_abbasid_bronze
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_abbasid_bronze.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = epe_icon_abbasid_silver
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_abbasid_silver.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = epe_icon_abbasid_gold
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_abbasid_gold.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+##Ghaznavid 
+
+texticon = {
+	icon = epe_icon_ghaznavid_bronze
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_ghaznavid_bronze.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = epe_icon_ghaznavid_silver
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_ghaznavid_silver.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = epe_icon_ghaznavid_gold
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_ghaznavid_gold.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+
+##Eastern Turkic 
+
+texticon = {
+	icon = epe_icon_eastern_turkic_bronze
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_eastern_turkic_bronze.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = epe_icon_eastern_turkic_silver
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_eastern_turkic_silver.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = epe_icon_eastern_turkic_gold
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_eastern_turkic_gold.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+##Italian
+
+texticon = {
+	icon = epe_icon_italian_bronze
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_italian_bronze.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = epe_icon_italian_silver
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_italian_silver.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = epe_icon_italian_gold
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_italian_gold.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+
+
+##French
+
+texticon = {
+	icon = epe_icon_french_bronze
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_french_bronze.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = epe_icon_french_silver
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_french_silver.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = epe_icon_french_gold
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_french_gold.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+
+##Southern Indian
+
+texticon = {
+	icon = epe_icon_south_indian_bronze
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_south_indian_bronze.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = epe_icon_south_indian_silver
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_south_indian_silver.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = epe_icon_south_indian_gold
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_south_indian_gold.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+
+##Byzantine
+
+texticon = {
+	icon = epe_icon_byzantine_bronze
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_byzantine_bronze.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = epe_icon_byzantine_silver
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_byzantine_silver.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = epe_icon_byzantine_gold
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_byzantine_gold.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+
+
+##Chinese
+
+texticon = {
+	icon = epe_icon_chinese_bronze
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_chinese_bronze.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = epe_icon_chinese_silver
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_chinese_silver.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = epe_icon_chinese_gold
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_chinese_gold.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+
+
+##Northern Norse
+
+texticon = {
+	icon = epe_icon_norse_bronze
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_norse_bronze.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = epe_icon_norse_silver
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_norse_silver.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = epe_icon_norse_gold
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_norse_gold.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+
+
+
+##Polish
+
+texticon = {
+	icon = epe_icon_polish_bronze
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_polish_bronze.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = epe_icon_polish_silver
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_polish_silver.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = epe_icon_polish_gold
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_polish_gold.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+
+
+##Celtic Irish
+
+texticon = {
+	icon = epe_icon_celtic_bronze
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_celtic_bronze.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = epe_icon_celtic_silver
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_celtic_silver.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = epe_icon_celtic_gold
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_celtic_gold.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+##western generic
+
+texticon = {
+	icon = epe_icon_western_generic_bronze
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_western_generic_bronze.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = epe_icon_western_generic_silver
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_western_generic_silver.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = epe_icon_western_generic_gold
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_western_generic_gold.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+
+##North Africa
+
+texticon = {
+	icon = epe_icon_maghreb_bronze
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_maghreb_bronze.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = epe_icon_maghreb_silver
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_maghreb_silver.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = epe_icon_maghreb_gold
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_maghreb_gold.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+
+##Balto-Finnic
+
+texticon = {
+	icon = epe_icon_balto_finnic_bronze
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_balto_finnic_bronze.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = epe_icon_balto_finnic_silver
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_balto_finnic_silver.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = epe_icon_balto_finnic_gold
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_balto_finnic_gold.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+###German
+
+texticon = {
+	icon = epe_icon_german_bronze
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_german_bronze.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = epe_icon_german_silver
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_german_silver.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = epe_icon_german_gold
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_german_gold.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+###Frankish
+
+texticon = {
+	icon = epe_icon_frankish_bronze
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_frankish_bronze.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = epe_icon_frankish_silver
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_frankish_silver.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = epe_icon_frankish_gold
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_frankish_gold.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+
+###Merovingian
+
+texticon = {
+	icon = epe_icon_merovingian_bronze
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_merovingian_bronze.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = epe_icon_merovingian_silver
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_merovingian_silver.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = epe_icon_merovingian_gold
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_merovingian_gold.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+###Visigothic
+
+texticon = {
+	icon = epe_icon_visigoth_bronze
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_visigoth_bronze.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = epe_icon_visigoth_silver
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_visigoth_silver.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = epe_icon_visigoth_gold
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_visigoth_gold.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+###Georgian
+
+texticon = {
+	icon = epe_icon_georgian_bronze
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_georgian_bronze.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = epe_icon_georgian_silver
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_georgian_silver.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = epe_icon_georgian_gold
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_georgian_gold.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+
+###Sahelian
+
+texticon = {
+	icon = epe_icon_sahelian_bronze
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_sahelian_bronze.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = epe_icon_sahelian_silver
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_sahelian_silver.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = epe_icon_sahelian_gold
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_sahelian_gold.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+
+###Anglo-Saxon
+
+texticon = {
+	icon = epe_icon_anglo_saxon_bronze
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_anglo_saxon_bronze.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = epe_icon_anglo_saxon_silver
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_anglo_saxon_silver.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = epe_icon_anglo_saxon_gold
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_anglo_saxon_gold.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+
+##Mena generic
+
+texticon = {
+	icon = epe_icon_mena_generic_bronze
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_mena_generic_bronze.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = epe_icon_mena_generic_silver
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_mena_generic_silver.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = epe_icon_mena_generic_gold
+	iconsize = {
+		texture = "gfx/interface/icons/icon_epe_mena_generic_gold.dds"
+		size = { 35 35 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}

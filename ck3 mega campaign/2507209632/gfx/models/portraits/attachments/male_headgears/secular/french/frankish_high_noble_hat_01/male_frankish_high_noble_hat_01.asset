@@ -1,0 +1,121 @@
+pdxmesh = {
+	name = "male_frankish_high_noble_hat_01_mesh"
+	file = "male_frankish_high_noble_hat_01.mesh"
+	
+
+
+	
+	meshsettings = {
+		name = "frankish_noble_hat_01a"
+		index = 0
+		texture_diffuse = "frankish_noble_hat_01a_diffuse.dds"
+		texture_normal = "frankish_noble_hat_01a_normal.dds"
+		texture_specular = "frankish_noble_hat_01a_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}	
+	
+	
+}
+#############
+###French
+#############
+entity = {
+	name = "male_frankish_high_noble_hat_01a_entity"
+	pdxmesh = "male_frankish_high_noble_hat_01_mesh"
+	
+	game_data = {
+		portrait_accessory = {
+			pattern_mask = "gfx/models/portraits/attachments/male_headgears/secular/french/frankish_high_noble_hat_01/frankish_noble_hat_01a_mask.dds"	#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+			variation = "french_nobility_high_01"	#A "variation" object in gfx/portraits/accessory_variations/
+		}
+	}	
+	
+
+}
+###second colorvariant
+
+
+entity = {
+	name = "male_frankish_high_noble_hat_01b_entity"
+	pdxmesh = "male_frankish_high_noble_hat_01_mesh"
+	
+	meshsettings = {
+		name = "frankish_noble_hat_01a"
+		index = 0
+		texture_diffuse = "frankish_noble_hat_01b_diffuse.dds"
+		texture_normal = "frankish_noble_hat_01a_normal.dds"
+		texture_specular = "frankish_noble_hat_01a_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}	
+	
+	game_data = {
+		portrait_accessory = {
+			pattern_mask = "gfx/models/portraits/attachments/male_headgears/secular/french/frankish_high_noble_hat_01/frankish_noble_hat_01a_mask.dds"	#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+			variation = "french_nobility_high_01"	#A "variation" object in gfx/portraits/accessory_variations/
+		}
+	}		
+	
+
+}
+
+
+#############
+###German
+#############
+entity = {
+	name = "male_german_high_noble_hat_01a_entity"
+	pdxmesh = "male_frankish_high_noble_hat_01_mesh"
+	
+	game_data = {
+		portrait_accessory = {
+			pattern_mask = "gfx/models/portraits/attachments/male_headgears/secular/french/frankish_high_noble_hat_01/frankish_noble_hat_01a_mask.dds"	#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+			variation = "german_nobility_high_01"	#A "variation" object in gfx/portraits/accessory_variations/
+		}
+	}	
+	
+
+}
+###second colorvariant
+
+
+entity = {
+	name = "male_german_high_noble_hat_01b_entity"
+	pdxmesh = "male_frankish_high_noble_hat_01_mesh"
+	
+	meshsettings = {
+		name = "frankish_noble_hat_01a"
+		index = 0
+		texture_diffuse = "frankish_noble_hat_01b_diffuse.dds"
+		texture_normal = "frankish_noble_hat_01a_normal.dds"
+		texture_specular = "frankish_noble_hat_01a_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}	
+	
+	game_data = {
+		portrait_accessory = {
+			pattern_mask = "gfx/models/portraits/attachments/male_headgears/secular/french/frankish_high_noble_hat_01/frankish_noble_hat_01a_mask.dds"	#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+			variation = "german_nobility_high_01"	#A "variation" object in gfx/portraits/accessory_variations/
+		}
+	}		
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

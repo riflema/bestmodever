@@ -1,0 +1,37 @@
+pdxmesh = {
+	name = "female_mer_royal_crown_02_veil_1_mesh"
+	file = "female_mer_royal_crown_02_veil_1.mesh"
+
+
+	meshsettings = {
+		name = "frankish_nobie_veil_01c"
+		index = 0
+		texture_diffuse = "frankish_noble_veil_01d_diffuse.dds"
+		texture_normal = "frankish_noble_veil_01d_normal.dds"
+		texture_specular = "frankish_noble_veil_01d_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+	meshsettings = {
+		name = "mer_fem_royal_crown_02tex"
+		index = 0
+		texture_diffuse = "mer_royal_crown_02c_diffuse.dds"
+		texture_normal = "mer_royal_crown_02_normal.dds"
+		texture_specular = "mer_royal_crown_02_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}	
+}
+
+entity = {
+	name = "female_mer_royal_crown_02_veil_1_entity"
+	pdxmesh = "female_mer_royal_crown_02_veil_1_mesh"
+
+
+	game_data = {
+		portrait_accessory = {
+			pattern_mask = "gfx/models/portraits/attachments/female_headgear/secular/early_western/mer_royal_crown_01_veil_1/female_mer_royal_crown_01_veil_1_masks.dds"	#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+			variation = "merovingian_royalty_brocade_veil_01"	#A "variation" object in gfx/portraits/accessory_variations/
+		}
+	}
+}

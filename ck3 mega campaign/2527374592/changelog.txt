@@ -1,0 +1,1655 @@
+====1.2.2 (TBD)====
+#Additions
+Added some Baloch rulers in 1187, 1204, and 1337. Source I used for genealogy: [i]The Baloch Race: A Historical and Ethnological Sketch[/i] (1904) by Mansel Longworth Dames. Not every branch of the family in the genealogy there has been included. Note: some other sources have alternative genealogies that differ from this.
+
+Added another Rassid character in 1337.
+
+Added the Kingdom of Hormuz in 1337 (actually a duchy title in the game). Unfortunately, due to the county layout, the Usfurids end up having disconnected territory.
+
+Added Great Liao ruler in 936.
+
+Added Samma dynasty vassal of Sindh in 1337 who starts at war with his liege to take the sultanate of Sindh.
+
+Added wars at game start in 1204 for Venice and Latin Empire vassals to get some additional Greek land.
+
+Added the Hashshashin, Knights Hospitaller, Teutonic Order, Order of Calatrava, Order of Alcántara, and Knights of Santiago as real holy orders a day after game start in 1187 and 1204. The Teutonic Order shouldn't exist yet in 1187, but it is required to exist for the Spanish ones to be created. Note that the Hashshashin are somewhat useless because there are no Nizari landed rulers at the moment.
+
+Added all 1187/1204 holy orders to 1337, except for the Hashshashin. Note that, while the Knights Templar was disbanded before 1337, it needs to exist for the other five holy orders to exist. The Knights Hospitaller and Teutonic Order use generic characters since their real grandmasters already exist as landed characters.
+
+Added Aleksandar to Bulgarian name list.
+
+#Removals
+Removed Albanian cultural name "Elbasan" for Hiskampis, since that name comes from the Ottomans.
+
+#Changes
+Made Ottoman special soldiers remain after succession.
+
+Changed the default non-dynastic name of k_ottoman from "Ottoman Turks" to "Ottoman State" (a translation of [i]Osmanlı Devleti[/i]).
+
+In 936, reduced amount of Pecheneg-owned counties in Rus' areas.
+
+Gave the 936 duke of Brittany an unpressed claim on Avranches, and a pressed claim on Léon.
+
+Changed Ingria's name back to the vanilla name "Vodi". Additionally, made the chief of Vodi a vassal of Kievan Rus' in 936.
+
+Made Hakon the Good have the cynical trait instead of the brave trait.
+
+Made the Boulogne dynasty into a cadet branch of the Flanders dynasty, and made the 936 count still be of Dutch culture; Eustace I (r. 1025-1049) is now the first one in the Boulogne branch to be of French culture instead of Adalolf (r. 918-933).
+
+Changed the Croatian counties and rulers in 867 Carpathia to Rus' culture; White Croats were East Slavs who would be absorbed into the Rus' identity (I am not going to give them their own culture). The counties were also changed to pagan in 936, and the White Croat dynasty in 867 was renamed from Bijelahrvatskić to Bilokhorvatskych (i.e. Білохорватськич), a literal adaptation from Croatian to Ukrainian.
+
+Changed the Nishapur area from Maturidi to Twelver in 1337. Changed some of the North African counties I made Ash'ari in later dates back to Ibadi. Changed some Turkish counties to Alevite in 1337. Changed Antiocheia to Levantine/Alawite in 1187/1204/1337. Changed Hama and Shayzar to Nizari in 1187, 1204, and 1337. Made Yazidism be present in 1187 (like it already was in 1204). Reduced amount of Buddhist Afghan counties in 1187/1204. Made more counties Almohadi in the Almohad Caliphate in 1187 and 1204. Changed Rudbar to Baloch in 1066 and later. Changed Sibi and Kalat to Baloch in 1337. Reduced amount of Chagatai cultured counties in 1337 (changed southernmost counties which are outside of the khanate to Oghuz/Tajik).
+
+Changed Kalat's holder in 1337 so that it is part of Delhi instead of the Kartid realm.
+
+Removed dubious Dulo origin of the Árpáds in the family tree.
+
+Changed all Ayyubids to Kurdish culture.
+
+Made Muslim rulers of Egypt always be called Sultans regardless of culture, so that the Ayyubids aren't called "Amir-e Amiran" and the Mamluk rulers aren't called "Khan". I also did this to Mesopotamia (intended for the Jalayirids).
+
+In 1337, changed holder of Bayeux and Lisieux from Philip III of Navarre to Prince Jean the Good of France. Note: Philip of Navarre should control Mortain (western half of the game's Alençon) and Longueville (western half of the game's Eu), but this cannot be represented with the game's county layout.
+
+In 936, 1066, 1081, 1187, and 1204, made Vizcaya part of Navarre.
+
+Changed the Sultan of Ifat in 1337 from Bedouin to Somali culture.
+
+Changed holder of the duchy of Philippopolis in 1187, and removed the title of duke of Strymon from the new holder.
+
+Corrected birth dates of Muzaffarid characters in 1337.
+
+Moved Albret to England in 1337, changing its holder from the count of Foix to the actual lord of Albret (who already existed in the game but was unlanded).
+
+Renamed Liao dynasty (of Great Liao) to Yelü, as Liao was not the name of the family/clan.
+
+Renamed Piedmonte to Piedmont.
+
+Made the decision to reunite Sicily give the kingdom a different color (a combination of Naples' color and Trinacria's color). I still use the name "Sicily" for the reunited kingdom instead of Two Sicilies, though.
+
+Changed Negroponte in 1337 from republican government to feudal government.
+
+Changed the Dauphinate of Viennois's de jure capital from Lyon to Viennois in 1066 and later.
+
+Moved Shayzar and Qinnasrin to the Ayyubid Sultanate in 1187 and 1204.
+
+Improved Marinid coat of arms.
+
+Made Przemków represent Jawor in 1337, and thus gave it the vanilla game's Lower Silesian coat of arms (which was Jawor's).
+
+Renamed de las Asturias dynasty to Álvarez de las Asturias.
+
+Changed the Yngling coat of arms to the pagan Norway coat of arms, so that it is different from the Sverre cadet branch's coat of arms.
+
+Made Knights of Calatrava unlanded in 1187 and 1337 so that they can be used as real holy orders instead.
+
+Made the "Reclaim Constantinople" decision available to the Latin Emperor, Ottoman Sultan, and Sultan of Rum. If done by the Ottoman Sultan or Sultan of Rum, it makes Byzantion the de jure capital.
+
+Made Kutch independent in 1337.
+
+Renamed Ivan Aleksandr of Bulgaria to Ivan Aleksandar (CK3 renders ъ as "a" elsewhere).
+
+#Bug fixes
+Fixed Malatya being Orthodox instead of Apostolic.
+
+Fixed bug where reuniting Sicily didn't copy title history from the reuniter's primary title, and a bug where Napoli didn't become the de jure capital of the reunited Sicily if formed with Naples as primary title.
+
+Removed Prince Kar(e)l of Bohemia's automatically granted claim on Poland.
+
+Fixed missing localization for the decision to restore the Roman Empire as the Latin Emperor.
+
+====1.2.1 (2021/10/30)====
+#Additions
+Added Albanian cultural names for the following: Ulcinj (Ulqin), Drivast (Drisht), Skadar (Shkodër), Danj (Danjë), Bar (Tivar), Peć (Pejë), Priština (Prishtinë), Ohrid (Ohër), Devol (Devoll), Skopje (Shkup), Kicevo (Kërçovë), Tetovo (Tetovë).
+
+Added Gilgit's holder from CK2, independent from Kashmir.
+
+In 1337 Kashmir, added a Muslim vassal named Shams ud-Din (aka Shah Mir) of the Shah Mirid dynasty, who has a claim on his liege's titles.
+
+Added an independent ruler of the county of Madurai in 1337 (Jalal al-Din Ahsan Shah).
+
+Added a count in the HRE in 1337, Friedrich von Cilli. He is a vassal of Carinthia and holds Ljubljana (Laibach) and Kranj (Krainburg).
+
+Added two Telugu kingdoms in 1337 India: the Reddy Kingdom (Andhra) and the Musunuri Kingdom (Telangana).
+
+#Changes
+Moved custom bookmark events from events\bookmark_events.txt to their own file instead of overwriting the vanilla file.
+
+Changed two of the HRE electors: East Franconia has been changed to West Franconia or the County Palatine of the Rhine (depending on start date), and Ostfalen has been changed to Angria (which is called Saxony in 1187 and later).
+
+Made the Byzantine Empire have its vassals start with reduced vassal obligations (like the HRE) in all dates from 1081 onward, and have a crown authority of 1 in 1337.
+
+Made the duke of Jylland in 1187 and 1204 have the title of the duke of Slesvig instead (like I already did in 1337), and made the Danish king keep the duchy of Jylland. Additionally, gave the duke of Slesvig in 1187 and later more counties.
+
+Made the county of Kissinia (Rostock) part of Denmark in 1187 and 1204.
+
+Gave the rulers of Kashmir a duchy title instead of them being only counts (affects all dates except 936, where I had already given the ruler a ducal title).
+
+Changed Bön counties in Kashmir to Shaivite or Buddhist; it didn't make sense to me why Paradox made the region Bön.
+
+Changed Kashmir's rulers from Punjabi to Kashmiri (I assume it was a relic from CK2 where Kashmiri culture didn't exist).
+
+Changed Kashmir's 1337 ruler to his wife.
+
+Made Samiran Cuman in all dates, to represent the Kumyks (who were apparently around even during the Khazar Khaganate).
+
+Filled gaps between 1187, 1204, and 1337 Maldives rulers (family tree and title history).
+
+Made Znojmo Bavarian culture in 1337 (German settlement in the border regions of Czechia began around the 13th century, especially in the south).
+
+Changed Italian characters in 1337 Trinacria and Naples to Sicilian. I kept the spellings as is for Neapolitan characters' names, though (e.g. I kept Roberto instead of changing it to Rubbertu).
+
+Changed the County Palatine of the Rhine's color to that of West Franconia (they can't coexist, so it is fine to share a color).
+
+Renamed Pec to Peć and Zvecan to Zvečan.
+
+Made some additional provinces stay Armenian and Apostolic in later dates (Erzurum, Turuberan, Malatya, Mesopotamia, Apahunik) instead of turning Kurdish or Turkish.
+
+Made the Katakiyas independent kings in 1187 and 1204.
+
+Demoted the Hoysala ruler in 1337 from king to duke.
+
+Changed Frisian culture's female patronym from -dohtor to -dochter.
+
+Made it so that Lubusz does not change de jure liege to Brandenburg in 1337, and it stays de jure Greater Poland.
+
+Changed the Maldives in 1187 onward from Maturidi to Ash'ari.
+
+Changed Safavids in 1337 from Maturidi to Ash'ari.
+
+Changed Suleyman of Rum's appearance.
+
+Adjusted 1337 Bohemia: I split Silesia up into the separate Silesian dukes (represented as counts), removed the titular duchy of Opava (he has been demoted to a count), and added two counts. Not all Silesian dukes were included because some can't be represented with the game's county layout.
+
+#Bug fixes
+Made Guigues of Lyon and Forez a vassal of France in 1187 like I claimed I did.
+
+Fixed spelling of the name of the titular duchy of Erzurum (previously Erzerum).
+
+Fixed some unlanded dukes etc. existing in the start dates.
+
+Added missing title holders in Telugu areas of post-1066 India.
+
+Renamed the barony of Sinjcroat to Sinj (error by Paradox because of its internal designation having "croat" at the end to distinguish it from the Sinj in the county of Merv; not supposed to be its actual name).
+
+Fixed a Burmese character's name.
+
+====1.2.0 (2021/10/14)====
+#Additions
+Made the Knights Templar exist as a real holy order in the 1187 and 1204 start dates, as I figured out how to make it work (it appears on day 2). I can't seem to get multiple holy orders to work, though. Additionally, because the first holy order created is always the Knights Templar (which didn't exist anymore in 1337), there are no real holy orders present at game start in 1337.
+
+Added titular duchy of Arbanon used in 1204.
+
+Added Avaric culture (named as such for differentiation from the Pannonian Avars), used in Samandar and Derbent in 867/936, and only Samandar in 1066 and later. Dynasty names are courtesy of Pressburger, taken from the mod "Survivalist's Culture Mod" with permission: https://forum.paradoxplaza.com/forum/threads/mod-scm-survivalists-culture-mod.1418134/
+
+Added many dynasty names and a few character names for Circassian culture, courtesy of Pressburger, taken from the mod "Survivalist's Culture Mod" (there called "Kassogian") with permission.
+
+Added an Avaric-cultured ruler in the county of Samandar in all start dates (representing Sarir in 867 through 1081, and the Avar Khanate in 1187 through 1337). It is independent in all dates except 867 and 1337, where it is a vassal of Khazaria and the Golden Horde, respectively. Location isn't entirely accurate, but it was the best I could do with the county layout.
+
+Added Durdzuk culture (Chechen/Ingush), but it is not used by any characters or provinces due to lack of a suitable county, so it is available only with the ruler designer. Dynasty and character names are courtesy of Pressburger, taken from the mod "Survivalist's Culture Mod" (there called "Nakh") with permission. This culture will not be referenced in the mod description.
+
+Added Caucasian culture group, consisting of Alan, Circassian, Avaric, and Durdzuk. Note that Alan and Circassian's colors have changed due to being in a new group.
+
+#Removals
+Removed the order member trait grant upon succession for the fake holy orders, because it seems to have been too buggy.
+
+Reverted child of concubine description bug fix in order to allow for better compatibility with any mods that edit the vanilla traits, since it wasn't worth replacing the vanilla trait file for a non-gameplay affecting bug fix that Paradox will probably do themselves in a few years.
+
+Removed duplicate Coptic culture that had been used for compatibility with saves made before August 5. I had said that I would remove it when the culture update/Royal Court DLC came out, but I was under the impression that it would come out sooner. I feel that two months is enough time.
+
+Removed fixed appearance for Tamar the Great in 1187 and 1204, since she was removed from being a bookmark character on June 28.
+
+#Changes
+Renamed Slovene culture to Windic, because I think it is a more period-appropriate name. Compare the game's use of the historical exonyms "Vlach" and "Afghan" instead of the modern endonym-derived "Romanian" and "Pashtun".
+
+Renamed Arpitan to Burgundian (after the Kingdom of Burgundy in the Holy Roman Empire, not the duchy in France), since Arpitan as a term was invented in the 1970s, and Franco-Provençal as a term was invented in the 19th century.
+
+Adjusted the county of Arbanon/Mat's title history between 1204 and 1337.
+
+Renamed Grgur Kamonas to Grigor Kamonas (changing to Albanian form). Renamed Gjin (fictional count of Paganija, 867) to Jovan, since Gjin is an Albanian name. Renamed Mihajlo Vojislavljević and Mihajlo Višević to Mihailo. Renamed Kominia (daughter of Stefan Nemanjić in 1204 start date) to Komnina.
+
+Made Rastko Nemanjić be renamed Sava and have the Monk trait in the 1204 start date.
+
+Replaced the Serbian character name Dragos with Dragoš, and the Croatian character name Kresimir with Krešimir.
+
+Changed Vukan Nemanjić to Catholic in 1204.
+
+Changed Duklja to not be called Zeta yet in the 1187 start date.
+
+Removed some restrictions on the AI for characters of the fake holy order government type.
+
+Made Pula's cultural names also apply to the barony.
+
+Changed the titular duchy of Zichia's color to Circassia's color from EU4.
+
+Made Novgorod use the vanilla game's Novgorod coat of arms in start dates before the Novgorod Republic was founded (i.e. 867, 936, 1066, and 1081).
+
+Changed Wallachia's coat of arms.
+
+Changed Oghuz il's de jure capital to Yangikent.
+
+Made independent Albanian dukes be called princes (like Welsh, Lombard, and Georgian independent dukes).
+
+Changed one of the requirements for Albania formation decision from being Albanian and having the duchy of Durrës as a primary title, to being Albanian and of duke rank.
+
+Made Paganija have an independent pagan ruler in 936.
+
+Renamed Visević dynasty (Zahumlje 936) to Višević.
+
+Gave Jochi (son of Temüjin, forefather of the Golden Horde khans) and Leo VI (Byzantine emperor) the Disputed Heritage trait.
+
+Made Byzantium start with autonomous vassals (level 1 crown authority) in 1187.
+
+Made it so that Isaakios II Angelos does not start with an automatic alliance with Béla III of Hungary in 1187.
+
+Bulgaria now starts as a vassal of Byzantium in the 1187 start date, but is in an independence war with Serbia as an ally.
+
+Changed holders of the duchies of Philippopolis/Plovdiv and Moesia in 1187 and 1204.
+
+Adjusted Bulgarian borders in 1187 and 1204.
+
+Made Stjepan Kulinić have the zealous trait as a fixed trait in 1204.
+
+Made Boril (vassal of Bulgaria in 1204) have a claim on Bulgaria, since he would seize power after Kaloyan's death.
+
+Made Alania independent in 936.
+
+Changed a few counties in the Golden Horde from Tengrist to Maturidi.
+
+Renamed Samander to Samandar.
+
+Changed the following counties from Vlach back to Hungarian in 1187 and 1204: Szatmár, Beszterce, Torda, Bihar, Zaránd, Arad. 1337 was similarly changed, but still has Zaránd and Arad as Vlach.
+
+Changed the following counties from Hungarian to Vlach in 1066 and 1081: Hunyad, Fogaras, Barcaság.
+
+Made the county of Thessalia Vlach in 1066 and later ("Great Wallachia").
+
+Changed a few Bosnian counties to Croatian/Serbian in 936, so it is more of a transition between 867 and 1066.
+
+Made Groningen and Oversticht be Saxon in all start dates and not just later dates.
+
+Changed Baranis counties and 867/1066 title holders in Sicily and Malta to Maghrebi, since CK3 Dev Diary #77 confirms that Berber cultures will not use Arabic as their language.
+
+Changed some northern Occitan counties to French in later dates (more in 1337 than 1187/1204).
+
+Made Kaloyan of Bulgaria have the ambitious trait as a fixed trait.
+
+Moved Lyon to the Holy Roman Empire in 1204, because it did not become part of France until 1312. Lyon is, however, still portrayed as a part of France in 1187, because it has the same holder as Forez, and CK3 doesn't support being vassal to two lieges.
+
+#Bug fixes
+Fixed some Albanian characters not having fixed education traits.
+
+Fixed Chadalhoch's father for real this time.
+
+Fixed Sysmä and Tavasts being tribal counties in 1337.
+
+Fixed Vlach emperors mistakenly being called tsars (in the last version I simplified the criteria for rulers being called "Tsar" to East and South Slavic cultural groups instead of listing cultures individually, but I forgot that Vlach was considered South Slavic by the game).
+
+====1.1.4 (2021/10/02)====
+#Additions
+Added coat of arms for the Nasrid dynasty (Granada 1337) and the Avesnes dynasty (Holland 1337).
+
+Added Somali vassal of the Shirazid emirate in 1081/1187/1204, and two Somali vassals for Ifat in 1337.
+
+Added some tribal holders in 936 Somalia. They link to the 867 holders and have descendants that link to the 1066 holders, but I won't do this for anyone else in the future because it isn't worth the time.
+
+#Changes
+Reduced Catholic starting fervor from 75 to 71 in the 1187 start date, and made AI Saladin always declare a holy war for Palestine in March 1187. This should make it more likely for the Third Crusade to happen properly instead of there always being a crusade for Syria called a month after game start. After Guy loses the war against Saladin, the fervor should reach the crusade threshold (unless a sinful bishop event happens). The pope doesn't seem to prioritize targeting the crusade at Jerusalem, so I recommend manually redirecting the crusade.
+
+Corrected the ruler title for rulers of Wallachia and Moldavia from Prince to Domn ("lord"), the real life title of Wallachian and Moldavian rulers; the female equivalent is doamnă. The rulers of Wallachia and Moldavia also were sometimes referred to as "gospodar" (the Slavic equivalent of domn), and I use this in the Russian localization.
+
+Changed French localization of La Canea and Negroponte (Italian/Cisalpine/etc cultural names of Chania and Euboea) to La Canée and Négrepont.
+
+Improved Bartia's coat of arms.
+
+Made Don Juan Manuel start with coinage rights in 1337, and gave him the scholar, journaller, and poet traits.
+
+Gave Saint trait to Václav of Bohemia (dead brother of Boleslav the Cruel, who is the 936 ruler), and to István I of Hungary.
+
+Changed Tmutarakan holder in 1204 from Zichia back to Cumania. This will make it harder for Trebizond to take it, but I think it is more accurate.
+
+Removed coat of arms of the Amarar dynasty (counts of Suakin in 1066+) because it didn't make sense to have a cross and alpha/omega for an Ash'ari Bedouin dynasty, and there didn't seem to be any historical basis for such a thing. I also changed the dynasty's designated culture in the dynasty file from Nubian to Bedouin.
+
+Reduced English starting crown authority from 3 to 2 in 1337.
+
+Removed the kingdom of Mongolia title from Toghon Temür.
+
+Increased number of Ottoman event troops from 5000 to 10000, and changed their starting location to be adjacent to Nicomedia (though not in it, because they would be too vulnerable to the Byzantines).
+
+Changed Nilüfer (wife of Orhan Gazi) to Greek culture, since, according to tradition, she was the daughter of a Byzantine noble.
+
+Changed the holder of the duchy of San'a' in 1337 from the Yemeni sultan to the Zaydi imam.
+
+Reworked Pomeranian de jure situation in 1187+. The Kingdom of Pomerania is no longer fully partitioned between Poland and Germany, and now exists de jure. However, Brandenburg and Pomerelia are de jure Germany and Poland, respectively (so the only duchies in it are Pomerania and Mecklenburg). Pomerania is de jure Southern Baltic Empire in 1187/1204, but de jure HRE in 1337. As a result, Poland will be slightly easier to re-create in 1187/1204. The downside is that de jure borders are a lot uglier.
+
+Changed Llywelyn the Great to not have his nickname yet in 1187, since he a 14-year-old unlanded character in that date.
+
+Gave Llywelyn the Great an unpressed claim on Pembrokeshire (Dyfed) in 1204, since he tried conquering it for a while (though he didn't succeed).
+
+Gave Llywelyn the Great four of the five fixed traits he had in CK2; Patient was excluded since CK3 standard is three personality traits.
+
+Made changes to select characters so that they have only three personality traits: Removed Cynical and Honest traits from Philip Augustus. Removed Deceitful trait from John Lackland. Removed Greedy trait from Henry Curtmantle. Removed Cynical trait from Frederick Barbarossa. Removed Gregarious trait from Edward III of England. Removed Deceitful trait from Philip VI of France. Removed Calm trait from Saladin.
+
+Changed Dyrrachion/Durrës's holder in 1187 from Progon (count of Arbanon) to his liege Alexios Palaiologos (duke of Dyrrachion).
+
+Changed Thabitids from Baranis to Butr. I don't know who they are supposed to be (I assume they are fictional), but the counties they rule in the game are Butr.
+
+Changed pre-Germanized Niklotids (dukes of Mecklenburg) from Pomeranian to Polabian.
+
+Remove Kazimierz the Great's claim on Mazovia because he already has de jure claims on it, so it is unnecessary. I don't think I was thinking very hard when I gave him that claim.
+
+Changed Kazimierz the Great's claim on Galicia-Volhynia to unpressed.
+
+Renamed Basarab's dead wife from Ana to Margareta (attested as "Marghita") and changed her culture from Basque to Vlach (I couldn't find any information suggesting that Basarab's wife was Basque).
+
+Made the county of Luuq independent from Ajuran in 1337.
+
+Made the Garen dynasty hold one more county in 1204.
+
+Reverted the change that made church holdings valid holdings for the fake landed holy orders, since that may have caused a bug where mosque barons were "holy orders".
+
+Fixed Oppland having the wrong holder in 936, and gave Vestland to Hakon the Good in 936.
+
+Renamed Nudug-south (barony in Mudug) to Mudug-south. Renamed Guines to Guînes. Renamed Alcaniz to Alcañiz.
+
+Removed fictional Hafun duchy in 1337, replacing it with multiple counts (identical map to 867, 1066, and 1187), since using the EU4 situation of a united sultanate under the Marehans is too unrealistic in my opinion.
+
+Changed several Somali dynasties into cadet branches of two main dynasties, Samaale and Darod.
+
+Made Mohammad (puppet Ilkhan) and Hasan the Great (Sultan of Iraq) start as allies in 1337 to vaguely represent that the Ilkhan was a puppet of the Jayalirids.
+
+Changed Paganija to Croatian/Slavic pagan in 867 and 936 (from Dalmatian/Catholic and Bosnian/Krstjani), because it was still pagan in the 9th and 10th centuries (hence the name).
+
+Changed Bogomilist counties in 1337 to Orthodox.
+
+Adjusted central and southern Italy in 1187/1204/1337. Most notably, the Papal States are bigger in 1204 and 1337 (including the March of Ancona).
+
+Adjusted Dutch cultural borders: Counties changed to Dutch: Maastricht, Cleves, Dortmund, Guînes (French in 1337), Lille (French in 1337), Hainaut (French in 1337). Counties changed to Saxon: Groningen (Dutch before 1187), Oversticht (Dutch before 1187).
+
+Changed Ribe to Frisian culture in 1066 and later.
+
+Gave Oversticht to Gelre in 1337.
+
+Gave Zutphen to Gelre/Guelders in 1187 onward.
+
+Changed title of one of Denmark's vassals in 1337 from the duchy of Jylland to the duchy of Slesvig, since he doesn't control any counties in de jure Jylland.
+
+Gave Carlo Roberto of Hungary (1337) an unpressed claim on Szérem.
+
+Changed coat of arms of the duchy of Livonia from the Swordbrothers' coat of arms to a crowned griffin wielding a sword.
+
+Made Norway not start with Scandinavian Elective in 1066, 1081, 1187, or 1204, since Norway's monarchy was historically hereditary in real life, and not elective. However, while historically incorrect, I made it keep Scandinavian Elective in 1337 for gameplay reasons, because Norway being hereditary and Sweden being elective caused issues with succession. In real life, Norway was given as an appanage to Magnus's younger son, but this is not possible to have happen with the AI.
+
+Made Beja not be de jure Portugal yet in 1187 and 1204.
+
+Gave Alcañiz to Aragon in 1187.
+
+Adjusted Paleologo Montferrato coat of arms.
+
+Changed Olga of Kiev's birth year from 890 to 900 so that she can bear children in the 936 start date. While 890 is the most common estimate given for her birth year, her true birth year is unknown (with some estimates being as late as 920), so I have a little leeway.
+
+Made the Bosnian Church (Krstjani) start without Ecumenism in 1337, because the Bosnian Crusade took place about a century earlier.
+
+Changed the count of Donji Kraji in 1337 from Krstjani to Catholic.
+
+Changed Kulin of Bosnia's death month; he is now alive in the 1204 start date.
+
+Made Kulin of Bosnia Krstjani in 1187 (he only converted to Catholicism in 1203).
+
+Made Bosnia independent in 1204, since it was only nominally a Hungarian/Croatian vassal at that point, and was de facto independent.
+
+Corrected Bulgaria's capital to Silistra (the county containing Preslav) in 936.
+
+#Bug fixes
+Fixed extra bracket in the code of game_start.txt that caused some issues (HRE vassals not starting with reduced obligations, holy sites not having special buildings, and more).
+
+Fixed the name of Catholicos Constantine III of the Apostolic Church from Gregory to Constantine.
+
+Corrected spelling of Emperor Yingzong of Song's temple name (Yinzong --> Yingzong), and also corrected his death date. [Note: the China title existing at all in the mod is just a legacy from when, during the mod's development before I released it, I had given Toghon Temür the Empire of China as his primary title. I ultimately decided to remove the title from him, though.]
+
+Made China a valid title for landless characters, so it won't be destroyed on inheritance; doesn't really affect anything.
+
+Made Sakya Trizin act like a regular titular kingdom instead of playing by the rules of religious head titles; Paradox evidently originally wanted Sakya Trizin to be the religious head of Nangchos but changed their mind before release (there is a comment saying "religious head of lamaism/vassal-ruler of Tibet under Mongol and Yuan Empires").
+
+Fixed typo in the Guiyi Circuit's title history.
+
+Made realm_maintenance.2001 ("The New Emperor") not fire if the empire doesn't have a previous holder, because it annoyed me to see it when an empire was created and there was no previous holder.
+
+Fixed Child of Concubine having the Child of Consort description when viewed in a character window, and Child of Consort having the Child of Concubine description when viewed outside of the character window (e.g. in search suggestion), because it annoyed me.
+
+Fixed the counties within the duchies of the Rhine and Sandomierz not being part of regions (when these duchies exist de jure).
+
+Fixed duplicate ID error with a Welayta character in 1204.
+
+Fixed missing localization for Qazan dynasty in 936 (vassal of Volga Bulgaria).
+
+Fixed prince-bishop of Benevento being feudal in 1081 and later.
+
+Corrected father of Chadalhoch (a Bavarian count in 936).
+
+====1.1.3 (2021/09/22)====
+#Additions
+Added fictional Somali state in 1337 (Hafun) since Ajuran shouldn't go that far north and Sanaag shouldn't go that far east. It is one duke instead of multiple counts because it is one country in EU4. Unlike its neighbors, Hafun has been made tribal.
+
+Added more Piast cadet branches used after Poland's fragmentation in 1138 instead of it just being Piast and Piast Śląski. New houses are: Piast Wielkopolski (Greater Poland), Piast Małopolski (Lesser Poland), Piast Mazowiecki (Mazovia), Piast Kujawski (Kuyavia).
+
+Added coat of arms for Villena cadet branch (line of "Don Juan Manuel" in 1337) and Trastámara bastard dynasty.
+
+Added coats of arms for the following titles: Sambia (based on Königsberg), Pomesania (based on Elbing), Warmia (based on Wormditt), Chełmno, Sudovia (based on Lötzen), Masuria, Angirburg (based on Angerburg), Natangia (based on Preußisch Eylau), Schwerin, Ratzeburg, Opava (the county), Bartia (based on Heilsberg).
+
+Added Russian character and dynasty name translations courtesy of Lev/Bromirsky.
+
+#Changes
+Removed the Duchy of Mačva title from Serbian rulers in 1187 and 1204, since they don't control any counties in it.
+
+Changed the county of Blois's coat of arms (added the thinner yellow stripes). It now matches the dynasty and is more consistent with Sancerre.
+
+Made Imran (Khuzestan 936) tribal so he can raid, and changed his culture from Mashriqi to Bedouin (he was Nabataean).
+
+Disabled "Form the Sultanate of Rum" decision in 1081 and later.
+
+Removed "Abubakari II" of Mali from character history and title history (because he didn't exist).
+
+Renamed Ajuraan to Ajuran, because the vanilla name seemed to be a mix between the English name Ajuran and Somali name Ajuuraan, instead of just picking one. Ajuran was chosen over Ajuuraan because the French localization already used Ajuran, and the fictional Garen dynasty founder in the game is named "Ajuran".
+
+Made Walashma dynasty not have titles named after it.
+
+Renamed the Sultanate of Adal to Ifat in 1337 (Adal was Ifat's successor state created in 1415 after Ifat fell in 1403, so it would be improper for 1337).
+
+Gave the Sultanate of Ifat title to the rulers of Ifat in 1337.
+
+Moved some counties over to Ifat from Sanaag.
+
+Changed Ajuran and "Hayq" in 1337 from tribal government to clan government.
+
+Changed the Sultanate of Adal/Ifat's de jure capital from Dakkar to Zaila.
+
+Linked Ajuran ruler in 1337 to the vanilla members of the Garen dynasty from 1187 and earlier (using fictional characters due to lack of information; vanilla CK3's are fictional as well).
+
+Gave Stefan Dušan a pressed claim on Zelengora to go along with his claim on Zahumlje.
+
+Made Dubrovnik a South Slavic cultural name for the county and barony of Ragusa.
+
+Changed Bern's adjective from Bernian to Bernese.
+
+Gave the Dulkadirid ruler in 1337 an unpressed claim on Elbistan, since, in real life, the Dulkadirids conquered Elbistan in 1337 and made it their capital.
+
+Reverted earlier change and made Gdańsk Polish culture again in 1337. It still keeps lower development.
+
+Changed Maastricht from Franconian to Dutch culture in 1187 and later.
+
+Changed Dyrrachion (AKA Durrës/Durazzo), Arbanon (AKA Mat), and Debar (AKA Dibër) to Catholic in all start dates from 1066 onward. All of these counties are still Orthodox in 867 and 936.
+
+Filled some holdings in 1337.
+
+Renamed Panemüne to Panemunė. Renamed Yatvyagi to Yotvingia (name left unchanged in Russian and German). Renamed Furstenburg to Fürstenburg.
+
+Changed several Prussian provinces (and Yotvingia) from Catholic to Vidilist in 1337.
+
+Made it so that Czech culture does not start with the Ostsiedlung innovation already unlocked in 1187, 1204, or 1337.
+
+For better historical accuracy, changed Chełmno from Prussian culture to Polish culture. I also changed its holder in 936, 1066, 1081, 1187, and 1204.
+
+Changed Dobrzyń's holder in 1187 and 1204, so it is now part of Mazovia (not de jure); this is so that Chełmno is contiguous with the rest of Mazovia.
+
+Shrunk Ilkhanate borders in 1337, but gave it Tabriz in return, since this seems to be where the khan Muhammad (puppet of the Jalayirids) was located. Unfortunately, this makes part of the Chupanids into an exclave due to how the game's counties are laid out.
+
+Renamed Julichgau dynasty to Jülichgau.
+
+Changed Sarbadars from Persian culture to Tajik culture.
+
+Changed the Kartids' title from the duchy of Zabulistan to the duchy of Herat.
+
+Changed Empire of Bengal and Kingdom of Lanka's coat of arms to not have the sun in them (Paradox put a comment in the coat of arms file saying to do this later, but never did, so I did it for them).
+
+Changed Moskva and Muscovy's coat of arms from St. George and the Dragon to a haloed swordsman riding a horse. The reason I did this is because the image of St. George and the Dragon that I used didn't fit the game's art style, and I strongly dislike the way that looked. The new version is based on a seal of Dmitrij Ivanovič Donskoj. Hopefully Paradox adds St. George and the Dragon, since they put a comment in the coat of arms file to make it later.
+
+Changed Upper Silesia's coat of arms to the one formerly used by Opole, Lower Silesia's coat of arms to the one formerly used by Upper Silesia, and gave Opole a new coat of arms. The old Lower Silesian coat of arms (that of Jawor) was not repurposed, because I currently haven't split Lower Silesia into multiple duchies in 1337.
+
+Adjusted Duchy of Opava's coat of arms.
+
+Gave the duke of Saxony the county of Wittenberg in 1337, and made it his capital (not de jure).
+
+In 1337, moved Lübeck from the Hansa to the duchy of Holstein, and removed the Hansa's title history.
+
+Gave Eastphalia title in 1337 to the duke of Brunswick-Lüneburg. I chose to give the ducal title to the Lüneburg branch instead of the Brunswick branch because it had more counties, and because Lüneburg is the de jure capital of Eastphalia. Note: This also transfers the prince-electorate status, but this is undesirable and I may change the prince-elector title to Angria/Saxony instead of Eastphalia (Saxe-Wittenberg became a prince-electorate in 1356, while Brunswick-Lüneburg didn't become an electorate until 1692).
+
+Changed colors of Hannover's coat of arms.
+
+#Bug fixes
+Fixed Russian localization of Jean.
+
+Fixed some characters I added in 1.1.2 having the wrong names, parentage, or birth date.
+
+Fixed Sancerre (cadet branch of Blois) not having "de " as a prefix.
+
+Changed "Form the Sultanate of Rum" decision to also be valid if one's liege is Maturidi, instead of only Ash'ari liege or independent. This fixes a problem where, when using the mod, you couldn't form Rum as a vassal of the Seljuks.
+
+Fixed some Silesian Piasts not being set to use the Piast Śląski cadet branch.
+
+Corrected Carpathian Rus' from Catholic to Orthodox (they only converted to Catholicism after the game's timeframe).
+
+Made Lithuanian and German cultural names for Chełmno apply to the county and not only to the barony (Paradox's oversight).
+
+Fixed Aalborg still being Ásatrú in later dates.
+
+Changed Schwerin and Ratzeburg to castle holdings (in 1187 onward and in 1337, respectively), so that their holders show up properly, i.e. counts of Schwerin and the Ascanian duke of Saxe-Ratzeburg-Lauenburg, respectively. This does end up making the county's holding imbalanced, however.
+
+Fixed bishop of Bremen not being theocracy government in 1066+.
+
+====1.1.2 (2021/09/13)====
+#Additions
+Re-added basic support for Russian, which I had silently removed in the last version. It is now up to date with the current version of the mod (with most of the mod's content in English, though title and culture names are translated, and some dynasty and character names are translated).
+
+Added more Tatar male character names, from Golden Horde khans.
+
+Added missing title history for some French counties.
+
+Added some holders to certain areas of eastern Africa in 1337. Borders not final, and tribal governments may be replaced with clan/feudal later. Nubian/Coptic holders in Beja areas are inherited from CK2 and will likely be changed to Beja/Ash'ari in the future.
+
+Added new bookmark descriptions for 936 and 1337 rulers except for Stefan Dušan. Provided by DarkyPwnz. Currently English localization only.
+
+Added Zaydi Imamate title. Title history is incomplete for now, but its incompleteness doesn't affect gameplay.
+
+Added de Balliol characters in 1187 and 1204 northern England. Due to lack of information, some fictional characters were created to fill the gaps and preserve family ties between the known people.
+
+#Changes
+Changed Adrien, Prince-Bishop of Dole in 936, from French to Arpitan.
+
+Made Brittany start at war with Nantes in 936, since it was in the process of reconquering it.
+
+Renamed Tornsfall dynasty (a Norse dynasty in 936) to Törnsfall.
+
+Changed Arpitan name "Savêtro" to "Savétro"
+
+Replaced Albanian name "Skender" with "Aleksandri" (different Albanian equivalent of Alexander). This is because Skënder is inappropriate for CK2's timeframe, since it was borrowed from Arabic/Turkish (Iskandar/İskender).
+
+Changed Gothic names "Saurus", "Thorismod", "Goiswinthia", and "Cixila" to "Sarus", "Thorismund", "Goiswintha", and "Cixilo".
+
+Renamed al-Ikhshid to Muhammad, with al-Ikhshid as a nickname instead.
+
+Changed deceased father of Muhammad al-Ikhshid (936 Egypt) to Karluk culture.
+
+Added deceased father of Ahmad ibn Tulun (867 Egypt).
+
+Changed one of Dyre the Stranger's traits from Bastard to Bastard Founder.
+
+Made al-Abbas (firstborn son of Ahmad ibn Tulun, who was added as part of the Holy Fury/Iron Century character data) hold the duchy of Cyrenaica in 867.
+
+Changed Olaf Guthfrithson's pressed claim on Northumbria to an unpressed claim on York, since he ruled southern Northumbria (represented in CK3 by the Duchy of York).
+
+Gave Eirik Bloodaxe an unpressed claim on York.
+
+Changed York's title history between 936 and 1066.
+
+Changed Russia's de jure capital from Kiev to Moscow in the 1337 start date.
+
+CFP/EPE compatibility patch only: Changed Turkish culture's clothing from Iranian to MENA, and gave them a chance of using Seljuk graphical culture instead of only Greek graphical culture.
+
+Made Tabriz Oghuz in 1187 onward.
+
+Changed Mat (Arbanon) from Catholic to Orthodox in 1337. Durrës was kept as Catholic.
+
+Gave Sultanate of Mesopotamia (Iraq) to the Abbasid Caliph in 1187 and 1204.
+
+Merged Shansabani and Ghurid dynasties in 936 since they are two different names for the same dynasty.
+
+Made Ruthenia be called "Kievan Rus'" in 936.
+
+Removed German "Vegl" cultural name for Krk.
+
+Removed Greek "Polai" cultural name for Pula.
+
+Made Labourd stay Basque in 1187 and onward, even though the province is too large, I thought it was better this way.
+
+Gave Charles of Alençon and Chartres in 1337 the nickname "the Magnanimous".
+
+Made Hugh the Great, duke of Anjou in 936, have the counts of Maine and Anjou as vassals.
+
+Made the count of Blois and Chartres a direct vassal of France in 1187 and 1204.
+
+Changed dynasty of Maria, wife of Charles the Magnanimous, from her mother's dynasty to her father's dynasty.
+
+Changed Rouen's holder in 1337 from Philippe d'Évreux to a bishop named Pierre-Roger (aka Clement VI), who is a vassal to France.
+
+Changed David II of Scotland and Joan of England's marriage in 1337 to a betrothal.
+
+Made Giovanna of Naples be betrothed to Andrea of Calabria in 1337.
+
+Switched wives of Joscelin de Courtenay (i.e. made his living wife in 1066 dead, and his dead wife in 1066 alive, and switched children's parentage). He also now holds Montargis in 1066 instead of his wife as a result, since she is dead.
+
+Gave Árpád Zolta the raider trait.
+
+Removed nemesis relationship between Hakon the Good and Eirik Bloodaxe.
+
+Added exception for Aquitaine so that it can't be created on confederate partition if the character holds France.
+
+Renamed Raoul of France to Rodolphe, because, while conventionally called Raoul, he called himself Rodulfus, as did contemporary documents.
+
+Gave "the Black" nickname to Hugues of Burgundy in 936.
+
+Added fixed traits and base stats for Hugh the Great that he had in CK2's Iron Century.
+
+Changed East Francia's adjective from East Franconian to East Francian; I assume it was an error on Paradox's part.
+
+Changed Bologna's adjective from Bolognian to Bolognese.
+
+Changed Verona's adjective from Veronian to Veronese.
+
+Made the Maldives Muslim and independent in start dates from 1187 onward.
+
+Changed Rasulid (Yemeni) capital in 1337 to Zabid, and gave the Rasulids the Sultanate of Yemen title.
+
+Changed Mahra's holder in start dates from 1187 onward to the Ayyubids (1187, 1204)/Rasulids (1337).
+
+Gave Garen dynasty a coat of arms.
+
+Renamed Drăgoșești dynasty to Drăgoșescu (changing from plural to singular).
+
+Put a university in Zabid in all dates.
+
+Put a university in Oxford and Cambridge in dates after 1096 and 1209, respectively.
+
+Gave Frederick Barbarossa the Crusader trait in 1187 since he already participated in the Second Crusade.
+
+Changed "Orhan Osmanoğlu" to "Orhan Gazi" on the 1337 bookmark screen.
+
+Made Ferlix and Penllyn vassals of Llywelyn the Great in 1204.
+
+#Bug fixes
+Fixed error where Trebizond's title history had every character listed twice.
+
+Disabled Switzerland formation decision in 1337 since Switzerland already exists there.
+
+Corrected Alarcon still being Visigothic in 936.
+
+Corrected spelling of Croatian cultural name that I applied to Szerém (Sjirem --> Srijem).
+
+Corrected Pecheneg duke of Halych in 936 from feudal to tribal.
+
+Fixed error where two unrelated characters in 936 shared the same dynasty (Taremaa). A new dynasty (Latgale) has been created.
+
+Fixed Gaelic culture not having a color set when using the EPE/CFP compatibility patch.
+
+Fixed Hugh the Great not being married to Eadhild of England in 936.
+
+Removed duplicate of Heinrich der Löwe.
+
+====1.1.1 (2021/09/04)====
+#Additions
+Added decision for the Sultan of Rum to change realm culture from Oghuz to Turkish. French localization currently not added.
+
+Added decision to form the Kingdom of Albania in start dates other than 1337 (where it already exists). It can be done either as an independent Albanian duke of Durrës or as the king of Sicily. French localization currently not added.
+
+Added prefix for Sicily (Siculo-).
+
+Added some more character names for Arpitan culture.
+
+Added missing county holders in 1204 k_kipchak.
+
+Added a Circassian ruler of Zichia in 1204 named Tukar, who was supposedly killed defending against the Mongols circa 1237. No other information about him exists (such as when his reign started), so I gave it the benefit of the doubt and added him as a character to make the map more interesting.
+
+Added titular duchy of Zichia used for the Zichian rulers in 1204 and 1337.
+
+Added Seljuk-Rum cadet branch of the Seljuk dynasty.
+
+#Changes
+Changed the following Anatolian counties to start as Oghuz/Maturidi in 1081: Kapadokya, Zengibar Kalesi, Alt Galatya, Harsianon, Kayseri, Azysia, Elbistan, Batı Galatya, Likaonya, Bozkır.
+
+Removed Thessalian and Thessalonian counties from Alexios Komnenos's personal domain, and gave them to his brother Isaakios as a vassal. This is ahistorical, but it was done to make the Byzantines have fewer levies.
+
+Gave Isaakios (brother of Alexios Komnenos) a pressed claim on the duchy of Antioch in 1081.
+
+Corrected spelling of Basiliakos dynasty to Basilakios.
+
+Made church holdings a valid holding for the non-playable fake holy orders.
+
+Renamed Angouleme to Angoulême. Renamed Abauj to Abaúj.
+
+Removed custom "Powys Fadog" and "Powys Wenwynwyn" names for Penllyn and Ferlix that had been applied in 1187 and later.
+
+Replaced fictional(?) Guglielmo de Larsa, count of Demetrias and Neopatras in 1204, with Othon de la Roche (lord of Athens), who has been given a pressed claim on the duchy of Athens.
+
+Changed characters of the Genève, Savoie, and Forez dynasties from French/Occitan to Arpitan (changing most of the characters' names to Franco-Provençal forms in the process), and renamed the dynasties to Geneva, Savouè, and Forês.
+
+Renamed Sheperds of the Romans mercenary company to Shepherds of the Romans.
+
+Moved Stefan Dušan's event troops' location from Skopje to Dibër.
+
+Changed Abaúj and Zemplén to Slovak (Slovien) culture in 1066 and later.
+
+Represented Carpathian Rus': changed Ungvár and Bereg to Rus' culture in 936 and later. Máramaros was also changed to Rus' in 936 and later, except in 1337 where it is still Vlach.
+
+Made Hotin stay Rus' in 1337 instead of turning Vlach.
+
+Changed Hotin to be part of the Principality of Halych in 1187 and later instead of being owned by Cumans/Tatars.
+
+Leveled up the Hotin Fortification building in 1337.
+
+Filled some holdings (mainly in Hungary) in later dates.
+
+Altered French localization to refer to Muscovy as a grand duchy and its ruler as grand duke, instead of grand principality and grand prince. While modern historiography refers to it as a grand principality, older sources called it a grand duchy (e.g. [i]Estat de l'Empire de Russie et grande duché de Moscovie[/i], written by Jacques Margaret in 1607). This also distinguishes it from the duchy rank grand principalities.
+
+Gave baronies in the de jure Kingdom of Thessalonika (that had buildings in 867 and 1066) upgraded buildings in later dates.
+
+Adjusted borders in 1187/1204 Transoxiana.
+
+Made "Negroponte", "Candia", and "La Canea" cultural names also apply to the capital baronies.
+
+Changed names of some Croatian kings from Kresimir to Krešimir.
+
+Changed Ildeguzids of Azerbaijan in 1204 from Persian to Oghuz (but changed the dynasty founder from Oghuz to Kipchak).
+
+Fixed omission that I had made when changing Baranis to Maghrebi in Sicily/Malta in start dates other than 867/1066/1081: Made Maghrebi culture valid for the Sicilian culture spread events. Maghrebi holders of Baranis counties won't trigger the Sicilian culture event, and neither will Baranis holders of Maghrebi counties.
+
+Removed Malta from the "Special Sicilian Culture" region so that Sicilian culture won't spread to it automatically with the event, and it will stay Maghrebi/Baranis unless changed with the steward task.
+
+Gave Alexios Megas Komnenos a pressed claim on Tmutarakan in 1204.
+
+Changed al-Nasir Muhammad (Sultan of Egypt in 1337), his dead brothers, and his children to Kipchak culture. This has the unfortunate side effect of his title changing from Sultan to Khan.
+
+Changed Visigothic in 936 al-Andalus (which I had originally kept there to simulate Mozarabs) to Andalusian (for Muslim counties) or Galician/Leonese/Castilian/Aragonese/Catalan (for Catholic counties).
+
+#Bug fixes
+Made Order Member trait thing only apply to AI in case a player swears fealty and is granted a title, or if a player grants a title to a character with the trait and inherits the title when that character dies.
+
+Fixed capital barony of Isauria having the wrong Oghuz/Turkish cultural name.
+
+Fixed error where count of Friuli/Treviso had the wrong liege in 1066 and 1081.
+
+Fixed Illyricum region, removing Carinthia and adding Lower Bosnia.
+
+Fixed some instances of missing localization (two Albanian dynasty names, multiplayer start date descriptions).
+
+Fixed some typos.
+
+====Hotfix 1.1.0b (2021/08/28)====
+#Bug fixes
+Changed Order Member trait thing to be done only via inheritance and title grants, so that conquering the provinces won't give the order member trait.
+
+=====1.1.0 (2021/08/28)====
+#Additions
+Added Petty King of Munster to 936. Due to lack of a suitable county (CK2's Locha Léin and Desmond being a single county of Desmond), and because I didn't want to get rid of the vassal in Desmond, he holds Ennis when he should be in the Cork region (CK2's Desmond).
+
+Added Lorraine conquest story event (which should trigger 1-2 years after game start) and Italian conquest story event (which should trigger 10-15 years after game start). These events may be buggy. The AI will currently reject the option to do the war with Lorraine and France, but will do the war with Italy. For both events, the option to start the war will not be present if Otto is allied with the potential target.
+
+Made rulers of the landed fake holy order government type use holy order clothing. However, they do not do so when using the EPE/CFP compatibility patch, because, when I applied the exact same change to the compatibility patch, it inexplicably made almost everyone outside of western Europe either become shirtless, wear a holy order helmet, or both.
+
+Added fixed appearances for 936 bookmark characters.
+
+Added Eirik Bloodaxe to Hakon's window on the 936 bookmark screen.
+
+Added nicknames for some Welsh characters: "the Little" (translation of Fychan), "the Old" (translation of Hen), and "the Younger" (translation of Ieuaf). For characters whose in-game names contained their byname (Fychan/Hen/Ieuaf), it has been removed from their name and replaced with the nickname.
+
+Added missing holder of Speyer/Worms in 1081 (Engelbert von Sponheim; these counties seem to represent Sponheim in 1066 despite Sponheim being a barony in Koblenz in the game).
+
+Horse archers are now available to the Turkish, Chagatai, and Tatar cultures. Hussars are now available to the Slovene culture. Picchieri are now available to the Dalmatian culture. Mubarizun are now available to the Coptic culture.
+
+Added blurbs for bookmark characters who had not had them. I tried to make them more of the CK3 style rather than the CK2 style. Ones from CK2, along with Uroš Dušan's and Ivan Kalita's, will be rewritten later to fit the CK3 style. French localization courtesy of Aliocha.
+
+Added death reason for Frederick Barbarossa in the history (death by drowning).
+
+Added Turkish/Oghuz cultural names of the kingdoms of Nikaea and Trebizond, using the same names as the counties.
+
+Added Arpitan (Franco-Provençal) culture, present in the following provinces: Besançon, Chalon, Dole, Neuchâtel, Mâcon, Bresse, Geneva, Aosta, Forez, Lyon, Savoie, Viennois. No characters are currently set to start with this culture, and no titles have cultural names for it.
+
+While Frisian culture is not a new culture added by this mod, it isn't used at all in unmodded CK3 other than in leftover history data for 769, so this kind of counts as an addition: Westfriesland, Frisia, Dokkum, and Ostfriesland have been changed to Frisian culture, and characters of the "Cirksena" dynasty of Ostfriesland in 1337 are now Frisian.
+
+#Changes
+Adjusted parts of India in 936 that I accidentally forgot to adjust the history files from vanilla CK3.
+
+Changed al-Jannabi dynasts from Bedouin culture to Persian culture, except for Abu Tahir and his brother.
+
+Renamed Abu Tahir's father from Sa'id to Abu Sa'id.
+
+Made Abu Sa'id be Isma'ili in 867 instead of Qarmatian.
+
+Changed Iraqi and Iranian Isma'ili counties to Qarmatian in 936.
+
+Made Ardabil Mazdayan in 936.
+
+Added Vengeful trait to Olga (wife of Igor the Old in 936).
+
+Changed Mozhaysk to Rus' culture in 936.
+
+Gave duchy of Connacht to Tadg mac Cathail in 936, and duchy of Meath to Donnchad Donn in 936.
+
+Made Oriel independent in 936.
+
+Removed Kingdom of Mann and the Isles title from Olaf Guðfriðsson in 936.
+
+Gave kingdom of Ireland to Flann Sinna in Ireland's title history.
+
+Changed Al-Qatif back to a castle holding in 936.
+
+Changed Buyid brothers in 936 from Persian/Isma'ili to Daylamite/Twelver; their deceased parents were changed to Daylamite/Zaydi.
+
+Changed a few Avar provinces in 867 (Keve, Temes, Krassó, Hunyad, Fogaras, and Barcaság) to Vlach/Orthodox (same provinces that are Vlach in 936). 1066 and 1081 are still untouched from vanilla with regard to what counties are Vlach, however. Additionally, Iași and Orhei were made Vlach in 1187 to have an artificial bridge between the Moldavian cultural borders of 1066 and 1337.
+
+Made Telegdi a cadet branch of Csanád.
+
+The Duchy of Bar has been made de jure Lotharingia in 936 so that the event-called war can be performed properly (will be reverted should I find a better method).
+
+Made Ferrara feudal in 1187/1204.
+
+Switched Just trait for Callous trait for Dietrich von Altenburg.
+
+Removed two of Erik Bloodaxe's five personality traits, since 3 is the standard in CK3.
+
+Re-dumped custom bookmark portraits so the correct beards and hairstyles will show up on the bookmark screen when using CFP/EPE compatibility patch. Some characters' clothing colors on that screen  will have changed as a result.
+
+Changed Upper Lorraine's de jure capital from Trier to Nancy in all start dates.
+
+Changed Samiran's holder in 936.
+
+Made Tmutarakan stay Circassian/Orthodox in 1187 onward instead of becoming Cuman (1187/1204) and Greek (1337).
+
+Changed Sponheim dynasty members from Saxon to Franconian.
+
+Changed holder of the duchy (march) of Krain (Carniola) in 1066, 1081, 1187, and 1204.
+
+Removed duchy of Alania title from Alan vassal of Golden Horde in 1337; now he is just count of Maghas and Carbadinia.
+
+Renamed Mercaeur to Mercœur. Renamed Uses to Usès (Occitan name of Uzès). Renamed Cevennes to Cévennes. Renamed Moutiers to Moûtiers. Renamed Besancon to Besançon. Renamed Neuchatel to Neuchâtel.
+
+Switched Duchy of Thrace's holder in 1204 from Theodoros Laskaris to Baldwin of Flanders. Switched Duchy of Paphlagonia's holder from Alexios of Trebizond to Alexios, brother of Theodoros Laskaris, who already had the counties. Made the duchies of Strymon not have a holder in 1204.
+
+Gave Enrique Alfónsez de Trastámara a pressed claim to Castile since he doesn't get automatic claims as a Bastard Founder.
+
+Made David, brother of Alexios of Trebizond in 1204, a member of the Megas Komnenos cadet branch.
+
+Reduced Bulgarian Empire decision requirements from a realm size of 60 counties to one of 50 counties.
+
+Made Kaloyan of Bulgaria start allied to the khan of Cumania in 1204.
+
+Changed Valentinois's culture to Occitan.
+
+Changed Thouars's culture to French in 1337.
+
+Added Just and Ambitious traits to Suleyman ibn Qutalmish and increased his martial education trait from level 2 to level 4.
+
+Changed Honorias's holder in 1204 to David (Megas) Komnenos as a vassal of Trebizond.
+
+Removed Neuenburg cultural name that I had added for Neuchâtel.
+
+Changed Ostfriesland from a vassal of Holland to a vassal of Saxony in 1337.
+
+#Bug fixes
+Fixed omission where Uusimaa and Circassia cultural names for Nyland and Alania weren't in French, German, or Spanish localizations.
+
+Fixed typo that resulted in Mozhaysk not having the proper holder in 936.
+
+Fixed typo that resulted in French localization for 936 bookmark screen not showing up.
+
+Fixed error where Chalon was independent in 1066.
+
+Corrected Kõszegi dynasty name to Kőszegi (Paradox's error).
+
+Corrected sex of Garsinde de Béziers in Béziers's title history.
+
+Fixed new leaders of the fake holy order government type not getting the Order Member trait; I did this by changing the check to whether the previous holder had the trait or not, instead of checking for the government type, since that didn't work for some reason.
+
+Fixed typo that resulted in Waddan having the wrong holder in 1066, 1081, 1187, 1204, and 1337.
+
+Fixed hovering over Eudes's uncle in 867 bookmark screen saying that he is 10 years old instead of 46.
+
+Corrected liege of count of Pecheneg/Yaitsk in 1204 from Volga Bulgaria to Cumania.
+
+Corrected spelling of Futuwaa to Futuwwa.
+
+Fixed duchy of Thessali having an unlanded holder in the 1204 start date.
+
+=====1.0.0 (2021/08/19)=====
+#Additions
+Added 936 start date. No scripted story events have been included yet, and many locations on the map are unfinished (such as Siberia, Subsaharan Africa, and the steppes). Bookmark characters also don't have scripted appearances. These things will be finished on a later date.
+
+Added Bulgarian and Oghuz/Turkish cultural names of Adrianople (Odrin and Edirne).
+
+Added coat of arms for Bahrain; it is extremely anachronistic as it is based on the modern country's coat of arms, but a coat of arms is needed for the 936 bookmark screen and that was the best option I could think of (if anyone has any better ideas, let me know).
+
+Added Finnish cultural name of Nyland (Uusimaa).
+
+Added Circassian culture, and an independent Circassian count of Zichia in 1337. Character names are from EU4, while dynasty names were provided by Patlichan.
+
+Added Dragoș (who would become the first prince of Moldavia) as the count of Máramaros in 1337, replacing the son of Meggyesi Miklós. Dragoș is a direct vassal of Hungary and not a vassal of Transylvania. He has claims on the Moldavian duchies.
+
+Added a count named Lack of the Hermán dynasty in 1337 Transylvania (count of Csanád, Arad, and Hunyad). His sons Lackfi István and Lackfi András have claims on Transylvania.
+
+Added Balgarsko dynasty coat of arms (based on the one from CK2) and Asen dynasty coat of arms.
+
+Made cultures start with heraldry in 1187 and 1204.
+
+Added a count of Velbazhd in 1337 Serbia named Jovan Oliver of the Grčinić dynasty.
+
+#Changes
+Changed Castelo Branco from Asturleonese to Galician in 1066 and 1081 (and 936).
+
+Removed kingdom of Serbia title in 1187 and 1204 as Serbia did not become a kingdom until 1217 (rulers are now dukes of Raška and Zeta). They have enough counties to form Serbia as soon as they get enough gold, though.
+
+Made Raška (Serbia) slightly bigger in 1187 and 1204 by adding Zelengora and Zahumlje (cf. CK2).
+
+Set Petar II/IV of Bulgaria (1187 ruler, called Petar III in the game) to have Teodor as his birth name.
+
+Changed 1081 Annandale holder.
+
+Pula is now Croatian culture in 1066 and 1081.
+
+Pitten is now Slovene culture in 867 (and 936).
+
+Made Otakeren a cadet branch of Aribonen.
+
+Made Gascogne area Basque in 867 (and 936), like CK2. It also makes the Basque dukes there make more sense. Labourd remains Basque in 1066, like how CK2 has Marsan and Dax stay Basque in 1066. No county in Gascogne is Basque in 1187 onward, however, since CK3 Labourde is too large compared to CK2 Dax.
+
+Made de Béarn and de Comminges cadet branches of de Vasconia.
+
+Renamed Bearn to Béarn. Renamed Chalons to Châlons. Renamed Macon to Mâcon. Renamed Marmaros to Máramaros. Renamed Brasso (capital barony of Barcaság) to Brassó. Renamed Csanad to Csanád. Renamed Gyor and Györ to Győr. Renamed Visegrad (Hungarian duchy and county) and Hungarian barony of Višegrad to Visegrád. Renamed szászkézd to Szászkézd. Renamed Uwal (modern day Bahrain Island) to Awal. Renamed Coruna to Coruña. Renamed A Corunnã to A Coruña. Renamed Ipuskoa to Gipuzkoa. Renamed Viscaya to Vizcaya.
+
+Changed unavailable decisions in later start dates from being decision criteria to having the flags already be set in those dates (doesn't really affect gameplay but is a better way of doing it).
+
+Changed Karakorum back to Kerait/Nestorian in 1187 since Temüjin didn't conquer it yet.
+
+Changed Wallachia and Moldavia to be called "principalities" instead of kingdoms and their rulers "princes" instead of kings.
+
+Adjusted Laskaris coat of arms.
+
+Changed Ibadi counties in de jure Africa to Ashari in 1187 onward, like CK2.
+
+Changed Zayyanids and Tudjinids from Baranis to Butr.
+
+Changed German localization's name of Muscovy from Moskowien to Moskau.
+
+#Bug fixes
+Fixed an error I made where 1066 Annandale had the wrong holder, which had resulted in the duke of Strathclyde being unlanded.
+
+Updated Harald Fairhair to current CK3 version where he is Harald Tanglehair in 867 start date and has harald_tanglehairs_vow_modifier character flag.
+
+Fixed history error with Uiska, Uraltau, and Karabash.
+
+Made Carantania de jure HRE instead of Germania in 1066 and later.
+
+Fixed an error by Paradox where countries could only start with high partition if their culture had Heraldry but not Hereditary Rule, which was supposed to be that it has Heraldry but not Primogeniture.
+
+=====0.3.5 (2021/08/09)=====
+#Additions
+Added more French translated material courtesy of Aliocha.
+
+Filled in holders for 1204/1337 de jure kingdoms of Ob, Angara, Khakassia, and Tuva. The chieftains within the latter three are vassals of Mongolia in 1337.
+
+Added dynasty coat of arms for Farnese, Montefeltro, Este (Bonifazi), Gonzaga, Polenta.
+
+Added dynasty motto for Gonzaga, "Lead us to the mountain" (Ad montem duc nos).
+
+Added (anachronistic) dynasty motto for Stewart, "Courage grows strong at a wound" (Virescit vulnere virtus).
+
+#Changes
+Added Stuttering trait to Michael the Stammerer in Byzantine title history.
+
+Changed Naiman dynasty from Mongol to Naiman culture, and Buryat dynasty from Mongol to Buryat culture.
+
+Changed Karakorum to Mongol/Tengri in 1187/1204 and Mongol/Nangchos in 1337.
+
+Corrected position of the Central Asian Kirghiz culture borders in 1337, and did other cultural and title adjustments around the area for 1337.
+
+Changed Scala and Gonzaga dynasties from Italian to Cisalpine.
+
+Changed Bologna to feudal in 1337.
+
+Gave the county of Veneto to Verona in 1337.
+
+Renamed "Polentano" dynasty to "da Polenta".
+
+Corrected counts of Zollern to be the Hohenzollern dynasty (title history imported from CK2 barony with addition of Burchard I). This also affects 1066, meaning you can play as the Hohenzollerns in 1066 now.
+
+Corrected Hohenberg's title history to have Hohenzollern counts of Hohenberg from 1120 onward (title history imported from CK2 barony).
+
+Renamed Zollern to Hohenzollern in 1204 and 1337.
+
+Gave Ansbach to Nordgau (Franconian Hohenzollerns) in 1337.
+
+Changed Palaiologos dynasty's coat of arms from the vanilla game's cross to a more appropriate double-headed eagle with three crowns.
+
+Changed Paleologo Montferrato coat of arms; the new one is anachronistic, but it has basis in reality unlike the previous one I used.
+
+Changed names of Irish-cultured characters of Anglo-Norman families to the Irish forms of the names.
+
+Changed more Anglo-Norman characters in 1337 Ireland to Irish culture; the only living ones that are affected by this are Edmund de Burgh (now Éamonn) and his sister.
+
+Added disinherited trait to Maud (elder sister of David de Brus, king of Scotland in 1337) so that Robert Stewart is heir presumptive.
+
+Corrected Robert Stewart's birth date.
+
+For accuracy: Renamed Robert Stewart's wife to Elizabeth, changed her age, gave her a Mure dynasty, and changed her and Robert Stewart's daughter into an infant son named John (future Robert III).
+
+Changed Ayrshire to Scots culture in 1337.
+
+Reverted Gowrie culture change from previous version, so it is now Gaelic in 1337 again.
+
+Made it so that Angus and the Mearns do not change culture to Scots in 1187 and are Gaelic in all start dates except 867.
+
+Changed culture of some Mamluk sultans in the history (does not affect gameplay): Baibars I, al-Said Barakah, Solamish, and Qalawun (though not Qalawun's children) to Kipchak, and Kitbugha to Mongol. Baibars II was not changed because there is no Circassian culture in the game.
+
+Removed Banu Kanz dynasty from Beja areas in 1337.
+
+Changed some Nubian counties to feudal in later dates.
+
+Renamed Niš (c_pomoravlje) to Pomoravlje (after its internal name), and instead made Niš the Bulgarian/Serbian/Croatian/Bosnian/Slovene cultural name of Naissus (c_naissus) instead, since Naissus and Niš are two different names for the same place and not two separate places.
+
+Renamed Chatenois and Chateauneuf dynasties to Châtenois and Châteauneuf.
+
+Renamed Branicevo barony to Braničevo.
+
+Made Skopje Orthodox instead of Bogomilist in 1337.
+
+Filled some more holdings in later dates.
+
+#Bug fixes
+Fixed Sevsk not having a holder set in 1204 which resulted in it being an independent county.
+
+Fixed 1066 countess of Hohenberg being the mother of her son's children (vanilla CK3 error).
+
+Made Trebizond lover thing from last version actually work; I had misformatted it so it didn't work.
+
+Fixed vanilla error where barony of Segura (b_segura) was incorrectly called Albacete, which already exists as a separate barony (b_albacete).
+
+=====0.3.4 (2021/08/05)=====
+The mod has a new name: "Additional start dates and cultures".
+
+#Additions
+Linked Tudur dynasty (aka Tudor, counts of Anglesey/Ynys Môn in 1187, 1204, and 1337, future kings of England) to the Brynffenigl dynasty that Paradox put in the 1066 start date, by adding the father and grandfather of Ednyfed Fychan (count of Anglesey/Ynys Môn in 1187). Tudur is still a separate dynasty and not a cadet branch, however.
+
+#Changes
+Renamed Masri (Egyptian) from egipcia to masrí in Spanish and from égyptienne to masri in French. Currently still called Ägyptisch in German.
+
+Set "Eirene" (mother of Basileios of Trebizond's bastard children in 1337) as Basileios of Trebizond's lover.
+
+Changed Baranis to Maghrebi for Sicily and Malta in 1187, 1204, and 1337 (Malta only in the last one), because they weren't really Berbers (they are still Berber in 1066/1081 because of the Berber counts ruling it, however).
+
+Reduced starting fervor in 1187 and 1204 for Catholicism (1187 only), Ash'arism, and Almohadism from 100% to 75%.
+
+Reduced Catholicism's fervor in 1204 back to 50% because they just won the Fourth Crusade. Instead, Orthodoxy gets the fervor boost to 75% since they just lost.
+
+Renamed Orleans (duchy and county) to Orléans.
+
+Made certain cultural and regional innovations unlocked by default for some cultures in later start dates.
+
+Re-renamed Latvian (vanilla: Latgalian) to Lettish (older term used before the creation of the Latvian state). Note: The reason I renamed it from the vanilla name in the first place was because the Latgalians were only one of the four Baltic tribes represented with the in-game culture.
+
+Changed Gowrie to Scots culture in 1337.
+
+Changed de León dynasty in León's title history to a cadet branch of Lywigildinga.
+
+Corrected Aimery de Lusignan's capital in 1187 to Acre.
+
+Removed unlanded "holy orders" in 1187 and 1204 because they were bugged and turned feudal for an unknown reason; they were purely cosmetic so nothing of value is lost.
+
+Changed "Kanzid" dynasty in 1337 to the Banu Kanz dynasty because they are intended to be the same but Kanzid was the old Ck2 version and Banu Kanz is the CK3 version.
+
+Corrected spelling of Rajasthan (from "Rajastan").
+
+Renamed Cerdanya to Cerdagne in the French localization.
+
+Changed Ednyfed Fychan from lv 4 stewardship education to lv 3 martial education.
+
+Corrected adjective of Trebizond/Trapezous (the county) to Trapezuntine.
+
+Changed a Bori vassal in 1337 Kanem-Bornu to Ash'ari.
+
+Added diacritics to more Turkish names.
+
+#Bug fixes
+Fixed Coptic culture erroneously being called Coptisme, Koptentum, and Coptismo in French, German, and Spanish due to the internal name being the same as that of the faith. I fixed this by changing the internal name of the Coptic culture (from "coptic" to "coptic_egyptian"). A duplicate with the old internal name (that has the name bug) was added for compatibility with pre-existing saves with earlier versions of the mod. The compatibility duplicate will be removed when I update the mod for the upcoming CK3 cultural overhaul.
+
+Fixed Messina being Catholic instead of Orthodox in 1066 and 1081.
+
+Fixed error where Occitan-cultured d'Urgells were a separate dynasty.
+
+=====0.3.3 (2021/08/02)=====
+#Additions
+Added coat of arms for Pula.
+
+Added new coat of arms for Cerdanya used in non-867 dates.
+
+Added prefix for Portugal (Luso-).
+
+Added Italian/Cisalpine/etc. cultural name for Theodosia (Caffa), though this will rarely be seen in practice.
+
+Added Turkish/Oghuz cultural name for Philippopolis (Filibe).
+
+Re-added the Goths and Vandals to the title histories of Italy and Africa because I thought it was fun that they were in there in CK2. Unlike CK2, I also put Odoacer in Italy's title history. They are portrayed as Catholic due to lack of Arian faith in the game, and Vandals are the generic "German" culture due to lack of Vandalic culture.
+
+Applied the Bolghar/Komi/Bashkir cultural title names to Tatar.
+
+#Changes
+Renamed county of Vendome to Vendôme.
+
+Altered Bari's title history in dates from 1187 onward, and renamed it to Taranto in those dates.
+
+Renamed Île de France to Île-de-France.
+
+Except in Spanish localization, renamed Cerdaña to Cerdanya (changing from the Castilian name to the Catalan name).
+
+Gave Montpellier, Cerdanya, and Girona to Majorca in 1337.
+
+Made Xèrica and Ayerbe dynasties be Barcelonian cadet branches.
+
+Made Majorcan Barcelonian dynasty members be of a cadet branch (de Mallorca); it split off earlier than the Sicilian branch (which Paradox had assigned a cadet branch), so I thought it made sense.
+
+Made count of Vestrland and Suðrland in Iceland in 1187 and 1204 be feudal instead of tribal.
+
+Applied Turkish name changes from last mod update to French localization.
+
+Changed names of Uroš II and Uroš III of Serbia to Uroš II Milutin and Uroš III Dečanski.
+
+Adjusted Tatar culture's color.
+
+Renamed Ebu'l-Kasım and Ebu'l-Gazi to Abu'l-Qasim and Abu'l-Ghazi (changing from Turkish forms to more conventional forms).
+
+In 1337, changed Gdańsk to Saxon culture and gave it lower development to represent that the Teutonic Order massacred the Poles there and destroyed the city when they took it in 1308.
+
+Changed Karl (firstborn son of John of Bohemia, future Charles IV of HRE) to Czech culture because, according to Wikipedia, he had a "lifelong affinity for the Czech side of his inheritance". Also added a separate birth name for him ("Václav") and gave him the duchy of Moravia.
+
+Added Václav II of Bohemia to Poland's title history since he was crowned king.
+
+Removed elective succession law for Bohemia in 1337.
+
+Changed Southern Baltic Empire's adjective from "Wendish" (relic from old CK2 name) to "Southern Baltic".
+
+Gave Duchy of Barcelona to Aragonese kings from 1164 onward instead of it being destroyed, and renamed it to Catalonia in start dates from 1187 onward (Principality of Catalonia).
+
+Changed Aragon's adjective from Aragonian to Aragonese.
+
+Adjusted coat of arms of House Ponce de León.
+
+Changed the culture of Mecklenburg from Polabian to Saxon in 1337.
+
+Changed Tancredi de Hauteville (vassal of Sicily in 1187, future king) from a bastard to a legitimized bastard so that his dynasty doesn't change if he has another child.
+
+Improved Anjou-Durazzo's coat of arms.
+
+In 1337, made Bari/Taranto use the Angevin Tarentine coat of arms.
+
+Changed Duchy of Durazzo to use the Angevin Durazzo coat of arms in 1337.
+
+Altered title history of Chaldia to be owned by the holder of Trapezous.
+
+Adjusted Laskaris coat of arms.
+
+#Bug fixes
+Changed Tinibeg (heir of Özbeg Khan) from feudal to clan government in 1337 (fixing my mistake from the last version).
+
+Fixed error in the Gothic name list where characters would be named "Symeon_Simon" instead of "Symeon".
+
+Added missing localization for "Tatar" and "Megas Komnenos" in French.
+
+=====0.3.2 (2021/07/25)====
+#Additions
+Added Albanian cultural name for the barony of Hiskampis (Elbasan).
+
+Added Italian and Albanian cultural names for Buthrotum (Butrinto and Butrint, respectively).
+
+Added Bulgarian cultural name for Philippopolis (Plovdiv).
+
+Added coats of arms for the following dynasties and houses: Marinid, Zayyanid, Hafsid, Terter, de València (Ivrea), von Schauenburg.
+
+Filled a few holdings in later dates, but not widespread.
+
+Added Tatar culture for the Golden Horde. It represents the Volga Tatars and the Turco-Mongol ruling class of the Golden Horde. Tatar culture has been made unique in that it can always raid even if not tribal or if one has a non-unreformed faith (unless of a pacifist faith). Character/dynasty name lists are currently almost the same as Bashkir.
+
+Added French localization courtesy of Aliocha.
+
+#Changes
+Changed Hashshashin grandmasters from Isma'ili to Nizari.
+
+Changed al-Nizar (namesake of the Nizaris, firstborn son of the Fatimid Caliph in 1066 and 1081) from Isma'ili to Nizari because I thought it made sense.
+
+Renamed Tamerlane from "Timur" to "Temür".
+
+Changed the male Chagatai name list so that it isn't just a combination of the Karluk and Mongol names. Female list is not done.
+
+Adjusted religious and cultural borders of Egypt, mostly in later start dates but also in Sinai in all start dates (moving Masri to county of Sinai, making other two counties Bedouin).
+
+Changed Duchy of Antioch's adjective from Antiochian to Antiochene.
+
+Corrected Socotran rulers in later start dates from Bedouin to Yemeni.
+
+Renamed barony of Kukes to Kukës.
+
+Changed Serbian Empire requirements to be a region instead of being completely controlling duchies and counties (doesn't affect gameplay, just presentation).
+
+Gave Buthrotum to Naples in 1337 (specifically, held the Duke of Durazzo).
+
+Made Buthrotum Albanian culture in 1337.
+
+Made Philippopolis area Bulgarian culture in later dates.
+
+Made Casentino independent in 1337 instead of being a vassal to the pope.
+
+Changed Kabarite counties to Tengriist in 1187/1204, and changed remaining Khazar counties to Cuman. However, Crimea's religion was changed to Karaite in 1337.
+
+Changed de jure capital of Croatia from Zadar to Knin in start dates from 1187 onward.
+
+Removed Stefan Dušan's erroneous unpressed claim on Boeotia, because Serbia never conquered it.
+
+Renamed Rashka to Raška.
+
+Corrected certain Italian counties to republics.
+
+Gave the kings of Naples and Cyprus in 1337 pressed claims on Jerusalem.
+
+Changed Rus'/Orthodox counties in 1337 Yedisan to Cuman/Maturidi.
+
+Changed Anatolian Turkish emperor title name from Sultan al-Muazzam to Padishah.
+
+Renamed Zayanid dynasty (Tlemcen in 1337) to Zayyanid.
+
+Instead of Tlemcen starting under Marinid control in 1337, it instead starts in Zayyanid control, with there being an ongoing war for Tlemcen.
+
+Zayyanids now have a kingdom title (repurposed Tahert) instead of only being dukes.
+
+Gave Karl Thopia a claim on Albania so that, if Naples beats Serbia in 1337, he can start a faction to become an independent ruler of Albania instead of only becoming the Duke of Durrës.
+
+Renamed County of Arbanon to County of Mat in the 1337 start date.
+
+Corrected spelling of Tourraine to Touraine.
+
+Renamed County of Troyes to County of Champagne in later start dates.
+
+Corrected Hafsid capital to Tunis, and Marinid capital to Fes.
+
+Changed adjective of Provence from Provencal to Provençal.
+
+Made Saxony use the vanilla coat of arms in pre-1187 start dates when still known as Angria.
+
+Changed Princely Elective description to say "Nordmark (Brandenburg)" instead of "Ostmark", since the duchy is called Nordmark in-game (though d_ostmark internally), and is renamed to Brandenburg in 1187 and later.
+
+Made Golden Horde extend farther east. Eastern areas are held by descendants of Orda Khan who were in the game.
+
+Swapped a few counties by the Aral Sea from the Golden Horde to the Chagatai Khanate.
+
+Changed Özbeg Khan and his Mongol vassals to Tatar instead of Mongol.
+
+Changed characters born before 1150 within Rum in the 1187 start date to have Turkish culture instead of Oghuz.
+ 
+Renamed barony of Krsko to Krško.
+
+Changed Zadar, Cres, and Pula from Dalmatian to Croatian in start dates from 1187 onward (meaning that Ragusa is the only remaining Dalmatian county).
+
+Corrected Cres's liege to Venice in start dates from 1187 onward.
+
+Changed counts of Pula in 1187 onward to feudal instead of republic, and to Cisalpine culture instead of Italian.
+
+Changed Duke of Ragusa in 1337 to Cisalpine instead of Italian.
+
+Changed Corsica to Italian culture instead of Sardinian from 1187 onward.
+
+Gave counts of Viennois the Dauphinate of Viennois starting from Guigues le Dauphin.
+
+Gave barony of Portsmouth to Hugh le Despenser (grandson of the executed Earl of Winchester) in 1337; he does not get his grandfather's county, though.
+
+Corrected county of Valois's title history from 1191 onward.
+
+Corrected county of Alençon's title history from 1217 onward; this change means that it will now be part of France in 1337 instead of Navarre.
+
+Gave Korela to Sweden in 1337 (Treaty of Nöteborg).
+
+Added diacritics to certain Oghuz/Turkish names (English localization only).
+
+Miscellaneous minor history adjustments.
+
+#Bug fixes
+Corrected prince of Ryazan in 1187.
+
+Fixed problem from vanilla game: CK3 has it so that Maghrebi culture's color is exactly the same as Egyptian (renamed Masri in my mod), so I changed Maghrebi culture's color to that of CK2's Berber culture (which is internally "maghreb_arabic").
+
+Fixed mistake where Corsican counts weren't vassals of Genoa due to error in history files.
+
+=====0.3.1 (2021/07/17)====
+#Additions
+Added "Form Empire of Bulgaria" based on the one from CK2.
+
+Added "the Little" nickname for Hasan (amir of Azerbaijan) in 1337, a nickname which contrasts with Sultan Hasan Buzurg of Iraq (i.e. Hasan the Great).
+
+#Changes
+Gave Saladin a level of devotion at the start of 1187 so that he can declare a duchy-level holy war from the start.
+
+Rulers of the custom non-playable Holy Order government type can now have councils.
+
+Made Elvas not be Portuguese/Catholic yet in 1187/1204.
+
+Major change: For accuracy, changed faith of several characters and provinces from Ash'ari to Maturidi. I may revert portions of this huge change in the future.
+	I changed Turkic peoples, e.g. Volga Bulgaria, Seljuks, and Anatolian Turks; along with the Turkic-influenced Golden Horde and Chagatai Khanate). 
+	Ash'ari Persian counties and characters were also changed to Maturidi (Paradox even put a comment in the Islam file that Maturidi is "Persian Sunni Islam" but Persia is Ash'ari in-game). The Persian-influenced Ilkhanate was changed as well.
+
+Reverted Balgarsko to being its own dynasty instead of being a Dulo cadet branch, so that titles won't be named after it (I had previously done a workaround by having Bulgaria set to be exempt from dynasty title naming).
+
+Removed my custom "Iberia" name for Tao-Klarjeti in 867 because it doesn't seem to represent the actual Iberia in that specific date (the real one seems to be represented by the county of Kakheti in 867).
+
+Gave the county of Byzantion higher development in 1187 (30 --> 55) which I didn't do because of an oversight; additionally, it has slightly lower development in 1204 (30 --> 25). 1337 remains the same as the previous versions.
+
+Cleaned up the Iranian borders in 1187 and 1204.
+
+Changed Özbeg Khan's children from Mongol to Kipchak culture, because around the mid 14th century the Golden Horde (allegedly) changed its chancery language to Kipchak. Changed some province cultures in the Golden Horde, as well.
+
+Changed Sarbadars from Isma'ili to Twelver (Imami).
+
+Changed Chobanids to Sunni.
+
+Changed Kartids from Persian to Tajik.
+
+Changed Safavid ruler (count of Gilan) in 1337 from Persian to Kurdish.
+
+Changed Injuids to Sunni.
+
+Made Golden Horde and Chagatai have de jure land in 1337 (replacing Khazaria and Turan). This should make them slightly less prone to explosion.
+
+Removed Golden Horde's "Mongol" adjective (from vanilla game) because it made no sense.
+
+Renamed Tamerlane's mother from Tekina to Tekina Khatun.
+
+Made Afghan areas Muslim in 1337.
+
+Changed adjective of Ninive from Ninivian to Ninevite.
+
+#Bug fixes
+Made the automatic Genghis Khan event not fire if a character already holds the Mongol Empire, meaning it won't fire twice in 1204 start date (one being forced and one being the normal automatic one).
+
+Fixed bug where the Byzantine Empire was not granted with the "Restore Byzantium" decision.
+
+Fixed bug with Karakhanids in 1187 and 1204 caused by the character entries existing in both Karluk and Oghuz history files.
+
+=====0.3.0 (2021/07/11)====
+#Additions
+Added decision to restore the Principality of Carantania as a Slovene ruler (either independent or in the HRE) who holds Carinthia, Steyermark, and Krain and all the land therein; Friuli and Istria will become de jure Carantania if held.
+
+Added Slovene cultural name for Steyermark (Štajerska).
+
+Added Slovene cultural name for Krain (Kranjska).
+
+Made Ananda Temple pre-built in 1187 and later (built in 1105).
+
+Made the Tower of London pre-built in 1081 and later (built in 1078).
+
+Made Alhambra pre-upgraded in 1337 (done in 1333).
+
+Made Citadel of Aleppo pre-upgraded in 1337 (done in 1213).
+
+Made Visby Ringmur pre-built in 1337 (built in 1280s).
+
+Added French cultural name for Navarra (Navarre).
+
+#Changes
+Reverted Dalmatian to the Latin group and Vlach to the South Slavic group; the Eastern Romance culture group has therefore been removed.
+
+Made Dalmatian characters and armies wear Byzantine clothing.
+
+Made Slovene characters wear "Garments of the Holy Roman Empire" clothing if that DLC is installed.
+
+Gave Alicante to Aragon in 1337 (switching holders from 1304 onward as per Treaty of Torrellas).
+
+Gave the kings of Aragon the Duchy of Valencia from 1238 onward, to represent the Kingdom of Valencia.
+
+Changed Albarracin to become Aragonese after 1235 instead of becoming Castilian.
+
+Changed Calatayud to Aragonese from 1187 onward.
+
+Changed Teruel to become Aragonese after 1259 instead of becoming Catalan.
+
+Changed the Kingdom of Portuguese's culture in northern areas from Galician (or Asturleonese in the case of Castelo Branco) to Portuguese in start dates from 1187 onward.
+
+Gave Duchy of Galicia to Leonese (later Castilian) kings after 1126 (to represent the titular Kingdom of Galicia) instead of it being destroyed.
+
+Gave Duchy of Toledo to Castilian kings after 1085 (to represent the titular Kingdom of Toledo) instead of it being destroyed.
+
+Did some changes to make it so that "Unite the Spanish Crowns" has effectively been taken already, since León was inherited by Castile in 1230 and they were effectively unified into one kingdom. The Kingdom of León held by the king of Castile gets replaced by the Duchy of León, and León's duchies become de jure Castile. Castile's coat of arms becomes the joined Castile/Leon coat of arms. Additionally, "Unite the Spanish Crowns" is unavailable in 1337.
+
+Changed Alfonso d'Ivrea's capital from Córdoba to Toledo in 1337.
+
+Made all of Granada's provinces stay Andalusian/Muwalladi instead of some of them becoming Castilian/Catholic by 1337.
+
+Updated the Duchy of Carinthia's coat of arms in 1337 by changing it to the county of Kärnten's. Kärnten is given Carinthia's old coat of arms to keep it distinct. This gets reverted if the Restore Carantania decision is taken.
+
+Updated relevant English coat of arms to the unused "Norman" ones in later start dates (currently not done for Welsh counties because they are already based on Norman coats of arms).
+
+Made Algeciras de jure Granada in 1337 instead of de jure Seville, so that Castile doesn't have de jure claims on it.
+
+Changed Slovene cultural name for the Duchy of Carinthia from "Carantania" to "Koroška".
+
+Changed "Karantanija" dynasty name to "Korotan", a more Slavic form of the name.
+
+Made Caceres and Merida become Asturleonese by 1337 instead of becoming Castilian.
+
+Adjusted de jure situation in northern Sápmi in 1337 to avoid Finnmark staying Swedish after Norway and Sweden split.
+
+Renamed "Declare the Serbian Empire" decision to "Found the Serbian Empire".
+
+Changed "Orhan Ottoman" to "Orhan Osmanoğlu" on the 1337 bookmark screen.
+
+#Bug fixes
+Fixed Paradox's ID overlap error with Bayad and Hengelder rulers in 1187 and 1204.
+
+Gave Ögräsh a set coat of arms (using the Borjigin coat of arms) so that there isn't an invisible coat of arms on the bookmark screen.
+
+Corrected death date of Henry, Count of Portugal.
+
+Changed Bastard to Bastard Founder for Enrique Alfónsez de Trastámara.
+
+Corrected bishops of Santiago and Zamora to theocracy government in 1187 onward.
+
+Changed Count Jaume of Urgell (1337 start date) to be of a cadet branch of the Barcelona dynasty instead of being of an independent dynasty.
+
+Corrected Portugal's capital from Lisbon to Coimbra in 1187 and 1204.
+
+Corrected Slovene cultural name of Wolfsberg.
+
+Corrected Candia to republic government in 1204.
+
+=====0.2.3 (2021/07/02)====
+Corrected Duke of Galilee in 1187 from clan vassal to feudal vassal.
+
+Changed Albania's color from salmon to red.
+
+Corrected Hashshashin so that it stays as the custom Holy Order government type instead of it turning into clan after unpausing for the first time.
+
+Made the rest of the provinces in the duchy of Marrakesh Almohadi in 1187 and 1204.
+
+Changed the single Almohadi county in 1337 to Ashari.
+
+Kallipolis is now called Gelibolu if held by a character of Oghuz or Turkish culture.
+
+Removed "Cherson" Greek cultural name for the county of Kerch.
+
+Changed method of preventing Lithuania from creating White Rus'; previously, I had made it so that Lithuanian-cultured characters would not not create it, but now, instead, holders of the Kingdom of Lithuania will not create it.
+
+Altered 1204 borders.
+
+=====0.2.2 (2021/07/01)=====
+Fixed Temüjin's appearance not being set (which was due to a formatting error).
+
+Gave Order Member trait to the leaders of the Hashshashin.
+
+Adjusted the way the "Form Portugal" is made unavailable, by changing it from being unavailable if the title has a holder to being unavailable by start date.
+
+Corrected William IV of Ponthieu's name from Jean to William (please note that Ponthieu is not a county in CK3 unlike CK2, so he is unlanded; the same goes for his wife in 1204 who should be countess of Vexin, which is also missing in CK3).
+
+Made it so that AI Lithuanian characters will not create the Kingdom of White Rus' (most relevant to 1337).
+
+Disabled "Embrace English Culture" decision in start dates for which English culture already exists.
+
+Changed ownership of Jilat in 1187 from Jerusalem to Egypt.
+
+Changed ownership of Qaryatan in 1187 from Jerusalem to Egypt, and moved the count of Qaryatan (representing the lordship of Toron) to Baalbek (making the Knights Hospitaller unlanded in 1187 and 1204 in the process).
+
+Hid "Secure the High Kingdom of the North Sea" decision for if your culture has already reached the high medieval era, so it shouldn't show up and waste screen space in the later start dates.
+
+Removed Saladin's holy war at the start of 1187, as it shouldn't start until March and the start date is in January.
+
+Corrected one of Aimery de Lusignan's claims in 1204 not showing up; this was because it was set to be for the Duchy of Jerusalem, which was replaced with the Duchy of Palestine in CK3.
+
+Made Guy de Lusignan and Conrad of Montferrat start only as potential rivals in 1187, instead of immediately starting as rivals.
+
+Made Richard the Lionheart and Philip Augustus start as potential rivals in 1187.
+
+Set Arthur of Britanny's death to be that he was murdered by John Lackland, instead of no reason being set.
+
+Set John Lackland as familial kinslayer in 1204.
+
+Gave Langres holders for start dates after 1081, using the bishops of Langres (only the bishops at the start dates were included in the history, though, and I did not fill out every bishop).
+
+Fixed the father of Guy de Saulx (count of Langres in 1066/1081). This was a vanilla bug.
+
+Made Châtillon a feudal holding in start dates from 1066 onward instead of a city holding.
+
+=====0.2.1 (2021/06/30)=====
+Corrected Saladin's title on the bookmark screen from King of Egypt to Sultan of Egypt; this mistake was introduced as an oversight when I changed his listed culture from Kurdish to Mashriqi.
+
+Made Soumaba (prince of Wagadu) have counties instead of being an unlanded duke in 1187 and 1204.
+
+Adjusted Nyitra in start dates after 1066 so that the duke will have either have more than one county or have any counties at all.
+
+Changed Albanian cultural name of the Duchy of Dyrrachion from Duchy of Albania to Duchy of Durrës.
+
+Changed Butler and FitzGerald earls in 1337 from English culture to Irish culture ("more Irish than the Irish themselves").
+
+Differentiated Duchy of Sandomierz's coat of arms from that of the county.
+
+Gave Rossano to Roger de Hauteville in 1081.
+
+Changed Palermo to Ashari in 1081 instead of Catholic, since it was only recently conquered.
+
+Gave Velbazhd to Bulgaria in 1204.
+
+Made Wallachian counts vassals to Bulgaria in 1204.
+
+Gave Carmarthenshire to the earl of Pembrokeshire instead of it having no title history after 1070.
+
+Reduced the amount of event troops that Toghon Temür (Khagan of Mongolia) gets in 1337 from 20,000 to 10,000 (note: these troops exist to represent that he is also Emperor of China offscreen). Additionally, these troops have been made non-inheritable, because he was the last Yuan emperor.
+
+In Suleyman's bookmark description, changed spelling from Seljuq to Seljuk.
+
+Changed Stefan Dušan's claim on Zahumlje from the duchy to the county.
+
+Added Henry Beauclerc's nickname.
+
+Removed some of the excessive amount of traits Henry Beauclerc starts with.
+
+Added "the Elder" nickname, used at the moment for Edward the Elder (King of England) and Hugh le Despenser (the deposed and executed Earl of Winchester).
+
+Added "the Black Prince" nickname for Edward III's son, replacing his current "the Black" nickname.
+
+Added Alice, missing half-sister of Philip Augustus, who had been Richard the Lionheart's fiancée before it was broken off when Richard married Berengaria of Navarre in 1191.
+
+Added counts of Alençon for 1187 and 1204.
+
+Changed de Normandie family in 1187 and 1204 to be of Norman culture instead of French (this was a relic from CK2 where Norman is replaced with French in later start dates, which I do not have happen in my mod).
+
+Made the Laudabiliter already in effect for House Plantagenet in 1187 and 1204 instead of triggering the event on day 1. It lasts until October 9, 1255, or 100 years after the real Laudabiliter was supposedly issued (as the effect in the game is supposed to last 100 years).
+
+Made "Request Claim on Ireland" decision inaccessible in start dates after the real Laudabiliter.
+
+=====0.2.0 (2021/06/29)=====
+Changed Temüjin's automatic event as AI in 1204 start date to fire 1-2 years after game start, instead of immediately. It will still happen immediately when playing as him.
+
+Made "Become the Greatest of Khans" decision hidden for start dates after Temüjin's birth (i.e. 1187 onward).
+
+Fixed Chagatayid cadet branch already existing for Chagatai's sons in 1204 start date when it isn't supposed to exist until Temüjin's death.
+
+Gave Temüjin the "Famous Champion" trait.
+
+Added Saint trait to Domitian of Carantania for flavor purposes; he can be found in Carinthia's title history.
+
+Cleaned up 1081 Kievan Rus'.
+
+Reverted Prince-Elector of Saxony from Angria (called Saxony in later starts) back to vanilla Ostfalen.
+
+Removed erroneous Manding ownership of Kingui in 1187 and 1204.
+
+Gave Mansa Musa's brother Suleyman the duchy of Wagadu in the 1337 start.
+
+Gave Mansa Musa's brother Suleyman the greedy trait.
+
+Removed beautiful trait from Margarete of Tyrol in the 1337 start date.
+
+Added Iorweth ap Bleddyn as the Prince of Powys in 1081 start date.
+
+Renamed the county of Pegu to Hanthawaddy in the 1337 start date (the capital barony cannot be renamed for a start date in this manner, however).
+
+Reduced Mansa Musa's starting gold bonus from 100000 to 20000.
+
+Changed Rāmaññadesa so that it is not called the dynasty name (Wareru in 1337).
+
+Made Saladin, 1081 bookmark rulers, and 1204 bookmark rulers have fixed appearances.
+
+Gave Boniface of Montferrat's brother William the nickname "Longsword".
+
+Changed bookmark name of Alexios I of Trebizond from "Alexios Komnenos" to "Alexios Megas Komnenos".
+
+Added Megas Komnenos cadet branch, given to Alexios I of Trebizond and his descendants to reflect the dynasty name change (like Komnenos Doukas for the Angeloi).
+
+Changed Michael Komnenos Doukas's listed dynasty on the bookmark screen from Komnenos Doukas to Angelos.
+
+Changed Laskaris coat of arms to be based on the one from CK2 instead of just using the Kingdom of Nikaea's CoA.
+
+Changed Guy de Lusignan's pose on bookmark screen from honorable to worried, and Richard the Lionheart's from bold to zealous, so that there is more variety.
+
+Corrected Saladin's listed culture on the bookmark screen from Kurdish to Mashriqi.
+
+Removed crusader trait from Richard the Lionheart on 1187 start date, because the crusade hasn't started yet.
+
+Removed automatic claims on the HRE in 867 which had accidentally been created when I expanded the HRE title history to include emperors between Charlemagne and Otto (which was done to fix regnal numbers).
+
+Fixed bug where Heinrich Babenberger (count of Bamberg and Coburg in 867) was a theocratic vassal.
+
+Made Babenberger a Robertine cadet branch.
+
+Changed ownership of the Duchy of the Northern Isles from Scotland to Norway in 1187 onward, as they did not become Scottish until 1468; Caithness and Sutherland are kept as part of Scotland in the 1337 start date though.
+
+Removed CK2's 1334 culture change of Shetland to Scots.
+
+Changed Madad (father of Harald Maddadsson) to Gaelic, along with his second son Malcolm of Atholl (now Máel-Coluim) and his father Malmure (now Máel-Muire); however, Malcolm Canmore was kept as Scots even though I personally think he should be Gaelic, because I felt like it would alter gameplay too much to change Canmore's culture.
+
+Made Wilhelm Longsword (Lüneburg) and Siegfried Askanien (Wolpen) vassals of Saxony in 1187 and 1204.
+
+Corrected Margrave of Brandenburg in 1187 and 1204.
+
+=====Hotfix 0.1.0b (2021/06/28)=====
+Fixed Temüjin's automatic event in 1204 only being the player one.
+
+=====0.1.0 (2021/06/28)=====
+Changed names of Greek characters on 1204 bookmark screen to transliterated Greek spellings, instead of using the latinized spellings.
+
+Updated Serbian and Muscovite borders in 1337 bookmark screen to current version of the mod; they had previously reflected a pre-release version.
+
+Reduced file size of custom images.
+
+Deleted most unused assets.
+
+Gave Roman the Great (Prince of Volhynia) a claim on Halych in 1187.
+
+Added the later dates' boosted starting development to the rest of the map rather than it only being seemingly arbitrary countries.
+
+Slightly adjusted some borders in Africa.
+
+Corrected Richard the Lionheart's listed culture on the 1187 bookmark screen from French to English.
+
+Fixed bug where both AI and player events fired for Temüjin in 1204.
+
+Changed Temüjin's listed title on 1204 bookmark screen from Emperor of Mongol Empire to High Chieftain of Ögräsh, fixing a bug where selecting him on the bookmark screen did not work properly.
+
+Unlocked Jihads for all Muslim religions in 1187, 1204, and 1337, instead of just Asharism.
+
+Made Catholicism, Asharism, and Almohadism start with 100 fervor in 1187 and 1204.
+
+Removed Tamar the Great from 1187 bookmark screen.
+
+Added missing Spanish localization for the name/adjective for the Serbian Empire.
+
+Changed Edward III's listed title on 1337 bookmark screen from a custom kingdom of England to the standard kingdom of England. This is a bit of a trade-off. It fixes a bug where selecting him on the bookmark screen did not work properly, but it introduces a new problem where it no longer shows the correct coat of arms.
+
+Reverted culture of Muslim Sicilian provinces from Maghrebi to the vanilla Baranis.
+
+=====0.0.2 (2021/06/26)=====
+Fixed borders in Galicia-Volhynia in 1187 and 1204.
+
+Removed the ability to see the whole map, which I had done as a test. I reverted it back to vanilla functionality.
+
+=====0.0.1 (2021/06/25)=====
+Initial release

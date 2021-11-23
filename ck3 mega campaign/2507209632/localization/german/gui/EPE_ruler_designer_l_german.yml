@@ -1,0 +1,219 @@
+﻿l_german:
+
+
+ ##Aging types
+ gene_age:0 "Alters Typ (Nur bei älteren Charakteren)"
+ old_1:0 "Alters Typ 1"
+ old_2:0 "Alters Typ 2"
+ old_3:0 "Alters Typ 3"
+ old_4:0 "Alters Typ 4"
+ old_beauty_1:0 "Alte Schönheit"
+ no_aging:0 "Ewige Jugend"
+
+ ##bust types
+ bust_clothes:0 "Bust Clothes"
+ bust_default:0 "Bust Default"
+ bust_shape_1_half:0 "Brustform 1 Halb"
+ bust_shape_1_full:0 "Brustform 1 Voll"
+ bust_shape_2_half:0 "Brustform 2 Halb"
+ bust_shape_2_full:0 "Brustform 2 Voll"
+ bust_shape_3_half:0 "Brustform 3 Halb"
+ bust_shape_3_full:0 "Brustform 3 Voll"
+ bust_shape_4_half:0 "Brustform 4 Halb"
+ bust_shape_4_full:0 "Brustform 4 Voll"
+ 
+ ##body hair types
+ gene_body_hair:0 "Körperbehaarung (Ausschließlich bei Männern sichtbar)"
+ body_hair_sparse:0 "Spärlich"
+ body_hair_avg:0 "Normal"
+ body_hair_dense:0 "Dicht"
+ body_hair_sparse_low_stubble:0 "Spärlich, Low Stubble"
+ body_hair_avg_low_stubble:0 "Normal, Low Stubble"
+ body_hair_dense_low_stubble:0 "Dicht, Low Stubble"
+ 
+##Wrinkles types
+ expression_brow_wrinkles:0 "Brauenfalten (Nur bei älteren Charakteren sichtbar)"
+ brow_wrinkles_01:0 "Brauenfalten 1"
+ brow_wrinkles_02:0 "Brauenfalten 2"
+ brow_wrinkles_03:0 "Brauenfalten 3"
+ brow_wrinkles_04:0 "Brauenfalten 4"
+ 
+###Body types
+ gene_bs_body_shape:0 "Körperform"
+ body_shape_average:0 "Durchschnitt"
+ body_shape_apple_half:0 "Apfelform"
+ body_shape_apple_full:0 "Apfelform ausgeprägt "
+ body_shape_hourglass_half:0 "Sanduhr"
+ body_shape_hourglass_full:0 "Sanduhr ausgeprägt"
+ body_shape_pear_half:0 "Birnenform"
+ body_shape_pear_full:0 "Birnenform ausgeprägt"
+ body_shape_rectangle_half:0 "Rechteck"
+ body_shape_rectangle_full:0 "Rechteck ausgeprägt"
+ body_shape_triangle_half:0 "Cornetto"
+ body_shape_triangle_full:0 "Cornetto ausgeprägt" 
+ 
+###Ears
+ gene_bs_ear_lobe:0 "Ohrläppchen" 
+ vanilla_ear_lobe:0 "Ohrläppchen Vanilla"  
+ ear_lobe_fused:0 "Anliegende Ohrläppchen"   
+ ear_lobe_detached:0 "Abstehende Ohrläppchen"    
+ 
+###Eyes 
+ gene_bs_eye_height_inside:0 "Augenhöhe innen"  
+ vanilla_eye_height_inside:0 "Vanilla Augenhöhe"   
+ eye_height_inside_neg:0 "Augenhöhe innen negativ"    
+ eye_height_inside_pos:0 "Augenhöhe innen positiv"   
+
+ gene_bs_eye_height_outisde:0 "Augenhöhe aussen"  
+ vanilla_eye_height_outisde:0 "Vanilla Eye Height Outside"   
+ eye_height_outisde_neg:0 "Augenhöhe aussen negativ"    
+ eye_height_outisde_pos:0 "Augenhöhe aussen positiv"   
+
+ gene_eye_shut_bottom:0 "Untere Augenlider"  
+ vanilla_eye_shut_bottom:0 "Vanilla"  
+ eye_shut_bottom:0 "EPE - Untere Augenlider"  
+
+ gene_eye_shut_top:0 "Obere Augenlider"  
+ vanilla_eye_shut_top:0 "Vanilla"  
+ eye_shut_top:0 "EPE - Obere Augenlider"  
+
+ gene_eye_size:0 "Augengröße"  
+ vanilla_eye_size:0 "Vanilla"  
+ eye_size:0 "EPE - Augengröße"  
+ 
+ eye_lower_lid_def:0 "Untere Lid Definition 1"  
+ eye_lower_lid_def_02:0 "Untere Lid Definition 2"   
+ 
+ 
+###Nose  
+ gene_bs_nose_central_width:0 "Nasenbreite Mitte"   
+ vanilla_nose_central_width:0 "Vanilla Nasenbreite Mitte"   
+ nose_central_width_neg:0 "Nasenbreite Mitte negativ"   
+ nose_central_width_pos:0 "Nasenbreite Mitte positiv"   
+ 
+ gene_bs_nose_septum_width:0 "Nasenscheidewand Breite"   
+ vanilla_nose_septum_width:0 "Vanilla Nasenscheidewand Breite"   
+ nose_septum_width_neg:0 "Nasenscheidewand Breite negativ"   
+ nose_septum_width_pos:0 "Nasenscheidewand Breite positiv"   
+ 
+ ##complexions
+ complexion_beauty_1:0 "Schöner Teint"
+ complexion_ugly_1:0 "Hässlicher Teint" 
+ complexion_no_face:0 "Teint no face(unsused)"  
+ complexion_8:0 "Teint 8"  
+ complexion_9:0 "Teint 9"   
+ complexion_10:0 "Teint 10"
+ complexion_11:0 "Teint 11"
+ complexion_12:0 "Teint 12"    
+ complexion_13:0 "Teint 13"  
+ complexion_14:0 "Teint 14"    
+ complexion_15:0 "Teint 15"  
+ complexion_16:0 "Teint 16"
+ complexion_17:0 "Teint 17"  
+ complexion_18:0 "Teint 18"   
+ complexion_19:0 "Teint 19"  
+ complexion_20:0 "Teint 20"    
+ complexion_21:0 "Teint 21"  
+ complexion_22:0 "Teint 22"    
+ complexion_23:0 "Teint 23"  
+ complexion_24:0 "Teint 24"
+ complexion_25:0 "Teint 25"  
+ complexion_26:0 "Teint 26"
+ complexion_27:0 "Teint 27"  
+ complexion_28:0 "Teint 28"   
+ complexion_29:0 "Teint 29"  
+ complexion_30:0 "Teint 30"
+ complexion_31:0 "Teint 31"  
+ complexion_32:0 "Teint 32"    
+ complexion_33:0 "Teint 33"  
+ complexion_34:0 "Teint 34"
+ complexion_35:0 "Teint 35"  
+ complexion_36:0 "Teint 36"
+ complexion_37:0 "Teint 37"
+ complexion_1af:0 "Afrikanischer Teint 1"
+ complexion_2af:0 "Afrikanischer Teint 2" 
+ complexion_3af:0 "Afrikanischer Teint 3" 
+ complexion_4af:0 "Afrikanischer Teint 4" 
+ complexion_5af:0 "Afrikanischer Teint 5" 
+ complexion_6af:0 "Afrikanischer Teint 6" 
+ complexion_7af:0 "Afrikanischer Teint 7"  
+ complexion_11a:0 "Asiatischer Teint 11"   
+ complexion_12a:0 "Asiatischer Teint 12"   
+ complexion_13a:0 "Asiatischer Teint 13"    
+ complexion_14a:0 "Asiatischer Teint 14"    
+ complexion_15a:0 "Asiatischer Teint 15"    
+ complexion_16a:0 "Asiatischer Teint 16"     
+ complexion_1in:0 "Indischischer Teint 1" 
+ complexion_2in:0 "Indischischer Teint 2"  
+ complexion_3in:0 "Indischischer Teint 3"  
+ complexion_4in:0 "Indischischer Teint 4"  
+ complexion_5in:0 "Indischischer Teint 5"  
+ complexion_6in:0 "Indischischer Teint 6"  
+ complexion_7in:0 "Indischischer Teint 7"  
+ complexion_8in:0 "Indischischer Teint 8"   
+ complexion_9in:0 "Indischischer Teint 9"   
+ complexion_10in:0 "Indischischer Teint 10"   
+ complexion_11in:0 "Indischischer Teint 11"  
+ complexion_12in:0 "Indischischer Teint 12"  
+ complexion_13in:0 "Indischischer Teint 13"  
+ complexion_14in:0 "Indischischer Teint 14"  
+ 
+ 
+ ##expression_eye_wrinkles 
+ expression_eye_wrinkles:0 "Krähenfüße (Auge)"  
+ eye_wrinkles_01:0 "Krähenfüße 1"  
+ eye_wrinkles_02:0 "Krähenfüße 2"  
+ eye_wrinkles_03:0 "Krähenfüße 3"   
+ 
+##expression_forehead_wrinkles 
+ expression_forehead_wrinkles:0 "Stirnfalten"  
+ forehead_wrinkles_01:0 "Stirnfalten 1"   
+ forehead_wrinkles_02:0 "Stirnfalten 2"    
+ forehead_wrinkles_03:0 "Stirnfalten 3"    
+ 
+##expression_other  
+ expression_other:0 "Andere Falten"  
+ cheek_wrinkles_left_01:0 "Wangenfalten links 1" 
+ cheek_wrinkles_right_01:0 "Wangenfalten rechts 1"  
+ cheek_wrinkles_both_01:0 "Wangenfalten beides 1"   
+ nose_wrinkles_01:0 "Nasenfalten 1"    
+ 
+ 
+ 
+##hair  
+ gene_hair_type:0 "Gen Haartyp"   
+ hair_straight:0 "Glattes Haar Gen"    
+ hair_wavy:0 "Welliges Haar Gene"     
+ hair_curly:0 "Gekräuseltes Haar Gene"     
+ hair_afro:0 "Afro Haar Gene"     
+ hair_straight_thin_beard:0 "Glattes dünnes Barthaar Gen"       
+ hair_straight_no_beard:0 "Glattes Haar (keine Gesichtsbehaarung)"    
+ hair_wavy_no_beard:0 "Welliges Haar (keine Gesichtsbehaarung)"     
+ hair_curly_no_beard:0 "Gekräuseltes Haar (keine Gesichtsbehaarung)"     
+ hair_afro_no_beard:0 "Afro Haar (keine Gesichtsbehaarung)" 
+ 
+ 
+##Face 
+ gene_forehead_inner_brow_width:0 "Augenbrauenbreite"
+ vanilla_inner_brow_width:0 "Vanilla"
+ inner_brow_width:0 "EPE - Augenbrauenbreite" 
+ 
+ 
+##Mouth 
+ gene_bs_mouth_lower_lip_profile:0 "Unterlippenprofil"      
+ vanilla_lower_lip_profile:0 "Vanilla"    
+ lower_lip_profile:0 "EPE - Unterlippenprofil"     
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

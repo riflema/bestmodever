@@ -1,0 +1,211 @@
+bm_769_charlemagne = {
+    start_date = 769.1.1
+    is_playable = no
+	#Charlemagne (King of West Francia) ID: 6392
+	character = {
+		name = "bookmark_charlemagne_charlemagne"
+		dynasty = 25061
+		dynasty_splendor_level = 5
+		type = male
+		birth = 742.1.2
+		title = k_france
+		title_text_override = "WEST_FRANCIA"
+		government = feudal_government
+		culture = frankish
+		religion = catholic
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = 6392
+		position = { 300 550 }
+		
+		animation = personality_zealous
+		
+		character = {
+			name = "bookmark_charlemagne_charlemagne_alt_bertrada"
+			relation = "BOOKMARK_RELATION_MOTHER"
+			dynasty = 1044104
+			type = female
+			birth = 720.1.1
+			culture = frankish
+			religion = catholic
+			history_id = 190429
+			animation = personality_rational
+		}
+	}
+	#Carloman (King of Middle Francia) ID: 144999
+	character = {
+		name = "bookmark_charlemagne_carloman"
+		dynasty = 25061
+		dynasty_splendor_level = 5
+		type = male
+		birth = 751.1.1
+		title = k_lotharingia
+		title_text_override = "EAST_FRANCIA"
+		government = feudal_government
+		culture = frankish
+		religion = catholic
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = 144999
+		position = { 1140 160 }
+		
+		animation = personality_bold
+	}
+}
+
+bm_936_iron_century = {
+    start_date = 936.8.7
+    is_playable = no
+	
+	#Otto (King of Germany) ID: 1282
+	character = {
+		name = "bookmark_iron_century_otto"
+		dynasty = 669
+		dynasty_splendor_level = 2
+		type = male
+		birth = 912.11.23
+		title = k_east_francia
+		title_text_override = "GERMANY"
+		government = feudal_government
+		culture = saxon
+		religion = catholic
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = 1282
+		position = { 400 160 }
+		
+		animation = personality_greedy
+		
+		character = {
+			name = "bookmark_iron_century_otto_alt_thankmar"
+			relation = "BOOKMARK_RELATION_BROTHER"
+			dynasty = 669
+			type = male
+			birth = 908.1.1
+			culture = saxon
+			religion = catholic
+			history_id = 261394
+			animation = personality_greedy
+		}
+	}
+	#Caliph Abd-al-Rahman ID: 3200
+	character = {
+		name = "bookmark_iron_century_rahman"
+		dynasty = 597
+		dynasty_splendor_level = 3
+		type = male
+		birth = 891.1.7
+		title = k_andalusia
+		government = clan_government
+		culture = andalusian
+		religion = muwalladi
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = 3200
+		position = { 400 460 }
+		
+		animation = personality_zealous
+	}
+	#Æthelstan (King of England) ID: 33350
+	character = {
+		name = "bookmark_iron_century_aethelstan"
+		dynasty = 100072
+		dynasty_splendor_level = 2
+		type = male
+		birth = 893.1.1
+		title = k_england
+		government = feudal_government
+		culture = anglo_saxon
+		religion = catholic
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = 33350
+		position = { 750 160 }
+		
+		animation = personality_forgiving
+	}
+	#Vushmgir Ziyarid ID: 166990
+	character = {
+		name = "bookmark_iron_century_vushmgir"
+		dynasty = 101689
+		dynasty_splendor_level = 1
+		type = male
+		birth = 898.3.13
+		title = d_tabaristan
+		government = clan_government
+		culture = persian
+		religion = ashari
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = 166990
+		position = { 1100 160 }
+		
+		animation = personality_bold
+	}
+	
+	#Caliph al-Qaim ID: 32901
+	character = {
+		name = "bookmark_iron_century_al_qaim"
+		dynasty = 589
+		dynasty_splendor_level = 2
+		type = male
+		birth = 893.1.1
+		title = k_africa
+		government = clan_government
+		culture = bedouin
+		religion = ismaili
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = 32901
+		position = { 1100 460 }
+		
+		animation = personality_cynical
+	}
+	
+	#Hakon the Good ID: 144001
+	character = {
+		name = "bookmark_iron_century_hakon"
+		dynasty = 499
+		dynasty_splendor_level = 1
+		type = male
+		birth = 920.1.1
+		title = k_norway
+		government = tribal_government
+		culture = norwegian
+		religion = catholic
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = 144001
+		position = { 400 760 }
+		
+		animation = personality_zealous
+	}
+	
+	#Abu Tahir al-Jannabi ID: 260976
+	character = {
+		name = "bookmark_iron_century_tahir"
+		dynasty = 12279
+		dynasty_splendor_level = 1
+		type = male
+		birth = 906.1.1
+		title = d_bahrain
+		government = tribal_government
+		culture = bedouin
+		religion = qarmatian
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = 260976
+		position = { 750 760 }
+		
+		animation = personality_zealous
+	}
+	
+	#Arpad Zolta ID: 159135
+	character = {
+		name = "bookmark_iron_century_zolta"
+		dynasty = 708
+		dynasty_splendor_level = 2
+		type = male
+		birth = 880.1.1
+		title = k_hungary
+		government = feudal_government
+		culture = mogyer
+		religion = magyar_pagan
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = 159135
+		position = { 1100 760 }
+		
+		animation = personality_bold
+	}
+}
