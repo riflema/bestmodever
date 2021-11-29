@@ -1,7 +1,0 @@
-﻿l_french:
-
- rule_epe_fullface_helmets:0 "Ethnicities and Portraits Expanded: Casques fermés"
- setting_default_epe_fullface_helmets:0 "Par défaut"
- setting_default_epe_fullface_helmets_desc:0 "Les personnages sont autorisés à porter des casques recouvrant en intégralité leurs têtes et visages."
- setting_never_epe_fullface_helmets:1 "Désactivé"
- setting_never_epe_fullface_helmets_desc:0 "Les personnages ne porterons jamais de casques recouvrant en intégralité tête et visage, gardant la face ouverte à la vue."

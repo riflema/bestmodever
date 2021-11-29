@@ -1,6 +1,0 @@
-﻿l_simp_chinese:
- rule_epe_fullface_helmets:0 "民族与肖像扩展：全覆式板甲头盔"
- setting_default_epe_fullface_helmets:0 "默认"
- setting_default_epe_fullface_helmets_desc:0 "角色被允许穿戴完全覆盖头部与面部的头盔。"
- setting_never_epe_fullface_helmets:1 "关闭"
- setting_never_epe_fullface_helmets_desc:0 "角色永不会穿戴完全覆盖头部与面部的头盔，使脸部保持可见。"
