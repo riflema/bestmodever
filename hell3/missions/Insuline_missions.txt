@@ -388,10 +388,6 @@ Insuline_missions_middle = {
 		provinces_to_highlight = {
 		}
 		trigger = {
-			has_great_project = {
-	        type = Auvergne_Knight_Academy
-	        tier = 3
-	     }
 	     199 = {
 	     development = 50
 	     }
